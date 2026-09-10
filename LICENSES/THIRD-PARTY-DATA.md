@@ -1,6 +1,6 @@
 # Third-party data notices
 
-Reviewed 2026-09-10. This notice covers the 77 evidence records in the M1 retained source candidate. The retained manifest is authoritative for exact record membership. Source titles, locators, capture context, and hashes remain in the evidence records.
+Reviewed 2026-09-10. This notice covers the original 77 evidence records and two M7 additions, for 79 current records. The initial retained manifest and reviewed additions identify exact membership. Source titles, locators, capture context, and hashes remain in the evidence records.
 
 ## CrimsonWiki community contributions
 
@@ -100,6 +100,17 @@ Copyright Pearl Abyss Corp. All rights reserved in its publications and underlyi
 | `evd_cdpatch11000official0001` | [Patch Notes Version 1.10.00](https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=96) |
 | `evd_cdpatch11001official0001` | [Patch Notes Version 1.10.01](https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=97) |
 | `evd_cdpatch11100official0001` | [Patch Notes Version 1.11.00](https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=99) |
+
+## M7 guide sources: limited factual extraction
+
+These guides remain owned by their publishers and authors. No open content licence or permission to redistribute the articles is asserted. The retained material is limited to newly expressed atomic factual relationships, minimum labels and source metadata described in [M7](../docs/M7_HOUSE_ROBERTS.md). Article prose, tables, artwork, screenshots and source databases are not included or relicensed. Underlying game IP remains separate.
+
+| Evidence ID | Author, source and publication date | Retained scope |
+| --- | --- | --- |
+| `evd_db435362e5eb93eba7f3eac4` | Larc, GAMES.GG, [Crimson Desert Guide: All House Roberts Quests](https://games.gg/crimson-desert/guides/crimson-desert-all-house-roberts-quests/), March 20, 2026 | Selected faction, contact, place and quest relationships; no copied guide layout or prose. |
+| `evd_43cf07ba816dbe19d270d124` | Sean Martin, PC Gamer / Future, [How to beat Marnie's Excavatron in Crimson Desert](https://www.pcgamer.com/games/action/crimson-desert-marnies-excavatron-boss-guide/), March 19, 2026 | Selected quest/encounter/location relationships and availability; no copied combat walkthrough or images. |
+
+The source-specific publication decision is recorded in the additions manifest, not inferred from the public URL or the `publisher_owned` label. See [SOURCE_POLICY](../docs/SOURCE_POLICY.md) and [DATA_RIGHTS](../DATA_RIGHTS.md). The review does not certify all possible downstream uses or every claim's current gameplay accuracy.
 
 ## Excluded sources
 
