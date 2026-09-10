@@ -1251,8 +1251,9 @@ export class KnowledgeIndex {
       ? eligibleClaimScores.filter(({ identityScore, eligible }) => identityScore > 0 && eligible)
       : eligibleClaimScores;
     if (requestedFacts.some(({ code }) => code === "organization_quests")) {
-      claimScores = claimScores.filter(({ claim }) => claim.predicate === "quest.organization" &&
-        claim.object.kind === "entity" && directExplicitAnchors.has(claim.object.entity_id));
+      // Restrict association targets without discarding other requested facts.
+      claimScores = claimScores.filter(({ claim }) => claim.predicate !== "quest.organization" ||
+        (claim.object.kind === "entity" && directExplicitAnchors.has(claim.object.entity_id)));
     }
     if (explicitPatchHistoryIntent) {
       claimScores = claimScores.filter(({ claim }) => claim.validity.from_patch === context.patch);
