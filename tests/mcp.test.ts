@@ -38,11 +38,19 @@ describe("MCP stdio contract", () => {
       const strategy = store.strategies[0]!;
       const evidence = store.evidence[0]!;
       const groundingCases = [
-        ["Where is House Roberts based?", "unknown"],
+        ["Where is House Roberts based?", "partial"],
         ["Where is House Zorblax based?", "unknown"],
         ["What is Creamy Meat Soup?", "partial"],
         ["What ingredients are needed to make Creamy Meat Soup?", "partial"],
         ["Where is St. Halssius's House of Healing?", "supported"],
+        ["What is House Roberts?", "partial"],
+        ["Where is House Roberts?", "partial"],
+        ["Where is Count Roberts?", "partial"],
+        ["Which quests belong to House Roberts?", "partial"],
+        ["What are the prerequisites for The Count's Honor?", "partial"],
+        ["Where is Stolen Quarry?", "partial"],
+        ["What are the objectives of Stolen Quarry?", "partial"],
+        ["Who leads House Roberts?", "unknown"],
       ] as const;
       const cases: Array<{ name: string; args: Record<string, unknown>; path: string; expectedState?: string }> = [
         ...["compact", "full"].flatMap((format) => groundingCases.map(([q, expectedState]) => {
