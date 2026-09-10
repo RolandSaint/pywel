@@ -1,6 +1,6 @@
 # Third-party data notices
 
-Reviewed 2026-09-10. This notice covers the original 77 evidence records and two M7 additions, for 79 current records. The initial retained manifest and reviewed additions identify exact membership. Source titles, locators, capture context, and hashes remain in the evidence records.
+Reviewed 2026-09-10. This notice covers the original 77 evidence records, two M7 additions and three M8A additions, for 82 current records. The initial retained manifest and reviewed additions identify exact membership. Source titles, locators, capture context, and hashes remain in the evidence records.
 
 ## CrimsonWiki community contributions
 
@@ -111,6 +111,16 @@ These guides remain owned by their publishers and authors. No open content licen
 | `evd_43cf07ba816dbe19d270d124` | Sean Martin, PC Gamer / Future, [How to beat Marnie's Excavatron in Crimson Desert](https://www.pcgamer.com/games/action/crimson-desert-marnies-excavatron-boss-guide/), March 19, 2026 | Selected quest/encounter/location relationships and availability; no copied combat walkthrough or images. |
 
 The source-specific publication decision is recorded in the additions manifest, not inferred from the public URL or the `publisher_owned` label. See [SOURCE_POLICY](../docs/SOURCE_POLICY.md) and [DATA_RIGHTS](../DATA_RIGHTS.md). The review does not certify all possible downstream uses or every claim's current gameplay accuracy.
+
+## M8A guide sources: selected entry and reward facts
+
+The same limited factual-extraction boundary applies only to the records enumerated for [M8A](../docs/M8A_PROGRESSION.md). Copyright remains with the listed authors/publishers. No article licence or permission to redistribute expressive content is asserted. Pywel adds original atomic phrasing, IDs and uncertainty/provenance metadata; it retains no article bodies, table layout, screenshots, assets or extracted databases. Source disagreement and current-build/platform limitations remain explicit.
+
+| Evidence ID | Author, source and date | Retained scope |
+| --- | --- | --- |
+| `evd_m8aconsolepulse2026091001` | Aiden Nguyen, Console Pulse, [Estate in Dismay walkthrough](https://consolepulse.com/multiplatform/crimson-desert/guides/crimson-desert-estate-in-dismay), published May 30 and updated August 17, 2026 | Selected entry conditions and item/contribution rewards for the four existing pilot quests; no copied walkthrough. |
+| `evd_m8asealedguide2026091001` | Larc, GAMES.GG, [Sealed in Stone guide](https://games.gg/crimson-desert/guides/crimson-desert-how-to-complete-sealed-in-stone-quest/), updated March 30, 2026 | The unlock dependency and explicit no-direct-item statement; same source group as the prior GAMES.GG guide. |
+| `evd_m8avulkk2026091001` | Siow, VULKK, [Stolen Quarry walkthrough](https://vulkk.com/2026/03/26/crimson-desert-troubled-count-walkthrough-karin-quarry-excavatron/), updated March 31, 2026 | Selected encounter rewards, quest dependency and final item quantities; not combat order or optional loot. |
 
 ## Excluded sources
 
