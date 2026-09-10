@@ -6,6 +6,10 @@ Pywel stores atomic claims with stable identities, evidence, uncertainty, and ga
 
 > Pywel is not created, endorsed, or operated by Pearl Abyss. Crimson Desert and third-party materials remain subject to their respective rights.
 
+## Read without installing Pywel
+
+An HTTP-capable or GitHub-connected agent can start at [AGENT_START.md](https://github.com/RolandSaint/pywel/blob/main/AGENT_START.md), pin one commit, and retrieve selected canonical JSON and evidence directly. No clone, npm install, Pywel server or owner PC is required. The [sample routes](https://github.com/RolandSaint/pywel/blob/main/examples/public-read.json) are not a complete corpus index, and raw files are not context- or spoiler-filtered. This is public-file access, **not hosted REST or remote MCP**. See [M9's verification limits](https://github.com/RolandSaint/pywel/blob/main/docs/M9_NO_INSTALL.md). The [database-source survey](https://github.com/RolandSaint/pywel/blob/main/docs/DATABASE_SOURCES.md) records the database-first research direction without importing new facts. These online discovery links also work from a copied offline README; resolve a commit before consuming records, rather than mixing mutable main files with that bundle's identity.
+
 ## Pywel 1.0.0
 
 **Pywel software 1.0.0 begins with the verified clean source snapshot accepted at [M5](docs/M5_COMPLETION.md), with reviewed publication-only documentation and CI changes.** M0–M5 are complete for their recorded scope. See [the scope](docs/RELEASE_SCOPE.md), [milestones](docs/ROADMAP_TO_1_0.md), [M1 evidence](docs/M1_COMPLETION.md), [M2 evidence](docs/M2_COMPLETION.md), [M3 evidence](docs/M3_COMPLETION.md), and [M4 evidence](docs/M4_COMPLETION.md).
