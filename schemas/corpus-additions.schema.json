@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://pywelknowledge.org/schemas/corpus-additions.schema.json",
+  "title": "Reviewed additions to the immutable initial corpus",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "scope_id",
+    "evidence_cutoff",
+    "baseline_scope_sha256",
+    "record_ids",
+    "canonical_files",
+    "reviewed_sources"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "pywel.corpus_additions.v1"
+    },
+    "scope_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence_cutoff": {
+      "type": "string",
+      "format": "date"
+    },
+    "baseline_scope_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "record_ids": {
+      "$ref": "public-release-scope-v2.schema.json#/properties/record_ids"
+    },
+    "canonical_files": {
+      "$ref": "public-release-scope-v2.schema.json#/properties/canonical_files"
+    },
+    "reviewed_sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "evidence_id",
+          "url",
+          "license_status",
+          "retention_mode",
+          "decision",
+          "basis_url",
+          "boundary"
+        ],
+        "properties": {
+          "evidence_id": {
+            "type": "string",
+            "pattern": "^evd_[a-z0-9]{12,64}$"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https://"
+          },
+          "license_status": {
+            "const": "publisher_owned"
+          },
+          "retention_mode": {
+            "const": "normalized_facts"
+          },
+          "decision": {
+            "const": "limited_original_factual_extraction"
+          },
+          "basis_url": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https://"
+          },
+          "boundary": {
+            "type": "string",
+            "minLength": 40,
+            "maxLength": 1000
+          }
+        }
+      }
+    }
+  }
+}
