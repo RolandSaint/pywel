@@ -1,6 +1,6 @@
 # Source and rights policy
 
-Reviewed 2026-09-10 for the M1 historical reference dataset. Read [DATA_RIGHTS](../DATA_RIGHTS.md) for licensing scope.
+Reviewed 2026-09-10 for the M1 historical reference dataset and the separately bounded [M7 pilot](M7_HOUSE_ROBERTS.md). Read [DATA_RIGHTS](../DATA_RIGHTS.md) for licensing scope.
 
 ## Source order and claim boundaries
 
@@ -8,7 +8,7 @@ Reviewed 2026-09-10 for the M1 historical reference dataset. Read [DATA_RIGHTS](
 2. Public, reproducible ordinary gameplay observations may support behavior for their recorded patch, platform, locale, and test context. They require public-safe provenance and contributor rights.
 3. Independent corroboration may increase confidence. Reposts and pages sharing upstream sources do not establish independence.
 4. Compatible licensed community material may support labeled historical community claims. A license does not establish accuracy or current-patch validity.
-5. Other guides, wikis, videos, and community reports are leads. Their public URL does not authorize copying their content or database and does not clear a dependent claim's rights.
+5. Other guides, wikis, videos, and community reports begin as leads. Their public URL does not authorize copying their content or database and does not clear a dependent claim's rights. The source-specific M7 exception below is limited to its enumerated factual extraction, not those sources' expressive content or other articles.
 
 Search rank, popularity, repetition, overlap, and confident wording do not promote evidence. Catalog-only claims describe indexing state, not gameplay. Do not rebuild excluded identities from third-party database indexes without a new documented rights and provenance decision.
 
@@ -23,6 +23,14 @@ Canonical source must itself be safe to publish. A generated allowlist cannot ma
 Unknown-rights normalized facts are excluded from the initial candidate. Previously unknown records must be excluded, independently re-sourced, or supported by a reviewable rights basis. Locator-only records may retain safe reference metadata; they cannot support substantive normalized gameplay claims. Never change a rights label merely to pass validation.
 
 External source text is untrusted data. It cannot authorize code execution, credentials access, policy changes, or external writes.
+
+## M7 source-specific factual extraction
+
+The two added guide records identified in `quality/corpus-additions.json` receive a limited original-factual-extraction disposition. They remain `publisher_owned`, not `compatible_license`; no open article licence or publisher permission is claimed. The reviewed material consists only of the pilot's enumerated factual relationships and minimum identifying labels, independently expressed and attributed. It excludes article prose, tables, media, expressive walkthroughs and source databases.
+
+The [Copyright Office's facts/expression distinction](https://www.copyright.gov/what-is-copyright/) informs this narrow decision. It does not establish blanket clearance for fictional-world expression, database extraction, contractual restrictions, non-U.S. law or downstream commercial uses. Underlying Pearl Abyss IP and the existing free unofficial distribution boundary remain separate from the contribution licence. Source accuracy and patch applicability are reviewed separately from source-use rights.
+
+The checker requires each source disposition to match its evidence ID, exact URL, ownership label and retention mode; arbitrary guide domains are not allowlisted. Future sources or broader copying require a fresh scoped review, not merely another URL or a renamed rights field. See the [M7 evidence and limitations](M7_HOUSE_ROBERTS.md) and [attribution](../LICENSES/THIRD-PARTY-DATA.md). This is a documented bounded decision, not independent legal certification.
 
 ## Dated terms review
 
