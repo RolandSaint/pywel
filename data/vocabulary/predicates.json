@@ -1805,8 +1805,18 @@
       ],
       "predicate": "tool.usable_when_inventory_full",
       "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Organization whose faction quest line includes the subject quest; not a prerequisite or a membership claim about a person.",
+      "object_kinds": [
+        "entity",
+        "unknown"
+      ],
+      "predicate": "quest.organization",
+      "status": "core"
     }
   ],
-  "registry_version": 13,
+  "registry_version": 14,
   "schema_version": "pywel.predicate_registry.v1"
 }
