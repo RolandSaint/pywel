@@ -14,10 +14,12 @@ describe("canonical validation", () => {
     try {
       await cp(resolve(project, "data"), resolve(root, "data"), { recursive: true });
       await cp(resolve(project, "schemas"), resolve(root, "schemas"), { recursive: true });
-      await cp(resolve(project, "quality", "publication-contract-v1.json"), resolve(root, "data", "canonical", "ignored-metadata.json"));
-      const { report } = await validateCorpus(root);
-      expect(report.valid).toBe(false);
-      expect(report.errors).toContainEqual(expect.objectContaining({ code: "schema_version_unknown", path: "data/canonical/ignored-metadata.json" }));
+      for (const file of ["publication-contract-v1.json", "corpus-additions.json"]) {
+        await cp(resolve(project, "quality", file), resolve(root, "data", "canonical", "ignored-metadata.json"));
+        const { report } = await validateCorpus(root);
+        expect(report.valid).toBe(false);
+        expect(report.errors).toContainEqual(expect.objectContaining({ code: "schema_version_unknown", path: "data/canonical/ignored-metadata.json" }));
+      }
     } finally { await rm(root, { recursive: true, force: true }); }
   });
 
@@ -71,8 +73,9 @@ describe("canonical validation", () => {
     expect(new Set(report.warnings.map((warning) => warning.code))).toEqual(
       new Set(["strategy_unobserved"]),
     );
-    expect(store.predicateRegistry.predicates).toHaveLength(176);
-    expect(store.predicateRegistry.registry_version).toBe(13);
+    expect(store.predicateRegistry.predicates).toHaveLength(177);
+    expect(store.predicateRegistry.registry_version).toBe(14);
+    expect(store.predicateRegistry.predicates.find((item) => item.predicate === "quest.organization")).toMatchObject({ cardinality: "many", object_kinds: ["entity", "unknown"], status: "core" });
     expect(store.predicateRegistry.predicates.find((item) => item.predicate === "build.uses_effect")?.cardinality).toBe("many");
     expect(store.predicateRegistry.predicates.find((item) => item.predicate === "quest.objective")?.cardinality).toBe("many");
     expect(store.predicateRegistry.predicates.find((item) => item.predicate === "build.patch_baseline")?.cardinality).toBeUndefined();
