@@ -25,8 +25,8 @@
     "check": "npm run repository:policy && npm run validate && npm run m1:check && npm run typecheck && npm run test && npm run build && npm run test:dist"
   },
   "dependencies": {
-    "@hono/node-server": "^1.19.15",
-    "@modelcontextprotocol/sdk": "^1.29.0",
+    "@hono/node-server": "^2.1.1",
+    "@modelcontextprotocol/sdk": "^1.30.0",
     "ajv": "^8.20.0",
     "ajv-formats": "^3.0.1",
     "hono": "^4.13.5"
