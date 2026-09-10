@@ -14,13 +14,15 @@ The original source manifest `quality/public-release-scope.json` retains **310 e
 
 [This GitHub repository](https://github.com/RolandSaint/pywel) is the ongoing source of truth. Its history begins with the clean Pywel 1.0.0 source; the original private development history, refs, releases, assets, and local configuration are excluded and remain private. Use the `v1.0.0` tag and [release notes](https://github.com/RolandSaint/pywel/releases/tag/v1.0.0) for the public commit, artifact identities, checksums, and publication verification. Historical milestone records preserve the scope and limits of the earlier reviews.
 
-## Post-release M7 source
+## Post-release source
 
-The [House Roberts pilot](docs/M7_HOUSE_ROBERTS.md) adds eight identities, 17 historical claims, two attributed guide sources and a receipt. This source checkout contains **318 entities, 1,413 claims, 79 evidence records, 27 patches, one strategy and two receipts**. Seven named questions gain historical information; leadership and current-patch confirmation remain gaps. The four retained faction-quest associations are not a complete roster.
+The [M7 House Roberts pilot](docs/M7_HOUSE_ROBERTS.md) added eight identities, 17 historical claims, two attributed guide sources and a receipt. Its integrated snapshot contained 318 entities, 1,413 claims and 79 evidence records. Seven named questions gained historical information; leadership and current-patch confirmation remained gaps. The four retained faction-quest associations are not a complete roster.
 
-`quality/corpus-additions.json` records the reviewed additions separately from the unchanged initial manifest and canonical records. The vocabulary adds `quest.organization` in registry 14. Record/response/API/codebook layouts are unchanged; source/build identities change. See [compatibility](docs/COMPATIBILITY.md) and the pilot's source-use limitations.
+[M8A](docs/M8A_PROGRESSION.md) adds selected start/unlock and reward information for those same four quests: **13 claims, three attributed guide sources and one receipt, with no new entities or runtime changes**. This source checkout contains **318 entities, 1,426 claims, 82 evidence records, 27 patches, one strategy and three receipts**. Seven of its eight questions gain qualified historical information; the existing Count's Honor prerequisite is preserved rather than counted as new. Knowledge rewards, complete unlock conditions and current-build verification are not claimed. Named console/Epic contexts withhold the PC-Steam-scoped additions; that scope is not independently observed Steam gameplay.
 
-M7 integration is not a new GitHub Release. The v1.0.0 tag and its assets do not contain M7 or G01. To consume post-release main, replace `--branch v1.0.0` with `--branch main` below, record `git rev-parse HEAD`, and run the same checks on that exact checkout. Do not mix its data or build identity with older release artifacts.
+`quality/corpus-additions.json` records the reviewed additions separately from the unchanged initial manifest and prior canonical records. The vocabulary remains registry 14, including M7's `quest.organization`. Record/response/API/codebook layouts are unchanged; source/build identities change. See [compatibility](docs/COMPATIBILITY.md), [M8A source and attribution notes](docs/M8A_PROGRESSION.md), and each PR's integration evidence.
+
+Milestone integration is not a new GitHub Release. The v1.0.0 tag and its assets do not contain G01, M7 or M8A. To consume post-release main, replace `--branch v1.0.0` with `--branch main` below, record `git rev-parse HEAD`, and run the same checks on that exact checkout. Do not mix its data or build identity with older release artifacts.
 
 ## Install, verify, and read
 
@@ -71,6 +73,6 @@ The frozen M3 contract defines 16 REST operations, nine MCP tools, and shared ty
 
 Use reviewed Git proposals following [CONTRIBUTING](CONTRIBUTING.md). Keep changes atomic and supported by public evidence, appropriate context, rights, and attribution. Commit and push coherent changes incrementally; milestone completion includes review, integration and passing required checks on main unless explicitly scoped otherwise.
 
-Software is Apache-2.0 under [LICENSE](LICENSE). Original database contributions and compatible adaptations use CC BY-SA 4.0 only within [LICENSE-DATA](LICENSE-DATA) and [DATA_RIGHTS](DATA_RIGHTS.md); third-party game IP and guide expression are excluded from that grant. See [attribution](LICENSES/THIRD-PARTY-DATA.md), [SOURCE_POLICY](docs/SOURCE_POLICY.md), and [SECURITY](SECURITY.md).
+Software is Apache-2.0 under [LICENSE](LICENSE). Original database contributions and compatible adaptations use CC BY-SA 4.0 only within [LICENSE-DATA](LICENSE-DATA) and [DATA_RIGHTS](DATA_RIGHTS.md); third-party game IP and guide expression are excluded from that grant. See [initial/M7 attribution](LICENSES/THIRD-PARTY-DATA.md), [M8A attribution](docs/M8A_PROGRESSION.md#sources-and-attribution), [SOURCE_POLICY](docs/SOURCE_POLICY.md), and [SECURITY](SECURITY.md).
 
 Never add personal state, conversations, private paths, credentials, copied source bodies, game assets, saves, leaks, or unauthorized extraction output. No personal-system access, live deployment, paid service, or publication is necessary to operate the project.
