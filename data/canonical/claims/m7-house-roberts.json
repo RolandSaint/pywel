@@ -1,0 +1,567 @@
+{
+  "catalog_id": "cat_62529b06b6590b5c4f749ba4",
+  "records": [
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_46f71b753dd5a51e961ec6df",
+      "confidence": 0.6,
+      "evidence_ids": [
+        "evd_db435362e5eb93eba7f3eac4"
+      ],
+      "object": {
+        "entity_id": "ent_6ca283919bf4d6fa26a0da9f",
+        "kind": "entity"
+      },
+      "predicate": "quest.location",
+      "provenance": {
+        "created_at": "2026-09-10T18:24:08Z",
+        "created_by": "pywel_m7_public_research",
+        "source_receipt_id": "rcp_m7houseroberts2026091001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_minor",
+      "status": "inferred",
+      "subject_entity_id": "ent_d1b3b818dfa863a35aab7680",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_4895dac9d99f17dc7737aae8",
+      "confidence": 0.6,
+      "evidence_ids": [
+        "evd_db435362e5eb93eba7f3eac4"
+      ],
+      "object": {
+        "entity_id": "ent_87a65ae57efbb95fe75d068c",
+        "kind": "entity"
+      },
+      "predicate": "quest.organization",
+      "provenance": {
+        "created_at": "2026-09-10T18:24:08Z",
+        "created_by": "pywel_m7_public_research",
+        "source_receipt_id": "rcp_m7houseroberts2026091001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_minor",
+      "status": "inferred",
+      "subject_entity_id": "ent_d3de309d4578b75dc73ee5f2",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_4b07160062124fd0a550d66d",
+      "confidence": 0.6,
+      "evidence_ids": [
+        "evd_db435362e5eb93eba7f3eac4"
+      ],
+      "object": {
+        "entity_id": "ent_089ced07950ace8407a29247",
+        "kind": "entity"
+      },
+      "predicate": "quest.location",
+      "provenance": {
+        "created_at": "2026-09-10T18:24:08Z",
+        "created_by": "pywel_m7_public_research",
+        "source_receipt_id": "rcp_m7houseroberts2026091001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_minor",
+      "status": "inferred",
+      "subject_entity_id": "ent_2beedf6ea02e8ba696464bb3",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_5331d0c7c8d821bd1c38dbfd",
+      "confidence": 0.6,
+      "evidence_ids": [
+        "evd_db435362e5eb93eba7f3eac4"
+      ],
+      "object": {
+        "entity_id": "ent_d1b3b818dfa863a35aab7680",
+        "kind": "entity"
+      },
+      "predicate": "quest.prerequisite",
+      "provenance": {
+        "created_at": "2026-09-10T18:24:08Z",
+        "created_by": "pywel_m7_public_research",
+        "source_receipt_id": "rcp_m7houseroberts2026091001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_minor",
+      "status": "inferred",
+      "subject_entity_id": "ent_d3de309d4578b75dc73ee5f2",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_61908f7c6ef0b5081a7d0b86",
+      "confidence": 0.6,
+      "evidence_ids": [
+        "evd_43cf07ba816dbe19d270d124"
+      ],
+      "object": {
+        "entity_id": "ent_7e38fb7b48e5b55432fe64ca",
+        "kind": "entity"
+      },
+      "predicate": "location.notable_content",
+      "provenance": {
+        "created_at": "2026-09-10T18:24:08Z",
+        "created_by": "pywel_m7_public_research",
+        "source_receipt_id": "rcp_m7houseroberts2026091001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_6ca283919bf4d6fa26a0da9f",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_6587be1e5f5281209b71e32f",
+      "confidence": 0.6,
+      "evidence_ids": [
+        "evd_db435362e5eb93eba7f3eac4"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Quest contact for House Roberts."
+      },
+      "predicate": "actor.role",
+      "provenance": {
+        "created_at": "2026-09-10T18:24:08Z",
+        "created_by": "pywel_m7_public_research",
+        "source_receipt_id": "rcp_m7houseroberts2026091001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_minor",
+      "status": "inferred",
+      "subject_entity_id": "ent_7ea2ae660f60d58012dcb3a7",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_6974a88ce5d2afad27b63ece",
+      "confidence": 0.6,
+      "evidence_ids": [
+        "evd_db435362e5eb93eba7f3eac4"
+      ],
+      "object": {
+        "entity_id": "ent_87a65ae57efbb95fe75d068c",
+        "kind": "entity"
+      },
+      "predicate": "quest.organization",
+      "provenance": {
+        "created_at": "2026-09-10T18:24:08Z",
+        "created_by": "pywel_m7_public_research",
+        "source_receipt_id": "rcp_m7houseroberts2026091001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_minor",
+      "status": "inferred",
+      "subject_entity_id": "ent_d1b3b818dfa863a35aab7680",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_6a1915da2622feb109386602",
+      "confidence": 0.6,
+      "evidence_ids": [
+        "evd_43cf07ba816dbe19d270d124"
+      ],
+      "object": {
+        "entity_id": "ent_6ca283919bf4d6fa26a0da9f",
+        "kind": "entity"
+      },
+      "predicate": "quest.location",
+      "provenance": {
+        "created_at": "2026-09-10T18:24:08Z",
+        "created_by": "pywel_m7_public_research",
+        "source_receipt_id": "rcp_m7houseroberts2026091001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_minor",
+      "status": "inferred",
+      "subject_entity_id": "ent_6dd97bc94c6fe241d0bb1a0e",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_72d9b8c563c53c1d61c2c520",
+      "confidence": 0.6,
+      "evidence_ids": [
+        "evd_db435362e5eb93eba7f3eac4"
+      ],
+      "object": {
+        "entity_id": "ent_e964d1c5570c6dc429afbab4",
+        "kind": "entity"
+      },
+      "predicate": "location.parent",
+      "provenance": {
+        "created_at": "2026-09-10T18:24:08Z",
+        "created_by": "pywel_m7_public_research",
+        "source_receipt_id": "rcp_m7houseroberts2026091001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_089ced07950ace8407a29247",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_919f909750542ddfad4c31c2",
+      "confidence": 0.6,
+      "evidence_ids": [
+        "evd_db435362e5eb93eba7f3eac4"
+      ],
+      "object": {
+        "entity_id": "ent_089ced07950ace8407a29247",
+        "kind": "entity"
+      },
+      "predicate": "actor.location",
+      "provenance": {
+        "created_at": "2026-09-10T18:24:08Z",
+        "created_by": "pywel_m7_public_research",
+        "source_receipt_id": "rcp_m7houseroberts2026091001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_minor",
+      "status": "inferred",
+      "subject_entity_id": "ent_7ea2ae660f60d58012dcb3a7",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_9bb514c6e8d13fadc66857f2",
+      "confidence": 0.46,
+      "evidence_ids": [
+        "evd_6597c48d3be5629f4e5da858"
+      ],
+      "object": {
+        "entity_id": "ent_e964d1c5570c6dc429afbab4",
+        "kind": "entity"
+      },
+      "predicate": "location.parent",
+      "provenance": {
+        "created_at": "2026-09-10T18:24:08Z",
+        "created_by": "pywel_m7_public_research",
+        "source_receipt_id": "rcp_m7houseroberts2026091001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_6ca283919bf4d6fa26a0da9f",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_aa0e6cb8788134c8f514b6ae",
+      "confidence": 0.6,
+      "evidence_ids": [
+        "evd_43cf07ba816dbe19d270d124"
+      ],
+      "object": {
+        "entity_id": "ent_87a65ae57efbb95fe75d068c",
+        "kind": "entity"
+      },
+      "predicate": "quest.organization",
+      "provenance": {
+        "created_at": "2026-09-10T18:24:08Z",
+        "created_by": "pywel_m7_public_research",
+        "source_receipt_id": "rcp_m7houseroberts2026091001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_minor",
+      "status": "inferred",
+      "subject_entity_id": "ent_6dd97bc94c6fe241d0bb1a0e",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_b142f3a943e858ea4542b9fb",
+      "confidence": 0.6,
+      "evidence_ids": [
+        "evd_43cf07ba816dbe19d270d124"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Defeat Marni's Excavatron."
+      },
+      "predicate": "quest.objective",
+      "provenance": {
+        "created_at": "2026-09-10T18:24:08Z",
+        "created_by": "pywel_m7_public_research",
+        "source_receipt_id": "rcp_m7houseroberts2026091001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_6dd97bc94c6fe241d0bb1a0e",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_c0cbb7084ee56a37df11442a",
+      "confidence": 0.6,
+      "evidence_ids": [
+        "evd_43cf07ba816dbe19d270d124"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Available in Chapter 2."
+      },
+      "predicate": "quest.availability",
+      "provenance": {
+        "created_at": "2026-09-10T18:24:08Z",
+        "created_by": "pywel_m7_public_research",
+        "source_receipt_id": "rcp_m7houseroberts2026091001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_minor",
+      "status": "inferred",
+      "subject_entity_id": "ent_6dd97bc94c6fe241d0bb1a0e",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_c955ecfdc92911611af8af74",
+      "confidence": 0.6,
+      "evidence_ids": [
+        "evd_db435362e5eb93eba7f3eac4"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Faction associated with Hernand."
+      },
+      "predicate": "organization.role",
+      "provenance": {
+        "created_at": "2026-09-10T18:24:08Z",
+        "created_by": "pywel_m7_public_research",
+        "source_receipt_id": "rcp_m7houseroberts2026091001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_87a65ae57efbb95fe75d068c",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_ec8afb8224797de2719059d7",
+      "confidence": 0.6,
+      "evidence_ids": [
+        "evd_db435362e5eb93eba7f3eac4"
+      ],
+      "object": {
+        "entity_id": "ent_87a65ae57efbb95fe75d068c",
+        "kind": "entity"
+      },
+      "predicate": "quest.organization",
+      "provenance": {
+        "created_at": "2026-09-10T18:24:08Z",
+        "created_by": "pywel_m7_public_research",
+        "source_receipt_id": "rcp_m7houseroberts2026091001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_minor",
+      "status": "inferred",
+      "subject_entity_id": "ent_2beedf6ea02e8ba696464bb3",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_fdcd9b131afdc5ce1dd0b550",
+      "confidence": 0.6,
+      "evidence_ids": [
+        "evd_db435362e5eb93eba7f3eac4"
+      ],
+      "object": {
+        "entity_id": "ent_e964d1c5570c6dc429afbab4",
+        "kind": "entity"
+      },
+      "predicate": "organization.location",
+      "provenance": {
+        "created_at": "2026-09-10T18:24:08Z",
+        "created_by": "pywel_m7_public_research",
+        "source_receipt_id": "rcp_m7houseroberts2026091001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_87a65ae57efbb95fe75d068c",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    }
+  ],
+  "schema_version": "pywel.claim_catalog.v1"
+}
