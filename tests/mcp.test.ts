@@ -37,7 +37,18 @@ describe("MCP stdio contract", () => {
       const entity = store.entities[0]!;
       const strategy = store.strategies[0]!;
       const evidence = store.evidence[0]!;
-      const cases: Array<{ name: string; args: Record<string, unknown>; path: string }> = [
+      const groundingCases = [
+        ["Where is House Roberts based?", "unknown"],
+        ["Where is House Zorblax based?", "unknown"],
+        ["What is Creamy Meat Soup?", "partial"],
+        ["What ingredients are needed to make Creamy Meat Soup?", "partial"],
+        ["Where is St. Halssius's House of Healing?", "supported"],
+      ] as const;
+      const cases: Array<{ name: string; args: Record<string, unknown>; path: string; expectedState?: string }> = [
+        ...["compact", "full"].flatMap((format) => groundingCases.map(([q, expectedState]) => {
+          const args = { q, patch: "1.14.00", platform: "all", locale: "en-US", spoiler: "quest_major", format };
+          return { name: "pywel_answer", args, path: `/v1/answer?${new URLSearchParams(args)}`, expectedState };
+        })),
         ...["compact", "full"].flatMap((format) => [["Can controller inputs be remapped?", "1.09.00"], ["Is controller remapping available?", "1.14.00"], ["Is controller remapping available?", "9.99.00"], ["Is Axiom Bracelet an item?", "1.14.00"]].map(([q, patch]) => ({ name: "pywel_answer", args: { q, patch, format }, path: `/v1/answer?${new URLSearchParams({ q: q!, patch: patch!, format })}` }))),
         { name: "pywel_search", args: { q: "controller", patch: "1.09.00", limit: 1, offset: 1 }, path: "/v1/search?q=controller&patch=1.09.00&limit=1&offset=1" },
         { name: "pywel_search_entities", args: { limit: 2, offset: 2 }, path: "/v1/entities?limit=2&offset=2" },
@@ -55,10 +66,19 @@ describe("MCP stdio contract", () => {
         { name: "pywel_search", args: { q: "test", limit: 0 }, path: "/v1/search?q=test&limit=0" },
         { name: "pywel_answer", args: { q: "test", compact: false }, path: "/v1/answer?q=test&compact=false" },
       ];
-      for (const { name, args, path } of cases) {
+      for (const { name, args, path, expectedState } of cases) {
         const mcp = await client.callTool({ name, arguments: args });
         const rest = await app.request(path);
-        expect(mcp.structuredContent, path).toEqual(await rest.json());
+        const body = await rest.json();
+        expect(mcp.structuredContent, path).toEqual(body);
+        if (expectedState !== undefined) {
+          expect(rest.status, path).toBe(200);
+          expect(body[args.format === "compact" ? "state" : "answer_state"], path).toBe(expectedState);
+          if (expectedState === "unknown") {
+            for (const key of ["claims", "evidence", "strategies"]) expect(body[key] ?? [], path).toEqual([]);
+            expect(body).not.toHaveProperty("catalog");
+          }
+        }
         expect(mcp.isError === true, path).toBe(!rest.ok);
         const text = (mcp.content as Array<{ type: string; text?: string }>)[0]!;
         expect(text.type).toBe("text");
