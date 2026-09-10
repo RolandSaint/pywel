@@ -25,6 +25,7 @@ const SCHEMA_BY_VERSION: Record<string, string> = {
   "pywel.patch.v1": "https://pywelknowledge.org/schemas/patch.schema.json",
   "pywel.patch_catalog.v1": "https://pywelknowledge.org/schemas/patch-catalog.schema.json",
   "pywel.predicate_registry.v1": "https://pywelknowledge.org/schemas/predicate-registry.schema.json",
+  "pywel.corpus_additions.v1": "https://pywelknowledge.org/schemas/corpus-additions.schema.json",
   "pywel.public_release_scope.v2": "https://pywelknowledge.org/schemas/public-release-scope-v2.schema.json",
   "pywel.publication_contract.v1": "https://pywelknowledge.org/schemas/publication-contract.schema.json",
   "pywel.corpus.v1": "https://pywelknowledge.org/schemas/corpus.schema.json",
@@ -121,7 +122,7 @@ function validateDocuments(
       continue;
     }
     const schemaId = SCHEMA_BY_VERSION[version];
-    if (schemaId === undefined || /^(?:pywel\.(?:public_release_scope|publication_contract|corpus|build_manifest|source_snapshot)\.)/.test(version)) {
+    if (schemaId === undefined || /^(?:pywel\.(?:public_release_scope|publication_contract|corpus_additions|corpus|build_manifest|source_snapshot)\.)/.test(version)) {
       issues.push(
         makeIssue("error", "schema_version_unknown", `Unsupported schema version: ${version}`, {
           path,

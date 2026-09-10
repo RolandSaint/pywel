@@ -1,7 +1,7 @@
 schema_version: pywel.load_first.v4
 project_id: pywel_knowledge_standard
 display_name: Pywel Knowledge Standard
-status: v1_0_0_release_source
+status: post_release_m7_source
 source_repository: https://github.com/RolandSaint/pywel
 source_visibility: public
 scope_adopted_on: '2026-09-10'
@@ -26,11 +26,12 @@ read_first:
   - docs/RELEASE_SCOPE.md
   - docs/ROADMAP_TO_1_0.md
   - DATA_RIGHTS.md
+  - docs/M7_HOUSE_ROBERTS.md
 run_first:
   - npm ci --ignore-scripts --no-audit --no-fund
   - npm run check
 release_scope:
-  dataset: fixed_manifest_of_general_game_knowledge
+  dataset: immutable_initial_manifest_plus_reviewed_additions
   patch_ceiling: '1.14.00'
   patch_scope: historical_snapshot_not_live_game_freshness
   retrieval_language: English
@@ -73,11 +74,13 @@ engineering_order:
   - accelerate_stable_design
   - automate_last
 working_rules:
-  - Keep the initial dataset fixed; scope changes need an explicit reason and reviewed manifest diff.
+  - Keep original release records and quality/public-release-scope.json unchanged; separately reviewed additions are enumerated in quality/corpus-additions.json.
+  - Further scope changes need an explicit reason and reviewed manifest diff, not disabled validation.
   - Use agent branches and reviewed GitHub pull requests.
-  - Commit and push after each completed milestone; merge only after review and required checks pass.
+  - Commit coherent changes incrementally; authorized milestone completion includes review, merge, and passing checks on main.
   - Never edit generated outputs by hand or promote contributions automatically.
   - No dormant model, manager, cloud, write-intake, queue, capture, or alternative-storage path.
-  - Software 1.0.0 starts from the certified clean M5 snapshot with reviewed publication-only documentation and CI changes.
+  - Software 1.0.0 remains the published tag; post-release main has separate commit and build identities.
   - The public repository is the ongoing authority; original development history and assets remain private and excluded.
+  - Publication authorization here records the existing public repository, not a new release or deployment authorization.
   - New releases, deployment, paid resources, personal-system access, and outside contact require appropriate authorization.

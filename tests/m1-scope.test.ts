@@ -85,6 +85,42 @@ describe("fixed M1 source boundary", () => {
     expect(validate({ ...scope, publication_boundary: { ...scope.publication_boundary, original_history: "clean" } })).toBe(false);
   });
 
+  it("rejects a changed base binding or duplicate addition path even after snapshot rehash", async () => {
+    const path = resolve(root, "quality/corpus-additions.json");
+    const original = JSON.parse(await readFile(path, "utf8"));
+    for (const additions of [
+      { ...original, baseline_scope_sha256: "0".repeat(64) },
+      { ...original, canonical_files: [...original.canonical_files, original.canonical_files[0]] },
+    ]) {
+      await writeFile(path, canonicalJson(additions, true));
+      await writeManifest(root);
+      await expect(checkM1(root)).rejects.toThrow(/historical scope binding|Duplicate corpus addition path/);
+    }
+  });
+
+  it("does not let an addition digest authorize old predicate redefinitions", async () => {
+    const path = resolve(root, "data/vocabulary/predicates.json");
+    const vocabulary = JSON.parse(await readFile(path, "utf8"));
+    vocabulary.predicates[0].description = "A changed historical definition.";
+    const bytes = canonicalJson(vocabulary, true);
+    await writeFile(path, bytes);
+    const manifestPath = resolve(root, "quality/corpus-additions.json");
+    const additions = JSON.parse(await readFile(manifestPath, "utf8"));
+    additions.canonical_files.find((file: { path: string }) => file.path === "data/vocabulary/predicates.json").sha256 = sha256(bytes);
+    await writeFile(manifestPath, canonicalJson(additions, true));
+    await writeManifest(root);
+    await expect(checkM1(root)).rejects.toThrow("Historical predicate definitions changed");
+  });
+
+  it("requires a source-specific review matching the added evidence locator", async () => {
+    const path = resolve(root, "quality/corpus-additions.json");
+    const additions = JSON.parse(await readFile(path, "utf8"));
+    additions.reviewed_sources[0].url = "https://example.org/unreviewed";
+    await writeFile(path, canonicalJson(additions, true));
+    await writeManifest(root);
+    await expect(checkM1(root)).rejects.toThrow("Evidence lacks a reviewed publication basis");
+  });
+
   it("rejects a missing listed file", async () => {
     await rm(resolve(root, "README.md"));
     await expect(checkM1(root)).rejects.toThrow("file set differs");

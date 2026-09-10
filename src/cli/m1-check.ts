@@ -10,6 +10,13 @@ import { buildPublicationRecordAudit, loadPublicationContract, publicKnowledgePr
 import { inspectTrackedFile } from "./repository-policy.js";
 
 interface FileDigest { path: string; sha256: string }
+interface Additions {
+  scope_id: string;
+  baseline_scope_sha256: string;
+  record_ids: Record<string, string[]>;
+  canonical_files: FileDigest[];
+  reviewed_sources: Array<{ evidence_id: string; url: string; license_status: string; retention_mode: string }>;
+}
 interface Scope {
   scope_id: string;
   historical_patch_ceiling: string;
@@ -107,7 +114,7 @@ export async function checkM1(root: string) {
   for (const path of [
     "LICENSE", "LICENSE-DATA", "DATA_RIGHTS.md", "LICENSES/THIRD-PARTY-DATA.md",
     "CONTRIBUTING.md", "docs/SOURCE_POLICY.md", "docs/RELEASE_SCOPE.md",
-    "docs/ROADMAP_TO_1_0.md", "quality/public-release-scope.json", "README.md",
+    "docs/ROADMAP_TO_1_0.md", "quality/public-release-scope.json", "quality/corpus-additions.json", "README.md",
   ]) {
     if (!source.paths.includes(path)) throw new Error(`Required public source file is missing: ${path}`);
   }
@@ -115,6 +122,17 @@ export async function checkM1(root: string) {
   const scope = JSON.parse(scopeBytes.toString("utf8")) as Scope;
   const validateScope = await compileStandaloneValidator(root, "pywel.public_release_scope.v2");
   if (!validateScope(scope)) throw new Error(`Invalid release scope: ${canonicalJson(validateScope.errors)}`);
+  const additionBytes = await readFile(resolve(root, "quality/corpus-additions.json"));
+  const additions = JSON.parse(additionBytes.toString("utf8")) as Additions;
+  const validateAdditions = await compileStandaloneValidator(root, "pywel.corpus_additions.v1");
+  if (!validateAdditions(additions)) throw new Error(`Invalid corpus additions: ${canonicalJson(validateAdditions.errors)}`);
+  if (additions.baseline_scope_sha256 !== sha256(scopeBytes)) throw new Error("Corpus additions changed the historical scope binding");
+  const addedPaths = additions.canonical_files.map(file => file.path);
+  if (new Set(addedPaths).size !== addedPaths.length) throw new Error("Duplicate corpus addition path");
+  const reviewedIds = additions.reviewed_sources.map(source => source.evidence_id);
+  if (new Set(reviewedIds).size !== reviewedIds.length || reviewedIds.some(id => !additions.record_ids.evidence!.includes(id))) {
+    throw new Error("Source reviews must identify distinct added evidence records");
+  }
   const { report, store } = await validateCorpus(root);
   if (!report.valid || !store) throw new Error(`Canonical validation failed: ${canonicalJson(report.errors)}`);
   const collections: Record<string, CanonicalRecord[]> = {
@@ -124,24 +142,48 @@ export async function checkM1(root: string) {
   const excluded = new Set(scope.excluded_records.map(record => record.record_id));
   for (const [family, records] of Object.entries(collections)) {
     const ids = records.map(recordId).sort();
-    if (canonicalJson(ids) !== canonicalJson(scope.record_ids[family]) || ids.length !== scope.counts[family]) {
-      throw new Error(`Canonical ${family} no longer matches the fixed release scope`);
+    const addedIds = additions.record_ids[family]!;
+    if (addedIds.some(id => scope.record_ids[family]!.includes(id))) throw new Error(`Corpus additions duplicate historical ${family}`);
+    const expected = [...scope.record_ids[family]!, ...addedIds].sort();
+    if (canonicalJson(ids) !== canonicalJson(expected) || ids.length !== scope.counts[family]! + addedIds.length) {
+      throw new Error(`Canonical ${family} no longer matches the reviewed release scope and additions`);
     }
     if (ids.some(id => excluded.has(id))) throw new Error(`Excluded record reintroduced in ${family}`);
   }
-  for (const file of scope.canonical_files) {
-    if (file.path.includes("..") || sha256(await readFile(resolve(root, file.path))) !== file.sha256) throw new Error(`Frozen canonical input changed: ${file.path}`);
+  const expectedFiles = new Map(scope.canonical_files.map(file => [file.path, file.sha256]));
+  for (const file of additions.canonical_files) {
+    if (file.path.split("/").some(segment => ["", ".", ".."].includes(segment))) throw new Error("Invalid addition path");
+    if (expectedFiles.has(file.path)) {
+      // The one reviewed vocabulary addition must not redefine prior predicates.
+      if (file.path !== "data/vocabulary/predicates.json" || store.predicateRegistry.registry_version !== 14) {
+        throw new Error(`Historical canonical overwrite is not authorized: ${file.path}`);
+      }
+      const originalRegistry = {
+        ...store.predicateRegistry, registry_version: 13,
+        predicates: store.predicateRegistry.predicates.filter(item => item.predicate !== "quest.organization"),
+      };
+      if (sha256(canonicalJson(originalRegistry, true)) !== expectedFiles.get(file.path)) {
+        throw new Error("Historical predicate definitions changed");
+      }
+    }
+    expectedFiles.set(file.path, file.sha256);
+  }
+  for (const [path, digest] of expectedFiles) {
+    if (path.includes("..") || sha256(await readFile(resolve(root, path))) !== digest) throw new Error(`Frozen canonical input changed: ${path}`);
   }
   const canonicalPaths = [
     ...(await walk(resolve(root, "data/canonical"))).map(path => `data/canonical/${path}`),
     ...(await walk(resolve(root, "data/vocabulary"))).map(path => `data/vocabulary/${path}`),
   ].filter(path => path.endsWith(".json")).sort();
-  if (canonicalJson(canonicalPaths) !== canonicalJson(scope.canonical_files.map(file => file.path).sort())) throw new Error("Canonical input file set differs from fixed scope");
+  if (canonicalJson(canonicalPaths) !== canonicalJson([...expectedFiles.keys()].sort())) throw new Error("Canonical input file set differs from fixed scope and reviewed additions");
   for (const evidence of store.evidence) {
     const source = new URL(evidence.source.url);
     const wiki = source.protocol === "https:" && source.hostname === "crimsonwiki.org" && evidence.rights.license_status === "compatible_license";
     const official = source.protocol === "https:" && source.hostname === "crimsondesert.pearlabyss.com" && evidence.rights.license_status === "publisher_owned";
-    if ((!wiki && !official) || evidence.rights.retention_mode !== "normalized_facts") throw new Error(`Evidence lacks the selected M1 publication basis: ${evidence.evidence_id}`);
+    const reviewed = additions.reviewed_sources.some(item => item.evidence_id === evidence.evidence_id &&
+      item.url === evidence.source.url && item.license_status === evidence.rights.license_status &&
+      item.retention_mode === evidence.rights.retention_mode);
+    if ((!wiki && !official && !reviewed) || evidence.rights.retention_mode !== "normalized_facts") throw new Error(`Evidence lacks a reviewed publication basis: ${evidence.evidence_id}`);
   }
   const personalPredicate = /owner_|^appearance\.current_state$/i;
   if (store.claims.some(claim => personalPredicate.test(claim.predicate)) || store.entities.some(entity => entity.slug.startsWith("build.") || entity.tags.includes("owner-selected"))) throw new Error("Personal preference or state record reintroduced");
@@ -165,7 +207,8 @@ export async function checkM1(root: string) {
   if (issues.length) throw new Error(issues.join("\n"));
   return {
     milestone: "M1", result: "pass", scope_id: scope.scope_id, scope_sha256: sha256(scopeBytes),
-    counts: scope.counts, canonical_valid: true, public_provenance_valid: true,
+    corpus_additions_sha256: sha256(additionBytes),
+    counts: Object.fromEntries(Object.entries(collections).map(([family, records]) => [family, records.length])), canonical_valid: true, public_provenance_valid: true,
     rights_holds: 0, source_policy_violations: 0, source_files_checked: source.paths.length,
     original_history: "excluded_not_declared_clean", clean_snapshot_verified: source.snapshot,
     warnings: report.warnings.length, warning_disposition: "Retained source-supported strategies have no recorded gameplay attempts; no observation credit claimed.",

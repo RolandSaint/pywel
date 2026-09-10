@@ -1,0 +1,90 @@
+{
+  "baseline_scope_sha256": "9bea33a672f0d2043e19e706e4d67cd8537823ad47154242916422c53c7aeb7f",
+  "canonical_files": [
+    {
+      "path": "data/canonical/claims/m7-house-roberts.json",
+      "sha256": "7d7a669726f9ec3f847780e73ad82834b96d4fdafbd75f7793451822e3c660c9"
+    },
+    {
+      "path": "data/canonical/entities/m7-house-roberts.json",
+      "sha256": "4b4d1d6ba61f4e1321de43f539b9042331d9b4a7a13a70d902045df0c706592a"
+    },
+    {
+      "path": "data/canonical/evidence/m7-house-roberts.json",
+      "sha256": "7643d3b8c70f7c61f36240c817ccb582819a7bb86fd2911726c2b4b9db0527bb"
+    },
+    {
+      "path": "data/canonical/receipts/m7-house-roberts.json",
+      "sha256": "fca2eea55af93ab323b63984c451df96ed7c933fb0bf47f78133264418ce9181"
+    },
+    {
+      "path": "data/vocabulary/predicates.json",
+      "sha256": "79a2a9ebf9902cc97f7fcac1e9000ebe39aae65677a3cdbd5b1e560d0186a8d4"
+    }
+  ],
+  "evidence_cutoff": "2026-09-10",
+  "record_ids": {
+    "claims": [
+      "clm_46f71b753dd5a51e961ec6df",
+      "clm_4895dac9d99f17dc7737aae8",
+      "clm_4b07160062124fd0a550d66d",
+      "clm_5331d0c7c8d821bd1c38dbfd",
+      "clm_61908f7c6ef0b5081a7d0b86",
+      "clm_6587be1e5f5281209b71e32f",
+      "clm_6974a88ce5d2afad27b63ece",
+      "clm_6a1915da2622feb109386602",
+      "clm_72d9b8c563c53c1d61c2c520",
+      "clm_919f909750542ddfad4c31c2",
+      "clm_9bb514c6e8d13fadc66857f2",
+      "clm_aa0e6cb8788134c8f514b6ae",
+      "clm_b142f3a943e858ea4542b9fb",
+      "clm_c0cbb7084ee56a37df11442a",
+      "clm_c955ecfdc92911611af8af74",
+      "clm_ec8afb8224797de2719059d7",
+      "clm_fdcd9b131afdc5ce1dd0b550"
+    ],
+    "entities": [
+      "ent_089ced07950ace8407a29247",
+      "ent_2beedf6ea02e8ba696464bb3",
+      "ent_6ca283919bf4d6fa26a0da9f",
+      "ent_6dd97bc94c6fe241d0bb1a0e",
+      "ent_7ea2ae660f60d58012dcb3a7",
+      "ent_87a65ae57efbb95fe75d068c",
+      "ent_d1b3b818dfa863a35aab7680",
+      "ent_d3de309d4578b75dc73ee5f2"
+    ],
+    "evidence": [
+      "evd_43cf07ba816dbe19d270d124",
+      "evd_db435362e5eb93eba7f3eac4"
+    ],
+    "patchChanges": [],
+    "patchReviews": [],
+    "patches": [],
+    "receipts": [
+      "rcp_m7houseroberts2026091001"
+    ],
+    "strategies": []
+  },
+  "reviewed_sources": [
+    {
+      "basis_url": "https://www.copyright.gov/what-is-copyright/",
+      "boundary": "Copyright ownership is not an open reuse licence. Retain only the enumerated, newly expressed factual relationships; no copied guide prose, tables, images or source database. Pearl Abyss game IP remains outside the contributor licence. No blanket legal clearance.",
+      "decision": "limited_original_factual_extraction",
+      "evidence_id": "evd_db435362e5eb93eba7f3eac4",
+      "license_status": "publisher_owned",
+      "retention_mode": "normalized_facts",
+      "url": "https://games.gg/crimson-desert/guides/crimson-desert-all-house-roberts-quests/"
+    },
+    {
+      "basis_url": "https://www.copyright.gov/what-is-copyright/",
+      "boundary": "Copyright ownership is not an open reuse licence. Retain only the enumerated, newly expressed factual relationships; no copied guide prose, tables, images or source database. Pearl Abyss game IP remains outside the contributor licence. No blanket legal clearance.",
+      "decision": "limited_original_factual_extraction",
+      "evidence_id": "evd_43cf07ba816dbe19d270d124",
+      "license_status": "publisher_owned",
+      "retention_mode": "normalized_facts",
+      "url": "https://www.pcgamer.com/games/action/crimson-desert-marnies-excavatron-boss-guide/"
+    }
+  ],
+  "schema_version": "pywel.corpus_additions.v1",
+  "scope_id": "pywel-m7-house-roberts"
+}

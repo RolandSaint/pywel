@@ -10,13 +10,21 @@ Pywel stores atomic claims with stable identities, evidence, uncertainty, and ga
 
 **Pywel software 1.0.0 begins with the verified clean source snapshot accepted at [M5](docs/M5_COMPLETION.md), with reviewed publication-only documentation and CI changes.** M0–M5 are complete for their recorded scope. See [the scope](docs/RELEASE_SCOPE.md), [milestones](docs/ROADMAP_TO_1_0.md), [M1 evidence](docs/M1_COMPLETION.md), [M2 evidence](docs/M2_COMPLETION.md), [M3 evidence](docs/M3_COMPLETION.md), and [M4 evidence](docs/M4_COMPLETION.md).
 
-The source manifest `quality/public-release-scope.json` retains **310 entities, 1,396 claims, 77 evidence records, 27 patch identities, one strategy, and one safe receipt**. Patch coverage ends at historical indexed version **1.14.00**. This is not current-live-game coverage, and release requires no additional content wave.
+The original source manifest `quality/public-release-scope.json` retains **310 entities, 1,396 claims, 77 evidence records, 27 patch identities, one strategy, and one safe receipt**. Patch coverage ends at historical indexed version **1.14.00**. This is not current-live-game coverage, and the original release requires no additional content wave.
 
 [This GitHub repository](https://github.com/RolandSaint/pywel) is the ongoing source of truth. Its history begins with the clean Pywel 1.0.0 source; the original private development history, refs, releases, assets, and local configuration are excluded and remain private. Use the `v1.0.0` tag and [release notes](https://github.com/RolandSaint/pywel/releases/tag/v1.0.0) for the public commit, artifact identities, checksums, and publication verification. Historical milestone records preserve the scope and limits of the earlier reviews.
 
+## Post-release M7 source
+
+The [House Roberts pilot](docs/M7_HOUSE_ROBERTS.md) adds eight identities, 17 historical claims, two attributed guide sources and a receipt. This source checkout contains **318 entities, 1,413 claims, 79 evidence records, 27 patches, one strategy and two receipts**. Seven named questions gain historical information; leadership and current-patch confirmation remain gaps. The four retained faction-quest associations are not a complete roster.
+
+`quality/corpus-additions.json` records the reviewed additions separately from the unchanged initial manifest and canonical records. The vocabulary adds `quest.organization` in registry 14. Record/response/API/codebook layouts are unchanged; source/build identities change. See [compatibility](docs/COMPATIBILITY.md) and the pilot's source-use limitations.
+
+M7 integration is not a new GitHub Release. The v1.0.0 tag and its assets do not contain M7 or G01. To consume post-release main, replace `--branch v1.0.0` with `--branch main` below, record `git rev-parse HEAD`, and run the same checks on that exact checkout. Do not mix its data or build identity with older release artifacts.
+
 ## Install, verify, and read
 
-These commands require a complete Git working checkout. The source export is an immutable review/publication artifact; the data-only bundle contains no runtime. To prepare a separate working checkout from a verified export, follow [OPERATIONS](docs/OPERATIONS.md). Use Node **24.18.0**, as pinned in `.node-version`. These commands create a checkout and run from its root:
+These commands require a complete Git working checkout. The source export is an immutable review/publication artifact; the data-only bundle contains no runtime. To prepare a separate working checkout from a verified export, follow [OPERATIONS](docs/OPERATIONS.md). Use Node **24.18.0**, as pinned in `.node-version`. These commands create a checkout of the published v1.0.0 release and run from its root:
 
 ```sh
 git clone --branch v1.0.0 https://github.com/RolandSaint/pywel.git
@@ -45,7 +53,8 @@ The future-patch query is a deliberate uncertainty check, not a claim about an e
 | --- | --- |
 | `data/canonical/` | Reviewed structured knowledge and safe provenance. |
 | `schemas/`, `data/vocabulary/` | Versioned structures and controlled terms. |
-| `quality/public-release-scope.json` | Fixed retained dataset and publication boundary. |
+| `quality/public-release-scope.json` | Immutable initial dataset and publication boundary. |
+| `quality/corpus-additions.json` | Explicitly reviewed post-release IDs, files and source dispositions. |
 | `src/` | Validation, one builder, shared query implementation, and local adapters. |
 | `dist/data/` | Generated offline corpus, JSONL, schemas, docs, licenses, manifest, and checksums. |
 | `dist/runtime/` | Compiled reference implementation; validates and reads canonical source with installed dependencies. |
@@ -60,8 +69,8 @@ The frozen M3 contract defines 16 REST operations, nine MCP tools, and shared ty
 
 ## Contributions, rights, and security
 
-Use reviewed Git proposals following [CONTRIBUTING](CONTRIBUTING.md). Keep changes atomic and supported by public evidence, appropriate context, rights, and attribution. Commit and push after each completed milestone; main-branch acceptance requires review and passing required checks.
+Use reviewed Git proposals following [CONTRIBUTING](CONTRIBUTING.md). Keep changes atomic and supported by public evidence, appropriate context, rights, and attribution. Commit and push coherent changes incrementally; milestone completion includes review, integration and passing required checks on main unless explicitly scoped otherwise.
 
-Software is Apache-2.0 under [LICENSE](LICENSE). Original database contributions and compatible adaptations use CC BY-SA 4.0 only within [LICENSE-DATA](LICENSE-DATA) and [DATA_RIGHTS](DATA_RIGHTS.md); third-party game IP is excluded from that grant. See [attribution](LICENSES/THIRD-PARTY-DATA.md), [SOURCE_POLICY](docs/SOURCE_POLICY.md), and [SECURITY](SECURITY.md).
+Software is Apache-2.0 under [LICENSE](LICENSE). Original database contributions and compatible adaptations use CC BY-SA 4.0 only within [LICENSE-DATA](LICENSE-DATA) and [DATA_RIGHTS](DATA_RIGHTS.md); third-party game IP and guide expression are excluded from that grant. See [attribution](LICENSES/THIRD-PARTY-DATA.md), [SOURCE_POLICY](docs/SOURCE_POLICY.md), and [SECURITY](SECURITY.md).
 
 Never add personal state, conversations, private paths, credentials, copied source bodies, game assets, saves, leaks, or unauthorized extraction output. No personal-system access, live deployment, paid service, or publication is necessary to operate the project.
