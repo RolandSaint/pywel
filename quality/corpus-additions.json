@@ -7,7 +7,7 @@
     },
     {
       "path": "data/canonical/claims/m8a-progression.json",
-      "sha256": "232b47b8d58703e32d57bc937ab1dec7bf3f2e54a061494b27b3f7ecf39137a2"
+      "sha256": "b41d159886deaaf32e7a317f38362d22110b6af1405df69e7d895b12d9aa6ad9"
     },
     {
       "path": "data/canonical/entities/m7-house-roberts.json",
@@ -27,7 +27,7 @@
     },
     {
       "path": "data/canonical/receipts/m8a-progression.json",
-      "sha256": "6f02c352d339bd5533a593f92b1d983272120f4af6d5977b5cdf6dd3b7c54115"
+      "sha256": "a7059b71c3bbf3d1cc147462c76094d81a17b57b2471c231d9af8d38b1f5b807"
     },
     {
       "path": "data/vocabulary/predicates.json",
