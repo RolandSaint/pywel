@@ -19,7 +19,8 @@
     "RELEASE_SCOPE.md",
     "ROADMAP_TO_1_0.md",
     "SOURCE_POLICY.md",
-    "THREAT_MODEL.md"
+    "THREAT_MODEL.md",
+    "M7_HOUSE_ROBERTS.md"
   ],
   "public_schemas": [
     "agent-contract.schema.json",
@@ -41,6 +42,7 @@
     "receipt.schema.json",
     "source-snapshot.schema.json",
     "strategy-catalog.schema.json",
-    "strategy.schema.json"
+    "strategy.schema.json",
+    "corpus-additions.schema.json"
   ]
 }
