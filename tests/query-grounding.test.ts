@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { compactEvidencePacket } from "../src/api/compact.js";
 import { KnowledgeIndex } from "../src/core/query.js";
-import { validStore } from "./helpers.js";
+import { originalReleaseStore as validStore } from "./helpers.js";
 
 const context = { patch: "1.14.00", platform: "all" as const, locale: "en-US", spoilerCeiling: "quest_major" as const };
 
