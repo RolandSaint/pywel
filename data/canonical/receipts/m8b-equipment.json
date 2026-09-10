@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-09-10T22:37:00Z",
+  "payload_hash_scope": "related_records_canonical_json",
+  "payload_sha256": "905f226760e93bd61ebc839c61741b56f43e7b3f5eaa2d91a06c4b5ce20e2d56",
+  "receipt_id": "rcp_m8bequipment2026091001",
+  "receipt_type": "contribution",
+  "related_record_ids": [
+    "clm_m8bringacquisition2026091001",
+    "clm_m8bringcategory2026091001",
+    "clm_m8bringspeed2026091001",
+    "clm_m8bringstamina2026091001",
+    "clm_m8bswordacquisition2026091001",
+    "clm_m8bswordcategory2026091001",
+    "clm_m8bswordcrit2026091001",
+    "clm_m8bswordgears2026091001",
+    "clm_m8bswordspeed2026091001",
+    "ent_m8brighteousverdict0001",
+    "ent_m8bwitchsring0000001",
+    "evd_m8bconsolepulse2026091001",
+    "evd_m8bpromaxrings2026091001",
+    "evd_m8bringsguide2026091001"
+  ],
+  "safe_summary": "M8B adds two equipment identities and nine qualified historical acquisition/category/effect claims. Configuration-specific stats are not intrinsic base values; ring stamina magnitude remains unresolved. PC-Steam is a limited pilot scope, not observed gameplay. This receipt proves integrity only.",
+  "schema_version": "pywel.receipt.v1",
+  "state": "accepted"
+}

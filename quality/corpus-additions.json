@@ -10,8 +10,16 @@
       "sha256": "b41d159886deaaf32e7a317f38362d22110b6af1405df69e7d895b12d9aa6ad9"
     },
     {
+      "path": "data/canonical/claims/m8b-equipment.json",
+      "sha256": "3bdb518a3fa3a138edef31e5e1306f644cd9605ce4953d5c18235cab0db898a8"
+    },
+    {
       "path": "data/canonical/entities/m7-house-roberts.json",
       "sha256": "4b4d1d6ba61f4e1321de43f539b9042331d9b4a7a13a70d902045df0c706592a"
+    },
+    {
+      "path": "data/canonical/entities/m8b-equipment.json",
+      "sha256": "ce6ed10a2823a77a5b15dbe28e61a6d48fab4848dc92bd4644c654e9d69d74ad"
     },
     {
       "path": "data/canonical/evidence/m7-house-roberts.json",
@@ -22,12 +30,20 @@
       "sha256": "7f2b09ad7e756a164e0ee9c709f8536ee6fcc8d61a786eea22699966721a2f32"
     },
     {
+      "path": "data/canonical/evidence/m8b-equipment.json",
+      "sha256": "17cc196f31bcb6a8513d71204879a8d24485c576b749d21b2f8d408613bc26a0"
+    },
+    {
       "path": "data/canonical/receipts/m7-house-roberts.json",
       "sha256": "fca2eea55af93ab323b63984c451df96ed7c933fb0bf47f78133264418ce9181"
     },
     {
       "path": "data/canonical/receipts/m8a-progression.json",
       "sha256": "a7059b71c3bbf3d1cc147462c76094d81a17b57b2471c231d9af8d38b1f5b807"
+    },
+    {
+      "path": "data/canonical/receipts/m8b-equipment.json",
+      "sha256": "407e4d8d4f6d70e400265a977ffd913e3a72d14650ce6922950696b38e0e0c67"
     },
     {
       "path": "data/vocabulary/predicates.json",
@@ -66,7 +82,16 @@
       "clm_m8astolenmap2026091001",
       "clm_m8astolenprereq2026091001",
       "clm_m8atrialcontrib2026091001",
-      "clm_m8atrialentry2026091001"
+      "clm_m8atrialentry2026091001",
+      "clm_m8bringacquisition2026091001",
+      "clm_m8bringcategory2026091001",
+      "clm_m8bringspeed2026091001",
+      "clm_m8bringstamina2026091001",
+      "clm_m8bswordacquisition2026091001",
+      "clm_m8bswordcategory2026091001",
+      "clm_m8bswordcrit2026091001",
+      "clm_m8bswordgears2026091001",
+      "clm_m8bswordspeed2026091001"
     ],
     "entities": [
       "ent_089ced07950ace8407a29247",
@@ -76,21 +101,27 @@
       "ent_7ea2ae660f60d58012dcb3a7",
       "ent_87a65ae57efbb95fe75d068c",
       "ent_d1b3b818dfa863a35aab7680",
-      "ent_d3de309d4578b75dc73ee5f2"
+      "ent_d3de309d4578b75dc73ee5f2",
+      "ent_m8brighteousverdict0001",
+      "ent_m8bwitchsring0000001"
     ],
     "evidence": [
       "evd_43cf07ba816dbe19d270d124",
       "evd_db435362e5eb93eba7f3eac4",
       "evd_m8aconsolepulse2026091001",
       "evd_m8asealedguide2026091001",
-      "evd_m8avulkk2026091001"
+      "evd_m8avulkk2026091001",
+      "evd_m8bconsolepulse2026091001",
+      "evd_m8bpromaxrings2026091001",
+      "evd_m8bringsguide2026091001"
     ],
     "patchChanges": [],
     "patchReviews": [],
     "patches": [],
     "receipts": [
       "rcp_m7houseroberts2026091001",
-      "rcp_m8aprogression2026091001"
+      "rcp_m8aprogression2026091001",
+      "rcp_m8bequipment2026091001"
     ],
     "strategies": []
   },
@@ -139,8 +170,35 @@
       "license_status": "publisher_owned",
       "retention_mode": "normalized_facts",
       "url": "https://vulkk.com/2026/03/26/crimson-desert-troubled-count-walkthrough-karin-quarry-excavatron/"
+    },
+    {
+      "basis_url": "https://www.copyright.gov/what-is-copyright/",
+      "boundary": "M8B only: selected independently expressed acquisition, category and qualified effect summaries for two items. No article body, table layout, images, game assets or database extraction. Retain exact author/source attribution and configuration uncertainty. Publisher ownership is not an open licence; no blanket rights, intrinsic-stat or current-build certification. See docs/M8B_EQUIPMENT.md.",
+      "decision": "limited_original_factual_extraction",
+      "evidence_id": "evd_m8bconsolepulse2026091001",
+      "license_status": "publisher_owned",
+      "retention_mode": "normalized_facts",
+      "url": "https://consolepulse.com/multiplatform/crimson-desert/guides/3-best-two-handed-swords-in-crimson-desert"
+    },
+    {
+      "basis_url": "https://www.copyright.gov/what-is-copyright/",
+      "boundary": "M8B only: selected independently expressed acquisition, category and qualified effect summaries for two items. No article body, table layout, images, game assets or database extraction. Retain exact author/source attribution and configuration uncertainty. Publisher ownership is not an open licence; no blanket rights, intrinsic-stat or current-build certification. See docs/M8B_EQUIPMENT.md.",
+      "decision": "limited_original_factual_extraction",
+      "evidence_id": "evd_m8bpromaxrings2026091001",
+      "license_status": "publisher_owned",
+      "retention_mode": "normalized_facts",
+      "url": "https://gamingpromax.com/best-rings-in-crimson-desert/"
+    },
+    {
+      "basis_url": "https://www.copyright.gov/what-is-copyright/",
+      "boundary": "M8B only: selected independently expressed acquisition, category and qualified effect summaries for two items. No article body, table layout, images, game assets or database extraction. Retain exact author/source attribution and configuration uncertainty. Publisher ownership is not an open licence; no blanket rights, intrinsic-stat or current-build certification. See docs/M8B_EQUIPMENT.md.",
+      "decision": "limited_original_factual_extraction",
+      "evidence_id": "evd_m8bringsguide2026091001",
+      "license_status": "publisher_owned",
+      "retention_mode": "normalized_facts",
+      "url": "https://games.gg/crimson-desert/guides/crimson-desert-best-rings/"
     }
   ],
   "schema_version": "pywel.corpus_additions.v1",
-  "scope_id": "pywel-post-release-m7-m8a"
+  "scope_id": "pywel-post-release-m7-m8b"
 }

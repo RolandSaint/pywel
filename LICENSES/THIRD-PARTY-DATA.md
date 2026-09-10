@@ -1,6 +1,6 @@
 # Third-party data notices
 
-Reviewed 2026-09-10. This notice covers the original 77 evidence records, two M7 additions and three M8A additions, for 82 current records. The initial retained manifest and reviewed additions identify exact membership. Source titles, locators, capture context, and hashes remain in the evidence records.
+Reviewed 2026-09-10. This notice covers the original 77 evidence records, two M7 additions, three M8A additions and three M8B additions, for 85 current records. The initial retained manifest and reviewed additions identify exact membership. Source titles, locators, capture context, and hashes remain in the evidence records.
 
 ## CrimsonWiki community contributions
 
@@ -121,6 +121,16 @@ The same limited factual-extraction boundary applies only to the records enumera
 | `evd_m8aconsolepulse2026091001` | Aiden Nguyen, Console Pulse, [Estate in Dismay walkthrough](https://consolepulse.com/multiplatform/crimson-desert/guides/crimson-desert-estate-in-dismay), published May 30 and updated August 17, 2026 | Selected entry conditions and item/contribution rewards for the four existing pilot quests; no copied walkthrough. |
 | `evd_m8asealedguide2026091001` | Larc, GAMES.GG, [Sealed in Stone guide](https://games.gg/crimson-desert/guides/crimson-desert-how-to-complete-sealed-in-stone-quest/), updated March 30, 2026 | The unlock dependency and explicit no-direct-item statement; same source group as the prior GAMES.GG guide. |
 | `evd_m8avulkk2026091001` | Siow, VULKK, [Stolen Quarry walkthrough](https://vulkk.com/2026/03/26/crimson-desert-troubled-count-walkthrough-karin-quarry-excavatron/), updated March 31, 2026 | Selected encounter rewards, quest dependency and final item quantities; not combat order or optional loot. |
+
+## M8B guide sources: two equipment references
+
+The exact sources below receive only the bounded factual-extraction disposition in [M8B](../docs/M8B_EQUIPMENT.md) and the cumulative additions manifest. Authors and publishers retain their rights; no open article licence or permission to mirror source content is asserted. Pywel contributes independently expressed assertions, identifying labels and qualified context, not source prose, layouts, screenshots or databases. Underlying game IP and downstream-use limitations remain separate.
+
+| Evidence ID | Author, source and date | Retained scope |
+| --- | --- | --- |
+| `evd_m8bconsolepulse2026091001` | Aiden Nguyen, Console Pulse, [3 Best Two-Handed Swords](https://consolepulse.com/multiplatform/crimson-desert/guides/3-best-two-handed-swords-in-crimson-desert), published May 14, updated September 7, 2026 | Righteous Verdict acquisition, category, attached gear and qualified setup summaries; not intrinsic stats or a full refinement table. |
+| `evd_m8bringsguide2026091001` | Larc, GAMES.GG, [Best Rings You Should Get](https://games.gg/crimson-desert/guides/crimson-desert-best-rings/), June 5, 2026 | Witch's Ring acquisition, category and refined speed; no copied walkthrough or acquisition exclusivity. |
+| `evd_m8bpromaxrings2026091001` | Eva Roberts, Gaming ProMax, [Best Rings](https://gamingpromax.com/best-rings-in-crimson-desert/), June 6, 2026 | Reported stamina-regeneration direction only; its numeric magnitude remains unresolved. |
 
 ## Excluded sources
 

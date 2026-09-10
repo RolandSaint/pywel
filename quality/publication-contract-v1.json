@@ -21,7 +21,8 @@
     "SOURCE_POLICY.md",
     "THREAT_MODEL.md",
     "M7_HOUSE_ROBERTS.md",
-    "M8A_PROGRESSION.md"
+    "M8A_PROGRESSION.md",
+    "M8B_EQUIPMENT.md"
   ],
   "public_schemas": [
     "agent-contract.schema.json",

@@ -1,10 +1,10 @@
-// Initial reference dataset plus reviewed M7 and M8A additions. Counts are not gameplay verification.
+// Initial reference dataset plus reviewed M7, M8A and M8B additions. Counts are not gameplay verification.
 export const CURRENT_CORPUS = {
-  entity_records: 318,
-  active_entities: 318,
-  claims: 1426,
-  evidence: 82,
-  receipts: 3,
+  entity_records: 320,
+  active_entities: 320,
+  claims: 1435,
+  evidence: 85,
+  receipts: 4,
   patches: 27,
   strategies: 1,
 } as const;
