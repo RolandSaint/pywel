@@ -8,7 +8,7 @@ Pywel stores atomic claims with stable identities, evidence, uncertainty, and ga
 
 ## Read without installing Pywel
 
-An HTTP-capable or GitHub-connected agent can start at [AGENT_START.md](AGENT_START.md), pin one commit, and retrieve selected canonical JSON and evidence directly. No clone, npm install, Pywel server or owner PC is required. The [sample routes](examples/public-read.json) are not a complete corpus index, and raw files are not context- or spoiler-filtered. This is public-file access, **not hosted REST or remote MCP**. See [M9's verification limits](docs/M9_NO_INSTALL.md). The [database-source survey](docs/DATABASE_SOURCES.md) records the database-first research direction without importing new facts.
+An HTTP-capable or GitHub-connected agent can start at [AGENT_START.md](https://github.com/RolandSaint/pywel/blob/main/AGENT_START.md), pin one commit, and retrieve selected canonical JSON and evidence directly. No clone, npm install, Pywel server or owner PC is required. The [sample routes](https://github.com/RolandSaint/pywel/blob/main/examples/public-read.json) are not a complete corpus index, and raw files are not context- or spoiler-filtered. This is public-file access, **not hosted REST or remote MCP**. See [M9's verification limits](https://github.com/RolandSaint/pywel/blob/main/docs/M9_NO_INSTALL.md). The [database-source survey](https://github.com/RolandSaint/pywel/blob/main/docs/DATABASE_SOURCES.md) records the database-first research direction without importing new facts. These online discovery links also work from a copied offline README; resolve a commit before consuming records, rather than mixing mutable main files with that bundle's identity.
 
 ## Pywel 1.0.0
 

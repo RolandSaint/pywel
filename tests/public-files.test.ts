@@ -24,6 +24,17 @@ async function probe(snapshot: string, localRoot?: string) {
 }
 
 describe("M9 public-file consumption", () => {
+  it("keeps online entry links usable from a copied offline README", async () => {
+    const readme = await readFile(resolve(root, "README.md"), "utf8");
+    const section = readme.split("## Read without installing Pywel\n")[1]?.split("\n## ")[0];
+    expect(section).toBeDefined();
+    for (const path of ["AGENT_START.md", "examples/public-read.json", "docs/M9_NO_INSTALL.md", "docs/DATABASE_SOURCES.md"]) {
+      expect(section).toContain(`(https://github.com/RolandSaint/pywel/blob/main/${path})`);
+      expect(section).not.toContain(`](${path})`);
+    }
+    expect(section).toContain("pin one commit");
+  });
+
   it("keeps sample routes bound to canonical data and preserves unknown/review metadata", async () => {
     const result = await probe(fixtureSha, root);
     expect(result.ok).toBe(true);
