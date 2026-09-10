@@ -24,7 +24,7 @@ async function probe(snapshot: string, localRoot?: string) {
 }
 
 describe("M9 public-file consumption", () => {
-  it("keeps online entry links usable from a copied offline README", async () => {
+  it("keeps online entry links and machine-readable bootstrap discoverable", async () => {
     const readme = await readFile(resolve(root, "README.md"), "utf8");
     const section = readme.split("## Read without installing Pywel\n")[1]?.split("\n## ")[0];
     expect(section).toBeDefined();
@@ -33,6 +33,11 @@ describe("M9 public-file consumption", () => {
       expect(section).not.toContain(`](${path})`);
     }
     expect(section).toContain("pin one commit");
+    const bootstrap = await readFile(resolve(root, "000_LOAD_FIRST_PYWEL.yaml"), "utf8");
+    const readFirst = bootstrap.split("read_first:\n")[1]?.split("run_first:\n")[0];
+    for (const path of ["AGENT_START.md", "docs/M9_NO_INSTALL.md", "docs/DATABASE_SOURCES.md"]) {
+      expect(readFirst).toContain(`  - ${path}\n`);
+    }
   });
 
   it("keeps sample routes bound to canonical data and preserves unknown/review metadata", async () => {
