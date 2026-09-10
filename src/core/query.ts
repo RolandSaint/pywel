@@ -993,7 +993,7 @@ export class KnowledgeIndex {
       (claim) =>
         claim.subject_entity_id === entityId &&
         contextMatches(claim.validity, context) &&
-        SPOILER_ORDER[claim.spoiler_level] <= SPOILER_ORDER[context.spoilerCeiling]) &&
+        SPOILER_ORDER[claim.spoiler_level] <= SPOILER_ORDER[context.spoilerCeiling] &&
         (context.includeRetracted || claim.status !== "retracted") &&
         (context.includeSuperseded || !this.claimIsSuperseded(claim.claim_id, context)),
     );
@@ -1026,7 +1026,7 @@ export class KnowledgeIndex {
           (filters.predicate === undefined || claim.predicate === filters.predicate) &&
           (filters.status === undefined || claim.status === filters.status) &&
           contextMatches(claim.validity, context) &&
-          SPOILER_ORDER[claim.spoiler_level] <= SPOILER_ORDER[context.spoilerCeiling]) &&
+          SPOILER_ORDER[claim.spoiler_level] <= SPOILER_ORDER[context.spoilerCeiling] &&
           (context.includeRetracted || claim.status !== "retracted") &&
           (context.includeSuperseded || !this.claimIsSuperseded(claim.claim_id, context)),
       );
@@ -1041,7 +1041,7 @@ export class KnowledgeIndex {
       (strategy) =>
         strategy.goal_entity_id === entityId &&
         contextMatches(strategy.validity, context) &&
-        SPOILER_ORDER[strategy.spoiler_level] <= SPOILER_ORDER[context.spoilerCeiling]) &&
+        SPOILER_ORDER[strategy.spoiler_level] <= SPOILER_ORDER[context.spoilerCeiling] &&
         (context.includeRetracted || strategy.status !== "retracted"),
     );
   }
