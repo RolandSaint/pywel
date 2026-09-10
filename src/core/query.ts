@@ -612,19 +612,17 @@ function explicitIdentityAnchors(query: string, entities: Entity[]): Set<string>
       .map((name) => ({ entity_id: entity.entity_id, name })),
   );
   if (matches.length === 0) return new Set();
-  const exactMatches = matches.filter(({ name }) => haystack.includes(` ${name} `));
-  const anchoredMatches = exactMatches.length > 0 ? exactMatches : matches;
+  // Remove embedded short names before preferring literal matches, so a typo
+  // in a longer name cannot substitute its separately indexed short neighbor.
+  const specificMatches = matches.filter(
+    (match) => !matches.some(
+      (candidate) => candidate.name.length > match.name.length &&
+        ` ${candidate.name} `.includes(` ${match.name} `),
+    ),
+  );
+  const exactMatches = specificMatches.filter(({ name }) => haystack.includes(` ${name} `));
   return new Set(
-    anchoredMatches
-      .filter(
-        (match) =>
-          !anchoredMatches.some(
-            (candidate) =>
-              candidate.name.length > match.name.length &&
-              ` ${candidate.name} `.includes(` ${match.name} `),
-          ),
-      )
-      .map((match) => match.entity_id),
+    (exactMatches.length > 0 ? exactMatches : specificMatches).map((match) => match.entity_id),
   );
 }
 
@@ -1145,7 +1143,7 @@ export class KnowledgeIndex {
       ["location", "route"],
       ["drop", "rate", "chance"],
       ["purpose", "description", "summary", "category"],
-    ].filter((family) => family.some((token) => naturalIntentTokens.includes(token))).length);
+    ].filter((family) => family.some((token) => naturalIntentTokens.includes(alias => false)))).length);
     const minimum = requiredTokenMatches(tokens);
     const directExplicitAnchors = new Set(
       [...explicitIdentityAnchors(query, this.store.entities)].map((entityId) => {
