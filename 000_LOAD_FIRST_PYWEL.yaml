@@ -1,7 +1,7 @@
 schema_version: pywel.load_first.v4
 project_id: pywel_knowledge_standard
 display_name: Pywel Knowledge Standard
-status: post_release_m8a_source
+status: post_release_m8b_source
 source_repository: https://github.com/RolandSaint/pywel
 source_visibility: public
 scope_adopted_on: '2026-09-10'
@@ -28,6 +28,7 @@ read_first:
   - DATA_RIGHTS.md
   - docs/M7_HOUSE_ROBERTS.md
   - docs/M8A_PROGRESSION.md
+  - docs/M8B_EQUIPMENT.md
 run_first:
   - npm ci --ignore-scripts --no-audit --no-fund
   - npm run check

@@ -1,0 +1,52 @@
+{
+  "catalog_id": "cat_m8bequipmententities0001",
+  "records": [
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Righteous Verdict"
+      },
+      "entity_id": "ent_m8brighteousverdict0001",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-10T22:37:00Z",
+        "created_by": "pywel_m8b_public_research",
+        "source_receipt_id": "rcp_m8bequipment2026091001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.righteous-verdict",
+      "subtype": "weapon",
+      "summary": "Righteous Verdict: equipment reference with source-qualified historical claims; not a current-build certification.",
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Witch's Ring"
+      },
+      "entity_id": "ent_m8bwitchsring0000001",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-10T22:37:00Z",
+        "created_by": "pywel_m8b_public_research",
+        "source_receipt_id": "rcp_m8bequipment2026091001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.witchs-ring",
+      "subtype": "accessory",
+      "summary": "Witch's Ring: equipment reference with source-qualified historical claims; not a current-build certification.",
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ]
+    }
+  ],
+  "schema_version": "pywel.entity_catalog.v1"
+}

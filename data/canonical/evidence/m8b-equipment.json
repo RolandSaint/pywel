@@ -1,0 +1,87 @@
+{
+  "catalog_id": "cat_m8bequipmentevidence0001",
+  "records": [
+    {
+      "captured_at": "2026-09-10T22:37:00Z",
+      "evidence_id": "evd_m8bconsolepulse2026091001",
+      "evidence_type": "guide",
+      "provenance": {
+        "created_at": "2026-09-10T22:37:00Z",
+        "created_by": "pywel_m8b_public_research",
+        "source_receipt_id": "rcp_m8bequipment2026091001"
+      },
+      "reliability": {
+        "independence_group": "guide:console-pulse:aiden-nguyen",
+        "tier": "secondary"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "locator": "Published May 14, updated September 7, 2026. Section 1 Righteous Verdict: equipped refinement-5 example and Where to find it. Retain the acquisition, weapon category, three listed attached gear names and two explicitly configuration-qualified stat summaries. No intrinsic/base stat, complete refinement table or observed platform/build claim. Same publisher/author as M8A, not independent corroboration. Full relevant page text inspected.",
+        "published_at": null,
+        "publisher": "Console Pulse; Aiden Nguyen",
+        "title": "3 Best Two-Handed Swords in Crimson Desert",
+        "url": "https://consolepulse.com/multiplatform/crimson-desert/guides/3-best-two-handed-swords-in-crimson-desert"
+      }
+    },
+    {
+      "captured_at": "2026-09-10T22:37:00Z",
+      "evidence_id": "evd_m8bpromaxrings2026091001",
+      "evidence_type": "guide",
+      "provenance": {
+        "created_at": "2026-09-10T22:37:00Z",
+        "created_by": "pywel_m8b_public_research",
+        "source_receipt_id": "rcp_m8bequipment2026091001"
+      },
+      "reliability": {
+        "independence_group": "guide:gaming-promax:eva-roberts",
+        "tier": "secondary"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "locator": "June 6, 2026. Best Rings, section 1 Witch's Ring: stamina-regeneration direction only. The stated 8% magnitude is not adopted: other retrieved guides report 6% without matched build/refinement observations. No magnitude, activation tier, maximum-attack stat, ranking or independent gameplay verification is retained. Full relevant passage inspected.",
+        "published_at": null,
+        "publisher": "Gaming ProMax; Eva Roberts",
+        "title": "Best Rings in Crimson Desert",
+        "url": "https://gamingpromax.com/best-rings-in-crimson-desert/"
+      }
+    },
+    {
+      "captured_at": "2026-09-10T22:37:00Z",
+      "evidence_id": "evd_m8bringsguide2026091001",
+      "evidence_type": "guide",
+      "provenance": {
+        "created_at": "2026-09-10T22:37:00Z",
+        "created_by": "pywel_m8b_public_research",
+        "source_receipt_id": "rcp_m8bequipment2026091001"
+      },
+      "reliability": {
+        "independence_group": "guide:games-gg:larc",
+        "tier": "secondary"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "locator": "Page dated June 5, 2026. How to get the Witch's Ring, first two paragraphs: refined attack-speed bonus and Chapter 9 Goyen acquisition at Nest of Valor. Retain no mirror-puzzle walkthrough, alternate-source exclusion or exact +10 refinement assertion. Same author/publisher group as earlier GAMES.GG evidence. Full relevant passage inspected.",
+        "published_at": null,
+        "publisher": "GAMES.GG; Larc",
+        "title": "Crimson Desert Best Rings You Should Get",
+        "url": "https://games.gg/crimson-desert/guides/crimson-desert-best-rings/"
+      }
+    }
+  ],
+  "schema_version": "pywel.evidence_catalog.v1"
+}
