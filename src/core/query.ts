@@ -234,6 +234,8 @@ function queryIntentAliases(query: string): string[] {
 
 interface RequestedFactIntent {
   code:
+    | "organization_quests"
+    | "organization_leader"
     | "quest_reward"
     | "entity_location"
     | "drop_rate"
@@ -315,6 +317,13 @@ function hasSolutionIntent(normalized: string): boolean {
 
 function requestedFactIntent(query: string): RequestedFactIntent | null {
   const normalized = normalizedPhrase(query);
+  if (/\bwho\s+(?:leads|is\s+(?:the\s+)?leader)\b|\bleadership\s+of\b/.test(normalized)) {
+    return { code: "organization_leader", label: "organization leader" };
+  }
+  if (/\bquests?\b/.test(normalized) && /\b(?:belong|belongs|associated)\b/.test(normalized)) {
+    return { code: "organization_quests", label: "organization quest association" };
+  }
+
   if (/\b(?:is|are)\b.+\b(?:a|an)\s+(?:game|system|item|effect|skill|ability|actor|quest|location|faction|organization|activity|resource|recipe|mechanic)\b/.test(normalized)) {
     return { code: "entity_classification", label: "classification" };
   }
@@ -480,6 +489,9 @@ function keepDisputedPeersAdjacent<T extends { claim: Claim }>(scores: T[]): T[]
 
 function claimAnswersRequestedFact(claim: Claim, intent: RequestedFactIntent): boolean {
   const predicate = claim.predicate.toLocaleLowerCase("en-US");
+  if (intent.code === "organization_quests") return predicate === "quest.organization";
+  // Membership and an actor's role do not establish leadership.
+  if (intent.code === "organization_leader") return predicate === "organization.leader";
   if (intent.code === "entity_classification") {
     return predicate === "catalog.community_indexed_type" || predicate === "catalog.source_indexed_type";
   }
@@ -981,7 +993,7 @@ export class KnowledgeIndex {
       (claim) =>
         claim.subject_entity_id === entityId &&
         contextMatches(claim.validity, context) &&
-        SPOILER_ORDER[claim.spoiler_level] <= SPOILER_ORDER[context.spoilerCeiling] &&
+        SPOILER_ORDER[claim.spoiler_level] <= SPOILER_ORDER[context.spoilerCeiling]) &&
         (context.includeRetracted || claim.status !== "retracted") &&
         (context.includeSuperseded || !this.claimIsSuperseded(claim.claim_id, context)),
     );
@@ -1014,7 +1026,7 @@ export class KnowledgeIndex {
           (filters.predicate === undefined || claim.predicate === filters.predicate) &&
           (filters.status === undefined || claim.status === filters.status) &&
           contextMatches(claim.validity, context) &&
-          SPOILER_ORDER[claim.spoiler_level] <= SPOILER_ORDER[context.spoilerCeiling] &&
+          SPOILER_ORDER[claim.spoiler_level] <= SPOILER_ORDER[context.spoilerCeiling]) &&
           (context.includeRetracted || claim.status !== "retracted") &&
           (context.includeSuperseded || !this.claimIsSuperseded(claim.claim_id, context)),
       );
@@ -1029,7 +1041,7 @@ export class KnowledgeIndex {
       (strategy) =>
         strategy.goal_entity_id === entityId &&
         contextMatches(strategy.validity, context) &&
-        SPOILER_ORDER[strategy.spoiler_level] <= SPOILER_ORDER[context.spoilerCeiling] &&
+        SPOILER_ORDER[strategy.spoiler_level] <= SPOILER_ORDER[context.spoilerCeiling]) &&
         (context.includeRetracted || strategy.status !== "retracted"),
     );
   }
@@ -1157,6 +1169,17 @@ export class KnowledgeIndex {
       this.entityById,
       this.store.claims,
     );
+    if (requestedFacts.some(({ code }) => code === "organization_quests")) {
+      for (const claim of this.store.claims) {
+        if (claim.predicate === "quest.organization" && claim.object.kind === "entity" &&
+            directExplicitAnchors.has(claim.object.entity_id) && contextMatches(claim.validity, context) &&
+            SPOILER_ORDER[claim.spoiler_level] <= SPOILER_ORDER[context.spoilerCeiling] &&
+            (context.includeRetracted || claim.status !== "retracted") &&
+            (context.includeSuperseded || !this.claimIsSuperseded(claim.claim_id, context))) {
+          explicitAnchors.add(claim.subject_entity_id);
+        }
+      }
+    }
     const normalizedQuery = ` ${normalizedPhrase(query)} `;
     const explicitConflictIntent = /\b(?:conflict|conflicting|disagree|disputed|unresolved source)\b/.test(normalizedQuery);
     const explicitPatchHistoryIntent = explicitPatchVersion(query) !== undefined &&
@@ -1224,9 +1247,13 @@ export class KnowledgeIndex {
     const anchoredClaimsExist = eligibleClaimScores.some(
       ({ identityScore, eligible }) => identityScore > 0 && eligible,
     );
-    let claimScores = anchoredClaimsExist
+    let claimScores = anchoredClaimsExist && !requestedFacts.some(({ code }) => code === "organization_quests")
       ? eligibleClaimScores.filter(({ identityScore, eligible }) => identityScore > 0 && eligible)
       : eligibleClaimScores;
+    if (requestedFacts.some(({ code }) => code === "organization_quests")) {
+      claimScores = claimScores.filter(({ claim }) => claim.predicate === "quest.organization" &&
+        claim.object.kind === "entity" && directExplicitAnchors.has(claim.object.entity_id));
+    }
     if (explicitPatchHistoryIntent) {
       claimScores = claimScores.filter(({ claim }) => claim.validity.from_patch === context.patch);
     }
