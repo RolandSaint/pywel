@@ -244,6 +244,7 @@ interface RequestedFactIntent {
     | "item_interaction"
     | "entity_use"
     | "crafting_recipe"
+    | "recipe_ingredients"
     | "prerequisite"
     | "ability_cost"
     | "unlock_condition"
@@ -339,6 +340,9 @@ function requestedFactIntent(query: string): RequestedFactIntent | null {
   if (hasItemInteractionIntent(normalized)) {
     return { code: "item_interaction", label: "item interaction" };
   }
+  if (/\bingredients?\b/.test(normalized)) {
+    return { code: "recipe_ingredients", label: "recipe ingredient" };
+  }
   if (/\b(craft|crafted|crafting|recipe)\b/.test(normalized)) {
     return { code: "crafting_recipe", label: "crafting" };
   }
@@ -408,11 +412,12 @@ function requestedFactIntents(query: string): RequestedFactIntent[] {
   if (hasItemInteractionIntent(normalized)) {
     add({ code: "item_interaction", label: "item interaction" });
   }
-  if (/\b(craft|crafted|crafting|recipe)\b/.test(normalized)) {
+  if (primary.code !== "recipe_ingredients" && /\b(craft|crafted|crafting|recipe)\b/.test(normalized)) {
     add({ code: "crafting_recipe", label: "crafting" });
   }
   if (
     hasPrerequisiteIntent(normalized) &&
+    (primary.code !== "recipe_ingredients" || /\b(?:prerequisites?|requirements?)\b/.test(normalized)) &&
     (!hasQuestCompletionIntent(normalized) || hasExplicitPrerequisiteIntent(normalized))
   ) {
     add({ code: "prerequisite", label: "prerequisite" });
@@ -531,6 +536,9 @@ function claimAnswersRequestedFact(claim: Claim, intent: RequestedFactIntent): b
       predicate === "item.requirement" ||
       predicate === "relation.required_for";
   }
+  if (intent.code === "recipe_ingredients") {
+    return predicate === "recipe.input" || predicate === "relation.crafted_from";
+  }
   if (intent.code === "crafting_recipe") {
     return predicate === "item.acquisition" ||
       predicate === "relation.crafted_from" ||
@@ -553,6 +561,7 @@ function claimAnswersRequestedFact(claim: Claim, intent: RequestedFactIntent): b
 }
 
 function requestedFactSpecificity(claim: Claim, intent: RequestedFactIntent): number {
+  if (intent.code === "recipe_ingredients") return claim.predicate === "recipe.input" ? 0 : 1;
   if (intent.code === "quest_reward") return claim.predicate === "quest.reward" ? 0 : 1;
   if (intent.code === "unlock_condition") {
     return claim.predicate === "ability.unlock_condition" || claim.predicate === "relation.unlocks" ? 0 : 1;
@@ -603,11 +612,13 @@ function explicitIdentityAnchors(query: string, entities: Entity[]): Set<string>
       .map((name) => ({ entity_id: entity.entity_id, name })),
   );
   if (matches.length === 0) return new Set();
+  const exactMatches = matches.filter(({ name }) => haystack.includes(` ${name} `));
+  const anchoredMatches = exactMatches.length > 0 ? exactMatches : matches;
   return new Set(
-    matches
+    anchoredMatches
       .filter(
         (match) =>
-          !matches.some(
+          !anchoredMatches.some(
             (candidate) =>
               candidate.name.length > match.name.length &&
               ` ${candidate.name} `.includes(` ${match.name} `),
@@ -1168,15 +1179,12 @@ export class KnowledgeIndex {
         score: scoreText(tokens, searchableEntityText(entity)),
         identityScore: scoreText(tokens, searchableEntityIdentityText(entity), true),
       }))
-      .filter(({ entity, score, identityScore }) =>
-        explicitAnchors.size > 0
-          ? explicitAnchors.has(entity.entity_id)
-          : score >= minimum || identityScore > 0,
-      );
+      // Loose token hits belong in search, not evidence-backed answers.
+      .filter(({ entity }) => explicitAnchors.has(entity.entity_id));
     const eligibleClaimScores = (instructionShapedQuery || tokens.length === 0 ? [] : this.store.claims)
       .filter(
         (claim) =>
-          (explicitAnchors.size === 0 || explicitAnchors.has(claim.subject_entity_id)) &&
+          explicitAnchors.has(claim.subject_entity_id) &&
           contextMatches(claim.validity, context) &&
           SPOILER_ORDER[claim.spoiler_level] <= SPOILER_ORDER[context.spoilerCeiling] &&
           (context.includeRetracted || claim.status !== "retracted") &&
