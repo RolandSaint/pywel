@@ -31,7 +31,7 @@
     },
     {
       "path": "data/canonical/evidence/m8b-equipment.json",
-      "sha256": "726e041d45649eceb421fe539e5e760a972df7ca60c447d8a6107cbe594621bc"
+      "sha256": "17cc196f31bcb6a8513d71204879a8d24485c576b749d21b2f8d408613bc26a0"
     },
     {
       "path": "data/canonical/receipts/m7-house-roberts.json",
@@ -43,7 +43,7 @@
     },
     {
       "path": "data/canonical/receipts/m8b-equipment.json",
-      "sha256": "be8e10e0e44f1b76eda24bda05a80347edace01c0cf393ed5c6ced014533beab"
+      "sha256": "407e4d8d4f6d70e400265a977ffd913e3a72d14650ce6922950696b38e0e0c67"
     },
     {
       "path": "data/vocabulary/predicates.json",

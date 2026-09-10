@@ -82,6 +82,13 @@ describe("M8B two-item acquisition and qualified effects", () => {
     const hidden = index.answer(questions[2][0], { ...context, spoilerCeiling: "quest_minor" });
     expect(hidden.claims).toEqual([]);
     expect(hidden.concise_answer).not.toContain("Goyen");
+    for (const spoilerCeiling of ["discovery", "quest_minor"] as const) {
+      const effects = index.answer(questions[3][0], { ...context, spoilerCeiling });
+      expect(effects.claims).toHaveLength(2);
+      // Shared evidence must not leak the spoiler-scoped acquisition through its locator.
+      expect(JSON.stringify(effects)).not.toMatch(/Goyen|Nest of Valor|Thinning Blade|Chapter 9/i);
+      expect(JSON.stringify(compactEvidencePacket(effects))).not.toMatch(/Goyen|Nest of Valor|Thinning Blade|Chapter 9/i);
+    }
     expect(index.answer("Where can I get Zorblax Verdict?", context).claims).toEqual([]);
     expect(index.answer("Where can I get Witch's Ring?", { ...context, spoilerCeiling: "none" }).evidence).toEqual([]);
   });

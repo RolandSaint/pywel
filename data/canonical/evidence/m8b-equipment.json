@@ -75,7 +75,7 @@
       },
       "schema_version": "pywel.evidence.v1",
       "source": {
-        "locator": "Page dated June 5, 2026. How to get the Witch's Ring, first two paragraphs: refined attack-speed bonus and Chapter 9 Goyen acquisition at Nest of Valor. Retain no mirror-puzzle walkthrough, alternate-source exclusion or exact +10 refinement assertion. Same author/publisher group as earlier GAMES.GG evidence. Full relevant passage inspected.",
+        "locator": "Page dated June 5, 2026. How to get the Witch's Ring, first two paragraphs: refined attack-speed bonus and acquisition. Story-specific acquisition details are retained only in the spoiler-scoped claim, not this shared locator. Retain no mirror-puzzle walkthrough, alternate-source exclusion or exact +10 refinement assertion. Same author/publisher group as earlier GAMES.GG evidence. Full relevant passage inspected.",
         "published_at": null,
         "publisher": "GAMES.GG; Larc",
         "title": "Crimson Desert Best Rings You Should Get",
