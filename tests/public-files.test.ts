@@ -28,7 +28,7 @@ describe("M9 public-file consumption", () => {
     const result = await probe(fixtureSha, root);
     expect(result.ok).toBe(true);
     expect(result.transport).toBe("local_fixture");
-    expect(result.requests).toBe(10);
+    expect(result.requests).toBe(9);
     expect(result.bytes).toBeLessThanOrEqual(512 * 1024);
     expect(result.results).toHaveLength(6);
     expect(result.results.map((item: { record_ids: string[] }) => item.record_ids.length)).toEqual([1, 3, 1, 2, 1, 0]);
@@ -44,7 +44,7 @@ describe("M9 public-file consumption", () => {
     const scratch = await mkdtemp(resolve(tmpdir(), "pywel-public-tamper-"));
     try {
       const routes = JSON.parse(await readFile(resolve(root, "examples/public-read.json"), "utf8")) as { files: Record<string, string[]> };
-      const files = ["AGENT_START.md", "examples/public-read.json", "quality/corpus-additions.json", "quality/public-release-scope.json", ...Object.values(routes.files).flat()];
+      const files = ["AGENT_START.md", "examples/public-read.json", "quality/corpus-additions.json", ...Object.values(routes.files).flat()];
       for (const path of files) {
         await mkdir(dirname(resolve(scratch, path)), { recursive: true });
         await writeFile(resolve(scratch, path), await readFile(resolve(root, path)));
@@ -64,7 +64,7 @@ describe("M9 public-file consumption", () => {
       expect(result.transport).toBe("anonymous_https");
       expect(result.snapshot).toBe(snapshot);
       expect(result.results).toHaveLength(6);
-      expect(result.requests).toBe(10);
+      expect(result.requests).toBe(9);
       expect(result.files.every((file: { path: string }) => !file.path.startsWith("src/") && !file.path.startsWith("dist/"))).toBe(true);
       console.log(`M9_LIVE_PUBLIC_READ ${JSON.stringify(result)}`);
     }, 100000,
