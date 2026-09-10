@@ -88,7 +88,7 @@ describe("M8A four-quest entry and selected rewards", () => {
 
   it("preserves encounter drops on the existing actor rather than attributing them to a quest", async () => {
     const index = new KnowledgeIndex((await validStore()).store);
-    expect(index.getEntity(excavatron)?.canonical_name.text).toBe("Excavatron");
+    expect(index.getEntity(excavatron)?.canonical_name.text).toBe("Marni's Excavatron");
     const drops = index.claimsForEntity(excavatron, context).filter(claim => claim.provenance.source_receipt_id === receipt);
     expect(drops).toHaveLength(2);
     expect(drops.every(claim => claim.predicate === "actor.reward")).toBe(true);
