@@ -6,6 +6,10 @@
       "sha256": "7d7a669726f9ec3f847780e73ad82834b96d4fdafbd75f7793451822e3c660c9"
     },
     {
+      "path": "data/canonical/claims/m8a-progression.json",
+      "sha256": "232b47b8d58703e32d57bc937ab1dec7bf3f2e54a061494b27b3f7ecf39137a2"
+    },
+    {
       "path": "data/canonical/entities/m7-house-roberts.json",
       "sha256": "4b4d1d6ba61f4e1321de43f539b9042331d9b4a7a13a70d902045df0c706592a"
     },
@@ -14,8 +18,16 @@
       "sha256": "7643d3b8c70f7c61f36240c817ccb582819a7bb86fd2911726c2b4b9db0527bb"
     },
     {
+      "path": "data/canonical/evidence/m8a-progression.json",
+      "sha256": "de2c8f25fdd472eaa37bc844e2e8656a800eb5a0ec332602b3184bba8fe2b86c"
+    },
+    {
       "path": "data/canonical/receipts/m7-house-roberts.json",
       "sha256": "fca2eea55af93ab323b63984c451df96ed7c933fb0bf47f78133264418ce9181"
+    },
+    {
+      "path": "data/canonical/receipts/m8a-progression.json",
+      "sha256": "ff54c97fe3c3cacc9af698130e666a66b46272bdb59a314ea0ceecceed3e457d"
     },
     {
       "path": "data/vocabulary/predicates.json",
@@ -41,7 +53,20 @@
       "clm_c0cbb7084ee56a37df11442a",
       "clm_c955ecfdc92911611af8af74",
       "clm_ec8afb8224797de2719059d7",
-      "clm_fdcd9b131afdc5ce1dd0b550"
+      "clm_fdcd9b131afdc5ce1dd0b550",
+      "clm_m8ahonoralliance2026091001",
+      "clm_m8ahonorazurite2026091001",
+      "clm_m8ahonorbloodstone2026091001",
+      "clm_m8ahonorcontrib2026091001",
+      "clm_m8ahonorearring2026091001",
+      "clm_m8asealednoitem2026091001",
+      "clm_m8asealedprereq2026091001",
+      "clm_m8astolencontrib2026091001",
+      "clm_m8astolendrill2026091001",
+      "clm_m8astolenmap2026091001",
+      "clm_m8astolenprereq2026091001",
+      "clm_m8atrialcontrib2026091001",
+      "clm_m8atrialentry2026091001"
     ],
     "entities": [
       "ent_089ced07950ace8407a29247",
@@ -55,13 +80,17 @@
     ],
     "evidence": [
       "evd_43cf07ba816dbe19d270d124",
-      "evd_db435362e5eb93eba7f3eac4"
+      "evd_db435362e5eb93eba7f3eac4",
+      "evd_m8aconsolepulse2026091001",
+      "evd_m8asealedguide2026091001",
+      "evd_m8avulkk2026091001"
     ],
     "patchChanges": [],
     "patchReviews": [],
     "patches": [],
     "receipts": [
-      "rcp_m7houseroberts2026091001"
+      "rcp_m7houseroberts2026091001",
+      "rcp_m8aprogression2026091001"
     ],
     "strategies": []
   },
@@ -83,8 +112,35 @@
       "license_status": "publisher_owned",
       "retention_mode": "normalized_facts",
       "url": "https://www.pcgamer.com/games/action/crimson-desert-marnies-excavatron-boss-guide/"
+    },
+    {
+      "basis_url": "https://www.copyright.gov/what-is-copyright/",
+      "boundary": "M8A only: selected independently worded entry conditions and rewards for four existing quests. No article prose, tables, images, game files or database extraction. Preserve author/publisher, exact locator and historical uncertainty. Ownership is not an open licence; no blanket rights or gameplay certification. See docs/M8A_PROGRESSION.md.",
+      "decision": "limited_original_factual_extraction",
+      "evidence_id": "evd_m8aconsolepulse2026091001",
+      "license_status": "publisher_owned",
+      "retention_mode": "normalized_facts",
+      "url": "https://consolepulse.com/multiplatform/crimson-desert/guides/crimson-desert-estate-in-dismay"
+    },
+    {
+      "basis_url": "https://www.copyright.gov/what-is-copyright/",
+      "boundary": "M8A only: selected independently worded entry conditions and rewards for four existing quests. No article prose, tables, images, game files or database extraction. Preserve author/publisher, exact locator and historical uncertainty. Ownership is not an open licence; no blanket rights or gameplay certification. See docs/M8A_PROGRESSION.md.",
+      "decision": "limited_original_factual_extraction",
+      "evidence_id": "evd_m8asealedguide2026091001",
+      "license_status": "publisher_owned",
+      "retention_mode": "normalized_facts",
+      "url": "https://games.gg/crimson-desert/guides/crimson-desert-how-to-complete-sealed-in-stone-quest/"
+    },
+    {
+      "basis_url": "https://www.copyright.gov/what-is-copyright/",
+      "boundary": "M8A only: selected independently worded entry conditions and rewards for four existing quests. No article prose, tables, images, game files or database extraction. Preserve author/publisher, exact locator and historical uncertainty. Ownership is not an open licence; no blanket rights or gameplay certification. See docs/M8A_PROGRESSION.md.",
+      "decision": "limited_original_factual_extraction",
+      "evidence_id": "evd_m8avulkk2026091001",
+      "license_status": "publisher_owned",
+      "retention_mode": "normalized_facts",
+      "url": "https://vulkk.com/2026/03/26/crimson-desert-troubled-count-walkthrough-karin-quarry-excavatron/"
     }
   ],
   "schema_version": "pywel.corpus_additions.v1",
-  "scope_id": "pywel-m7-house-roberts"
+  "scope_id": "pywel-post-release-m7-m8a"
 }
