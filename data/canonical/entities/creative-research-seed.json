@@ -1,0 +1,200 @@
+{
+  "schema_version": "pywel.entity_catalog.v1",
+  "catalog_id": "cat_517111518d28000d4d9d1f85",
+  "records": [
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_9f54ed640e4227a7912de1be",
+      "game_id": "crimson_desert",
+      "slug": "actor.damiane",
+      "entity_type": "actor",
+      "subtype": "player_character",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Damiane"
+      },
+      "summary": "Crimson Desert actor reference: Damiane. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "actor",
+        "agile-hybrid",
+        "playable",
+        "playable-character"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T03:45:18-05:00",
+        "created_by": "creative_research_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_7e56dea738b3290968de9b16",
+      "game_id": "crimson_desert",
+      "slug": "actor.oongka",
+      "entity_type": "actor",
+      "subtype": "player_character",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Oongka"
+      },
+      "summary": "Crimson Desert actor reference: Oongka. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "actor",
+        "heavy-combatant",
+        "playable",
+        "playable-character"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T03:45:18-05:00",
+        "created_by": "creative_research_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_acd927ab18d8eea4248813d2",
+      "game_id": "crimson_desert",
+      "slug": "system.abyss-gear",
+      "entity_type": "system",
+      "subtype": "system",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Abyss Gear"
+      },
+      "summary": "Crimson Desert system reference: Abyss Gear. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "abyss-gear",
+        "equipment",
+        "socket",
+        "system"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T03:45:18-05:00",
+        "created_by": "creative_research_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_85cd231cab36c18c98ca5c2c",
+      "game_id": "crimson_desert",
+      "slug": "system.dyehouse",
+      "entity_type": "system",
+      "subtype": "system",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Dyehouse"
+      },
+      "summary": "Crimson Desert system reference: Dyehouse. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "appearance",
+        "dye",
+        "dyehouse",
+        "system"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T03:45:18-05:00",
+        "created_by": "creative_research_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_94253fd98e5bfbf4b797a4e9",
+      "game_id": "crimson_desert",
+      "slug": "actor.camora",
+      "entity_type": "actor",
+      "subtype": "mount",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Camora"
+      },
+      "summary": "Crimson Desert actor reference: Camora. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Kamora"
+        }
+      ],
+      "tags": [
+        "horse",
+        "legendary-horse",
+        "mount",
+        "mounted-combat-specialist"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T03:45:18-05:00",
+        "created_by": "creative_research_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_21a127f39082ad35ff34a65a",
+      "game_id": "crimson_desert",
+      "slug": "actor.rokade",
+      "entity_type": "actor",
+      "subtype": "mount",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Rokade"
+      },
+      "summary": "Crimson Desert actor reference: Rokade. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Rocade"
+        },
+        {
+          "locale": "en-US",
+          "text": "Rokaid"
+        }
+      ],
+      "tags": [
+        "durability-specialist",
+        "horse",
+        "legendary-horse",
+        "mount"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T03:45:18-05:00",
+        "created_by": "creative_research_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_f97d2f385c23a53f9e1350c6",
+      "game_id": "crimson_desert",
+      "slug": "actor.royler",
+      "entity_type": "actor",
+      "subtype": "mount",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Royler"
+      },
+      "summary": "Crimson Desert actor reference: Royler. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Roiler"
+        }
+      ],
+      "tags": [
+        "horse",
+        "legendary-horse",
+        "mount",
+        "traversal-specialist"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T03:45:18-05:00",
+        "created_by": "creative_research_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    }
+  ]
+}

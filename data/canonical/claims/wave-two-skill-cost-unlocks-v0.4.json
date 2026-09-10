@@ -1,0 +1,72 @@
+{
+  "catalog_id": "cat_e39f5cbb53b7f4d1f5a88194",
+  "records": [
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_9691be1c89b8c7a8582ce767",
+      "confidence": 0.9,
+      "evidence_ids": [
+        "evd_cdpatch10800official0001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Two-handed-sword Quick Swap has Spirit-dependent resource behavior; the exact debit is not stated."
+      },
+      "predicate": "ability.cost",
+      "provenance": {
+        "created_at": "2026-07-15T18:48:00-05:00",
+        "created_by": "wave_two_skill_cost_unlocks_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_9eef8e64fd494ff5cb749b64",
+      "validity": {
+        "from_patch": "1.08.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": "1.13.01",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_b8bb4f39bfa7b4578884cd97",
+      "confidence": 0.9,
+      "evidence_ids": [
+        "evd_cdpatch11100official0001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Scatter Shot consumes cannonball ammunition; the exact amount per activation is not stated."
+      },
+      "predicate": "ability.cost",
+      "provenance": {
+        "created_at": "2026-07-15T18:48:00-05:00",
+        "created_by": "wave_two_skill_cost_unlocks_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_827cc21f36b9dcaad82fade5",
+      "validity": {
+        "from_patch": "1.11.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": "1.13.01",
+        "through_patch": null
+      }
+    }
+  ],
+  "schema_version": "pywel.claim_catalog.v1"
+}

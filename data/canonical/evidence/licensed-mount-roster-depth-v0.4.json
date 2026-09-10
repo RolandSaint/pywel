@@ -1,0 +1,34 @@
+{
+  "catalog_id": "cat_dac983613d73b2bc5e082349",
+  "records": [
+    {
+      "captured_at": "2026-07-16T20:08:18Z",
+      "evidence_id": "evd_c427fe86eb787df9a469d02e",
+      "evidence_type": "guide",
+      "provenance": {
+        "created_at": "2026-07-16T20:08:18Z",
+        "created_by": "licensed_mount_roster_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "crimsonwiki-community-wiki",
+        "tier": "unverified"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "compatible_license",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "content_sha256": "d5a9e004a6148682897d6ba3f7f6710db16bd88e07ef44fbaa460002e7ae6ed3",
+        "locator": "Hash-locked projection of 31 structured mount-table rows captured 2026-07-16T20:08:18Z; no stable revision ID is exposed and volatile article-modified metadata is excluded; CC BY-SA 4.0 attribution and share-alike apply",
+        "published_at": null,
+        "publisher": "CrimsonWiki contributors",
+        "title": "Mounts guide - Mounts | CrimsonWiki",
+        "url": "https://crimsonwiki.org/wiki/mounts-guide"
+      }
+    }
+  ],
+  "schema_version": "pywel.evidence_catalog.v1"
+}

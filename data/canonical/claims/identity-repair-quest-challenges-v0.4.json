@@ -1,0 +1,105 @@
+{
+  "catalog_id": "cat_fea6f96babc6c09b0d14aca3",
+  "records": [
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_07bf25113d641797023a78d3",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_cdpatch10700official0001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Patch 1.07.00 states that the Pollengarth Apiary honey-quality objective completion issue was resolved."
+      },
+      "predicate": "quest.availability",
+      "provenance": {
+        "created_at": "2026-07-16T15:40:00-05:00",
+        "created_by": "identity_repair_quest_challenges_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_minor",
+      "status": "official",
+      "subject_entity_id": "ent_d7888a7c62636637c711b824",
+      "validity": {
+        "from_patch": "1.07.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": "1.14.00",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_2533ab8d18fedaa369faa500",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_cdpatch11300official0001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "The injured-soldier rescue follows an earlier sub-quest; patch 1.13.00 fixed the prior sub-quest failing when the rescue was completed first."
+      },
+      "predicate": "quest.sequence",
+      "provenance": {
+        "created_at": "2026-07-16T15:40:00-05:00",
+        "created_by": "identity_repair_quest_challenges_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_minor",
+      "status": "official",
+      "subject_entity_id": "ent_9989e0f710724699b4307840",
+      "validity": {
+        "from_patch": "1.13.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": "1.14.00",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_7fb4d055dec8920788c8d4e8",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_cdpatch11300official0001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Rescue an injured soldier."
+      },
+      "predicate": "quest.objective",
+      "provenance": {
+        "created_at": "2026-07-16T15:40:00-05:00",
+        "created_by": "identity_repair_quest_challenges_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_minor",
+      "status": "official",
+      "subject_entity_id": "ent_9989e0f710724699b4307840",
+      "validity": {
+        "from_patch": "1.13.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": "1.14.00",
+        "through_patch": null
+      }
+    }
+  ],
+  "schema_version": "pywel.claim_catalog.v1"
+}

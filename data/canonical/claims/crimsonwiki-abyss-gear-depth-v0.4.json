@@ -1,0 +1,1689 @@
+{
+  "catalog_id": "cat_7a46982d16f552e627eb787a",
+  "records": [
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_060ebad2a162d8011c7f5ea4",
+      "confidence": 0.38,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "1st Socket: 5 Silver; running total 5 Silver."
+      },
+      "predicate": "system.interaction",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_acd927ab18d8eea4248813d2",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_0e147d5f9a5ed2fb05cdea43",
+      "confidence": 0.38,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Ranged Weapons maximum Abyss Gear sockets: 5."
+      },
+      "predicate": "system.interaction",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_acd927ab18d8eea4248813d2",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_1062870ee9cc8223c660b0c7",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "ability Abyss Gear"
+      },
+      "predicate": "item.category",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_01a08094b835fcbf9fc6c10a",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_122f2b6accd23e47df259c29",
+      "confidence": 0.4,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Compatible equipment: Armor only"
+      },
+      "predicate": "item.requirement",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_baa15b657dd07a9234196e90",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_16291e81d43167b92c3dcd9c",
+      "confidence": 0.38,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Food healing received: approximately +15%."
+      },
+      "predicate": "item.effect_summary",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_014ee2bf7f3323de6c4185e9",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_16fb385e96a8cdedccf2258b",
+      "confidence": 0.38,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "2nd Socket: 10 Silver; running total 15 Silver."
+      },
+      "predicate": "system.interaction",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_acd927ab18d8eea4248813d2",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_1bf7189adf267a989b5a25bb",
+      "confidence": 0.4,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Compatible equipment: Armor only"
+      },
+      "predicate": "item.requirement",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_e5fa0a6fdaf683a50b16f065",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_23f33437e44de08dfd4a0a13",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "stat Abyss Gear"
+      },
+      "predicate": "item.category",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_be17a1f1e0d967fe6ad441d1",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_29abd46350fff30cd6a6bd4f",
+      "confidence": 0.34,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Extracted from Blackwing Mask, Plate Gloves of the Shadows, or other armor that contains Haste I."
+      },
+      "predicate": "item.acquisition",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_e5fa0a6fdaf683a50b16f065",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_29c39907b5762dbb33c0977d",
+      "confidence": 0.38,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Increases Attack Speed."
+      },
+      "predicate": "item.effect_summary",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_65cc69de5448bddada58a243",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_2f1075b5ee94678c25a1db46",
+      "confidence": 0.38,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Cloaks, Rings, Earrings, Necklaces maximum Abyss Gear sockets: 0 — cannot socket."
+      },
+      "predicate": "system.interaction",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_acd927ab18d8eea4248813d2",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_351c037ee4e58d21466d1a04",
+      "confidence": 0.38,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Head / Helm maximum Abyss Gear sockets: 1."
+      },
+      "predicate": "system.interaction",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_acd927ab18d8eea4248813d2",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_352ce55a5c7732634129039d",
+      "confidence": 0.38,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Creates a forward-moving blade of wind that damages enemies."
+      },
+      "predicate": "item.effect_summary",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_24a21a452fe2732198998d06",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_369337b6950ec9b6779cd72c",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "ability Abyss Gear"
+      },
+      "predicate": "item.category",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_c8e99d5fd0f4f6b9d5783346",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_42cf8021ea13d38816ce3970",
+      "confidence": 0.38,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Two-Handed Weapons maximum Abyss Gear sockets: 5."
+      },
+      "predicate": "system.interaction",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_acd927ab18d8eea4248813d2",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_43936316e1ec38f00efd02ba",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "stat Abyss Gear"
+      },
+      "predicate": "item.category",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_65cc69de5448bddada58a243",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_4845485a82c88cc9013060f9",
+      "confidence": 0.38,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Increases movement speed; the source also reports increased gliding speed and stacking across copies."
+      },
+      "predicate": "item.effect_summary",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_e5fa0a6fdaf683a50b16f065",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_49e50e652959a1b8744f012d",
+      "confidence": 0.4,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Compatible equipment: Melee Weapons · Shields"
+      },
+      "predicate": "item.requirement",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_c8e99d5fd0f4f6b9d5783346",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_4e7c0d89bd02642cc255f584",
+      "confidence": 0.4,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Compatible equipment: Armor only"
+      },
+      "predicate": "item.requirement",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_307d2ff15d11f0b23c1fca61",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_4ea9a164937c5c8d3a6a1a39",
+      "confidence": 0.38,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Produces a sonic shockwave that applies Confusion to nearby targets."
+      },
+      "predicate": "item.effect_summary",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_c8e99d5fd0f4f6b9d5783346",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_51ada71907cedb96b20e0457",
+      "confidence": 0.38,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Gloves maximum Abyss Gear sockets: 2."
+      },
+      "predicate": "system.interaction",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_acd927ab18d8eea4248813d2",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_61604b06591af97ccb18e2bf",
+      "confidence": 0.34,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Extracted from Leather Helm of the Fallen Kingdom found in a chest inside Sanctum of Benediction, Hernand."
+      },
+      "predicate": "item.acquisition",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_be17a1f1e0d967fe6ad441d1",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_689b3739f496aabb984910c0",
+      "confidence": 0.4,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Compatible equipment: Weapons · Gloves · Footwear"
+      },
+      "predicate": "item.requirement",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_65cc69de5448bddada58a243",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_71e133ddfbe41be510554300",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "stat Abyss Gear"
+      },
+      "predicate": "item.category",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_e5fa0a6fdaf683a50b16f065",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_75c81ce15412a18e50a792e7",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "stat Abyss Gear"
+      },
+      "predicate": "item.category",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_eec8ee5ebb4c718f68ddd604",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_816c7bcd1635ee123e3f6562",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "ability Abyss Gear"
+      },
+      "predicate": "item.category",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_24a21a452fe2732198998d06",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_8355a31faab0f7860d128aa8",
+      "confidence": 0.4,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Compatible equipment: Armor only"
+      },
+      "predicate": "item.requirement",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_014ee2bf7f3323de6c4185e9",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_853f1c3f090eb1bea81b297e",
+      "confidence": 0.38,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Off-Hand / Shield maximum Abyss Gear sockets: 2."
+      },
+      "predicate": "system.interaction",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_acd927ab18d8eea4248813d2",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_86b20c331cc132beccbac85d",
+      "confidence": 0.4,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Compatible equipment: Melee Weapons only"
+      },
+      "predicate": "item.requirement",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_24a21a452fe2732198998d06",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_873ac9b76ba23528a93aa82e",
+      "confidence": 0.38,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Increases Critical Rate."
+      },
+      "predicate": "item.effect_summary",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_116a6b22d4ca1987a527303b",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_8a0eb949cc36d81bf1ee4018",
+      "confidence": 0.4,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Compatible equipment: Weapons only"
+      },
+      "predicate": "item.requirement",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_6f249fce679d5d019e69b01c",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_8dc2218a70aa468f34a4681b",
+      "confidence": 0.35,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Elowen's crafting and synthesis service is introduced through The Missing Seal in Chapter 5."
+      },
+      "predicate": "system.unlock_condition",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_minor",
+      "status": "inferred",
+      "subject_entity_id": "ent_acd927ab18d8eea4248813d2",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_a55d7c93bba72c837600c2db",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "stat Abyss Gear"
+      },
+      "predicate": "item.category",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_6f249fce679d5d019e69b01c",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_ae3ecb2bd5bdc7742fb64072",
+      "confidence": 0.38,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Regular synthesis combines two copies of the same Abyss Gear at the same level into one upgraded tier; some gears require a Blueprint."
+      },
+      "predicate": "system.interaction",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_acd927ab18d8eea4248813d2",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_b28e4a97b778d4e6091da3d8",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "stat Abyss Gear"
+      },
+      "predicate": "item.category",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_baa15b657dd07a9234196e90",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_b5066db3c41500a761f86e74",
+      "confidence": 0.38,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Special synthesis consumes any two Abyss Gears and returns one randomized core with no guaranteed output."
+      },
+      "predicate": "system.interaction",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_acd927ab18d8eea4248813d2",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_bd9896d891def9f40855b329",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "stat Abyss Gear"
+      },
+      "predicate": "item.category",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_014ee2bf7f3323de6c4185e9",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_c535eef60509a2ee243c58d6",
+      "confidence": 0.38,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "One-Handed Weapons maximum Abyss Gear sockets: 3."
+      },
+      "predicate": "system.interaction",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_acd927ab18d8eea4248813d2",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_ce0c281e7d63971142f493d6",
+      "confidence": 0.38,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "5th Socket (max): 40 Silver; running total 105 Silver."
+      },
+      "predicate": "system.interaction",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_acd927ab18d8eea4248813d2",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_d0bd89ca19300abcfb000099",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "stat Abyss Gear"
+      },
+      "predicate": "item.category",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_116a6b22d4ca1987a527303b",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_d0fafc4004a70733a5b6da99",
+      "confidence": 0.38,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Torso / Chest Armor maximum Abyss Gear sockets: 3."
+      },
+      "predicate": "system.interaction",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_acd927ab18d8eea4248813d2",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_d1f3ed08a3766aadf08d17e8",
+      "confidence": 0.38,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "3rd Socket: 20 Silver; running total 35 Silver."
+      },
+      "predicate": "system.interaction",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_acd927ab18d8eea4248813d2",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_d5a640d3f451e2519444b13b",
+      "confidence": 0.38,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Turning Slash damage +35%."
+      },
+      "predicate": "item.effect_summary",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_be17a1f1e0d967fe6ad441d1",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_e30d76213353098b7603bc1c",
+      "confidence": 0.4,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Compatible equipment: Weapons · Gloves · Footwear"
+      },
+      "predicate": "item.requirement",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_116a6b22d4ca1987a527303b",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_e3664d008c6f2cb8da0754af",
+      "confidence": 0.38,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "4th Socket: 30 Silver; running total 65 Silver."
+      },
+      "predicate": "system.interaction",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_acd927ab18d8eea4248813d2",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_eef6ca255065f23f43e4641a",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "stat Abyss Gear"
+      },
+      "predicate": "item.category",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_307d2ff15d11f0b23c1fca61",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_f164618eb6a4ef8605b2dd95",
+      "confidence": 0.4,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Compatible equipment: Armor only"
+      },
+      "predicate": "item.requirement",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_be17a1f1e0d967fe6ad441d1",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_f31621c40bbe2583b0370c42",
+      "confidence": 0.4,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Compatible equipment: Armor only"
+      },
+      "predicate": "item.requirement",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_eec8ee5ebb4c718f68ddd604",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_f607aedcec7ddc27d4897f6a",
+      "confidence": 0.38,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Boots / Footwear maximum Abyss Gear sockets: 2."
+      },
+      "predicate": "system.interaction",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_acd927ab18d8eea4248813d2",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_f6a57a4d21becda514c011f3",
+      "confidence": 0.35,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Sylvia's Abyss Gear service is introduced through The Hermit Witch quest."
+      },
+      "predicate": "system.unlock_condition",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_minor",
+      "status": "inferred",
+      "subject_entity_id": "ent_acd927ab18d8eea4248813d2",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_fe7644b560dbec09401327fa",
+      "confidence": 0.34,
+      "evidence_ids": [
+        "evd_4973f225535f0953bac0846e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Animal Meat Life Challenge reward after obtaining all meat types."
+      },
+      "predicate": "item.acquisition",
+      "provenance": {
+        "created_at": "2026-07-17T05:30:00-05:00",
+        "created_by": "crimsonwiki_abyss_gear_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_014ee2bf7f3323de6c4185e9",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    }
+  ],
+  "schema_version": "pywel.claim_catalog.v1"
+}

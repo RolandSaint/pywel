@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://pywelknowledge.org/schemas/receipt.schema.json",
+  "title": "Pywel immutable receipt",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "receipt_id", "receipt_type", "created_at", "state", "payload_hash_scope", "payload_sha256", "safe_summary"],
+  "properties": {
+    "schema_version": { "const": "pywel.receipt.v1" },
+    "receipt_id": { "type": "string", "pattern": "^rcp_[a-z0-9]{12,64}$" },
+    "receipt_type": { "enum": ["seed", "contribution", "publication", "verification", "incident", "source_request", "takedown"] },
+    "created_at": { "$ref": "common.schema.json#/definitions/timestamp" },
+    "state": { "enum": ["received", "quarantined", "duplicate", "under_review", "needs_corroboration", "accepted", "rejected", "superseded", "retracted"] },
+    "payload_hash_scope": { "enum": ["related_records_canonical_json", "external_payload"] },
+    "payload_sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "safe_summary": { "type": "string", "minLength": 1, "maxLength": 1000 },
+    "related_record_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "$ref": "common.schema.json#/definitions/record_id" }
+    }
+  }
+}

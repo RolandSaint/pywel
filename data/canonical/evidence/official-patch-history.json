@@ -1,0 +1,708 @@
+{
+  "catalog_id": "cat_cdpatchhistoryevidence20260714",
+  "records": [
+    {
+      "captured_at": "2026-07-14T00:00:00-05:00",
+      "evidence_id": "evd_cdpatch10001official0001",
+      "evidence_type": "official_patch",
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "pearl-abyss-patch-1.00.01",
+        "tier": "primary_official"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "locator": "Patch Notes Version 1.00.02; PlayStation Patch 1.00.01",
+        "published_at": "2026-03-19T22:20:00Z",
+        "publisher": "Pearl Abyss",
+        "title": "Patch Notes Version 1.00.01 (embedded in Version 1.00.02 notice)",
+        "url": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=72"
+      }
+    },
+    {
+      "captured_at": "2026-07-14T00:00:00-05:00",
+      "evidence_id": "evd_cdpatch10002official0001",
+      "evidence_type": "official_patch",
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "pearl-abyss-patch-1.00.02",
+        "tier": "primary_official"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "locator": "Patch Notes Version 1.00.02",
+        "published_at": "2026-03-19T22:20:00Z",
+        "publisher": "Pearl Abyss",
+        "title": "Patch Notes Version 1.00.02",
+        "url": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=72"
+      }
+    },
+    {
+      "captured_at": "2026-07-14T00:00:00-05:00",
+      "evidence_id": "evd_cdpatch10100official0001",
+      "evidence_type": "official_patch",
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "pearl-abyss-patch-1.01.00",
+        "tier": "primary_official"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "locator": "Patch Notes Version 1.01.00",
+        "published_at": "2026-03-28T18:00:00Z",
+        "publisher": "Pearl Abyss",
+        "title": "Patch Notes Version 1.01.00",
+        "url": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=76"
+      }
+    },
+    {
+      "captured_at": "2026-07-14T00:00:00-05:00",
+      "evidence_id": "evd_cdpatch10101official0001",
+      "evidence_type": "official_patch",
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "pearl-abyss-patch-1.01.01",
+        "tier": "primary_official"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "locator": "Patch Notes Version 1.01.01",
+        "published_at": "2026-03-30T00:20:00Z",
+        "publisher": "Pearl Abyss",
+        "title": "Patch Notes Version 1.01.01",
+        "url": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=77"
+      }
+    },
+    {
+      "captured_at": "2026-07-14T00:00:00-05:00",
+      "evidence_id": "evd_cdpatch10102official0001",
+      "evidence_type": "official_patch",
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "pearl-abyss-patch-1.01.02",
+        "tier": "primary_official"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "locator": "Patch Notes Version 1.01.02",
+        "published_at": "2026-03-30T10:05:00Z",
+        "publisher": "Pearl Abyss",
+        "title": "Patch Notes Version 1.01.02",
+        "url": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=78"
+      }
+    },
+    {
+      "captured_at": "2026-07-14T00:00:00-05:00",
+      "evidence_id": "evd_cdpatch10103official0001",
+      "evidence_type": "official_patch",
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "pearl-abyss-patch-1.01.03",
+        "tier": "primary_official"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "locator": "Patch Notes Version 1.01.03",
+        "published_at": "2026-03-31T03:05:00Z",
+        "publisher": "Pearl Abyss",
+        "title": "Patch Notes Version 1.01.03",
+        "url": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=79"
+      }
+    },
+    {
+      "captured_at": "2026-07-14T00:00:00-05:00",
+      "evidence_id": "evd_cdpatch10300official0001",
+      "evidence_type": "official_patch",
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "pearl-abyss-patch-1.03.00",
+        "tier": "primary_official"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "locator": "Patch Notes Version 1.03.00",
+        "published_at": "2026-04-11T02:50:00Z",
+        "publisher": "Pearl Abyss",
+        "title": "Patch Notes Version 1.03.00",
+        "url": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=81"
+      }
+    },
+    {
+      "captured_at": "2026-07-14T00:00:00-05:00",
+      "evidence_id": "evd_cdpatch10301official0001",
+      "evidence_type": "official_patch",
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "pearl-abyss-patch-1.03.01",
+        "tier": "primary_official"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "locator": "Patch Notes Version 1.03.01",
+        "published_at": "2026-04-12T02:50:00Z",
+        "publisher": "Pearl Abyss",
+        "title": "Patch Notes Version 1.03.01",
+        "url": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=83"
+      }
+    },
+    {
+      "captured_at": "2026-07-14T00:00:00-05:00",
+      "evidence_id": "evd_cdpatch10400official0001",
+      "evidence_type": "official_patch",
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "pearl-abyss-patch-1.04.00",
+        "tier": "primary_official"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "locator": "Patch Notes Version 1.04.00",
+        "published_at": "2026-04-23T01:48:00Z",
+        "publisher": "Pearl Abyss",
+        "title": "Patch Notes Version 1.04.00",
+        "url": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=84"
+      }
+    },
+    {
+      "captured_at": "2026-07-14T00:00:00-05:00",
+      "evidence_id": "evd_cdpatch10401official0001",
+      "evidence_type": "official_patch",
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "pearl-abyss-patch-1.04.01",
+        "tier": "primary_official"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "locator": "Patch Notes Version 1.04.01",
+        "published_at": "2026-04-23T14:45:00Z",
+        "publisher": "Pearl Abyss",
+        "title": "Patch Notes Version 1.04.01",
+        "url": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=85"
+      }
+    },
+    {
+      "captured_at": "2026-07-14T00:00:00-05:00",
+      "evidence_id": "evd_cdpatch10402official0001",
+      "evidence_type": "official_patch",
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "pearl-abyss-patch-1.04.02",
+        "tier": "primary_official"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "locator": "Patch Notes Version 1.04.02",
+        "published_at": "2026-04-24T00:00:00Z",
+        "publisher": "Pearl Abyss",
+        "title": "Patch Notes Version 1.04.02",
+        "url": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=87"
+      }
+    },
+    {
+      "captured_at": "2026-07-14T00:00:00-05:00",
+      "evidence_id": "evd_cdpatch10500official0001",
+      "evidence_type": "official_patch",
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "pearl-abyss-patch-1.05.00",
+        "tier": "primary_official"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "locator": "Patch Notes Version 1.05.00",
+        "published_at": "2026-05-02T01:30:00Z",
+        "publisher": "Pearl Abyss",
+        "title": "Patch Notes Version 1.05.00",
+        "url": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=88"
+      }
+    },
+    {
+      "captured_at": "2026-07-14T00:00:00-05:00",
+      "evidence_id": "evd_cdpatch10501official0001",
+      "evidence_type": "official_patch",
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "pearl-abyss-patch-1.05.01",
+        "tier": "primary_official"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "locator": "Patch Notes Version 1.05.01",
+        "published_at": "2026-05-03T04:40:00Z",
+        "publisher": "Pearl Abyss",
+        "title": "Patch Notes Version 1.05.01",
+        "url": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=89"
+      }
+    },
+    {
+      "captured_at": "2026-07-14T00:00:00-05:00",
+      "evidence_id": "evd_cdpatch10600official0001",
+      "evidence_type": "official_patch",
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "pearl-abyss-patch-1.06.00",
+        "tier": "primary_official"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "locator": "Patch Notes Version 1.06.00",
+        "published_at": "2026-05-11T04:48:00Z",
+        "publisher": "Pearl Abyss",
+        "title": "Patch Notes Version 1.06.00",
+        "url": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=90"
+      }
+    },
+    {
+      "captured_at": "2026-07-14T00:00:00-05:00",
+      "evidence_id": "evd_cdpatch10601official0001",
+      "evidence_type": "official_patch",
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "pearl-abyss-patch-1.06.01",
+        "tier": "primary_official"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "locator": "Patch Notes Version 1.06.01",
+        "published_at": "2026-05-12T08:04:00Z",
+        "publisher": "Pearl Abyss",
+        "title": "Patch Notes Version 1.06.01",
+        "url": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=91"
+      }
+    },
+    {
+      "captured_at": "2026-07-14T00:00:00-05:00",
+      "evidence_id": "evd_cdpatch10700official0001",
+      "evidence_type": "official_patch",
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "pearl-abyss-patch-1.07.00",
+        "tier": "primary_official"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "locator": "Patch Notes Version 1.07.00",
+        "published_at": "2026-05-15T04:11:00Z",
+        "publisher": "Pearl Abyss",
+        "title": "Patch Notes Version 1.07.00",
+        "url": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=92"
+      }
+    },
+    {
+      "captured_at": "2026-07-14T00:00:00-05:00",
+      "evidence_id": "evd_cdpatch10800official0001",
+      "evidence_type": "official_patch",
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "pearl-abyss-patch-1.08.00",
+        "tier": "primary_official"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "locator": "Patch Notes Version 1.08.00",
+        "published_at": "2026-05-22T08:05:00Z",
+        "publisher": "Pearl Abyss",
+        "title": "Patch Notes Version 1.08.00",
+        "url": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=93"
+      }
+    },
+    {
+      "captured_at": "2026-07-14T00:00:00-05:00",
+      "evidence_id": "evd_cdpatch11000official0001",
+      "evidence_type": "official_patch",
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "pearl-abyss-patch-1.10.00",
+        "tier": "primary_official"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "locator": "Patch Notes Version 1.10.00",
+        "published_at": "2026-06-05T03:30:00Z",
+        "publisher": "Pearl Abyss",
+        "title": "Patch Notes Version 1.10.00",
+        "url": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=96"
+      }
+    },
+    {
+      "captured_at": "2026-07-14T00:00:00-05:00",
+      "evidence_id": "evd_cdpatch11001official0001",
+      "evidence_type": "official_patch",
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "pearl-abyss-patch-1.10.01",
+        "tier": "primary_official"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "locator": "Patch Notes Version 1.10.01",
+        "published_at": "2026-06-06T00:05:00Z",
+        "publisher": "Pearl Abyss",
+        "title": "Patch Notes Version 1.10.01",
+        "url": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=97"
+      }
+    },
+    {
+      "captured_at": "2026-07-14T00:00:00-05:00",
+      "evidence_id": "evd_cdpatch11100official0001",
+      "evidence_type": "official_patch",
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "pearl-abyss-patch-1.11.00",
+        "tier": "primary_official"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "locator": "Patch Notes Version 1.11.00",
+        "published_at": "2026-06-12T03:00:00Z",
+        "publisher": "Pearl Abyss",
+        "title": "Patch Notes Version 1.11.00",
+        "url": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=99"
+      }
+    },
+    {
+      "captured_at": "2026-07-14T00:00:00-05:00",
+      "evidence_id": "evd_cdpatch11200official0001",
+      "evidence_type": "official_patch",
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "pearl-abyss-patch-1.12.00",
+        "tier": "primary_official"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "locator": "Patch Notes Version 1.12.00",
+        "published_at": "2026-06-19T06:00:00Z",
+        "publisher": "Pearl Abyss",
+        "title": "Patch Notes Version 1.12.00",
+        "url": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=100"
+      }
+    },
+    {
+      "captured_at": "2026-07-14T00:00:00-05:00",
+      "evidence_id": "evd_cdpatch11201official0001",
+      "evidence_type": "official_patch",
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "pearl-abyss-patch-1.12.01",
+        "tier": "primary_official"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "locator": "Patch Notes Version 1.12.01",
+        "published_at": "2026-06-20T02:00:00Z",
+        "publisher": "Pearl Abyss",
+        "title": "Patch Notes Version 1.12.01",
+        "url": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=101"
+      }
+    },
+    {
+      "captured_at": "2026-07-14T00:00:00-05:00",
+      "evidence_id": "evd_cdpatch11202official0001",
+      "evidence_type": "official_patch",
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "pearl-abyss-patch-1.12.02",
+        "tier": "primary_official"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "locator": "Patch Notes Version 1.12.02",
+        "published_at": "2026-06-24T01:15:00Z",
+        "publisher": "Pearl Abyss",
+        "title": "Patch Notes Version 1.12.02",
+        "url": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=102"
+      }
+    },
+    {
+      "captured_at": "2026-07-14T00:00:00-05:00",
+      "evidence_id": "evd_cdpatch11300official0001",
+      "evidence_type": "official_patch",
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "pearl-abyss-patch-1.13.00",
+        "tier": "primary_official"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "locator": "Patch Notes Version 1.13.00",
+        "published_at": "2026-07-03T03:00:00Z",
+        "publisher": "Pearl Abyss",
+        "title": "Patch Notes Version 1.13.00",
+        "url": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=105"
+      }
+    },
+    {
+      "captured_at": "2026-07-14T00:00:00-05:00",
+      "evidence_id": "evd_cdpatch11301official0001",
+      "evidence_type": "official_patch",
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "pearl-abyss-patch-1.13.01",
+        "tier": "primary_official"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "locator": "Patch Notes Version 1.13.01",
+        "published_at": "2026-07-08T05:51:00Z",
+        "publisher": "Pearl Abyss",
+        "title": "Patch Notes Version 1.13.01",
+        "url": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=106"
+      }
+    },
+    {
+      "captured_at": "2026-07-16T10:30:00Z",
+      "evidence_id": "evd_cdpatch11400official0001",
+      "evidence_type": "official_patch",
+      "provenance": {
+        "created_at": "2026-07-16T10:30:00Z",
+        "created_by": "official_patch_1_14_00_seed_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "pearl-abyss-patch-1.14.00",
+        "tier": "primary_official"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "locator": "Patch Notes Version 1.14.00; Update; Patch Details",
+        "published_at": "2026-07-16T09:00:00Z",
+        "publisher": "Pearl Abyss",
+        "title": "Patch Notes Version 1.14.00",
+        "url": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=108"
+      }
+    }
+  ],
+  "schema_version": "pywel.evidence_catalog.v1"
+}

@@ -1,0 +1,13 @@
+# Architecture
+
+Pywel has one knowledge authority: reviewed JSON in `data/canonical/`, with schemas and controlled vocabulary alongside it. `quality/public-release-scope.json` fixes the retained historical reference dataset and source boundary. Validation checks structure, references, rights dispositions, and recomputable provenance; it does not establish gameplay truth.
+
+One build validates and projects that source into `dist/data/`. It emits an offline JSON corpus, per-family JSONL, schemas, vocabulary, documentation, licensing, manifest, and checksums. TypeScript compilation emits `dist/runtime/`. Both outputs are disposable; corrections belong in canonical source or builder code.
+
+Local REST and stdio MCP validate canonical JSON at startup, apply the public projection, and use the same deterministic query implementation. MCP dispatches through the same local application operations and returns the same typed JSON bodies as REST. The canonical response JSON Schema is shared with OpenAPI and MCP output declarations; conformance tests exercise runtime results against that schema. They expose reads only, use no model calls, do not fetch evidence URLs, and require no account or personal configuration. Offline consumers can read the files directly without running a server.
+
+Unknown facts, conflicting support, requested context, source limitations, and claim review boundaries remain visible. An entity match or related claim is insufficient to answer a different predicate. Official patch identity does not prove current gameplay or refresh a claim's review boundary.
+
+The runtime has no Atlas/model manager, verifier orchestration, capture/OCR, contribution or attestation inbox, queue, cloud adapter, HTTP MCP, SQLite backend, container, or generated human website. Those components have no demonstrated requirement in the finite release scope. Git review is the maintenance workflow; there is no automatic ingestion or truth promotion.
+
+The [M2 runtime evidence](M2_COMPLETION.md), [M3 contract evidence](M3_COMPLETION.md), and [compatibility rules](COMPATIBILITY.md) establish the retained implementation, including bounded responses with visible truncation and compact/full uncertainty parity. M4 records [independent install, reproduction, correction, and restore](M4_COMPLETION.md). [M5 acceptance](M5_COMPLETION.md) records software 1.0.0 as PUBLIC RELEASE READY for the named clean source snapshot and artifacts. See [the roadmap](ROADMAP_TO_1_0.md). The public repository begins with that clean source and accepts later changes through reviewed Git contributions. Original private development history remains excluded; the v1.0.0 release notes identify the publication source and artifacts.

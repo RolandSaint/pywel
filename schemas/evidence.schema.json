@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://pywelknowledge.org/schemas/evidence.schema.json",
+  "title": "Pywel evidence",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "evidence_id", "evidence_type", "source", "captured_at", "rights", "reliability", "provenance"],
+  "properties": {
+    "schema_version": { "const": "pywel.evidence.v1" },
+    "evidence_id": { "type": "string", "pattern": "^evd_[a-z0-9]{12,64}$" },
+    "evidence_type": {
+      "enum": ["official_patch", "official_notice", "official_documentation", "gameplay_observation", "community_report", "guide", "video", "screenshot", "test_result"]
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["url", "title", "publisher", "locator"],
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^(?:https://|urn:pywel:artifact:[a-z0-9][a-z0-9:._-]{2,200}$)"
+        },
+        "title": { "type": "string", "minLength": 1, "maxLength": 500 },
+        "publisher": { "type": "string", "minLength": 1, "maxLength": 240 },
+        "published_at": { "type": ["string", "null"], "format": "date-time" },
+        "locator": { "type": "string", "minLength": 1, "maxLength": 500 },
+        "content_sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+      }
+    },
+    "captured_at": { "$ref": "common.schema.json#/definitions/timestamp" },
+    "rights": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["retention_mode", "license_status"],
+      "properties": {
+        "retention_mode": { "enum": ["locator_only", "normalized_facts", "authorized_excerpt"] },
+        "license_status": { "enum": ["publisher_owned", "compatible_license", "permission_granted", "unknown"] },
+        "attribution_required": { "type": "boolean" }
+      }
+    },
+    "reliability": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["tier", "independence_group"],
+      "properties": {
+        "tier": { "enum": ["primary_official", "direct_observation", "corroborated_secondary", "secondary", "unverified"] },
+        "independence_group": { "type": "string", "minLength": 1, "maxLength": 200 }
+      }
+    },
+    "provenance": { "$ref": "common.schema.json#/definitions/provenance" }
+  }
+}

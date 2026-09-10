@@ -1,0 +1,40 @@
+{
+  "name": "pywel-knowledge-standard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Unofficial, portable, machine-readable Crimson Desert knowledge standard.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "engines": {
+    "node": ">=24.14 <25"
+  },
+  "scripts": {
+    "runtime:check": "node --import tsx src/cli/runtime-check.ts",
+    "repository:policy": "node --import tsx src/cli/repository-policy.ts",
+    "validate": "node --import tsx src/cli/validate.ts",
+    "m1:check": "node --import tsx src/cli/m1-check.ts",
+    "m1:export": "node --import tsx src/cli/m1-check.ts --export-source",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run --dir tests --maxWorkers=2 --testTimeout=30000",
+    "build": "node --import tsx src/build/build.ts && node --input-type=module -e \"import { rmSync } from 'node:fs'; rmSync('dist/runtime', {recursive:true, force:true});\" && tsc -p tsconfig.emit.json",
+    "test:dist": "node --import tsx src/cli/verify-dist.ts",
+    "test:determinism": "node --import tsx src/cli/check-determinism.ts",
+    "start": "node dist/runtime/server/local.js",
+    "mcp": "node dist/runtime/mcp/server.js",
+    "security:audit": "npm audit --omit=dev --audit-level=high",
+    "check": "npm run repository:policy && npm run validate && npm run m1:check && npm run typecheck && npm run test && npm run build && npm run test:dist"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.19.15",
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
+    "hono": "^4.13.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "tsx": "^4.23.1",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.11"
+  }
+}

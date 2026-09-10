@@ -1,0 +1,1812 @@
+{
+  "predicates": [
+    {
+      "cardinality": "many",
+      "description": "Action, input, or condition that activates an ability.",
+      "object_kinds": [
+        "string",
+        "entity",
+        "unknown"
+      ],
+      "predicate": "ability.activation",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Resource or condition consumed by an ability.",
+      "object_kinds": [
+        "string",
+        "number",
+        "entity",
+        "unknown"
+      ],
+      "predicate": "ability.cost",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Effect produced by an ability.",
+      "object_kinds": [
+        "string",
+        "entity",
+        "number",
+        "unknown"
+      ],
+      "predicate": "ability.effect",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Condition that unlocks an ability.",
+      "object_kinds": [
+        "string",
+        "entity",
+        "unknown"
+      ],
+      "predicate": "ability.unlock_condition",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Ability associated with an actor.",
+      "object_kinds": [
+        "entity",
+        "string",
+        "unknown"
+      ],
+      "predicate": "actor.ability",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Location associated with an actor.",
+      "object_kinds": [
+        "entity",
+        "string",
+        "unknown"
+      ],
+      "predicate": "actor.location",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Reward, drop, or unlock associated with an actor.",
+      "object_kinds": [
+        "entity",
+        "string",
+        "unknown"
+      ],
+      "predicate": "actor.reward",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Gameplay or narrative role of an actor.",
+      "object_kinds": [
+        "string",
+        "unknown"
+      ],
+      "predicate": "actor.role",
+      "status": "core"
+    },
+    {
+      "description": "Whether the observed appearance is the authored default.",
+      "object_kinds": [
+        "boolean",
+        "unknown"
+      ],
+      "predicate": "appearance.default_state",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "A complete alternate build configuration.",
+      "object_kinds": [
+        "entity"
+      ],
+      "predicate": "build.alternate_build",
+      "status": "core"
+    },
+    {
+      "description": "Planned equipment-only Attack Speed floor across sustained channels.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "build.attack_speed_floor",
+      "status": "core",
+      "units": [
+        "level"
+      ]
+    },
+    {
+      "cardinality": "many",
+      "description": "Actor for whom the build candidate is configured.",
+      "object_kinds": [
+        "entity"
+      ],
+      "predicate": "build.for_actor",
+      "status": "core"
+    },
+    {
+      "description": "Planned globally active Aegis value.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "build.global_aegis",
+      "status": "core",
+      "units": [
+        "points"
+      ]
+    },
+    {
+      "description": "Planned Aegis value while the shield is held.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "build.held_aegis",
+      "status": "core",
+      "units": [
+        "points"
+      ]
+    },
+    {
+      "description": "Whether the plan has been verified as implemented in the live game state.",
+      "object_kinds": [
+        "boolean",
+        "unknown"
+      ],
+      "predicate": "build.implementation_verified",
+      "status": "core"
+    },
+    {
+      "description": "Planned equipment-only Movement Speed level.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "build.movement_speed",
+      "status": "core",
+      "units": [
+        "level"
+      ]
+    },
+    {
+      "description": "Patch version against which the build was researched.",
+      "object_kinds": [
+        "string"
+      ],
+      "predicate": "build.patch_baseline",
+      "status": "core"
+    },
+    {
+      "description": "Planned ammunition-preservation value for the ranged channel.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "build.ranged_ammunition_preservation",
+      "status": "core",
+      "units": [
+        "percent"
+      ]
+    },
+    {
+      "description": "Total legal sockets assumed by the plan.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "build.socket_capacity",
+      "status": "core",
+      "units": [
+        "sockets"
+      ]
+    },
+    {
+      "description": "Number of sockets assigned by the plan.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "build.socket_use",
+      "status": "core",
+      "units": [
+        "sockets"
+      ]
+    },
+    {
+      "description": "Planned equipment-only Spirit regeneration.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "build.spirit_regeneration",
+      "status": "core",
+      "units": [
+        "per_second"
+      ]
+    },
+    {
+      "description": "Planned equipment-only Stamina regeneration.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "build.stamina_regeneration",
+      "status": "core",
+      "units": [
+        "percent"
+      ]
+    },
+    {
+      "cardinality": "many",
+      "description": "Named effect included by the build candidate; this does not by itself verify the effect or its host compatibility.",
+      "object_kinds": [
+        "entity"
+      ],
+      "predicate": "build.uses_effect",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Named item or equipment channel included by the build candidate; this does not assert ownership or exact socket capacity.",
+      "object_kinds": [
+        "entity"
+      ],
+      "predicate": "build.uses_item",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Catalog category assigned by both retained community index locators; this proves cross-index presence only, not underlying gameplay truth or patch availability.",
+      "object_kinds": [
+        "string"
+      ],
+      "predicate": "catalog.community_indexed_category",
+      "status": "provisional"
+    },
+    {
+      "description": "Entity type assigned by multiple current community database indexes; this does not confirm underlying game behavior or patch availability.",
+      "object_kinds": [
+        "string"
+      ],
+      "predicate": "catalog.community_indexed_type",
+      "status": "provisional"
+    },
+    {
+      "description": "Normalized identity type supported by a retained source locator; this does not by itself confirm underlying gameplay behavior or patch availability.",
+      "object_kinds": [
+        "string"
+      ],
+      "predicate": "catalog.source_indexed_type",
+      "status": "provisional"
+    },
+    {
+      "description": "Whether the character can enter the Abyss in the applicable patch.",
+      "object_kinds": [
+        "boolean",
+        "unknown"
+      ],
+      "predicate": "character.can_enter_abyss",
+      "status": "core"
+    },
+    {
+      "description": "Count of equipment pieces added for the character by a patch.",
+      "object_kinds": [
+        "number"
+      ],
+      "predicate": "character.equipment_added",
+      "status": "core",
+      "units": [
+        "items"
+      ]
+    },
+    {
+      "description": "Publisher-stated outfit compatibility.",
+      "object_kinds": [
+        "string",
+        "unknown"
+      ],
+      "predicate": "character.outfit_compatibility",
+      "status": "core"
+    },
+    {
+      "description": "Preserved alternate build for this character.",
+      "object_kinds": [
+        "entity"
+      ],
+      "predicate": "character.preserved_alternate_build",
+      "status": "core"
+    },
+    {
+      "description": "Whether controller input remapping is available in the applicable version and context.",
+      "object_kinds": [
+        "boolean",
+        "unknown"
+      ],
+      "predicate": "controls.remapping_available",
+      "status": "core"
+    },
+    {
+      "description": "Base coin reward reported for a Greymane dispatch mission before boosts.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "dispatch.base_reward.coins",
+      "status": "core"
+    },
+    {
+      "description": "Base food reward reported for a Greymane dispatch mission before boosts.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "dispatch.base_reward.food",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Additional base reward item text reported for a Greymane dispatch mission before boosts.",
+      "object_kinds": [
+        "entity",
+        "string",
+        "unknown"
+      ],
+      "predicate": "dispatch.base_reward.item",
+      "status": "core"
+    },
+    {
+      "description": "Base stone reward reported for a Greymane dispatch mission before boosts.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "dispatch.base_reward.stone",
+      "status": "core"
+    },
+    {
+      "description": "Base weapons reward reported for a Greymane dispatch mission before boosts.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "dispatch.base_reward.weapons",
+      "status": "core"
+    },
+    {
+      "description": "Base wood reward reported for a Greymane dispatch mission before boosts.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "dispatch.base_reward.wood",
+      "status": "core"
+    },
+    {
+      "description": "Resource function assigned to a Greymane in a community dispatch roster.",
+      "object_kinds": [
+        "string",
+        "unknown"
+      ],
+      "predicate": "dispatch.comrade_function",
+      "status": "core"
+    },
+    {
+      "description": "Coin cost reported for a Greymane dispatch mission.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "dispatch.cost.coins",
+      "status": "core"
+    },
+    {
+      "description": "Food cost reported for a Greymane dispatch mission.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "dispatch.cost.food",
+      "status": "core"
+    },
+    {
+      "description": "Stone cost reported for a Greymane dispatch mission.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "dispatch.cost.stone",
+      "status": "core"
+    },
+    {
+      "description": "Weapons cost reported for a Greymane dispatch mission.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "dispatch.cost.weapons",
+      "status": "core"
+    },
+    {
+      "description": "Wood cost reported for a Greymane dispatch mission.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "dispatch.cost.wood",
+      "status": "core"
+    },
+    {
+      "description": "Unmodified duration in hours reported for a Greymane dispatch mission.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "dispatch.duration_hours",
+      "status": "core"
+    },
+    {
+      "description": "Crew-leader skill reported for a Greymane dispatch mission.",
+      "object_kinds": [
+        "entity",
+        "string",
+        "unknown"
+      ],
+      "predicate": "dispatch.leader_skill",
+      "status": "core"
+    },
+    {
+      "description": "Maximum crew size reported for a Greymane dispatch mission.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "dispatch.max_crew",
+      "status": "core"
+    },
+    {
+      "description": "Regional grouping reported for a Greymane dispatch mission.",
+      "object_kinds": [
+        "entity",
+        "string",
+        "unknown"
+      ],
+      "predicate": "dispatch.region",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Named dispatch skill and level assigned to a Greymane in a community roster.",
+      "object_kinds": [
+        "string",
+        "number",
+        "unknown"
+      ],
+      "predicate": "dispatch.skill_level",
+      "status": "core"
+    },
+    {
+      "description": "Project notation for reproducible Dyehouse settings.",
+      "object_kinds": [
+        "string"
+      ],
+      "predicate": "dye.coordinate_convention",
+      "status": "core"
+    },
+    {
+      "description": "Project notation for the authored default material profile.",
+      "object_kinds": [
+        "string",
+        "unknown"
+      ],
+      "predicate": "dye.default_material_profile",
+      "status": "core"
+    },
+    {
+      "description": "Whether a specific item is offered as a Dyehouse selector on the stated build and platform.",
+      "object_kinds": [
+        "boolean",
+        "unknown"
+      ],
+      "predicate": "dye.item_supported",
+      "status": "core"
+    },
+    {
+      "description": "Authored base classes observed to expose material profiles.",
+      "object_kinds": [
+        "string",
+        "unknown"
+      ],
+      "predicate": "dye.material_profile_classes",
+      "status": "core"
+    },
+    {
+      "description": "Count of visible material-profile choices including Default.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "dye.material_profile_count",
+      "status": "core",
+      "units": [
+        "profiles"
+      ]
+    },
+    {
+      "description": "Whether most weapons and secondary weapons are dyeable.",
+      "object_kinds": [
+        "boolean",
+        "unknown"
+      ],
+      "predicate": "dye.most_weapons_supported",
+      "status": "core"
+    },
+    {
+      "description": "Whether non-dyeable items remain selectable in the Dye UI.",
+      "object_kinds": [
+        "boolean",
+        "unknown"
+      ],
+      "predicate": "dye.nondyeable_items_selectable",
+      "status": "core"
+    },
+    {
+      "description": "Observed or inferred function of palette columns.",
+      "object_kinds": [
+        "string",
+        "unknown"
+      ],
+      "predicate": "dye.palette_column_axis",
+      "status": "core"
+    },
+    {
+      "description": "Observed or inferred function of palette rows.",
+      "object_kinds": [
+        "string",
+        "unknown"
+      ],
+      "predicate": "dye.palette_row_axis",
+      "status": "core"
+    },
+    {
+      "description": "Whether the preview was improved to reduce surrounding-light interference.",
+      "object_kinds": [
+        "boolean",
+        "unknown"
+      ],
+      "predicate": "dye.preview_reduces_surrounding_light",
+      "status": "core"
+    },
+    {
+      "description": "Whether an exact reproducible Dyehouse recipe is known.",
+      "object_kinds": [
+        "boolean",
+        "unknown"
+      ],
+      "predicate": "dye.recipe_known",
+      "status": "core"
+    },
+    {
+      "description": "Count of visible regional hue tabs.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "dye.regional_tab_count",
+      "status": "core",
+      "units": [
+        "tabs"
+      ]
+    },
+    {
+      "description": "Regional hue-tab order recorded by the project.",
+      "object_kinds": [
+        "string",
+        "unknown"
+      ],
+      "predicate": "dye.regional_tab_order",
+      "status": "core"
+    },
+    {
+      "description": "Whether Dyehouse Repair has a demonstrated combat-stat effect.",
+      "object_kinds": [
+        "boolean",
+        "unknown"
+      ],
+      "predicate": "dye.repair_stat_effect",
+      "status": "core"
+    },
+    {
+      "description": "Observed visual direction from low to high Repair.",
+      "object_kinds": [
+        "string",
+        "unknown"
+      ],
+      "predicate": "dye.repair_visual_direction",
+      "status": "core"
+    },
+    {
+      "description": "Exact count of Dyehouse selectors observed for a specific item on the stated build and platform.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "dye.selector_count",
+      "status": "core",
+      "units": [
+        "selectors"
+      ]
+    },
+    {
+      "description": "Known state of an item's authored dye-selector map.",
+      "object_kinds": [
+        "string",
+        "unknown"
+      ],
+      "predicate": "dye.selector_map",
+      "status": "core"
+    },
+    {
+      "description": "Authored base classes observed with a blank Material tab.",
+      "object_kinds": [
+        "string",
+        "unknown"
+      ],
+      "predicate": "dye.unsupported_material_classes",
+      "status": "core"
+    },
+    {
+      "description": "Conditional chance to skin additional materials.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "effect.additional_skinning_chance",
+      "status": "core",
+      "units": [
+        "percent"
+      ]
+    },
+    {
+      "description": "Whether the item provides Daze Immunity.",
+      "object_kinds": [
+        "boolean",
+        "unknown"
+      ],
+      "predicate": "effect.daze_immunity",
+      "status": "core"
+    },
+    {
+      "description": "Activation scope imposed by the effect's host slot.",
+      "object_kinds": [
+        "string",
+        "unknown"
+      ],
+      "predicate": "effect.host_scope",
+      "status": "core"
+    },
+    {
+      "description": "Printed or synthesized effect magnitude.",
+      "object_kinds": [
+        "number",
+        "string",
+        "unknown"
+      ],
+      "predicate": "effect.magnitude",
+      "status": "core",
+      "units": [
+        "points",
+        "level",
+        "percent",
+        "per_second"
+      ]
+    },
+    {
+      "description": "Known state of an effect's additional resource cost.",
+      "object_kinds": [
+        "string",
+        "number",
+        "unknown"
+      ],
+      "predicate": "effect.resource_cost",
+      "status": "core",
+      "units": [
+        "stamina",
+        "spirit"
+      ]
+    },
+    {
+      "cardinality": "many",
+      "description": "Evidence-bounded role assigned to an effect inside a strategy; inferred roles are not observed gameplay confirmation.",
+      "object_kinds": [
+        "string",
+        "unknown"
+      ],
+      "predicate": "effect.strategy_role",
+      "status": "core"
+    },
+    {
+      "description": "Observed targeting reliability of a named effect.",
+      "object_kinds": [
+        "string",
+        "unknown"
+      ],
+      "predicate": "effect.targeting_reliability",
+      "status": "core"
+    },
+    {
+      "description": "Action or condition that triggers the effect.",
+      "object_kinds": [
+        "string",
+        "unknown"
+      ],
+      "predicate": "effect.trigger",
+      "status": "core"
+    },
+    {
+      "description": "Factory-filled socket count before resocketing.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "equipment.factory_filled_sockets",
+      "status": "core",
+      "units": [
+        "sockets"
+      ]
+    },
+    {
+      "description": "Intrinsic refinement baseline used by the record.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "equipment.refinement_level",
+      "status": "core",
+      "units": [
+        "level"
+      ]
+    },
+    {
+      "description": "Named equipment set membership.",
+      "object_kinds": [
+        "string"
+      ],
+      "predicate": "equipment.set_name",
+      "status": "core"
+    },
+    {
+      "description": "Equipment slot or executing-source family.",
+      "object_kinds": [
+        "string"
+      ],
+      "predicate": "equipment.slot",
+      "status": "core"
+    },
+    {
+      "description": "Maximum legal socket count.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "equipment.socket_capacity",
+      "status": "core",
+      "units": [
+        "sockets"
+      ]
+    },
+    {
+      "description": "Whether assigned seeds can be activated from quickslots for farming actions.",
+      "object_kinds": [
+        "boolean",
+        "unknown"
+      ],
+      "predicate": "farming.seeds_usable_from_quickslots",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "How or where an item is acquired when a graph target is unavailable.",
+      "object_kinds": [
+        "string",
+        "entity",
+        "unknown"
+      ],
+      "predicate": "item.acquisition",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Gameplay category of an item in addition to its controlled entity subtype.",
+      "object_kinds": [
+        "string",
+        "unknown"
+      ],
+      "predicate": "item.category",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Concise effect or function of an item.",
+      "object_kinds": [
+        "string",
+        "entity",
+        "number",
+        "boolean",
+        "unknown"
+      ],
+      "predicate": "item.effect_summary",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Requirement for using, equipping, or acquiring an item.",
+      "object_kinds": [
+        "string",
+        "entity",
+        "number",
+        "unknown"
+      ],
+      "predicate": "item.requirement",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Short normalized description or site classification for a location.",
+      "object_kinds": [
+        "string",
+        "entity",
+        "unknown"
+      ],
+      "predicate": "location.description",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Notable entity or content found at a location.",
+      "object_kinds": [
+        "entity",
+        "string",
+        "unknown"
+      ],
+      "predicate": "location.notable_content",
+      "status": "core"
+    },
+    {
+      "description": "Parent region or containing location.",
+      "object_kinds": [
+        "entity",
+        "string",
+        "unknown"
+      ],
+      "predicate": "location.parent",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Route or travel instruction for reaching a location.",
+      "object_kinds": [
+        "entity",
+        "string",
+        "unknown"
+      ],
+      "predicate": "location.route",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Service available at a location.",
+      "object_kinds": [
+        "entity",
+        "string",
+        "unknown"
+      ],
+      "predicate": "location.service",
+      "status": "core"
+    },
+    {
+      "description": "Working mitigation order for Aegis relative to Defense.",
+      "object_kinds": [
+        "string",
+        "unknown"
+      ],
+      "predicate": "mechanic.aegis_order",
+      "status": "core"
+    },
+    {
+      "description": "Working source-attribution rule for Attack.",
+      "object_kinds": [
+        "string",
+        "unknown"
+      ],
+      "predicate": "mechanic.attack_scope",
+      "status": "core"
+    },
+    {
+      "description": "Working source-attribution rule for Attack Speed.",
+      "object_kinds": [
+        "string",
+        "unknown"
+      ],
+      "predicate": "mechanic.attack_speed_scope",
+      "status": "core"
+    },
+    {
+      "description": "Working source-attribution rule for boot Attack and Crit.",
+      "object_kinds": [
+        "string",
+        "unknown"
+      ],
+      "predicate": "mechanic.boot_offense_scope",
+      "status": "core"
+    },
+    {
+      "description": "Working source-attribution rule for Critical Rate.",
+      "object_kinds": [
+        "string",
+        "unknown"
+      ],
+      "predicate": "mechanic.critical_rate_scope",
+      "status": "core"
+    },
+    {
+      "description": "Working or unknown Defense formula.",
+      "object_kinds": [
+        "string",
+        "unknown"
+      ],
+      "predicate": "mechanic.defense_formula",
+      "status": "core"
+    },
+    {
+      "description": "Working source-attribution rule for Defense.",
+      "object_kinds": [
+        "string",
+        "unknown"
+      ],
+      "predicate": "mechanic.defense_scope",
+      "status": "core"
+    },
+    {
+      "description": "Working source-attribution rule for glove Attack and Crit.",
+      "object_kinds": [
+        "string",
+        "unknown"
+      ],
+      "predicate": "mechanic.glove_offense_scope",
+      "status": "core"
+    },
+    {
+      "description": "Whether character Movement and mount Movement are separate stat systems.",
+      "object_kinds": [
+        "boolean",
+        "unknown"
+      ],
+      "predicate": "mechanic.mount_character_separation",
+      "status": "core"
+    },
+    {
+      "description": "Working source-attribution rule for Movement Speed.",
+      "object_kinds": [
+        "string",
+        "unknown"
+      ],
+      "predicate": "mechanic.movement_speed_scope",
+      "status": "core"
+    },
+    {
+      "description": "Shield state required for shield-hosted Aegis.",
+      "object_kinds": [
+        "string",
+        "unknown"
+      ],
+      "predicate": "mechanic.shield_aegis_state",
+      "status": "core"
+    },
+    {
+      "description": "Shield state required for shield Attack Speed.",
+      "object_kinds": [
+        "string",
+        "unknown"
+      ],
+      "predicate": "mechanic.shield_attack_speed_state",
+      "status": "core"
+    },
+    {
+      "description": "Shield state required for shield Defense and Movement.",
+      "object_kinds": [
+        "string",
+        "unknown"
+      ],
+      "predicate": "mechanic.shield_defense_state",
+      "status": "core"
+    },
+    {
+      "description": "Whether the status screen changes with stance or executing source.",
+      "object_kinds": [
+        "boolean",
+        "unknown"
+      ],
+      "predicate": "mechanic.status_screen_contextual",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Source-described creature or vehicle category for a mount.",
+      "object_kinds": [
+        "string",
+        "unknown"
+      ],
+      "predicate": "mount.category",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Roster classification such as permanent, temporary, special, or vehicle.",
+      "object_kinds": [
+        "string",
+        "unknown"
+      ],
+      "predicate": "mount.classification",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Source-described rarity tier for a mount.",
+      "object_kinds": [
+        "string",
+        "unknown"
+      ],
+      "predicate": "mount.rarity",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Supported land, air, rail, or temporary travel mode for a mount.",
+      "object_kinds": [
+        "string",
+        "unknown"
+      ],
+      "predicate": "mount.travel_mode",
+      "status": "core"
+    },
+    {
+      "description": "Mount Acceleration level.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "mount.acceleration",
+      "status": "core",
+      "units": [
+        "level"
+      ]
+    },
+    {
+      "description": "Mount Attack value.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "mount.attack",
+      "status": "core",
+      "units": [
+        "points"
+      ]
+    },
+    {
+      "description": "Mount Defense value.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "mount.defense",
+      "status": "core",
+      "units": [
+        "points"
+      ]
+    },
+    {
+      "description": "Mount Handling level.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "mount.handling",
+      "status": "core",
+      "units": [
+        "level"
+      ]
+    },
+    {
+      "description": "Mount maximum Health.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "mount.health",
+      "status": "core",
+      "units": [
+        "points"
+      ]
+    },
+    {
+      "description": "Mount Jump level.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "mount.jump",
+      "status": "core",
+      "units": [
+        "level"
+      ]
+    },
+    {
+      "description": "Mount Movement level.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "mount.movement",
+      "status": "core",
+      "units": [
+        "level"
+      ]
+    },
+    {
+      "description": "Mount maximum Stamina.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "mount.stamina",
+      "status": "core",
+      "units": [
+        "points"
+      ]
+    },
+    {
+      "description": "Mount Trust level used by the stat row.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "mount.trust_level",
+      "status": "core",
+      "units": [
+        "level"
+      ]
+    },
+    {
+      "cardinality": "many",
+      "description": "Location associated with an organization.",
+      "object_kinds": [
+        "entity",
+        "string",
+        "unknown"
+      ],
+      "predicate": "organization.location",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Member or constituent entity of an organization.",
+      "object_kinds": [
+        "entity",
+        "string",
+        "unknown"
+      ],
+      "predicate": "organization.member",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Gameplay or narrative role of an organization.",
+      "object_kinds": [
+        "string",
+        "unknown"
+      ],
+      "predicate": "organization.role",
+      "status": "core"
+    },
+    {
+      "description": "An official patch added the summarized capability.",
+      "object_kinds": [
+        "string"
+      ],
+      "predicate": "patch.added_capability",
+      "status": "provisional"
+    },
+    {
+      "description": "An official patch adjusted the summarized balance value or behavior.",
+      "object_kinds": [
+        "string"
+      ],
+      "predicate": "patch.adjusted_balance",
+      "status": "provisional"
+    },
+    {
+      "description": "An official patch changed the summarized availability.",
+      "object_kinds": [
+        "string"
+      ],
+      "predicate": "patch.changed_availability",
+      "status": "provisional"
+    },
+    {
+      "description": "An official patch changed the summarized behavior.",
+      "object_kinds": [
+        "string"
+      ],
+      "predicate": "patch.changed_behavior",
+      "status": "provisional"
+    },
+    {
+      "description": "An official patch changed the summarized interface or setting.",
+      "object_kinds": [
+        "string"
+      ],
+      "predicate": "patch.changed_interface",
+      "status": "provisional"
+    },
+    {
+      "description": "An official patch changed the summarized localization.",
+      "object_kinds": [
+        "string"
+      ],
+      "predicate": "patch.changed_localization",
+      "status": "provisional"
+    },
+    {
+      "description": "An official patch changed the summarized platform availability.",
+      "object_kinds": [
+        "string"
+      ],
+      "predicate": "patch.changed_platform_availability",
+      "status": "provisional"
+    },
+    {
+      "description": "An official patch changed the summarized performance or stability behavior.",
+      "object_kinds": [
+        "string"
+      ],
+      "predicate": "patch.improved_stability",
+      "status": "provisional"
+    },
+    {
+      "description": "An official patch removed the summarized capability.",
+      "object_kinds": [
+        "string"
+      ],
+      "predicate": "patch.removed_capability",
+      "status": "provisional"
+    },
+    {
+      "description": "An official patch renamed the summarized element.",
+      "object_kinds": [
+        "string"
+      ],
+      "predicate": "patch.renamed_element",
+      "status": "provisional"
+    },
+    {
+      "description": "An official patch reported the summarized known issue.",
+      "object_kinds": [
+        "string"
+      ],
+      "predicate": "patch.reported_known_issue",
+      "status": "provisional"
+    },
+    {
+      "description": "An official patch states that it resolved the summarized issue.",
+      "object_kinds": [
+        "string"
+      ],
+      "predicate": "patch.resolved_issue",
+      "status": "provisional"
+    },
+    {
+      "description": "A bounded official-note review found no exact canonical-name or retained-alias mention through the stated review patch; this does not exclude unnamed changes.",
+      "object_kinds": [
+        "string"
+      ],
+      "predicate": "patch.reviewed_no_named_change",
+      "status": "provisional"
+    },
+    {
+      "description": "Patch, platform, schedule, or condition governing quest availability.",
+      "object_kinds": [
+        "string",
+        "boolean",
+        "entity",
+        "unknown"
+      ],
+      "predicate": "quest.availability",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Location where a quest begins, progresses, or completes.",
+      "object_kinds": [
+        "entity",
+        "string",
+        "unknown"
+      ],
+      "predicate": "quest.location",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Atomic quest objective.",
+      "object_kinds": [
+        "string",
+        "entity",
+        "number",
+        "unknown"
+      ],
+      "predicate": "quest.objective",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Quest, state, or requirement that must be satisfied first.",
+      "object_kinds": [
+        "entity",
+        "string",
+        "unknown"
+      ],
+      "predicate": "quest.prerequisite",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Reward granted by a quest.",
+      "object_kinds": [
+        "entity",
+        "string",
+        "number",
+        "unknown"
+      ],
+      "predicate": "quest.reward",
+      "status": "core"
+    },
+    {
+      "description": "Ordering, chapter, or follow-up relationship for a quest.",
+      "object_kinds": [
+        "entity",
+        "string",
+        "number",
+        "unknown"
+      ],
+      "predicate": "quest.sequence",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Controlled culinary or crafting category for a recipe.",
+      "object_kinds": [
+        "string",
+        "unknown"
+      ],
+      "predicate": "recipe.category",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Effect produced by consuming or using a recipe output.",
+      "object_kinds": [
+        "entity",
+        "string",
+        "number",
+        "unknown"
+      ],
+      "predicate": "recipe.effect",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Input consumed by a recipe.",
+      "object_kinds": [
+        "entity",
+        "string",
+        "number",
+        "unknown"
+      ],
+      "predicate": "recipe.input",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Output produced by a recipe.",
+      "object_kinds": [
+        "entity",
+        "string",
+        "number",
+        "unknown"
+      ],
+      "predicate": "recipe.output",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Requirement for learning or executing a recipe.",
+      "object_kinds": [
+        "entity",
+        "string",
+        "number",
+        "unknown"
+      ],
+      "predicate": "recipe.requirement",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Station, menu, or location used to execute a recipe.",
+      "object_kinds": [
+        "entity",
+        "string",
+        "unknown"
+      ],
+      "predicate": "recipe.station",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Ingredient or component from which the subject is crafted.",
+      "object_kinds": [
+        "entity",
+        "string",
+        "number",
+        "unknown"
+      ],
+      "predicate": "relation.crafted_from",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Entity or encounter against which the subject is effective.",
+      "object_kinds": [
+        "entity",
+        "string",
+        "unknown"
+      ],
+      "predicate": "relation.effective_against",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Location containing or associated with the subject.",
+      "object_kinds": [
+        "entity",
+        "string",
+        "unknown"
+      ],
+      "predicate": "relation.located_at",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Entity or source from which the subject is obtained.",
+      "object_kinds": [
+        "entity",
+        "string",
+        "unknown"
+      ],
+      "predicate": "relation.obtained_from",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Entity or purpose for which the subject is required.",
+      "object_kinds": [
+        "entity",
+        "string",
+        "unknown"
+      ],
+      "predicate": "relation.required_for",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Entity or value rewarded by the subject.",
+      "object_kinds": [
+        "entity",
+        "string",
+        "number",
+        "unknown"
+      ],
+      "predicate": "relation.rewards",
+      "status": "core"
+    },
+    {
+      "description": "Canonical entity represented by a preserved source-label or legacy-ID redirect.",
+      "object_kinds": [
+        "entity"
+      ],
+      "predicate": "relation.same_as",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Entity-level semantic successor replaced by the subject.",
+      "object_kinds": [
+        "entity",
+        "string",
+        "unknown"
+      ],
+      "predicate": "relation.supersedes",
+      "status": "core"
+    },
+    {
+      "cardinality": "many",
+      "description": "Entity or capability unlocked by the subject.",
+      "object_kinds": [
+        "entity",
+        "string",
+        "unknown"
+      ],
+      "predicate": "relation.unlocks",
+      "status": "core"
+    },
+    {
+      "description": "Intrinsic Attack attached to this item or source.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "stat.attack",
+      "status": "core",
+      "units": [
+        "points"
+      ]
+    },
+    {
+      "description": "Intrinsic Attack Speed rank.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "stat.attack_speed",
+      "status": "core",
+      "units": [
+        "level"
+      ]
+    },
+    {
+      "description": "Visible equipment cap for Attack Speed.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "stat.cap.attack_speed",
+      "status": "core",
+      "units": [
+        "level"
+      ]
+    },
+    {
+      "description": "Visible equipment cap for Critical Rate.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "stat.cap.critical_rate",
+      "status": "core",
+      "units": [
+        "level"
+      ]
+    },
+    {
+      "description": "Visible equipment cap for Movement Speed.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "stat.cap.movement_speed",
+      "status": "core",
+      "units": [
+        "level"
+      ]
+    },
+    {
+      "description": "Intrinsic Critical Rate rank.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "stat.critical_rate",
+      "status": "core",
+      "units": [
+        "level"
+      ]
+    },
+    {
+      "description": "Known state of the Critical Rate probability formula.",
+      "object_kinds": [
+        "string",
+        "unknown"
+      ],
+      "predicate": "stat.critical_rate_formula",
+      "status": "core"
+    },
+    {
+      "description": "Intrinsic Defense attached to this item or source.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "stat.defense",
+      "status": "core",
+      "units": [
+        "points"
+      ]
+    },
+    {
+      "description": "Intrinsic Fire Resistance rank.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "stat.fire_resistance",
+      "status": "core",
+      "units": [
+        "level"
+      ]
+    },
+    {
+      "description": "Intrinsic Guard Rate value.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "stat.guard_rate",
+      "status": "core",
+      "units": [
+        "points"
+      ]
+    },
+    {
+      "description": "Intrinsic Health regeneration.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "stat.health_regeneration",
+      "status": "core",
+      "units": [
+        "per_second"
+      ]
+    },
+    {
+      "description": "Intrinsic Ice Resistance rank.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "stat.ice_resistance",
+      "status": "core",
+      "units": [
+        "level"
+      ]
+    },
+    {
+      "description": "Intrinsic Lightning Resistance rank.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "stat.lightning_resistance",
+      "status": "core",
+      "units": [
+        "level"
+      ]
+    },
+    {
+      "description": "Intrinsic maximum Health increase.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "stat.maximum_health",
+      "status": "core",
+      "units": [
+        "points"
+      ]
+    },
+    {
+      "description": "Intrinsic Movement Speed rank.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "stat.movement_speed",
+      "status": "core",
+      "units": [
+        "level"
+      ]
+    },
+    {
+      "description": "Intrinsic Spirit regeneration.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "stat.spirit_regeneration",
+      "status": "core",
+      "units": [
+        "per_second"
+      ]
+    },
+    {
+      "description": "Intrinsic Stamina Cost Reduction.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "stat.stamina_cost_reduction",
+      "status": "core",
+      "units": [
+        "percent"
+      ]
+    },
+    {
+      "description": "Intrinsic Stamina regeneration; unit distinguishes percent from points per second.",
+      "object_kinds": [
+        "number",
+        "unknown"
+      ],
+      "predicate": "stat.stamina_regeneration",
+      "status": "core",
+      "units": [
+        "percent",
+        "per_second"
+      ]
+    },
+    {
+      "description": "Interaction, input, or adjacent system behavior.",
+      "object_kinds": [
+        "entity",
+        "string",
+        "boolean",
+        "unknown"
+      ],
+      "predicate": "system.interaction",
+      "status": "core"
+    },
+    {
+      "description": "Concise purpose or responsibility of a gameplay system.",
+      "object_kinds": [
+        "string",
+        "unknown"
+      ],
+      "predicate": "system.purpose",
+      "status": "core"
+    },
+    {
+      "description": "Condition that unlocks or enables a gameplay system.",
+      "object_kinds": [
+        "entity",
+        "string",
+        "unknown"
+      ],
+      "predicate": "system.unlock_condition",
+      "status": "core"
+    },
+    {
+      "description": "Whether the tool remains usable while the player's inventory is full.",
+      "object_kinds": [
+        "boolean",
+        "unknown"
+      ],
+      "predicate": "tool.usable_when_inventory_full",
+      "status": "core"
+    }
+  ],
+  "registry_version": 13,
+  "schema_version": "pywel.predicate_registry.v1"
+}

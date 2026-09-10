@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://pywelknowledge.org/schemas/source-snapshot.schema.json",
+  "title": "Pywel immutable source snapshot manifest v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "history",
+    "files",
+    "scope_sha256",
+    "boundaries"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "pywel.source_snapshot.v1"
+    },
+    "history": {
+      "const": "excluded"
+    },
+    "files": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "path",
+          "sha256"
+        ],
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1024,
+            "pattern": "^(?!.*(?:^|/)\\.{1,2}(?:/|$))[A-Za-z0-9_.-]+(?:/[A-Za-z0-9_.-]+)*$",
+            "not": {
+              "const": "SOURCE_MANIFEST.json"
+            }
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          }
+        }
+      },
+      "minItems": 1
+    },
+    "scope_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "boundaries": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "original_git_history",
+        "private_release_assets",
+        "credentials",
+        "public_visibility_changed"
+      ],
+      "properties": {
+        "original_git_history": {
+          "const": false
+        },
+        "private_release_assets": {
+          "const": false
+        },
+        "credentials": {
+          "const": false
+        },
+        "public_visibility_changed": {
+          "const": false
+        }
+      }
+    }
+  }
+}

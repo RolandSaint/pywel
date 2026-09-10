@@ -1,0 +1,35 @@
+Pywel Knowledge Standard — data license
+
+Copyright 2026 Pywel Knowledge Standard contributors, for original material
+and database rights they own, where such rights exist.
+
+Contributors' original data contributions and original database selection
+and arrangement in data/canonical/, and generated projections of that
+material, are licensed under Creative Commons Attribution-ShareAlike 4.0
+International (SPDX: CC-BY-SA-4.0).
+
+License: https://creativecommons.org/licenses/by-sa/4.0/
+Full legal terms: https://creativecommons.org/licenses/by-sa/4.0/legalcode.en
+
+This grant covers only rights the contributing licensors hold. It does not
+license Pearl Abyss intellectual property, trademarks, or third-party
+material merely named, described, linked, or referenced in the dataset.
+Nothing in this notice restricts uses that do not require permission under
+copyright or applicable database rights.
+
+CrimsonWiki contributions identified in LICENSES/THIRD-PARTY-DATA.md are
+offered by their respective licensors under CC BY-SA 4.0. Retain attribution,
+license references, and modification notices. Pywel's normalization and
+arrangement of these contributions use the same license.
+
+The license permits sharing and adaptation, including commercial use of the
+licensed rights, subject to attribution and share-alike. No noncommercial
+restriction is added to the Creative Commons license. Separate third-party
+IP rights and applicable source terms remain separate.
+
+The material is offered as-is without warranties, including accuracy or
+noninfringement, as provided in the full legal terms.
+
+Read DATA_RIGHTS.md for scope and LICENSES/THIRD-PARTY-DATA.md for attribution.
+Software, schemas, and project-authored documentation are licensed under
+the separate Apache-2.0 LICENSE file.

@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://pywelknowledge.org/schemas/publication-contract.schema.json",
+  "title": "Pywel public bundle selection",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "contract_id",
+    "allowed_source_schemes",
+    "public_docs",
+    "public_schemas"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "pywel.publication_contract.v1"
+    },
+    "contract_id": {
+      "const": "pywel-publication-boundary-v1"
+    },
+    "allowed_source_schemes": {
+      "const": [
+        "https:"
+      ]
+    },
+    "public_docs": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Z0-9_]+\\.md$"
+      }
+    },
+    "public_schemas": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9-]+\\.schema\\.json$"
+      }
+    }
+  }
+}

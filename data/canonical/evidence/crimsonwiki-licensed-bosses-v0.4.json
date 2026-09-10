@@ -1,0 +1,594 @@
+{
+  "catalog_id": "cat_a8addf8cf533541167fa137e",
+  "records": [
+    {
+      "captured_at": "2026-07-16T20:15:00-05:00",
+      "evidence_id": "evd_55c682b7c38156e890fa821f",
+      "evidence_type": "guide",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "crimsonwiki-community-wiki",
+        "tier": "unverified"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "compatible_license",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "content_sha256": "0993e8a8772df04e46ba3a9adc53e847694f20a6d4eee8f211a0cfd8bfcde6ee",
+        "locator": "Hash-locked normalized projection of boss category, encounter-location phrase, and named attack headings; the site exposes no stable revision ID; CC BY-SA 4.0 attribution and share-alike apply",
+        "published_at": null,
+        "publisher": "CrimsonWiki contributors",
+        "title": "Queen Spider - Bosses | CrimsonWiki",
+        "url": "https://crimsonwiki.org/wiki/queen-spider"
+      }
+    },
+    {
+      "captured_at": "2026-07-16T20:15:00-05:00",
+      "evidence_id": "evd_210fc9e0102c77fc67e973e6",
+      "evidence_type": "guide",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "crimsonwiki-community-wiki",
+        "tier": "unverified"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "compatible_license",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "content_sha256": "df4ec224e6e32c7243872d627f298b9602d7884a1d71585f81cb0c9429a07918",
+        "locator": "Hash-locked normalized projection of boss category, encounter-location phrase, and named attack headings; the site exposes no stable revision ID; CC BY-SA 4.0 attribution and share-alike apply",
+        "published_at": null,
+        "publisher": "CrimsonWiki contributors",
+        "title": "Ludvig - Bosses | CrimsonWiki",
+        "url": "https://crimsonwiki.org/wiki/ludvig"
+      }
+    },
+    {
+      "captured_at": "2026-07-16T20:15:00-05:00",
+      "evidence_id": "evd_b41853ceb68c551e1b63ada9",
+      "evidence_type": "guide",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "crimsonwiki-community-wiki",
+        "tier": "unverified"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "compatible_license",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "content_sha256": "af408ce635dbf8d656046f30486d79aa3cd25ddf86074541652bc15ea2cdb9d9",
+        "locator": "Hash-locked normalized projection of boss category, encounter-location phrase, and named attack headings; the site exposes no stable revision ID; CC BY-SA 4.0 attribution and share-alike apply",
+        "published_at": null,
+        "publisher": "CrimsonWiki contributors",
+        "title": "Crimson Nightmare - Bosses | CrimsonWiki",
+        "url": "https://crimsonwiki.org/wiki/crimson-nightmare"
+      }
+    },
+    {
+      "captured_at": "2026-07-16T20:15:00-05:00",
+      "evidence_id": "evd_1d23a13069d9017bfbd19208",
+      "evidence_type": "guide",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "crimsonwiki-community-wiki",
+        "tier": "unverified"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "compatible_license",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "content_sha256": "1a63296134e665b1a0837b929c7b7038b580a350ca329bb1f0dd4615491e3a6c",
+        "locator": "Hash-locked normalized projection of boss category, encounter-location phrase, and named attack headings; the site exposes no stable revision ID; CC BY-SA 4.0 attribution and share-alike apply",
+        "published_at": null,
+        "publisher": "CrimsonWiki contributors",
+        "title": "Crookrock Walker - Bosses | CrimsonWiki",
+        "url": "https://crimsonwiki.org/wiki/crookrock-walker"
+      }
+    },
+    {
+      "captured_at": "2026-07-16T20:15:00-05:00",
+      "evidence_id": "evd_41d68b4303d9aad2b3621f14",
+      "evidence_type": "guide",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "crimsonwiki-community-wiki",
+        "tier": "unverified"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "compatible_license",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "content_sha256": "0f616f7fed770c95cff77c96ebfa64bd3bdf82e45d02e237fcd411c68ae4e0d4",
+        "locator": "Hash-locked normalized projection of boss category, encounter-location phrase, and named attack headings; the site exposes no stable revision ID; CC BY-SA 4.0 attribution and share-alike apply",
+        "published_at": null,
+        "publisher": "CrimsonWiki contributors",
+        "title": "Reed Devil - Bosses | CrimsonWiki",
+        "url": "https://crimsonwiki.org/wiki/reed-devil"
+      }
+    },
+    {
+      "captured_at": "2026-07-16T20:15:00-05:00",
+      "evidence_id": "evd_3a5aa8aef9228026b666cca5",
+      "evidence_type": "guide",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "crimsonwiki-community-wiki",
+        "tier": "unverified"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "compatible_license",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "content_sha256": "ca423654e3fea79c86111e7b1900b81ca60c00d9ed17aba5a45f942944b23a8c",
+        "locator": "Hash-locked normalized projection of boss category, encounter-location phrase, and named attack headings; the site exposes no stable revision ID; CC BY-SA 4.0 attribution and share-alike apply",
+        "published_at": null,
+        "publisher": "CrimsonWiki contributors",
+        "title": "Walter Lanford - Bosses | CrimsonWiki",
+        "url": "https://crimsonwiki.org/wiki/walter-lanford"
+      }
+    },
+    {
+      "captured_at": "2026-07-16T20:15:00-05:00",
+      "evidence_id": "evd_87be71384f6fe1e13331846f",
+      "evidence_type": "guide",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "crimsonwiki-community-wiki",
+        "tier": "unverified"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "compatible_license",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "content_sha256": "4bcc5451ac03dfd79330a928b86c00d8368284c5e11d7afc89d8634955847584",
+        "locator": "Hash-locked normalized projection of boss category, encounter-location phrase, and named attack headings; the site exposes no stable revision ID; CC BY-SA 4.0 attribution and share-alike apply",
+        "published_at": null,
+        "publisher": "CrimsonWiki contributors",
+        "title": "Desert Marauder Rusten - Bosses | CrimsonWiki",
+        "url": "https://crimsonwiki.org/wiki/desert-marauder-rusten"
+      }
+    },
+    {
+      "captured_at": "2026-07-16T20:15:00-05:00",
+      "evidence_id": "evd_81fba835a8993c3becad3742",
+      "evidence_type": "guide",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "crimsonwiki-community-wiki",
+        "tier": "unverified"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "compatible_license",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "content_sha256": "b44e0587c245a17661fa347c7c771e7a5dd6ebee72d0c95ae2d4d1a124c41efa",
+        "locator": "Hash-locked normalized projection of boss category, encounter-location phrase, and named attack headings; the site exposes no stable revision ID; CC BY-SA 4.0 attribution and share-alike apply",
+        "published_at": null,
+        "publisher": "CrimsonWiki contributors",
+        "title": "Staglord - Bosses | CrimsonWiki",
+        "url": "https://crimsonwiki.org/wiki/staglord"
+      }
+    },
+    {
+      "captured_at": "2026-07-16T20:15:00-05:00",
+      "evidence_id": "evd_2f23bd2cf1fc51a696e595f5",
+      "evidence_type": "guide",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "crimsonwiki-community-wiki",
+        "tier": "unverified"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "compatible_license",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "content_sha256": "bbd473aa08cd633d7d2c06fc63357e2e8a1057714f3c8544bc2c019c86b2643d",
+        "locator": "Hash-locked normalized projection of boss category, encounter-location phrase, and named attack headings; the site exposes no stable revision ID; CC BY-SA 4.0 attribution and share-alike apply",
+        "published_at": null,
+        "publisher": "CrimsonWiki contributors",
+        "title": "Kailok the Hornsplitter - Bosses | CrimsonWiki",
+        "url": "https://crimsonwiki.org/wiki/kailok-the-hornsplitter"
+      }
+    },
+    {
+      "captured_at": "2026-07-16T20:15:00-05:00",
+      "evidence_id": "evd_8907ca29927b4632c536f54c",
+      "evidence_type": "guide",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "crimsonwiki-community-wiki",
+        "tier": "unverified"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "compatible_license",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "content_sha256": "4815317d23119213a891727661ac6231cf2377a8eac931a4425557beeac7c057",
+        "locator": "Hash-locked normalized projection of boss category, encounter-location phrase, and named attack headings; the site exposes no stable revision ID; CC BY-SA 4.0 attribution and share-alike apply",
+        "published_at": null,
+        "publisher": "CrimsonWiki contributors",
+        "title": "Crowcaller - Bosses | CrimsonWiki",
+        "url": "https://crimsonwiki.org/wiki/crowcaller"
+      }
+    },
+    {
+      "captured_at": "2026-07-16T20:15:00-05:00",
+      "evidence_id": "evd_60bd98bdecee1cb3fec4a306",
+      "evidence_type": "guide",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "crimsonwiki-community-wiki",
+        "tier": "unverified"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "compatible_license",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "content_sha256": "d8856ec784d74c8fa629566e8af46acf24084e14c3a7f0d4ec0e0efa2670dd05",
+        "locator": "Hash-locked normalized projection of boss category, encounter-location phrase, and named attack headings; the site exposes no stable revision ID; CC BY-SA 4.0 attribution and share-alike apply",
+        "published_at": null,
+        "publisher": "CrimsonWiki contributors",
+        "title": "Abyss Kutum - Bosses | CrimsonWiki",
+        "url": "https://crimsonwiki.org/wiki/abyss-kutum"
+      }
+    },
+    {
+      "captured_at": "2026-07-16T20:15:00-05:00",
+      "evidence_id": "evd_c45db1cec7d5dc7cb827f515",
+      "evidence_type": "guide",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "crimsonwiki-community-wiki",
+        "tier": "unverified"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "compatible_license",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "content_sha256": "a950104605e8f02bdf6b396e4d8097c3d1df0f713258c5c176923311d8768ef1",
+        "locator": "Hash-locked normalized projection of boss category, encounter-location phrase, and named attack headings; the site exposes no stable revision ID; CC BY-SA 4.0 attribution and share-alike apply",
+        "published_at": null,
+        "publisher": "CrimsonWiki contributors",
+        "title": "Ogre - Bosses | CrimsonWiki",
+        "url": "https://crimsonwiki.org/wiki/ogre"
+      }
+    },
+    {
+      "captured_at": "2026-07-16T20:15:00-05:00",
+      "evidence_id": "evd_c792bdd06d7e78d3ff45e599",
+      "evidence_type": "guide",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "crimsonwiki-community-wiki",
+        "tier": "unverified"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "compatible_license",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "content_sha256": "44db919fefa4ce38d4fa30448d86daf0eb8f51d82f83ea5495583845da26e4f8",
+        "locator": "Hash-locked normalized projection of boss category, encounter-location phrase, and named attack headings; the site exposes no stable revision ID; CC BY-SA 4.0 attribution and share-alike apply",
+        "published_at": null,
+        "publisher": "CrimsonWiki contributors",
+        "title": "Hemon Beindel - Bosses | CrimsonWiki",
+        "url": "https://crimsonwiki.org/wiki/hemon-beindel"
+      }
+    },
+    {
+      "captured_at": "2026-07-16T20:15:00-05:00",
+      "evidence_id": "evd_48addde46e03fa935d0964cb",
+      "evidence_type": "guide",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "crimsonwiki-community-wiki",
+        "tier": "unverified"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "compatible_license",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "content_sha256": "1b845d0dde217c569a3f7c61cf28f1d518e67c8f5a00890f8aa6453e903686b2",
+        "locator": "Hash-locked normalized projection of boss category, encounter-location phrase, and named attack headings; the site exposes no stable revision ID; CC BY-SA 4.0 attribution and share-alike apply",
+        "published_at": null,
+        "publisher": "CrimsonWiki contributors",
+        "title": "Tenebrum - Bosses | CrimsonWiki",
+        "url": "https://crimsonwiki.org/wiki/tenebrum"
+      }
+    },
+    {
+      "captured_at": "2026-07-16T20:15:00-05:00",
+      "evidence_id": "evd_f4d389baacbc852319826a53",
+      "evidence_type": "guide",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "crimsonwiki-community-wiki",
+        "tier": "unverified"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "compatible_license",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "content_sha256": "a033bc7e39afda21bdb06d984dcd75008db00370ed1418cdbed0b21ae3b546a6",
+        "locator": "Hash-locked normalized projection of boss category, encounter-location phrase, and named attack headings; the site exposes no stable revision ID; CC BY-SA 4.0 attribution and share-alike apply",
+        "published_at": null,
+        "publisher": "CrimsonWiki contributors",
+        "title": "Priscus the Ancient - Bosses | CrimsonWiki",
+        "url": "https://crimsonwiki.org/wiki/priscus-the-ancient"
+      }
+    },
+    {
+      "captured_at": "2026-07-16T20:15:00-05:00",
+      "evidence_id": "evd_987f9c421fa4f2572cef6294",
+      "evidence_type": "guide",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "crimsonwiki-community-wiki",
+        "tier": "unverified"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "compatible_license",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "content_sha256": "ea34e9280dd305df213b9314573dce2264d6bdbf16620ddf443d00fb84872eb3",
+        "locator": "Hash-locked normalized projection of boss category, encounter-location phrase, and named attack headings; the site exposes no stable revision ID; CC BY-SA 4.0 attribution and share-alike apply",
+        "published_at": null,
+        "publisher": "CrimsonWiki contributors",
+        "title": "Antumbra's Sword - Bosses | CrimsonWiki",
+        "url": "https://crimsonwiki.org/wiki/antumbras-sword"
+      }
+    },
+    {
+      "captured_at": "2026-07-16T20:15:00-05:00",
+      "evidence_id": "evd_e01faa67fa5b04c6849099ec",
+      "evidence_type": "guide",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "crimsonwiki-community-wiki",
+        "tier": "unverified"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "compatible_license",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "content_sha256": "a9a32032d8e835db4f4c69e5a64df4fc81e10ac7364a4072d7cf62d140673459",
+        "locator": "Hash-locked normalized projection of boss category, encounter-location phrase, and named attack headings; the site exposes no stable revision ID; CC BY-SA 4.0 attribution and share-alike apply",
+        "published_at": null,
+        "publisher": "CrimsonWiki contributors",
+        "title": "Kearush the Slayer - Bosses | CrimsonWiki",
+        "url": "https://crimsonwiki.org/wiki/kearush-the-slayer"
+      }
+    },
+    {
+      "captured_at": "2026-07-16T20:15:00-05:00",
+      "evidence_id": "evd_697d7cdf2226cc9b0a315eee",
+      "evidence_type": "guide",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "crimsonwiki-community-wiki",
+        "tier": "unverified"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "compatible_license",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "content_sha256": "7ba929e079756ff12d9fdcb14262268edb6a261f88d15e2cc6c55f66954ed2ca",
+        "locator": "Hash-locked normalized projection of boss category, encounter-location phrase, and named attack headings; the site exposes no stable revision ID; CC BY-SA 4.0 attribution and share-alike apply",
+        "published_at": null,
+        "publisher": "CrimsonWiki contributors",
+        "title": "Matthias - Bosses | CrimsonWiki",
+        "url": "https://crimsonwiki.org/wiki/matthias"
+      }
+    },
+    {
+      "captured_at": "2026-07-16T20:15:00-05:00",
+      "evidence_id": "evd_606b64e5405548a92ab2499d",
+      "evidence_type": "guide",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "crimsonwiki-community-wiki",
+        "tier": "unverified"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "compatible_license",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "content_sha256": "33ab845f6b245e4baa7f63fe87637e79b41c48290a2af0ed2a553aae882563cb",
+        "locator": "Hash-locked normalized projection of boss category, encounter-location phrase, and named attack headings; the site exposes no stable revision ID; CC BY-SA 4.0 attribution and share-alike apply",
+        "published_at": null,
+        "publisher": "CrimsonWiki contributors",
+        "title": "One-Armed Ludvig - Bosses | CrimsonWiki",
+        "url": "https://crimsonwiki.org/wiki/one-armed-ludvig"
+      }
+    },
+    {
+      "captured_at": "2026-07-16T20:15:00-05:00",
+      "evidence_id": "evd_5e8561ad59792d10d49bb4c5",
+      "evidence_type": "guide",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "crimsonwiki-community-wiki",
+        "tier": "unverified"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "compatible_license",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "content_sha256": "c3fa14c054245e21ca2fb32d6509cf70aca5ed5761b487e76b18544aad2e9e71",
+        "locator": "Hash-locked normalized projection of boss category, encounter-location phrase, and named attack headings; the site exposes no stable revision ID; CC BY-SA 4.0 attribution and share-alike apply",
+        "published_at": null,
+        "publisher": "CrimsonWiki contributors",
+        "title": "Cassius Morten - Bosses | CrimsonWiki",
+        "url": "https://crimsonwiki.org/wiki/cassius-morten"
+      }
+    },
+    {
+      "captured_at": "2026-07-16T20:15:00-05:00",
+      "evidence_id": "evd_6597c48d3be5629f4e5da858",
+      "evidence_type": "guide",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "crimsonwiki-community-wiki",
+        "tier": "unverified"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "compatible_license",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "content_sha256": "8d1ddca3e79bea523b0db2165140c551549001bd69ba0e94ebc5cec18fb56baa",
+        "locator": "Hash-locked normalized projection of boss category, encounter-location phrase, and named attack headings; the site exposes no stable revision ID; CC BY-SA 4.0 attribution and share-alike apply",
+        "published_at": null,
+        "publisher": "CrimsonWiki contributors",
+        "title": "Excavatron - Bosses | CrimsonWiki",
+        "url": "https://crimsonwiki.org/wiki/excavatron"
+      }
+    }
+  ],
+  "schema_version": "pywel.evidence_catalog.v1"
+}

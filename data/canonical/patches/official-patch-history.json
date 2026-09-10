@@ -1,0 +1,708 @@
+{
+  "catalog_id": "cat_cdpatchhistorypatches20260714",
+  "records": [
+    {
+      "affected_entity_ids": [
+        "ent_26d87c057e2af7e8e2972838",
+        "ent_46609b092e163dd38d368cb4",
+        "ent_5d5ab45056dca48b945646a4",
+        "ent_9562fabc1b8b8a5b33bd9fe6",
+        "ent_c2592f80f3d4141158ed11e6"
+      ],
+      "content_coverage": {
+        "level": "partial",
+        "normalized_claim_count": 0,
+        "notes": "Finite M1 selection of independently bounded facts and official source locators. Patch-note prose, bulk change records, and full-note completeness reviews are excluded; complete note or observed gameplay coverage is not claimed."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_cdpatch10001official0001",
+      "platforms": [
+        "playstation-5"
+      ],
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "released_at": "2026-03-19T22:20:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_cdpatch10001official0001"
+      ],
+      "version": "1.00.01"
+    },
+    {
+      "affected_entity_ids": [],
+      "content_coverage": {
+        "level": "identity_only",
+        "normalized_claim_count": 0,
+        "notes": "Finite M1 selection of independently bounded facts and official source locators. Patch-note prose, bulk change records, and full-note completeness reviews are excluded; complete note or observed gameplay coverage is not claimed."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_cdpatch10002official0001",
+      "platforms": [
+        "all"
+      ],
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "released_at": "2026-03-19T22:20:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_cdpatch10002official0001"
+      ],
+      "version": "1.00.02"
+    },
+    {
+      "affected_entity_ids": [
+        "ent_17e889663cccf45caa460753",
+        "ent_667649ca6528166ee10ddb22",
+        "ent_d1bbd6bfabb462ade4e0cb86",
+        "ent_d53fbb61a6cb4b11c3e3b502",
+        "ent_e9641d4021b92aba4ee7a9ae"
+      ],
+      "content_coverage": {
+        "level": "partial",
+        "normalized_claim_count": 0,
+        "notes": "Finite M1 selection of independently bounded facts and official source locators. Patch-note prose, bulk change records, and full-note completeness reviews are excluded; complete note or observed gameplay coverage is not claimed."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_cdpatch10100official0001",
+      "platforms": [
+        "all"
+      ],
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "released_at": "2026-03-28T18:00:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_cdpatch10100official0001"
+      ],
+      "version": "1.01.00"
+    },
+    {
+      "affected_entity_ids": [],
+      "content_coverage": {
+        "level": "identity_only",
+        "normalized_claim_count": 0,
+        "notes": "Finite M1 selection of independently bounded facts and official source locators. Patch-note prose, bulk change records, and full-note completeness reviews are excluded; complete note or observed gameplay coverage is not claimed."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_cdpatch10101official0001",
+      "platforms": [
+        "all"
+      ],
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "released_at": "2026-03-30T00:20:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_cdpatch10101official0001"
+      ],
+      "version": "1.01.01"
+    },
+    {
+      "affected_entity_ids": [],
+      "content_coverage": {
+        "level": "identity_only",
+        "normalized_claim_count": 0,
+        "notes": "Finite M1 selection of independently bounded facts and official source locators. Patch-note prose, bulk change records, and full-note completeness reviews are excluded; complete note or observed gameplay coverage is not claimed."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_cdpatch10102official0001",
+      "platforms": [
+        "pc-steam"
+      ],
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "released_at": "2026-03-30T10:05:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_cdpatch10102official0001"
+      ],
+      "version": "1.01.02"
+    },
+    {
+      "affected_entity_ids": [],
+      "content_coverage": {
+        "level": "identity_only",
+        "normalized_claim_count": 0,
+        "notes": "Finite M1 selection of independently bounded facts and official source locators. Patch-note prose, bulk change records, and full-note completeness reviews are excluded; complete note or observed gameplay coverage is not claimed."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_cdpatch10103official0001",
+      "platforms": [
+        "all"
+      ],
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "released_at": "2026-03-31T03:05:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_cdpatch10103official0001"
+      ],
+      "version": "1.01.03"
+    },
+    {
+      "affected_entity_ids": [
+        "ent_52b83b4a21bdb255a154f092",
+        "ent_96f68eed68ce82852ac48d7c",
+        "ent_f4dc18c19094f51bf8cd126c"
+      ],
+      "content_coverage": {
+        "level": "partial",
+        "normalized_claim_count": 1,
+        "notes": "Finite M1 selection of independently bounded facts and official source locators. Patch-note prose, bulk change records, and full-note completeness reviews are excluded; complete note or observed gameplay coverage is not claimed."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_cdpatch10300official0001",
+      "platforms": [
+        "all"
+      ],
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001",
+        "updated_at": "2026-07-15T23:30:00-05:00"
+      },
+      "released_at": "2026-04-11T02:50:00Z",
+      "revision": 2,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_cdpatch10300official0001"
+      ],
+      "version": "1.03.00"
+    },
+    {
+      "affected_entity_ids": [],
+      "content_coverage": {
+        "level": "identity_only",
+        "normalized_claim_count": 0,
+        "notes": "Finite M1 selection of independently bounded facts and official source locators. Patch-note prose, bulk change records, and full-note completeness reviews are excluded; complete note or observed gameplay coverage is not claimed."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_cdpatch10301official0001",
+      "platforms": [
+        "all"
+      ],
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "released_at": "2026-04-12T02:50:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_cdpatch10301official0001"
+      ],
+      "version": "1.03.01"
+    },
+    {
+      "affected_entity_ids": [
+        "ent_20989ed7d1f939315a0a2872",
+        "ent_8324dc6c53a7aca2bc38ea07",
+        "ent_e58642c3c03b60ec931f4fa1",
+        "ent_e964d1c5570c6dc429afbab4"
+      ],
+      "content_coverage": {
+        "level": "partial",
+        "normalized_claim_count": 3,
+        "notes": "Finite M1 selection of independently bounded facts and official source locators. Patch-note prose, bulk change records, and full-note completeness reviews are excluded; complete note or observed gameplay coverage is not claimed."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_cdpatch10400official0001",
+      "platforms": [
+        "all"
+      ],
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001",
+        "updated_at": "2026-07-15T23:30:00-05:00"
+      },
+      "released_at": "2026-04-23T01:48:00Z",
+      "revision": 2,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_cdpatch10400official0001"
+      ],
+      "version": "1.04.00"
+    },
+    {
+      "affected_entity_ids": [],
+      "content_coverage": {
+        "level": "identity_only",
+        "normalized_claim_count": 0,
+        "notes": "Finite M1 selection of independently bounded facts and official source locators. Patch-note prose, bulk change records, and full-note completeness reviews are excluded; complete note or observed gameplay coverage is not claimed."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_cdpatch10401official0001",
+      "platforms": [
+        "all"
+      ],
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "released_at": "2026-04-23T14:45:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_cdpatch10401official0001"
+      ],
+      "version": "1.04.01"
+    },
+    {
+      "affected_entity_ids": [],
+      "content_coverage": {
+        "level": "identity_only",
+        "normalized_claim_count": 0,
+        "notes": "Finite M1 selection of independently bounded facts and official source locators. Patch-note prose, bulk change records, and full-note completeness reviews are excluded; complete note or observed gameplay coverage is not claimed."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_cdpatch10402official0001",
+      "platforms": [
+        "all"
+      ],
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "released_at": "2026-04-24T00:00:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_cdpatch10402official0001"
+      ],
+      "version": "1.04.02"
+    },
+    {
+      "affected_entity_ids": [],
+      "content_coverage": {
+        "level": "identity_only",
+        "normalized_claim_count": 0,
+        "notes": "Finite M1 selection of independently bounded facts and official source locators. Patch-note prose, bulk change records, and full-note completeness reviews are excluded; complete note or observed gameplay coverage is not claimed."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_cdpatch10500official0001",
+      "platforms": [
+        "all"
+      ],
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "released_at": "2026-05-02T01:30:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_cdpatch10500official0001"
+      ],
+      "version": "1.05.00"
+    },
+    {
+      "affected_entity_ids": [],
+      "content_coverage": {
+        "level": "identity_only",
+        "normalized_claim_count": 0,
+        "notes": "Finite M1 selection of independently bounded facts and official source locators. Patch-note prose, bulk change records, and full-note completeness reviews are excluded; complete note or observed gameplay coverage is not claimed."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_cdpatch10501official0001",
+      "platforms": [
+        "all"
+      ],
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "released_at": "2026-05-03T04:40:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_cdpatch10501official0001"
+      ],
+      "version": "1.05.01"
+    },
+    {
+      "affected_entity_ids": [
+        "ent_406ba46e266b3ab6312e32b0",
+        "ent_68c1b5616d129336bff6227c",
+        "ent_ba7d07d4fef0ac0ac0486a58"
+      ],
+      "content_coverage": {
+        "level": "partial",
+        "normalized_claim_count": 0,
+        "notes": "Finite M1 selection of independently bounded facts and official source locators. Patch-note prose, bulk change records, and full-note completeness reviews are excluded; complete note or observed gameplay coverage is not claimed."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_cdpatch10600official0001",
+      "platforms": [
+        "all"
+      ],
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "released_at": "2026-05-11T04:48:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_cdpatch10600official0001"
+      ],
+      "version": "1.06.00"
+    },
+    {
+      "affected_entity_ids": [],
+      "content_coverage": {
+        "level": "identity_only",
+        "normalized_claim_count": 0,
+        "notes": "Finite M1 selection of independently bounded facts and official source locators. Patch-note prose, bulk change records, and full-note completeness reviews are excluded; complete note or observed gameplay coverage is not claimed."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_cdpatch10601official0001",
+      "platforms": [
+        "all"
+      ],
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "released_at": "2026-05-12T08:04:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_cdpatch10601official0001"
+      ],
+      "version": "1.06.01"
+    },
+    {
+      "affected_entity_ids": [
+        "ent_d7888a7c62636637c711b824"
+      ],
+      "content_coverage": {
+        "level": "partial",
+        "normalized_claim_count": 0,
+        "notes": "Finite M1 selection of independently bounded facts and official source locators. Patch-note prose, bulk change records, and full-note completeness reviews are excluded; complete note or observed gameplay coverage is not claimed."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_cdpatch10700official0001",
+      "platforms": [
+        "all"
+      ],
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "released_at": "2026-05-15T04:11:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_cdpatch10700official0001"
+      ],
+      "version": "1.07.00"
+    },
+    {
+      "affected_entity_ids": [],
+      "content_coverage": {
+        "level": "identity_only",
+        "normalized_claim_count": 0,
+        "notes": "Finite M1 selection of independently bounded facts and official source locators. Patch-note prose, bulk change records, and full-note completeness reviews are excluded; complete note or observed gameplay coverage is not claimed."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_cdpatch10800official0001",
+      "platforms": [
+        "all"
+      ],
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "released_at": "2026-05-22T08:05:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_cdpatch10800official0001"
+      ],
+      "version": "1.08.00"
+    },
+    {
+      "affected_entity_ids": [
+        "ent_fa40b3202f6ac1e7a5cec80b"
+      ],
+      "content_coverage": {
+        "level": "partial",
+        "normalized_claim_count": 2,
+        "notes": "Finite M1 selection of independently bounded facts and official source locators. Patch-note prose, bulk change records, and full-note completeness reviews are excluded; complete note or observed gameplay coverage is not claimed."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_cdpatch11000official0001",
+      "platforms": [
+        "all"
+      ],
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001",
+        "updated_at": "2026-07-15T23:30:00-05:00"
+      },
+      "released_at": "2026-06-05T03:30:00Z",
+      "revision": 2,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_cdpatch11000official0001"
+      ],
+      "version": "1.10.00"
+    },
+    {
+      "affected_entity_ids": [],
+      "content_coverage": {
+        "level": "identity_only",
+        "normalized_claim_count": 0,
+        "notes": "Finite M1 selection of independently bounded facts and official source locators. Patch-note prose, bulk change records, and full-note completeness reviews are excluded; complete note or observed gameplay coverage is not claimed."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_cdpatch11001official0001",
+      "platforms": [
+        "all"
+      ],
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "released_at": "2026-06-06T00:05:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_cdpatch11001official0001"
+      ],
+      "version": "1.10.01"
+    },
+    {
+      "affected_entity_ids": [
+        "ent_00dc77d4156c7dce78eda8e1",
+        "ent_678f50b645d562a7fbc949d3",
+        "ent_7ad913f2ef18b4f0bff0ab47",
+        "ent_c6b75658ce6d066d4bab183e"
+      ],
+      "content_coverage": {
+        "level": "partial",
+        "normalized_claim_count": 0,
+        "notes": "Finite M1 selection of independently bounded facts and official source locators. Patch-note prose, bulk change records, and full-note completeness reviews are excluded; complete note or observed gameplay coverage is not claimed."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_cdpatch11100official0001",
+      "platforms": [
+        "all"
+      ],
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "released_at": "2026-06-12T03:00:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_cdpatch11100official0001"
+      ],
+      "version": "1.11.00"
+    },
+    {
+      "affected_entity_ids": [
+        "ent_36acbc9a581e0d561303a4ff",
+        "ent_6544449c3131fe4782f2e829"
+      ],
+      "content_coverage": {
+        "level": "partial",
+        "normalized_claim_count": 0,
+        "notes": "Finite M1 selection of independently bounded facts and official source locators. Patch-note prose, bulk change records, and full-note completeness reviews are excluded; complete note or observed gameplay coverage is not claimed."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_cdpatch11200official0001",
+      "platforms": [
+        "all"
+      ],
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "released_at": "2026-06-19T06:00:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_cdpatch11200official0001"
+      ],
+      "version": "1.12.00"
+    },
+    {
+      "affected_entity_ids": [],
+      "content_coverage": {
+        "level": "identity_only",
+        "normalized_claim_count": 0,
+        "notes": "Finite M1 selection of independently bounded facts and official source locators. Patch-note prose, bulk change records, and full-note completeness reviews are excluded; complete note or observed gameplay coverage is not claimed."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_cdpatch11201official0001",
+      "platforms": [
+        "all"
+      ],
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "released_at": "2026-06-20T02:00:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_cdpatch11201official0001"
+      ],
+      "version": "1.12.01"
+    },
+    {
+      "affected_entity_ids": [],
+      "content_coverage": {
+        "level": "identity_only",
+        "normalized_claim_count": 0,
+        "notes": "Finite M1 selection of independently bounded facts and official source locators. Patch-note prose, bulk change records, and full-note completeness reviews are excluded; complete note or observed gameplay coverage is not claimed."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_cdpatch11202official0001",
+      "platforms": [
+        "all"
+      ],
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "released_at": "2026-06-24T01:15:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_cdpatch11202official0001"
+      ],
+      "version": "1.12.02"
+    },
+    {
+      "affected_entity_ids": [
+        "ent_7e56dea738b3290968de9b16",
+        "ent_85cd231cab36c18c98ca5c2c",
+        "ent_9989e0f710724699b4307840",
+        "ent_9f54ed640e4227a7912de1be"
+      ],
+      "content_coverage": {
+        "level": "partial",
+        "normalized_claim_count": 6,
+        "notes": "Finite M1 selection of independently bounded facts and official source locators. Patch-note prose, bulk change records, and full-note completeness reviews are excluded; complete note or observed gameplay coverage is not claimed."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_cdpatch11300official0001",
+      "platforms": [
+        "all"
+      ],
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001",
+        "updated_at": "2026-07-15T03:45:18-05:00"
+      },
+      "released_at": "2026-07-03T03:00:00Z",
+      "revision": 2,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_cdpatch11300official0001"
+      ],
+      "version": "1.13.00"
+    },
+    {
+      "affected_entity_ids": [],
+      "content_coverage": {
+        "level": "identity_only",
+        "normalized_claim_count": 0,
+        "notes": "Finite M1 selection of independently bounded facts and official source locators. Patch-note prose, bulk change records, and full-note completeness reviews are excluded; complete note or observed gameplay coverage is not claimed."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_cdpatch11301official0001",
+      "platforms": [
+        "all"
+      ],
+      "provenance": {
+        "created_at": "2026-07-14T00:00:00-05:00",
+        "created_by": "manual_official_patch_inventory_20260714",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "released_at": "2026-07-08T05:51:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_cdpatch11301official0001"
+      ],
+      "version": "1.13.01"
+    },
+    {
+      "affected_entity_ids": [
+        "ent_edd38b6e8e9bc697d2b4d508"
+      ],
+      "content_coverage": {
+        "level": "partial",
+        "normalized_claim_count": 0,
+        "notes": "Finite M1 selection of independently bounded facts and official source locators. Patch-note prose, bulk change records, and full-note completeness reviews are excluded; complete note or observed gameplay coverage is not claimed."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_cdpatch11400official0001",
+      "platforms": [
+        "pc-steam",
+        "mac-steam",
+        "playstation-5",
+        "xbox-series",
+        "pc-epic"
+      ],
+      "provenance": {
+        "created_at": "2026-07-16T10:30:00Z",
+        "created_by": "official_patch_1_14_00_seed_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "released_at": "2026-07-16T09:00:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_cdpatch11400official0001"
+      ],
+      "version": "1.14.00"
+    }
+  ],
+  "schema_version": "pywel.patch_catalog.v1"
+}

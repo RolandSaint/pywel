@@ -1,0 +1,581 @@
+{
+  "catalog_id": "cat_9e79b874a185bb64c6ff8fda",
+  "records": [
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Seafood & Bird Stew"
+      },
+      "entity_id": "ent_11f1b3b38826e851cb876400",
+      "entity_type": "recipe",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T19:30:00Z",
+        "created_by": "crimsonwiki_cooking_recipes_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "recipe.seafood-bird-stew",
+      "subtype": "cooking",
+      "summary": "Crimson Desert recipe reference: Seafood & Bird Stew. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "cooking",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Fruit Tea"
+      },
+      "entity_id": "ent_143cc2bcb8cabe68ea843701",
+      "entity_type": "recipe",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T19:30:00Z",
+        "created_by": "crimsonwiki_cooking_recipes_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "recipe.fruit-tea",
+      "subtype": "cooking",
+      "summary": "Crimson Desert recipe reference: Fruit Tea. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "cooking",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Fish Fry"
+      },
+      "entity_id": "ent_14abb1243a29666ee279b722",
+      "entity_type": "recipe",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T19:30:00Z",
+        "created_by": "crimsonwiki_cooking_recipes_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "recipe.fish-fry",
+      "subtype": "cooking",
+      "summary": "Crimson Desert recipe reference: Fish Fry. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "cooking",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Simple Meat Porridge"
+      },
+      "entity_id": "ent_150a4a1ebec468988cb13e9f",
+      "entity_type": "recipe",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T19:30:00Z",
+        "created_by": "crimsonwiki_cooking_recipes_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "recipe.simple-meat-porridge",
+      "subtype": "cooking",
+      "summary": "Crimson Desert recipe reference: Simple Meat Porridge. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "cooking",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Seafood Fry"
+      },
+      "entity_id": "ent_168981a3b19aa6ebc5ff7382",
+      "entity_type": "recipe",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T19:30:00Z",
+        "created_by": "crimsonwiki_cooking_recipes_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "recipe.seafood-fry",
+      "subtype": "cooking",
+      "summary": "Crimson Desert recipe reference: Seafood Fry. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "cooking",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Fish Soup"
+      },
+      "entity_id": "ent_23a74ff251f041c5554f0a4f",
+      "entity_type": "recipe",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T19:30:00Z",
+        "created_by": "crimsonwiki_cooking_recipes_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "recipe.fish-soup",
+      "subtype": "cooking",
+      "summary": "Crimson Desert recipe reference: Fish Soup. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "cooking",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Creamy Meat Soup"
+      },
+      "entity_id": "ent_3f8a9d8c6073e808a0b25f2d",
+      "entity_type": "recipe",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T19:30:00Z",
+        "created_by": "crimsonwiki_cooking_recipes_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "recipe.creamy-meat-soup",
+      "subtype": "cooking",
+      "summary": "Crimson Desert recipe reference: Creamy Meat Soup. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "cooking",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Boiled Meat"
+      },
+      "entity_id": "ent_4636d5719dea56c5ba734a60",
+      "entity_type": "recipe",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T19:30:00Z",
+        "created_by": "crimsonwiki_cooking_recipes_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "recipe.boiled-meat",
+      "subtype": "cooking",
+      "summary": "Crimson Desert recipe reference: Boiled Meat. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "cooking",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Meat Stew"
+      },
+      "entity_id": "ent_479a93f69c96c7fda9202fd3",
+      "entity_type": "recipe",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T19:30:00Z",
+        "created_by": "crimsonwiki_cooking_recipes_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "recipe.meat-stew",
+      "subtype": "cooking",
+      "summary": "Crimson Desert recipe reference: Meat Stew. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "cooking",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Pan-Fried Fine Meat"
+      },
+      "entity_id": "ent_644f166107b14c0f93715e32",
+      "entity_type": "recipe",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T19:30:00Z",
+        "created_by": "crimsonwiki_cooking_recipes_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "recipe.pan-fried-fine-meat",
+      "subtype": "cooking",
+      "summary": "Crimson Desert recipe reference: Pan-Fried Fine Meat. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "cooking",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Pan-Fried Vegetables"
+      },
+      "entity_id": "ent_69a9fa6dfb66fe9ce494a92d",
+      "entity_type": "recipe",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T19:30:00Z",
+        "created_by": "crimsonwiki_cooking_recipes_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "recipe.pan-fried-vegetables",
+      "subtype": "cooking",
+      "summary": "Crimson Desert recipe reference: Pan-Fried Vegetables. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "cooking",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Seafood Soup"
+      },
+      "entity_id": "ent_6eb01f947143d14deca8b097",
+      "entity_type": "recipe",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T19:30:00Z",
+        "created_by": "crimsonwiki_cooking_recipes_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "recipe.seafood-soup",
+      "subtype": "cooking",
+      "summary": "Crimson Desert recipe reference: Seafood Soup. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "cooking",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Fruit Porridge"
+      },
+      "entity_id": "ent_82f3588da0dfed1a2f73ee3a",
+      "entity_type": "recipe",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T19:30:00Z",
+        "created_by": "crimsonwiki_cooking_recipes_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "recipe.fruit-porridge",
+      "subtype": "cooking",
+      "summary": "Crimson Desert recipe reference: Fruit Porridge. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "cooking",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Seafood Porridge"
+      },
+      "entity_id": "ent_89d31109424a84f68a407d81",
+      "entity_type": "recipe",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T19:30:00Z",
+        "created_by": "crimsonwiki_cooking_recipes_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "recipe.seafood-porridge",
+      "subtype": "cooking",
+      "summary": "Crimson Desert recipe reference: Seafood Porridge. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "cooking",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Meat and Fish Skewers"
+      },
+      "entity_id": "ent_8b27e32376389d63ee0eaae8",
+      "entity_type": "recipe",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T19:30:00Z",
+        "created_by": "crimsonwiki_cooking_recipes_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "recipe.meat-and-fish-skewers",
+      "subtype": "cooking",
+      "summary": "Crimson Desert recipe reference: Meat and Fish Skewers. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "cooking",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Fine Seafood Stew"
+      },
+      "entity_id": "ent_8eeba8bd21b526c56d120995",
+      "entity_type": "recipe",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T19:30:00Z",
+        "created_by": "crimsonwiki_cooking_recipes_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "recipe.fine-seafood-stew",
+      "subtype": "cooking",
+      "summary": "Crimson Desert recipe reference: Fine Seafood Stew. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "cooking",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Marinated Fish"
+      },
+      "entity_id": "ent_931dcd0fc4da2de03c86abb1",
+      "entity_type": "recipe",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T19:30:00Z",
+        "created_by": "crimsonwiki_cooking_recipes_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "recipe.marinated-fish",
+      "subtype": "cooking",
+      "summary": "Crimson Desert recipe reference: Marinated Fish. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "cooking",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Grilled Meat Steak"
+      },
+      "entity_id": "ent_a408cb61e55821597416abbb",
+      "entity_type": "recipe",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T19:30:00Z",
+        "created_by": "crimsonwiki_cooking_recipes_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "recipe.grilled-meat-steak",
+      "subtype": "cooking",
+      "summary": "Crimson Desert recipe reference: Grilled Meat Steak. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "cooking",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Fine Meat Mixed Fry"
+      },
+      "entity_id": "ent_c9535443cb8a556f638caf3f",
+      "entity_type": "recipe",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T19:30:00Z",
+        "created_by": "crimsonwiki_cooking_recipes_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "recipe.fine-meat-mixed-fry",
+      "subtype": "cooking",
+      "summary": "Crimson Desert recipe reference: Fine Meat Mixed Fry. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "cooking",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Vegetable Salad"
+      },
+      "entity_id": "ent_d9c90d94d1e0d3c4c6d50ed4",
+      "entity_type": "recipe",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T19:30:00Z",
+        "created_by": "crimsonwiki_cooking_recipes_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "recipe.vegetable-salad",
+      "subtype": "cooking",
+      "summary": "Crimson Desert recipe reference: Vegetable Salad. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "cooking",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Egg Soup"
+      },
+      "entity_id": "ent_e772bc466331e951df46475e",
+      "entity_type": "recipe",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T19:30:00Z",
+        "created_by": "crimsonwiki_cooking_recipes_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "recipe.egg-soup",
+      "subtype": "cooking",
+      "summary": "Crimson Desert recipe reference: Egg Soup. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "cooking",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Grilled Bread"
+      },
+      "entity_id": "ent_eee0c44c0b64b4135ee302f7",
+      "entity_type": "recipe",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T19:30:00Z",
+        "created_by": "crimsonwiki_cooking_recipes_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "recipe.grilled-bread",
+      "subtype": "cooking",
+      "summary": "Crimson Desert recipe reference: Grilled Bread. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "cooking",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Meatball Soup"
+      },
+      "entity_id": "ent_f02bd783538d05a4d19dfa36",
+      "entity_type": "recipe",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T19:30:00Z",
+        "created_by": "crimsonwiki_cooking_recipes_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "recipe.meatball-soup",
+      "subtype": "cooking",
+      "summary": "Crimson Desert recipe reference: Meatball Soup. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "cooking",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    }
+  ],
+  "schema_version": "pywel.entity_catalog.v1"
+}

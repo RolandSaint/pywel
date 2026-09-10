@@ -1,0 +1,95 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://pywelknowledge.org/schemas/claim.schema.json",
+  "title": "Pywel atomic claim",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "claim_id", "subject_entity_id", "predicate", "object", "status", "behavior_kind", "confidence", "evidence_ids", "validity", "spoiler_level", "provenance"],
+  "properties": {
+    "schema_version": { "const": "pywel.claim.v1" },
+    "claim_id": { "type": "string", "pattern": "^clm_[a-z0-9]{12,64}$" },
+    "subject_entity_id": { "type": "string", "pattern": "^ent_[a-z0-9]{12,64}$" },
+    "predicate": { "type": "string", "pattern": "^[a-z][a-z0-9]*(?:[._][a-z0-9]+)+$", "maxLength": 160 },
+    "object": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["kind", "entity_id"],
+          "properties": {
+            "kind": { "const": "entity" },
+            "entity_id": { "type": "string", "pattern": "^ent_[a-z0-9]{12,64}$" }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["kind", "value"],
+          "properties": {
+            "kind": { "const": "string" },
+            "value": { "type": "string" },
+            "unit": { "type": "string", "maxLength": 80 }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["kind", "value"],
+          "properties": {
+            "kind": { "const": "number" },
+            "value": { "type": "number" },
+            "unit": { "type": "string", "maxLength": 80 }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["kind", "value"],
+          "properties": {
+            "kind": { "const": "boolean" },
+            "value": { "type": "boolean" },
+            "unit": { "type": "string", "maxLength": 80 }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["kind", "minimum", "maximum"],
+          "properties": {
+            "kind": { "const": "range" },
+            "minimum": { "type": "number" },
+            "maximum": { "type": "number" },
+            "unit": { "type": "string", "maxLength": 80 }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["kind", "state"],
+          "properties": {
+            "kind": { "const": "unknown" },
+            "state": { "$ref": "common.schema.json#/definitions/epistemic_state" },
+            "reason": { "type": "string", "maxLength": 500 }
+          }
+        }
+      ]
+    },
+    "status": { "enum": ["official", "observed", "corroborated", "inferred", "disputed", "stale", "retracted"] },
+    "behavior_kind": { "enum": ["intended", "observed", "strategy", "historical"] },
+    "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+    "evidence_ids": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^evd_[a-z0-9]{12,64}$" }
+    },
+    "validity": { "$ref": "common.schema.json#/definitions/validity" },
+    "spoiler_level": { "$ref": "common.schema.json#/definitions/spoiler_level" },
+    "supersedes_claim_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^clm_[a-z0-9]{12,64}$" }
+    },
+    "provenance": { "$ref": "common.schema.json#/definitions/provenance" }
+  }
+}

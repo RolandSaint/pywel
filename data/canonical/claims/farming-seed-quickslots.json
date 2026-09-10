@@ -1,0 +1,33 @@
+{
+  "schema_version": "pywel.claim.v1",
+  "claim_id": "clm_01jzcdseedquickslot000001",
+  "subject_entity_id": "ent_01jzcdfarming000000000001",
+  "predicate": "farming.seeds_usable_from_quickslots",
+  "object": {
+    "kind": "boolean",
+    "value": true
+  },
+  "status": "official",
+  "behavior_kind": "intended",
+  "confidence": 1,
+  "evidence_ids": [
+    "evd_01jzcdpatch109official001"
+  ],
+  "validity": {
+    "from_patch": "1.09.00",
+    "through_patch": null,
+    "reviewed_through_patch": "1.09.00",
+    "platforms": [
+      "all"
+    ],
+    "locales": [
+      "en-US"
+    ]
+  },
+  "spoiler_level": "none",
+  "provenance": {
+    "created_at": "2026-07-14T00:00:00-05:00",
+    "created_by": "seed_import_v1",
+    "source_receipt_id": "rcp_m1publicscope202609100001"
+  }
+}

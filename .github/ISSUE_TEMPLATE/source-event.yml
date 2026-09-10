@@ -1,0 +1,45 @@
+name: Public source event
+description: Report a public official Crimson Desert patch or notice locator without copying the source body.
+title: "source: "
+labels: [source-event]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: HTTPS source URL
+    validations:
+      required: true
+  - type: input
+    id: locator
+    attributes:
+      label: Exact section or timestamp locator
+    validations:
+      required: true
+  - type: input
+    id: patch
+    attributes:
+      label: Patch version if stated
+  - type: dropdown
+    id: publisher
+    attributes:
+      label: Source class
+      options:
+        - Pearl Abyss official
+        - Direct observation
+        - Community lead only
+    validations:
+      required: true
+  - type: textarea
+    id: normalized
+    attributes:
+      label: Short normalized factual summary
+      description: Do not paste the page, dialogue, assets, private data, or model transcript.
+    validations:
+      required: true
+  - type: checkboxes
+    id: attestations
+    attributes:
+      label: Attestations
+      options:
+        - label: I did not include secrets, personal data, copied source bodies, game assets, or unauthorized extracted data.
+          required: true

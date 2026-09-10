@@ -1,0 +1,83 @@
+schema_version: pywel.load_first.v4
+project_id: pywel_knowledge_standard
+display_name: Pywel Knowledge Standard
+status: v1_0_0_release_source
+source_repository: https://github.com/RolandSaint/pywel
+source_visibility: public
+scope_adopted_on: '2026-09-10'
+authority:
+  accepted_truth: reviewed_git_json
+  canonical_data_root: data/canonical
+  schema_root: schemas
+  generated_data_root: dist/data
+  compiled_runtime_root: dist/runtime
+  release_scope: docs/RELEASE_SCOPE.md
+  milestone_plan: docs/ROADMAP_TO_1_0.md
+  candidate_manifest: quality/public-release-scope.json
+  m1_evidence: docs/M1_COMPLETION.md
+  m2_evidence: docs/M2_COMPLETION.md
+  m3_evidence: docs/M3_COMPLETION.md
+  m4_evidence: docs/M4_COMPLETION.md
+  m5_evidence: docs/M5_COMPLETION.md
+  response_schema: schemas/agent-contract.schema.json
+  compatibility_policy: docs/COMPATIBILITY.md
+read_first:
+  - AGENTS.md
+  - docs/RELEASE_SCOPE.md
+  - docs/ROADMAP_TO_1_0.md
+  - DATA_RIGHTS.md
+run_first:
+  - npm ci --ignore-scripts --no-audit --no-fund
+  - npm run check
+release_scope:
+  dataset: fixed_manifest_of_general_game_knowledge
+  patch_ceiling: '1.14.00'
+  patch_scope: historical_snapshot_not_live_game_freshness
+  retrieval_language: English
+  retained_access:
+    - offline_JSON_JSONL
+    - read_only_loopback_REST
+    - local_stdio_MCP
+  required_paid_services: 0
+  required_personal_systems: 0
+  public_boundary: clean_source_snapshot_without_original_git_history_refs_or_assets
+  publication_authorized: true
+runtime:
+  node_version: '24.18.0'
+  data_source: validated_public_projection_of_canonical_JSON
+  rest_start: npm run start
+  rest_default: http://127.0.0.1:8787
+  mcp_start: npm run --silent mcp
+  build: npm run build
+  operations: docs/OPERATIONS.md
+  agent_interface: docs/API_V1.md
+  retrieval_locale: en-US
+  default_spoiler: none
+  platform_all_semantics: union_of_applicable_platform_records
+  rest_operations: 16
+  mcp_tools: 9
+  mcp_resources:
+    - pywel://service
+    - pywel://codebook
+truth_boundaries:
+  - Canonical JSON and versioned schemas are authoritative; generated outputs are disposable projections.
+  - Claims require specific evidence, rights disposition, uncertainty, and applicable review context.
+  - Related content does not establish the requested predicate.
+  - Patch identities do not refresh claims; unknown patches and stale reviews remain explicit gaps.
+  - No personal state, private paths, credentials, copied source bodies, game assets, or personal-system dependencies.
+  - Integrity receipts do not establish factual truth, source availability, or publication rights.
+engineering_order:
+  - question_requirements
+  - delete_unnecessary_parts
+  - simplify_survivors
+  - accelerate_stable_design
+  - automate_last
+working_rules:
+  - Keep the initial dataset fixed; scope changes need an explicit reason and reviewed manifest diff.
+  - Use agent branches and reviewed GitHub pull requests.
+  - Commit and push after each completed milestone; merge only after review and required checks pass.
+  - Never edit generated outputs by hand or promote contributions automatically.
+  - No dormant model, manager, cloud, write-intake, queue, capture, or alternative-storage path.
+  - Software 1.0.0 starts from the certified clean M5 snapshot with reviewed publication-only documentation and CI changes.
+  - The public repository is the ongoing authority; original development history and assets remain private and excluded.
+  - New releases, deployment, paid resources, personal-system access, and outside contact require appropriate authorization.

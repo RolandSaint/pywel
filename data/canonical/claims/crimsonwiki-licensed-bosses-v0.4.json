@@ -1,0 +1,3141 @@
+{
+  "catalog_id": "cat_8a640dd94b47734ba12545a9",
+  "records": [
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_036861c4d0e1327d48b5c7e4",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_48addde46e03fa935d0964cb"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Rain of Shadows"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_d9e67656b6e0ab7989cea82c",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_05f47c8e426861a089d59712",
+      "confidence": 0.52,
+      "evidence_ids": [
+        "evd_3a5aa8aef9228026b666cca5"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "boss"
+      },
+      "predicate": "actor.role",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_75081ecd3dfaa0b88b5ec7de",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_0674b23e14eb60db2163527b",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_48addde46e03fa935d0964cb"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Movement Patterns"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_d9e67656b6e0ab7989cea82c",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_0c50625f8db446642bc590c3",
+      "confidence": 0.52,
+      "evidence_ids": [
+        "evd_81fba835a8993c3becad3742"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "boss"
+      },
+      "predicate": "actor.role",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_02de766ead8f7e9c3fbca0b9",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_0e86b502d2fd8da71959deb8",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_81fba835a8993c3becad3742"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Expertise Attack"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_02de766ead8f7e9c3fbca0b9",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_1209fc3612fcb96ae75dc5b0",
+      "confidence": 0.52,
+      "evidence_ids": [
+        "evd_87be71384f6fe1e13331846f"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "boss"
+      },
+      "predicate": "actor.role",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_ba0fda8a1da430202692ca90",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_13a18f7c07ba999d405f9a8b",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_5e8561ad59792d10d49bb4c5"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Wild Swing Combo"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_b38be193745917b9512a843b",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_142e8d887493c54c72532517",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_c792bdd06d7e78d3ff45e599"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Low Health Spin Attack"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_d6c96aaab9209e5e9ff1d67b",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_1bfaccf16c8ffd45ca69ccee",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_3a5aa8aef9228026b666cca5"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Smoke Assault"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_75081ecd3dfaa0b88b5ec7de",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_1e1faa35df11668a81e0bf67",
+      "confidence": 0.52,
+      "evidence_ids": [
+        "evd_48addde46e03fa935d0964cb"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "boss"
+      },
+      "predicate": "actor.role",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_d9e67656b6e0ab7989cea82c",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_1e29412243268fa675d62879",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_41d68b4303d9aad2b3621f14"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Shadow Strike"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_ac9cfbf91683e24508bae348",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_1f085050fb30aa2b37593717",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_987f9c421fa4f2572cef6294"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Triple Illusion Strike"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_c2e851043fce3bd9876e5072",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_209b81c0bfe3923014ca6f35",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_8907ca29927b4632c536f54c"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Shadow Dance"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_3a05af6c44e52cdd3f0cba4a",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_266f6f72dd90439e54e702fa",
+      "confidence": 0.46,
+      "evidence_ids": [
+        "evd_210fc9e0102c77fc67e973e6"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Pailune Castle"
+      },
+      "predicate": "actor.location",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_58b676d05394107180465953",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_2b787ea7bb98297b95357edb",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_987f9c421fa4f2572cef6294"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Ground Thrust"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_c2e851043fce3bd9876e5072",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_2d9238a38356a53e1be64c58",
+      "confidence": 0.46,
+      "evidence_ids": [
+        "evd_6597c48d3be5629f4e5da858"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Karin Quarry"
+      },
+      "predicate": "actor.location",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_7e38fb7b48e5b55432fe64ca",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_2e15c88b8a4cb40840156f7c",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_8907ca29927b4632c536f54c"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Cross Slash"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_3a05af6c44e52cdd3f0cba4a",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_32f0507ef0dff96e4ba9dbfd",
+      "confidence": 0.52,
+      "evidence_ids": [
+        "evd_987f9c421fa4f2572cef6294"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "boss"
+      },
+      "predicate": "actor.role",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_c2e851043fce3bd9876e5072",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_36b658c08af38973c9156650",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_b41853ceb68c551e1b63ada9"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Crimson Dive"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_b0602b759db04e39a34976e4",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_39bfde7f74b3fbf3f85b0384",
+      "confidence": 0.46,
+      "evidence_ids": [
+        "evd_b41853ceb68c551e1b63ada9"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Fort Perwin"
+      },
+      "predicate": "actor.location",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_b0602b759db04e39a34976e4",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_3a4d1f724acc7b3771292bfe",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_606b64e5405548a92ab2499d"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Lightning Greatsword Techniques"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_5b69a28813ad2a03a608e01f",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_3abb8e9fdb2424f2b7fd5b8e",
+      "confidence": 0.52,
+      "evidence_ids": [
+        "evd_e01faa67fa5b04c6849099ec"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "boss"
+      },
+      "predicate": "actor.role",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_d7323f923826fb0a43bd5881",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_3b5f6bd855fee642c1f1409a",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_c45db1cec7d5dc7cb827f515"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Slam Combinations"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_0feae7ff299965340dc28ad8",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_3dd4dc00cc3a8416bd88bcb4",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_41d68b4303d9aad2b3621f14"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Sword Wave"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_ac9cfbf91683e24508bae348",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_3ee578900254a1377408eb21",
+      "confidence": 0.52,
+      "evidence_ids": [
+        "evd_60bd98bdecee1cb3fec4a306"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "boss"
+      },
+      "predicate": "actor.role",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_ca6a08fe4708df1e955fd89d",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_41b360e1fe0c4da134b62a33",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_87be71384f6fe1e13331846f"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Cannon Fire Barrage"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_ba0fda8a1da430202692ca90",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_41da3020ed9a46fdb38a5fe6",
+      "confidence": 0.46,
+      "evidence_ids": [
+        "evd_55c682b7c38156e890fa821f"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Arboria Castle in northern Hernand"
+      },
+      "predicate": "actor.location",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_039749a06a127a24b8d92cab",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_459c337300e8b8464488dffe",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_210fc9e0102c77fc67e973e6"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "projectile attacks"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_58b676d05394107180465953",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_45c3d61e72dcf6a4b57064ca",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_c792bdd06d7e78d3ff45e599"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Attack Combo"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_d6c96aaab9209e5e9ff1d67b",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_4720c12b6241e4612fee9a2c",
+      "confidence": 0.46,
+      "evidence_ids": [
+        "evd_987f9c421fa4f2572cef6294"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Sanctum of Absolution"
+      },
+      "predicate": "actor.location",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_c2e851043fce3bd9876e5072",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_47749fc690f16108cdab85da",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_606b64e5405548a92ab2499d"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Great Lightning Combo"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_5b69a28813ad2a03a608e01f",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_49c4a830ad2e8fbc3f47b03f",
+      "confidence": 0.46,
+      "evidence_ids": [
+        "evd_41d68b4303d9aad2b3621f14"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Mountain of Frozen Souls"
+      },
+      "predicate": "actor.location",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_ac9cfbf91683e24508bae348",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_4a2fd387406743940a6498a9",
+      "confidence": 0.46,
+      "evidence_ids": [
+        "evd_2f23bd2cf1fc51a696e595f5"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Goldleaf Guildhouse"
+      },
+      "predicate": "actor.location",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_c42f30b86412105d1ce79d44",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_4b0c5d3046c0e3ee51a28e75",
+      "confidence": 0.46,
+      "evidence_ids": [
+        "evd_697d7cdf2226cc9b0a315eee"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "City of Hernan"
+      },
+      "predicate": "actor.location",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_b7e7c46e306dbc344e52c442",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_4fc06010b207d6baf616f2b0",
+      "confidence": 0.46,
+      "evidence_ids": [
+        "evd_81fba835a8993c3becad3742"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Icemoor Castle Ruins"
+      },
+      "predicate": "actor.location",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_02de766ead8f7e9c3fbca0b9",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_501fdd8820950271d6bb8b41",
+      "confidence": 0.46,
+      "evidence_ids": [
+        "evd_f4d389baacbc852319826a53"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Spire of Ringing Truth in Pailune"
+      },
+      "predicate": "actor.location",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_de43d623d7c770ee8e9af79f",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_50a72d746dd2e637f67c9735",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_f4d389baacbc852319826a53"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Shadow Assault"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_de43d623d7c770ee8e9af79f",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_542243c8941e8382b57125cd",
+      "confidence": 0.52,
+      "evidence_ids": [
+        "evd_5e8561ad59792d10d49bb4c5"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "boss"
+      },
+      "predicate": "actor.role",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_b38be193745917b9512a843b",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_5489c1d061878af7ce699e37",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_55c682b7c38156e890fa821f"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Toxic Shower"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_039749a06a127a24b8d92cab",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_56228e173089488399f9fa1c",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_e01faa67fa5b04c6849099ec"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Rapid Slam Combo"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_d7323f923826fb0a43bd5881",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_56d52b0566fabb1817ba1810",
+      "confidence": 0.46,
+      "evidence_ids": [
+        "evd_c45db1cec7d5dc7cb827f515"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Desolate Megalith Altar near Tashkalp"
+      },
+      "predicate": "actor.location",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_0feae7ff299965340dc28ad8",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_5f5835eae91c519a5d9228f0",
+      "confidence": 0.52,
+      "evidence_ids": [
+        "evd_6597c48d3be5629f4e5da858"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "boss"
+      },
+      "predicate": "actor.role",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_7e38fb7b48e5b55432fe64ca",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_64de0619dcce0958b1770012",
+      "confidence": 0.52,
+      "evidence_ids": [
+        "evd_210fc9e0102c77fc67e973e6"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "boss"
+      },
+      "predicate": "actor.role",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_58b676d05394107180465953",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_66d2873f410fa116983de3c2",
+      "confidence": 0.52,
+      "evidence_ids": [
+        "evd_c45db1cec7d5dc7cb827f515"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "boss"
+      },
+      "predicate": "actor.role",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_0feae7ff299965340dc28ad8",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_66f2b241ec5babd8c20f2df1",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_6597c48d3be5629f4e5da858"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Drill Line Attack"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_7e38fb7b48e5b55432fe64ca",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_68187596b9705df40e2396f6",
+      "confidence": 0.52,
+      "evidence_ids": [
+        "evd_697d7cdf2226cc9b0a315eee"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "boss"
+      },
+      "predicate": "actor.role",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_b7e7c46e306dbc344e52c442",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_6afa9a733b71ceab1950110f",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_2f23bd2cf1fc51a696e595f5"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Counter Attack Mechanics"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_c42f30b86412105d1ce79d44",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_6c2149e86f7b9b3a6024fc2c",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_41d68b4303d9aad2b3621f14"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Crescent Slash"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_ac9cfbf91683e24508bae348",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_716517a5fe938247aefcaad4",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_81fba835a8993c3becad3742"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Royal Combo"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_02de766ead8f7e9c3fbca0b9",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_72229139cf950d49761125c1",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_5e8561ad59792d10d49bb4c5"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Defensive Posturing"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_b38be193745917b9512a843b",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_7576bb8c6b8711aac1c01cc0",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_81fba835a8993c3becad3742"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Shield Charge"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_02de766ead8f7e9c3fbca0b9",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_7703f2e2026636ec3260a8d7",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_697d7cdf2226cc9b0a315eee"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Pump Kick"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_b7e7c46e306dbc344e52c442",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_77b900a48fc94808cab834e9",
+      "confidence": 0.46,
+      "evidence_ids": [
+        "evd_5e8561ad59792d10d49bb4c5"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Calphade Castle"
+      },
+      "predicate": "actor.location",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_b38be193745917b9512a843b",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_83a64153c9c03a609295c9cb",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_f4d389baacbc852319826a53"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Laser Projectile Barrage"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_de43d623d7c770ee8e9af79f",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_84dea6d5fa0b3d936f1214b1",
+      "confidence": 0.52,
+      "evidence_ids": [
+        "evd_55c682b7c38156e890fa821f"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "boss"
+      },
+      "predicate": "actor.role",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_039749a06a127a24b8d92cab",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_861630cd5a80c688ffac0ba2",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_6597c48d3be5629f4e5da858"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Dig Attack"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_7e38fb7b48e5b55432fe64ca",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_8901881ecd7fa0f872bd5fbc",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_606b64e5405548a92ab2499d"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Enhanced Movement Patterns"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_5b69a28813ad2a03a608e01f",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_8bd31f20c6400f01727826bb",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_e01faa67fa5b04c6849099ec"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Body Slam Attack"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_d7323f923826fb0a43bd5881",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_8e1c2063b497e0c6061fffd2",
+      "confidence": 0.46,
+      "evidence_ids": [
+        "evd_e01faa67fa5b04c6849099ec"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Hernand Castle"
+      },
+      "predicate": "actor.location",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_d7323f923826fb0a43bd5881",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_914d99caa02822f1d8f2b5dd",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_b41853ceb68c551e1b63ada9"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Crushing Shot"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_b0602b759db04e39a34976e4",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_915218b0669559afa3b30995",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_55c682b7c38156e890fa821f"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Spider Bite"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_039749a06a127a24b8d92cab",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_94230d9135809c5aa969958c",
+      "confidence": 0.46,
+      "evidence_ids": [
+        "evd_606b64e5405548a92ab2499d"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Kingshield Mountain"
+      },
+      "predicate": "actor.location",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_5b69a28813ad2a03a608e01f",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_9897d89ad939ff41ef590d2b",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_87be71384f6fe1e13331846f"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Movement and Positioning"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_ba0fda8a1da430202692ca90",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_9a42528e43eb5636c6dc9273",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_3a5aa8aef9228026b666cca5"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Standard Shotgun Attacks"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_75081ecd3dfaa0b88b5ec7de",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_9a5e23657338ec40c37ec3aa",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_b41853ceb68c551e1b63ada9"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Confusion Infliction"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_b0602b759db04e39a34976e4",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_9c857dcd348cde0230d2620d",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_60bd98bdecee1cb3fec4a306"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Laser Shower"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_ca6a08fe4708df1e955fd89d",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_a19fefb0d43ba31f3ccb550f",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_60bd98bdecee1cb3fec4a306"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Lightning Slam"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_ca6a08fe4708df1e955fd89d",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_a6560424cc760ea9b4a985dd",
+      "confidence": 0.46,
+      "evidence_ids": [
+        "evd_1d23a13069d9017bfbd19208"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Forebearer's Barrens"
+      },
+      "predicate": "actor.location",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_6fb3ec289fc73c95dc1a7709",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_a7a7e8ac47dac700f7868e02",
+      "confidence": 0.46,
+      "evidence_ids": [
+        "evd_48addde46e03fa935d0964cb"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Scholastone Institute"
+      },
+      "predicate": "actor.location",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_d9e67656b6e0ab7989cea82c",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_a87e1628355552680735717b",
+      "confidence": 0.46,
+      "evidence_ids": [
+        "evd_8907ca29927b4632c536f54c"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Crow's Nest in the Abyss"
+      },
+      "predicate": "actor.location",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_3a05af6c44e52cdd3f0cba4a",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_ac365026569da1efe8c88379",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_c792bdd06d7e78d3ff45e599"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Jump Repositioning"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_d6c96aaab9209e5e9ff1d67b",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_acd6ec9c6a076d6285fa4d5d",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_c792bdd06d7e78d3ff45e599"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Chasing Combo"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_d6c96aaab9209e5e9ff1d67b",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_af9bf2ecc523f850ae6254e4",
+      "confidence": 0.46,
+      "evidence_ids": [
+        "evd_87be71384f6fe1e13331846f"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Forebearer's Barrens"
+      },
+      "predicate": "actor.location",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_ba0fda8a1da430202692ca90",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_b14ba5acf971ca1075f51446",
+      "confidence": 0.52,
+      "evidence_ids": [
+        "evd_c792bdd06d7e78d3ff45e599"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "boss"
+      },
+      "predicate": "actor.role",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_d6c96aaab9209e5e9ff1d67b",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_b22976b0c53d83e31fcc1eaf",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_f4d389baacbc852319826a53"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Spear Combination"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_de43d623d7c770ee8e9af79f",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_b8a2778dce59d70ac331930b",
+      "confidence": 0.46,
+      "evidence_ids": [
+        "evd_3a5aa8aef9228026b666cca5"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Fort Warspike"
+      },
+      "predicate": "actor.location",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_75081ecd3dfaa0b88b5ec7de",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_b99fa7e737b945757084391f",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_1d23a13069d9017bfbd19208"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Slow Windup Attacks"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_6fb3ec289fc73c95dc1a7709",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_ba82dc8beca3e1916d4de82e",
+      "confidence": 0.52,
+      "evidence_ids": [
+        "evd_b41853ceb68c551e1b63ada9"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "boss"
+      },
+      "predicate": "actor.role",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_b0602b759db04e39a34976e4",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_c3fae3c732669be84dbde9e5",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_87be71384f6fe1e13331846f"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Defensive Systems"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_ba0fda8a1da430202692ca90",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_c5225633d8c2218462ce2872",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_210fc9e0102c77fc67e973e6"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "electrified sword combat"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_58b676d05394107180465953",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_c7c00e00f41270fc360eac40",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_987f9c421fa4f2572cef6294"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Shadow Strike"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_c2e851043fce3bd9876e5072",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_c90ae9b28fad5b4ae979cb29",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_1d23a13069d9017bfbd19208"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Stagger and Disintegration"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_6fb3ec289fc73c95dc1a7709",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_d13c65e9da3b8ee9dfc86b14",
+      "confidence": 0.52,
+      "evidence_ids": [
+        "evd_606b64e5405548a92ab2499d"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "boss"
+      },
+      "predicate": "actor.role",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_5b69a28813ad2a03a608e01f",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_d710dd74447ab4fa79a3bc68",
+      "confidence": 0.52,
+      "evidence_ids": [
+        "evd_f4d389baacbc852319826a53"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "boss"
+      },
+      "predicate": "actor.role",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_de43d623d7c770ee8e9af79f",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_e0e30c8db0703e6e1c0e10f2",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_2f23bd2cf1fc51a696e595f5"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Evasive Roll System"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_c42f30b86412105d1ce79d44",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_e64fbb7874055aff26313408",
+      "confidence": 0.52,
+      "evidence_ids": [
+        "evd_2f23bd2cf1fc51a696e595f5"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "boss"
+      },
+      "predicate": "actor.role",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_c42f30b86412105d1ce79d44",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_eafe14de89054bf60678aa2f",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_c45db1cec7d5dc7cb827f515"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Jump Slams"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_0feae7ff299965340dc28ad8",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_ef932f1f950573574a8a4f99",
+      "confidence": 0.46,
+      "evidence_ids": [
+        "evd_60bd98bdecee1cb3fec4a306"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Twisted Thicketway"
+      },
+      "predicate": "actor.location",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_ca6a08fe4708df1e955fd89d",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_f18170a6fd67e2116f9f2bd4",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_2f23bd2cf1fc51a696e595f5"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Wind Slash Flurry"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_c42f30b86412105d1ce79d44",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_f1ecb70f12cc3a59045bcb41",
+      "confidence": 0.52,
+      "evidence_ids": [
+        "evd_41d68b4303d9aad2b3621f14"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "boss"
+      },
+      "predicate": "actor.role",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_ac9cfbf91683e24508bae348",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_f59728cdcfedcf6db28fe8e6",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_5e8561ad59792d10d49bb4c5"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Demon Fangs"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_b38be193745917b9512a843b",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_f5c0916114a3db46da33cd62",
+      "confidence": 0.44,
+      "evidence_ids": [
+        "evd_e01faa67fa5b04c6849099ec"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Phase 3 Aggression"
+      },
+      "predicate": "actor.ability",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_d7323f923826fb0a43bd5881",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_f71a276a3d75fedf4765e5cd",
+      "confidence": 0.46,
+      "evidence_ids": [
+        "evd_c792bdd06d7e78d3ff45e599"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Fort Hellwood"
+      },
+      "predicate": "actor.location",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_d6c96aaab9209e5e9ff1d67b",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_f8120906b4e7aa393712604e",
+      "confidence": 0.52,
+      "evidence_ids": [
+        "evd_8907ca29927b4632c536f54c"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "boss"
+      },
+      "predicate": "actor.role",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_3a05af6c44e52cdd3f0cba4a",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_f859954d71dfecbfabb9a261",
+      "confidence": 0.52,
+      "evidence_ids": [
+        "evd_1d23a13069d9017bfbd19208"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "boss"
+      },
+      "predicate": "actor.role",
+      "provenance": {
+        "created_at": "2026-07-16T20:15:00-05:00",
+        "created_by": "crimsonwiki_licensed_bosses_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "inferred",
+      "subject_entity_id": "ent_6fb3ec289fc73c95dc1a7709",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    }
+  ],
+  "schema_version": "pywel.claim_catalog.v1"
+}

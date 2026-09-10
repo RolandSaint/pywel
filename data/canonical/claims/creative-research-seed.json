@@ -1,0 +1,238 @@
+{
+  "schema_version": "pywel.claim_catalog.v1",
+  "catalog_id": "cat_41b090c638244ea8bf582aee",
+  "records": [
+    {
+      "schema_version": "pywel.claim.v1",
+      "claim_id": "clm_1ee2e8310c54ff595a03db3c",
+      "subject_entity_id": "ent_9f54ed640e4227a7912de1be",
+      "predicate": "character.can_enter_abyss",
+      "object": {
+        "kind": "boolean",
+        "value": true
+      },
+      "status": "official",
+      "behavior_kind": "intended",
+      "confidence": 1,
+      "evidence_ids": [
+        "evd_cdpatch11300official0001"
+      ],
+      "validity": {
+        "from_patch": "1.13.00",
+        "through_patch": null,
+        "reviewed_through_patch": "1.13.01",
+        "platforms": [
+          "all"
+        ],
+        "locales": [
+          "en-US"
+        ]
+      },
+      "spoiler_level": "none",
+      "provenance": {
+        "created_at": "2026-07-15T03:45:18-05:00",
+        "created_by": "creative_research_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.claim.v1",
+      "claim_id": "clm_825506491fc78c279dca8190",
+      "subject_entity_id": "ent_7e56dea738b3290968de9b16",
+      "predicate": "character.can_enter_abyss",
+      "object": {
+        "kind": "boolean",
+        "value": true
+      },
+      "status": "official",
+      "behavior_kind": "intended",
+      "confidence": 1,
+      "evidence_ids": [
+        "evd_cdpatch11300official0001"
+      ],
+      "validity": {
+        "from_patch": "1.13.00",
+        "through_patch": null,
+        "reviewed_through_patch": "1.13.01",
+        "platforms": [
+          "all"
+        ],
+        "locales": [
+          "en-US"
+        ]
+      },
+      "spoiler_level": "none",
+      "provenance": {
+        "created_at": "2026-07-15T03:45:18-05:00",
+        "created_by": "creative_research_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.claim.v1",
+      "claim_id": "clm_9b604d7b262122c256563183",
+      "subject_entity_id": "ent_9f54ed640e4227a7912de1be",
+      "predicate": "character.equipment_added",
+      "object": {
+        "kind": "number",
+        "value": 8,
+        "unit": "items"
+      },
+      "status": "official",
+      "behavior_kind": "intended",
+      "confidence": 1,
+      "evidence_ids": [
+        "evd_cdpatch11300official0001"
+      ],
+      "validity": {
+        "from_patch": "1.13.00",
+        "through_patch": null,
+        "reviewed_through_patch": "1.13.01",
+        "platforms": [
+          "all"
+        ],
+        "locales": [
+          "en-US"
+        ]
+      },
+      "spoiler_level": "none",
+      "provenance": {
+        "created_at": "2026-07-15T03:45:18-05:00",
+        "created_by": "creative_research_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.claim.v1",
+      "claim_id": "clm_4eecba4e4ab5e315bfefb79b",
+      "subject_entity_id": "ent_7e56dea738b3290968de9b16",
+      "predicate": "character.outfit_compatibility",
+      "object": {
+        "kind": "string",
+        "value": "Can equip most outfits available to Kliff."
+      },
+      "status": "official",
+      "behavior_kind": "intended",
+      "confidence": 1,
+      "evidence_ids": [
+        "evd_cdpatch11300official0001"
+      ],
+      "validity": {
+        "from_patch": "1.13.00",
+        "through_patch": null,
+        "reviewed_through_patch": "1.13.01",
+        "platforms": [
+          "all"
+        ],
+        "locales": [
+          "en-US"
+        ]
+      },
+      "spoiler_level": "none",
+      "provenance": {
+        "created_at": "2026-07-15T03:45:18-05:00",
+        "created_by": "creative_research_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.claim.v1",
+      "claim_id": "clm_552de10b3b3ef9e127b19672",
+      "subject_entity_id": "ent_85cd231cab36c18c98ca5c2c",
+      "predicate": "dye.most_weapons_supported",
+      "object": {
+        "kind": "boolean",
+        "value": true
+      },
+      "status": "official",
+      "behavior_kind": "intended",
+      "confidence": 1,
+      "evidence_ids": [
+        "evd_cdpatch11300official0001"
+      ],
+      "validity": {
+        "from_patch": "1.13.00",
+        "through_patch": null,
+        "reviewed_through_patch": "1.13.01",
+        "platforms": [
+          "all"
+        ],
+        "locales": [
+          "en-US"
+        ]
+      },
+      "spoiler_level": "none",
+      "provenance": {
+        "created_at": "2026-07-15T03:45:18-05:00",
+        "created_by": "creative_research_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.claim.v1",
+      "claim_id": "clm_07ac290eeb62d18bdfa7a65c",
+      "subject_entity_id": "ent_85cd231cab36c18c98ca5c2c",
+      "predicate": "dye.nondyeable_items_selectable",
+      "object": {
+        "kind": "boolean",
+        "value": false
+      },
+      "status": "official",
+      "behavior_kind": "intended",
+      "confidence": 1,
+      "evidence_ids": [
+        "evd_cdpatch11300official0001"
+      ],
+      "validity": {
+        "from_patch": "1.13.00",
+        "through_patch": null,
+        "reviewed_through_patch": "1.13.01",
+        "platforms": [
+          "all"
+        ],
+        "locales": [
+          "en-US"
+        ]
+      },
+      "spoiler_level": "none",
+      "provenance": {
+        "created_at": "2026-07-15T03:45:18-05:00",
+        "created_by": "creative_research_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.claim.v1",
+      "claim_id": "clm_b63dffa61d534c151e791c3d",
+      "subject_entity_id": "ent_85cd231cab36c18c98ca5c2c",
+      "predicate": "dye.preview_reduces_surrounding_light",
+      "object": {
+        "kind": "boolean",
+        "value": true
+      },
+      "status": "official",
+      "behavior_kind": "intended",
+      "confidence": 1,
+      "evidence_ids": [
+        "evd_01jzcdpatch109official001"
+      ],
+      "validity": {
+        "from_patch": "1.09.00",
+        "through_patch": null,
+        "reviewed_through_patch": "1.13.01",
+        "platforms": [
+          "all"
+        ],
+        "locales": [
+          "en-US"
+        ]
+      },
+      "spoiler_level": "none",
+      "provenance": {
+        "created_at": "2026-07-15T03:45:18-05:00",
+        "created_by": "creative_research_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://pywelknowledge.org/schemas/corpus.schema.json",
+  "title": "Pywel offline public corpus v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "build_id",
+    "build_runtime",
+    "latest_known_patch",
+    "publication_projection",
+    "entities",
+    "claims",
+    "evidence",
+    "patches",
+    "strategies",
+    "receipts",
+    "predicateRegistry",
+    "entitySubtypeRegistry"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "pywel.corpus.v1"
+    },
+    "build_id": {
+      "type": "string",
+      "pattern": "^bld_[a-f0-9]{24}$"
+    },
+    "build_runtime": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "node"
+      ],
+      "properties": {
+        "node": {
+          "type": "string",
+          "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+        }
+      }
+    },
+    "latest_known_patch": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[0-9]+(?:\\.[0-9]+){1,3}$"
+    },
+    "publication_projection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "scope"
+      ],
+      "properties": {
+        "scope": {
+          "const": "public_knowledge_v1"
+        }
+      }
+    },
+    "entities": {
+      "type": "array",
+      "items": {
+        "$ref": "https://pywelknowledge.org/schemas/entity.schema.json"
+      }
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "$ref": "https://pywelknowledge.org/schemas/claim.schema.json"
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "$ref": "https://pywelknowledge.org/schemas/evidence.schema.json"
+      }
+    },
+    "patches": {
+      "type": "array",
+      "items": {
+        "$ref": "https://pywelknowledge.org/schemas/patch.schema.json"
+      }
+    },
+    "strategies": {
+      "type": "array",
+      "items": {
+        "$ref": "https://pywelknowledge.org/schemas/strategy.schema.json"
+      }
+    },
+    "receipts": {
+      "type": "array",
+      "items": {
+        "$ref": "https://pywelknowledge.org/schemas/receipt.schema.json"
+      }
+    },
+    "predicateRegistry": {
+      "$ref": "https://pywelknowledge.org/schemas/predicate-registry.schema.json"
+    },
+    "entitySubtypeRegistry": {
+      "$ref": "https://pywelknowledge.org/schemas/entity-subtype-registry.schema.json"
+    }
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "catalog_id": "cat_e121b843a87ddb90bc1fe04f",
+  "records": [
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_7a9022837892fc480df8bc5f",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_cdpatch10400official0001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Patch 1.04.00 added a Constabulary in southern Hernand."
+      },
+      "predicate": "location.service",
+      "provenance": {
+        "created_at": "2026-07-15T23:30:00-05:00",
+        "created_by": "wave_two_world_regions_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "official",
+      "subject_entity_id": "ent_e964d1c5570c6dc429afbab4",
+      "validity": {
+        "from_patch": "1.04.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": "1.13.01",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_9577c17b720ac775b9a4ff17",
+      "confidence": 0.92,
+      "evidence_ids": [
+        "evd_1a07fc875d3cc4df058321b9"
+      ],
+      "object": {
+        "kind": "unknown",
+        "reason": "Pywel is the top-level continent in the reviewed in-game geography model. This closes only the modeled parent dimension and makes no claim about broader cosmology.",
+        "state": "not_applicable"
+      },
+      "predicate": "location.parent",
+      "provenance": {
+        "created_at": "2026-07-15T23:30:00-05:00",
+        "created_by": "wave_two_world_regions_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_8324dc6c53a7aca2bc38ea07",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_9d9c5b709327906662cf0ad3",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_cdpatch11000official0001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Patch 1.10.00 added the Pinball minigame to the inn near the Delesyian Institute."
+      },
+      "predicate": "location.service",
+      "provenance": {
+        "created_at": "2026-07-15T23:30:00-05:00",
+        "created_by": "wave_two_world_regions_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "official",
+      "subject_entity_id": "ent_fa40b3202f6ac1e7a5cec80b",
+      "validity": {
+        "from_patch": "1.10.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": "1.13.01",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_a0f8a072400e16ca2306eb66",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_cdpatch10400official0001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Patch 1.04.00 added Constabularies in eastern, western, and southern Demeniss."
+      },
+      "predicate": "location.service",
+      "provenance": {
+        "created_at": "2026-07-15T23:30:00-05:00",
+        "created_by": "wave_two_world_regions_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "official",
+      "subject_entity_id": "ent_20989ed7d1f939315a0a2872",
+      "validity": {
+        "from_patch": "1.04.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": "1.13.01",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_a2786d52d59727f645f35dd4",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_cdpatch11000official0001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Patch 1.10.00 added a Marni Token Exchange for items purchased with tokens from the Pinball machine."
+      },
+      "predicate": "location.service",
+      "provenance": {
+        "created_at": "2026-07-15T23:30:00-05:00",
+        "created_by": "wave_two_world_regions_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "official",
+      "subject_entity_id": "ent_fa40b3202f6ac1e7a5cec80b",
+      "validity": {
+        "from_patch": "1.10.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": "1.13.01",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_a4811c0c0399b056114687e8",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_cdpatch10400official0001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Patch 1.04.00 added livestock vendors across Pywel."
+      },
+      "predicate": "location.service",
+      "provenance": {
+        "created_at": "2026-07-15T23:30:00-05:00",
+        "created_by": "wave_two_world_regions_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "official",
+      "subject_entity_id": "ent_8324dc6c53a7aca2bc38ea07",
+      "validity": {
+        "from_patch": "1.04.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": "1.13.01",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_c8323313e804b144ad7a8186",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "evd_1a07fc875d3cc4df058321b9"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Pywel is presented as an open-world continent traversed across plains, woods, arid deserts, and rugged mountains."
+      },
+      "predicate": "location.route",
+      "provenance": {
+        "created_at": "2026-07-15T23:30:00-05:00",
+        "created_by": "wave_two_world_regions_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "official",
+      "subject_entity_id": "ent_8324dc6c53a7aca2bc38ea07",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_fc16b8b5ff4365b524616d3e",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_cdpatch10300official0001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Patch 1.03.00 improved access to key NPCs and expanded the farm and ranch areas at Pailune Camp."
+      },
+      "predicate": "location.service",
+      "provenance": {
+        "created_at": "2026-07-15T23:30:00-05:00",
+        "created_by": "wave_two_world_regions_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "official",
+      "subject_entity_id": "ent_96f68eed68ce82852ac48d7c",
+      "validity": {
+        "from_patch": "1.03.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": "1.13.01",
+        "through_patch": null
+      }
+    }
+  ],
+  "schema_version": "pywel.claim_catalog.v1"
+}

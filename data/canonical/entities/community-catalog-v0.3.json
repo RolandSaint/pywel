@@ -1,0 +1,2265 @@
+{
+  "schema_version": "pywel.entity_catalog.v1",
+  "catalog_id": "cat_6982d509ec63e7a22c2a5a15",
+  "records": [
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_008a6729b550d40a2f1b2fdd",
+      "game_id": "crimson_desert",
+      "slug": "quest.path-to-enlightenment",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Path to Enlightenment"
+      },
+      "summary": "Crimson Desert quest reference: Path to Enlightenment. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_02de766ead8f7e9c3fbca0b9",
+      "game_id": "crimson_desert",
+      "slug": "actor.saigord-the-staglord",
+      "entity_type": "actor",
+      "subtype": "boss",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Saigord the Staglord"
+      },
+      "summary": "Crimson Desert actor reference: Saigord the Staglord. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "actor",
+        "catalog-only",
+        "community-indexed"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_039749a06a127a24b8d92cab",
+      "game_id": "crimson_desert",
+      "slug": "actor.queen-spider",
+      "entity_type": "actor",
+      "subtype": "boss",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Queen Spider"
+      },
+      "summary": "Crimson Desert actor reference: Queen Spider. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "actor",
+        "community-indexed"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_03c5ba0bf6270dc203d010ab",
+      "game_id": "crimson_desert",
+      "slug": "recipe.fish-porridge",
+      "entity_type": "recipe",
+      "subtype": "recipe",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Fish Porridge"
+      },
+      "summary": "Crimson Desert recipe reference: Fish Porridge. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "recipe"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_0d6812c5b9cc7f7eb9a8406a",
+      "game_id": "crimson_desert",
+      "slug": "actor.giant-iguana",
+      "entity_type": "actor",
+      "subtype": "mount",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Giant Iguana"
+      },
+      "summary": "Crimson Desert actor reference: Giant Iguana. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "actor",
+        "catalog-only",
+        "community-indexed"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_0f44e2bac85651e4e5b136e8",
+      "game_id": "crimson_desert",
+      "slug": "recipe.wine",
+      "entity_type": "recipe",
+      "subtype": "recipe",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Wine"
+      },
+      "summary": "Crimson Desert recipe reference: Wine. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "recipe"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_0feae7ff299965340dc28ad8",
+      "game_id": "crimson_desert",
+      "slug": "actor.ogre",
+      "entity_type": "actor",
+      "subtype": "boss",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Ogre"
+      },
+      "summary": "Crimson Desert actor reference: Ogre. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "actor",
+        "catalog-only",
+        "community-indexed"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_10862c2f90337493b0fa7679",
+      "game_id": "crimson_desert",
+      "slug": "resource.egg",
+      "entity_type": "resource",
+      "subtype": "resource",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Egg"
+      },
+      "summary": "Crimson Desert resource reference: Egg. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "resource"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_118c452218302f0b4ad7d88d",
+      "game_id": "crimson_desert",
+      "slug": "resource.honey",
+      "entity_type": "resource",
+      "subtype": "resource",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Honey"
+      },
+      "summary": "Crimson Desert resource reference: Honey. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "resource"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_14e7db62812da6a16b33de96",
+      "game_id": "crimson_desert",
+      "slug": "quest.an-unknown-voice",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "An Unknown Voice"
+      },
+      "summary": "Crimson Desert quest reference: An Unknown Voice. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_16ae2ffd662ba0547fdc9511",
+      "game_id": "crimson_desert",
+      "slug": "actor.brown-bear",
+      "entity_type": "actor",
+      "subtype": "mount",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Brown Bear"
+      },
+      "summary": "Crimson Desert actor reference: Brown Bear. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "actor",
+        "catalog-only",
+        "community-indexed"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_1777636f542310176e215ddc",
+      "game_id": "crimson_desert",
+      "slug": "actor.cow",
+      "entity_type": "actor",
+      "subtype": "mount",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Cow"
+      },
+      "summary": "Crimson Desert actor reference: Cow. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "actor",
+        "catalog-only",
+        "community-indexed"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_18fdd1d68f2db65658d99545",
+      "game_id": "crimson_desert",
+      "slug": "resource.oakwood-mushroom",
+      "entity_type": "resource",
+      "subtype": "resource",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Oakwood Mushroom"
+      },
+      "summary": "Crimson Desert resource reference: Oakwood Mushroom. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "resource"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_1a2cbb08fc1e673826944eb4",
+      "game_id": "crimson_desert",
+      "slug": "actor.numont",
+      "entity_type": "actor",
+      "subtype": "mount",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Numont"
+      },
+      "summary": "Crimson Desert actor reference: Numont. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "actor",
+        "catalog-only",
+        "community-indexed"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_1ad06a71b4c69c6b43816645",
+      "game_id": "crimson_desert",
+      "slug": "actor.brianto",
+      "entity_type": "actor",
+      "subtype": "mount",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Brianto"
+      },
+      "summary": "Crimson Desert actor reference: Brianto. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "actor",
+        "catalog-only",
+        "community-indexed"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_1d18c45c6b7742a958cea3fa",
+      "game_id": "crimson_desert",
+      "slug": "quest.frozen-hearted-predator",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Frozen Hearted Predator"
+      },
+      "summary": "Crimson Desert quest reference: Frozen Hearted Predator. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_1e29793b6fadb2e2a3fe0799",
+      "game_id": "crimson_desert",
+      "slug": "actor.myurdin",
+      "entity_type": "actor",
+      "subtype": "boss",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Myurdin"
+      },
+      "summary": "Crimson Desert actor reference: Myurdin. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "actor",
+        "catalog-only",
+        "community-indexed",
+        "multi-category"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_1fee6e8a34995872f1c3dfc3",
+      "game_id": "crimson_desert",
+      "slug": "resource.shrubby-sophora",
+      "entity_type": "resource",
+      "subtype": "resource",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Shrubby Sophora"
+      },
+      "summary": "Crimson Desert resource reference: Shrubby Sophora. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "resource"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_20f1ca01c174a8f005c50a8f",
+      "game_id": "crimson_desert",
+      "slug": "resource.sugar",
+      "entity_type": "resource",
+      "subtype": "resource",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Sugar"
+      },
+      "summary": "Crimson Desert resource reference: Sugar. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "resource"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_2556849787477de43f0e11d6",
+      "game_id": "crimson_desert",
+      "slug": "resource.water",
+      "entity_type": "resource",
+      "subtype": "material",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Water"
+      },
+      "summary": "Crimson Desert resource reference: Water. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "community-indexed",
+        "resource"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_258981813826994e32bf6382",
+      "game_id": "crimson_desert",
+      "slug": "quest.fortress-keys",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Fortress Keys"
+      },
+      "summary": "Crimson Desert quest reference: Fortress Keys. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_30f0042097ec07fc018eb915",
+      "game_id": "crimson_desert",
+      "slug": "resource.fish-fillet",
+      "entity_type": "resource",
+      "subtype": "resource",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Fish Fillet"
+      },
+      "summary": "Crimson Desert resource reference: Fish Fillet. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "resource"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_330e0d97f295983901b6ab00",
+      "game_id": "crimson_desert",
+      "slug": "quest.the-city-of-steel",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "The City of Steel"
+      },
+      "summary": "Crimson Desert quest reference: The City of Steel. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_38ee02cb58a09139b5106573",
+      "game_id": "crimson_desert",
+      "slug": "recipe.oakwood-mushroom-tea",
+      "entity_type": "recipe",
+      "subtype": "recipe",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Oakwood Mushroom Tea"
+      },
+      "summary": "Crimson Desert recipe reference: Oakwood Mushroom Tea. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "recipe"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_3a05af6c44e52cdd3f0cba4a",
+      "game_id": "crimson_desert",
+      "slug": "actor.crowcaller",
+      "entity_type": "actor",
+      "subtype": "boss",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Crowcaller"
+      },
+      "summary": "Crimson Desert actor reference: Crowcaller. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "actor",
+        "catalog-only",
+        "community-indexed"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_3de4b60902a214b5025852b5",
+      "game_id": "crimson_desert",
+      "slug": "quest.lingering-shadow",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Lingering Shadow"
+      },
+      "summary": "Crimson Desert quest reference: Lingering Shadow. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_4158856feae336a21a199238",
+      "game_id": "crimson_desert",
+      "slug": "recipe.haidens-lesser-elixir",
+      "entity_type": "recipe",
+      "subtype": "recipe",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Haiden's Lesser Elixir"
+      },
+      "summary": "Crimson Desert recipe reference: Haiden's Lesser Elixir. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Haidens Lesser Elixir"
+        }
+      ],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "recipe"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_4e499499e9969fa550a62717",
+      "game_id": "crimson_desert",
+      "slug": "recipe.vegetable-juice",
+      "entity_type": "recipe",
+      "subtype": "recipe",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Vegetable Juice"
+      },
+      "summary": "Crimson Desert recipe reference: Vegetable Juice. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "recipe"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_55cc6c20b9550d43b2a0fd61",
+      "game_id": "crimson_desert",
+      "slug": "quest.mark-of-the-scar",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Mark of the Scar"
+      },
+      "summary": "Crimson Desert quest reference: Mark of the Scar. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_563201b636aefc447d1d9625",
+      "game_id": "crimson_desert",
+      "slug": "recipe.meat-and-vegetable-porridge",
+      "entity_type": "recipe",
+      "subtype": "recipe",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Meat and Vegetable Porridge"
+      },
+      "summary": "Crimson Desert recipe reference: Meat and Vegetable Porridge. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "recipe"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_58b676d05394107180465953",
+      "game_id": "crimson_desert",
+      "slug": "actor.ludvig",
+      "entity_type": "actor",
+      "subtype": "boss",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Ludvig"
+      },
+      "summary": "Crimson Desert actor reference: Ludvig. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "actor",
+        "community-indexed"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_5b69a28813ad2a03a608e01f",
+      "game_id": "crimson_desert",
+      "slug": "actor.one-armed-ludvig",
+      "entity_type": "actor",
+      "subtype": "boss",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "One-Armed Ludvig"
+      },
+      "summary": "Crimson Desert actor reference: One-Armed Ludvig. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "actor",
+        "community-indexed"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_5bb8fb76f7bb28ff0ca7b338",
+      "game_id": "crimson_desert",
+      "slug": "recipe.marinated-meat",
+      "entity_type": "recipe",
+      "subtype": "recipe",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Marinated Meat"
+      },
+      "summary": "Crimson Desert recipe reference: Marinated Meat. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "recipe"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_63f56b3d05bcc7d4ce13cfc4",
+      "game_id": "crimson_desert",
+      "slug": "actor.all-terrain-armored-gear",
+      "entity_type": "actor",
+      "subtype": "mount",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "All-Terrain Armored Gear"
+      },
+      "summary": "Crimson Desert actor reference: All-Terrain Armored Gear. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "actor",
+        "catalog-only",
+        "community-indexed"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_6544449c3131fe4782f2e829",
+      "game_id": "crimson_desert",
+      "slug": "location.st-halssiuss-house-of-healing",
+      "entity_type": "location",
+      "subtype": "facility",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "St. Halssius's House of Healing"
+      },
+      "summary": "Crimson Desert location reference: St. Halssius's House of Healing. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "St. Halssiuss House of Healing"
+        }
+      ],
+      "tags": [
+        "community-indexed",
+        "current-build-unobserved",
+        "facility",
+        "location",
+        "subtype-reviewed"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_67e3c55b1c58edd97ba44c22",
+      "game_id": "crimson_desert",
+      "slug": "resource.fine-meat",
+      "entity_type": "resource",
+      "subtype": "resource",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Fine Meat"
+      },
+      "summary": "Crimson Desert resource reference: Fine Meat. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "resource"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_6c5f0cb8270f8d8fa94ef498",
+      "game_id": "crimson_desert",
+      "slug": "actor.priden",
+      "entity_type": "actor",
+      "subtype": "mount",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Priden"
+      },
+      "summary": "Crimson Desert actor reference: Priden. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "actor",
+        "catalog-only",
+        "community-indexed"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_6dafffa4719717750bacd537",
+      "game_id": "crimson_desert",
+      "slug": "resource.milk",
+      "entity_type": "resource",
+      "subtype": "resource",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Milk"
+      },
+      "summary": "Crimson Desert resource reference: Milk. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "resource"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_6fb3ec289fc73c95dc1a7709",
+      "game_id": "crimson_desert",
+      "slug": "actor.crookrock-walker",
+      "entity_type": "actor",
+      "subtype": "boss",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Crookrock Walker"
+      },
+      "summary": "Crimson Desert actor reference: Crookrock Walker. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "actor",
+        "catalog-only",
+        "community-indexed"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_73b641d9c67d2c0159199f3e",
+      "game_id": "crimson_desert",
+      "slug": "quest.untouchable",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Untouchable"
+      },
+      "summary": "Crimson Desert quest reference: Untouchable. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_75081ecd3dfaa0b88b5ec7de",
+      "game_id": "crimson_desert",
+      "slug": "actor.walter-lanford",
+      "entity_type": "actor",
+      "subtype": "boss",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Walter Lanford"
+      },
+      "summary": "Crimson Desert actor reference: Walter Lanford. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "actor",
+        "catalog-only",
+        "community-indexed"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_7c1094d5dc1634782fe2b211",
+      "game_id": "crimson_desert",
+      "slug": "actor.black-bear",
+      "entity_type": "actor",
+      "subtype": "mount",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Black Bear"
+      },
+      "summary": "Crimson Desert actor reference: Black Bear. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "actor",
+        "catalog-only",
+        "community-indexed"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_7e38fb7b48e5b55432fe64ca",
+      "game_id": "crimson_desert",
+      "slug": "actor.marnis-excavatron",
+      "entity_type": "actor",
+      "subtype": "boss",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Marni's Excavatron"
+      },
+      "summary": "Crimson Desert actor reference: Marni's Excavatron. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Marnis Excavatron"
+        }
+      ],
+      "tags": [
+        "actor",
+        "catalog-only",
+        "community-indexed"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_7e6466f40b750aa7b2c6beb6",
+      "game_id": "crimson_desert",
+      "slug": "resource.salt",
+      "entity_type": "resource",
+      "subtype": "resource",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Salt"
+      },
+      "summary": "Crimson Desert resource reference: Salt. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "resource"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_827cc21f36b9dcaad82fade5",
+      "game_id": "crimson_desert",
+      "slug": "skill.scatter-shot",
+      "entity_type": "skill",
+      "subtype": "skill",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Scatter Shot"
+      },
+      "summary": "Crimson Desert skill reference: Scatter Shot. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "community-indexed",
+        "skill"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_82b8f50d227e756f7291e2a8",
+      "game_id": "crimson_desert",
+      "slug": "quest.unwavering-steps",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Unwavering Steps"
+      },
+      "summary": "Crimson Desert quest reference: Unwavering Steps. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_82d20db34d473aa89606ca16",
+      "game_id": "crimson_desert",
+      "slug": "quest.clockwork-insect-clash",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Clockwork Insect Clash"
+      },
+      "summary": "Crimson Desert quest reference: Clockwork Insect Clash. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_84bca4977c727b61bb35e2e2",
+      "game_id": "crimson_desert",
+      "slug": "recipe.mild-herbal-tea",
+      "entity_type": "recipe",
+      "subtype": "recipe",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Mild Herbal Tea"
+      },
+      "summary": "Crimson Desert recipe reference: Mild Herbal Tea. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "recipe"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_8fa4d7ee8e4cbc07af8a6079",
+      "game_id": "crimson_desert",
+      "slug": "actor.lion",
+      "entity_type": "actor",
+      "subtype": "mount",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Lion"
+      },
+      "summary": "Crimson Desert actor reference: Lion. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "actor",
+        "community-indexed",
+        "temporary-mount"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_92388d0d47b5a4d431fcd6b3",
+      "game_id": "crimson_desert",
+      "slug": "quest.crossing-point",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Crossing Point"
+      },
+      "summary": "Crimson Desert quest reference: Crossing Point. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_9955a9cdae78db0457aeecaa",
+      "game_id": "crimson_desert",
+      "slug": "quest.shackles-of-fate",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Shackles of Fate"
+      },
+      "summary": "Crimson Desert quest reference: Shackles of Fate. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_9b5014c7efec96931ce80d8d",
+      "game_id": "crimson_desert",
+      "slug": "recipe.honey-tea",
+      "entity_type": "recipe",
+      "subtype": "recipe",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Honey Tea"
+      },
+      "summary": "Crimson Desert recipe reference: Honey Tea. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "recipe"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_9c46e6c2b4568ea418ec682d",
+      "game_id": "crimson_desert",
+      "slug": "resource.empty-bottle",
+      "entity_type": "resource",
+      "subtype": "resource",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Empty Bottle"
+      },
+      "summary": "Crimson Desert resource reference: Empty Bottle. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "resource"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_9ddd632416f00a032056f61a",
+      "game_id": "crimson_desert",
+      "slug": "resource.bird-meat",
+      "entity_type": "resource",
+      "subtype": "resource",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Bird Meat"
+      },
+      "summary": "Crimson Desert resource reference: Bird Meat. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "resource"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_9eef8e64fd494ff5cb749b64",
+      "game_id": "crimson_desert",
+      "slug": "skill.quick-swap",
+      "entity_type": "skill",
+      "subtype": "skill",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Quick Swap"
+      },
+      "summary": "Crimson Desert skill reference: Quick Swap. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "community-indexed",
+        "skill"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_aadef4d98758919be09bdbfa",
+      "game_id": "crimson_desert",
+      "slug": "quest.departure-of-the-brave",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Departure of the Brave"
+      },
+      "summary": "Crimson Desert quest reference: Departure of the Brave. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_ac9cfbf91683e24508bae348",
+      "game_id": "crimson_desert",
+      "slug": "actor.reed-devil",
+      "entity_type": "actor",
+      "subtype": "boss",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Reed Devil"
+      },
+      "summary": "Crimson Desert actor reference: Reed Devil. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "actor",
+        "community-indexed"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_b0602b759db04e39a34976e4",
+      "game_id": "crimson_desert",
+      "slug": "actor.crimson-nightmare",
+      "entity_type": "actor",
+      "subtype": "boss",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Crimson Nightmare"
+      },
+      "summary": "Crimson Desert actor reference: Crimson Nightmare. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "actor",
+        "catalog-only",
+        "community-indexed"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_b3838805b9591b87a8cc6c8b",
+      "game_id": "crimson_desert",
+      "slug": "quest.hidden-ace",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Hidden Ace"
+      },
+      "summary": "Crimson Desert quest reference: Hidden Ace. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_b38be193745917b9512a843b",
+      "game_id": "crimson_desert",
+      "slug": "actor.cassius-morten",
+      "entity_type": "actor",
+      "subtype": "boss",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Cassius Morten"
+      },
+      "summary": "Crimson Desert actor reference: Cassius Morten. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "actor",
+        "catalog-only",
+        "community-indexed"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_b7e7c46e306dbc344e52c442",
+      "game_id": "crimson_desert",
+      "slug": "actor.matthias",
+      "entity_type": "actor",
+      "subtype": "boss",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Matthias"
+      },
+      "summary": "Crimson Desert actor reference: Matthias. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "actor",
+        "catalog-only",
+        "community-indexed"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_b9796040c60dc571629c6c17",
+      "game_id": "crimson_desert",
+      "slug": "quest.morning-fog",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Morning Fog"
+      },
+      "summary": "Crimson Desert quest reference: Morning Fog. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_ba0fda8a1da430202692ca90",
+      "game_id": "crimson_desert",
+      "slug": "actor.desert-marauder-rusten",
+      "entity_type": "actor",
+      "subtype": "boss",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Desert Marauder Rusten"
+      },
+      "summary": "Crimson Desert actor reference: Desert Marauder Rusten. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "actor",
+        "community-indexed"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_bba00ab0ab3d389d46284b4a",
+      "game_id": "crimson_desert",
+      "slug": "quest.deferred-advance",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Deferred Advance"
+      },
+      "summary": "Crimson Desert quest reference: Deferred Advance. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_bf39f2fc2306a8dfd3a3149a",
+      "game_id": "crimson_desert",
+      "slug": "resource.holy-water",
+      "entity_type": "resource",
+      "subtype": "resource",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Holy Water"
+      },
+      "summary": "Crimson Desert resource reference: Holy Water. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "resource"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_bfad5b0ec0f9ffbcf645c72e",
+      "game_id": "crimson_desert",
+      "slug": "quest.master-of-the-ironworks",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Master of the Ironworks"
+      },
+      "summary": "Crimson Desert quest reference: Master of the Ironworks. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_c0e01b2bab099c6c13b3d0a0",
+      "game_id": "crimson_desert",
+      "slug": "quest.master-of-a-forgotten-land",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Master of a Forgotten Land"
+      },
+      "summary": "Crimson Desert quest reference: Master of a Forgotten Land. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_c2e851043fce3bd9876e5072",
+      "game_id": "crimson_desert",
+      "slug": "actor.antumbras-sword",
+      "entity_type": "actor",
+      "subtype": "boss",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Antumbra's Sword"
+      },
+      "summary": "Crimson Desert actor reference: Antumbra's Sword. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Antumbras Sword"
+        }
+      ],
+      "tags": [
+        "actor",
+        "catalog-only",
+        "community-indexed"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_c42f30b86412105d1ce79d44",
+      "game_id": "crimson_desert",
+      "slug": "actor.kailok-the-hornsplitter",
+      "entity_type": "actor",
+      "subtype": "boss",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Kailok, the Hornsplitter"
+      },
+      "summary": "Crimson Desert actor reference: Kailok, the Hornsplitter. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "actor",
+        "catalog-only",
+        "community-indexed"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_c7c2d3713301f2b89cd72aab",
+      "game_id": "crimson_desert",
+      "slug": "resource.cooking-oil",
+      "entity_type": "resource",
+      "subtype": "resource",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Cooking Oil"
+      },
+      "summary": "Crimson Desert resource reference: Cooking Oil. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "resource"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_ca6a08fe4708df1e955fd89d",
+      "game_id": "crimson_desert",
+      "slug": "actor.abyss-kutum",
+      "entity_type": "actor",
+      "subtype": "boss",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Abyss Kutum"
+      },
+      "summary": "Crimson Desert actor reference: Abyss Kutum. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "actor",
+        "community-indexed"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_cd3b722d934a0d43a488dd07",
+      "game_id": "crimson_desert",
+      "slug": "quest.strange-manor",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Strange Manor"
+      },
+      "summary": "Crimson Desert quest reference: Strange Manor. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_ce95f61e246582a05b696be0",
+      "game_id": "crimson_desert",
+      "slug": "quest.invaders-from-the-east",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Invaders from the East"
+      },
+      "summary": "Crimson Desert quest reference: Invaders from the East. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_d2016ca2a49d22c79ce571fb",
+      "game_id": "crimson_desert",
+      "slug": "quest.precise-execution",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Precise Execution"
+      },
+      "summary": "Crimson Desert quest reference: Precise Execution. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_d22e045a5acab7f7a3a397fd",
+      "game_id": "crimson_desert",
+      "slug": "quest.the-gate-of-war",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "The Gate of War"
+      },
+      "summary": "Crimson Desert quest reference: The Gate of War. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_d2af25e7966381cac29b00e4",
+      "game_id": "crimson_desert",
+      "slug": "actor.delesyia-train",
+      "entity_type": "actor",
+      "subtype": "mount",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Delesyia Train"
+      },
+      "summary": "Crimson Desert actor reference: Delesyia Train. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "actor",
+        "catalog-only",
+        "community-indexed"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_d57a8b7058af04f49999261f",
+      "game_id": "crimson_desert",
+      "slug": "actor.blackstar-dragon",
+      "entity_type": "actor",
+      "subtype": "mount",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Blackstar Dragon"
+      },
+      "summary": "Crimson Desert actor reference: Blackstar Dragon. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "actor",
+        "catalog-only",
+        "community-indexed"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_d6c96aaab9209e5e9ff1d67b",
+      "game_id": "crimson_desert",
+      "slug": "actor.hemon-beindel",
+      "entity_type": "actor",
+      "subtype": "boss",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Hemon Beindel"
+      },
+      "summary": "Crimson Desert actor reference: Hemon Beindel. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "actor",
+        "catalog-only",
+        "community-indexed"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_d7323f923826fb0a43bd5881",
+      "game_id": "crimson_desert",
+      "slug": "actor.kearush-the-slayer",
+      "entity_type": "actor",
+      "subtype": "boss",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Kearush the Slayer"
+      },
+      "summary": "Crimson Desert actor reference: Kearush the Slayer. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "actor",
+        "catalog-only",
+        "community-indexed"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_d74ef84c1f4895a9fb02ffea",
+      "game_id": "crimson_desert",
+      "slug": "quest.forbidden-gate",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Forbidden Gate"
+      },
+      "summary": "Crimson Desert quest reference: Forbidden Gate. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_d8ac39602201d81bead1b281",
+      "game_id": "crimson_desert",
+      "slug": "quest.whispers-in-the-wind",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Whispers in the Wind"
+      },
+      "summary": "Crimson Desert quest reference: Whispers in the Wind. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_d9e67656b6e0ab7989cea82c",
+      "game_id": "crimson_desert",
+      "slug": "actor.tenebrum",
+      "entity_type": "actor",
+      "subtype": "boss",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Tenebrum"
+      },
+      "summary": "Crimson Desert actor reference: Tenebrum. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "actor",
+        "community-indexed"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_da53ab32176e59418b279a4f",
+      "game_id": "crimson_desert",
+      "slug": "actor.cloudcart",
+      "entity_type": "actor",
+      "subtype": "mount",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Cloudcart"
+      },
+      "summary": "Crimson Desert actor reference: Cloudcart. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "actor",
+        "catalog-only",
+        "community-indexed"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_de43d623d7c770ee8e9af79f",
+      "game_id": "crimson_desert",
+      "slug": "actor.priscus-the-ancient",
+      "entity_type": "actor",
+      "subtype": "boss",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Priscus the Ancient"
+      },
+      "summary": "Crimson Desert actor reference: Priscus the Ancient. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "actor",
+        "catalog-only",
+        "community-indexed"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_debc856b437830f10275c882",
+      "game_id": "crimson_desert",
+      "slug": "quest.truth-and-lies",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Truth and Lies"
+      },
+      "summary": "Crimson Desert quest reference: Truth and Lies. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_e8b9801164c3598cdf32cc89",
+      "game_id": "crimson_desert",
+      "slug": "recipe.palmar-pill",
+      "entity_type": "recipe",
+      "subtype": "crafting",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Palmar Pill"
+      },
+      "summary": "Crimson Desert recipe reference: Palmar Pill. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Palmar Pills"
+        }
+      ],
+      "tags": [
+        "community-indexed",
+        "recipe"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_e99824a911219799047a4f04",
+      "game_id": "crimson_desert",
+      "slug": "quest.beating-heart",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Beating Heart"
+      },
+      "summary": "Crimson Desert quest reference: Beating Heart. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_ed65a28da5ab18b644247aa7",
+      "game_id": "crimson_desert",
+      "slug": "quest.a-fleeting-dream",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "A Fleeting Dream"
+      },
+      "summary": "Crimson Desert quest reference: A Fleeting Dream. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_edd38b6e8e9bc697d2b4d508",
+      "game_id": "crimson_desert",
+      "slug": "skill.vertical-flight",
+      "entity_type": "skill",
+      "subtype": "movement",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Vertical Flight"
+      },
+      "summary": "Crimson Desert skill reference: Vertical Flight. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Oongka Vertical Flight"
+        },
+        {
+          "locale": "en-US",
+          "text": "Oongka's Vertical Flight"
+        }
+      ],
+      "tags": [
+        "community-indexed",
+        "official-context",
+        "skill",
+        "source-conflict-visible"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_f45e5c28a8afedf3385e53a2",
+      "game_id": "crimson_desert",
+      "slug": "actor.herspia",
+      "entity_type": "actor",
+      "subtype": "mount",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Herspia"
+      },
+      "summary": "Crimson Desert actor reference: Herspia. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "actor",
+        "catalog-only",
+        "community-indexed"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_f8c2bb0562f022886fbb7489",
+      "game_id": "crimson_desert",
+      "slug": "resource.marigold",
+      "entity_type": "resource",
+      "subtype": "resource",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Marigold"
+      },
+      "summary": "Crimson Desert resource reference: Marigold. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "resource"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_fa472f94dfbffaf5c5cf9105",
+      "game_id": "crimson_desert",
+      "slug": "quest.cloister-of-enlightenment",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Cloister of Enlightenment"
+      },
+      "summary": "Crimson Desert quest reference: Cloister of Enlightenment. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_fb5ee91f3cf37142dab64ee4",
+      "game_id": "crimson_desert",
+      "slug": "quest.jijeong-temple-in-chaos",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Jijeong Temple in Chaos"
+      },
+      "summary": "Crimson Desert quest reference: Jijeong Temple in Chaos. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T12:08:13-05:00",
+        "created_by": "community_catalog_v03_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    }
+  ]
+}

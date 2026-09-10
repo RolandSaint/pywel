@@ -1,0 +1,186 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://pywelknowledge.org/schemas/build-manifest.schema.json",
+  "title": "Pywel reproducible build manifest v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "build_id",
+    "build_runtime",
+    "canonical_release_node",
+    "canonical_release_runtime_match",
+    "source_tree_sha256",
+    "sources",
+    "latest_known_patch",
+    "counts",
+    "projection",
+    "artifacts",
+    "validation"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "pywel.build_manifest.v2"
+    },
+    "build_id": {
+      "type": "string",
+      "pattern": "^bld_[a-f0-9]{24}$"
+    },
+    "build_runtime": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "node"
+      ],
+      "properties": {
+        "node": {
+          "type": "string",
+          "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+        }
+      }
+    },
+    "canonical_release_node": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "canonical_release_runtime_match": {
+      "type": "boolean"
+    },
+    "source_tree_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "path",
+          "sha256"
+        ],
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1024,
+            "pattern": "^(?!.*(?:^|/)\\.{1,2}(?:/|$))[A-Za-z0-9_.-]+(?:/[A-Za-z0-9_.-]+)*$"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          }
+        }
+      }
+    },
+    "latest_known_patch": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[0-9]+(?:\\.[0-9]+){1,3}$"
+    },
+    "counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "entities",
+        "claims",
+        "evidence",
+        "patches",
+        "strategies",
+        "receipts"
+      ],
+      "properties": {
+        "entities": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "claims": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "evidence": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "patches": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "strategies": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "receipts": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "projection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "scope",
+        "publication_contract_id"
+      ],
+      "properties": {
+        "scope": {
+          "const": "public_knowledge_v1"
+        },
+        "publication_contract_id": {
+          "const": "pywel-publication-boundary-v1"
+        }
+      }
+    },
+    "artifacts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "path",
+          "bytes",
+          "sha256"
+        ],
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1024,
+            "pattern": "^(?!.*(?:^|/)\\.{1,2}(?:/|$))[A-Za-z0-9_.-]+(?:/[A-Za-z0-9_.-]+)*$"
+          },
+          "bytes": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          }
+        }
+      }
+    },
+    "validation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "errors",
+        "warnings"
+      ],
+      "properties": {
+        "errors": {
+          "const": 0
+        },
+        "warnings": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1255 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Pywel Knowledge Standard API",
+    "version": "1.0.0",
+    "description": "Unofficial read-only local Crimson Desert reference interface. Frozen v1 agent contract. Historical coverage is finite; the latest indexed patch is not the current game patch. No hosted endpoint is promised. All inputs are closed: unknown or duplicate parameters, unsupported enum values, and out-of-range numbers are rejected.",
+    "license": {
+      "name": "Apache-2.0",
+      "identifier": "Apache-2.0"
+    }
+  },
+  "servers": [
+    {
+      "url": "http://127.0.0.1:8787",
+      "description": "Local loopback reference server; PORT can select another local port."
+    }
+  ],
+  "tags": [
+    {
+      "name": "discovery"
+    },
+    {
+      "name": "knowledge"
+    },
+    {
+      "name": "sources"
+    }
+  ],
+  "paths": {
+    "/health": {
+      "get": {
+        "operationId": "getHealth",
+        "tags": [
+          "discovery"
+        ],
+        "summary": "Read service and corpus health",
+        "responses": {
+          "200": {
+            "description": "Versioned getHealth response.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../schemas/agent-contract.schema.json#/definitions/getHealth"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/BadRequest"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "414": {
+            "$ref": "#/components/responses/RequestTooLarge"
+          },
+          "500": {
+            "$ref": "#/components/responses/InternalError"
+          }
+        },
+        "parameters": []
+      }
+    },
+    "/v1": {
+      "get": {
+        "operationId": "getServiceDescriptor",
+        "tags": [
+          "discovery"
+        ],
+        "summary": "Read the local service descriptor and supported endpoint map",
+        "responses": {
+          "200": {
+            "description": "Versioned getServiceDescriptor response.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../schemas/agent-contract.schema.json#/definitions/getServiceDescriptor"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/BadRequest"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "414": {
+            "$ref": "#/components/responses/RequestTooLarge"
+          },
+          "500": {
+            "$ref": "#/components/responses/InternalError"
+          }
+        },
+        "parameters": []
+      }
+    },
+    "/v1/codebook": {
+      "get": {
+        "operationId": "getCompactCodebook",
+        "tags": [
+          "discovery"
+        ],
+        "summary": "Decode compact evidence packet arrays",
+        "responses": {
+          "200": {
+            "description": "Versioned getCompactCodebook response.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../schemas/agent-contract.schema.json#/definitions/getCompactCodebook"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/BadRequest"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "414": {
+            "$ref": "#/components/responses/RequestTooLarge"
+          },
+          "500": {
+            "$ref": "#/components/responses/InternalError"
+          }
+        },
+        "parameters": []
+      }
+    },
+    "/v1/search": {
+      "get": {
+        "operationId": "searchKnowledge",
+        "tags": [
+          "knowledge"
+        ],
+        "summary": "Search entities, claims, and strategies",
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "minLength": 2,
+              "maxLength": 500
+            },
+            "required": true
+          },
+          {
+            "$ref": "#/components/parameters/Patch"
+          },
+          {
+            "$ref": "#/components/parameters/Platform"
+          },
+          {
+            "$ref": "#/components/parameters/Locale"
+          },
+          {
+            "$ref": "#/components/parameters/Spoiler"
+          },
+          {
+            "$ref": "#/components/parameters/IncludeRetracted"
+          },
+          {
+            "$ref": "#/components/parameters/IncludeSuperseded"
+          },
+          {
+            "$ref": "#/components/parameters/Offset"
+          },
+          {
+            "$ref": "#/components/parameters/Limit100"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Versioned searchKnowledge response.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../schemas/agent-contract.schema.json#/definitions/searchKnowledge"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/BadRequest"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "414": {
+            "$ref": "#/components/responses/RequestTooLarge"
+          },
+          "500": {
+            "$ref": "#/components/responses/InternalError"
+          }
+        },
+        "description": "Deterministic ranked search. All list pagination uses offset and next_offset, scoped to one build and unchanged filters."
+      }
+    },
+    "/v1/entities": {
+      "get": {
+        "operationId": "listEntities",
+        "tags": [
+          "knowledge"
+        ],
+        "summary": "List or search canonical entities",
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "minLength": 2,
+              "maxLength": 500
+            }
+          },
+          {
+            "name": "type",
+            "in": "query",
+            "schema": {
+              "$ref": "#/components/schemas/EntityType"
+            }
+          },
+          {
+            "name": "subtype",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "minLength": 2,
+              "maxLength": 80,
+              "enum": [
+                "title",
+                "combat",
+                "progression",
+                "inventory",
+                "crafting",
+                "navigation",
+                "interface",
+                "performance",
+                "economy",
+                "movement",
+                "system",
+                "mechanic",
+                "weapon",
+                "armor",
+                "accessory",
+                "tool",
+                "mount_tack",
+                "consumable",
+                "material",
+                "quest_item",
+                "abyss_gear",
+                "currency",
+                "item",
+                "main",
+                "faction",
+                "side",
+                "bounty",
+                "tutorial",
+                "challenge",
+                "quest",
+                "continent",
+                "region",
+                "settlement",
+                "stronghold",
+                "camp",
+                "landform",
+                "ruin",
+                "facility",
+                "landmark",
+                "spire",
+                "interior",
+                "service",
+                "shop",
+                "dungeon",
+                "realm",
+                "location",
+                "player_character",
+                "npc",
+                "boss",
+                "mount",
+                "companion",
+                "enemy",
+                "character",
+                "active",
+                "passive",
+                "skill",
+                "buff",
+                "debuff",
+                "immunity",
+                "effect",
+                "utility",
+                "major",
+                "minor",
+                "institution",
+                "cooking",
+                "upgrade",
+                "recipe",
+                "resource",
+                "build",
+                "life_skill",
+                "dispatch"
+              ]
+            },
+            "description": "A subtype from the shipped entity-subtypes.json vocabulary; unknown subtypes are rejected."
+          },
+          {
+            "name": "include_redirects",
+            "in": "query",
+            "schema": {
+              "type": "boolean",
+              "default": false
+            }
+          },
+          {
+            "$ref": "#/components/parameters/Offset"
+          },
+          {
+            "$ref": "#/components/parameters/Limit100"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Versioned listEntities response.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../schemas/agent-contract.schema.json#/definitions/listEntities"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/BadRequest"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "414": {
+            "$ref": "#/components/responses/RequestTooLarge"
+          },
+          "500": {
+            "$ref": "#/components/responses/InternalError"
+          }
+        }
+      }
+    },
+    "/v1/entities/{id}": {
+      "get": {
+        "operationId": "getEntityBundle",
+        "tags": [
+          "knowledge"
+        ],
+        "summary": "Get an entity plus context-matching claims, strategies, and evidence",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "schema": {
+              "type": "string",
+              "minLength": 3,
+              "maxLength": 200,
+              "pattern": "^[A-Za-z0-9._-]+$"
+            },
+            "required": true,
+            "description": "Stable entity ID or slug."
+          },
+          {
+            "$ref": "#/components/parameters/Patch"
+          },
+          {
+            "$ref": "#/components/parameters/Platform"
+          },
+          {
+            "$ref": "#/components/parameters/Locale"
+          },
+          {
+            "$ref": "#/components/parameters/Spoiler"
+          },
+          {
+            "$ref": "#/components/parameters/IncludeRetracted"
+          },
+          {
+            "$ref": "#/components/parameters/IncludeSuperseded"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Versioned getEntityBundle response.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../schemas/agent-contract.schema.json#/definitions/getEntityBundle"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/BadRequest"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "414": {
+            "$ref": "#/components/responses/RequestTooLarge"
+          },
+          "500": {
+            "$ref": "#/components/responses/InternalError"
+          }
+        }
+      }
+    },
+    "/v1/entities/{id}/relationships": {
+      "get": {
+        "operationId": "getEntityRelationships",
+        "tags": [
+          "knowledge"
+        ],
+        "summary": "Traverse entity-valued atomic claims",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "schema": {
+              "type": "string",
+              "minLength": 3,
+              "maxLength": 200,
+              "pattern": "^[A-Za-z0-9._-]+$"
+            },
+            "required": true,
+            "description": "Stable entity ID or slug."
+          },
+          {
+            "$ref": "#/components/parameters/Patch"
+          },
+          {
+            "$ref": "#/components/parameters/Platform"
+          },
+          {
+            "$ref": "#/components/parameters/Locale"
+          },
+          {
+            "$ref": "#/components/parameters/Spoiler"
+          },
+          {
+            "$ref": "#/components/parameters/IncludeRetracted"
+          },
+          {
+            "$ref": "#/components/parameters/IncludeSuperseded"
+          },
+          {
+            "name": "depth",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 3,
+              "default": 1
+            }
+          },
+          {
+            "$ref": "#/components/parameters/Limit500"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Versioned getEntityRelationships response.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../schemas/agent-contract.schema.json#/definitions/getEntityRelationships"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/BadRequest"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "414": {
+            "$ref": "#/components/responses/RequestTooLarge"
+          },
+          "500": {
+            "$ref": "#/components/responses/InternalError"
+          }
+        }
+      }
+    },
+    "/v1/claims": {
+      "get": {
+        "operationId": "listClaims",
+        "tags": [
+          "knowledge"
+        ],
+        "summary": "Retrieve atomic claims under an explicit version context",
+        "parameters": [
+          {
+            "name": "subject",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "pattern": "^ent_[a-z0-9]{12,64}$"
+            }
+          },
+          {
+            "name": "predicate",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 200
+            }
+          },
+          {
+            "name": "status",
+            "in": "query",
+            "schema": {
+              "$ref": "#/components/schemas/ClaimStatus"
+            }
+          },
+          {
+            "$ref": "#/components/parameters/Patch"
+          },
+          {
+            "$ref": "#/components/parameters/Platform"
+          },
+          {
+            "$ref": "#/components/parameters/Locale"
+          },
+          {
+            "$ref": "#/components/parameters/Spoiler"
+          },
+          {
+            "$ref": "#/components/parameters/IncludeRetracted"
+          },
+          {
+            "$ref": "#/components/parameters/IncludeSuperseded"
+          },
+          {
+            "$ref": "#/components/parameters/Offset"
+          },
+          {
+            "$ref": "#/components/parameters/Limit200"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Versioned listClaims response.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../schemas/agent-contract.schema.json#/definitions/listClaims"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/BadRequest"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "414": {
+            "$ref": "#/components/responses/RequestTooLarge"
+          },
+          "500": {
+            "$ref": "#/components/responses/InternalError"
+          }
+        }
+      }
+    },
+    "/v1/answer": {
+      "get": {
+        "operationId": "answerQuestion",
+        "tags": [
+          "knowledge"
+        ],
+        "summary": "Build an evidence packet for a Crimson Desert question",
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "minLength": 2,
+              "maxLength": 1000
+            },
+            "required": true
+          },
+          {
+            "$ref": "#/components/parameters/Patch"
+          },
+          {
+            "$ref": "#/components/parameters/Platform"
+          },
+          {
+            "$ref": "#/components/parameters/Locale"
+          },
+          {
+            "$ref": "#/components/parameters/Spoiler"
+          },
+          {
+            "$ref": "#/components/parameters/IncludeRetracted"
+          },
+          {
+            "$ref": "#/components/parameters/IncludeSuperseded"
+          },
+          {
+            "name": "format",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "compact",
+                "full"
+              ],
+              "default": "compact"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Versioned answerQuestion response.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../schemas/agent-contract.schema.json#/definitions/answerQuestion"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/BadRequest"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "414": {
+            "$ref": "#/components/responses/RequestTooLarge"
+          },
+          "500": {
+            "$ref": "#/components/responses/InternalError"
+          }
+        },
+        "description": "Default compact v3 contains complete typed assertions and evidence indexes. Full v1 retains at most 20 claims and 8 strategies; compact retains at most 5 claims and 2 strategies. selection counts disclose matched and returned records. Omitted stale/disputed evidence still limits answer state. The full_path is a fuller bounded projection, not a guarantee of completeness."
+      }
+    },
+    "/v1/strategies": {
+      "get": {
+        "operationId": "listStrategies",
+        "tags": [
+          "knowledge"
+        ],
+        "summary": "Retrieve ordered conditional strategy graphs",
+        "parameters": [
+          {
+            "name": "goal",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "pattern": "^ent_[a-z0-9]{12,64}$"
+            }
+          },
+          {
+            "$ref": "#/components/parameters/Patch"
+          },
+          {
+            "$ref": "#/components/parameters/Platform"
+          },
+          {
+            "$ref": "#/components/parameters/Locale"
+          },
+          {
+            "$ref": "#/components/parameters/Spoiler"
+          },
+          {
+            "$ref": "#/components/parameters/IncludeRetracted"
+          },
+          {
+            "$ref": "#/components/parameters/Offset"
+          },
+          {
+            "$ref": "#/components/parameters/Limit100"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Versioned listStrategies response.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../schemas/agent-contract.schema.json#/definitions/listStrategies"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/BadRequest"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "414": {
+            "$ref": "#/components/responses/RequestTooLarge"
+          },
+          "500": {
+            "$ref": "#/components/responses/InternalError"
+          }
+        }
+      }
+    },
+    "/v1/strategies/{id}": {
+      "get": {
+        "operationId": "getStrategy",
+        "tags": [
+          "knowledge"
+        ],
+        "summary": "Fetch one complete ordered strategy graph after discovering its compact pointer",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "schema": {
+              "type": "string",
+              "minLength": 3,
+              "maxLength": 200,
+              "pattern": "^[A-Za-z0-9._-]+$"
+            },
+            "required": true,
+            "description": "Stable strategy ID or slug."
+          },
+          {
+            "$ref": "#/components/parameters/Patch"
+          },
+          {
+            "$ref": "#/components/parameters/Platform"
+          },
+          {
+            "$ref": "#/components/parameters/Locale"
+          },
+          {
+            "$ref": "#/components/parameters/Spoiler"
+          },
+          {
+            "$ref": "#/components/parameters/IncludeRetracted"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Versioned getStrategy response.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../schemas/agent-contract.schema.json#/definitions/getStrategy"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/BadRequest"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "414": {
+            "$ref": "#/components/responses/RequestTooLarge"
+          },
+          "500": {
+            "$ref": "#/components/responses/InternalError"
+          }
+        }
+      }
+    },
+    "/v1/patches": {
+      "get": {
+        "operationId": "listPatches",
+        "tags": [
+          "sources"
+        ],
+        "summary": "List known patches and their official evidence",
+        "responses": {
+          "200": {
+            "description": "Versioned listPatches response.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../schemas/agent-contract.schema.json#/definitions/listPatches"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/BadRequest"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "414": {
+            "$ref": "#/components/responses/RequestTooLarge"
+          },
+          "500": {
+            "$ref": "#/components/responses/InternalError"
+          }
+        },
+        "parameters": []
+      }
+    },
+    "/v1/patches/latest": {
+      "get": {
+        "operationId": "getLatestPatch",
+        "tags": [
+          "sources"
+        ],
+        "summary": "Get the latest indexed historical patch bundle",
+        "responses": {
+          "200": {
+            "description": "Versioned getLatestPatch response.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../schemas/agent-contract.schema.json#/definitions/getLatestPatch"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/BadRequest"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "414": {
+            "$ref": "#/components/responses/RequestTooLarge"
+          },
+          "500": {
+            "$ref": "#/components/responses/InternalError"
+          }
+        },
+        "parameters": []
+      }
+    },
+    "/v1/patches/{version}": {
+      "get": {
+        "operationId": "getPatchBundle",
+        "tags": [
+          "sources"
+        ],
+        "summary": "Get a patch identity with its linked claims and evidence",
+        "parameters": [
+          {
+            "name": "version",
+            "in": "path",
+            "schema": {
+              "type": "string",
+              "pattern": "^[0-9]+(?:\\.[0-9]+){1,3}$",
+              "maxLength": 32
+            },
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Versioned getPatchBundle response.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../schemas/agent-contract.schema.json#/definitions/getPatchBundle"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/BadRequest"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "414": {
+            "$ref": "#/components/responses/RequestTooLarge"
+          },
+          "500": {
+            "$ref": "#/components/responses/InternalError"
+          }
+        },
+        "description": "Returns patch identity and directly linked canonical claims and evidence. Patch bundles are historical source records and do not imply that their assertions remain current."
+      }
+    },
+    "/v1/evidence/{id}": {
+      "get": {
+        "operationId": "getEvidence",
+        "tags": [
+          "sources"
+        ],
+        "summary": "Get a source locator and its reliability and rights labels",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "schema": {
+              "type": "string",
+              "pattern": "^evd_[a-z0-9]{12,64}$"
+            },
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Versioned getEvidence response.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../schemas/agent-contract.schema.json#/definitions/getEvidence"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/BadRequest"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "414": {
+            "$ref": "#/components/responses/RequestTooLarge"
+          },
+          "500": {
+            "$ref": "#/components/responses/InternalError"
+          }
+        }
+      }
+    },
+    "/v1/evidence": {
+      "get": {
+        "operationId": "listEvidence",
+        "tags": [
+          "sources"
+        ],
+        "summary": "List evidence locators with rights and reliability labels",
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "minLength": 2,
+              "maxLength": 500
+            }
+          },
+          {
+            "name": "type",
+            "in": "query",
+            "schema": {
+              "$ref": "#/components/schemas/EvidenceType"
+            }
+          },
+          {
+            "name": "tier",
+            "in": "query",
+            "schema": {
+              "$ref": "#/components/schemas/ReliabilityTier"
+            }
+          },
+          {
+            "name": "rights_mode",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "locator_only",
+                "normalized_facts",
+                "authorized_excerpt"
+              ]
+            }
+          },
+          {
+            "$ref": "#/components/parameters/Offset"
+          },
+          {
+            "$ref": "#/components/parameters/Limit200"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Versioned listEvidence response.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "../schemas/agent-contract.schema.json#/definitions/listEvidence"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/BadRequest"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "414": {
+            "$ref": "#/components/responses/RequestTooLarge"
+          },
+          "500": {
+            "$ref": "#/components/responses/InternalError"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "parameters": {
+      "Patch": {
+        "name": "patch",
+        "in": "query",
+        "schema": {
+          "type": "string",
+          "pattern": "^[0-9]+(?:\\.[0-9]+){1,3}$",
+          "maxLength": 32
+        },
+        "description": "Omit to use and report the latest indexed historical patch. Syntactically valid unindexed versions remain explicit unknown applicability."
+      },
+      "Platform": {
+        "name": "platform",
+        "in": "query",
+        "schema": {
+          "$ref": "#/components/schemas/Platform",
+          "default": "all"
+        }
+      },
+      "Locale": {
+        "name": "locale",
+        "in": "query",
+        "schema": {
+          "type": "string",
+          "const": "en-US",
+          "default": "en-US"
+        },
+        "description": "Only en-US is supported. Other locales are rejected."
+      },
+      "Spoiler": {
+        "name": "spoiler",
+        "in": "query",
+        "schema": {
+          "$ref": "#/components/schemas/Spoiler",
+          "default": "none"
+        },
+        "description": "Maximum spoiler level allowed. Omission always means none, including acquisition and quest questions."
+      },
+      "IncludeRetracted": {
+        "name": "include_retracted",
+        "in": "query",
+        "schema": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "IncludeSuperseded": {
+        "name": "include_superseded",
+        "in": "query",
+        "schema": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "Offset": {
+        "name": "offset",
+        "in": "query",
+        "schema": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100000,
+          "default": 0
+        },
+        "description": "Zero-based offset within a fixed build. Keep build_id, filters and context unchanged between pages; restart pagination when the build changes."
+      },
+      "Limit100": {
+        "name": "limit",
+        "in": "query",
+        "schema": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100,
+          "default": 20
+        }
+      },
+      "Limit200": {
+        "name": "limit",
+        "in": "query",
+        "schema": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 200,
+          "default": 50
+        }
+      },
+      "Limit500": {
+        "name": "limit",
+        "in": "query",
+        "schema": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 500,
+          "default": 100
+        }
+      }
+    },
+    "responses": {
+      "BadRequest": {
+        "description": "Invalid, duplicate, unknown, unsupported, or out-of-range input.",
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "../schemas/agent-contract.schema.json#/definitions/error"
+            }
+          }
+        }
+      },
+      "NotFound": {
+        "description": "Route or record not found, or strategy outside the requested context.",
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "../schemas/agent-contract.schema.json#/definitions/error"
+            }
+          }
+        }
+      },
+      "RequestTooLarge": {
+        "description": "Request URL exceeds 8192 characters.",
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "../schemas/agent-contract.schema.json#/definitions/error"
+            }
+          }
+        }
+      },
+      "InternalError": {
+        "description": "Request could not be completed; internal details are withheld.",
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "../schemas/agent-contract.schema.json#/definitions/error"
+            }
+          }
+        }
+      }
+    },
+    "schemas": {
+      "Platform": {
+        "type": "string",
+        "enum": [
+          "all",
+          "pc-steam",
+          "pc-epic",
+          "mac-steam",
+          "mac-app-store",
+          "playstation-5",
+          "xbox-series"
+        ]
+      },
+      "Spoiler": {
+        "type": "string",
+        "enum": [
+          "none",
+          "discovery",
+          "quest_minor",
+          "quest_major",
+          "ending"
+        ]
+      },
+      "ClaimStatus": {
+        "type": "string",
+        "enum": [
+          "official",
+          "observed",
+          "corroborated",
+          "inferred",
+          "disputed",
+          "stale",
+          "retracted"
+        ]
+      },
+      "EntityType": {
+        "type": "string",
+        "enum": [
+          "game",
+          "system",
+          "item",
+          "effect",
+          "skill",
+          "ability",
+          "actor",
+          "quest",
+          "location",
+          "faction",
+          "organization",
+          "activity",
+          "resource",
+          "recipe",
+          "mechanic"
+        ]
+      },
+      "EvidenceType": {
+        "type": "string",
+        "enum": [
+          "official_patch",
+          "official_notice",
+          "official_documentation",
+          "gameplay_observation",
+          "community_report",
+          "guide",
+          "video",
+          "screenshot",
+          "test_result"
+        ]
+      },
+      "ReliabilityTier": {
+        "type": "string",
+        "enum": [
+          "primary_official",
+          "direct_observation",
+          "corroborated_secondary",
+          "secondary",
+          "unverified"
+        ]
+      }
+    }
+  },
+  "x-pywel-contract": {
+    "status": "frozen_v1",
+    "default_patch": "latest_indexed_historical_patch_and_reported",
+    "review_boundary": "specific_claim_not_patch_ingestion",
+    "unknown_behavior": "explicit_gap_without_unqualified_support",
+    "conflicts": "preserved",
+    "citations": "claim_level_evidence_ids",
+    "source_is_instruction": false,
+    "writes_enabled": false,
+    "runtime_storage": "validated_public_projection_of_canonical_JSON",
+    "cache_policy": "no-store",
+    "build_header": "X-Pywel-Build; identifies declared source inputs and the pinned runtime",
+    "pagination": "offset and next_offset; one build and unchanged filters",
+    "default_spoiler": "none",
+    "supported_locales": [
+      "en-US"
+    ],
+    "schema_bundle_path": "schemas/agent-contract.schema.json",
+    "schema_resolution": "Schema URLs are identifiers. Resolve them to the shipped adjacent schemas directory without network access.",
+    "compatibility": "Objects are closed. New fields, enum values, tuple shapes, changed defaults or meanings require a new schema version; breaking route or input changes require a new API major version."
+  },
+  "jsonSchemaDialect": "http://json-schema.org/draft-07/schema#"
+}

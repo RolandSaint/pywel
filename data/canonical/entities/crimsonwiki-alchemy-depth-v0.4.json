@@ -1,0 +1,356 @@
+{
+  "catalog_id": "cat_8fe884982d9510e90ed2f8a7",
+  "records": [
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Royal Gold Dye"
+      },
+      "entity_id": "ent_11013a31269f61b38e9045d3",
+      "entity_type": "recipe",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T20:55:00Z",
+        "created_by": "crimsonwiki_alchemy_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "recipe.royal-gold-dye",
+      "subtype": "crafting",
+      "summary": "Crimson Desert recipe reference: Royal Gold Dye. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "dye",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Freya's Elixir"
+      },
+      "entity_id": "ent_3c3a97c5513968b5c079b53f",
+      "entity_type": "recipe",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T20:55:00Z",
+        "created_by": "crimsonwiki_alchemy_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "recipe.freya-s-elixir",
+      "subtype": "crafting",
+      "summary": "Crimson Desert recipe reference: Freya's Elixir. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "alchemy",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Meliara's Elixir"
+      },
+      "entity_id": "ent_3c49a08e84b7f0d25bd8e179",
+      "entity_type": "recipe",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T20:55:00Z",
+        "created_by": "crimsonwiki_alchemy_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "recipe.meliara-s-elixir",
+      "subtype": "crafting",
+      "summary": "Crimson Desert recipe reference: Meliara's Elixir. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "alchemy",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Midnight Black Dye"
+      },
+      "entity_id": "ent_54f5a8165a2dba37c19d1eed",
+      "entity_type": "recipe",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T20:55:00Z",
+        "created_by": "crimsonwiki_alchemy_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "recipe.midnight-black-dye",
+      "subtype": "crafting",
+      "summary": "Crimson Desert recipe reference: Midnight Black Dye. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "dye",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Refined Palmar Pill"
+      },
+      "entity_id": "ent_5f8dd155f9de4c2129eceae8",
+      "entity_type": "recipe",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T20:55:00Z",
+        "created_by": "crimsonwiki_alchemy_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "recipe.refined-palmar-pill",
+      "subtype": "crafting",
+      "summary": "Crimson Desert recipe reference: Refined Palmar Pill. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "alchemy",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Meliara's Lesser Elixir"
+      },
+      "entity_id": "ent_664b1f96b2452e94ccbbcc9a",
+      "entity_type": "recipe",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T20:55:00Z",
+        "created_by": "crimsonwiki_alchemy_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "recipe.meliara-s-lesser-elixir",
+      "subtype": "crafting",
+      "summary": "Crimson Desert recipe reference: Meliara's Lesser Elixir. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "alchemy",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Spirit Gauge Potion"
+      },
+      "entity_id": "ent_71b73f52515fe122b11b5629",
+      "entity_type": "recipe",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T20:55:00Z",
+        "created_by": "crimsonwiki_alchemy_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "recipe.spirit-gauge-potion",
+      "subtype": "crafting",
+      "summary": "Crimson Desert recipe reference: Spirit Gauge Potion. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "alchemy",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Platinum"
+      },
+      "entity_id": "ent_79601484c6c30655d3df006b",
+      "entity_type": "recipe",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T20:55:00Z",
+        "created_by": "crimsonwiki_alchemy_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "recipe.platinum",
+      "subtype": "crafting",
+      "summary": "Crimson Desert recipe reference: Platinum. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "alchemy",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Crimson Dye"
+      },
+      "entity_id": "ent_84eab6e41a71565f679df592",
+      "entity_type": "recipe",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T20:55:00Z",
+        "created_by": "crimsonwiki_alchemy_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "recipe.crimson-dye",
+      "subtype": "crafting",
+      "summary": "Crimson Desert recipe reference: Crimson Dye. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "dye",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Haiden's Elixir"
+      },
+      "entity_id": "ent_a86c763b8cb20b24ef850ab9",
+      "entity_type": "recipe",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T20:55:00Z",
+        "created_by": "crimsonwiki_alchemy_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "recipe.haiden-s-elixir",
+      "subtype": "crafting",
+      "summary": "Crimson Desert recipe reference: Haiden's Elixir. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "alchemy",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Apollonia's Lesser Elixir"
+      },
+      "entity_id": "ent_b15bb81db2aff0a3804d0d40",
+      "entity_type": "recipe",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T20:55:00Z",
+        "created_by": "crimsonwiki_alchemy_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "recipe.apollonia-s-lesser-elixir",
+      "subtype": "crafting",
+      "summary": "Crimson Desert recipe reference: Apollonia's Lesser Elixir. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "alchemy",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Astrid's Lesser Elixir"
+      },
+      "entity_id": "ent_d2d4221bdc0342f4a1b77eae",
+      "entity_type": "recipe",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T20:55:00Z",
+        "created_by": "crimsonwiki_alchemy_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "recipe.astrid-s-lesser-elixir",
+      "subtype": "crafting",
+      "summary": "Crimson Desert recipe reference: Astrid's Lesser Elixir. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "alchemy",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Grey Dye"
+      },
+      "entity_id": "ent_de462f1b6bb8bc8e2b0deb86",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T20:55:00Z",
+        "created_by": "crimsonwiki_alchemy_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.grey-dye",
+      "subtype": "material",
+      "summary": "Crimson Desert item reference: Grey Dye. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "dye",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Forest Green Dye"
+      },
+      "entity_id": "ent_f2f901ec1be4b269ba560b54",
+      "entity_type": "recipe",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T20:55:00Z",
+        "created_by": "crimsonwiki_alchemy_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "recipe.forest-green-dye",
+      "subtype": "crafting",
+      "summary": "Crimson Desert recipe reference: Forest Green Dye. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "dye",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    }
+  ],
+  "schema_version": "pywel.entity_catalog.v1"
+}

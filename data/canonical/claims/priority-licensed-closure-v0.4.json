@@ -1,0 +1,105 @@
+{
+  "catalog_id": "cat_5b03bd34fe230530cbaa26ba",
+  "records": [
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_0abe15efbd2185be63dc7068",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_cdpatch10400official0001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Well added at Howling Hill in Patch 1.04.00."
+      },
+      "predicate": "location.service",
+      "provenance": {
+        "created_at": "2026-07-17T17:30:00-05:00",
+        "created_by": "priority_licensed_closure_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "official",
+      "subject_entity_id": "ent_e58642c3c03b60ec931f4fa1",
+      "validity": {
+        "from_patch": "1.04.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": "1.14.00",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_c26a38f457062d1e0f6d5805",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_cdpatch11200official0001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Patch 1.12.00 recognizes an entry state using four St. Halssius Priest Outfit pieces with a St. Halssius Visitor Pass; exact current entry requirements remain unobserved."
+      },
+      "predicate": "location.route",
+      "provenance": {
+        "created_at": "2026-07-17T17:30:00-05:00",
+        "created_by": "priority_licensed_closure_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "official",
+      "subject_entity_id": "ent_6544449c3131fe4782f2e829",
+      "validity": {
+        "from_patch": "1.12.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": "1.14.00",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_c47618e38298c0e96459549a",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_cdpatch10600official0001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Calphade Saddlery, with saddles for bears and Kuku birds, is named in Patch 1.06.00."
+      },
+      "predicate": "location.service",
+      "provenance": {
+        "created_at": "2026-07-17T17:30:00-05:00",
+        "created_by": "priority_licensed_closure_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "official",
+      "subject_entity_id": "ent_406ba46e266b3ab6312e32b0",
+      "validity": {
+        "from_patch": "1.06.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": "1.14.00",
+        "through_patch": null
+      }
+    }
+  ],
+  "schema_version": "pywel.claim_catalog.v1"
+}

@@ -1,0 +1,42 @@
+name: Knowledge gap or correction
+description: Report an atomic missing, stale, disputed, or incorrect claim.
+title: "gap: "
+labels: [knowledge-gap]
+body:
+  - type: input
+    id: subject
+    attributes:
+      label: Entity ID, slug, or canonical name
+    validations:
+      required: true
+  - type: input
+    id: predicate
+    attributes:
+      label: Predicate or requested schema concept
+    validations:
+      required: true
+  - type: input
+    id: context
+    attributes:
+      label: Patch, platform, and locale
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: One testable assertion or structured unknown
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Public evidence locators or reproduction steps
+    validations:
+      required: true
+  - type: checkboxes
+    id: attestations
+    attributes:
+      label: Attestations
+      options:
+        - label: This report contains no raw conversation, secret, personal data, copied work, leaked material, or unauthorized extracted data.
+          required: true

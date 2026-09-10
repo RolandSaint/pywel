@@ -1,0 +1,81 @@
+{
+  "schema_version": "pywel.strategy.v1",
+  "strategy_id": "str_01jzcdseedquickslot000001",
+  "slug": "strategy.farming-seed-quickslot",
+  "title": "Use assigned seeds from a quickslot",
+  "goal_entity_id": "ent_01jzcdfarming000000000001",
+  "status": "source_supported",
+  "prerequisites": [
+    {
+      "subject_entity_id": "ent_01jzcdfarming000000000001",
+      "predicate": "farming.seeds_usable_from_quickslots",
+      "expected": true
+    }
+  ],
+  "entry_node_id": "assign_seed",
+  "nodes": [
+    {
+      "node_id": "assign_seed",
+      "action": "quickslot.assign",
+      "target_entity_id": "ent_01jzcdfarming000000000001",
+      "instruction": "Assign the intended seed to an available quickslot.",
+      "transitions": [
+        {
+          "when": "success",
+          "next_node_id": "use_seed"
+        },
+        {
+          "when": "failure",
+          "next_node_id": null
+        }
+      ]
+    },
+    {
+      "node_id": "use_seed",
+      "action": "quickslot.activate",
+      "target_entity_id": "ent_01jzcdfarming000000000001",
+      "instruction": "Activate the assigned quickslot while performing the applicable farming action.",
+      "transitions": [
+        {
+          "when": "success",
+          "next_node_id": null
+        },
+        {
+          "when": "failure",
+          "next_node_id": null
+        }
+      ]
+    }
+  ],
+  "priorities": {
+    "speed": 0.7,
+    "safety": 1,
+    "resource_efficiency": 1,
+    "accessibility": 0.8
+  },
+  "verification": {
+    "attempts": 0,
+    "successful_attempts": 0,
+    "independent_sources": 1
+  },
+  "validity": {
+    "from_patch": "1.09.00",
+    "through_patch": null,
+    "reviewed_through_patch": "1.09.00",
+    "platforms": [
+      "all"
+    ],
+    "locales": [
+      "en-US"
+    ]
+  },
+  "spoiler_level": "none",
+  "evidence_ids": [
+    "evd_01jzcdpatch109official001"
+  ],
+  "provenance": {
+    "created_at": "2026-07-14T00:00:00-05:00",
+    "created_by": "seed_import_v1",
+    "source_receipt_id": "rcp_m1publicscope202609100001"
+  }
+}

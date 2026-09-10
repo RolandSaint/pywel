@@ -1,0 +1,395 @@
+{
+  "catalog_id": "cat_7273f5bbb756ff9d1306605d",
+  "records": [
+    {
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Camel(s)"
+        },
+        {
+          "locale": "en-US",
+          "text": "Camels"
+        }
+      ],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Camel"
+      },
+      "entity_id": "ent_076e568091a3c47787c974db",
+      "entity_type": "actor",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T20:08:18Z",
+        "created_by": "licensed_mount_roster_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "actor.camel",
+      "subtype": "mount",
+      "summary": "Crimson Desert actor reference: Camel. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown",
+        "mount"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Firm Wagon"
+      },
+      "entity_id": "ent_10ab9b133a0813d90ba998ac",
+      "entity_type": "actor",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T20:08:18Z",
+        "created_by": "licensed_mount_roster_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "actor.firm-wagon",
+      "subtype": "mount",
+      "summary": "Crimson Desert actor reference: Firm Wagon. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown",
+        "mount"
+      ]
+    },
+    {
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Marnis Mecahorse"
+        }
+      ],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Marni's Mecahorse"
+      },
+      "entity_id": "ent_1ac86e408ddaf9d2fc939d78",
+      "entity_type": "actor",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T20:08:18Z",
+        "created_by": "licensed_mount_roster_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "actor.marni-s-mecahorse",
+      "subtype": "mount",
+      "summary": "Crimson Desert actor reference: Marni's Mecahorse. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown",
+        "mount"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "White Bear"
+      },
+      "entity_id": "ent_28ef61247917d6bb6e3f1f79",
+      "entity_type": "actor",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T20:08:18Z",
+        "created_by": "licensed_mount_roster_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "actor.white-bear",
+      "subtype": "mount",
+      "summary": "Crimson Desert actor reference: White Bear. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown",
+        "mount"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Rock Tusk Warthog"
+      },
+      "entity_id": "ent_3eb6000273e59b8e249667a7",
+      "entity_type": "actor",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T20:08:18Z",
+        "created_by": "licensed_mount_roster_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "actor.rock-tusk-warthog",
+      "subtype": "mount",
+      "summary": "Crimson Desert actor reference: Rock Tusk Warthog. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown",
+        "mount"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Silver Fang"
+      },
+      "entity_id": "ent_431d92e3b725c57a77c88a8e",
+      "entity_type": "actor",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T20:08:18Z",
+        "created_by": "licensed_mount_roster_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "actor.silver-fang",
+      "subtype": "mount",
+      "summary": "Crimson Desert actor reference: Silver Fang. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown",
+        "mount"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Icicle Edge Alpine Ibex"
+      },
+      "entity_id": "ent_51bcb27332d07840f98e60a4",
+      "entity_type": "actor",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T20:08:18Z",
+        "created_by": "licensed_mount_roster_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "actor.icicle-edge-alpine-ibex",
+      "subtype": "mount",
+      "summary": "Crimson Desert actor reference: Icicle Edge Alpine Ibex. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown",
+        "mount"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Icy Mountain Goat"
+      },
+      "entity_id": "ent_77dfbda758c050cba6a8c60f",
+      "entity_type": "actor",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T20:08:18Z",
+        "created_by": "licensed_mount_roster_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "actor.icy-mountain-goat",
+      "subtype": "mount",
+      "summary": "Crimson Desert actor reference: Icy Mountain Goat. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown",
+        "mount"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Snowwhite Deer"
+      },
+      "entity_id": "ent_a006428be17582a4d545e91a",
+      "entity_type": "actor",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T20:08:18Z",
+        "created_by": "licensed_mount_roster_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "actor.snowwhite-deer",
+      "subtype": "mount",
+      "summary": "Crimson Desert actor reference: Snowwhite Deer. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown",
+        "mount"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Kuku Rocket Pack"
+      },
+      "entity_id": "ent_b644dee6bd0a8c68b4ad9c19",
+      "entity_type": "actor",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T20:08:18Z",
+        "created_by": "licensed_mount_roster_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "actor.kuku-rocket-pack",
+      "subtype": "mount",
+      "summary": "Crimson Desert actor reference: Kuku Rocket Pack. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown",
+        "mount"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Buffalo"
+      },
+      "entity_id": "ent_c366594de2536d968abb39bf",
+      "entity_type": "actor",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T20:08:18Z",
+        "created_by": "licensed_mount_roster_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "actor.buffalo",
+      "subtype": "mount",
+      "summary": "Crimson Desert actor reference: Buffalo. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown",
+        "mount"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Elephant"
+      },
+      "entity_id": "ent_cc7e764a33667b5c756079ad",
+      "entity_type": "actor",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T20:08:18Z",
+        "created_by": "licensed_mount_roster_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "actor.elephant",
+      "subtype": "mount",
+      "summary": "Crimson Desert actor reference: Elephant. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown",
+        "mount"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Elantrima"
+      },
+      "entity_id": "ent_d44fb6ecf4262da349108495",
+      "entity_type": "actor",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T20:08:18Z",
+        "created_by": "licensed_mount_roster_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "actor.elantrima",
+      "subtype": "mount",
+      "summary": "Crimson Desert actor reference: Elantrima. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown",
+        "mount"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Red Feathered Raptor"
+      },
+      "entity_id": "ent_e1c733f8880e2799d48a9862",
+      "entity_type": "actor",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T20:08:18Z",
+        "created_by": "licensed_mount_roster_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "actor.red-feathered-raptor",
+      "subtype": "mount",
+      "summary": "Crimson Desert actor reference: Red Feathered Raptor. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown",
+        "mount"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Kuku Bird Hatchling"
+      },
+      "entity_id": "ent_ef9c008ce79351f0c0302839",
+      "entity_type": "actor",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-16T20:08:18Z",
+        "created_by": "licensed_mount_roster_depth_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "actor.kuku-bird-hatchling",
+      "subtype": "mount",
+      "summary": "Crimson Desert actor reference: Kuku Bird Hatchling. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "community-supported",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown",
+        "mount"
+      ]
+    }
+  ],
+  "schema_version": "pywel.entity_catalog.v1"
+}

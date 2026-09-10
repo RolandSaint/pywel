@@ -1,0 +1,237 @@
+{
+  "catalog_id": "cat_bff2004c0f5ea877606e161a",
+  "records": [
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_1663a7e5df656c0c51bee3c3",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_cdpatch10600official0001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Patch 1.06.00 officially identifies the shop as a source of saddles for wolves and bears."
+      },
+      "predicate": "location.service",
+      "provenance": {
+        "created_at": "2026-07-16T09:56:30-05:00",
+        "created_by": "relationship_completion_nine_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "official",
+      "subject_entity_id": "ent_ba7d07d4fef0ac0ac0486a58",
+      "validity": {
+        "from_patch": "1.06.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": "1.14.00",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_4d870a01b2e858457d66c6ef",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_cdpatch11100official0001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Patch 1.11.00 officially added Ranged Weapons of the World - Bows, Vol. I to the shop."
+      },
+      "predicate": "location.notable_content",
+      "provenance": {
+        "created_at": "2026-07-16T09:56:30-05:00",
+        "created_by": "relationship_completion_nine_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "official",
+      "subject_entity_id": "ent_7ad913f2ef18b4f0bff0ab47",
+      "validity": {
+        "from_patch": "1.11.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": "1.14.00",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_842c1267920fe043f15fa970",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_cdpatch10600official0001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Hosts the Secret Shop NPC referenced by patch 1.06.00."
+      },
+      "predicate": "location.service",
+      "provenance": {
+        "created_at": "2026-07-16T09:56:30-05:00",
+        "created_by": "relationship_completion_nine_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "official",
+      "subject_entity_id": "ent_68c1b5616d129336bff6227c",
+      "validity": {
+        "from_patch": "1.06.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": "1.14.00",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_8e810126a62e00daffbddaaa",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_cdpatch11200official0001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Provides a Loom crafting station, as officially stated in patch 1.12.00."
+      },
+      "predicate": "location.service",
+      "provenance": {
+        "created_at": "2026-07-16T09:56:30-05:00",
+        "created_by": "relationship_completion_nine_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "official",
+      "subject_entity_id": "ent_36acbc9a581e0d561303a4ff",
+      "validity": {
+        "from_patch": "1.12.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": "1.14.00",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_9637e00237a6865cbeebfee0",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_cdpatch10300official0001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Patch 1.03.00 officially states that the entrance path was improved; Pywel has not observed the changed route."
+      },
+      "predicate": "location.route",
+      "provenance": {
+        "created_at": "2026-07-16T09:56:30-05:00",
+        "created_by": "relationship_completion_nine_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_minor",
+      "status": "official",
+      "subject_entity_id": "ent_f4dc18c19094f51bf8cd126c",
+      "validity": {
+        "from_patch": "1.03.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": "1.14.00",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_c819f6768759230a6fc86fd8",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_cdpatch11100official0001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Patch 1.11.00 officially added Flower Basket to the shop."
+      },
+      "predicate": "location.notable_content",
+      "provenance": {
+        "created_at": "2026-07-16T09:56:30-05:00",
+        "created_by": "relationship_completion_nine_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "official",
+      "subject_entity_id": "ent_678f50b645d562a7fbc949d3",
+      "validity": {
+        "from_patch": "1.11.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": "1.14.00",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_d7631fd940bf5d98ef5e5009",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_cdpatch11400official0001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Patch 1.14.00 officially changed Damiane's Skystep to use the same control input as Oongka's Vertical Flight."
+      },
+      "predicate": "ability.activation",
+      "provenance": {
+        "created_at": "2026-07-16T09:56:30-05:00",
+        "created_by": "relationship_completion_nine_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "official",
+      "subject_entity_id": "ent_edd38b6e8e9bc697d2b4d508",
+      "validity": {
+        "from_patch": "1.14.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": "1.14.00",
+        "through_patch": null
+      }
+    }
+  ],
+  "schema_version": "pywel.claim_catalog.v1"
+}

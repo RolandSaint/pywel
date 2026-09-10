@@ -1,0 +1,2448 @@
+{
+  "catalog_id": "cat_8a5bda8fed0c24289c6c130e",
+  "records": [
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_07d32e73ee5982b618efc4b3",
+      "confidence": 0.34,
+      "evidence_ids": [
+        "evd_4000d23c4aecc13927e3cbb8"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Howling Hill, Hernandian Territory"
+      },
+      "predicate": "quest.location",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_2138131b97d81664f47658f5",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_0828780a55df1fc1a85e8a77",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_2f3415420e3b552af1dec14e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Jackals' Leather Armor"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_829dbd6a55a3f8b1c852469c",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_0e452e00a176d988981a16ae",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_3470d198e5849878e2adb6e5"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Large Bag ×1"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_6f4cf8650d0e21447e60316d",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_11c552c665c6b9f565e4ce5c",
+      "confidence": 0.34,
+      "evidence_ids": [
+        "evd_5fff44aec983cf20f6e75ce1"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "City of Hernand, Hernand"
+      },
+      "predicate": "quest.location",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_05f5b786cda4bbf9984fc07d",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_11d478ab66888b2a3b1f293c",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_72f7a1017f91417a745c7732"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Blackwing Mask"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_b7ac65d7c3b33e4effe0c296",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_184c1897c4497027a4a45042",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_630e0ef9de3432904328b324"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Official Knight's Leather Gloves"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_ed65a28da5ab18b644247aa7",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_1c63fe032b005f56d90b0a38",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_2f3415420e3b552af1dec14e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Hungering Fang Leather Boots"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_829dbd6a55a3f8b1c852469c",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_1f404ffc0ba0fd6132f4f5d5",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_630e0ef9de3432904328b324"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Official Knight's Leather Boots"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_ed65a28da5ab18b644247aa7",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_26300cfd6bb73b33f63dff0e",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_630e0ef9de3432904328b324"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Abyss Artifact ×1"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_a9520c2d2220b6317c7c362a",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_272dc1e083e60ee0d57f812f",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_5fff44aec983cf20f6e75ce1"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Grilled Meat ×5"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_05f5b786cda4bbf9984fc07d",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_2c72f06da61f0565bf5879d4",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_4d71d3dde6112249a47dc74b"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Shield of Betrayal"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_aec33f76cd6c0da3355ef100",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_2e839cca7a5534ddab31e512",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_630e0ef9de3432904328b324"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Damiane's Ponytail Ticket"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_ed65a28da5ab18b644247aa7",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_30f68ad10afc597016738e93",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_2f3415420e3b552af1dec14e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Solas Plate Armor"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_915e4bfa7c5774e8382f4c5e",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_335d04bcd20b11b6c920a5f6",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_5fff44aec983cf20f6e75ce1"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Grilled Fruits ×5"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_05f5b786cda4bbf9984fc07d",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_391b50524c7cfdf7778de939",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_3470d198e5849878e2adb6e5"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Iron Ore ×5"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_53e2a12c8137d8835869a31b",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_3c8392d71bba753d383dcad0",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_3470d198e5849878e2adb6e5"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Clear Soup ×10"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_6f4cf8650d0e21447e60316d",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_3e3cd120f646f178f4862c33",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_2f3415420e3b552af1dec14e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Hungering Fang Leather Cloak"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_829dbd6a55a3f8b1c852469c",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_3e4471a7f4f73966a04b85d3",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_5fff44aec983cf20f6e75ce1"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Medium Bag ×1"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_d0f598e1e415f4e9aedc77de",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_3e6b38c34ee887ea36fe739b",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_9ddd645758e99eec7889275b"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Blackberry ×5"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_215733140da7eef959a63811",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_4be4b3036c5b211aef7576b8",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_5fff44aec983cf20f6e75ce1"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Palmar Pill ×1"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_d0f598e1e415f4e9aedc77de",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_4ce31e68c4e9d6b4105743aa",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_630e0ef9de3432904328b324"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Abyss Artifact ×1"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_255207fa0e179e9a053971a2",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_4d7d2fb2ecc4d73fab8fdf8e",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_72f7a1017f91417a745c7732"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Tauria Curved Sword"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_b7ac65d7c3b33e4effe0c296",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_4fd274e2afe3fcf1798f4d13",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_4000d23c4aecc13927e3cbb8"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Scholastone Uniform"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_3a9533c82adc507e0c92d25f",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_59ae32e6d809c842256904eb",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_5fff44aec983cf20f6e75ce1"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Cloth Pieces ×5"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_05f5b786cda4bbf9984fc07d",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_5b16cf87827e464e2f28a47a",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_3470d198e5849878e2adb6e5"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Sunset Reed Cloth Gloves ×1"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_27d2fc67a8c5c1d168093fd2",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_5dd8a7c1a7464e2045d547e8",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_2f3415420e3b552af1dec14e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Solas Plate Boots"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_915e4bfa7c5774e8382f4c5e",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_6269b9c7b1dfe4f881c1d622",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_3470d198e5849878e2adb6e5"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "St. Halssius Priest's Hat ×1"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_6f4cf8650d0e21447e60316d",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_69c49761342b00ea5892f126",
+      "confidence": 0.34,
+      "evidence_ids": [
+        "evd_72f7a1017f91417a745c7732"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Serkis Estate, Hernand Castle"
+      },
+      "predicate": "quest.location",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_ed020740d7495d1048babb58",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_6e5b6fe652a9de1bcedad0e1",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_3470d198e5849878e2adb6e5"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Glenbright's Redemption [if mercy route]"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_27d2fc67a8c5c1d168093fd2",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_6ea6c1fdd7b0a353d1bbf527",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_2f3415420e3b552af1dec14e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Jackals' Leather Helm"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_829dbd6a55a3f8b1c852469c",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_741c60061e9b4406d7be5c1a",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_b0513879893a001abb80e7e9"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Greymane's Earring"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_82b8f50d227e756f7291e2a8",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_74af4ead00dab9d556040811",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_5fff44aec983cf20f6e75ce1"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Toasted Grains ×10"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_05f5b786cda4bbf9984fc07d",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_814e5ee624f93c947644b1f8",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_9ddd645758e99eec7889275b"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Standard Inventory Expansion Tool ×1"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_215733140da7eef959a63811",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_82fd20bbc32f69eb802e8264",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_3470d198e5849878e2adb6e5"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "St. Halssius Priest Attire ×1"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_6f4cf8650d0e21447e60316d",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_83664dc170e9c69ebccb7668",
+      "confidence": 0.34,
+      "evidence_ids": [
+        "evd_8f3b742755ac7c21827d7559"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Axiom Archive, Abyss"
+      },
+      "predicate": "quest.location",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_a0436305a83f27b4cf7b3a20",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_85a45e1518caeea788b219f1",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_4000d23c4aecc13927e3cbb8"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Abyss Artifact ×1"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_3a9533c82adc507e0c92d25f",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_85c0c2d3bf9a2baf75138927",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_630e0ef9de3432904328b324"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Radiant Necklace"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_255207fa0e179e9a053971a2",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_8ba1b28326ebfe62ac67559e",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_3470d198e5849878e2adb6e5"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Fine Timber ×5"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_53e2a12c8137d8835869a31b",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_8fb87a51384bb421becb6677",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_630e0ef9de3432904328b324"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Golden Vanguard"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_255207fa0e179e9a053971a2",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_90b6983071bbfa8c4fb30a51",
+      "confidence": 0.34,
+      "evidence_ids": [
+        "evd_4d71d3dde6112249a47dc74b"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Calphadean Territory, Hernand"
+      },
+      "predicate": "quest.location",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_ba8d65f627323cfc1742b347",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_945cfc0ed8f815275369ad4b",
+      "confidence": 0.34,
+      "evidence_ids": [
+        "evd_3470d198e5849878e2adb6e5"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Glenbright Manor, Reedfield, Reedfield Graves"
+      },
+      "predicate": "quest.location",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_27d2fc67a8c5c1d168093fd2",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_994f5d086c769a91a05c1d68",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_72f7a1017f91417a745c7732"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Core Blueprint: Haste"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_b7ac65d7c3b33e4effe0c296",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_9bff798118d396172ea8e8be",
+      "confidence": 0.34,
+      "evidence_ids": [
+        "evd_3470d198e5849878e2adb6e5"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Howling Hill, Various Locations"
+      },
+      "predicate": "quest.location",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_53e2a12c8137d8835869a31b",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_ae32bc7c61640c65af755a4a",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_630e0ef9de3432904328b324"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Shackle of Might"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_a9520c2d2220b6317c7c362a",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_b5eec89a1e8aba0086491877",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_3470d198e5849878e2adb6e5"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "St. Halssius Priest's Cloak ×1"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_6f4cf8650d0e21447e60316d",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_bd0b62589fcdb34db8660d07",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_5fff44aec983cf20f6e75ce1"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Fleece ×5"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_05f5b786cda4bbf9984fc07d",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_be66c916dc70ce179c271e36",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_630e0ef9de3432904328b324"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Official Knight's Plate Armor"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_ed65a28da5ab18b644247aa7",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_bfa4def9078f78e5c6ce73e7",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_b0513879893a001abb80e7e9"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Stardust Necklace"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_9955a9cdae78db0457aeecaa",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_c0205997194209b45e5249cd",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_2f3415420e3b552af1dec14e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Jackals' Cloth Cloak"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_829dbd6a55a3f8b1c852469c",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_c1fc27947e5589a39e984e07",
+      "confidence": 0.34,
+      "evidence_ids": [
+        "evd_8f3b742755ac7c21827d7559"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "City of Hernand, Hernand"
+      },
+      "predicate": "quest.location",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_b4c2d111307f2ddf59492bd1",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_c21792eea2c4739c5edc876d",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_4d71d3dde6112249a47dc74b"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Whistling Arrow ×10"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_0b25650ca6c68765c4aa7284",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_c2240ce9e2f6a725424357b6",
+      "confidence": 0.34,
+      "evidence_ids": [
+        "evd_4d71d3dde6112249a47dc74b"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Calphade Castle, Hernand"
+      },
+      "predicate": "quest.location",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_aec33f76cd6c0da3355ef100",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_c65215b24ff577b9ea4aa000",
+      "confidence": 0.34,
+      "evidence_ids": [
+        "evd_5fff44aec983cf20f6e75ce1"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "City of Hernand, Hernand"
+      },
+      "predicate": "quest.location",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_d0f598e1e415f4e9aedc77de",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_c7951ce78a7bf775855584de",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_2f3415420e3b552af1dec14e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Melted Ambition"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_1fe7cc0e625b9b4fb5d8c507",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_cb436f480f933da6ca91bed3",
+      "confidence": 0.34,
+      "evidence_ids": [
+        "evd_4000d23c4aecc13927e3cbb8"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Hernand, Scholastone Institute, Spire of the Stars (Abyss)"
+      },
+      "predicate": "quest.location",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_3a9533c82adc507e0c92d25f",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_cc584d296448db4b84fa641a",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_630e0ef9de3432904328b324"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Eclipsed Solas Plate Gloves"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_ed65a28da5ab18b644247aa7",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_d44f4440e8a85ec119dbf9cf",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_2f3415420e3b552af1dec14e"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Ignir"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_915e4bfa7c5774e8382f4c5e",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_d57d547fa7fe524e6c59ab21",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_b0513879893a001abb80e7e9"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Witch's Ring"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_82b8f50d227e756f7291e2a8",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_d7249944452c8810233a454a",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_3470d198e5849878e2adb6e5"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "St. Halssius Priest's Leather Footwear ×1"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_6f4cf8650d0e21447e60316d",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_d79eb19d0b214a278f838503",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_5fff44aec983cf20f6e75ce1"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Arrows ×10"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_d0f598e1e415f4e9aedc77de",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_d8c659d4229a6608e51ae0e4",
+      "confidence": 0.34,
+      "evidence_ids": [
+        "evd_3470d198e5849878e2adb6e5"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "City of Hernand, Howling Hill"
+      },
+      "predicate": "quest.location",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_6f4cf8650d0e21447e60316d",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_de2be791057b4002bc42a5ea",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_72f7a1017f91417a745c7732"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Blackwing Leather Armor"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_b7ac65d7c3b33e4effe0c296",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_e1a10f043e44244a44a8faeb",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_630e0ef9de3432904328b324"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Spire of Clockwork Key"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_ed65a28da5ab18b644247aa7",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_e20c97b07a6328567cf6a1fc",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_3470d198e5849878e2adb6e5"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Abyss Artifact ×1"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_53e2a12c8137d8835869a31b",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_e2b1e9066c8f207e9cdb4c53",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_3470d198e5849878e2adb6e5"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Thick Hides ×6"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_53e2a12c8137d8835869a31b",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_e3e045fdb8ba3f12be226514",
+      "confidence": 0.34,
+      "evidence_ids": [
+        "evd_9ddd645758e99eec7889275b"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Hernadian Territory, Hernand"
+      },
+      "predicate": "quest.location",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_e76dcbe9266d92c302e1993f",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_e62bd072b1715ece5a32707f",
+      "confidence": 0.34,
+      "evidence_ids": [
+        "evd_4d71d3dde6112249a47dc74b"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Calphadean Territory"
+      },
+      "predicate": "quest.location",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_0c4b12f57aa61ae011bfe573",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_e94a08c468b1ef846a5e98a1",
+      "confidence": 0.34,
+      "evidence_ids": [
+        "evd_9ddd645758e99eec7889275b"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Corridor of the Void, Abyss"
+      },
+      "predicate": "quest.location",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_215733140da7eef959a63811",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_ea2f2c4f9faca3ad5143bf0b",
+      "confidence": 0.34,
+      "evidence_ids": [
+        "evd_4d71d3dde6112249a47dc74b"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Deepfog Basin, Hernand"
+      },
+      "predicate": "quest.location",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_0b25650ca6c68765c4aa7284",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_ed822e293ef8ef5eedec0e90",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_4000d23c4aecc13927e3cbb8"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Honey Tea ×10"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_3a9533c82adc507e0c92d25f",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_f3a54056319a908a940f7400",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_3470d198e5849878e2adb6e5"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Iron Ore ×5"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_6f4cf8650d0e21447e60316d",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_f7ce92fcbdf7030dfea8f081",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_5fff44aec983cf20f6e75ce1"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Medium Bags ×4"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_05f5b786cda4bbf9984fc07d",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_f8e32a581ad2676afbdb45bc",
+      "confidence": 0.34,
+      "evidence_ids": [
+        "evd_72f7a1017f91417a745c7732"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Hernand Castle, Axiom Archive, Spire of Soaring"
+      },
+      "predicate": "quest.location",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_b7ac65d7c3b33e4effe0c296",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_f933c270b766bd1e971971cb",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_9ddd645758e99eec7889275b"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Oats ×10"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-07-16T18:45:59Z",
+        "created_by": "crimsonwiki_chapter_fields_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_215733140da7eef959a63811",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    }
+  ],
+  "schema_version": "pywel.claim_catalog.v1"
+}

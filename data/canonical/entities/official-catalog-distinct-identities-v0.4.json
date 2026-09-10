@@ -1,0 +1,58 @@
+{
+  "catalog_id": "cat_2f718aca505f0110435f9612",
+  "records": [
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Back Alley Shop"
+      },
+      "entity_id": "ent_2fd8d0263a17f5a736b15d8d",
+      "entity_type": "location",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-19T09:45:00-05:00",
+        "created_by": "official_catalog_distinct_identities_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "location.back-alley-shop",
+      "subtype": "shop",
+      "summary": "Crimson Desert location reference: Back Alley Shop. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "current-build-unobserved",
+        "direct-verification-needed",
+        "location",
+        "official-context",
+        "official-identity"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Research Institute"
+      },
+      "entity_id": "ent_8831146c514e1d6265c395f4",
+      "entity_type": "location",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-07-19T09:45:00-05:00",
+        "created_by": "official_catalog_distinct_identities_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "location.research-institute",
+      "subtype": "facility",
+      "summary": "Crimson Desert location reference: Research Institute. Gameplay support is limited to the linked claims and patch records.",
+      "tags": [
+        "current-build-unobserved",
+        "direct-verification-needed",
+        "location",
+        "official-context",
+        "official-identity"
+      ]
+    }
+  ],
+  "schema_version": "pywel.entity_catalog.v1"
+}

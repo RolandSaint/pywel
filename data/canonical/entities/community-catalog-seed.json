@@ -1,0 +1,3594 @@
+{
+  "schema_version": "pywel.entity_catalog.v1",
+  "catalog_id": "cat_8435f53cb54317a69b6c41d5",
+  "records": [
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_00dc77d4156c7dce78eda8e1",
+      "game_id": "crimson_desert",
+      "slug": "quest.kilnden-workshop",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Kilnden Workshop"
+      },
+      "summary": "Crimson Desert quest reference: Kilnden Workshop. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_014ee2bf7f3323de6c4185e9",
+      "game_id": "crimson_desert",
+      "slug": "item.gourmet-iii",
+      "entity_type": "item",
+      "subtype": "item",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Gourmet III"
+      },
+      "summary": "Crimson Desert item reference: Gourmet III. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Abyss Core: Gourmet III"
+        },
+        {
+          "locale": "en-US",
+          "text": "Gourmet 3"
+        }
+      ],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "item"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_01a08094b835fcbf9fc6c10a",
+      "game_id": "crimson_desert",
+      "slug": "item.rampaging-insight",
+      "entity_type": "item",
+      "subtype": "item",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Rampaging Insight"
+      },
+      "summary": "Crimson Desert item reference: Rampaging Insight. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Abyss Core: Rampaging Insight"
+        }
+      ],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "item"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_04294c91eaffb1b86f92849f",
+      "game_id": "crimson_desert",
+      "slug": "quest.all-quiet-on-the-front",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "All Quiet on the Front"
+      },
+      "summary": "Crimson Desert quest reference: All Quiet on the Front. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "community-indexed",
+        "launch-era",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_0461a0e51725a4dfa127dfd2",
+      "game_id": "crimson_desert",
+      "slug": "quest.hidden-fangs",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Hidden Fangs"
+      },
+      "summary": "Crimson Desert quest reference: Hidden Fangs. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_04d544670adc0b94b165e49e",
+      "game_id": "crimson_desert",
+      "slug": "quest.crowcaller",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Crowcaller"
+      },
+      "summary": "Crimson Desert quest reference: Crowcaller. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_05f5b786cda4bbf9984fc07d",
+      "game_id": "crimson_desert",
+      "slug": "quest.hernand-in-chaos",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Hernand in Chaos"
+      },
+      "summary": "Crimson Desert quest reference: Hernand in Chaos. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_062fbc251e8e2fe18fd484b8",
+      "game_id": "crimson_desert",
+      "slug": "quest.lonely-jackals",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Lonely Jackals"
+      },
+      "summary": "Crimson Desert quest reference: Lonely Jackals. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_08e2f92c6c13e835bee74c1e",
+      "game_id": "crimson_desert",
+      "slug": "quest.lurking-wolves",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Lurking Wolves"
+      },
+      "summary": "Crimson Desert quest reference: Lurking Wolves. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_0b25650ca6c68765c4aa7284",
+      "game_id": "crimson_desert",
+      "slug": "quest.turning-tides",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Turning Tides"
+      },
+      "summary": "Crimson Desert quest reference: Turning Tides. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_0be0f21d4273599cf121504b",
+      "game_id": "crimson_desert",
+      "slug": "quest.rumors-from-the-sawmill",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Rumors from the Sawmill"
+      },
+      "summary": "Crimson Desert quest reference: Rumors from the Sawmill. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_0c057887707cb15e9a340b1c",
+      "game_id": "crimson_desert",
+      "slug": "quest.preparations-for-advance",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Preparations for Advance"
+      },
+      "summary": "Crimson Desert quest reference: Preparations for Advance. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_0c4b12f57aa61ae011bfe573",
+      "game_id": "crimson_desert",
+      "slug": "quest.below-the-banners",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Below the Banners"
+      },
+      "summary": "Crimson Desert quest reference: Below the Banners. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_0c7fbe7d0b43baf27c3bbab8",
+      "game_id": "crimson_desert",
+      "slug": "quest.nonhuman",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Nonhuman"
+      },
+      "summary": "Crimson Desert quest reference: Nonhuman. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_0cb9a20e0b9c2a8dc8cead6f",
+      "game_id": "crimson_desert",
+      "slug": "quest.the-missing-seal",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "The Missing Seal"
+      },
+      "summary": "Crimson Desert quest reference: The Missing Seal. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_0f7f3c1a9a8fafe32e265811",
+      "game_id": "crimson_desert",
+      "slug": "quest.driving-out-the-shadows",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Driving out the Shadows"
+      },
+      "summary": "Crimson Desert quest reference: Driving out the Shadows. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_116a6b22d4ca1987a527303b",
+      "game_id": "crimson_desert",
+      "slug": "item.insight-i",
+      "entity_type": "item",
+      "subtype": "item",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Insight I"
+      },
+      "summary": "Crimson Desert item reference: Insight I. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Abyss Core: Insight I"
+        }
+      ],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "item"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_1324d5b642dd519f52307ed7",
+      "game_id": "crimson_desert",
+      "slug": "quest.first-step-to-rebuilding",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "First Step to Rebuilding"
+      },
+      "summary": "Crimson Desert quest reference: First Step to Rebuilding. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_14a50f2912b8e60ef6feb3eb",
+      "game_id": "crimson_desert",
+      "slug": "quest.the-crows-warning",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "The Crow's Warning"
+      },
+      "summary": "Crimson Desert quest reference: The Crow's Warning. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "The Crows Warning"
+        }
+      ],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_1a92635df6f45d9fab51fabb",
+      "game_id": "crimson_desert",
+      "slug": "quest.a-fresh-start",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "A Fresh Start"
+      },
+      "summary": "Crimson Desert quest reference: A Fresh Start. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "community-indexed",
+        "launch-era",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_1fe7cc0e625b9b4fb5d8c507",
+      "game_id": "crimson_desert",
+      "slug": "quest.incomplete-victory",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Incomplete Victory"
+      },
+      "summary": "Crimson Desert quest reference: Incomplete Victory. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_20989ed7d1f939315a0a2872",
+      "game_id": "crimson_desert",
+      "slug": "location.demeniss",
+      "entity_type": "location",
+      "subtype": "region",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Demeniss"
+      },
+      "summary": "Crimson Desert location reference: Demeniss. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Demeniss Region"
+        },
+        {
+          "locale": "en-US",
+          "text": "Kingdom of Demeniss"
+        }
+      ],
+      "tags": [
+        "community-indexed",
+        "location",
+        "official-context"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_2138131b97d81664f47658f5",
+      "game_id": "crimson_desert",
+      "slug": "quest.daily-life",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Daily Life"
+      },
+      "summary": "Crimson Desert quest reference: Daily Life. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_215733140da7eef959a63811",
+      "game_id": "crimson_desert",
+      "slug": "quest.unknown-space",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Unknown Space"
+      },
+      "summary": "Crimson Desert quest reference: Unknown Space. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_21ca120f553032af9942f78c",
+      "game_id": "crimson_desert",
+      "slug": "quest.realm-of-uncertainty",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Realm of Uncertainty"
+      },
+      "summary": "Crimson Desert quest reference: Realm of Uncertainty. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_242bdf4ccf6178fd113970e7",
+      "game_id": "crimson_desert",
+      "slug": "location.greymane-camp",
+      "entity_type": "location",
+      "subtype": "camp",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Greymane Camp"
+      },
+      "summary": "Crimson Desert location reference: Greymane Camp. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "camp",
+        "community-indexed",
+        "current-build-unobserved",
+        "location",
+        "subtype-reviewed"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_24a21a452fe2732198998d06",
+      "game_id": "crimson_desert",
+      "slug": "item.wind-slash",
+      "entity_type": "item",
+      "subtype": "item",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Wind Slash"
+      },
+      "summary": "Crimson Desert item reference: Wind Slash. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Abyss Core: Wind Slash"
+        }
+      ],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "item"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_255207fa0e179e9a053971a2",
+      "game_id": "crimson_desert",
+      "slug": "quest.where-the-wind-guides-you",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Where the Wind Guides You"
+      },
+      "summary": "Crimson Desert quest reference: Where the Wind Guides You. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_278bc3b5c99b4093bd5f8514",
+      "game_id": "crimson_desert",
+      "slug": "quest.fire-support",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Fire Support"
+      },
+      "summary": "Crimson Desert quest reference: Fire Support. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_27d2fc67a8c5c1d168093fd2",
+      "game_id": "crimson_desert",
+      "slug": "quest.the-face-behind-the-mask",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "The Face Behind the Mask"
+      },
+      "summary": "Crimson Desert quest reference: The Face Behind the Mask. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_29db3c9ffed8289454fe8384",
+      "game_id": "crimson_desert",
+      "slug": "quest.on-the-right-path",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "On the Right Path"
+      },
+      "summary": "Crimson Desert quest reference: On the Right Path. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_29ebda3324e9f2fba6f49bb0",
+      "game_id": "crimson_desert",
+      "slug": "quest.chasing-a-shadow",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Chasing a Shadow"
+      },
+      "summary": "Crimson Desert quest reference: Chasing a Shadow. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_2e8b53f09aae64a0e1adb618",
+      "game_id": "crimson_desert",
+      "slug": "quest.cheers-echoing-from-the-edge",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Cheers Echoing From the Edge"
+      },
+      "summary": "Crimson Desert quest reference: Cheers Echoing From the Edge. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_2ebde42bb29ca300dee5c12c",
+      "game_id": "crimson_desert",
+      "slug": "quest.the-final-bridge",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "The Final Bridge"
+      },
+      "summary": "Crimson Desert quest reference: The Final Bridge. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_307d2ff15d11f0b23c1fca61",
+      "game_id": "crimson_desert",
+      "slug": "item.vigor-i",
+      "entity_type": "item",
+      "subtype": "item",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Vigor I"
+      },
+      "summary": "Crimson Desert item reference: Vigor I. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Abyss Core: Vigor I"
+        }
+      ],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "item"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_3133989420669638e23e24e9",
+      "game_id": "crimson_desert",
+      "slug": "quest.cradle-of-defense",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Cradle of Defense"
+      },
+      "summary": "Crimson Desert quest reference: Cradle of Defense. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_32df556811e0124a93c2da63",
+      "game_id": "crimson_desert",
+      "slug": "quest.to-the-battlefield",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "To the Battlefield"
+      },
+      "summary": "Crimson Desert quest reference: To the Battlefield. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_3644aafb79f28ee70a10256f",
+      "game_id": "crimson_desert",
+      "slug": "quest.return",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Return"
+      },
+      "summary": "Crimson Desert quest reference: Return. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_36acbc9a581e0d561303a4ff",
+      "game_id": "crimson_desert",
+      "slug": "location.hernand-tailors-shop",
+      "entity_type": "location",
+      "subtype": "shop",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Hernand Tailor's Shop"
+      },
+      "summary": "Crimson Desert location reference: Hernand Tailor's Shop. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Hernand Tailor Shop"
+        },
+        {
+          "locale": "en-US",
+          "text": "Hernand Tailors Shop"
+        }
+      ],
+      "tags": [
+        "community-indexed",
+        "location",
+        "official-context"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_3704df128af6c3d11a0fd298",
+      "game_id": "crimson_desert",
+      "slug": "quest.traitor",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Traitor"
+      },
+      "summary": "Crimson Desert quest reference: Traitor. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_3a9533c82adc507e0c92d25f",
+      "game_id": "crimson_desert",
+      "slug": "quest.forbidden-knowledge",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Forbidden Knowledge"
+      },
+      "summary": "Crimson Desert quest reference: Forbidden Knowledge. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_3b6bb0e506c27adc8399c9b9",
+      "game_id": "crimson_desert",
+      "slug": "quest.where-the-light-leads",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Where the Light Leads"
+      },
+      "summary": "Crimson Desert quest reference: Where the Light Leads. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_3e20bea6bdfe63b299b18e44",
+      "game_id": "crimson_desert",
+      "slug": "quest.return-home",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Return Home"
+      },
+      "summary": "Crimson Desert quest reference: Return Home. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_3e2791689e6d8e98cffeb566",
+      "game_id": "crimson_desert",
+      "slug": "quest.bloodwind",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Bloodwind"
+      },
+      "summary": "Crimson Desert quest reference: Bloodwind. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_3e79664c0f761ceabcd57ac2",
+      "game_id": "crimson_desert",
+      "slug": "quest.obsession-and-madness",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Obsession and Madness"
+      },
+      "summary": "Crimson Desert quest reference: Obsession and Madness. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_406ba46e266b3ab6312e32b0",
+      "game_id": "crimson_desert",
+      "slug": "location.calphade",
+      "entity_type": "location",
+      "subtype": "region",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Calphade"
+      },
+      "summary": "Crimson Desert location reference: Calphade. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "community-indexed",
+        "current-build-unobserved",
+        "location",
+        "region",
+        "subtype-reviewed"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_42e03bf08478734069f46446",
+      "game_id": "crimson_desert",
+      "slug": "quest.familiar-curses",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Familiar Curses"
+      },
+      "summary": "Crimson Desert quest reference: Familiar Curses. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_450beef46b05e60b80fa41d5",
+      "game_id": "crimson_desert",
+      "slug": "quest.dance-with-the-devil",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Dance with the Devil"
+      },
+      "summary": "Crimson Desert quest reference: Dance with the Devil. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_47ccb4c29a585041a4791220",
+      "game_id": "crimson_desert",
+      "slug": "quest.ashes-of-treachery",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Ashes of Treachery"
+      },
+      "summary": "Crimson Desert quest reference: Ashes of Treachery. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_49ea2f6b0247b85202163a93",
+      "game_id": "crimson_desert",
+      "slug": "quest.bustling-hill",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Bustling Hill"
+      },
+      "summary": "Crimson Desert quest reference: Bustling Hill. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_53e2a12c8137d8835869a31b",
+      "game_id": "crimson_desert",
+      "slug": "quest.pioneering",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Pioneering"
+      },
+      "summary": "Crimson Desert quest reference: Pioneering. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_5c3c7d484409cbdd19e6d97d",
+      "game_id": "crimson_desert",
+      "slug": "quest.trust-lost",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Trust Lost"
+      },
+      "summary": "Crimson Desert quest reference: Trust Lost. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_5e4b2dc40297ba803ab20624",
+      "game_id": "crimson_desert",
+      "slug": "quest.gate-to-the-otherworld",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Gate to the Otherworld"
+      },
+      "summary": "Crimson Desert quest reference: Gate to the Otherworld. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_5e9184e5958746892740fa7c",
+      "game_id": "crimson_desert",
+      "slug": "quest.disturbance-at-the-arena",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Disturbance at the Arena"
+      },
+      "summary": "Crimson Desert quest reference: Disturbance at the Arena. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_5f5f72308e0d9e6092f00c0d",
+      "game_id": "crimson_desert",
+      "slug": "quest.missing-companion",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Missing Companion"
+      },
+      "summary": "Crimson Desert quest reference: Missing Companion. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_619a03e0d557bfb39c0c616f",
+      "game_id": "crimson_desert",
+      "slug": "quest.whispering-shadows",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Whispering Shadows"
+      },
+      "summary": "Crimson Desert quest reference: Whispering Shadows. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_6302651f30169ab038e26154",
+      "game_id": "crimson_desert",
+      "slug": "quest.unwelcomed-guests",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Unwelcomed Guests"
+      },
+      "summary": "Crimson Desert quest reference: Unwelcomed Guests. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_63978ac684c6d802154594eb",
+      "game_id": "crimson_desert",
+      "slug": "quest.secrets-hidden-in-the-dark",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Secrets Hidden in the Dark"
+      },
+      "summary": "Crimson Desert quest reference: Secrets Hidden in the Dark. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_6494fad09b50088773b5318b",
+      "game_id": "crimson_desert",
+      "slug": "quest.blazing-fire",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Blazing Fire"
+      },
+      "summary": "Crimson Desert quest reference: Blazing Fire. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_65cc69de5448bddada58a243",
+      "game_id": "crimson_desert",
+      "slug": "item.swift-i",
+      "entity_type": "item",
+      "subtype": "item",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Swift I"
+      },
+      "summary": "Crimson Desert item reference: Swift I. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Abyss Core: Swift I"
+        }
+      ],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "item"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_678f50b645d562a7fbc949d3",
+      "game_id": "crimson_desert",
+      "slug": "location.hernand-provisioner",
+      "entity_type": "location",
+      "subtype": "shop",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Hernand Provisioner"
+      },
+      "summary": "Crimson Desert location reference: Hernand Provisioner. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Hernand Provisioner's Shop"
+        }
+      ],
+      "tags": [
+        "community-indexed",
+        "location",
+        "official-context"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_682b9328f918c712b5979256",
+      "game_id": "crimson_desert",
+      "slug": "quest.unfamiliar-lands",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Unfamiliar Lands"
+      },
+      "summary": "Crimson Desert quest reference: Unfamiliar Lands. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_68c1b5616d129336bff6227c",
+      "game_id": "crimson_desert",
+      "slug": "location.pororin",
+      "entity_type": "location",
+      "subtype": "stronghold",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Pororin"
+      },
+      "summary": "Crimson Desert location reference: Pororin. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Pororin Village"
+        }
+      ],
+      "tags": [
+        "community-indexed",
+        "location"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_6bc753b9d58b3916fe0d4a63",
+      "game_id": "crimson_desert",
+      "slug": "quest.bloodied-invitation",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Bloodied Invitation"
+      },
+      "summary": "Crimson Desert quest reference: Bloodied Invitation. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_6bce6f50e2f47ceb43476bd3",
+      "game_id": "crimson_desert",
+      "slug": "quest.a-thousand-troops",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "A Thousand Troops"
+      },
+      "summary": "Crimson Desert quest reference: A Thousand Troops. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "community-indexed",
+        "launch-era",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_6f249fce679d5d019e69b01c",
+      "game_id": "crimson_desert",
+      "slug": "item.spirit-transference",
+      "entity_type": "item",
+      "subtype": "item",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Spirit Transference"
+      },
+      "summary": "Crimson Desert item reference: Spirit Transference. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Abyss Core: Spirit Transference"
+        }
+      ],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "item"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_6f4cf8650d0e21447e60316d",
+      "game_id": "crimson_desert",
+      "slug": "quest.homestead",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Homestead"
+      },
+      "summary": "Crimson Desert quest reference: Homestead. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_7209c17a0c7314de09917908",
+      "game_id": "crimson_desert",
+      "slug": "quest.the-pots-use",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "The Pot's Use"
+      },
+      "summary": "Crimson Desert quest reference: The Pot's Use. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "The Pots Use"
+        }
+      ],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_74edc051ca3074d64d74e718",
+      "game_id": "crimson_desert",
+      "slug": "quest.where-misery-gathers",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Where Misery Gathers"
+      },
+      "summary": "Crimson Desert quest reference: Where Misery Gathers. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_75030f36d3ce312b39f7d676",
+      "game_id": "crimson_desert",
+      "slug": "quest.demenissian-delegation",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Demenissian Delegation"
+      },
+      "summary": "Crimson Desert quest reference: Demenissian Delegation. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_7ad913f2ef18b4f0bff0ab47",
+      "game_id": "crimson_desert",
+      "slug": "location.hernand-equipment-shop",
+      "entity_type": "location",
+      "subtype": "shop",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Hernand Equipment Shop"
+      },
+      "summary": "Crimson Desert location reference: Hernand Equipment Shop. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Hernand Equipment Store"
+        }
+      ],
+      "tags": [
+        "community-indexed",
+        "location",
+        "official-context"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_7ef9f1f6334d47eee6881086",
+      "game_id": "crimson_desert",
+      "slug": "quest.a-gentle-touch",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "A Gentle Touch"
+      },
+      "summary": "Crimson Desert quest reference: A Gentle Touch. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "community-indexed",
+        "launch-era",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_827db0496d4febdea9501e73",
+      "game_id": "crimson_desert",
+      "slug": "item.wine",
+      "entity_type": "item",
+      "subtype": "item",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Wine"
+      },
+      "summary": "Crimson Desert item reference: Wine. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "item"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_829dbd6a55a3f8b1c852469c",
+      "game_id": "crimson_desert",
+      "slug": "quest.resolution",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Resolution"
+      },
+      "summary": "Crimson Desert quest reference: Resolution. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "community-indexed",
+        "launch-era",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_8324dc6c53a7aca2bc38ea07",
+      "game_id": "crimson_desert",
+      "slug": "location.pywel",
+      "entity_type": "location",
+      "subtype": "continent",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Pywel"
+      },
+      "summary": "Crimson Desert location reference: Pywel. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Continent of Pywel"
+        }
+      ],
+      "tags": [
+        "community-indexed",
+        "location",
+        "official-context"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_835c71f4e5ea2e7e513c3b1c",
+      "game_id": "crimson_desert",
+      "slug": "quest.ritual-preparations",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Ritual Preparations"
+      },
+      "summary": "Crimson Desert quest reference: Ritual Preparations. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_844d8528e853cd98c4449f07",
+      "game_id": "crimson_desert",
+      "slug": "item.fish-porridge",
+      "entity_type": "item",
+      "subtype": "item",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Fish Porridge"
+      },
+      "summary": "Crimson Desert item reference: Fish Porridge. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "item"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_845435b966183dcfecf5bc75",
+      "game_id": "crimson_desert",
+      "slug": "quest.for-honor",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "For Honor"
+      },
+      "summary": "Crimson Desert quest reference: For Honor. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_85bb087fbf663ba5eb8844f8",
+      "game_id": "crimson_desert",
+      "slug": "quest.new-journey",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "New Journey"
+      },
+      "summary": "Crimson Desert quest reference: New Journey. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_89031f537e720996145af119",
+      "game_id": "crimson_desert",
+      "slug": "quest.rebellion-or-revolution",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Rebellion or Revolution"
+      },
+      "summary": "Crimson Desert quest reference: Rebellion or Revolution. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_8f471ed625b8ae132e9efa21",
+      "game_id": "crimson_desert",
+      "slug": "quest.rebel-suppression",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Rebel Suppression"
+      },
+      "summary": "Crimson Desert quest reference: Rebel Suppression. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_915e4bfa7c5774e8382f4c5e",
+      "game_id": "crimson_desert",
+      "slug": "quest.time-to-face-justice",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Time to Face Justice"
+      },
+      "summary": "Crimson Desert quest reference: Time to Face Justice. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_93bfd940bbeb9c6f770a132f",
+      "game_id": "crimson_desert",
+      "slug": "quest.reunion",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Reunion"
+      },
+      "summary": "Crimson Desert quest reference: Reunion. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_96f10bd21f201c2610743345",
+      "game_id": "crimson_desert",
+      "slug": "quest.a-bond",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "A Bond"
+      },
+      "summary": "Crimson Desert quest reference: A Bond. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "community-indexed",
+        "launch-era",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_96f68eed68ce82852ac48d7c",
+      "game_id": "crimson_desert",
+      "slug": "location.pailune",
+      "entity_type": "location",
+      "subtype": "region",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Pailune"
+      },
+      "summary": "Crimson Desert location reference: Pailune. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Pailune Region"
+        }
+      ],
+      "tags": [
+        "community-indexed",
+        "location",
+        "official-context"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_9989e0f710724699b4307840",
+      "game_id": "crimson_desert",
+      "slug": "quest.hand-of-deliverance",
+      "entity_type": "quest",
+      "subtype": "main",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Hand of Deliverance"
+      },
+      "summary": "Crimson Desert quest reference: Hand of Deliverance. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Hand of Deliverence"
+        }
+      ],
+      "tags": [
+        "community-indexed",
+        "direct-verification-needed",
+        "official-context",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_9b9015745e90ab2491054835",
+      "game_id": "crimson_desert",
+      "slug": "quest.ludvigs-whereabouts",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Ludvig's Whereabouts"
+      },
+      "summary": "Crimson Desert quest reference: Ludvig's Whereabouts. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Ludvigs Whereabouts"
+        }
+      ],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_9c5e5e34dd22412b28106219",
+      "game_id": "crimson_desert",
+      "slug": "quest.broken-claws",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Broken Claws"
+      },
+      "summary": "Crimson Desert quest reference: Broken Claws. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_9f2ad5f6a0cdcb32b646cc17",
+      "game_id": "crimson_desert",
+      "slug": "quest.bared-fang",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Bared Fang"
+      },
+      "summary": "Crimson Desert quest reference: Bared Fang. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_a0436305a83f27b4cf7b3a20",
+      "game_id": "crimson_desert",
+      "slug": "quest.traces",
+      "entity_type": "quest",
+      "subtype": "main",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Traces"
+      },
+      "summary": "Crimson Desert quest reference: Traces. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Traces questline"
+        }
+      ],
+      "tags": [
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_a106bc4e6b7da685885bc7b7",
+      "game_id": "crimson_desert",
+      "slug": "quest.shadow-cast-over-the-river",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Shadow Cast Over the River"
+      },
+      "summary": "Crimson Desert quest reference: Shadow Cast Over the River. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_a20a82dcf487811f6f7d3019",
+      "game_id": "crimson_desert",
+      "slug": "quest.toward-the-nest",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Toward the Nest"
+      },
+      "summary": "Crimson Desert quest reference: Toward the Nest. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_a3867cc6abbc4a75173a7b23",
+      "game_id": "crimson_desert",
+      "slug": "quest.skilled-in-archery",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Skilled in Archery"
+      },
+      "summary": "Crimson Desert quest reference: Skilled in Archery. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_a45a8fb128d630ebca7a78c1",
+      "game_id": "crimson_desert",
+      "slug": "quest.fire-on-the-frontlines",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Fire on the Frontlines"
+      },
+      "summary": "Crimson Desert quest reference: Fire on the Frontlines. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_a6c1977f75bb9e82daf3b319",
+      "game_id": "crimson_desert",
+      "slug": "location.shadows-whisper-cave",
+      "entity_type": "location",
+      "subtype": "location",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Shadow's Whisper Cave"
+      },
+      "summary": "Crimson Desert location reference: Shadow's Whisper Cave. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Shadows Whisper Cave"
+        }
+      ],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "location"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_a8ddb5de5b578174ac95bdd2",
+      "game_id": "crimson_desert",
+      "slug": "quest.seed-of-unease",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Seed of Unease"
+      },
+      "summary": "Crimson Desert quest reference: Seed of Unease. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_a91eeea939942caf65abed94",
+      "game_id": "crimson_desert",
+      "slug": "quest.exposed-plot",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Exposed Plot"
+      },
+      "summary": "Crimson Desert quest reference: Exposed Plot. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_a9520c2d2220b6317c7c362a",
+      "game_id": "crimson_desert",
+      "slug": "quest.the-blood-coronation",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "The Blood Coronation"
+      },
+      "summary": "Crimson Desert quest reference: The Blood Coronation. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_aec33f76cd6c0da3355ef100",
+      "game_id": "crimson_desert",
+      "slug": "quest.the-unyielding-shields",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "The Unyielding Shields"
+      },
+      "summary": "Crimson Desert quest reference: The Unyielding Shields. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_b1b27b045eaccdb164aaf099",
+      "game_id": "crimson_desert",
+      "slug": "quest.secret-at-the-church",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Secret at the Church"
+      },
+      "summary": "Crimson Desert quest reference: Secret at the Church. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_b4c2d111307f2ddf59492bd1",
+      "game_id": "crimson_desert",
+      "slug": "quest.trials-of-kindness",
+      "entity_type": "quest",
+      "subtype": "main",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Trials of Kindness"
+      },
+      "summary": "Crimson Desert quest reference: Trials of Kindness. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Trials of Kindness questline"
+        }
+      ],
+      "tags": [
+        "community-indexed",
+        "official-context",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_b60015759ef9e50df3edd169",
+      "game_id": "crimson_desert",
+      "slug": "quest.the-dark-veil",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "The Dark Veil"
+      },
+      "summary": "Crimson Desert quest reference: The Dark Veil. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_b66dd47ca47d6b51b1decbd4",
+      "game_id": "crimson_desert",
+      "slug": "item.haidens-lesser-elixir",
+      "entity_type": "item",
+      "subtype": "item",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Haiden's Lesser Elixir"
+      },
+      "summary": "Crimson Desert item reference: Haiden's Lesser Elixir. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Haidens Lesser Elixir"
+        }
+      ],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "item"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_b687437486cd12b331cf4011",
+      "game_id": "crimson_desert",
+      "slug": "quest.reward-for-their-sweat",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Reward for Their Sweat"
+      },
+      "summary": "Crimson Desert quest reference: Reward for Their Sweat. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_b7ac65d7c3b33e4effe0c296",
+      "game_id": "crimson_desert",
+      "slug": "quest.black-and-white",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Black and White"
+      },
+      "summary": "Crimson Desert quest reference: Black and White. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_b8484e96b336924e1657f716",
+      "game_id": "crimson_desert",
+      "slug": "quest.healing-pailune",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Healing Pailune"
+      },
+      "summary": "Crimson Desert quest reference: Healing Pailune. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_b961b5780690adae962c3da4",
+      "game_id": "crimson_desert",
+      "slug": "quest.podium-of-resolve",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Podium of Resolve"
+      },
+      "summary": "Crimson Desert quest reference: Podium of Resolve. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_ba3222cb323adbfd7f2d5537",
+      "game_id": "crimson_desert",
+      "slug": "quest.trial-after-trial",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Trial After Trial"
+      },
+      "summary": "Crimson Desert quest reference: Trial After Trial. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_ba7d07d4fef0ac0ac0486a58",
+      "game_id": "crimson_desert",
+      "slug": "location.hernand-saddlery",
+      "entity_type": "location",
+      "subtype": "shop",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Hernand Saddlery"
+      },
+      "summary": "Crimson Desert location reference: Hernand Saddlery. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Hernand Saddler"
+        }
+      ],
+      "tags": [
+        "community-indexed",
+        "location",
+        "official-context"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_ba8d65f627323cfc1742b347",
+      "game_id": "crimson_desert",
+      "slug": "quest.blazing-beacon",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Blazing Beacon"
+      },
+      "summary": "Crimson Desert quest reference: Blazing Beacon. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_baa15b657dd07a9234196e90",
+      "game_id": "crimson_desert",
+      "slug": "item.shockward-i",
+      "entity_type": "item",
+      "subtype": "item",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Shockward I"
+      },
+      "summary": "Crimson Desert item reference: Shockward I. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Abyss Core: Shockward I"
+        }
+      ],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "item"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_bd2ea76305b3a6d8d05d31de",
+      "game_id": "crimson_desert",
+      "slug": "quest.memory-fragment",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Memory Fragment"
+      },
+      "summary": "Crimson Desert quest reference: Memory Fragment. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_be17a1f1e0d967fe6ad441d1",
+      "game_id": "crimson_desert",
+      "slug": "item.momentum",
+      "entity_type": "item",
+      "subtype": "item",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Momentum"
+      },
+      "summary": "Crimson Desert item reference: Momentum. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Abyss Core: Momentum"
+        }
+      ],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "item"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_c4cb82a8928271d3e3d2e413",
+      "game_id": "crimson_desert",
+      "slug": "quest.kidnapped-healer",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Kidnapped Healer"
+      },
+      "summary": "Crimson Desert quest reference: Kidnapped Healer. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_c6b75658ce6d066d4bab183e",
+      "game_id": "crimson_desert",
+      "slug": "item.ranged-weapons-of-the-world-bows-vol-i",
+      "entity_type": "item",
+      "subtype": "item",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Ranged Weapons of the World - Bows, Vol. I"
+      },
+      "summary": "Crimson Desert item reference: Ranged Weapons of the World - Bows, Vol. I. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Ranged Weapons of the World: Bows, Vol. I"
+        }
+      ],
+      "tags": [
+        "community-indexed",
+        "item"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_c8e99d5fd0f4f6b9d5783346",
+      "game_id": "crimson_desert",
+      "slug": "item.howling-of-chaos",
+      "entity_type": "item",
+      "subtype": "item",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Howling of Chaos"
+      },
+      "summary": "Crimson Desert item reference: Howling of Chaos. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Abyss Core: Howling of Chaos"
+        }
+      ],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "item"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_cc89109527515fb4cd822971",
+      "game_id": "crimson_desert",
+      "slug": "quest.return-of-the-comrade",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Return of the Comrade"
+      },
+      "summary": "Crimson Desert quest reference: Return of the Comrade. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_ce0a38faf008712812001a7b",
+      "game_id": "crimson_desert",
+      "slug": "quest.scholastone",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Scholastone"
+      },
+      "summary": "Crimson Desert quest reference: Scholastone. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_d0f598e1e415f4e9aedc77de",
+      "game_id": "crimson_desert",
+      "slug": "quest.unexpected-gift",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Unexpected Gift"
+      },
+      "summary": "Crimson Desert quest reference: Unexpected Gift. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_d366a48ca938947edbe8d8b7",
+      "game_id": "crimson_desert",
+      "slug": "quest.old-friend",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Old Friend"
+      },
+      "summary": "Crimson Desert quest reference: Old Friend. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_d5012df2182a55f510a791fe",
+      "game_id": "crimson_desert",
+      "slug": "quest.unleashed-fury",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Unleashed Fury"
+      },
+      "summary": "Crimson Desert quest reference: Unleashed Fury. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_d5b094f79c9d7ecaf21d607a",
+      "game_id": "crimson_desert",
+      "slug": "quest.resolve-amidst-a-storm",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Resolve Amidst a Storm"
+      },
+      "summary": "Crimson Desert quest reference: Resolve Amidst a Storm. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_d6e99d9b6af4adc1317e625e",
+      "game_id": "crimson_desert",
+      "slug": "quest.news-of-victory",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "News of Victory"
+      },
+      "summary": "Crimson Desert quest reference: News of Victory. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_d7888a7c62636637c711b824",
+      "game_id": "crimson_desert",
+      "slug": "quest.ugmons-request",
+      "entity_type": "quest",
+      "subtype": "faction",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Ugmon's Request"
+      },
+      "summary": "Crimson Desert quest reference: Ugmon's Request. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Ugmon Request"
+        },
+        {
+          "locale": "en-US",
+          "text": "Ugmons Request"
+        }
+      ],
+      "tags": [
+        "community-indexed",
+        "official-context",
+        "quest",
+        "source-conflict-visible"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_e58642c3c03b60ec931f4fa1",
+      "game_id": "crimson_desert",
+      "slug": "location.howling-hill",
+      "entity_type": "location",
+      "subtype": "landform",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Howling Hill"
+      },
+      "summary": "Crimson Desert location reference: Howling Hill. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "community-indexed",
+        "current-build-unobserved",
+        "landform",
+        "location",
+        "subtype-reviewed"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_e5fa0a6fdaf683a50b16f065",
+      "game_id": "crimson_desert",
+      "slug": "item.haste-i",
+      "entity_type": "item",
+      "subtype": "item",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Haste I"
+      },
+      "summary": "Crimson Desert item reference: Haste I. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Abyss Core: Haste I"
+        }
+      ],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "item"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_e76dcbe9266d92c302e1993f",
+      "game_id": "crimson_desert",
+      "slug": "quest.ambush",
+      "entity_type": "quest",
+      "subtype": "main",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Ambush"
+      },
+      "summary": "Crimson Desert quest reference: Ambush. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Ambush questline"
+        }
+      ],
+      "tags": [
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_e8adb4d8a01f3fe15ba320a0",
+      "game_id": "crimson_desert",
+      "slug": "quest.awestruck",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Awestruck"
+      },
+      "summary": "Crimson Desert quest reference: Awestruck. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_e964d1c5570c6dc429afbab4",
+      "game_id": "crimson_desert",
+      "slug": "location.hernand-region",
+      "entity_type": "location",
+      "subtype": "region",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Hernand"
+      },
+      "summary": "Crimson Desert location reference: Hernand. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Hernand Region"
+        }
+      ],
+      "tags": [
+        "community-indexed",
+        "location",
+        "official-context"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_ebe2c1cf987ea4158af92be1",
+      "game_id": "crimson_desert",
+      "slug": "quest.the-mysterious-pot",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "The Mysterious Pot"
+      },
+      "summary": "Crimson Desert quest reference: The Mysterious Pot. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_ed020740d7495d1048babb58",
+      "game_id": "crimson_desert",
+      "slug": "quest.uninvited-guest",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Uninvited Guest"
+      },
+      "summary": "Crimson Desert quest reference: Uninvited Guest. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_eec8ee5ebb4c718f68ddd604",
+      "game_id": "crimson_desert",
+      "slug": "item.vitality-i",
+      "entity_type": "item",
+      "subtype": "item",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Vitality I"
+      },
+      "summary": "Crimson Desert item reference: Vitality I. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Abyss Core: Vitality I"
+        }
+      ],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "item"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_efc9d75ea908fe4c12849bba",
+      "game_id": "crimson_desert",
+      "slug": "quest.traces-in-the-manor",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Traces in the Manor"
+      },
+      "summary": "Crimson Desert quest reference: Traces in the Manor. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_f197777cff5b2c9764168849",
+      "game_id": "crimson_desert",
+      "slug": "quest.the-cursed-knight",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "The Cursed Knight"
+      },
+      "summary": "Crimson Desert quest reference: The Cursed Knight. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_f201c087c5aaa5fcf8b1b911",
+      "game_id": "crimson_desert",
+      "slug": "quest.the-man-trapped-in-the-mire",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "The Man Trapped in the Mire"
+      },
+      "summary": "Crimson Desert quest reference: The Man Trapped in the Mire. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_f3519ac5f8e341c138725974",
+      "game_id": "crimson_desert",
+      "slug": "quest.shadows-over-pailune",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Shadows Over Pailune"
+      },
+      "summary": "Crimson Desert quest reference: Shadows Over Pailune. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_f4dc18c19094f51bf8cd126c",
+      "game_id": "crimson_desert",
+      "slug": "location.spire-of-soaring",
+      "entity_type": "location",
+      "subtype": "spire",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Spire of Soaring"
+      },
+      "summary": "Crimson Desert location reference: Spire of Soaring. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "community-indexed",
+        "location",
+        "official-context"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_f513233d7f18f03606b80d99",
+      "game_id": "crimson_desert",
+      "slug": "quest.the-flames-of-greed",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "The Flames of Greed"
+      },
+      "summary": "Crimson Desert quest reference: The Flames of Greed. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_fa40b3202f6ac1e7a5cec80b",
+      "game_id": "crimson_desert",
+      "slug": "location.delesyia",
+      "entity_type": "location",
+      "subtype": "region",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Delesyia"
+      },
+      "summary": "Crimson Desert location reference: Delesyia. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Delesyia Region"
+        },
+        {
+          "locale": "en-US",
+          "text": "Kingdom of Delesyia"
+        }
+      ],
+      "tags": [
+        "community-indexed",
+        "location",
+        "official-context"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_fdf904a417ece219d2afef14",
+      "game_id": "crimson_desert",
+      "slug": "quest.the-words-of-alustin",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "The Words of Alustin"
+      },
+      "summary": "Crimson Desert quest reference: The Words of Alustin. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_fee44c08581b270fa2205cc0",
+      "game_id": "crimson_desert",
+      "slug": "quest.rekindled-hope",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Rekindled Hope"
+      },
+      "summary": "Crimson Desert quest reference: Rekindled Hope. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_fef39490f9f9e7277c154b41",
+      "game_id": "crimson_desert",
+      "slug": "quest.scattered-comrades",
+      "entity_type": "quest",
+      "subtype": "quest",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Scattered Comrades"
+      },
+      "summary": "Crimson Desert quest reference: Scattered Comrades. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [],
+      "tags": [
+        "catalog-only",
+        "community-indexed",
+        "quest"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T07:25:00-05:00",
+        "created_by": "community_catalog_seed_20260715",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "catalog_id": "cat_depthfirstsystemsv1",
+  "records": [
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_c2592f80f3d4141158ed11e6",
+      "game_id": "crimson_desert",
+      "slug": "system.combat",
+      "entity_type": "system",
+      "subtype": "combat",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Combat System"
+      },
+      "summary": "Crimson Desert system reference: Combat System. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Combat"
+        }
+      ],
+      "tags": [
+        "depth-first",
+        "official-patch-index",
+        "priority",
+        "system"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T09:45:00-05:00",
+        "created_by": "depth_first_knowledge_v1",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_9562fabc1b8b8a5b33bd9fe6",
+      "game_id": "crimson_desert",
+      "slug": "system.skills",
+      "entity_type": "system",
+      "subtype": "progression",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Skill System"
+      },
+      "summary": "Crimson Desert system reference: Skill System. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Skill"
+        },
+        {
+          "locale": "en-US",
+          "text": "Skills"
+        }
+      ],
+      "tags": [
+        "depth-first",
+        "official-patch-index",
+        "priority",
+        "system"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T09:45:00-05:00",
+        "created_by": "depth_first_knowledge_v1",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_46609b092e163dd38d368cb4",
+      "game_id": "crimson_desert",
+      "slug": "system.boss-encounters",
+      "entity_type": "system",
+      "subtype": "combat",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Boss Encounters"
+      },
+      "summary": "Crimson Desert system reference: Boss Encounters. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Boss"
+        },
+        {
+          "locale": "en-US",
+          "text": "Boss Fights"
+        },
+        {
+          "locale": "en-US",
+          "text": "Bosses"
+        }
+      ],
+      "tags": [
+        "depth-first",
+        "official-patch-index",
+        "priority",
+        "system"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T09:45:00-05:00",
+        "created_by": "depth_first_knowledge_v1",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_26d87c057e2af7e8e2972838",
+      "game_id": "crimson_desert",
+      "slug": "system.quests",
+      "entity_type": "system",
+      "subtype": "progression",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Quest System"
+      },
+      "summary": "Crimson Desert system reference: Quest System. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Quest"
+        },
+        {
+          "locale": "en-US",
+          "text": "Quests"
+        }
+      ],
+      "tags": [
+        "depth-first",
+        "official-patch-index",
+        "priority",
+        "system"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T09:45:00-05:00",
+        "created_by": "depth_first_knowledge_v1",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_667649ca6528166ee10ddb22",
+      "game_id": "crimson_desert",
+      "slug": "system.crafting",
+      "entity_type": "system",
+      "subtype": "crafting",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Crafting System"
+      },
+      "summary": "Crimson Desert system reference: Crafting System. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Cooking and Crafting"
+        },
+        {
+          "locale": "en-US",
+          "text": "Crafting"
+        }
+      ],
+      "tags": [
+        "depth-first",
+        "official-patch-index",
+        "priority",
+        "system"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T09:45:00-05:00",
+        "created_by": "depth_first_knowledge_v1",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_17e889663cccf45caa460753",
+      "game_id": "crimson_desert",
+      "slug": "system.mounts",
+      "entity_type": "system",
+      "subtype": "movement",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Mount System"
+      },
+      "summary": "Crimson Desert system reference: Mount System. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Horse"
+        },
+        {
+          "locale": "en-US",
+          "text": "Horses"
+        },
+        {
+          "locale": "en-US",
+          "text": "Mount"
+        },
+        {
+          "locale": "en-US",
+          "text": "Mounts"
+        }
+      ],
+      "tags": [
+        "depth-first",
+        "official-patch-index",
+        "priority",
+        "system"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T09:45:00-05:00",
+        "created_by": "depth_first_knowledge_v1",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_e9641d4021b92aba4ee7a9ae",
+      "game_id": "crimson_desert",
+      "slug": "system.pets",
+      "entity_type": "system",
+      "subtype": "progression",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Pet System"
+      },
+      "summary": "Crimson Desert system reference: Pet System. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Pet"
+        },
+        {
+          "locale": "en-US",
+          "text": "Pets"
+        }
+      ],
+      "tags": [
+        "depth-first",
+        "official-patch-index",
+        "priority",
+        "system"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T09:45:00-05:00",
+        "created_by": "depth_first_knowledge_v1",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_52b83b4a21bdb255a154f092",
+      "game_id": "crimson_desert",
+      "slug": "system.world-map",
+      "entity_type": "system",
+      "subtype": "navigation",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "World Map System"
+      },
+      "summary": "Crimson Desert system reference: World Map System. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Map"
+        },
+        {
+          "locale": "en-US",
+          "text": "Minimap"
+        },
+        {
+          "locale": "en-US",
+          "text": "World Map"
+        }
+      ],
+      "tags": [
+        "depth-first",
+        "official-patch-index",
+        "priority",
+        "system"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T09:45:00-05:00",
+        "created_by": "depth_first_knowledge_v1",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_d1bbd6bfabb462ade4e0cb86",
+      "game_id": "crimson_desert",
+      "slug": "system.shops",
+      "entity_type": "system",
+      "subtype": "economy",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Shop System"
+      },
+      "summary": "Crimson Desert system reference: Shop System. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Merchant"
+        },
+        {
+          "locale": "en-US",
+          "text": "Merchants"
+        },
+        {
+          "locale": "en-US",
+          "text": "Shop"
+        },
+        {
+          "locale": "en-US",
+          "text": "Shops"
+        },
+        {
+          "locale": "en-US",
+          "text": "Vendor"
+        },
+        {
+          "locale": "en-US",
+          "text": "Vendors"
+        }
+      ],
+      "tags": [
+        "depth-first",
+        "official-patch-index",
+        "priority",
+        "system"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T09:45:00-05:00",
+        "created_by": "depth_first_knowledge_v1",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_5d5ab45056dca48b945646a4",
+      "game_id": "crimson_desert",
+      "slug": "system.performance-stability",
+      "entity_type": "system",
+      "subtype": "performance",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Performance and Stability"
+      },
+      "summary": "Crimson Desert system reference: Performance and Stability. Gameplay support is limited to the linked claims and patch records.",
+      "aliases": [
+        {
+          "locale": "en-US",
+          "text": "Crashes"
+        },
+        {
+          "locale": "en-US",
+          "text": "Performance"
+        },
+        {
+          "locale": "en-US",
+          "text": "Stability"
+        }
+      ],
+      "tags": [
+        "depth-first",
+        "official-patch-index",
+        "priority",
+        "system"
+      ],
+      "provenance": {
+        "created_at": "2026-07-15T09:45:00-05:00",
+        "created_by": "depth_first_knowledge_v1",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      }
+    }
+  ],
+  "schema_version": "pywel.entity_catalog.v1"
+}

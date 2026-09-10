@@ -1,0 +1,33 @@
+{
+  "catalog_id": "cat_d4a50fa029ca64b1c5e769a6",
+  "records": [
+    {
+      "captured_at": "2026-07-15T23:30:00-05:00",
+      "evidence_id": "evd_1a07fc875d3cc4df058321b9",
+      "evidence_type": "official_documentation",
+      "provenance": {
+        "created_at": "2026-07-15T23:30:00-05:00",
+        "created_by": "wave_two_world_regions_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "publisher:pearl-abyss:world-overview",
+        "tier": "primary_official"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "locator": "Official world overview identifying Pywel as the continent and describing its open-world geography; page body, images, video, and media are not retained.",
+        "published_at": null,
+        "publisher": "Pearl Abyss",
+        "title": "Crimson Desert - Open-World Action Adventure",
+        "url": "https://crimsondesert.pearlabyss.com/en-US/Main"
+      }
+    }
+  ],
+  "schema_version": "pywel.evidence_catalog.v1"
+}

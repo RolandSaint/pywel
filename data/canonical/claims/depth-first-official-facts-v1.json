@@ -1,0 +1,501 @@
+{
+  "catalog_id": "cat_depthfirstofficialfactsv1",
+  "records": [
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_098d57fbe8604b53eb78f31c",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_cdpatch10100official0001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Pets were improved so they do not stray excessively far away during combat."
+      },
+      "predicate": "system.interaction",
+      "provenance": {
+        "created_at": "2026-07-15T09:45:00-05:00",
+        "created_by": "depth_first_official_facts_v1",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "official",
+      "subject_entity_id": "ent_e9641d4021b92aba4ee7a9ae",
+      "validity": {
+        "from_patch": "1.01.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": "1.13.01",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_12b71fe1db223e20cbed895f",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_cdpatch11100official0001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "The Irkyn Knowledge entry."
+      },
+      "predicate": "relation.rewards",
+      "provenance": {
+        "created_at": "2026-07-15T09:45:00-05:00",
+        "created_by": "depth_first_official_facts_v1",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "official",
+      "subject_entity_id": "ent_00dc77d4156c7dce78eda8e1",
+      "validity": {
+        "from_patch": "1.11.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": "1.13.01",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_5554ce7487eb6a0ebc35b41e",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_cdpatch10001official0001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "The combat balance of certain bosses, including Reed Devil, was adjusted."
+      },
+      "predicate": "system.interaction",
+      "provenance": {
+        "created_at": "2026-07-15T09:45:00-05:00",
+        "created_by": "depth_first_official_facts_v1",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "official",
+      "subject_entity_id": "ent_c2592f80f3d4141158ed11e6",
+      "validity": {
+        "from_patch": "1.00.01",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": "1.13.01",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_5abe51bed739b009b037f038",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_cdpatch10100official0001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Five mounts were added that can be obtained and summoned after completing conditions."
+      },
+      "predicate": "system.interaction",
+      "provenance": {
+        "created_at": "2026-07-15T09:45:00-05:00",
+        "created_by": "depth_first_official_facts_v1",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "official",
+      "subject_entity_id": "ent_17e889663cccf45caa460753",
+      "validity": {
+        "from_patch": "1.01.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": "1.13.01",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_707ea05d59a20c162753251b",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_cdpatch10100official0001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Allows equipment to be tempered up to Stage 4 without consuming additional materials."
+      },
+      "predicate": "item.effect_summary",
+      "provenance": {
+        "created_at": "2026-07-15T09:45:00-05:00",
+        "created_by": "depth_first_official_facts_v1",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "official",
+      "subject_entity_id": "ent_d53fbb61a6cb4b11c3e3b502",
+      "validity": {
+        "from_patch": "1.01.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": "1.13.01",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_8943c024d8daf0cff3237b60",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_cdpatch10100official0001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "equipment refinement item"
+      },
+      "predicate": "item.category",
+      "provenance": {
+        "created_at": "2026-07-15T09:45:00-05:00",
+        "created_by": "depth_first_official_facts_v1",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "official",
+      "subject_entity_id": "ent_d53fbb61a6cb4b11c3e3b502",
+      "validity": {
+        "from_patch": "1.01.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": "1.13.01",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_a12e083eafa7ace58649094e",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_cdpatch10001official0001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "A Chapter 3 tutorial quest was added to teach Abyss Gears."
+      },
+      "predicate": "system.interaction",
+      "provenance": {
+        "created_at": "2026-07-15T09:45:00-05:00",
+        "created_by": "depth_first_official_facts_v1",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "official",
+      "subject_entity_id": "ent_26d87c057e2af7e8e2972838",
+      "validity": {
+        "from_patch": "1.00.01",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": "1.13.01",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_a58c0c9b8d5d1cdf8f348ce9",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_cdpatch10001official0001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "The usability of the Watch and Learn skill-learning feature was improved."
+      },
+      "predicate": "system.interaction",
+      "provenance": {
+        "created_at": "2026-07-15T09:45:00-05:00",
+        "created_by": "depth_first_official_facts_v1",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "official",
+      "subject_entity_id": "ent_9562fabc1b8b8a5b33bd9fe6",
+      "validity": {
+        "from_patch": "1.00.01",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": "1.13.01",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_a9c72dcc2ace3cb3429b5ea6",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_cdpatch11100official0001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Repair the kiln at the Kilnden Workshop."
+      },
+      "predicate": "quest.objective",
+      "provenance": {
+        "created_at": "2026-07-15T09:45:00-05:00",
+        "created_by": "depth_first_official_facts_v1",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "official",
+      "subject_entity_id": "ent_00dc77d4156c7dce78eda8e1",
+      "validity": {
+        "from_patch": "1.11.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": "1.13.01",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_af33a2cf5d64e512b292099b",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_cdpatch10100official0001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "The Make Now function cooks or crafts immediately after a recipe is selected without a separate ingredient-selection step."
+      },
+      "predicate": "system.interaction",
+      "provenance": {
+        "created_at": "2026-07-15T09:45:00-05:00",
+        "created_by": "depth_first_official_facts_v1",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "official",
+      "subject_entity_id": "ent_667649ca6528166ee10ddb22",
+      "validity": {
+        "from_patch": "1.01.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": "1.13.01",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_b2f8ff94684d989dbf17da0a",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_cdpatch10100official0001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Knowledge for all items sold in a shop can be learned at once, with a three-second learning time."
+      },
+      "predicate": "system.interaction",
+      "provenance": {
+        "created_at": "2026-07-15T09:45:00-05:00",
+        "created_by": "depth_first_official_facts_v1",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "official",
+      "subject_entity_id": "ent_d1bbd6bfabb462ade4e0cb86",
+      "validity": {
+        "from_patch": "1.01.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": "1.13.01",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_b65388053ef2272e12443dd2",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_cdpatch10001official0001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "The combat balance of certain bosses, including Reed Devil, was adjusted."
+      },
+      "predicate": "system.interaction",
+      "provenance": {
+        "created_at": "2026-07-15T09:45:00-05:00",
+        "created_by": "depth_first_official_facts_v1",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "official",
+      "subject_entity_id": "ent_46609b092e163dd38d368cb4",
+      "validity": {
+        "from_patch": "1.00.01",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": "1.13.01",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_c8e76a1133bc5ab6fad6e9f0",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_cdpatch10100official0001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Certain main and faction quests."
+      },
+      "predicate": "relation.obtained_from",
+      "provenance": {
+        "created_at": "2026-07-15T09:45:00-05:00",
+        "created_by": "depth_first_official_facts_v1",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "official",
+      "subject_entity_id": "ent_d53fbb61a6cb4b11c3e3b502",
+      "validity": {
+        "from_patch": "1.01.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": "1.13.01",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_e10505031baad22d4e6344bd",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_cdpatch10300official0001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Obtained treasure chests use a different icon on the world map and minimap."
+      },
+      "predicate": "system.interaction",
+      "provenance": {
+        "created_at": "2026-07-15T09:45:00-05:00",
+        "created_by": "depth_first_official_facts_v1",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "official",
+      "subject_entity_id": "ent_52b83b4a21bdb255a154f092",
+      "validity": {
+        "from_patch": "1.03.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": "1.13.01",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_f058698a2d5cb8e89b20e0de",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_cdpatch10001official0001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Performance and stability optimizations were made across PC and console."
+      },
+      "predicate": "system.interaction",
+      "provenance": {
+        "created_at": "2026-07-15T09:45:00-05:00",
+        "created_by": "depth_first_official_facts_v1",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "official",
+      "subject_entity_id": "ent_5d5ab45056dca48b945646a4",
+      "validity": {
+        "from_patch": "1.00.01",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": "1.13.01",
+        "through_patch": null
+      }
+    }
+  ],
+  "schema_version": "pywel.claim_catalog.v1"
+}

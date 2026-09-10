@@ -1,0 +1,370 @@
+{
+  "catalog_id": "cat_b4500aed2a59e7fa9e14ee1f",
+  "records": [
+    {
+      "captured_at": "2026-07-16T17:50:00Z",
+      "evidence_id": "evd_07c8c479250071108b3e8507",
+      "evidence_type": "guide",
+      "provenance": {
+        "created_at": "2026-07-16T17:50:00Z",
+        "created_by": "crimsonwiki_chapter_objectives_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "crimsonwiki-community-wiki",
+        "tier": "unverified"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "compatible_license",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "content_sha256": "97de93095372d927748fc6b37128d75b6622f8bc104107a1090c58f21f8ce65b",
+        "locator": "Hash-locked normalized projection of chapter category, quest or mission headings, and immediately labeled objective lists; the site exposes no stable revision ID; CC BY-SA 4.0 attribution and share-alike apply",
+        "published_at": null,
+        "publisher": "CrimsonWiki contributors",
+        "title": "Chapter 10: Counterattack - Chapters | CrimsonWiki",
+        "url": "https://crimsonwiki.org/wiki/chapter-10-counterattack"
+      }
+    },
+    {
+      "captured_at": "2026-07-16T17:50:00Z",
+      "evidence_id": "evd_0d36fa78c3f0dc44a058c0a3",
+      "evidence_type": "guide",
+      "provenance": {
+        "created_at": "2026-07-16T17:50:00Z",
+        "created_by": "crimsonwiki_chapter_objectives_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "crimsonwiki-community-wiki",
+        "tier": "unverified"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "compatible_license",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "content_sha256": "18c4c70aad213f79f4d15d541ea83b0bd9dff2c9a692468da74e933c4c88471c",
+        "locator": "Hash-locked normalized projection of chapter category, quest or mission headings, and immediately labeled objective lists; the site exposes no stable revision ID; CC BY-SA 4.0 attribution and share-alike apply",
+        "published_at": null,
+        "publisher": "CrimsonWiki contributors",
+        "title": "Chapter 3: Howling Hill - Chapters | CrimsonWiki",
+        "url": "https://crimsonwiki.org/wiki/chapter-3-howling-hill"
+      }
+    },
+    {
+      "captured_at": "2026-07-16T17:50:00Z",
+      "evidence_id": "evd_2b1fcd602bd19a40891a93f9",
+      "evidence_type": "guide",
+      "provenance": {
+        "created_at": "2026-07-16T17:50:00Z",
+        "created_by": "crimsonwiki_chapter_objectives_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "crimsonwiki-community-wiki",
+        "tier": "unverified"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "compatible_license",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "content_sha256": "4bdc2243361a5ca772b264541a764073e461e9e0cdea5253a75defc616dfb189",
+        "locator": "Hash-locked normalized projection of chapter category, quest or mission headings, and immediately labeled objective lists; the site exposes no stable revision ID; CC BY-SA 4.0 attribution and share-alike apply",
+        "published_at": null,
+        "publisher": "CrimsonWiki contributors",
+        "title": "Chapter 1: The First Encounter - Chapters | CrimsonWiki",
+        "url": "https://crimsonwiki.org/wiki/chapter-1-the-first-encounter"
+      }
+    },
+    {
+      "captured_at": "2026-07-16T17:50:00Z",
+      "evidence_id": "evd_39cdf90438417716478f4783",
+      "evidence_type": "guide",
+      "provenance": {
+        "created_at": "2026-07-16T17:50:00Z",
+        "created_by": "crimsonwiki_chapter_objectives_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "crimsonwiki-community-wiki",
+        "tier": "unverified"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "compatible_license",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "content_sha256": "787744b13132bf982f73f577c2aff179f66c7c74db96a8116578dab7a18badba",
+        "locator": "Hash-locked normalized projection of chapter category, quest or mission headings, and immediately labeled objective lists; the site exposes no stable revision ID; CC BY-SA 4.0 attribution and share-alike apply",
+        "published_at": null,
+        "publisher": "CrimsonWiki contributors",
+        "title": "Chapter 11: Truth and Reality - Chapters | CrimsonWiki",
+        "url": "https://crimsonwiki.org/wiki/chapter-11-truth-and-reality-"
+      }
+    },
+    {
+      "captured_at": "2026-07-16T17:50:00Z",
+      "evidence_id": "evd_3b25c90babaa6bde50bdd4a3",
+      "evidence_type": "guide",
+      "provenance": {
+        "created_at": "2026-07-16T17:50:00Z",
+        "created_by": "crimsonwiki_chapter_objectives_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "crimsonwiki-community-wiki",
+        "tier": "unverified"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "compatible_license",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "content_sha256": "6a0a0e2b18a0cb53eb118abe9c85d474e7e9ebf8d9ccd1c8fd32268622d99012",
+        "locator": "Hash-locked normalized projection of chapter category, quest or mission headings, and immediately labeled objective lists; the site exposes no stable revision ID; CC BY-SA 4.0 attribution and share-alike apply",
+        "published_at": null,
+        "publisher": "CrimsonWiki contributors",
+        "title": "Chapter 9: The Sage of the Desert - Chapters | CrimsonWiki",
+        "url": "https://crimsonwiki.org/wiki/chapter-9-the-sage-of-the-desert-"
+      }
+    },
+    {
+      "captured_at": "2026-07-16T17:50:00Z",
+      "evidence_id": "evd_41f3c246bad2fec649af9f8c",
+      "evidence_type": "guide",
+      "provenance": {
+        "created_at": "2026-07-16T17:50:00Z",
+        "created_by": "crimsonwiki_chapter_objectives_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "crimsonwiki-community-wiki",
+        "tier": "unverified"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "compatible_license",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "content_sha256": "bbc04fc22595b1661b7980dca51fb7176ca6e69a467053cbb64a6322b17244ff",
+        "locator": "Hash-locked normalized projection of chapter category, quest or mission headings, and immediately labeled objective lists; the site exposes no stable revision ID; CC BY-SA 4.0 attribution and share-alike apply",
+        "published_at": null,
+        "publisher": "CrimsonWiki contributors",
+        "title": "Chapter 5: Guest Unbidden - Chapters | CrimsonWiki",
+        "url": "https://crimsonwiki.org/wiki/chapter-5-guest-unbidden"
+      }
+    },
+    {
+      "captured_at": "2026-07-16T17:50:00Z",
+      "evidence_id": "evd_5fcb89a1d41cea14981348ba",
+      "evidence_type": "guide",
+      "provenance": {
+        "created_at": "2026-07-16T17:50:00Z",
+        "created_by": "crimsonwiki_chapter_objectives_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "crimsonwiki-community-wiki",
+        "tier": "unverified"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "compatible_license",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "content_sha256": "a0da0964bee0e603fc73868b4e66dc9240f6d508c5209c4b8ea245b38dc2cbfc",
+        "locator": "Hash-locked normalized projection of chapter category, quest or mission headings, and immediately labeled objective lists; the site exposes no stable revision ID; CC BY-SA 4.0 attribution and share-alike apply",
+        "published_at": null,
+        "publisher": "CrimsonWiki contributors",
+        "title": "Chapter 6: Cracks in the Shield - Chapters | CrimsonWiki",
+        "url": "https://crimsonwiki.org/wiki/chapter-6-cracks-in-the-shield"
+      }
+    },
+    {
+      "captured_at": "2026-07-16T17:50:00Z",
+      "evidence_id": "evd_62f7eb80752b620fe00d58e4",
+      "evidence_type": "guide",
+      "provenance": {
+        "created_at": "2026-07-16T17:50:00Z",
+        "created_by": "crimsonwiki_chapter_objectives_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "crimsonwiki-community-wiki",
+        "tier": "unverified"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "compatible_license",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "content_sha256": "827d0b072c8b21c84bbed12505ff8cdd11e313305de98c8ac1dbbebc9dcfba7a",
+        "locator": "Hash-locked normalized projection of chapter category, quest or mission headings, and immediately labeled objective lists; the site exposes no stable revision ID; CC BY-SA 4.0 attribution and share-alike apply",
+        "published_at": null,
+        "publisher": "CrimsonWiki contributors",
+        "title": "Chapter 2: Golden Greed - Chapters | CrimsonWiki",
+        "url": "https://crimsonwiki.org/wiki/chapter-2-golden-greed"
+      }
+    },
+    {
+      "captured_at": "2026-07-16T17:50:00Z",
+      "evidence_id": "evd_7f70d2994598aa1774c8620f",
+      "evidence_type": "guide",
+      "provenance": {
+        "created_at": "2026-07-16T17:50:00Z",
+        "created_by": "crimsonwiki_chapter_objectives_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "crimsonwiki-community-wiki",
+        "tier": "unverified"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "compatible_license",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "content_sha256": "0a147a5a6b0d927cb8a87c03ceb4ddc26ad5169aab18b2524643633fabda52de",
+        "locator": "Hash-locked normalized projection of chapter category, quest or mission headings, and immediately labeled objective lists; the site exposes no stable revision ID; CC BY-SA 4.0 attribution and share-alike apply",
+        "published_at": null,
+        "publisher": "CrimsonWiki contributors",
+        "title": "Chapter 7: Homecoming - Chapters | CrimsonWiki",
+        "url": "https://crimsonwiki.org/wiki/chapter-7-homecoming-"
+      }
+    },
+    {
+      "captured_at": "2026-07-16T17:50:00Z",
+      "evidence_id": "evd_8bb30b73bbf8962a5e503013",
+      "evidence_type": "guide",
+      "provenance": {
+        "created_at": "2026-07-16T17:50:00Z",
+        "created_by": "crimsonwiki_chapter_objectives_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "crimsonwiki-community-wiki",
+        "tier": "unverified"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "compatible_license",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "content_sha256": "015cccb754b6dff7533b6ef2ca6bd6e574eaf156487f37cc0bc6a8ba52409d6b",
+        "locator": "Hash-locked normalized projection of chapter category, quest or mission headings, and immediately labeled objective lists; the site exposes no stable revision ID; CC BY-SA 4.0 attribution and share-alike apply",
+        "published_at": null,
+        "publisher": "CrimsonWiki contributors",
+        "title": "Chapter 4: The Price of Knowledge - Chapters | CrimsonWiki",
+        "url": "https://crimsonwiki.org/wiki/chapter-4-the-price-of-knowledge"
+      }
+    },
+    {
+      "captured_at": "2026-07-16T17:50:00Z",
+      "evidence_id": "evd_a4cff8be907bd8a56c0e9620",
+      "evidence_type": "guide",
+      "provenance": {
+        "created_at": "2026-07-16T17:50:00Z",
+        "created_by": "crimsonwiki_chapter_objectives_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "crimsonwiki-community-wiki",
+        "tier": "unverified"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "compatible_license",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "content_sha256": "8e056ec22e96703b6741231bfb802000ad42f53023bac37aa2fb4c0113a73165",
+        "locator": "Hash-locked normalized projection of chapter category, quest or mission headings, and immediately labeled objective lists; the site exposes no stable revision ID; CC BY-SA 4.0 attribution and share-alike apply",
+        "published_at": null,
+        "publisher": "CrimsonWiki contributors",
+        "title": "Chapter 8: Blood Coronation - Chapters | CrimsonWiki",
+        "url": "https://crimsonwiki.org/wiki/chapter-8-blood-coronation-"
+      }
+    },
+    {
+      "captured_at": "2026-07-16T17:50:00Z",
+      "evidence_id": "evd_becb763977317df8a9d87697",
+      "evidence_type": "guide",
+      "provenance": {
+        "created_at": "2026-07-16T17:50:00Z",
+        "created_by": "crimsonwiki_chapter_objectives_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "crimsonwiki-community-wiki",
+        "tier": "unverified"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "compatible_license",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "content_sha256": "099138b426db206fdafbfd448148dc0ab997c179f46533f42eff8da28f3e54bf",
+        "locator": "Hash-locked normalized projection of chapter category, quest or mission headings, and immediately labeled objective lists; the site exposes no stable revision ID; CC BY-SA 4.0 attribution and share-alike apply",
+        "published_at": null,
+        "publisher": "CrimsonWiki contributors",
+        "title": "Prologue: Dead of Night - Chapters | CrimsonWiki",
+        "url": "https://crimsonwiki.org/wiki/prologue-dead-of-night"
+      }
+    },
+    {
+      "captured_at": "2026-07-16T17:50:00Z",
+      "evidence_id": "evd_c40438e83dd401cf8556edbc",
+      "evidence_type": "guide",
+      "provenance": {
+        "created_at": "2026-07-16T17:50:00Z",
+        "created_by": "crimsonwiki_chapter_objectives_v0_4",
+        "source_receipt_id": "rcp_m1publicscope202609100001"
+      },
+      "reliability": {
+        "independence_group": "crimsonwiki-community-wiki",
+        "tier": "unverified"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "compatible_license",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "content_sha256": "f05bcafeaa98d9166c63c6b6696acdb8cafa8b1ecd6637d46eaadf145607530e",
+        "locator": "Hash-locked normalized projection of chapter category, quest or mission headings, and immediately labeled objective lists; the site exposes no stable revision ID; CC BY-SA 4.0 attribution and share-alike apply",
+        "published_at": null,
+        "publisher": "CrimsonWiki contributors",
+        "title": "Chapter 12: The Abyss - Chapters | CrimsonWiki",
+        "url": "https://crimsonwiki.org/wiki/chapter-12-the-abyss-"
+      }
+    }
+  ],
+  "schema_version": "pywel.evidence_catalog.v1"
+}
