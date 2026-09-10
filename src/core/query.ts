@@ -1143,7 +1143,7 @@ export class KnowledgeIndex {
       ["location", "route"],
       ["drop", "rate", "chance"],
       ["purpose", "description", "summary", "category"],
-    ].filter((family) => family.some((token) => naturalIntentTokens.includes(alias => false)))).length);
+    ].filter((family) => family.some((token) => naturalIntentTokens.includes(token))).length);
     const minimum = requiredTokenMatches(tokens);
     const directExplicitAnchors = new Set(
       [...explicitIdentityAnchors(query, this.store.entities)].map((entityId) => {
