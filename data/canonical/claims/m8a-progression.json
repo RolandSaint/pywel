@@ -178,8 +178,9 @@
         "evd_m8asealedguide2026091001"
       ],
       "object": {
-        "kind": "string",
-        "value": "No direct item reward is reported by the cited guide."
+        "kind": "unknown",
+        "reason": "The cited guide reports no direct item reward; other reward types are not established.",
+        "state": "unknown"
       },
       "predicate": "quest.reward",
       "provenance": {
@@ -281,9 +282,9 @@
       ],
       "object": {
         "kind": "string",
-        "value": "Mining Knuckledrill x1 (Excavatron encounter reward)."
+        "value": "Mining Knuckledrill x1."
       },
-      "predicate": "quest.reward",
+      "predicate": "actor.reward",
       "provenance": {
         "created_at": "2026-09-10T21:37:47Z",
         "created_by": "pywel_m8a_public_research",
@@ -292,7 +293,7 @@
       "schema_version": "pywel.claim.v1",
       "spoiler_level": "quest_minor",
       "status": "inferred",
-      "subject_entity_id": "ent_6dd97bc94c6fe241d0bb1a0e",
+      "subject_entity_id": "ent_7e38fb7b48e5b55432fe64ca",
       "validity": {
         "from_patch": null,
         "locales": [
@@ -315,9 +316,9 @@
       ],
       "object": {
         "kind": "string",
-        "value": "Gold Vein Map x1 (Excavatron encounter reward)."
+        "value": "Gold Vein Map x1."
       },
-      "predicate": "quest.reward",
+      "predicate": "actor.reward",
       "provenance": {
         "created_at": "2026-09-10T21:37:47Z",
         "created_by": "pywel_m8a_public_research",
@@ -326,7 +327,7 @@
       "schema_version": "pywel.claim.v1",
       "spoiler_level": "quest_minor",
       "status": "inferred",
-      "subject_entity_id": "ent_6dd97bc94c6fe241d0bb1a0e",
+      "subject_entity_id": "ent_7e38fb7b48e5b55432fe64ca",
       "validity": {
         "from_patch": null,
         "locales": [
