@@ -1,6 +1,6 @@
 # Source and rights policy
 
-Reviewed 2026-09-10 for the M1 historical reference dataset and the separately bounded [M7 pilot](M7_HOUSE_ROBERTS.md). Read [DATA_RIGHTS](../DATA_RIGHTS.md) for licensing scope.
+Reviewed 2026-09-10 for the M1 historical reference dataset and the separately bounded [M7 pilot](M7_HOUSE_ROBERTS.md) and [M8A progression batch](M8A_PROGRESSION.md). Read [DATA_RIGHTS](../DATA_RIGHTS.md) for licensing scope.
 
 ## Source order and claim boundaries
 
@@ -8,7 +8,7 @@ Reviewed 2026-09-10 for the M1 historical reference dataset and the separately b
 2. Public, reproducible ordinary gameplay observations may support behavior for their recorded patch, platform, locale, and test context. They require public-safe provenance and contributor rights.
 3. Independent corroboration may increase confidence. Reposts and pages sharing upstream sources do not establish independence.
 4. Compatible licensed community material may support labeled historical community claims. A license does not establish accuracy or current-patch validity.
-5. Other guides, wikis, videos, and community reports begin as leads. Their public URL does not authorize copying their content or database and does not clear a dependent claim's rights. The source-specific M7 exception below is limited to its enumerated factual extraction, not those sources' expressive content or other articles.
+5. Other guides, wikis, videos, and community reports begin as leads. Their public URL does not authorize copying their content or database and does not clear a dependent claim's rights. The source-specific M7/M8A decisions below are limited to their enumerated factual extraction, not those sources' expressive content or other articles.
 
 Search rank, popularity, repetition, overlap, and confident wording do not promote evidence. Catalog-only claims describe indexing state, not gameplay. Do not rebuild excluded identities from third-party database indexes without a new documented rights and provenance decision.
 
@@ -31,6 +31,12 @@ The two added guide records identified in `quality/corpus-additions.json` receiv
 The [Copyright Office's facts/expression distinction](https://www.copyright.gov/what-is-copyright/) informs this narrow decision. It does not establish blanket clearance for fictional-world expression, database extraction, contractual restrictions, non-U.S. law or downstream commercial uses. Underlying Pearl Abyss IP and the existing free unofficial distribution boundary remain separate from the contribution licence. Source accuracy and patch applicability are reviewed separately from source-use rights.
 
 The checker requires each source disposition to match its evidence ID, exact URL, ownership label and retention mode; arbitrary guide domains are not allowlisted. Future sources or broader copying require a fresh scoped review, not merely another URL or a renamed rights field. See the [M7 evidence and limitations](M7_HOUSE_ROBERTS.md) and [attribution](../LICENSES/THIRD-PARTY-DATA.md). This is a documented bounded decision, not independent legal certification.
+
+## M8A source-specific factual extraction
+
+The three guide records enumerated for [M8A](M8A_PROGRESSION.md#sources-and-attribution) receive the same type of limited decision after separate passage and attribution review. Only selected entry and reward facts for four existing quests are retained. Their exact IDs/URLs and dispositions are added to the cumulative manifest; this is not an allowlist for Console Pulse, VULKK or other GAMES.GG pages. All three remain publisher-owned, secondary guide evidence. The shared GAMES.GG author/publisher group is preserved rather than counted as independent corroboration. The [third-party notice](../LICENSES/THIRD-PARTY-DATA.md) covers each record.
+
+Console Pulse's [terms](https://consolepulse.com/terms), inspected September 10, 2026, retain ownership and restrict substantial copying. No open licence, unrestricted reuse or publisher authorization is claimed. M8A does not copy source bodies, table layouts, assets, optional-loot walkthroughs or linked databases. Its documented facts/expression decision has the same legal, game-IP and downstream-use limitations stated above.
 
 ## Dated terms review
 
