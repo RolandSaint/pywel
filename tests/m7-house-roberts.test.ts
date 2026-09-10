@@ -93,4 +93,36 @@ describe("M7 historical House Roberts pilot", () => {
     expect(packet.claims.map(claim => claim.subject_entity_id).sort()).toEqual([trial, stolen].sort());
     expect(packet.claims.every(claim => claim.object.kind === "entity" && claim.object.entity_id === house)).toBe(true);
   });
+
+  it("limits the historical pilot to PC-Steam scope instead of asserting console coverage", async () => {
+    const { store } = await validStore();
+    const pilot = store.claims.filter(claim => claim.provenance.source_receipt_id === "rcp_m7houseroberts2026091001");
+    expect(pilot).toHaveLength(17);
+    for (const claim of pilot) expect(claim.validity.platforms).toEqual(["pc-steam"]);
+    const index = new KnowledgeIndex(store);
+    for (const platform of ["playstation-5", "xbox-series"] as const) {
+      const namedContext = { ...context, platform };
+      for (const query of ["Where is House Roberts?", "Which quests belong to House Roberts?"]) {
+        const packet = index.answer(query, namedContext);
+        expect(packet.answer_state).toBe("unknown");
+        expect(packet.claims).toEqual([]);
+      }
+      expect(index.relationshipGraph(house, namedContext, 1, 100)?.edges).toEqual([]);
+    }
+  });
+
+  it("retains prerequisites alongside the requested organization quest associations", async () => {
+    const index = new KnowledgeIndex((await validStore()).store);
+    const packet = index.answer("Which quests belong to House Roberts and what are their prerequisites?", context);
+    expect(packet.answer_state).toBe("partial");
+    expect(packet.claims.filter(claim => claim.predicate === "quest.organization").map(claim => claim.subject_entity_id).sort()).toEqual([trial, stolen, sealed, honor].sort());
+    expect(packet.claims).toContainEqual(expect.objectContaining({
+      subject_entity_id: honor,
+      predicate: "quest.prerequisite",
+      object: { kind: "entity", entity_id: sealed },
+    }));
+    expect(packet.claims.every(claim => ["quest.organization", "quest.prerequisite"].includes(claim.predicate))).toBe(true);
+    expect(packet.gaps.some(gap => gap.code === "requested_fact_not_supported" && gap.message.includes("prerequisite"))).toBe(false);
+    expect(packet.gaps.map(gap => gap.code)).toContain("post_patch_review_needed");
+  });
 });
