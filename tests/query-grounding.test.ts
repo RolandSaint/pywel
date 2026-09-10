@@ -53,6 +53,29 @@ describe("G01 answer subject and predicate grounding", () => {
   });
 
   it.each([
+    "How do I complete Return of the Comrad?",
+    "how do i complete return of the comrad?",
+    "How do I complete Return of the Comrade?",
+  ])("keeps the specific quest instead of its exact short-name neighbor: %s", async (query) => {
+    const { store } = await validStore();
+    const quest = store.entities.find(({ canonical_name }) => canonical_name.text === "Return of the Comrade");
+    expect(quest).toBeDefined();
+    const packet = new KnowledgeIndex(store).answer(query, context);
+    expect(packet.claims.length).toBeGreaterThan(0);
+    expect(packet.claims.every(({ subject_entity_id }) => subject_entity_id === quest!.entity_id)).toBe(true);
+    expect(packet.concise_answer).not.toContain("Return: ");
+  });
+
+  it("keeps the short exact quest when it is actually requested", async () => {
+    const { store } = await validStore();
+    const quest = store.entities.find(({ canonical_name }) => canonical_name.text === "Return");
+    expect(quest).toBeDefined();
+    const packet = new KnowledgeIndex(store).answer("How do I complete Return?", context);
+    expect(packet.claims.length).toBeGreaterThan(0);
+    expect(packet.claims.every(({ subject_entity_id }) => subject_entity_id === quest!.entity_id)).toBe(true);
+  });
+
+  it.each([
     "What ingredients are needed to make Creamy Meat Soup?",
     "Which ingredients are required to craft Creamy Meat Soup?",
   ])("returns recipe inputs rather than scroll-learning requirements: %s", async (query) => {
