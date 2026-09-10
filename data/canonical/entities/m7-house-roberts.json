@@ -1,0 +1,190 @@
+{
+  "catalog_id": "cat_f88ea569a1cd152c24474674",
+  "records": [
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Bluemont Manor"
+      },
+      "entity_id": "ent_089ced07950ace8407a29247",
+      "entity_type": "location",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-10T18:24:08Z",
+        "created_by": "pywel_m7_public_research",
+        "source_receipt_id": "rcp_m7houseroberts2026091001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "location.bluemont-manor",
+      "subtype": "location",
+      "summary": "Bluemont Manor reference. Read the linked historical claims and their source limitations.",
+      "tags": [
+        "m7-pilot",
+        "historical-source"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "First Trial of Trust"
+      },
+      "entity_id": "ent_2beedf6ea02e8ba696464bb3",
+      "entity_type": "quest",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-10T18:24:08Z",
+        "created_by": "pywel_m7_public_research",
+        "source_receipt_id": "rcp_m7houseroberts2026091001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "quest.first-trial-of-trust",
+      "subtype": "faction",
+      "summary": "First Trial of Trust reference. Read the linked historical claims and their source limitations.",
+      "tags": [
+        "m7-pilot",
+        "historical-source"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Karin Quarry"
+      },
+      "entity_id": "ent_6ca283919bf4d6fa26a0da9f",
+      "entity_type": "location",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-10T18:24:08Z",
+        "created_by": "pywel_m7_public_research",
+        "source_receipt_id": "rcp_m7houseroberts2026091001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "location.karin-quarry",
+      "subtype": "location",
+      "summary": "Karin Quarry reference. Read the linked historical claims and their source limitations.",
+      "tags": [
+        "m7-pilot",
+        "historical-source"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Stolen Quarry"
+      },
+      "entity_id": "ent_6dd97bc94c6fe241d0bb1a0e",
+      "entity_type": "quest",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-10T18:24:08Z",
+        "created_by": "pywel_m7_public_research",
+        "source_receipt_id": "rcp_m7houseroberts2026091001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "quest.stolen-quarry",
+      "subtype": "faction",
+      "summary": "Stolen Quarry reference. Read the linked historical claims and their source limitations.",
+      "tags": [
+        "m7-pilot",
+        "historical-source"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Count Roberts"
+      },
+      "entity_id": "ent_7ea2ae660f60d58012dcb3a7",
+      "entity_type": "actor",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-10T18:24:08Z",
+        "created_by": "pywel_m7_public_research",
+        "source_receipt_id": "rcp_m7houseroberts2026091001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "actor.count-roberts",
+      "subtype": "npc",
+      "summary": "Count Roberts reference. Read the linked historical claims and their source limitations.",
+      "tags": [
+        "m7-pilot",
+        "historical-source"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "House Roberts"
+      },
+      "entity_id": "ent_87a65ae57efbb95fe75d068c",
+      "entity_type": "organization",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-10T18:24:08Z",
+        "created_by": "pywel_m7_public_research",
+        "source_receipt_id": "rcp_m7houseroberts2026091001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "organization.house-roberts",
+      "subtype": "faction",
+      "summary": "House Roberts reference. Read the linked historical claims and their source limitations.",
+      "tags": [
+        "m7-pilot",
+        "historical-source"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Sealed in Stone"
+      },
+      "entity_id": "ent_d1b3b818dfa863a35aab7680",
+      "entity_type": "quest",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-10T18:24:08Z",
+        "created_by": "pywel_m7_public_research",
+        "source_receipt_id": "rcp_m7houseroberts2026091001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "quest.sealed-in-stone",
+      "subtype": "faction",
+      "summary": "Sealed in Stone reference. Read the linked historical claims and their source limitations.",
+      "tags": [
+        "m7-pilot",
+        "historical-source"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "The Count's Honor"
+      },
+      "entity_id": "ent_d3de309d4578b75dc73ee5f2",
+      "entity_type": "quest",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-10T18:24:08Z",
+        "created_by": "pywel_m7_public_research",
+        "source_receipt_id": "rcp_m7houseroberts2026091001"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "quest.the-counts-honor",
+      "subtype": "faction",
+      "summary": "The Count's Honor reference. Read the linked historical claims and their source limitations.",
+      "tags": [
+        "m7-pilot",
+        "historical-source"
+      ]
+    }
+  ],
+  "schema_version": "pywel.entity_catalog.v1"
+}
