@@ -98,3 +98,8 @@ Use reviewed Git proposals following [CONTRIBUTING](CONTRIBUTING.md). Keep chang
 Software is Apache-2.0 under [LICENSE](LICENSE). Original database contributions and compatible adaptations use CC BY-SA 4.0 only within [LICENSE-DATA](LICENSE-DATA) and [DATA_RIGHTS](DATA_RIGHTS.md); third-party game IP and guide expression are excluded from that grant. See [attribution](LICENSES/THIRD-PARTY-DATA.md), [M8A attribution](docs/M8A_PROGRESSION.md#sources-and-attribution), [SOURCE_POLICY](docs/SOURCE_POLICY.md), and [SECURITY](SECURITY.md).
 
 Never add personal state, conversations, private paths, credentials, copied source bodies, game assets, saves, leaks, or unauthorized extraction output. No personal-system access, live deployment, paid service, or publication is necessary to operate the project.
+
+
+## S01 equipment population
+
+[S01](docs/S01_EQUIPMENT_POPULATION.md) adds 200 equipment identities (80 weapons, 80 armor, 40 accessories), 1,144 source-qualified claims, 200 item-page evidence records and one receipt. This source now has **520 entities, 2,591 stored claims, 306 evidence records, 44 patch identities, one strategy and seven receipts**. The new claims comprise 729 selected +5/+10 stat cells, 400 classification claims, 14 acquisition listings and one existing-quest link. They are historical secondary-source reports, not complete loadout effects, guaranteed stock or current-build observations. All earlier canonical records and both published releases are unchanged. No new release is created by this source update.
