@@ -14,6 +14,10 @@
       "sha256": "3bdb518a3fa3a138edef31e5e1306f644cd9605ce4953d5c18235cab0db898a8"
     },
     {
+      "path": "data/canonical/claims/r01-equipment-database.json",
+      "sha256": "7c778a34f069096844fde3f5179cd055eeb1591d6cf9fcc54b2cd6e3b7cc1879"
+    },
+    {
       "path": "data/canonical/entities/m7-house-roberts.json",
       "sha256": "4b4d1d6ba61f4e1321de43f539b9042331d9b4a7a13a70d902045df0c706592a"
     },
@@ -34,6 +38,10 @@
       "sha256": "17cc196f31bcb6a8513d71204879a8d24485c576b749d21b2f8d408613bc26a0"
     },
     {
+      "path": "data/canonical/evidence/r01-equipment-database.json",
+      "sha256": "e2aee03faeb17c06f2da50067f3b2aa98be785219f210c70e32a2d20beb4b4d9"
+    },
+    {
       "path": "data/canonical/receipts/m7-house-roberts.json",
       "sha256": "fca2eea55af93ab323b63984c451df96ed7c933fb0bf47f78133264418ce9181"
     },
@@ -44,6 +52,10 @@
     {
       "path": "data/canonical/receipts/m8b-equipment.json",
       "sha256": "407e4d8d4f6d70e400265a977ffd913e3a72d14650ce6922950696b38e0e0c67"
+    },
+    {
+      "path": "data/canonical/receipts/r01-equipment-database.json",
+      "sha256": "01ea1b36d3b98deb59c9fe14565b5b0c7c068bb95158e506bf428e0fb68815fd"
     },
     {
       "path": "data/vocabulary/predicates.json",
@@ -91,7 +103,19 @@
       "clm_m8bswordcategory2026091001",
       "clm_m8bswordcrit2026091001",
       "clm_m8bswordgears2026091001",
-      "clm_m8bswordspeed2026091001"
+      "clm_m8bswordspeed2026091001",
+      "clm_r01ringattack05",
+      "clm_r01ringattack10",
+      "clm_r01ringquest",
+      "clm_r01ringspeed05",
+      "clm_r01ringspeed10",
+      "clm_r01ringstaminameaning",
+      "clm_r01ringvendor",
+      "clm_r01swordattack05",
+      "clm_r01swordattack10",
+      "clm_r01swordcritical05",
+      "clm_r01swordcritical10",
+      "clm_r01swordvendor"
     ],
     "entities": [
       "ent_089ced07950ace8407a29247",
@@ -113,7 +137,10 @@
       "evd_m8avulkk2026091001",
       "evd_m8bconsolepulse2026091001",
       "evd_m8bpromaxrings2026091001",
-      "evd_m8bringsguide2026091001"
+      "evd_m8bringsguide2026091001",
+      "evd_r01crimsondbsword0001",
+      "evd_r01toolsring0001",
+      "evd_r01toolssword0001"
     ],
     "patchChanges": [],
     "patchReviews": [],
@@ -121,7 +148,8 @@
     "receipts": [
       "rcp_m7houseroberts2026091001",
       "rcp_m8aprogression2026091001",
-      "rcp_m8bequipment2026091001"
+      "rcp_m8bequipment2026091001",
+      "rcp_r01equipment2026091001"
     ],
     "strategies": []
   },
@@ -197,8 +225,35 @@
       "license_status": "publisher_owned",
       "retention_mode": "normalized_facts",
       "url": "https://games.gg/crimson-desert/guides/crimson-desert-best-rings/"
+    },
+    {
+      "basis_url": "https://www.copyright.gov/what-is-copyright/",
+      "boundary": "R01 only: selected +5/+10 numeric fields and seller labels for two existing items, independently expressed with attribution and source uncertainty. No item prose, full tables, media, bulk database or game-file extraction. Public readability is not an open-data licence; underlying IP, database and downstream-use rights remain reserved. See docs/R01_DATABASE_RECONCILIATION.md.",
+      "decision": "limited_original_factual_extraction",
+      "evidence_id": "evd_r01crimsondbsword0001",
+      "license_status": "publisher_owned",
+      "retention_mode": "normalized_facts",
+      "url": "https://crimsondb.gg/weapons/righteous-verdict"
+    },
+    {
+      "basis_url": "https://www.copyright.gov/what-is-copyright/",
+      "boundary": "R01 only: selected +5/+10 numeric fields, a bounded quest/seller linkage and an unresolved internal field label, independently expressed with attribution. No item prose, full tables, media, bulk database or game-file extraction. Public readability is not an open-data licence; underlying IP, database and downstream-use rights remain reserved. See docs/R01_DATABASE_RECONCILIATION.md.",
+      "decision": "limited_original_factual_extraction",
+      "evidence_id": "evd_r01toolsring0001",
+      "license_status": "publisher_owned",
+      "retention_mode": "normalized_facts",
+      "url": "https://crimsondesert.gaming.tools/items/abyssreward_eastwitch_ring"
+    },
+    {
+      "basis_url": "https://www.copyright.gov/what-is-copyright/",
+      "boundary": "R01 only: selected +5/+10 numeric fields and seller labels for two existing items, independently expressed with attribution and source uncertainty. No item prose, full tables, media, bulk database or game-file extraction. Public readability is not an open-data licence; underlying IP, database and downstream-use rights remain reserved. See docs/R01_DATABASE_RECONCILIATION.md.",
+      "decision": "limited_original_factual_extraction",
+      "evidence_id": "evd_r01toolssword0001",
+      "license_status": "publisher_owned",
+      "retention_mode": "normalized_facts",
+      "url": "https://crimsondesert.gaming.tools/items/caliburn_twohandsword"
     }
   ],
   "schema_version": "pywel.corpus_additions.v1",
-  "scope_id": "pywel-post-release-m7-m8b"
+  "scope_id": "pywel-post-release-m7-r01"
 }

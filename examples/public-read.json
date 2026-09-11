@@ -2,7 +2,7 @@
   "format": "pywel.public_read_examples.v1",
   "coverage": "selected_examples_not_full_corpus",
   "record_source": "reviewed_canonical_files_at_one_commit",
-  "context_note": "Historical PC-Steam examples, en-US, spoilers up to quest_major. Raw files are unfiltered; no current-patch or API-answer certification.",
+  "context_note": "Historical PC-Steam examples, en-US, spoilers up to quest_major. Counts include retained superseded records: inspect supersedes_claim_ids before using a claim. Raw files are unfiltered; no current-patch or API-answer certification.",
   "files": {
     "entities": [
       "data/canonical/entities/m8b-equipment.json",
@@ -10,18 +10,20 @@
     ],
     "claims": [
       "data/canonical/claims/m8b-equipment.json",
-      "data/canonical/claims/m8a-progression.json"
+      "data/canonical/claims/m8a-progression.json",
+      "data/canonical/claims/r01-equipment-database.json"
     ],
     "evidence": [
       "data/canonical/evidence/m8b-equipment.json",
-      "data/canonical/evidence/m8a-progression.json"
+      "data/canonical/evidence/m8a-progression.json",
+      "data/canonical/evidence/r01-equipment-database.json"
     ]
   },
   "requests": [
-    { "entity_name": "Righteous Verdict", "predicate": "item.acquisition", "expected_records": 1, "expected_unknown_records": 0 },
-    { "entity_name": "Righteous Verdict", "predicate": "item.effect_summary", "expected_records": 3, "expected_unknown_records": 0 },
-    { "entity_name": "Witch's Ring", "predicate": "item.acquisition", "expected_records": 1, "expected_unknown_records": 0 },
-    { "entity_name": "Witch's Ring", "predicate": "item.effect_summary", "expected_records": 2, "expected_unknown_records": 0 },
+    { "entity_name": "Righteous Verdict", "predicate": "item.acquisition", "expected_records": 2, "expected_unknown_records": 0 },
+    { "entity_name": "Righteous Verdict", "predicate": "item.effect_summary", "expected_records": 7, "expected_unknown_records": 0 },
+    { "entity_name": "Witch's Ring", "predicate": "item.acquisition", "expected_records": 3, "expected_unknown_records": 0 },
+    { "entity_name": "Witch's Ring", "predicate": "item.effect_summary", "expected_records": 7, "expected_unknown_records": 1 },
     { "entity_name": "Sealed in Stone", "predicate": "quest.reward", "expected_records": 1, "expected_unknown_records": 1 },
     { "entity_name": "Zorblax Verdict", "predicate": "item.acquisition", "expected_records": 0, "expected_unknown_records": 0 }
   ]

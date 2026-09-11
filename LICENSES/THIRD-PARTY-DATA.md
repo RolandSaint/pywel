@@ -1,6 +1,6 @@
 # Third-party data notices
 
-Reviewed 2026-09-10. This notice covers the original 77 evidence records, two M7 additions, three M8A additions and three M8B additions, for 85 current records. The initial retained manifest and reviewed additions identify exact membership. Source titles, locators, capture context, and hashes remain in the evidence records.
+Reviewed 2026-09-10 (America/Chicago). This notice covers the original 77 evidence records, two M7 additions, three M8A additions, three M8B additions and three R01 additions, for 88 current records. The initial retained manifest and reviewed additions identify exact membership. Source titles, locators, capture context, and hashes remain in the evidence records.
 
 ## CrimsonWiki community contributions
 
@@ -131,6 +131,18 @@ The exact sources below receive only the bounded factual-extraction disposition 
 | `evd_m8bconsolepulse2026091001` | Aiden Nguyen, Console Pulse, [3 Best Two-Handed Swords](https://consolepulse.com/multiplatform/crimson-desert/guides/3-best-two-handed-swords-in-crimson-desert), published May 14, updated September 7, 2026 | Righteous Verdict acquisition, category, attached gear and qualified setup summaries; not intrinsic stats or a full refinement table. |
 | `evd_m8bringsguide2026091001` | Larc, GAMES.GG, [Best Rings You Should Get](https://games.gg/crimson-desert/guides/crimson-desert-best-rings/), June 5, 2026 | Witch's Ring acquisition, category and refined speed; no copied walkthrough or acquisition exclusivity. |
 | `evd_m8bpromaxrings2026091001` | Eva Roberts, Gaming ProMax, [Best Rings](https://gamingpromax.com/best-rings-in-crimson-desert/), June 6, 2026 | Reported stamina-regeneration direction only; its numeric magnitude remains unresolved. |
+
+## R01 database sources: selected equipment reconciliation
+
+The three public pages below receive only the source-specific limited factual-extraction dispositions in the additions manifest and [R01](https://github.com/RolandSaint/pywel/blob/main/docs/R01_DATABASE_RECONCILIATION.md). No openly licensed database, bulk export, item-description licence or permission to redistribute recovered game files is claimed. The retained material consists of selected numeric fields with their refinement labels, necessary seller/quest names, an unresolved field identifier and original qualification/provenance. Underlying game IP and database rights are not relicensed. No tables, item prose, media, site mirror or game-file extraction is distributed. Matching upstream data is not independent observation.
+
+| Evidence ID | Publisher and exact source | Retained scope |
+| --- | --- | --- |
+| `evd_r01crimsondbsword0001` | CrimsonDB, [Righteous Verdict](https://crimsondb.gg/weapons/righteous-verdict) | Selected +5/+10 weapon fields and seller listing; sockets are separate, not included as base stats. |
+| `evd_r01toolssword0001` | gaming.tools, [Righteous Verdict / caliburn_twohandsword](https://crimsondesert.gaming.tools/items/caliburn_twohandsword) | Selected refinement fields and seller comparison; questionable category label not adopted. |
+| `evd_r01toolsring0001` | gaming.tools, [Witch's Ring / abyssreward_eastwitch_ring](https://crimsondesert.gaming.tools/items/abyssreward_eastwitch_ring) | Selected refinement fields, source/seller links and unclassified stamina field; no inferred regeneration percentage. |
+
+These are bounded editorial source-use decisions, not independent legal or gameplay certification. The earlier guide evidence remains attributed and available with the superseded claims. R01 changes no original data licence or initial publication boundary.
 
 ## Excluded sources
 

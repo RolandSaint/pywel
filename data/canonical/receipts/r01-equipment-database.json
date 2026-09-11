@@ -1,0 +1,27 @@
+{
+  "created_at": "2026-09-11T00:05:10Z",
+  "payload_hash_scope": "related_records_canonical_json",
+  "payload_sha256": "ca19ad251c0fdd0dbabf6138bcc6512d0603c7875a45906ad4d71d1b1e81c2cc",
+  "receipt_id": "rcp_r01equipment2026091001",
+  "receipt_type": "contribution",
+  "related_record_ids": [
+    "clm_r01ringattack05",
+    "clm_r01ringattack10",
+    "clm_r01ringquest",
+    "clm_r01ringspeed05",
+    "clm_r01ringspeed10",
+    "clm_r01ringstaminameaning",
+    "clm_r01ringvendor",
+    "clm_r01swordattack05",
+    "clm_r01swordattack10",
+    "clm_r01swordcritical05",
+    "clm_r01swordcritical10",
+    "clm_r01swordvendor",
+    "evd_r01crimsondbsword0001",
+    "evd_r01toolsring0001",
+    "evd_r01toolssword0001"
+  ],
+  "safe_summary": "R01: 12 source-qualified database claims for two existing items, including three explicit supersessions. Refinement rows stay distinct from sockets, seller listings are not live availability, and stamina meaning stays unknown. Three public database records supply bounded evidence; no bulk import, new gameplay review or independent observation is claimed.",
+  "schema_version": "pywel.receipt.v1",
+  "state": "accepted"
+}

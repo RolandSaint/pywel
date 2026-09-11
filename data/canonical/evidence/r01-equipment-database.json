@@ -1,0 +1,87 @@
+{
+  "catalog_id": "cat_r01equipmentevidence0001",
+  "records": [
+    {
+      "captured_at": "2026-09-11T00:05:10Z",
+      "evidence_id": "evd_r01crimsondbsword0001",
+      "evidence_type": "community_report",
+      "provenance": {
+        "created_at": "2026-09-11T00:05:10Z",
+        "created_by": "pywel_r01_database_reconciliation",
+        "source_receipt_id": "rcp_r01equipment2026091001"
+      },
+      "reliability": {
+        "independence_group": "database:crimson-desert:upstream-unverified",
+        "tier": "secondary"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "locator": "Public database page: Refinement rows +5 and +10, Sockets, Sold By. Header displays v1.17.00, not claim-level review. Retain selected numeric fields with refinement and separate socket context, not the complete table or item description. Compared with gaming.tools; shared upstream is unresolved, not independent corroboration. No bulk licence or export permission is asserted.",
+        "published_at": null,
+        "publisher": "CrimsonDB",
+        "title": "Righteous Verdict - CrimsonDB",
+        "url": "https://crimsondb.gg/weapons/righteous-verdict"
+      }
+    },
+    {
+      "captured_at": "2026-09-11T00:05:10Z",
+      "evidence_id": "evd_r01toolsring0001",
+      "evidence_type": "community_report",
+      "provenance": {
+        "created_at": "2026-09-11T00:05:10Z",
+        "created_by": "pywel_r01_database_reconciliation",
+        "source_receipt_id": "rcp_r01equipment2026091001"
+      },
+      "reliability": {
+        "independence_group": "database:crimson-desert:upstream-unverified",
+        "tier": "secondary"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "locator": "Public item ID abyssreward_eastwitch_ring: Refinement Levels +5/+10, Buffs, Sources and Sold By. Site displays 2.0.0 and August 25, 2026; no claim review is inferred. Preserve the stamina field label without guessing its gameplay meaning. Story-specific source names belong only in the spoiler-scoped claim. No full table, item description, media or underlying extracted files retained.",
+        "published_at": null,
+        "publisher": "gaming.tools",
+        "title": "Witch's Ring - gaming.tools",
+        "url": "https://crimsondesert.gaming.tools/items/abyssreward_eastwitch_ring"
+      }
+    },
+    {
+      "captured_at": "2026-09-11T00:05:10Z",
+      "evidence_id": "evd_r01toolssword0001",
+      "evidence_type": "community_report",
+      "provenance": {
+        "created_at": "2026-09-11T00:05:10Z",
+        "created_by": "pywel_r01_database_reconciliation",
+        "source_receipt_id": "rcp_r01equipment2026091001"
+      },
+      "reliability": {
+        "independence_group": "database:crimson-desert:upstream-unverified",
+        "tier": "secondary"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "locator": "Public item ID caliburn_twohandsword: Refinement Levels +5/+10, Pre-socketed with, Sold By. Site displays 2.0.0 and August 25, 2026, not a tested build. Its one-handed category conflicts with the item label/guide and is not adopted. Retain selected fields only; no lore, full table, media or recovered game files. Shared extraction/upstream independence is unverified.",
+        "published_at": null,
+        "publisher": "gaming.tools",
+        "title": "Righteous Verdict - gaming.tools",
+        "url": "https://crimsondesert.gaming.tools/items/caliburn_twohandsword"
+      }
+    }
+  ],
+  "schema_version": "pywel.evidence_catalog.v1"
+}

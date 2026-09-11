@@ -93,16 +93,21 @@ try {
         assert(source.rights.attribution_required);
       }
     }
+    const supersession_links = claims.flatMap(claim => (claim.supersedes_claim_ids ?? []).map(prior_id => {
+      const prior = claims.find(candidate => candidate.claim_id === prior_id);
+      assert(prior, `Example slice omitted superseded record ${prior_id}`);
+      return { replacement_id: claim.claim_id, prior_id };
+    }));
     results.push({
       entity_name: request.entity_name, entity_id: entity?.entity_id ?? null,
       predicate: request.predicate, record_ids: claims.map(claim => claim.claim_id),
       unknown_records: claims.filter(claim => claim.object.kind === 'unknown').length,
       evidence_ids: [...new Set(claims.flatMap(claim => claim.evidence_ids))],
       review_boundaries: claims.map(claim => claim.validity.reviewed_through_patch),
+      supersession_links, // Expose lineage; this smoke does not implement context-aware supersession.
       selection: entity ? 'exact_subject_and_predicate' : 'absent_from_example_slice_only',
     });
   }
-  // No answer_state/build_id is invented: these are source rows, not API answer packets.
   console.log(JSON.stringify({
     ok: true, transport: localRoot ? 'local_fixture' : 'anonymous_https',
     repository: 'RolandSaint/pywel', snapshot, requests: cache.size, bytes,

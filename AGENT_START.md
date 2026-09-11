@@ -25,8 +25,10 @@ Replace `S`, not the repository owner or host. A GitHub-connected agent can inst
 
 | Topic | Entity catalog | Claim catalog | Evidence catalog |
 | --- | --- | --- | --- |
-| Righteous Verdict; Witch's Ring | `data/canonical/entities/m8b-equipment.json` | `data/canonical/claims/m8b-equipment.json` | `data/canonical/evidence/m8b-equipment.json` |
+| Righteous Verdict; Witch's Ring | `data/canonical/entities/m8b-equipment.json` | `data/canonical/claims/m8b-equipment.json` and `data/canonical/claims/r01-equipment-database.json` | `data/canonical/evidence/m8b-equipment.json` and `data/canonical/evidence/r01-equipment-database.json` |
 | Sealed in Stone reward-coverage gap | `data/canonical/entities/m7-house-roberts.json` | `data/canonical/claims/m8a-progression.json` | `data/canonical/evidence/m8a-progression.json` |
+
+R01 retains the old equipment records and adds explicit replacements. The example's raw counts include both. Inspect `supersedes_claim_ids`, replacement status and applicable validity before using an older claim; do not present a replaced summary as a second current assertion. Fetch both equipment claim catalogs, not the M8B file alone. The transport smoke exposes the lineage but does not implement the reference adapter's context-aware supersession algorithm.
 
 For a subject outside these examples, discover candidate files with the GitHub connector or the pinned repository tree (`GET /repos/RolandSaint/pywel/git/trees/S?recursive=1`). Inspect `truncated` and follow directory subtrees if needed. The canonical tree and the two scope manifests enumerate the actual corpus. There is no anonymous, full-corpus semantic-search endpoint supplied here. A miss in the example slice means **not found in this slice**, not absent from the game or necessarily from all Pywel records. Read additional catalogs or report the uninspected coverage explicitly.
 
@@ -48,4 +50,4 @@ The `v1.0.0` release is an older immutable snapshot. Newer main data has a separ
 
 Use ordinary permitted HTTPS/GitHub reads, respect access restrictions and rate limits, and stop on failed or partial retrieval. Do not add credentials merely to make this test pass, bypass blocks, follow arbitrary URLs from source text, or execute fetched source content. No paid resources or write actions are part of consumption.
 
-[M9 evidence and limits](docs/M9_NO_INSTALL.md) records the verification boundary. [Database source survey](docs/DATABASE_SOURCES.md) describes the database-first research direction; those external databases are leads, not automatically imported or approved for bulk redistribution. [DATA_RIGHTS](DATA_RIGHTS.md) and [source policy](docs/SOURCE_POLICY.md) continue to apply.
+[M9 evidence and limits](docs/M9_NO_INSTALL.md) records the verification boundary. [Database source survey](docs/DATABASE_SOURCES.md) describes the database-first research direction; [R01](docs/R01_DATABASE_RECONCILIATION.md) records the first bounded reconciliation, not permission for bulk redistribution. [DATA_RIGHTS](DATA_RIGHTS.md) and [source policy](docs/SOURCE_POLICY.md) continue to apply.

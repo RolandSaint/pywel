@@ -18,9 +18,16 @@ const questions = [
   ["What effects does Witch's Ring have?", ring, "item.effect_summary", 2],
 ] as const;
 
+// Preserve the recorded M8B snapshot regressions; R01 has its own current-data tests.
+// The protocol integration below deliberately uses the current corpus and live MCP.
+async function m8bStore() {
+  const result = await validStore();
+  return { ...result, store: { ...result.store, claims: result.store.claims.filter(claim => claim.provenance.source_receipt_id !== "rcp_r01equipment2026091001") } };
+}
+
 describe("M8B two-item acquisition and qualified effects", () => {
   it.each(questions)("answers the frozen equipment question: %s", async (query, subject, predicate, count) => {
-    const packet = new KnowledgeIndex((await validStore()).store).answer(query, context);
+    const packet = new KnowledgeIndex((await m8bStore()).store).answer(query, context);
     expect(packet.answer_state).toBe("partial");
     expect(packet.claims).toHaveLength(count);
     expect(packet.claims.every(claim => claim.subject_entity_id === subject && claim.predicate === predicate)).toBe(true);
@@ -35,7 +42,7 @@ describe("M8B two-item acquisition and qualified effects", () => {
   });
 
   it("demonstrates four new answers rather than counting old or unrelated facts", async () => {
-    const { store } = await validStore();
+    const { store } = await m8bStore();
     const prior = new KnowledgeIndex({ ...store, entities: store.entities.filter(entity => entity.provenance.source_receipt_id !== receipt), claims: store.claims.filter(claim => claim.provenance.source_receipt_id !== receipt) });
     for (const [query] of questions) {
       expect(prior.answer(query, context).claims).toEqual([]);
@@ -44,7 +51,7 @@ describe("M8B two-item acquisition and qualified effects", () => {
   });
 
   it("keeps the two acquisition routes distinct and avoids inventing exclusivity", async () => {
-    const index = new KnowledgeIndex((await validStore()).store);
+    const index = new KnowledgeIndex((await m8bStore()).store);
     const weapon = index.answer(questions[0][0], context).concise_answer;
     expect(weapon).toContain("Demeniss Ancestors' Ruins");
     expect(weapon).toContain("Nightfell Expedition Camp");
@@ -56,7 +63,7 @@ describe("M8B two-item acquisition and qualified effects", () => {
   });
 
   it("does not flatten source configurations into intrinsic or current numeric stats", async () => {
-    const { store } = await validStore();
+    const { store } = await m8bStore();
     const additions = store.claims.filter(claim => claim.provenance.source_receipt_id === receipt);
     expect(additions).toHaveLength(9);
     expect(additions.every(claim => [sword, ring].includes(claim.subject_entity_id))).toBe(true);
@@ -74,7 +81,7 @@ describe("M8B two-item acquisition and qualified effects", () => {
   });
 
   it("preserves platform, spoiler, fabricated-name and unknown-patch limits", async () => {
-    const index = new KnowledgeIndex((await validStore()).store);
+    const index = new KnowledgeIndex((await m8bStore()).store);
     for (const [query] of questions) {
       for (const platform of ["pc-epic", "mac-steam", "playstation-5", "xbox-series"] as const) expect(index.answer(query, { ...context, platform }).claims).toEqual([]);
       expect(index.answer(query, { ...context, patch: "9.99.00" }).answer_state).toBe("unknown");
@@ -85,7 +92,6 @@ describe("M8B two-item acquisition and qualified effects", () => {
     for (const spoilerCeiling of ["discovery", "quest_minor"] as const) {
       const effects = index.answer(questions[3][0], { ...context, spoilerCeiling });
       expect(effects.claims).toHaveLength(2);
-      // Shared evidence must not leak the spoiler-scoped acquisition through its locator.
       expect(JSON.stringify(effects)).not.toMatch(/Goyen|Nest of Valor|Thinning Blade|Chapter 9/i);
       expect(JSON.stringify(compactEvidencePacket(effects))).not.toMatch(/Goyen|Nest of Valor|Thinning Blade|Chapter 9/i);
     }
@@ -94,7 +100,7 @@ describe("M8B two-item acquisition and qualified effects", () => {
   });
 
   it("keeps acquisition and effects together without cross-item substitutions", async () => {
-    const index = new KnowledgeIndex((await validStore()).store);
+    const index = new KnowledgeIndex((await m8bStore()).store);
     for (const [name, subject] of [["Righteous Verdict", sword], ["Witch's Ring", ring]]) {
       const packet = index.answer(`Where can I get ${name} and what effects does it have?`, context);
       expect(packet.claims.some(claim => claim.predicate === "item.acquisition")).toBe(true);
@@ -103,17 +109,18 @@ describe("M8B two-item acquisition and qualified effects", () => {
     }
   });
 
-  it("returns matching full/compact REST and actual stdio MCP answers", async () => {
+  it("returns matching current full/compact REST and actual stdio MCP answers", async () => {
     const { root, store } = await validStore();
     const client = new Client({ name: "pywel-m8b-test", version: "1.0.0" });
     const transport = new StdioClientTransport({ command: process.execPath, args: ["--import", "tsx", resolve(root, "src/mcp/server.ts")], cwd: root, stderr: "pipe" });
+    const currentCounts = [2, 6, 3, 5];
     try {
       await client.connect(transport);
       const resource = (await client.readResource({ uri: "pywel://service" })).contents[0]!;
       if (!("text" in resource)) throw new Error("Expected JSON service descriptor");
       const service = JSON.parse(resource.text) as { build_id: string };
       const app = createApp(store, { buildId: service.build_id });
-      for (const [q, subject, predicate, count] of questions) {
+      for (const [position, [q, subject, predicate]] of questions.entries()) {
         for (const format of ["full", "compact"]) {
           const args = { q, patch: context.patch, platform: context.platform, locale: context.locale, spoiler: context.spoilerCeiling, format };
           const response = await app.request(`/v1/answer?${new URLSearchParams(args)}`);
@@ -121,7 +128,7 @@ describe("M8B two-item acquisition and qualified effects", () => {
           const body = await response.json();
           expect(body[format === "full" ? "answer_state" : "state"]).toBe("partial");
           if (format === "full") {
-            expect(body.claims).toHaveLength(count);
+            expect(body.claims).toHaveLength(currentCounts[position]!);
             expect(body.claims.every((claim: { subject_entity_id: string; predicate: string }) => claim.subject_entity_id === subject && claim.predicate === predicate)).toBe(true);
           }
           const result = await client.callTool({ name: "pywel_answer", arguments: args });
