@@ -140,7 +140,15 @@ describe("S02 source-intake containment, not accepted acquisition depth", () => 
         expect(response.status).toBe(200);
         expect(mcp.isError).not.toBe(true);
         expect(mcp.structuredContent).toEqual(body);
-        expect(body.claims).toEqual([]);
+        // Compact v3 omits empty arrays; full packets retain them.
+        expect(body[format === "compact" ? "state" : "answer_state"]).toBe("unknown");
+        if (format === "compact") {
+          expect(body.claims).toBeUndefined();
+          expect(body.evidence).toBeUndefined();
+        } else {
+          expect(body.claims).toEqual([]);
+          expect(body.evidence).toEqual([]);
+        }
         expect(JSON.stringify(body)).not.toMatch(/clm_s02|evd_s02|rcp_s02/);
         if (q.includes("Dark Executioner")) expect(JSON.stringify(body)).not.toContain("The Heart of Pywel");
       }
