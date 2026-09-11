@@ -1,6 +1,6 @@
 # Data model
 
-The canonical format is JSON under `data/canonical/`, with versioned schemas in `schemas/` and controlled vocabularies in `data/vocabulary/`. Catalog files are packaging containers; validation and exports operate on their individual records. [RELEASE_SCOPE](RELEASE_SCOPE.md) and the fixed manifest define the retained dataset.
+The canonical format is JSON under `data/canonical/`, with versioned schemas in `schemas/` and controlled vocabularies in `data/vocabulary/`. Catalog files are packaging containers; validation and exports operate on their individual records. [RELEASE_SCOPE](RELEASE_SCOPE.md), the immutable initial manifest and the reviewed additions manifest define the retained dataset.
 
 ## Identity and claims
 
@@ -26,7 +26,7 @@ Receipts bind exact related records with a recomputable canonical JSON digest. E
 
 ## Patch and applicability context
 
-Schema/API versions, build identity, and game patches are different identifiers. The frozen dataset indexes historical patches through **1.14.00**; it makes no assertion about the current live game. An omitted query patch resolves to the latest indexed stable patch and is disclosed as an assumption.
+Schema/API versions, build identity, and game patches are different identifiers. The original `v1.0.0` and published `expansion-2026.09.10.1` snapshots index historical patches through **1.14.00**. [G02](G02_PATCH_CATCHUP.md) extends the maintained source's patch-identity index through **2.01.00** at its fixed research cutoff; its added entries are identity-only and do not refresh gameplay claims. An omitted query patch resolves to the latest indexed stable patch for the selected source build and is disclosed as an assumption. Read the resolved value from service discovery or the response rather than treating either snapshot's version as a permanent default. No indexed ceiling certifies the current live game.
 
 `from_patch` and `through_patch` bound recorded applicability. `reviewed_through_patch` is the last patch against which the specific assertion was reviewed. Do not infer either termination or continued validity merely because a later patch exists. Unknown/future patches and requests beyond a claim's review boundary cannot yield unqualified current support.
 
