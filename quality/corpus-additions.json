@@ -22,6 +22,10 @@
       "sha256": "b57aa624253af81fa9908013529d59bdc327d4b9f15920967e6b753e6d8a6c39"
     },
     {
+      "path": "data/canonical/claims/s03-recipe-inputs.json",
+      "sha256": "7f37b394a23e398d7b00b476f462c1d114ea99585fae9787975db7714c9571c6"
+    },
+    {
       "path": "data/canonical/entities/m7-house-roberts.json",
       "sha256": "4b4d1d6ba61f4e1321de43f539b9042331d9b4a7a13a70d902045df0c706592a"
     },
@@ -32,6 +36,10 @@
     {
       "path": "data/canonical/entities/s01-equipment.json",
       "sha256": "c78b25cd40b6fc4e29da18484e150fe1e2465e71a92ce76874f2b4155bcecc45"
+    },
+    {
+      "path": "data/canonical/entities/s03-recipe-inputs.json",
+      "sha256": "3dd6602a8a984f34e2122f0ab616dea183b2589c65d4c9ffd12e8ea22fb09095"
     },
     {
       "path": "data/canonical/evidence/g02-official-catchup.json",
@@ -84,6 +92,10 @@
     {
       "path": "data/canonical/receipts/s01-equipment.json",
       "sha256": "ea6aaf5a1bc774abbeebe55afa293416ca05f3ec5ccd2b8f28b2c0991a023f29"
+    },
+    {
+      "path": "data/canonical/receipts/s03-recipe-inputs.json",
+      "sha256": "8f5f98437b62d33d6da7b9813138a0dfb6cdd3fd083ec32cf67832f6c7ab237e"
     },
     {
       "path": "data/vocabulary/predicates.json",
@@ -1287,7 +1299,43 @@
       "clm_s01ff9dfef2c9d2b40d429358b0",
       "clm_s01ffbadc280705f6b7e84c19d3",
       "clm_s01ffc2926047e9f0702d7a5e3c",
-      "clm_s01ffe7975194dcf51b7c0c79a0"
+      "clm_s01ffe7975194dcf51b7c0c79a0",
+      "clm_s030926ac46992acde54e7f5c88",
+      "clm_s0311379b7ba8c5f641ac18a4ea",
+      "clm_s032131119c0c6a3d7f0de79033",
+      "clm_s0323f36b1da813bc299f8023b1",
+      "clm_s032b01384622aca03f59470ea6",
+      "clm_s032b14f76bd68eaf51ba9b9994",
+      "clm_s03332953e5be2ee9abaef47aa7",
+      "clm_s03334159cdacf185fbc417df48",
+      "clm_s0336db5ae1bb8eca50bf792cfd",
+      "clm_s03406df24351ea054cd1dbdec5",
+      "clm_s034ec171887dda18b46da47a5e",
+      "clm_s03584e5577fdb975a917c7e2ef",
+      "clm_s0359894ad6102a47a57342dda8",
+      "clm_s035a5634eadd8def2052363189",
+      "clm_s035d745389247d161f0af9cfa5",
+      "clm_s035d8009386026f2246d8c8ecd",
+      "clm_s036ba69a4c058b826118a5c54c",
+      "clm_s0370dfc9fdd69c4329d3deb6d9",
+      "clm_s037208c75ae5b5d76fe98a852c",
+      "clm_s03794f1a07877871d4cae02ca1",
+      "clm_s037bb44b39da17a5e207a6ede8",
+      "clm_s0388456d7a620a5d1ea19e939a",
+      "clm_s038c4763aa17bafc90534d391f",
+      "clm_s0391c54f405f4bed326fe6264e",
+      "clm_s039b415c5341d65af104773d98",
+      "clm_s039f37f57c3589ec82bd676024",
+      "clm_s03a00fccaad9e2366f02f453a6",
+      "clm_s03ab3496e5b7e064a0c841dbf5",
+      "clm_s03beb8cf8af804a668ec61baf7",
+      "clm_s03c49d242526010d7ffe19e8c1",
+      "clm_s03c9bc2000cefdc5632d38c401",
+      "clm_s03d1426ecc9f7d397e280af4c3",
+      "clm_s03d230c46bffd41aca20f292da",
+      "clm_s03dbbd4694817bff4757264df1",
+      "clm_s03dd6d9d910a444b202a6175f1",
+      "clm_s03ec1df3561f7b3273992b5bb7"
     ],
     "entities": [
       "ent_089ced07950ace8407a29247",
@@ -1499,7 +1547,32 @@
       "ent_s01fbbd6bd3dbaa722e83b8062f",
       "ent_s01fcb74bc5577bace1debd0be2",
       "ent_s01fea3dc26f32a8fd64f17f862",
-      "ent_s01ff1bc803f3261a21f100ec51"
+      "ent_s01ff1bc803f3261a21f100ec51",
+      "ent_s03089f93124a24ccd5129cbd20",
+      "ent_s031076662488cb15c6dd07183c",
+      "ent_s03137356b7daee3ed71852c130",
+      "ent_s0317d429230e465a246ccaf454",
+      "ent_s031d2e5e8ac019b549a44aa03c",
+      "ent_s03238fed15b8d8f96a483ecad6",
+      "ent_s0326a5bec388ede4bc9432a030",
+      "ent_s032918edbe11909697e6d301b0",
+      "ent_s033608360d22137d115f4907ee",
+      "ent_s0336552f8920e541a79f875ece",
+      "ent_s0336b30e5fa7b90af69b7b3249",
+      "ent_s03375205c169f9d7df035ab89b",
+      "ent_s0341d0d35e0c0296303b53bba3",
+      "ent_s036d0b6578619bc2e5c3ae47db",
+      "ent_s03700416f71b2e78ba21cf4bf8",
+      "ent_s03764218d38cdfc1246e41b96a",
+      "ent_s03a11ab221daa573373176fcae",
+      "ent_s03a807aef1ca3624d5d3993c8f",
+      "ent_s03ab929b20e36553217f3ba6dd",
+      "ent_s03b067d1e10cebfcdeb1136327",
+      "ent_s03c495af6e1a006917f931baf3",
+      "ent_s03c5b8acce23ec128ccb3d3416",
+      "ent_s03d79a296f64b4639e54cbffb1",
+      "ent_s03ee75e16e957347b2332231af",
+      "ent_s03f8be2f45de62eec9e2a00d8f"
     ],
     "evidence": [
       "evd_43cf07ba816dbe19d270d124",
@@ -1759,7 +1832,8 @@
       "rcp_m8aprogression2026091001",
       "rcp_m8bequipment2026091001",
       "rcp_r01equipment2026091001",
-      "rcp_s01equipment2026091101"
+      "rcp_s01equipment2026091101",
+      "rcp_s03recipeinputs2026091101"
     ],
     "strategies": []
   },
@@ -3665,5 +3739,5 @@
     }
   ],
   "schema_version": "pywel.corpus_additions.v1",
-  "scope_id": "pywel-post-release-m7-s01"
+  "scope_id": "pywel-post-release-m7-s03"
 }

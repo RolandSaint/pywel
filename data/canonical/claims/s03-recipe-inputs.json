@@ -1,0 +1,1200 @@
+{
+  "catalog_id": "cat_s0369c20a017d4693a641769652",
+  "records": [
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s030926ac46992acde54e7f5c88",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "object": {
+        "entity_id": "ent_s0326a5bec388ede4bc9432a030",
+        "kind": "entity"
+      },
+      "predicate": "relation.crafted_from",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_54f5a8165a2dba37c19d1eed",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s0311379b7ba8c5f641ac18a4ea",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "object": {
+        "entity_id": "ent_s03ee75e16e957347b2332231af",
+        "kind": "entity"
+      },
+      "predicate": "relation.crafted_from",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_84eab6e41a71565f679df592",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s032131119c0c6a3d7f0de79033",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "object": {
+        "entity_id": "ent_s036d0b6578619bc2e5c3ae47db",
+        "kind": "entity"
+      },
+      "predicate": "relation.crafted_from",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_d2d4221bdc0342f4a1b77eae",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s0323f36b1da813bc299f8023b1",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "object": {
+        "entity_id": "ent_s031d2e5e8ac019b549a44aa03c",
+        "kind": "entity"
+      },
+      "predicate": "relation.crafted_from",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_3c3a97c5513968b5c079b53f",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s032b01384622aca03f59470ea6",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "object": {
+        "entity_id": "ent_s036d0b6578619bc2e5c3ae47db",
+        "kind": "entity"
+      },
+      "predicate": "relation.crafted_from",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_a86c763b8cb20b24ef850ab9",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s032b14f76bd68eaf51ba9b9994",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "object": {
+        "entity_id": "ent_s036d0b6578619bc2e5c3ae47db",
+        "kind": "entity"
+      },
+      "predicate": "relation.crafted_from",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_3c3a97c5513968b5c079b53f",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s03332953e5be2ee9abaef47aa7",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "object": {
+        "entity_id": "ent_s03ab929b20e36553217f3ba6dd",
+        "kind": "entity"
+      },
+      "predicate": "relation.crafted_from",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_f02bd783538d05a4d19dfa36",
+      "supersedes_claim_ids": [
+        "clm_71437fca877548d0908c25bb"
+      ],
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s03334159cdacf185fbc417df48",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "object": {
+        "entity_id": "ent_s03d79a296f64b4639e54cbffb1",
+        "kind": "entity"
+      },
+      "predicate": "relation.crafted_from",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_4158856feae336a21a199238",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s0336db5ae1bb8eca50bf792cfd",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "object": {
+        "entity_id": "ent_s03f8be2f45de62eec9e2a00d8f",
+        "kind": "entity"
+      },
+      "predicate": "relation.crafted_from",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_5f8dd155f9de4c2129eceae8",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s03406df24351ea054cd1dbdec5",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "object": {
+        "entity_id": "ent_s036d0b6578619bc2e5c3ae47db",
+        "kind": "entity"
+      },
+      "predicate": "relation.crafted_from",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_b15bb81db2aff0a3804d0d40",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s034ec171887dda18b46da47a5e",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "object": {
+        "entity_id": "ent_s03238fed15b8d8f96a483ecad6",
+        "kind": "entity"
+      },
+      "predicate": "relation.crafted_from",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_3c49a08e84b7f0d25bd8e179",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s03584e5577fdb975a917c7e2ef",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "object": {
+        "entity_id": "ent_s0341d0d35e0c0296303b53bba3",
+        "kind": "entity"
+      },
+      "predicate": "relation.crafted_from",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_54f5a8165a2dba37c19d1eed",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s0359894ad6102a47a57342dda8",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "object": {
+        "entity_id": "ent_s03c5b8acce23ec128ccb3d3416",
+        "kind": "entity"
+      },
+      "predicate": "relation.crafted_from",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_f02bd783538d05a4d19dfa36",
+      "supersedes_claim_ids": [
+        "clm_463b6ce020d36f7aa4304197"
+      ],
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s035a5634eadd8def2052363189",
+      "confidence": 0.25,
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "object": {
+        "entity_id": "ent_s03c5b8acce23ec128ccb3d3416",
+        "kind": "entity"
+      },
+      "predicate": "recipe.output",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_8b27e32376389d63ee0eaae8",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s035d745389247d161f0af9cfa5",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "object": {
+        "entity_id": "ent_s036d0b6578619bc2e5c3ae47db",
+        "kind": "entity"
+      },
+      "predicate": "relation.crafted_from",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_664b1f96b2452e94ccbbcc9a",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s035d8009386026f2246d8c8ecd",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "object": {
+        "entity_id": "ent_s03b067d1e10cebfcdeb1136327",
+        "kind": "entity"
+      },
+      "predicate": "relation.crafted_from",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_79601484c6c30655d3df006b",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s036ba69a4c058b826118a5c54c",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "object": {
+        "entity_id": "ent_s0326a5bec388ede4bc9432a030",
+        "kind": "entity"
+      },
+      "predicate": "relation.crafted_from",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_84eab6e41a71565f679df592",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s0370dfc9fdd69c4329d3deb6d9",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "object": {
+        "entity_id": "ent_s03137356b7daee3ed71852c130",
+        "kind": "entity"
+      },
+      "predicate": "relation.crafted_from",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_a86c763b8cb20b24ef850ab9",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s037208c75ae5b5d76fe98a852c",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "object": {
+        "entity_id": "ent_s03764218d38cdfc1246e41b96a",
+        "kind": "entity"
+      },
+      "predicate": "relation.crafted_from",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_d2d4221bdc0342f4a1b77eae",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s03794f1a07877871d4cae02ca1",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "object": {
+        "entity_id": "ent_s03a807aef1ca3624d5d3993c8f",
+        "kind": "entity"
+      },
+      "predicate": "relation.crafted_from",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_f2f901ec1be4b269ba560b54",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s037bb44b39da17a5e207a6ede8",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "object": {
+        "entity_id": "ent_s036d0b6578619bc2e5c3ae47db",
+        "kind": "entity"
+      },
+      "predicate": "relation.crafted_from",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_3c49a08e84b7f0d25bd8e179",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s0388456d7a620a5d1ea19e939a",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "object": {
+        "entity_id": "ent_2556849787477de43f0e11d6",
+        "kind": "entity"
+      },
+      "predicate": "relation.crafted_from",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_e8b9801164c3598cdf32cc89",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s038c4763aa17bafc90534d391f",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "object": {
+        "entity_id": "ent_s0317d429230e465a246ccaf454",
+        "kind": "entity"
+      },
+      "predicate": "relation.crafted_from",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_79601484c6c30655d3df006b",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s0391c54f405f4bed326fe6264e",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "object": {
+        "entity_id": "ent_s0336b30e5fa7b90af69b7b3249",
+        "kind": "entity"
+      },
+      "predicate": "relation.crafted_from",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_79601484c6c30655d3df006b",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s039b415c5341d65af104773d98",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "object": {
+        "entity_id": "ent_s03a11ab221daa573373176fcae",
+        "kind": "entity"
+      },
+      "predicate": "relation.crafted_from",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_11013a31269f61b38e9045d3",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s039f37f57c3589ec82bd676024",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "object": {
+        "entity_id": "ent_s0326a5bec388ede4bc9432a030",
+        "kind": "entity"
+      },
+      "predicate": "relation.crafted_from",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_11013a31269f61b38e9045d3",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s03a00fccaad9e2366f02f453a6",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "object": {
+        "entity_id": "ent_s033608360d22137d115f4907ee",
+        "kind": "entity"
+      },
+      "predicate": "relation.crafted_from",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_71b73f52515fe122b11b5629",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s03ab3496e5b7e064a0c841dbf5",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "object": {
+        "entity_id": "ent_s03375205c169f9d7df035ab89b",
+        "kind": "entity"
+      },
+      "predicate": "relation.crafted_from",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_664b1f96b2452e94ccbbcc9a",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s03beb8cf8af804a668ec61baf7",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "object": {
+        "entity_id": "ent_s03089f93124a24ccd5129cbd20",
+        "kind": "entity"
+      },
+      "predicate": "relation.crafted_from",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_b15bb81db2aff0a3804d0d40",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s03c49d242526010d7ffe19e8c1",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "object": {
+        "entity_id": "ent_s03c495af6e1a006917f931baf3",
+        "kind": "entity"
+      },
+      "predicate": "relation.crafted_from",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_f2f901ec1be4b269ba560b54",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s03c9bc2000cefdc5632d38c401",
+      "confidence": 0.25,
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "object": {
+        "entity_id": "ent_s03ab929b20e36553217f3ba6dd",
+        "kind": "entity"
+      },
+      "predicate": "recipe.output",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_4636d5719dea56c5ba734a60",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s03d1426ecc9f7d397e280af4c3",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "object": {
+        "entity_id": "ent_s03700416f71b2e78ba21cf4bf8",
+        "kind": "entity"
+      },
+      "predicate": "relation.crafted_from",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_5f8dd155f9de4c2129eceae8",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s03d230c46bffd41aca20f292da",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "object": {
+        "entity_id": "ent_s031076662488cb15c6dd07183c",
+        "kind": "entity"
+      },
+      "predicate": "relation.crafted_from",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_71b73f52515fe122b11b5629",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s03dbbd4694817bff4757264df1",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "object": {
+        "entity_id": "ent_s036d0b6578619bc2e5c3ae47db",
+        "kind": "entity"
+      },
+      "predicate": "relation.crafted_from",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_4158856feae336a21a199238",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s03dd6d9d910a444b202a6175f1",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "object": {
+        "entity_id": "ent_s0336552f8920e541a79f875ece",
+        "kind": "entity"
+      },
+      "predicate": "relation.crafted_from",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_11013a31269f61b38e9045d3",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s03ec1df3561f7b3273992b5bb7",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "object": {
+        "entity_id": "ent_s032918edbe11909697e6d301b0",
+        "kind": "entity"
+      },
+      "predicate": "relation.crafted_from",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "inferred",
+      "subject_entity_id": "ent_54f5a8165a2dba37c19d1eed",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    }
+  ],
+  "schema_version": "pywel.claim_catalog.v1"
+}
