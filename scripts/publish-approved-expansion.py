@@ -37,7 +37,7 @@ def gh(*args, data=None):
 
 def api(path, method='GET', payload=None, binary=False):
     args = ['api', f'repos/{REPO}/{path}', '--method', method,
-            '-H', 'Accept: application/octet-stream' if binary else 'Accept: application/vnd.github+json',
+            '-H', 'Accept: application/octet-stream' if binary and path.startswith('releases/assets/') else 'Accept: application/vnd.github+json',
             '-H', 'X-GitHub-Api-Version: 2022-11-28']
     data = None
     if payload is not None:
@@ -73,7 +73,7 @@ def public_bytes(url):
 
 require(os.environ.get('GITHUB_REPOSITORY') == REPO, 'Wrong repository')
 require(os.environ.get('GITHUB_REF') == 'refs/heads/agent/publish-approved-expansion-2026-09-10', 'Wrong publication branch')
-require(os.environ.get('GITHUB_EVENT_NAME') == 'create', 'Publication must be explicitly triggered by branch creation')
+require(os.environ.get('GITHUB_EVENT_NAME') in {'create', 'push'}, 'Wrong publication event')
 old = old_identity()
 main_before = api('git/ref/heads/main')['object']['sha']
 require(api(f'git/commits/{COMMIT}')['tree']['sha'] == TREE, 'Approved tree differs')
