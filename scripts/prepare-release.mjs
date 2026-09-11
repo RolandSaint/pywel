@@ -48,6 +48,8 @@ await checkM1(first);
 await checkM1(source);
 const sourceManifest = await readFile(resolve(source, 'SOURCE_MANIFEST.json'));
 assert.deepEqual(await readFile(resolve(first, 'SOURCE_MANIFEST.json')), sourceManifest, 'Source exports differ');
+// Git-clean does not exclude ignored build inputs. Reject them before packaging.
+await verifyDistribution(data, source);
 
 function archive(directory) {
   const tar = execFileSync('tar', [
@@ -80,7 +82,7 @@ try {
   const sourceCheck = await checkM1(restoredSource);
   assert.equal(sourceCheck.clean_snapshot_verified, true);
   const offlineCheck = await verifyDistribution(restoredData);
-  const boundCheck = await verifyDistribution(restoredData, root);
+  const boundCheck = await verifyDistribution(restoredData, restoredSource);
   assert.equal(boundCheck.build_id, verifiedData.build_id);
   await writeFile(resolve(restoredSource, 'README.md'), 'deliberately changed verification fixture\n');
   await assert.rejects(checkM1(restoredSource), /Source snapshot changed/);
@@ -110,7 +112,7 @@ const candidate = {
   original_scope_sha256: m1.scope_sha256, additions_sha256: m1.corpus_additions_sha256,
   source_manifest_sha256: digest(sourceManifest), data_checksums_sha256: digest(await readFile(resolve(data, 'checksums.sha256'))),
   data_bundle: verifiedData, archives: files,
-  checks: { ...archiveChecks, source_exports_identical: true, source_archives_identical: true, repeated_data_archive_identical: true, cumulative_question_report: true },
+  checks: { ...archiveChecks, exported_source_bound: true, source_exports_identical: true, source_archives_identical: true, repeated_data_archive_identical: true, cumulative_question_report: true },
   limitations: [
     'Full CI and scoped review must pass for this exact commit before readiness acceptance.',
     'Data build reproduction is checked by the preceding test:determinism command.',
