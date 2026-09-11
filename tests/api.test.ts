@@ -94,7 +94,7 @@ describe("read-only REST", () => {
     const { store } = await validStore();
     const app = createApp(store, { buildId: TEST_BUILD_ID });
     const latest = await (await app.request("/v1/patches/latest")).json();
-    expect(latest.patch.version).toBe("1.14.00");
+    expect(latest.patch.version).toBe("2.01.00");
     const patch = await (await app.request("/v1/patches/1.13.01")).json();
     expect(patch.patch.version).toBe("1.13.01");
     expect(patch).not.toHaveProperty("effective_official_note_coverage");

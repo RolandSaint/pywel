@@ -1,6 +1,6 @@
 # Third-party data notices
 
-Reviewed 2026-09-10 (America/Chicago). This notice covers the original 77 evidence records, two M7 additions, three M8A additions, three M8B additions and three R01 additions, for 88 current records. The initial retained manifest and reviewed additions identify exact membership. Source titles, locators, capture context, and hashes remain in the evidence records.
+Reviewed 2026-09-10 (America/Chicago). This notice covers the original 77 evidence records, two M7 additions, three M8A additions, three M8B additions and three R01 additions, for 88 pre-G02 records. G02 adds 18 official notice records, bringing the current total to 106. The initial retained manifest and reviewed additions identify exact membership. Source titles, locators, capture context, and hashes remain in the evidence records.
 
 ## CrimsonWiki community contributions
 
@@ -151,3 +151,28 @@ Fandom normalized records, unknown-license normalized records, private observati
 Historical patch-change prose, completeness reviews, verbatim patch-bullet claims, and dependent verification strategies are also excluded. The publisher notice above applies only to the retained compact factual assertions and locators; it does not assert permission to mirror complete patch notes.
 
 For correction or removal, follow [SOURCE_POLICY](../docs/SOURCE_POLICY.md).
+
+## G02 official notice reconciliation
+
+Pearl Abyss; retrieved 2026-09-10 (America/Chicago). Titles, notice identities, platform scope and short original factual locators only. No copied patch bodies, images or gameplay observation. Publisher IP remains excluded from Pywel's data license. See `docs/G02_PATCH_CATCHUP.md` and the separate review queue for limits.
+
+| Evidence ID | Official notice |
+| --- | --- |
+| `evd_g02notice0730001` | [Patch Notes Version 1.00.03](https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=73) |
+| `evd_g02notice0740001` | [Patch Notes Version 1.00.04 (PlayStation Hotfix)](https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=74) |
+| `evd_g02notice0750001` | [Patch Notes Version 1.00.04 (Mac Steam Hotfix)](https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=75) |
+| `evd_g02notice0800001` | [Patch Notes Version 1.02.00](https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=80) |
+| `evd_g02notice1090001` | [Patch Notes Version 1.15.00](https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=109) |
+| `evd_g02notice1100001` | [Patch Notes Version 1.16.00](https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=110) |
+| `evd_g02notice1110001` | [Patch Notes Version 1.16.01](https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=111) |
+| `evd_g02notice1120001` | [Patch Notes Version 1.16.02](https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=112) |
+| `evd_g02notice1140001` | [Patch Notes Version 1.16.03](https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=114) |
+| `evd_g02notice1150001` | [Patch Notes Version 1.16.04](https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=115) |
+| `evd_g02notice1160001` | [Patch Notes Version 1.17.00](https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=116) |
+| `evd_g02notice1170001` | [Patch Notes Version 1.18.00](https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=117) |
+| `evd_g02notice1190001` | [Patch Notes Version 1.18.01](https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=119) |
+| `evd_g02notice1200001` | [Patch Notes Version 1.18.02](https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=120) |
+| `evd_g02notice1230001` | [Patch Notes Version 2.00.00](https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=123) |
+| `evd_g02notice1260001` | [Patch Notes Version 2.00.01](https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=126) |
+| `evd_g02notice1270001` | [Patch Notes Version 2.00.02](https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=127) |
+| `evd_g02notice1280001` | [Patch Notes Version 2.01.00](https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=128) |

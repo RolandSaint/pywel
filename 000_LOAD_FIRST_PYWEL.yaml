@@ -1,7 +1,7 @@
 schema_version: pywel.load_first.v4
 project_id: pywel_knowledge_standard
 display_name: Pywel Knowledge Standard
-status: post_release_m10_candidate_source
+status: post_release_g02_source
 source_repository: https://github.com/RolandSaint/pywel
 source_visibility: public
 scope_adopted_on: '2026-09-10'
@@ -34,12 +34,13 @@ read_first:
   - docs/DATABASE_SOURCES.md
   - docs/R01_DATABASE_RECONCILIATION.md
   - docs/M10_RELEASE_CANDIDATE.md
+  - docs/G02_PATCH_CATCHUP.md
 run_first:
   - npm ci --ignore-scripts --no-audit --no-fund
   - npm run check
 release_scope:
   dataset: immutable_initial_manifest_plus_reviewed_additions
-  patch_ceiling: '1.14.00'
+  patch_ceiling: '2.01.00'
   patch_scope: historical_snapshot_not_live_game_freshness
   retrieval_language: English
   retained_access:

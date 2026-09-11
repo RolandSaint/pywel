@@ -32,7 +32,7 @@ describe("knowledge retrieval", () => {
     const { store } = await validStore();
     const packet = new KnowledgeIndex(store).answer("Can I remap controller inputs?");
     expect(packet.answer_state).toBe("partial");
-    expect(packet.assumptions.patch).toBe("1.14.00");
+    expect(packet.assumptions.patch).toBe("2.01.00");
     expect(packet.claims[0]?.predicate).toBe("controls.remapping_available");
     expect(packet.evidence[0]?.evidence_id).toBe("evd_01jzcdpatch109official001");
     expect(packet.warnings.join(" ")).toContain("publisher-stated intent");
@@ -139,7 +139,7 @@ describe("knowledge retrieval", () => {
     expect(compact).not.toHaveProperty("strategies");
     expect(compact.catalog).toEqual([
       "ent_acd927ab18d8eea4248813d2",
-      store.receipts[0]!.receipt_id,
+      store.entities.find(entity => entity.entity_id === "ent_acd927ab18d8eea4248813d2")!.provenance.source_receipt_id,
     ]);
   });
 

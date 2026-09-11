@@ -81,7 +81,7 @@ describe("canonical validation", () => {
     expect(store.predicateRegistry.predicates.find((item) => item.predicate === "build.patch_baseline")?.cardinality).toBeUndefined();
     expect(store.entitySubtypeRegistry.registry_version).toBe(9);
     expect(store.entitySubtypeRegistry.subtypes).toHaveLength(71);
-    expect(store.patches).toHaveLength(27);
+    expect(store.patches).toHaveLength(CURRENT_CORPUS.patches);
     expect(store.entities).toHaveLength(CURRENT_CORPUS.entity_records);
     expect(store.claims).toHaveLength(CURRENT_CORPUS.claims);
     expect(store.evidence).toHaveLength(CURRENT_CORPUS.evidence);
@@ -92,7 +92,9 @@ describe("canonical validation", () => {
       expect(patch.content_coverage.level).toBe(claims.length > 0 ? "partial" : "identity_only");
       // The historical counter describes a subset and is not a completeness claim.
       expect(patch.content_coverage.normalized_claim_count).toBeLessThanOrEqual(claims.length);
-      expect(patch.content_coverage.notes).toContain("complete note or observed gameplay coverage is not claimed");
+      expect(patch.content_coverage.notes).toContain(patch.patch_id.startsWith("pat_g02")
+        ? "no normalized gameplay claims or claim-review advancement"
+        : "complete note or observed gameplay coverage is not claimed");
     }
   });
 });

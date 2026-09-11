@@ -1,10 +1,9 @@
-import { execFileSync } from "node:child_process";
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { readFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import { describe, expect, it } from "vitest";
-import { sha256 } from "../src/core/canonical-json.js";
+import { canonicalJson, sha256 } from "../src/core/canonical-json.js";
 import { KnowledgeIndex } from "../src/core/query.js";
-import { originalReleaseStore, validStore } from "./helpers.js";
+import { firstExpansionStore, originalReleaseStore } from "./helpers.js";
 
 // Original M6 questions, not a new whole-game benchmark. Context is unchanged.
 const queries = [
@@ -28,10 +27,16 @@ const improvements = new Map([
   [7, ["item.effect_summary", "ent_m8bwitchsring0000001"]],
 ]);
 
-describe("M10 expansion release acceptance", () => {
+describe("M10 published-expansion regression (not a new release acceptance)", () => {
   it("preserves the approved R01 content boundary and original publication scope", async () => {
-    const { root, store } = await validStore();
-    expect(sha256(await readFile(resolve(root, "quality/corpus-additions.json")))).toBe("17f6abb88ce201d6095efa2efd2a061e63076da3c3577f6e4184d2c0cc07c8f0");
+    const { root, store } = await firstExpansionStore();
+    const additions = JSON.parse(await readFile(resolve(root, "quality/corpus-additions.json"), "utf8"));
+    // Reconstruct only the already-published additions; the live union is checked by m1:check.
+    const published = { ...additions, scope_id: "pywel-post-release-m7-r01",
+      canonical_files: additions.canonical_files.filter((file: { path: string }) => !file.path.endsWith("/g02-official-catchup.json")),
+      record_ids: Object.fromEntries(Object.entries(additions.record_ids as Record<string, string[]>).map(([key, ids]) => [key, ids.filter(id => !id.includes("_g02"))])),
+    };
+    expect(sha256(canonicalJson(published, true))).toBe("17f6abb88ce201d6095efa2efd2a061e63076da3c3577f6e4184d2c0cc07c8f0");
     expect(sha256(await readFile(resolve(root, "quality/public-release-scope.json")))).toBe("9bea33a672f0d2043e19e706e4d67cd8537823ad47154242916422c53c7aeb7f");
     expect([store.entities.length, store.claims.length, store.evidence.length, store.patches.length, store.strategies.length, store.receipts.length]).toEqual([320, 1447, 88, 27, 1, 5]);
     expect(store.predicateRegistry.registry_version).toBe(14);
@@ -40,7 +45,7 @@ describe("M10 expansion release acceptance", () => {
   });
 
   it("reruns all twenty M6 questions without upgrading partial knowledge to completeness", async () => {
-    const { root, store } = await validStore();
+    const { store } = await firstExpansionStore();
     const original = (await originalReleaseStore()).store;
     const index = new KnowledgeIndex(store);
     const prior = new KnowledgeIndex(original);
@@ -75,16 +80,7 @@ describe("M10 expansion release acceptance", () => {
         expect(result.candidate.state, result.id).not.toBe("supported");
       }
     }
-    const superseded = new Set(store.claims.flatMap(c => c.supersedes_claim_ids ?? []));
-    const report = {
-      milestone: "M10", release_label: "expansion-2026.09.10.1", source_commit: execFileSync("git", ["rev-parse", "HEAD"], { cwd: root, encoding: "utf8" }).trim(),
-      checks_passed: true,
-      method: "Twenty original M6 questions. Historical M6 states are recorded evidence from Node 22, not a rerun of the old engine. Both record sets are freshly evaluated with the candidate engine on the current runtime; this isolates data additions, not historical software accuracy.",
-      limitations: "Deliberately gap-focused sample, not a whole-product accuracy percentage. Partial historical answers are not current-game verification. Existing milestone tests separately cover the accepted question waves and full/compact REST/stdio MCP.",
-      counts: { entities: store.entities.length, stored_claims: store.claims.length, evidence: store.evidence.length, superseded_ids: superseded.size, claims_without_review_boundary: store.claims.filter(c => c.validity.reviewed_through_patch === null).length, typed_unknowns: store.claims.filter(c => c.object.kind === "unknown").length },
-      results,
-    };
-    await mkdir(resolve(root, "dist"), { recursive: true });
-    await writeFile(resolve(root, "dist/m10-acceptance.json"), `${JSON.stringify(report, null, 2)}\n`);
+    // Published acceptance bytes remain in the immutable release. Do not write a
+    // new M10-labelled acceptance artifact from a later source revision.
   });
 });

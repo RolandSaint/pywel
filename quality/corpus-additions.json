@@ -26,6 +26,10 @@
       "sha256": "ce6ed10a2823a77a5b15dbe28e61a6d48fab4848dc92bd4644c654e9d69d74ad"
     },
     {
+      "path": "data/canonical/evidence/g02-official-catchup.json",
+      "sha256": "3fe7ff0c813463c2bcdf78c81f94d38153c65bbd9e2d0b9d362aa07411b269bc"
+    },
+    {
       "path": "data/canonical/evidence/m7-house-roberts.json",
       "sha256": "7643d3b8c70f7c61f36240c817ccb582819a7bb86fd2911726c2b4b9db0527bb"
     },
@@ -40,6 +44,14 @@
     {
       "path": "data/canonical/evidence/r01-equipment-database.json",
       "sha256": "e2aee03faeb17c06f2da50067f3b2aa98be785219f210c70e32a2d20beb4b4d9"
+    },
+    {
+      "path": "data/canonical/patches/g02-official-catchup.json",
+      "sha256": "b99cde6a7a6c744b903311583315e6c7736b773694d6b132bb864078bce1a1d8"
+    },
+    {
+      "path": "data/canonical/receipts/g02-official-catchup.json",
+      "sha256": "d34447dc1ae97280b4dd0f3ff262eb118d93a1d07a65e60b4790bc02c7535492"
     },
     {
       "path": "data/canonical/receipts/m7-house-roberts.json",
@@ -132,6 +144,24 @@
     "evidence": [
       "evd_43cf07ba816dbe19d270d124",
       "evd_db435362e5eb93eba7f3eac4",
+      "evd_g02notice0730001",
+      "evd_g02notice0740001",
+      "evd_g02notice0750001",
+      "evd_g02notice0800001",
+      "evd_g02notice1090001",
+      "evd_g02notice1100001",
+      "evd_g02notice1110001",
+      "evd_g02notice1120001",
+      "evd_g02notice1140001",
+      "evd_g02notice1150001",
+      "evd_g02notice1160001",
+      "evd_g02notice1170001",
+      "evd_g02notice1190001",
+      "evd_g02notice1200001",
+      "evd_g02notice1230001",
+      "evd_g02notice1260001",
+      "evd_g02notice1270001",
+      "evd_g02notice1280001",
       "evd_m8aconsolepulse2026091001",
       "evd_m8asealedguide2026091001",
       "evd_m8avulkk2026091001",
@@ -144,8 +174,27 @@
     ],
     "patchChanges": [],
     "patchReviews": [],
-    "patches": [],
+    "patches": [
+      "pat_g02patch100030001",
+      "pat_g02patch100040001",
+      "pat_g02patch102000001",
+      "pat_g02patch115000001",
+      "pat_g02patch116000001",
+      "pat_g02patch116010001",
+      "pat_g02patch116020001",
+      "pat_g02patch116030001",
+      "pat_g02patch116040001",
+      "pat_g02patch117000001",
+      "pat_g02patch118000001",
+      "pat_g02patch118010001",
+      "pat_g02patch118020001",
+      "pat_g02patch200000001",
+      "pat_g02patch200010001",
+      "pat_g02patch200020001",
+      "pat_g02patch201000001"
+    ],
     "receipts": [
+      "rcp_g02patchcatchup2026091001",
       "rcp_m7houseroberts2026091001",
       "rcp_m8aprogression2026091001",
       "rcp_m8bequipment2026091001",
@@ -255,5 +304,5 @@
     }
   ],
   "schema_version": "pywel.corpus_additions.v1",
-  "scope_id": "pywel-post-release-m7-r01"
+  "scope_id": "pywel-post-release-m7-g02"
 }
