@@ -384,3 +384,114 @@ Reviewed September 11, 2026. CrimsonDB individual public entries; 200 additional
 | `evd_s01fcb74bc5577bace1debd0be2` | [Karanda's Necklace - CrimsonDB](https://crimsondb.gg/accessories/karandas-necklace) |
 | `evd_s01fea3dc26f32a8fd64f17f862` | [White Bear Helm - CrimsonDB](https://crimsondb.gg/armor/white-bear-helm) |
 | `evd_s01ff1bc803f3261a21f100ec51` | [Goblin King's Treasure Dagger - CrimsonDB](https://crimsondb.gg/weapons/goblin-kings-treasure-dagger) |
+
+
+## S02 acquisition-depth additions
+
+Reviewed September 11, 2026. S02 adds 100 CrimsonDB acquisition-source records and three guide records, for 409 evidence records in this source. Only selected original acquisition/learning statements and locators are retained; no source bodies, full databases, recipes, media or game files. Prior records and dispositions are unchanged. See [S02 scope](../docs/S02_ACQUISITION.md) for map, station, spoiler and current-availability limits. This is not a blanket reuse licence or independent legal clearance.
+
+| Evidence ID | Source attribution |
+| --- | --- |
+| `evd_s0200f6c0f5854c228bc6ada8e6` | [Goldlight Plate Helm - CrimsonDB acquisition fields](https://crimsondb.gg/armor/goldlight-plate-helm) — CrimsonDB |
+| `evd_s0208e15703ded1fe255c4ae796` | [Eternal Darkness - CrimsonDB acquisition fields](https://crimsondb.gg/accessories/eternal-darkness) — CrimsonDB |
+| `evd_s020925b070ed804ce57b0efd53` | [Aeserion Warhammer - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/aeserion-warhammer) — CrimsonDB |
+| `evd_s020b7b9b1db8261813f72360af` | [Chillfallen Sword - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/chillfallen-sword) — CrimsonDB |
+| `evd_s020ce3c76ce0bc2c97918cd559` | [Goldlight Plate Gloves - CrimsonDB acquisition fields](https://crimsondb.gg/armor/goldlight-plate-gloves) — CrimsonDB |
+| `evd_s020f45adc7fd18c7016d0b7553` | [Autumn Banquet Plate Helm - CrimsonDB acquisition fields](https://crimsondb.gg/armor/autumn-banquet-plate-helm) — CrimsonDB |
+| `evd_s0213a91ee753fb6ec2b2767e0a` | [Divine Echoes Bow - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/divine-echoes-bow) — CrimsonDB |
+| `evd_s021957c660bdfb77f4fd264520` | [Leather Helm of the Fallen Kingdom - CrimsonDB acquisition fields](https://crimsondb.gg/armor/leather-helm-of-the-fallen-kingdom) — CrimsonDB |
+| `evd_s0226b7948e4ef7f8a96f4e143a` | [Aeserion Greataxe - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/aeserion-greataxe) — CrimsonDB |
+| `evd_s0226e41d0e2deecf7a184cde13` | [Goldlight Plate Cloak - CrimsonDB acquisition fields](https://crimsondb.gg/armor/goldlight-plate-cloak) — CrimsonDB |
+| `evd_s02276958a80aa9e36b02a7f5d1` | [Fallen Kingdom's Rapier - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/fallen-kingdoms-rapier) — CrimsonDB |
+| `evd_s0227c4a85d0a5256a4c8fc7c7a` | [Brass Rose Rapier - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/brass-rose-rapier) — CrimsonDB |
+| `evd_s0229e4c598dc56ded9970e433e` | [Dagger of Dark Pursuit - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/dagger-of-dark-pursuit) — CrimsonDB |
+| `evd_s022af9a70a7639a317e8ff3a2f` | [Greathammer of Fire - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/greathammer-of-fire) — CrimsonDB |
+| `evd_s022c52725f2347170bd53c2488` | [Desert Hammer - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/desert-hammer) — CrimsonDB |
+| `evd_s022f41f409dcc9d5698bb78ca7` | [Delesyian Signet - CrimsonDB acquisition fields](https://crimsondb.gg/accessories/delesyian-signet) — CrimsonDB |
+| `evd_s0230b1528edea2d4c2ba08c9ab` | [Crimson Chaser equipment locations - VULKK](https://vulkk.com/2026/05/25/how-to-get-the-crimson-chaser-armor-in-crimson-desert-overview-and-stats/) — VULKK / Endonae |
+| `evd_s02323d43b866fe4d927b4b9b33` | [Aeserion Spear - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/aeserion-spear) — CrimsonDB |
+| `evd_s02359b676706eb32b86755442d` | [Dark Ringleader's Cloth Cloak - CrimsonDB acquisition fields](https://crimsondb.gg/armor/dark-ringleaders-cloth-cloak) — CrimsonDB |
+| `evd_s0237b4d9569787bddfac506bce` | [Golden Fire - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/golden-fire) — CrimsonDB |
+| `evd_s023dc92c3e98108c7bc589506c` | [King's Dagger - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/kings-dagger) — CrimsonDB |
+| `evd_s024906eb60e6092efd5f84d249` | [Frozen Heart Plate Boots - CrimsonDB acquisition fields](https://crimsondb.gg/armor/frozen-heart-plate-boots) — CrimsonDB |
+| `evd_s0249311df97570addf8011a1c4` | [Hungering Fang Leather Gloves - CrimsonDB acquisition fields](https://crimsondb.gg/armor/hungering-fang-leather-gloves) — CrimsonDB |
+| `evd_s024c7fb6861d4babcb217459f3` | [Elegant Carmine Plate Helm - CrimsonDB acquisition fields](https://crimsondb.gg/armor/elegant-carmine-plate-helm) — CrimsonDB |
+| `evd_s024cd6fddfb78ba9d787f1cf4e` | [Crossroads Necklace - CrimsonDB acquisition fields](https://crimsondb.gg/accessories/crossroads-necklace) — CrimsonDB |
+| `evd_s0254c3eba58bcc92562c05a824` | [Elegant Carmine Leather Armor - CrimsonDB acquisition fields](https://crimsondb.gg/armor/elegant-carmine-leather-armor) — CrimsonDB |
+| `evd_s025989c42b14d08fb30cd9a23e` | [Dark Marksman's Plate Armor - CrimsonDB acquisition fields](https://crimsondb.gg/armor/dark-marksmans-plate-armor) — CrimsonDB |
+| `evd_s025db0d4fa9f8861ebe586e601` | [Finely Crafted Gold Necklace - CrimsonDB acquisition fields](https://crimsondb.gg/accessories/finely-crafted-gold-necklace) — CrimsonDB |
+| `evd_s0262524d8933793b5470be5ced` | [Blackwing Leather Cloak - CrimsonDB acquisition fields](https://crimsondb.gg/armor/blackwing-leather-cloak) — CrimsonDB |
+| `evd_s0262674ba59b356e936c6988bd` | [Kadel Mace - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/kadel-mace) — CrimsonDB |
+| `evd_s0266edd45226bc4341e1e3f2f6` | [Hernandian Signet - CrimsonDB acquisition fields](https://crimsondb.gg/accessories/hernandian-signet) — CrimsonDB |
+| `evd_s02670137a95e64a9a1692ce655` | [Aeserion Greathammer - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/aeserion-greathammer) — CrimsonDB |
+| `evd_s026a015bb316df73e5e1d1a67c` | [Golden Greed Plate Boots - CrimsonDB acquisition fields](https://crimsondb.gg/armor/golden-greed-plate-boots) — CrimsonDB |
+| `evd_s026b70d6fc31e8376526fb2031` | [Dark Marksman's Plate Boots - CrimsonDB acquisition fields](https://crimsondb.gg/armor/dark-marksmans-plate-boots) — CrimsonDB |
+| `evd_s026cfe03884e28bc8caf1198c1` | [Ancient Ring - CrimsonDB acquisition fields](https://crimsondb.gg/accessories/ancient-ring) — CrimsonDB |
+| `evd_s026e88feee4436d34aa0ffcc8a` | [Darkbringer - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/darkbringer) — CrimsonDB |
+| `evd_s02700a431a0ac6e83b587bb2ae` | [Necklace of Lightning - CrimsonDB acquisition fields](https://crimsondb.gg/accessories/necklace-of-lightning) — CrimsonDB |
+| `evd_s0273bf17068401dcb610bf7e0b` | [Golden Greed Plate Gloves - CrimsonDB acquisition fields](https://crimsondb.gg/armor/golden-greed-plate-gloves) — CrimsonDB |
+| `evd_s0277fcf54d139b514b8206f111` | [Frozen Soul - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/frozen-soul) — CrimsonDB |
+| `evd_s0278a5608097f2dfab8623d7a9` | [Blackwing Mask - CrimsonDB acquisition fields](https://crimsondb.gg/armor/blackwing-mask) — CrimsonDB |
+| `evd_s02790422a5f4e849ea6dec7d5a` | [Blaster No. 8 - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/blaster-no-8) — CrimsonDB |
+| `evd_s027be1db8c53bb4401f0e94cd9` | [Frozen Heart Plate Gloves - CrimsonDB acquisition fields](https://crimsondb.gg/armor/frozen-heart-plate-gloves) — CrimsonDB |
+| `evd_s027c3f7600914a2c4d293c51db` | [Golden Greed Plate Helm - CrimsonDB acquisition fields](https://crimsondb.gg/armor/golden-greed-plate-helm) — CrimsonDB |
+| `evd_s027db5ae54d98d36b163648ba3` | [Hungering Fang Leather Armor - CrimsonDB acquisition fields](https://crimsondb.gg/armor/hungering-fang-leather-armor) — CrimsonDB |
+| `evd_s027f10ef25066b558b41b2f6b8` | [Ancient Earring - CrimsonDB acquisition fields](https://crimsondb.gg/accessories/ancient-earring) — CrimsonDB |
+| `evd_s027f5d9633fd7982b45899a747` | [Frozen Heart Plate Cloak - CrimsonDB acquisition fields](https://crimsondb.gg/armor/frozen-heart-plate-cloak) — CrimsonDB |
+| `evd_s0282fc5a2bc0eded94c335be2e` | [Knightlord's Sword - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/knightlords-sword) — CrimsonDB |
+| `evd_s02838b8d70094bf69dc1e00f5b` | [Black Iron Axe - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/black-iron-axe) — CrimsonDB |
+| `evd_s028975e70ecadc0eaf7d54f756` | [Kuku Flame-Resistant Armor - CrimsonDB acquisition fields](https://crimsondb.gg/armor/kuku-flame-resistant-armor) — CrimsonDB |
+| `evd_s02897ede1e854816ee08c45f76` | [Aeserion Mace - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/aeserion-mace) — CrimsonDB |
+| `evd_s028a13b0a29d90f2c190cb0557` | [Drakhan Hammer - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/drakhan-hammer) — CrimsonDB |
+| `evd_s0290edee3ad65f6dba6dc1bcfc` | [Kuku Ice-Resistant Armor - CrimsonDB acquisition fields](https://crimsondb.gg/armor/kuku-ice-resistant-armor) — CrimsonDB |
+| `evd_s0292205c22b381b515f74d7ec2` | [Dark Marksman's Plate Gloves - CrimsonDB acquisition fields](https://crimsondb.gg/armor/dark-marksmans-plate-gloves) — CrimsonDB |
+| `evd_s02936c9b12c61db358be4e8364` | [Aeserion Sword - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/aeserion-sword) — CrimsonDB |
+| `evd_s029413a53c3a65030e7cea3de8` | [Golden-Knotted Ancestral Bow - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/golden-knotted-ancestral-bow) — CrimsonDB |
+| `evd_s0294b56fa7df76eafea5ccaef7` | [Ancient's Necklace - CrimsonDB acquisition fields](https://crimsondb.gg/accessories/ancients-necklace) — CrimsonDB |
+| `evd_s0295f3115e14f7d098cc7de9be` | [Golden Deer's Tear - CrimsonDB acquisition fields](https://crimsondb.gg/accessories/golden-deers-tear) — CrimsonDB |
+| `evd_s02975a7b942441720522085071` | [Greymane's Earring - CrimsonDB acquisition fields](https://crimsondb.gg/accessories/greymanes-earring) — CrimsonDB |
+| `evd_s02979f0bb0549c07a3a422bf62` | [Golden Greed Plate Cloak - CrimsonDB acquisition fields](https://crimsondb.gg/armor/golden-greed-plate-cloak) — CrimsonDB |
+| `evd_s0298b22f2bc951189870ab9fa0` | [Earthsplitter - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/earthsplitter) — CrimsonDB |
+| `evd_s029aae86271301a7ad9d0dcdc9` | [Great Thief's Gloves - CrimsonDB acquisition fields](https://crimsondb.gg/armor/great-thiefs-gloves) — CrimsonDB |
+| `evd_s02a0692a826059913070d3e720` | [Goldlight Plate Boots - CrimsonDB acquisition fields](https://crimsondb.gg/armor/goldlight-plate-boots) — CrimsonDB |
+| `evd_s02a28676d0e85749673ddae532` | [Dark Executioner Leather Armor - CrimsonDB acquisition fields](https://crimsondb.gg/armor/dark-executioner-leather-armor) — CrimsonDB |
+| `evd_s02a369b68176b02908aab48073` | [Double-Headed Axe of Greed - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/double-headed-axe-of-greed) — CrimsonDB |
+| `evd_s02a393901606530a19d23fd292` | [Caliburn's Mercy Pistol - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/caliburns-mercy-pistol) — CrimsonDB |
+| `evd_s02a58bc7c3afa3fedff033ba0f` | [Aeserion Dagger - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/aeserion-dagger) — CrimsonDB |
+| `evd_s02a5eb0006ed534b2560e068ea` | [Light of the Battlefield Earring - CrimsonDB acquisition fields](https://crimsondb.gg/accessories/light-of-the-battlefield-earring) — CrimsonDB |
+| `evd_s02a8ede13d2b0f71f6fcb8ed3d` | [Brass Warden's Plate Gloves - CrimsonDB acquisition fields](https://crimsondb.gg/armor/brass-wardens-plate-gloves) — CrimsonDB |
+| `evd_s02aaf49e0cb768623a6c432381` | [Kuku Bismuth Spear - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/kuku-bismuth-spear) — CrimsonDB |
+| `evd_s02ad18f281af01b5b52710ae55` | [Dark Ringleader's Cloth Helm - CrimsonDB acquisition fields](https://crimsondb.gg/armor/dark-ringleaders-cloth-helm) — CrimsonDB |
+| `evd_s02ae60722824616fbca02d2c22` | [Earring of Dark Magic - CrimsonDB acquisition fields](https://crimsondb.gg/accessories/earring-of-dark-magic) — CrimsonDB |
+| `evd_s02b1462ee85dacef6b919eb695` | [Axe of Greed acquisition guide - ConsolePulse](https://consolepulse.com/multiplatform/crimson-desert/guides/crimson-desert-axe-of-greed-location) — ConsolePulse |
+| `evd_s02b2015aabe65c4d209c445f00` | [Duskfang Leather Cloak - CrimsonDB acquisition fields](https://crimsondb.gg/armor/duskfang-leather-cloak) — CrimsonDB |
+| `evd_s02b2c4028f3ea626e9d9bb50a7` | [Kuku Lightning-Resistant Armor - CrimsonDB acquisition fields](https://crimsondb.gg/armor/kuku-lightning-resistant-armor) — CrimsonDB |
+| `evd_s02b6b9349f531a870d8ffd3767` | [Finest Rhinard Cannon - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/finest-rhinard-cannon) — CrimsonDB |
+| `evd_s02b7d6999189fd8d80c697e455` | [Dark Marksman's Plate Cloak - CrimsonDB acquisition fields](https://crimsondb.gg/armor/dark-marksmans-plate-cloak) — CrimsonDB |
+| `evd_s02b7f9dc2d5f22b65343e29eb5` | [Fluttering Radiance Plate Boots - CrimsonDB acquisition fields](https://crimsondb.gg/armor/fluttering-radiance-plate-boots) — CrimsonDB |
+| `evd_s02b8f411000c7b336c8e73a758` | [Black Lion Earring - CrimsonDB acquisition fields](https://crimsondb.gg/accessories/black-lion-earring) — CrimsonDB |
+| `evd_s02b9abb8a2ec23040a6a912003` | [Golden Greed Plate Armor - CrimsonDB acquisition fields](https://crimsondb.gg/armor/golden-greed-plate-armor) — CrimsonDB |
+| `evd_s02ba3fc2f33604054bcde81f42` | [Acria Sword - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/acria-sword) — CrimsonDB |
+| `evd_s02c0c83dcae26dc921ce7f59a3` | [Blackwing Leather Boots - CrimsonDB acquisition fields](https://crimsondb.gg/armor/blackwing-leather-boots) — CrimsonDB |
+| `evd_s02c245cd4d184f4f9c780af23d` | [Hungering Fang Leather Cloak - CrimsonDB acquisition fields](https://crimsondb.gg/armor/hungering-fang-leather-cloak) — CrimsonDB |
+| `evd_s02ca8e68309a055b579d6c828d` | [Demeniss Earring - CrimsonDB acquisition fields](https://crimsondb.gg/accessories/demeniss-earring) — CrimsonDB |
+| `evd_s02cf0d284d54e5815438c6d98e` | [Elegant Carmine Plate Boots - CrimsonDB acquisition fields](https://crimsondb.gg/armor/elegant-carmine-plate-boots) — CrimsonDB |
+| `evd_s02cfbc19b3640292c76e2624d6` | [Aeserion Longsword - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/aeserion-longsword) — CrimsonDB |
+| `evd_s02d88f7da370275889991380c1` | [Artisan's Hand - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/artisans-hand) — CrimsonDB |
+| `evd_s02da6d9dc4714302274b85b35b` | [Demenissian Hero's Musket - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/demenissian-heros-musket) — CrimsonDB |
+| `evd_s02ddf12e8964cce3deccd3b6c5` | [Crimson Warden's Bow - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/crimson-wardens-bow) — CrimsonDB |
+| `evd_s02e04c9c3d421b88c9660e8e52` | [Frozen Anguish - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/frozen-anguish) — CrimsonDB |
+| `evd_s02e253a0b690d88eb526f031b7` | [Finely Crafted Gold Ring - CrimsonDB acquisition fields](https://crimsondb.gg/accessories/finely-crafted-gold-ring) — CrimsonDB |
+| `evd_s02e46db911005914747059dade` | [Demenissian Signet - CrimsonDB acquisition fields](https://crimsondb.gg/accessories/demenissian-signet) — CrimsonDB |
+| `evd_s02e62d0302cb424001ecee6628` | [Dark Ringleader's Cloth Armor - CrimsonDB acquisition fields](https://crimsondb.gg/armor/dark-ringleaders-cloth-armor) — CrimsonDB |
+| `evd_s02e7835f0776f0392db297cf8a` | [Gustav Musket - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/gustav-musket) — CrimsonDB |
+| `evd_s02e9771a4e06113cff561124c8` | [Antumbra's Eye - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/antumbras-eye) — CrimsonDB |
+| `evd_s02ecedf495cf54ed8c1fa51842` | [Kuku Rishi's Boots - CrimsonDB acquisition fields](https://crimsondb.gg/armor/kuku-rishis-boots) — CrimsonDB |
+| `evd_s02ee53ec9ee371aef8e3056cd5` | [Blizzard Crystal Necklace - CrimsonDB acquisition fields](https://crimsondb.gg/accessories/blizzard-crystal-necklace) — CrimsonDB |
+| `evd_s02f5b2695d44ae9a0f0ec1dba6` | [Aeserion Bow - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/aeserion-bow) — CrimsonDB |
+| `evd_s02f86a1a438751e8b1e18d6924` | [Elegant Carmine Plate Gloves - CrimsonDB acquisition fields](https://crimsondb.gg/armor/elegant-carmine-plate-gloves) — CrimsonDB |
+| `evd_s02fb1f57b893b17367409f5658` | [Brass Rose Rapier location guide - NerdsChalk](https://nerdschalk.com/crimson-desert-brass-rose-rapier-location-stats-and-effects-explained/) — NerdsChalk / Priya Singh |
+| `evd_s02fb8c7196aeb4ada3492819f1` | [Aeserion Halberd - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/aeserion-halberd) — CrimsonDB |
+| `evd_s02fbbd6bd3dbaa722e83b8062f` | [Elegant Carmine Leather Cloak - CrimsonDB acquisition fields](https://crimsondb.gg/armor/elegant-carmine-leather-cloak) — CrimsonDB |
+| `evd_s02fcb74bc5577bace1debd0be2` | [Karanda's Necklace - CrimsonDB acquisition fields](https://crimsondb.gg/accessories/karandas-necklace) — CrimsonDB |
+| `evd_s02ff1bc803f3261a21f100ec51` | [Goblin King's Treasure Dagger - CrimsonDB acquisition fields](https://crimsondb.gg/weapons/goblin-kings-treasure-dagger) — CrimsonDB |

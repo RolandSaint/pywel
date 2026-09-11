@@ -23,7 +23,8 @@
     "M7_HOUSE_ROBERTS.md",
     "M8A_PROGRESSION.md",
     "M8B_EQUIPMENT.md",
-    "S01_EQUIPMENT_POPULATION.md"
+    "S01_EQUIPMENT_POPULATION.md",
+    "S02_ACQUISITION.md"
   ],
   "public_schemas": [
     "agent-contract.schema.json",

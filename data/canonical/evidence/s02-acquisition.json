@@ -1,0 +1,2787 @@
+{
+  "schema_version": "pywel.evidence_catalog.v1",
+  "catalog_id": "cat_s02evidence20260911",
+  "records": [
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s0200f6c0f5854c228bc6ada8e6",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/goldlight-plate-helm",
+        "title": "Goldlight Plate Helm - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:27:13.822798+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s0208e15703ded1fe255c4ae796",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/accessories/eternal-darkness",
+        "title": "Eternal Darkness - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:47.424247+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s020925b070ed804ce57b0efd53",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/aeserion-warhammer",
+        "title": "Aeserion Warhammer - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:15.552148+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s020b7b9b1db8261813f72360af",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/chillfallen-sword",
+        "title": "Chillfallen Sword - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:34.247871+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s020ce3c76ce0bc2c97918cd559",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/goldlight-plate-gloves",
+        "title": "Goldlight Plate Gloves - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:27:11.653190+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s020f45adc7fd18c7016d0b7553",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/autumn-banquet-plate-helm",
+        "title": "Autumn Banquet Plate Helm - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:25:49.328947+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s0213a91ee753fb6ec2b2767e0a",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/divine-echoes-bow",
+        "title": "Divine Echoes Bow - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:50.747997+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s021957c660bdfb77f4fd264520",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/leather-helm-of-the-fallen-kingdom",
+        "title": "Leather Helm of the Fallen Kingdom - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:27:39.117478+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s0226b7948e4ef7f8a96f4e143a",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/aeserion-greataxe",
+        "title": "Aeserion Greataxe - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:25:55.733803+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s0226e41d0e2deecf7a184cde13",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/goldlight-plate-cloak",
+        "title": "Goldlight Plate Cloak - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:27:08.348936+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02276958a80aa9e36b02a7f5d1",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/fallen-kingdoms-rapier",
+        "title": "Fallen Kingdom's Rapier - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:27:01.750675+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s0227c4a85d0a5256a4c8fc7c7a",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/brass-rose-rapier",
+        "title": "Brass Rose Rapier - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:28.767648+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s0229e4c598dc56ded9970e433e",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/dagger-of-dark-pursuit",
+        "title": "Dagger of Dark Pursuit - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:39.745011+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s022af9a70a7639a317e8ff3a2f",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/greathammer-of-fire",
+        "title": "Greathammer of Fire - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:27:23.754662+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s022c52725f2347170bd53c2488",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/desert-hammer",
+        "title": "Desert Hammer - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:48.547134+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s022f41f409dcc9d5698bb78ca7",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/accessories/delesyian-signet",
+        "title": "Delesyian Signet - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:25.438149+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s0230b1528edea2d4c2ba08c9ab",
+      "evidence_type": "guide",
+      "source": {
+        "url": "https://vulkk.com/2026/05/25/how-to-get-the-crimson-chaser-armor-in-crimson-desert-overview-and-stats/",
+        "title": "Crimson Chaser equipment locations - VULKK",
+        "publisher": "VULKK / Endonae",
+        "published_at": null,
+        "locator": "Acquisition > Other Crimson Chaser Weapon Locations > Kadel Mace; May 25, 2026. Only the workbench pickup location, not the following speculative faction association, is retained."
+      },
+      "captured_at": "2026-09-11T18:36:00Z",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "guide:vulkk:endonae"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02323d43b866fe4d927b4b9b33",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/aeserion-spear",
+        "title": "Aeserion Spear - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:10.032201+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02359b676706eb32b86755442d",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/dark-ringleaders-cloth-cloak",
+        "title": "Dark Ringleader's Cloth Cloak - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:18.846866+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s0237b4d9569787bddfac506bce",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/golden-fire",
+        "title": "Golden Fire - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:27:18.254749+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s023dc92c3e98108c7bc589506c",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/kings-dagger",
+        "title": "King's Dagger - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:27:32.558532+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s024906eb60e6092efd5f84d249",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/frozen-heart-plate-boots",
+        "title": "Frozen Heart Plate Boots - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:44.148810+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s0249311df97570addf8011a1c4",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/hungering-fang-leather-gloves",
+        "title": "Hungering Fang Leather Gloves - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:27:24.867899+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s024c7fb6861d4babcb217459f3",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/elegant-carmine-plate-helm",
+        "title": "Elegant Carmine Plate Helm - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:38.653730+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s024cd6fddfb78ba9d787f1cf4e",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/accessories/crossroads-necklace",
+        "title": "Crossroads Necklace - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:19.940437+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s0254c3eba58bcc92562c05a824",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/elegant-carmine-leather-armor",
+        "title": "Elegant Carmine Leather Armor - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:27.650349+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s025989c42b14d08fb30cd9a23e",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/dark-marksmans-plate-armor",
+        "title": "Dark Marksman's Plate Armor - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:05.616324+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s025db0d4fa9f8861ebe586e601",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/accessories/finely-crafted-gold-necklace",
+        "title": "Finely Crafted Gold Necklace - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:52.943504+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s0262524d8933793b5470be5ced",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/blackwing-leather-cloak",
+        "title": "Blackwing Leather Cloak - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:25:54.637693+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s0262674ba59b356e936c6988bd",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/kadel-mace",
+        "title": "Kadel Mace - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:27:29.244275+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s0266edd45226bc4341e1e3f2f6",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/accessories/hernandian-signet",
+        "title": "Hernandian Signet - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:27:14.957367+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02670137a95e64a9a1692ce655",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/aeserion-greathammer",
+        "title": "Aeserion Greathammer - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:25:59.029085+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s026a015bb316df73e5e1d1a67c",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/golden-greed-plate-boots",
+        "title": "Golden Greed Plate Boots - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:55.134627+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s026b70d6fc31e8376526fb2031",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/dark-marksmans-plate-boots",
+        "title": "Dark Marksman's Plate Boots - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:07.846027+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s026cfe03884e28bc8caf1198c1",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/accessories/ancient-ring",
+        "title": "Ancient Ring - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:25:57.912422+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s026e88feee4436d34aa0ffcc8a",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/darkbringer",
+        "title": "Darkbringer - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:43.082670+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02700a431a0ac6e83b587bb2ae",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/accessories/necklace-of-lightning",
+        "title": "Necklace of Lightning - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:27:31.451738+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s0273bf17068401dcb610bf7e0b",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/golden-greed-plate-gloves",
+        "title": "Golden Greed Plate Gloves - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:27:00.641553+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s0277fcf54d139b514b8206f111",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/frozen-soul",
+        "title": "Frozen Soul - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:27:12.758488+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s0278a5608097f2dfab8623d7a9",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/blackwing-mask",
+        "title": "Blackwing Mask - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:25:56.854007+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02790422a5f4e849ea6dec7d5a",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/blaster-no-8",
+        "title": "Blaster No. 8 - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:26.534306+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s027be1db8c53bb4401f0e94cd9",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/frozen-heart-plate-gloves",
+        "title": "Frozen Heart Plate Gloves - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:49.836632+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s027c3f7600914a2c4d293c51db",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/golden-greed-plate-helm",
+        "title": "Golden Greed Plate Helm - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:27:02.822616+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s027db5ae54d98d36b163648ba3",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/hungering-fang-leather-armor",
+        "title": "Hungering Fang Leather Armor - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:27:19.350596+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s027f10ef25066b558b41b2f6b8",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/accessories/ancient-earring",
+        "title": "Ancient Earring - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:25:52.623957+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s027f5d9633fd7982b45899a747",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/frozen-heart-plate-cloak",
+        "title": "Frozen Heart Plate Cloak - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:46.352167+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s0282fc5a2bc0eded94c335be2e",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/knightlords-sword",
+        "title": "Knightlord's Sword - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:27:34.749536+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02838b8d70094bf69dc1e00f5b",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/black-iron-axe",
+        "title": "Black Iron Axe - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:23.238234+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s028975e70ecadc0eaf7d54f756",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/kuku-flame-resistant-armor",
+        "title": "Kuku Flame-Resistant Armor - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:27:28.116900+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02897ede1e854816ee08c45f76",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/aeserion-mace",
+        "title": "Aeserion Mace - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:06.729167+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s028a13b0a29d90f2c190cb0557",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/drakhan-hammer",
+        "title": "Drakhan Hammer - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:56.267608+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s0290edee3ad65f6dba6dc1bcfc",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/kuku-ice-resistant-armor",
+        "title": "Kuku Ice-Resistant Armor - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:27:30.360896+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s0292205c22b381b515f74d7ec2",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/dark-marksmans-plate-gloves",
+        "title": "Dark Marksman's Plate Gloves - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:13.381676+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02936c9b12c61db358be4e8364",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/aeserion-sword",
+        "title": "Aeserion Sword - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:12.260363+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s029413a53c3a65030e7cea3de8",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/golden-knotted-ancestral-bow",
+        "title": "Golden-Knotted Ancestral Bow - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:27:21.528993+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s0294b56fa7df76eafea5ccaef7",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/accessories/ancients-necklace",
+        "title": "Ancient's Necklace - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:03.433936+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s0295f3115e14f7d098cc7de9be",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/accessories/golden-deers-tear",
+        "title": "Golden Deer's Tear - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:27:03.939777+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02975a7b942441720522085071",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/accessories/greymanes-earring",
+        "title": "Greymane's Earring - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:27:09.439469+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02979f0bb0549c07a3a422bf62",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/golden-greed-plate-cloak",
+        "title": "Golden Greed Plate Cloak - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:57.348819+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s0298b22f2bc951189870ab9fa0",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/earthsplitter",
+        "title": "Earthsplitter - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:59.544947+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s029aae86271301a7ad9d0dcdc9",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/great-thiefs-gloves",
+        "title": "Great Thief's Gloves - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:27:17.160487+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02a0692a826059913070d3e720",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/goldlight-plate-boots",
+        "title": "Goldlight Plate Boots - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:27:06.146062+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02a28676d0e85749673ddae532",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/dark-executioner-leather-armor",
+        "title": "Dark Executioner Leather Armor - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:02.328937+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02a369b68176b02908aab48073",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/double-headed-axe-of-greed",
+        "title": "Double-Headed Axe of Greed - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:54.043291+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02a393901606530a19d23fd292",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/caliburns-mercy-pistol",
+        "title": "Caliburn's Mercy Pistol - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:32.042379+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02a58bc7c3afa3fedff033ba0f",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/aeserion-dagger",
+        "title": "Aeserion Dagger - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:25:53.542545+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02a5eb0006ed534b2560e068ea",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/accessories/light-of-the-battlefield-earring",
+        "title": "Light of the Battlefield Earring - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:27:25.951346+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02a8ede13d2b0f71f6fcb8ed3d",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/brass-wardens-plate-gloves",
+        "title": "Brass Warden's Plate Gloves - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:00.144107+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02aaf49e0cb768623a6c432381",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/kuku-bismuth-spear",
+        "title": "Kuku Bismuth Spear - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:27:38.048675+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02ad18f281af01b5b52710ae55",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/dark-ringleaders-cloth-helm",
+        "title": "Dark Ringleader's Cloth Helm - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:22.143053+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02ae60722824616fbca02d2c22",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/accessories/earring-of-dark-magic",
+        "title": "Earring of Dark Magic - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:41.950963+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02b1462ee85dacef6b919eb695",
+      "evidence_type": "guide",
+      "source": {
+        "url": "https://consolepulse.com/multiplatform/crimson-desert/guides/crimson-desert-axe-of-greed-location",
+        "title": "Axe of Greed acquisition guide - ConsolePulse",
+        "publisher": "ConsolePulse",
+        "published_at": null,
+        "locator": "Where to Find the Axe > Reach the Shipwreck / Check Beside the Crates; displayed revision September 7, 2026. Only the coastal wreck/crate route is retained; patch, guaranteed-copy and respawn assertions are not adopted."
+      },
+      "captured_at": "2026-09-11T18:36:00Z",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "guide:consolepulse:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02b2015aabe65c4d209c445f00",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/duskfang-leather-cloak",
+        "title": "Duskfang Leather Cloak - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:24.336369+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02b2c4028f3ea626e9d9bb50a7",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/kuku-lightning-resistant-armor",
+        "title": "Kuku Lightning-Resistant Armor - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:27:33.820594+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02b6b9349f531a870d8ffd3767",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/finest-rhinard-cannon",
+        "title": "Finest Rhinard Cannon - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:27:07.281623+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02b7d6999189fd8d80c697e455",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/dark-marksmans-plate-cloak",
+        "title": "Dark Marksman's Plate Cloak - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:11.155748+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02b7f9dc2d5f22b65343e29eb5",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/fluttering-radiance-plate-boots",
+        "title": "Fluttering Radiance Plate Boots - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:40.830188+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02b8f411000c7b336c8e73a758",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/accessories/black-lion-earring",
+        "title": "Black Lion Earring - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:08.945727+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02b9abb8a2ec23040a6a912003",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/golden-greed-plate-armor",
+        "title": "Golden Greed Plate Armor - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:51.822665+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02ba3fc2f33604054bcde81f42",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/acria-sword",
+        "title": "Acria Sword - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:25:48.228620+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02c0c83dcae26dc921ce7f59a3",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/blackwing-leather-boots",
+        "title": "Blackwing Leather Boots - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:25:51.358754+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02c245cd4d184f4f9c780af23d",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/hungering-fang-leather-cloak",
+        "title": "Hungering Fang Leather Cloak - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:27:22.653145+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02ca8e68309a055b579d6c828d",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/accessories/demeniss-earring",
+        "title": "Demeniss Earring - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:30.946865+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02cf0d284d54e5815438c6d98e",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/elegant-carmine-plate-boots",
+        "title": "Elegant Carmine Plate Boots - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:33.133236+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02cfbc19b3640292c76e2624d6",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/aeserion-longsword",
+        "title": "Aeserion Longsword - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:04.533513+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02d88f7da370275889991380c1",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/artisans-hand",
+        "title": "Artisan's Hand - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:21.043332+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02da6d9dc4714302274b85b35b",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/demenissian-heros-musket",
+        "title": "Demenissian Hero's Musket - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:45.220818+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02ddf12e8964cce3deccd3b6c5",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/crimson-wardens-bow",
+        "title": "Crimson Warden's Bow - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:37.531329+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02e04c9c3d421b88c9660e8e52",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/frozen-anguish",
+        "title": "Frozen Anguish - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:27:10.552142+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02e253a0b690d88eb526f031b7",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/accessories/finely-crafted-gold-ring",
+        "title": "Finely Crafted Gold Ring - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:58.441621+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02e46db911005914747059dade",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/accessories/demenissian-signet",
+        "title": "Demenissian Signet - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:36.445357+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02e62d0302cb424001ecee6628",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/dark-ringleaders-cloth-armor",
+        "title": "Dark Ringleader's Cloth Armor - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:16.638928+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02e7835f0776f0392db297cf8a",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/gustav-musket",
+        "title": "Gustav Musket - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:27:27.025430+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02e9771a4e06113cff561124c8",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/antumbras-eye",
+        "title": "Antumbra's Eye - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:17.750719+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02ecedf495cf54ed8c1fa51842",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/kuku-rishis-boots",
+        "title": "Kuku Rishi's Boots - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:27:35.875642+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02ee53ec9ee371aef8e3056cd5",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/accessories/blizzard-crystal-necklace",
+        "title": "Blizzard Crystal Necklace - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:14.458515+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02f5b2695d44ae9a0f0ec1dba6",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/aeserion-bow",
+        "title": "Aeserion Bow - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:25:50.230077+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02f86a1a438751e8b1e18d6924",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/elegant-carmine-plate-gloves",
+        "title": "Elegant Carmine Plate Gloves - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:35.373797+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02fb1f57b893b17367409f5658",
+      "evidence_type": "guide",
+      "source": {
+        "url": "https://nerdschalk.com/crimson-desert-brass-rose-rapier-location-stats-and-effects-explained/",
+        "title": "Brass Rose Rapier location guide - NerdsChalk",
+        "publisher": "NerdsChalk / Priya Singh",
+        "published_at": null,
+        "locator": "How to find the Brass Rose Rapier, steps 1-5; updated April 27, 2026. Images credit YouTube ASAP; no independent observation credited. Only the short pickup location is retained."
+      },
+      "captured_at": "2026-09-11T18:36:00Z",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "guide:youtube-asap:unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02fb8c7196aeb4ada3492819f1",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/aeserion-halberd",
+        "title": "Aeserion Halberd - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:01.242429+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02fbbd6bd3dbaa722e83b8062f",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/armor/elegant-carmine-leather-cloak",
+        "title": "Elegant Carmine Leather Cloak - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:26:29.823854+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02fcb74bc5577bace1debd0be2",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/accessories/karandas-necklace",
+        "title": "Karanda's Necklace - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:27:20.452946+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.evidence.v1",
+      "evidence_id": "evd_s02ff1bc803f3261a21f100ec51",
+      "evidence_type": "community_report",
+      "source": {
+        "url": "https://crimsondb.gg/weapons/goblin-kings-treasure-dagger",
+        "title": "Goblin King's Treasure Dagger - CrimsonDB acquisition fields",
+        "publisher": "CrimsonDB",
+        "published_at": null,
+        "locator": "Public item acquisition sections: Crafting Recipes (station and Required to Learn link only), Quest Rewards (series and displayed stage), Sold By (seller/shop labels), and Location link where present. Site-wide version is not claim review; raw map parameters are source-local, not verified game coordinates. No source bodies, full recipes, costs, stats or media retained."
+      },
+      "captured_at": "2026-09-11T18:27:16.050326+00:00",
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "reliability": {
+        "tier": "secondary",
+        "independence_group": "database:crimson-desert:upstream-unverified"
+      },
+      "provenance": {
+        "created_at": "2026-09-11T18:36:00Z",
+        "created_by": "pywel_s02_acquisition_population",
+        "source_receipt_id": "rcp_s02acquisition2026091101"
+      }
+    }
+  ]
+}

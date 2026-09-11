@@ -2,9 +2,9 @@
 export const CURRENT_CORPUS = {
   entity_records: 520,
   active_entities: 520,
-  claims: 2591,
-  evidence: 306,
-  receipts: 7,
+  claims: 2836,
+  evidence: 409,
+  receipts: 8,
   patches: 44,
   strategies: 1,
 } as const;

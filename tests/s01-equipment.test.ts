@@ -6,7 +6,7 @@ import { describe, expect, it } from "vitest";
 import { createApp } from "../src/api/app.js";
 import { KnowledgeIndex } from "../src/core/query.js";
 import { stableRecordHash } from "../src/core/canonical-json.js";
-import { validStore } from "./helpers.js";
+import { firstExpansionStore, validStore } from "./helpers.js";
 
 const receipt = "rcp_s01equipment2026091101";
 const context = { patch: "2.01.00", platform: "pc-steam" as const, locale: "en-US", spoilerCeiling: "discovery" as const };
@@ -39,8 +39,8 @@ describe("S01 bounded equipment population", () => {
     const entities = store.entities.filter(isS01), claims = store.claims.filter(isS01), evidence = store.evidence.filter(isS01);
     expect([entities.length, claims.length, evidence.length]).toEqual([200, 1144, 200]);
     expect(["weapon", "armor", "accessory"].map(t => entities.filter(e => e.subtype === t).length)).toEqual([80, 80, 40]);
-    expect(stableRecordHash(store.claims.filter(c => !isS01(c)).sort((a,b) => a.claim_id.localeCompare(b.claim_id)))).toBe("26e48aac8591026951d409f36680f03da1f0b3cc1eaad8bfdbd046dea9e24b74");
-    expect(stableRecordHash(store.entities.filter(e => !isS01(e)).sort((a,b) => a.entity_id.localeCompare(b.entity_id)))).toBe("ce4b177e7c1388a1f378cbd83368cd4bf3c26243e6f000d29889ff66680cc405");
+    expect(stableRecordHash((await firstExpansionStore()).store.claims.sort((a,b) => a.claim_id.localeCompare(b.claim_id)))).toBe("26e48aac8591026951d409f36680f03da1f0b3cc1eaad8bfdbd046dea9e24b74");
+    expect(stableRecordHash((await firstExpansionStore()).store.entities.sort((a,b) => a.entity_id.localeCompare(b.entity_id)))).toBe("ce4b177e7c1388a1f378cbd83368cd4bf3c26243e6f000d29889ff66680cc405");
     expect(claims.filter(c => c.predicate === "item.effect_summary")).toHaveLength(729);
     expect(claims.filter(c => c.predicate === "item.acquisition")).toHaveLength(14);
     expect(claims.filter(c => c.predicate === "relation.obtained_from")).toHaveLength(1);
