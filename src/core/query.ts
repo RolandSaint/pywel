@@ -236,6 +236,7 @@ interface RequestedFactIntent {
   code:
     | "organization_quests"
     | "organization_leader"
+    | "organization_rivalry"
     | "quest_reward"
     | "entity_location"
     | "drop_rate"
@@ -315,6 +316,11 @@ function hasSolutionIntent(normalized: string): boolean {
     hasQuestCompletionIntent(normalized);
 }
 
+function hasOrganizationRivalryIntent(normalized: string): boolean {
+  return /\b(?:rivals?|rivalry)\b/.test(normalized) &&
+    /\b(?:houses?|factions?|organizations?)\b/.test(normalized);
+}
+
 function requestedFactIntent(query: string): RequestedFactIntent | null {
   const normalized = normalizedPhrase(query);
   if (/\bwho\s+(?:leads|is\s+(?:the\s+)?leader)\b|\bleadership\s+of\b/.test(normalized)) {
@@ -322,6 +328,9 @@ function requestedFactIntent(query: string): RequestedFactIntent | null {
   }
   if (/\bquests?\b/.test(normalized) && /\b(?:belong|belongs|associated)\b/.test(normalized)) {
     return { code: "organization_quests", label: "organization quest association" };
+  }
+  if (hasOrganizationRivalryIntent(normalized)) {
+    return { code: "organization_rivalry", label: "organization rivalry" };
   }
 
   if (/\b(?:is|are)\b.+\b(?:a|an)\s+(?:game|system|item|effect|skill|ability|actor|quest|location|faction|organization|activity|resource|recipe|mechanic)\b/.test(normalized)) {
@@ -412,6 +421,9 @@ function requestedFactIntents(query: string): RequestedFactIntent[] {
   const add = (intent: RequestedFactIntent): void => {
     if (!intents.some(({ code }) => code === intent.code)) intents.push(intent);
   };
+  if (hasOrganizationRivalryIntent(normalized)) {
+    add({ code: "organization_rivalry", label: "organization rivalry" });
+  }
   if (hasItemAcquisitionIntent(normalized)) {
     add({ code: "item_acquisition", label: "acquisition" });
   }
@@ -490,8 +502,9 @@ function keepDisputedPeersAdjacent<T extends { claim: Claim }>(scores: T[]): T[]
 function claimAnswersRequestedFact(claim: Claim, intent: RequestedFactIntent): boolean {
   const predicate = claim.predicate.toLocaleLowerCase("en-US");
   if (intent.code === "organization_quests") return predicate === "quest.organization";
-  // Membership and an actor's role do not establish leadership.
+  // Membership and an actor's role do not establish leadership or rivalry.
   if (intent.code === "organization_leader") return predicate === "organization.leader";
+  if (intent.code === "organization_rivalry") return predicate === "organization.rival";
   if (intent.code === "entity_classification") {
     return predicate === "catalog.community_indexed_type" || predicate === "catalog.source_indexed_type";
   }
