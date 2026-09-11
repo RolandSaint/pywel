@@ -33,8 +33,8 @@ describe("M10 published-expansion regression (not a new release acceptance)", ()
     const additions = JSON.parse(await readFile(resolve(root, "quality/corpus-additions.json"), "utf8"));
     // Reconstruct only the already-published additions; the live union is checked by m1:check.
     const published = { ...additions, scope_id: "pywel-post-release-m7-r01", evidence_cutoff: "2026-09-10",
-      canonical_files: additions.canonical_files.filter((file: { path: string }) => !file.path.endsWith("/g02-official-catchup.json") && !file.path.endsWith("/s01-equipment.json") && !file.path.endsWith("/s02-acquisition.json")),
-      record_ids: Object.fromEntries(Object.entries(additions.record_ids as Record<string, string[]>).map(([key, ids]) => [key, ids.filter(id => !id.startsWith("pat_g02") && !id.startsWith("evd_g02") && !id.startsWith("rcp_g02") && !id.includes("_s01") && !id.includes("_s02"))])),
+      canonical_files: additions.canonical_files.filter((file: { path: string }) => !file.path.endsWith("/g02-official-catchup.json") && !file.path.endsWith("/s01-equipment.json") && !file.path.endsWith("/s02-acquisition.json") && !file.path.endsWith("/s03-recipe-inputs.json")),
+      record_ids: Object.fromEntries(Object.entries(additions.record_ids as Record<string, string[]>).map(([key, ids]) => [key, ids.filter(id => !id.startsWith("pat_g02") && !id.startsWith("evd_g02") && !id.startsWith("rcp_g02") && !id.includes("_s01") && !id.includes("_s02") && !id.includes("_s03"))])),
       reviewed_sources: additions.reviewed_sources.filter((row: { evidence_id: string }) => !row.evidence_id.startsWith("evd_s01") && !row.evidence_id.startsWith("evd_s02")),
     };
     // Preserve the historical JSON key order; locale-based canonical sorting is different.

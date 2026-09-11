@@ -39,9 +39,18 @@ describe("S02 source-intake containment, not accepted acquisition depth", () => 
     const { root, store, ledger, subjects } = await setup();
     expect(Object.keys(ledger.prior_canonical_files)).toHaveLength(68);
     for (const [path, hash] of Object.entries(ledger.prior_canonical_files)) expect(sha256(await readFile(resolve(root, path))), path).toBe(hash);
-    expect(stableRecordHash([...store.claims].sort((a,b) => a.claim_id.localeCompare(b.claim_id)))).toBe(ledger.prior_claims_sha256);
-    expect(stableRecordHash([...store.entities].sort((a,b) => a.entity_id.localeCompare(b.entity_id)))).toBe(ledger.prior_entities_sha256);
-    expect([store.entities.length, store.claims.length, store.evidence.length, store.receipts.length]).toEqual([520, 2591, 306, 7]);
+    // Freeze the pre-S02 cohort; later independent additions do not redefine its hashes.
+    const priorReceipts = new Set([
+      "rcp_m1publicscope202609100001", "rcp_m7houseroberts2026091001",
+      "rcp_m8aprogression2026091001", "rcp_m8bequipment2026091001",
+      "rcp_r01equipment2026091001", "rcp_g02patchcatchup2026091001",
+      "rcp_s01equipment2026091101",
+    ]);
+    const inPrior = (r: { provenance: { source_receipt_id?: string } }) => priorReceipts.has(r.provenance.source_receipt_id ?? "");
+    const priorClaims = store.claims.filter(inPrior), priorEntities = store.entities.filter(inPrior);
+    expect(stableRecordHash(priorClaims.sort((a,b) => a.claim_id.localeCompare(b.claim_id)))).toBe(ledger.prior_claims_sha256);
+    expect(stableRecordHash(priorEntities.sort((a,b) => a.entity_id.localeCompare(b.entity_id)))).toBe(ledger.prior_entities_sha256);
+    expect([priorEntities.length, priorClaims.length, store.evidence.filter(inPrior).length, store.receipts.filter(r => priorReceipts.has(r.receipt_id)).length]).toEqual([520, 2591, 306, 7]);
     expect(subjects).toHaveLength(100);
     expect(new Set(subjects.map(e => e.entity_id)).size).toBe(100);
     for (const entity of subjects) expect(store.claims.some(c => c.subject_entity_id === entity.entity_id), entity.entity_id).toBe(true);

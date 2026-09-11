@@ -1,0 +1,631 @@
+{
+  "catalog_id": "cat_s03fb85159afc41eec7e1d15dde",
+  "records": [
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Lesser Defense Reagent"
+      },
+      "entity_id": "ent_s03089f93124a24ccd5129cbd20",
+      "entity_type": "resource",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "resource.lesser-defense-reagent",
+      "subtype": "material",
+      "summary": "Named ingredient reference from retained historical recipe inputs: Lesser Defense Reagent. Specific inventory implementation, acquisition and current-patch behavior are not established here.",
+      "tags": [
+        "s03-recipe-inputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Abyss Dewdrop"
+      },
+      "entity_id": "ent_s031076662488cb15c6dd07183c",
+      "entity_type": "resource",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "resource.abyss-dewdrop",
+      "subtype": "material",
+      "summary": "Named ingredient reference from retained historical recipe inputs: Abyss Dewdrop. Specific inventory implementation, acquisition and current-patch behavior are not established here.",
+      "tags": [
+        "s03-recipe-inputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Common Spirit Reagent"
+      },
+      "entity_id": "ent_s03137356b7daee3ed71852c130",
+      "entity_type": "resource",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "resource.common-spirit-reagent",
+      "subtype": "material",
+      "summary": "Named ingredient reference from retained historical recipe inputs: Common Spirit Reagent. Specific inventory implementation, acquisition and current-patch behavior are not established here.",
+      "tags": [
+        "s03-recipe-inputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Brimstone"
+      },
+      "entity_id": "ent_s0317d429230e465a246ccaf454",
+      "entity_type": "resource",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "resource.brimstone",
+      "subtype": "material",
+      "summary": "Named ingredient reference from retained historical recipe inputs: Brimstone. Specific inventory implementation, acquisition and current-patch behavior are not established here.",
+      "tags": [
+        "s03-recipe-inputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Common Attack Reagent"
+      },
+      "entity_id": "ent_s031d2e5e8ac019b549a44aa03c",
+      "entity_type": "resource",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "resource.common-attack-reagent",
+      "subtype": "material",
+      "summary": "Named ingredient reference from retained historical recipe inputs: Common Attack Reagent. Specific inventory implementation, acquisition and current-patch behavior are not established here.",
+      "tags": [
+        "s03-recipe-inputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Common Health Reagent"
+      },
+      "entity_id": "ent_s03238fed15b8d8f96a483ecad6",
+      "entity_type": "resource",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "resource.common-health-reagent",
+      "subtype": "material",
+      "summary": "Named ingredient reference from retained historical recipe inputs: Common Health Reagent. Specific inventory implementation, acquisition and current-patch behavior are not established here.",
+      "tags": [
+        "s03-recipe-inputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Mordant"
+      },
+      "entity_id": "ent_s0326a5bec388ede4bc9432a030",
+      "entity_type": "resource",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "resource.mordant",
+      "subtype": "material",
+      "summary": "Named ingredient reference from retained historical recipe inputs: Mordant. Specific inventory implementation, acquisition and current-patch behavior are not established here.",
+      "tags": [
+        "s03-recipe-inputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Squid Ink"
+      },
+      "entity_id": "ent_s032918edbe11909697e6d301b0",
+      "entity_type": "resource",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "resource.squid-ink",
+      "subtype": "material",
+      "summary": "Named ingredient reference from retained historical recipe inputs: Squid Ink. Specific inventory implementation, acquisition and current-patch behavior are not established here.",
+      "tags": [
+        "s03-recipe-inputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Silver Dust"
+      },
+      "entity_id": "ent_s033608360d22137d115f4907ee",
+      "entity_type": "resource",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "resource.silver-dust",
+      "subtype": "material",
+      "summary": "Named ingredient reference from retained historical recipe inputs: Silver Dust. Specific inventory implementation, acquisition and current-patch behavior are not established here.",
+      "tags": [
+        "s03-recipe-inputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Saffron"
+      },
+      "entity_id": "ent_s0336552f8920e541a79f875ece",
+      "entity_type": "resource",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "resource.saffron",
+      "subtype": "material",
+      "summary": "Named ingredient reference from retained historical recipe inputs: Saffron. Specific inventory implementation, acquisition and current-patch behavior are not established here.",
+      "tags": [
+        "s03-recipe-inputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Gold Bar"
+      },
+      "entity_id": "ent_s0336b30e5fa7b90af69b7b3249",
+      "entity_type": "resource",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "resource.gold-bar",
+      "subtype": "material",
+      "summary": "Named ingredient reference from retained historical recipe inputs: Gold Bar. Specific inventory implementation, acquisition and current-patch behavior are not established here.",
+      "tags": [
+        "s03-recipe-inputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Lesser Health Reagent"
+      },
+      "entity_id": "ent_s03375205c169f9d7df035ab89b",
+      "entity_type": "resource",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "resource.lesser-health-reagent",
+      "subtype": "material",
+      "summary": "Named ingredient reference from retained historical recipe inputs: Lesser Health Reagent. Specific inventory implementation, acquisition and current-patch behavior are not established here.",
+      "tags": [
+        "s03-recipe-inputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Charcoal"
+      },
+      "entity_id": "ent_s0341d0d35e0c0296303b53bba3",
+      "entity_type": "resource",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "resource.charcoal",
+      "subtype": "material",
+      "summary": "Named ingredient reference from retained historical recipe inputs: Charcoal. Specific inventory implementation, acquisition and current-patch behavior are not established here.",
+      "tags": [
+        "s03-recipe-inputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Lesser Catalyst"
+      },
+      "entity_id": "ent_s036d0b6578619bc2e5c3ae47db",
+      "entity_type": "resource",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "resource.lesser-catalyst",
+      "subtype": "material",
+      "summary": "Named ingredient reference from retained historical recipe inputs: Lesser Catalyst. Specific inventory implementation, acquisition and current-patch behavior are not established here.",
+      "tags": [
+        "s03-recipe-inputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Palmar Leaf"
+      },
+      "entity_id": "ent_s03700416f71b2e78ba21cf4bf8",
+      "entity_type": "resource",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "resource.palmar-leaf",
+      "subtype": "material",
+      "summary": "Named ingredient reference from retained historical recipe inputs: Palmar Leaf. Specific inventory implementation, acquisition and current-patch behavior are not established here.",
+      "tags": [
+        "s03-recipe-inputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Lesser Stamina Reagent"
+      },
+      "entity_id": "ent_s03764218d38cdfc1246e41b96a",
+      "entity_type": "resource",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "resource.lesser-stamina-reagent",
+      "subtype": "material",
+      "summary": "Named ingredient reference from retained historical recipe inputs: Lesser Stamina Reagent. Specific inventory implementation, acquisition and current-patch behavior are not established here.",
+      "tags": [
+        "s03-recipe-inputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Gold Dust"
+      },
+      "entity_id": "ent_s03a11ab221daa573373176fcae",
+      "entity_type": "resource",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "resource.gold-dust",
+      "subtype": "material",
+      "summary": "Named ingredient reference from retained historical recipe inputs: Gold Dust. Specific inventory implementation, acquisition and current-patch behavior are not established here.",
+      "tags": [
+        "s03-recipe-inputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Copper Sulfate"
+      },
+      "entity_id": "ent_s03a807aef1ca3624d5d3993c8f",
+      "entity_type": "resource",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "resource.copper-sulfate",
+      "subtype": "material",
+      "summary": "Named ingredient reference from retained historical recipe inputs: Copper Sulfate. Specific inventory implementation, acquisition and current-patch behavior are not established here.",
+      "tags": [
+        "s03-recipe-inputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Boiled Meat"
+      },
+      "entity_id": "ent_s03ab929b20e36553217f3ba6dd",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.boiled-meat",
+      "subtype": "consumable",
+      "summary": "Prepared-food reference named Boiled Meat in retained recipe inputs and output. Distinct from the same-named recipe; no new effect, unlock or live-availability assertion.",
+      "tags": [
+        "s03-recipe-inputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Mercury"
+      },
+      "entity_id": "ent_s03b067d1e10cebfcdeb1136327",
+      "entity_type": "resource",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "resource.mercury",
+      "subtype": "material",
+      "summary": "Named ingredient reference from retained historical recipe inputs: Mercury. Specific inventory implementation, acquisition and current-patch behavior are not established here.",
+      "tags": [
+        "s03-recipe-inputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Green Moss"
+      },
+      "entity_id": "ent_s03c495af6e1a006917f931baf3",
+      "entity_type": "resource",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "resource.green-moss",
+      "subtype": "material",
+      "summary": "Named ingredient reference from retained historical recipe inputs: Green Moss. Specific inventory implementation, acquisition and current-patch behavior are not established here.",
+      "tags": [
+        "s03-recipe-inputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Meat and Fish Skewers"
+      },
+      "entity_id": "ent_s03c5b8acce23ec128ccb3d3416",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.meat-and-fish-skewers",
+      "subtype": "consumable",
+      "summary": "Prepared-food reference named Meat and Fish Skewers in retained recipe inputs and output. Distinct from the same-named recipe; no new effect, unlock or live-availability assertion.",
+      "tags": [
+        "s03-recipe-inputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Lesser Spirit Reagent"
+      },
+      "entity_id": "ent_s03d79a296f64b4639e54cbffb1",
+      "entity_type": "resource",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "resource.lesser-spirit-reagent",
+      "subtype": "material",
+      "summary": "Named ingredient reference from retained historical recipe inputs: Lesser Spirit Reagent. Specific inventory implementation, acquisition and current-patch behavior are not established here.",
+      "tags": [
+        "s03-recipe-inputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Red Desert Flower"
+      },
+      "entity_id": "ent_s03ee75e16e957347b2332231af",
+      "entity_type": "resource",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "resource.red-desert-flower",
+      "subtype": "material",
+      "summary": "Named ingredient reference from retained historical recipe inputs: Red Desert Flower. Specific inventory implementation, acquisition and current-patch behavior are not established here.",
+      "tags": [
+        "s03-recipe-inputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Palmar Beetle"
+      },
+      "entity_id": "ent_s03f8be2f45de62eec9e2a00d8f",
+      "entity_type": "resource",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-11T21:08:57Z",
+        "created_by": "pywel_s03_retained_recipe_normalization",
+        "source_receipt_id": "rcp_s03recipeinputs2026091101"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "resource.palmar-beetle",
+      "subtype": "material",
+      "summary": "Named ingredient reference from retained historical recipe inputs: Palmar Beetle. Specific inventory implementation, acquisition and current-patch behavior are not established here.",
+      "tags": [
+        "s03-recipe-inputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    }
+  ],
+  "schema_version": "pywel.entity_catalog.v1"
+}

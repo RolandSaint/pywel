@@ -1,0 +1,3189 @@
+{
+  "base_commit": "0d6373f8f984d6a857d8953fb1e89cb9e503087e",
+  "counts": {
+    "current_candidate_totals": {
+      "claims": 2627,
+      "entities": 545,
+      "evidence": 306,
+      "patches": 44,
+      "receipts": 8,
+      "strategies": 1
+    },
+    "distinct_input_labels": 47,
+    "existing_input_links_reused": 68,
+    "held_input_occurrences": 59,
+    "held_labels": 9,
+    "input_occurrences_linked_after": 102,
+    "new_claim_records": 36,
+    "new_crafted_from_links": 34,
+    "new_entities": 25,
+    "new_evidence": 0,
+    "new_food_items": 2,
+    "new_output_links": 2,
+    "new_receipts": 1,
+    "new_resource_materials": 23,
+    "recipe_subjects_reviewed": 46,
+    "recipes_gaining_input_links": 16,
+    "replacement_links_included": 2,
+    "retained_input_claims": 161,
+    "reused_evidence_records": 2
+  },
+  "food_output_mapping": [
+    {
+      "item_entity_id": "ent_s03ab929b20e36553217f3ba6dd",
+      "label": "Boiled Meat",
+      "new_output_claim_id": "clm_s03c9bc2000cefdc5632d38c401",
+      "recipe_entity_id": "ent_4636d5719dea56c5ba734a60",
+      "source_output_claim_id": "clm_7f2c670183780c1fdff76a46"
+    },
+    {
+      "item_entity_id": "ent_s03c5b8acce23ec128ccb3d3416",
+      "label": "Meat and Fish Skewers",
+      "new_output_claim_id": "clm_s035a5634eadd8def2052363189",
+      "recipe_entity_id": "ent_8b27e32376389d63ee0eaae8",
+      "source_output_claim_id": "clm_7711200bb385038e39be2f08"
+    }
+  ],
+  "frozen_prior_receipt_ids": [
+    "rcp_g02patchcatchup2026091001",
+    "rcp_m1publicscope202609100001",
+    "rcp_m7houseroberts2026091001",
+    "rcp_m8aprogression2026091001",
+    "rcp_m8bequipment2026091001",
+    "rcp_r01equipment2026091001",
+    "rcp_s01equipment2026091101"
+  ],
+  "input_mapping": [
+    {
+      "disposition": "new_identity_link",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": null,
+      "quantity_status": "not_recorded",
+      "recipe_entity_id": "ent_54f5a8165a2dba37c19d1eed",
+      "relation_claim_id": "clm_s03584e5577fdb975a917c7e2ef",
+      "source_input_claim_id": "clm_061779c905bb85ef00b63f75",
+      "source_label": "Charcoal",
+      "source_text": "Charcoal",
+      "target_entity_id": "ent_s0341d0d35e0c0296303b53bba3"
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_11f1b3b38826e851cb876400",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_09574afb1c1bcdceca022656",
+      "source_label": "Grain",
+      "source_text": "Grain ×2",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_143cc2bcb8cabe68ea843701",
+      "relation_claim_id": "clm_d71431d3235f9a21e119d61a",
+      "source_input_claim_id": "clm_0c4dd5aecc2e618a5088031e",
+      "source_label": "Egg",
+      "source_text": "Egg ×1",
+      "target_entity_id": "ent_10862c2f90337493b0fa7679"
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_931dcd0fc4da2de03c86abb1",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_0d24b59ed711509d12b4ce6f",
+      "source_label": "Fruit",
+      "source_text": "Fruit ×1",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 3,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_a408cb61e55821597416abbb",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_0f3b49b81c0cbff6ed13c51a",
+      "source_label": "Meat",
+      "source_text": "Meat ×3",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "replaces_recipe_target",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 3,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_f02bd783538d05a4d19dfa36",
+      "relation_claim_id": "clm_s0359894ad6102a47a57342dda8",
+      "source_input_claim_id": "clm_14619b72ea3b90ec0fccb1a2",
+      "source_label": "Meat and Fish Skewers",
+      "source_text": "Meat and Fish Skewers ×3",
+      "supersedes_claim_ids": [
+        "clm_463b6ce020d36f7aa4304197"
+      ],
+      "target_entity_id": "ent_s03c5b8acce23ec128ccb3d3416"
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 3,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_89d31109424a84f68a407d81",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_16c7fab69ad5401b9b7f311e",
+      "source_label": "Grain",
+      "source_text": "Grain ×3",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 3,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_c9535443cb8a556f638caf3f",
+      "relation_claim_id": "clm_09b424d54bb2c5549f4c9025",
+      "source_input_claim_id": "clm_19827fbc50731e484459b963",
+      "source_label": "Fine Meat",
+      "source_text": "Fine Meat ×3",
+      "target_entity_id": "ent_67e3c55b1c58edd97ba44c22"
+    },
+    {
+      "disposition": "new_identity_link",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_d2d4221bdc0342f4a1b77eae",
+      "relation_claim_id": "clm_s037208c75ae5b5d76fe98a852c",
+      "source_input_claim_id": "clm_1a4f0d05b713c4dd80b6f494",
+      "source_label": "Lesser Stamina Reagent",
+      "source_text": "Lesser Stamina Reagent ×2",
+      "target_entity_id": "ent_s03764218d38cdfc1246e41b96a"
+    },
+    {
+      "disposition": "new_identity_link",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 5,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_3c3a97c5513968b5c079b53f",
+      "relation_claim_id": "clm_s0323f36b1da813bc299f8023b1",
+      "source_input_claim_id": "clm_1a8acd4953d57c305b3fcd0f",
+      "source_label": "Common Attack Reagent",
+      "source_text": "Common Attack Reagent ×5",
+      "target_entity_id": "ent_s031d2e5e8ac019b549a44aa03c"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_4636d5719dea56c5ba734a60",
+      "relation_claim_id": "clm_9d3c91c14a5473d72559769b",
+      "source_input_claim_id": "clm_1f827edfbb331166f1474f76",
+      "source_label": "Bird Meat",
+      "source_text": "Bird Meat ×1",
+      "target_entity_id": "ent_9ddd632416f00a032056f61a"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_82f3588da0dfed1a2f73ee3a",
+      "relation_claim_id": "clm_316cc41da1d8a4143d1a0e35",
+      "source_input_claim_id": "clm_20411a875f93baddda358d85",
+      "source_label": "Water",
+      "source_text": "Water ×1",
+      "target_entity_id": "ent_2556849787477de43f0e11d6"
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 3,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_14abb1243a29666ee279b722",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_20b9dd0b53dab0fa80c18caa",
+      "source_label": "Vegetable",
+      "source_text": "Vegetable ×3",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_3f8a9d8c6073e808a0b25f2d",
+      "relation_claim_id": "clm_e92dd83dcd0071c3ae215c94",
+      "source_input_claim_id": "clm_215a5366ee13b51ab834d854",
+      "source_label": "Salt",
+      "source_text": "Salt ×1",
+      "target_entity_id": "ent_7e6466f40b750aa7b2c6beb6"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_8b27e32376389d63ee0eaae8",
+      "relation_claim_id": "clm_2866f7e59a3d437afa5fa671",
+      "source_input_claim_id": "clm_22b67e8241c09296666da941",
+      "source_label": "Salt",
+      "source_text": "Salt ×1",
+      "target_entity_id": "ent_7e6466f40b750aa7b2c6beb6"
+    },
+    {
+      "disposition": "new_identity_link",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_79601484c6c30655d3df006b",
+      "relation_claim_id": "clm_s0391c54f405f4bed326fe6264e",
+      "source_input_claim_id": "clm_23026528ce2622f706626bf3",
+      "source_label": "Gold Bar",
+      "source_text": "Gold Bar ×1",
+      "target_entity_id": "ent_s0336b30e5fa7b90af69b7b3249"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_d2d4221bdc0342f4a1b77eae",
+      "relation_claim_id": "clm_01e0d9be1d95f2709dbffed8",
+      "source_input_claim_id": "clm_234bad6197fa2bf84afae050",
+      "source_label": "Empty Bottle",
+      "source_text": "Empty Bottle ×1",
+      "target_entity_id": "ent_9c46e6c2b4568ea418ec682d"
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 3,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_f02bd783538d05a4d19dfa36",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_2709270674656849cc58a145",
+      "source_label": "Grain",
+      "source_text": "Grain ×3",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 3,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_8b27e32376389d63ee0eaae8",
+      "relation_claim_id": "clm_1a04606ee68fa4dd63bd7e4f",
+      "source_input_claim_id": "clm_2775a4a74d819915cd890451",
+      "source_label": "Water",
+      "source_text": "Water ×3",
+      "target_entity_id": "ent_2556849787477de43f0e11d6"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_a86c763b8cb20b24ef850ab9",
+      "relation_claim_id": "clm_1d0510803edacec49f911aa4",
+      "source_input_claim_id": "clm_298b429f8eb1f7f791f25da7",
+      "source_label": "Empty Bottle",
+      "source_text": "Empty Bottle ×1",
+      "target_entity_id": "ent_9c46e6c2b4568ea418ec682d"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 4,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_14abb1243a29666ee279b722",
+      "relation_claim_id": "clm_cca8b2786d8384dac2e2b75c",
+      "source_input_claim_id": "clm_298c41baed4dab9020fa4b3d",
+      "source_label": "Fish Fillet",
+      "source_text": "Fish Fillet ×4",
+      "target_entity_id": "ent_30f0042097ec07fc018eb915"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 3,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_563201b636aefc447d1d9625",
+      "relation_claim_id": "clm_32b28f717f5fa453ecd99449",
+      "source_input_claim_id": "clm_2d8902826d94232ac37e2cfe",
+      "source_label": "Water",
+      "source_text": "Water ×3",
+      "target_entity_id": "ent_2556849787477de43f0e11d6"
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_143cc2bcb8cabe68ea843701",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_2eeb45b4b004748d7cb2fa3d",
+      "source_label": "Fruit",
+      "source_text": "Fruit ×1",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_168981a3b19aa6ebc5ff7382",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_2fcd3c084adca008b2040308",
+      "source_label": "Seafood",
+      "source_text": "Seafood ×2",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "new_identity_link",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_3c3a97c5513968b5c079b53f",
+      "relation_claim_id": "clm_s032b14f76bd68eaf51ba9b9994",
+      "source_input_claim_id": "clm_3390698e122a2efa6f200c7c",
+      "source_label": "Lesser Catalyst",
+      "source_text": "Lesser Catalyst ×1",
+      "target_entity_id": "ent_s036d0b6578619bc2e5c3ae47db"
+    },
+    {
+      "disposition": "new_identity_link",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_b15bb81db2aff0a3804d0d40",
+      "relation_claim_id": "clm_s03beb8cf8af804a668ec61baf7",
+      "source_input_claim_id": "clm_341727f9323d38b0f90851c1",
+      "source_label": "Lesser Defense Reagent",
+      "source_text": "Lesser Defense Reagent ×2",
+      "target_entity_id": "ent_s03089f93124a24ccd5129cbd20"
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_5bb8fb76f7bb28ff0ca7b338",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_344fa025bf735e66d0831a8f",
+      "source_label": "Fruit",
+      "source_text": "Fruit ×1",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_f02bd783538d05a4d19dfa36",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_37cf46b21c216cac792e1836",
+      "source_label": "Fruit",
+      "source_text": "Fruit ×2",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "new_identity_link",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": null,
+      "quantity_status": "not_recorded",
+      "recipe_entity_id": "ent_11013a31269f61b38e9045d3",
+      "relation_claim_id": "clm_s03dd6d9d910a444b202a6175f1",
+      "source_input_claim_id": "clm_381b2cda085116ad50aafea6",
+      "source_label": "Saffron",
+      "source_text": "Saffron",
+      "target_entity_id": "ent_s0336552f8920e541a79f875ece"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_150a4a1ebec468988cb13e9f",
+      "relation_claim_id": "clm_4c54b5a11aee1e095974f5e1",
+      "source_input_claim_id": "clm_38347688148d114af5ca34bf",
+      "source_label": "Water",
+      "source_text": "Water ×1",
+      "target_entity_id": "ent_2556849787477de43f0e11d6"
+    },
+    {
+      "disposition": "new_identity_link",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_664b1f96b2452e94ccbbcc9a",
+      "relation_claim_id": "clm_s03ab3496e5b7e064a0c841dbf5",
+      "source_input_claim_id": "clm_38a154925d3573f2238d0b8a",
+      "source_label": "Lesser Health Reagent",
+      "source_text": "Lesser Health Reagent ×2",
+      "target_entity_id": "ent_s03375205c169f9d7df035ab89b"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_0f44e2bac85651e4e5b136e8",
+      "relation_claim_id": "clm_797997896b1d193b730de382",
+      "source_input_claim_id": "clm_39cd902bf08e8e197635c000",
+      "source_label": "Water",
+      "source_text": "Water ×2",
+      "target_entity_id": "ent_2556849787477de43f0e11d6"
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_03c5ba0bf6270dc203d010ab",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_3b253d4bc7aab3a4329f0eaa",
+      "source_label": "Vegetable",
+      "source_text": "Vegetable ×1",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_03c5ba0bf6270dc203d010ab",
+      "relation_claim_id": "clm_7b195e2a2e90c886a113927f",
+      "source_input_claim_id": "clm_40c45f0c0cf2f6efd7beeb07",
+      "source_label": "Salt",
+      "source_text": "Salt ×1",
+      "target_entity_id": "ent_7e6466f40b750aa7b2c6beb6"
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 3,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_c9535443cb8a556f638caf3f",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_42fd7fa2268d8bd48d272baf",
+      "source_label": "Vegetable",
+      "source_text": "Vegetable ×3",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 3,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_eee0c44c0b64b4135ee302f7",
+      "relation_claim_id": "clm_6dc44f25711fb0dfb7ceadf2",
+      "source_input_claim_id": "clm_430a175ce3890b1991c02b86",
+      "source_label": "Cooking Oil",
+      "source_text": "Cooking Oil ×3",
+      "target_entity_id": "ent_c7c2d3713301f2b89cd72aab"
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_563201b636aefc447d1d9625",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_471186cbb703642ef18c82b7",
+      "source_label": "Meat",
+      "source_text": "Meat ×2",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 3,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_168981a3b19aa6ebc5ff7382",
+      "relation_claim_id": "clm_e84e640c07de9c940f759784",
+      "source_input_claim_id": "clm_486345fa7d9e2206afa9bc48",
+      "source_label": "Cooking Oil",
+      "source_text": "Cooking Oil ×3",
+      "target_entity_id": "ent_c7c2d3713301f2b89cd72aab"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_3c3a97c5513968b5c079b53f",
+      "relation_claim_id": "clm_c14c34277a300d38f7257733",
+      "source_input_claim_id": "clm_4890166292c4796e5b67a6a9",
+      "source_label": "Empty Bottle",
+      "source_text": "Empty Bottle ×1",
+      "target_entity_id": "ent_9c46e6c2b4568ea418ec682d"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_9b5014c7efec96931ce80d8d",
+      "relation_claim_id": "clm_58f5ef93ab1cb214ae2dfe5f",
+      "source_input_claim_id": "clm_4b1b1e7d8f4bd016ad65f74f",
+      "source_label": "Water",
+      "source_text": "Water ×2",
+      "target_entity_id": "ent_2556849787477de43f0e11d6"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_d9c90d94d1e0d3c4c6d50ed4",
+      "relation_claim_id": "clm_b83e0d6f73b9984f87d7cfb8",
+      "source_input_claim_id": "clm_4b281ec23f71ba5f59b98aa8",
+      "source_label": "Salt",
+      "source_text": "Salt ×2",
+      "target_entity_id": "ent_7e6466f40b750aa7b2c6beb6"
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_5bb8fb76f7bb28ff0ca7b338",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_4c526fdda0983516f0563fd2",
+      "source_label": "Meat",
+      "source_text": "Meat ×1",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_69a9fa6dfb66fe9ce494a92d",
+      "relation_claim_id": "clm_bf5fc0cf6f7def2398a9f090",
+      "source_input_claim_id": "clm_4e1fcc7fd2e245b3d9a535eb",
+      "source_label": "Fish Fillet",
+      "source_text": "Fish Fillet ×2",
+      "target_entity_id": "ent_30f0042097ec07fc018eb915"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 3,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_c9535443cb8a556f638caf3f",
+      "relation_claim_id": "clm_2ecf557c99e1bd9e667093cd",
+      "source_input_claim_id": "clm_50c94f97a04931e150a3b5d3",
+      "source_label": "Cooking Oil",
+      "source_text": "Cooking Oil ×3",
+      "target_entity_id": "ent_c7c2d3713301f2b89cd72aab"
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 3,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_563201b636aefc447d1d9625",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_51add7e349057eb151abc1f5",
+      "source_label": "Vegetable",
+      "source_text": "Vegetable ×3",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "new_identity_link",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": null,
+      "quantity_status": "not_recorded",
+      "recipe_entity_id": "ent_11013a31269f61b38e9045d3",
+      "relation_claim_id": "clm_s039f37f57c3589ec82bd676024",
+      "source_input_claim_id": "clm_528c3e9ff94310c42a7b9425",
+      "source_label": "Mordant",
+      "source_text": "Mordant",
+      "target_entity_id": "ent_s0326a5bec388ede4bc9432a030"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_84bca4977c727b61bb35e2e2",
+      "relation_claim_id": "clm_f0b6f20e40181c7804db7a5d",
+      "source_input_claim_id": "clm_535336218780120b8c284725",
+      "source_label": "Water",
+      "source_text": "Water ×2",
+      "target_entity_id": "ent_2556849787477de43f0e11d6"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_644f166107b14c0f93715e32",
+      "relation_claim_id": "clm_d7088327425ced9af3b6cbc8",
+      "source_input_claim_id": "clm_5573f48c468d002fa6d5e4b2",
+      "source_label": "Egg",
+      "source_text": "Egg ×2",
+      "target_entity_id": "ent_10862c2f90337493b0fa7679"
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_479a93f69c96c7fda9202fd3",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_57684a3795f4fb892a01f825",
+      "source_label": "Vegetable",
+      "source_text": "Vegetable ×2",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_e772bc466331e951df46475e",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_57705585ae00add90c699113",
+      "source_label": "Vegetable",
+      "source_text": "Vegetable ×1",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "new_identity_link",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": null,
+      "quantity_status": "not_recorded",
+      "recipe_entity_id": "ent_54f5a8165a2dba37c19d1eed",
+      "relation_claim_id": "clm_s03ec1df3561f7b3273992b5bb7",
+      "source_input_claim_id": "clm_57a3c98c3f0435f3d6cbfc78",
+      "source_label": "Squid Ink",
+      "source_text": "Squid Ink",
+      "target_entity_id": "ent_s032918edbe11909697e6d301b0"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_644f166107b14c0f93715e32",
+      "relation_claim_id": "clm_5beefa0cc5d824f097415f6c",
+      "source_input_claim_id": "clm_5859615e56e280233b6c8047",
+      "source_label": "Fine Meat",
+      "source_text": "Fine Meat ×2",
+      "target_entity_id": "ent_67e3c55b1c58edd97ba44c22"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_4636d5719dea56c5ba734a60",
+      "relation_claim_id": "clm_6fce4a24ec0bfe9583e996ab",
+      "source_input_claim_id": "clm_5d380a4e89871494f6bdd007",
+      "source_label": "Salt",
+      "source_text": "Salt ×1",
+      "target_entity_id": "ent_7e6466f40b750aa7b2c6beb6"
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_0f44e2bac85651e4e5b136e8",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_5e034f5c49146e184716a45c",
+      "source_label": "Fruit",
+      "source_text": "Fruit ×2",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 3,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_03c5ba0bf6270dc203d010ab",
+      "relation_claim_id": "clm_727d07193edd3608619a9259",
+      "source_input_claim_id": "clm_6134bf08901de94335109446",
+      "source_label": "Water",
+      "source_text": "Water ×3",
+      "target_entity_id": "ent_2556849787477de43f0e11d6"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_38ee02cb58a09139b5106573",
+      "relation_claim_id": "clm_307dbff1e73b91828c2e9269",
+      "source_input_claim_id": "clm_61ffaa3d690f037fbcdd6e51",
+      "source_label": "Water",
+      "source_text": "Water ×2",
+      "target_entity_id": "ent_2556849787477de43f0e11d6"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 3,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_931dcd0fc4da2de03c86abb1",
+      "relation_claim_id": "clm_e44eae88f547109128ab0df2",
+      "source_input_claim_id": "clm_622551006ea98f5b8c80872f",
+      "source_label": "Salt",
+      "source_text": "Salt ×3",
+      "target_entity_id": "ent_7e6466f40b750aa7b2c6beb6"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 4,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_8eeba8bd21b526c56d120995",
+      "relation_claim_id": "clm_ce6d04056bd5664fc7382e4c",
+      "source_input_claim_id": "clm_648346e1073092a1e3addf08",
+      "source_label": "Water",
+      "source_text": "Water ×4",
+      "target_entity_id": "ent_2556849787477de43f0e11d6"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_eee0c44c0b64b4135ee302f7",
+      "relation_claim_id": "clm_7bccc53cce9ddbae7bda3235",
+      "source_input_claim_id": "clm_67ed88b194980eef2079a9e0",
+      "source_label": "Egg",
+      "source_text": "Egg ×2",
+      "target_entity_id": "ent_10862c2f90337493b0fa7679"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 3,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_3f8a9d8c6073e808a0b25f2d",
+      "relation_claim_id": "clm_cffe676e2befe7d418d4a237",
+      "source_input_claim_id": "clm_68498600bd5db37606008be5",
+      "source_label": "Milk",
+      "source_text": "Milk ×3",
+      "target_entity_id": "ent_6dafffa4719717750bacd537"
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_89d31109424a84f68a407d81",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_6b5a0c380b98185e8887c5a0",
+      "source_label": "Seafood",
+      "source_text": "Seafood ×1",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "new_identity_link",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_5f8dd155f9de4c2129eceae8",
+      "relation_claim_id": "clm_s03d1426ecc9f7d397e280af4c3",
+      "source_input_claim_id": "clm_6bb914ccc4cbc507bd77a9c7",
+      "source_label": "Palmar Leaf",
+      "source_text": "Palmar Leaf ×1",
+      "target_entity_id": "ent_s03700416f71b2e78ba21cf4bf8"
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_8b27e32376389d63ee0eaae8",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_6cd246c8f20cc889e6d59b87",
+      "source_label": "Small Fish",
+      "source_text": "Small Fish ×1",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 5,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_11f1b3b38826e851cb876400",
+      "relation_claim_id": "clm_f7be36124465f61c02678b28",
+      "source_input_claim_id": "clm_7154f566fec468ca68535855",
+      "source_label": "Water",
+      "source_text": "Water ×5",
+      "target_entity_id": "ent_2556849787477de43f0e11d6"
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_23a74ff251f041c5554f0a4f",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_766e68899cf8941382226fa4",
+      "source_label": "Grain",
+      "source_text": "Grain ×2",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "new_identity_link",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 3,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_a86c763b8cb20b24ef850ab9",
+      "relation_claim_id": "clm_s0370dfc9fdd69c4329d3deb6d9",
+      "source_input_claim_id": "clm_78f57a9d63960e8a858d68ef",
+      "source_label": "Common Spirit Reagent",
+      "source_text": "Common Spirit Reagent ×3",
+      "target_entity_id": "ent_s03137356b7daee3ed71852c130"
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_150a4a1ebec468988cb13e9f",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_7d6604a8742f19ee71d51838",
+      "source_label": "Meat",
+      "source_text": "Meat ×1",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_168981a3b19aa6ebc5ff7382",
+      "relation_claim_id": "clm_71250a84a16bd450074efe77",
+      "source_input_claim_id": "clm_7f5986ef617a80dd47218b45",
+      "source_label": "Egg",
+      "source_text": "Egg ×2",
+      "target_entity_id": "ent_10862c2f90337493b0fa7679"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_143cc2bcb8cabe68ea843701",
+      "relation_claim_id": "clm_286f8af6aca76feadec0acb5",
+      "source_input_claim_id": "clm_805dba20895953776e34d7c7",
+      "source_label": "Sugar",
+      "source_text": "Sugar ×1",
+      "target_entity_id": "ent_20f1ca01c174a8f005c50a8f"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 3,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_479a93f69c96c7fda9202fd3",
+      "relation_claim_id": "clm_364b9cc25a96a273adf2cca7",
+      "source_input_claim_id": "clm_80d672a6a748cf72b0f26d1b",
+      "source_label": "Water",
+      "source_text": "Water ×3",
+      "target_entity_id": "ent_2556849787477de43f0e11d6"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 4,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_644f166107b14c0f93715e32",
+      "relation_claim_id": "clm_7e42b481e98de4bf89f89ac6",
+      "source_input_claim_id": "clm_8109195abc50fb876a27828f",
+      "source_label": "Cooking Oil",
+      "source_text": "Cooking Oil ×4",
+      "target_entity_id": "ent_c7c2d3713301f2b89cd72aab"
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_4e499499e9969fa550a62717",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_8686992c93c099f7a5303f60",
+      "source_label": "Vegetable",
+      "source_text": "Vegetable ×1",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_8b27e32376389d63ee0eaae8",
+      "relation_claim_id": "clm_757549c1b8191c15050d7c39",
+      "source_input_claim_id": "clm_86c76a531e781aa6d822a54b",
+      "source_label": "Fish Fillet",
+      "source_text": "Fish Fillet ×2",
+      "target_entity_id": "ent_30f0042097ec07fc018eb915"
+    },
+    {
+      "disposition": "new_identity_link",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_b15bb81db2aff0a3804d0d40",
+      "relation_claim_id": "clm_s03406df24351ea054cd1dbdec5",
+      "source_input_claim_id": "clm_8863c26b77b2a18d568dc483",
+      "source_label": "Lesser Catalyst",
+      "source_text": "Lesser Catalyst ×2",
+      "target_entity_id": "ent_s036d0b6578619bc2e5c3ae47db"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 3,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_14abb1243a29666ee279b722",
+      "relation_claim_id": "clm_0f603745d5d9d2b2d0b994a3",
+      "source_input_claim_id": "clm_8bab2029fb790491b403d380",
+      "source_label": "Cooking Oil",
+      "source_text": "Cooking Oil ×3",
+      "target_entity_id": "ent_c7c2d3713301f2b89cd72aab"
+    },
+    {
+      "disposition": "new_identity_link",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_71b73f52515fe122b11b5629",
+      "relation_claim_id": "clm_s03a00fccaad9e2366f02f453a6",
+      "source_input_claim_id": "clm_8e06378a7cda5a3653cd96eb",
+      "source_label": "Silver Dust",
+      "source_text": "Silver Dust ×1",
+      "target_entity_id": "ent_s033608360d22137d115f4907ee"
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 4,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_479a93f69c96c7fda9202fd3",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_909edd7ecf2c91736fce09e8",
+      "source_label": "Meat",
+      "source_text": "Meat ×4",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_11f1b3b38826e851cb876400",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_943964c02df8e40e0b4b2722",
+      "source_label": "Seafood",
+      "source_text": "Seafood ×2",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 3,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_11f1b3b38826e851cb876400",
+      "relation_claim_id": "clm_65dbcbcfd9792d804eb22e4e",
+      "source_input_claim_id": "clm_9482d7126ac76a82d7771de4",
+      "source_label": "Bird Meat",
+      "source_text": "Bird Meat ×3",
+      "target_entity_id": "ent_9ddd632416f00a032056f61a"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 3,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_8eeba8bd21b526c56d120995",
+      "relation_claim_id": "clm_3bde1112f4aba4e455cb3b09",
+      "source_input_claim_id": "clm_96ed8be4a47f09fe7277de70",
+      "source_label": "Fine Meat",
+      "source_text": "Fine Meat ×3",
+      "target_entity_id": "ent_67e3c55b1c58edd97ba44c22"
+    },
+    {
+      "disposition": "new_identity_link",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_4158856feae336a21a199238",
+      "relation_claim_id": "clm_s03dbbd4694817bff4757264df1",
+      "source_input_claim_id": "clm_973e9b015c609eab3608938d",
+      "source_label": "Lesser Catalyst",
+      "source_text": "Lesser Catalyst ×1",
+      "target_entity_id": "ent_s036d0b6578619bc2e5c3ae47db"
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_8b27e32376389d63ee0eaae8",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_9951f6a8d549e2dd20d46500",
+      "source_label": "Meat",
+      "source_text": "Meat ×1",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_b15bb81db2aff0a3804d0d40",
+      "relation_claim_id": "clm_b6ab02165d0c57cd801a6d7c",
+      "source_input_claim_id": "clm_9b0145169f0f8274e8bceefd",
+      "source_label": "Empty Bottle",
+      "source_text": "Empty Bottle ×1",
+      "target_entity_id": "ent_9c46e6c2b4568ea418ec682d"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_664b1f96b2452e94ccbbcc9a",
+      "relation_claim_id": "clm_aeaaea404a63b5e5fb660f51",
+      "source_input_claim_id": "clm_9bcda7f36d70195f0b8afabd",
+      "source_label": "Empty Bottle",
+      "source_text": "Empty Bottle ×1",
+      "target_entity_id": "ent_9c46e6c2b4568ea418ec682d"
+    },
+    {
+      "disposition": "new_identity_link",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_4158856feae336a21a199238",
+      "relation_claim_id": "clm_s03334159cdacf185fbc417df48",
+      "source_input_claim_id": "clm_9cb18a6e3c2accfc1663e563",
+      "source_label": "Lesser Spirit Reagent",
+      "source_text": "Lesser Spirit Reagent ×2",
+      "target_entity_id": "ent_s03d79a296f64b4639e54cbffb1"
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_6eb01f947143d14deca8b097",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_9de2c5a7b269bd6dd416c4f1",
+      "source_label": "Seafood",
+      "source_text": "Seafood ×2",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "replaces_recipe_target",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_f02bd783538d05a4d19dfa36",
+      "relation_claim_id": "clm_s03332953e5be2ee9abaef47aa7",
+      "source_input_claim_id": "clm_9e79c91dab2041a353c49281",
+      "source_label": "Boiled Meat",
+      "source_text": "Boiled Meat ×2",
+      "supersedes_claim_ids": [
+        "clm_71437fca877548d0908c25bb"
+      ],
+      "target_entity_id": "ent_s03ab929b20e36553217f3ba6dd"
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_d9c90d94d1e0d3c4c6d50ed4",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_a0713816e3b2d6a2b7dc918e",
+      "source_label": "Fruit",
+      "source_text": "Fruit ×2",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "new_identity_link",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_a86c763b8cb20b24ef850ab9",
+      "relation_claim_id": "clm_s032b01384622aca03f59470ea6",
+      "source_input_claim_id": "clm_a17b5a7f6d93d4ca7aaf6507",
+      "source_label": "Lesser Catalyst",
+      "source_text": "Lesser Catalyst ×2",
+      "target_entity_id": "ent_s036d0b6578619bc2e5c3ae47db"
+    },
+    {
+      "disposition": "new_identity_link",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_3c49a08e84b7f0d25bd8e179",
+      "relation_claim_id": "clm_s037bb44b39da17a5e207a6ede8",
+      "source_input_claim_id": "clm_a2b464099b38a912a704377c",
+      "source_label": "Lesser Catalyst",
+      "source_text": "Lesser Catalyst ×2",
+      "target_entity_id": "ent_s036d0b6578619bc2e5c3ae47db"
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_8b27e32376389d63ee0eaae8",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_a2c3dca6556a4130d68f5a7e",
+      "source_label": "Grain",
+      "source_text": "Grain ×1",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_150a4a1ebec468988cb13e9f",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_a4ce8b9680113863d37890f4",
+      "source_label": "Grain",
+      "source_text": "Grain ×1",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_14abb1243a29666ee279b722",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_a567ca643d7e8f02ab2a3197",
+      "source_label": "Fruit",
+      "source_text": "Fruit ×1",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_03c5ba0bf6270dc203d010ab",
+      "relation_claim_id": "clm_6870c8ad78452cfb091eb5a0",
+      "source_input_claim_id": "clm_a5dab4ea32d9af16b02b30e3",
+      "source_label": "Fish Fillet",
+      "source_text": "Fish Fillet ×2",
+      "target_entity_id": "ent_30f0042097ec07fc018eb915"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 3,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_69a9fa6dfb66fe9ce494a92d",
+      "relation_claim_id": "clm_7961da0c36f67fbb0eea5b82",
+      "source_input_claim_id": "clm_a776f6f81b5283eb5149a980",
+      "source_label": "Egg",
+      "source_text": "Egg ×3",
+      "target_entity_id": "ent_10862c2f90337493b0fa7679"
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_eee0c44c0b64b4135ee302f7",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_a861c57c462e0c4911ae81c1",
+      "source_label": "Fruit",
+      "source_text": "Fruit ×2",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "new_identity_link",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": null,
+      "quantity_status": "not_recorded",
+      "recipe_entity_id": "ent_f2f901ec1be4b269ba560b54",
+      "relation_claim_id": "clm_s03c49d242526010d7ffe19e8c1",
+      "source_input_claim_id": "clm_aa0c6f53ac40a8c4e391ec77",
+      "source_label": "Green Moss",
+      "source_text": "Green Moss",
+      "target_entity_id": "ent_s03c495af6e1a006917f931baf3"
+    },
+    {
+      "disposition": "new_identity_link",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 3,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_3c49a08e84b7f0d25bd8e179",
+      "relation_claim_id": "clm_s034ec171887dda18b46da47a5e",
+      "source_input_claim_id": "clm_ac1b0646ad33246eff8d6198",
+      "source_label": "Common Health Reagent",
+      "source_text": "Common Health Reagent ×3",
+      "target_entity_id": "ent_s03238fed15b8d8f96a483ecad6"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_0f44e2bac85651e4e5b136e8",
+      "relation_claim_id": "clm_0c4e8b7ea60176c681560575",
+      "source_input_claim_id": "clm_aeeb182a59d36ecaf745a7d7",
+      "source_label": "Sugar",
+      "source_text": "Sugar ×1",
+      "target_entity_id": "ent_20f1ca01c174a8f005c50a8f"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_5bb8fb76f7bb28ff0ca7b338",
+      "relation_claim_id": "clm_49d41a8dd251d7e479d55447",
+      "source_input_claim_id": "clm_aefb06e24155f1c60c1659cb",
+      "source_label": "Salt",
+      "source_text": "Salt ×1",
+      "target_entity_id": "ent_7e6466f40b750aa7b2c6beb6"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_38ee02cb58a09139b5106573",
+      "relation_claim_id": "clm_c4c89e3773a079bed0adafbc",
+      "source_input_claim_id": "clm_b046f590222e1250e844c86a",
+      "source_label": "Oakwood Mushroom",
+      "source_text": "Oakwood Mushroom ×2",
+      "target_entity_id": "ent_18fdd1d68f2db65658d99545"
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_6eb01f947143d14deca8b097",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_b1b9a0a0e9620b9cf277b0b9",
+      "source_label": "Fruit",
+      "source_text": "Fruit ×2",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_82f3588da0dfed1a2f73ee3a",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_b1ea400c5d273282fa342610",
+      "source_label": "Grain",
+      "source_text": "Grain ×1",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_4158856feae336a21a199238",
+      "relation_claim_id": "clm_3e70419213dad7fb7906d593",
+      "source_input_claim_id": "clm_b264238dd8e1e62469abfae8",
+      "source_label": "Empty Bottle",
+      "source_text": "Empty Bottle ×1",
+      "target_entity_id": "ent_9c46e6c2b4568ea418ec682d"
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_168981a3b19aa6ebc5ff7382",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_b324d4bb080811474c577d2d",
+      "source_label": "Vegetable",
+      "source_text": "Vegetable ×2",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_9b5014c7efec96931ce80d8d",
+      "relation_claim_id": "clm_89e16af4bd2dd51215b43c77",
+      "source_input_claim_id": "clm_b5fb6533efd3511e3a1d2c59",
+      "source_label": "Honey",
+      "source_text": "Honey ×2",
+      "target_entity_id": "ent_118c452218302f0b4ad7d88d"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 3,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_8eeba8bd21b526c56d120995",
+      "relation_claim_id": "clm_35e2a8f70b7a2c37fa59e6b8",
+      "source_input_claim_id": "clm_b6007449d0a44f640dd7cfb8",
+      "source_label": "Egg",
+      "source_text": "Egg ×3",
+      "target_entity_id": "ent_10862c2f90337493b0fa7679"
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_563201b636aefc447d1d9625",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_b653ef06af6d756120d766d3",
+      "source_label": "Grain",
+      "source_text": "Grain ×2",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_84bca4977c727b61bb35e2e2",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_b6c99b3a5a2f9fbaa08fc30a",
+      "source_label": "Medicinal Herb",
+      "source_text": "Medicinal Herb ×2",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "new_identity_link",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_e8b9801164c3598cdf32cc89",
+      "relation_claim_id": "clm_s0388456d7a620a5d1ea19e939a",
+      "source_input_claim_id": "clm_b7185587fcc2a796d82389fe",
+      "source_label": "Water",
+      "source_text": "Water ×2",
+      "target_entity_id": "ent_2556849787477de43f0e11d6"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 3,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_6eb01f947143d14deca8b097",
+      "relation_claim_id": "clm_26dbb81ab2f1a3be8aca18ff",
+      "source_input_claim_id": "clm_b8186adff2dacfd6341e922b",
+      "source_label": "Water",
+      "source_text": "Water ×3",
+      "target_entity_id": "ent_2556849787477de43f0e11d6"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_4e499499e9969fa550a62717",
+      "relation_claim_id": "clm_dddec1de11d694e88df900a2",
+      "source_input_claim_id": "clm_b912001715ae2aa8d558f015",
+      "source_label": "Water",
+      "source_text": "Water ×2",
+      "target_entity_id": "ent_2556849787477de43f0e11d6"
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_5f8dd155f9de4c2129eceae8",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_ba7c76eb11edfde1f4ea08e1",
+      "source_label": "Quality Medicinal Herb",
+      "source_text": "Quality Medicinal Herb ×1",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 3,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_8eeba8bd21b526c56d120995",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_bbc72fba79f91195687ff299",
+      "source_label": "Vegetable",
+      "source_text": "Vegetable ×3",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_5f8dd155f9de4c2129eceae8",
+      "relation_claim_id": "clm_da667d521e88aca5aa7527b8",
+      "source_input_claim_id": "clm_bc964ceaca2e0484053244df",
+      "source_label": "Water",
+      "source_text": "Water ×1",
+      "target_entity_id": "ent_2556849787477de43f0e11d6"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_6eb01f947143d14deca8b097",
+      "relation_claim_id": "clm_c1368681648b7a6683636d20",
+      "source_input_claim_id": "clm_bd0fa9724c04a2f80e4be379",
+      "source_label": "Egg",
+      "source_text": "Egg ×1",
+      "target_entity_id": "ent_10862c2f90337493b0fa7679"
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 15,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_e8b9801164c3598cdf32cc89",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_bd6b9065dcf5972fa206df74",
+      "source_label": "Medicinal Herb",
+      "source_text": "Medicinal Herb ×15",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_8eeba8bd21b526c56d120995",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_bea46e059b3b0eae54588619",
+      "source_label": "Seafood",
+      "source_text": "Seafood ×1",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 3,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_23a74ff251f041c5554f0a4f",
+      "relation_claim_id": "clm_03100b030e68c41c8ccd7fe7",
+      "source_input_claim_id": "clm_beb2218d6e0942f4ed7d32e7",
+      "source_label": "Water",
+      "source_text": "Water ×3",
+      "target_entity_id": "ent_2556849787477de43f0e11d6"
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_11f1b3b38826e851cb876400",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_bf13bbc41bf71ecbcfe20aed",
+      "source_label": "Vegetable",
+      "source_text": "Vegetable ×2",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_931dcd0fc4da2de03c86abb1",
+      "relation_claim_id": "clm_e27afcc6c00c8ed7b7ee7de2",
+      "source_input_claim_id": "clm_bf88cf109e6c5b864d3ef66f",
+      "source_label": "Fish Fillet",
+      "source_text": "Fish Fillet ×2",
+      "target_entity_id": "ent_30f0042097ec07fc018eb915"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 3,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_e772bc466331e951df46475e",
+      "relation_claim_id": "clm_0e9b2fb8896e769eac06b6da",
+      "source_input_claim_id": "clm_bffc4506df10713e16dc6aed",
+      "source_label": "Water",
+      "source_text": "Water ×3",
+      "target_entity_id": "ent_2556849787477de43f0e11d6"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 3,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_3f8a9d8c6073e808a0b25f2d",
+      "relation_claim_id": "clm_5c473e01b4ae176b8bf5dc73",
+      "source_input_claim_id": "clm_c034c4b867e7124062eab015",
+      "source_label": "Water",
+      "source_text": "Water ×3",
+      "target_entity_id": "ent_2556849787477de43f0e11d6"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 3,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_3f8a9d8c6073e808a0b25f2d",
+      "relation_claim_id": "clm_e193694dd29931060c6580f6",
+      "source_input_claim_id": "clm_c30dfe9f08d314d76e5a5dbf",
+      "source_label": "Fine Meat",
+      "source_text": "Fine Meat ×3",
+      "target_entity_id": "ent_67e3c55b1c58edd97ba44c22"
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_82f3588da0dfed1a2f73ee3a",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_c32d419e034245c032743723",
+      "source_label": "Fruit",
+      "source_text": "Fruit ×1",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_4636d5719dea56c5ba734a60",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_c484342240b7ff8f7e1328b4",
+      "source_label": "Vegetable",
+      "source_text": "Vegetable ×1",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_23a74ff251f041c5554f0a4f",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_c6b16c8fcfe32f1b456fc6f4",
+      "source_label": "Medium Fish",
+      "source_text": "Medium Fish ×2",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_a408cb61e55821597416abbb",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_c84f6de5b31a3fdde6f95e9a",
+      "source_label": "Vegetable",
+      "source_text": "Vegetable ×2",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 4,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_d9c90d94d1e0d3c4c6d50ed4",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_c9defd0312d086fca363c130",
+      "source_label": "Vegetable",
+      "source_text": "Vegetable ×4",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "new_identity_link",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_d2d4221bdc0342f4a1b77eae",
+      "relation_claim_id": "clm_s032131119c0c6a3d7f0de79033",
+      "source_input_claim_id": "clm_ca893ef106ccfb8bc20cba36",
+      "source_label": "Lesser Catalyst",
+      "source_text": "Lesser Catalyst ×1",
+      "target_entity_id": "ent_s036d0b6578619bc2e5c3ae47db"
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_931dcd0fc4da2de03c86abb1",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_cced37a2ae8ce91c33ff70fb",
+      "source_label": "Small Fish",
+      "source_text": "Small Fish ×1",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "new_identity_link",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_71b73f52515fe122b11b5629",
+      "relation_claim_id": "clm_s03d230c46bffd41aca20f292da",
+      "source_input_claim_id": "clm_cde80ca11d1ee08fb1cab636",
+      "source_label": "Abyss Dewdrop",
+      "source_text": "Abyss Dewdrop ×1",
+      "target_entity_id": "ent_s031076662488cb15c6dd07183c"
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_69a9fa6dfb66fe9ce494a92d",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_ce332df1ade973dd2918ac74",
+      "source_label": "Vegetable",
+      "source_text": "Vegetable ×1",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_a408cb61e55821597416abbb",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_cff3b4c3382ef3b9adcb1af9",
+      "source_label": "Fruit",
+      "source_text": "Fruit ×2",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 3,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_a408cb61e55821597416abbb",
+      "relation_claim_id": "clm_f8511b516d5d11ce9a805c5e",
+      "source_input_claim_id": "clm_d00b1e820fcb50a162c42fa2",
+      "source_label": "Cooking Oil",
+      "source_text": "Cooking Oil ×3",
+      "target_entity_id": "ent_c7c2d3713301f2b89cd72aab"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_84bca4977c727b61bb35e2e2",
+      "relation_claim_id": "clm_cb761df0ec65a044cc646910",
+      "source_input_claim_id": "clm_d105b3be17c77a398e033312",
+      "source_label": "Honey",
+      "source_text": "Honey ×1",
+      "target_entity_id": "ent_118c452218302f0b4ad7d88d"
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_4636d5719dea56c5ba734a60",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_d252ab93380758825c84c8a0",
+      "source_label": "Meat",
+      "source_text": "Meat ×1",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_79601484c6c30655d3df006b",
+      "relation_claim_id": "clm_e0a028c2512240629e9a71d2",
+      "source_input_claim_id": "clm_d4c18143149f3a713e7d5598",
+      "source_label": "Holy Water",
+      "source_text": "Holy Water ×2",
+      "target_entity_id": "ent_bf39f2fc2306a8dfd3a3149a"
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 3,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_3f8a9d8c6073e808a0b25f2d",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_d7da2937d5130c895f60b54d",
+      "source_label": "Vegetable",
+      "source_text": "Vegetable ×3",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_23a74ff251f041c5554f0a4f",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_d8b28e3a60b905c77cf202ea",
+      "source_label": "Fruit",
+      "source_text": "Fruit ×1",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_479a93f69c96c7fda9202fd3",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_d9e6867ad77a030168ebda99",
+      "source_label": "Fruit",
+      "source_text": "Fruit ×2",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_03c5ba0bf6270dc203d010ab",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_db27a48734bac95e7f54145d",
+      "source_label": "Grain",
+      "source_text": "Grain ×2",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_143cc2bcb8cabe68ea843701",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_dca3c1c688ff5e50ed297970",
+      "source_label": "Grain",
+      "source_text": "Grain ×1",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 2,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_e772bc466331e951df46475e",
+      "relation_claim_id": "clm_31565cc54867e10ebd998f4c",
+      "source_input_claim_id": "clm_dcc8db89bc7153ce5a4da691",
+      "source_label": "Salt",
+      "source_text": "Salt ×2",
+      "target_entity_id": "ent_7e6466f40b750aa7b2c6beb6"
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 3,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_c9535443cb8a556f638caf3f",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_de068ae996111e8a6f6605a2",
+      "source_label": "Fruit",
+      "source_text": "Fruit ×3",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "new_identity_link",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_664b1f96b2452e94ccbbcc9a",
+      "relation_claim_id": "clm_s035d745389247d161f0af9cfa5",
+      "source_input_claim_id": "clm_df8632211b85564c6c6e7148",
+      "source_label": "Lesser Catalyst",
+      "source_text": "Lesser Catalyst ×1",
+      "target_entity_id": "ent_s036d0b6578619bc2e5c3ae47db"
+    },
+    {
+      "disposition": "new_identity_link",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_5f8dd155f9de4c2129eceae8",
+      "relation_claim_id": "clm_s0336db5ae1bb8eca50bf792cfd",
+      "source_input_claim_id": "clm_e0179af98b571e1a81a8f3a8",
+      "source_label": "Palmar Beetle",
+      "source_text": "Palmar Beetle ×1",
+      "target_entity_id": "ent_s03f8be2f45de62eec9e2a00d8f"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_3c49a08e84b7f0d25bd8e179",
+      "relation_claim_id": "clm_acf0653211161631e47e130a",
+      "source_input_claim_id": "clm_e065cbe2678f92c371296af2",
+      "source_label": "Empty Bottle",
+      "source_text": "Empty Bottle ×1",
+      "target_entity_id": "ent_9c46e6c2b4568ea418ec682d"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_d9c90d94d1e0d3c4c6d50ed4",
+      "relation_claim_id": "clm_e1dd4b4657d0ef6505f8a685",
+      "source_input_claim_id": "clm_e26c80a1f948800cd2ac0780",
+      "source_label": "Egg",
+      "source_text": "Egg ×1",
+      "target_entity_id": "ent_10862c2f90337493b0fa7679"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 5,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_e772bc466331e951df46475e",
+      "relation_claim_id": "clm_3d7842590ac3a560260e4565",
+      "source_input_claim_id": "clm_e3b1dfab60faefb2cd44004f",
+      "source_label": "Egg",
+      "source_text": "Egg ×5",
+      "target_entity_id": "ent_10862c2f90337493b0fa7679"
+    },
+    {
+      "disposition": "new_identity_link",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 3,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_79601484c6c30655d3df006b",
+      "relation_claim_id": "clm_s035d8009386026f2246d8c8ecd",
+      "source_input_claim_id": "clm_e4628fc810beaa12801863c0",
+      "source_label": "Mercury",
+      "source_text": "Mercury ×3",
+      "target_entity_id": "ent_s03b067d1e10cebfcdeb1136327"
+    },
+    {
+      "disposition": "new_identity_link",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": 4,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_79601484c6c30655d3df006b",
+      "relation_claim_id": "clm_s038c4763aa17bafc90534d391f",
+      "source_input_claim_id": "clm_e621f1419b6468c6cd5727e6",
+      "source_label": "Brimstone",
+      "source_text": "Brimstone ×4",
+      "target_entity_id": "ent_s0317d429230e465a246ccaf454"
+    },
+    {
+      "disposition": "new_identity_link",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": null,
+      "quantity_status": "not_recorded",
+      "recipe_entity_id": "ent_f2f901ec1be4b269ba560b54",
+      "relation_claim_id": "clm_s03794f1a07877871d4cae02ca1",
+      "source_input_claim_id": "clm_e92b097d15a65d87595e5470",
+      "source_label": "Copper Sulfate",
+      "source_text": "Copper Sulfate",
+      "target_entity_id": "ent_s03a807aef1ca3624d5d3993c8f"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 3,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_c9535443cb8a556f638caf3f",
+      "relation_claim_id": "clm_915e8b11e6cc1f92d43f9b12",
+      "source_input_claim_id": "clm_f12e2df50f7c4efadbf5eb87",
+      "source_label": "Egg",
+      "source_text": "Egg ×3",
+      "target_entity_id": "ent_10862c2f90337493b0fa7679"
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 4,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_eee0c44c0b64b4135ee302f7",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_f1483a3025c567e6f8cc0b89",
+      "source_label": "Grain",
+      "source_text": "Grain ×4",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "new_identity_link",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": null,
+      "quantity_status": "not_recorded",
+      "recipe_entity_id": "ent_11013a31269f61b38e9045d3",
+      "relation_claim_id": "clm_s039b415c5341d65af104773d98",
+      "source_input_claim_id": "clm_f1e37c12878612d7a7bb638d",
+      "source_label": "Gold Dust",
+      "source_text": "Gold Dust",
+      "target_entity_id": "ent_s03a11ab221daa573373176fcae"
+    },
+    {
+      "disposition": "new_identity_link",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": null,
+      "quantity_status": "not_recorded",
+      "recipe_entity_id": "ent_84eab6e41a71565f679df592",
+      "relation_claim_id": "clm_s036ba69a4c058b826118a5c54c",
+      "source_input_claim_id": "clm_f41540371b795268be5b1209",
+      "source_label": "Mordant",
+      "source_text": "Mordant",
+      "target_entity_id": "ent_s0326a5bec388ede4bc9432a030"
+    },
+    {
+      "disposition": "existing_link_unchanged",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 3,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_69a9fa6dfb66fe9ce494a92d",
+      "relation_claim_id": "clm_2c021746c28cae8278f48f76",
+      "source_input_claim_id": "clm_f4930d3e8ecba3110351cbfc",
+      "source_label": "Cooking Oil",
+      "source_text": "Cooking Oil ×3",
+      "target_entity_id": "ent_c7c2d3713301f2b89cd72aab"
+    },
+    {
+      "disposition": "new_identity_link",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": null,
+      "quantity_status": "not_recorded",
+      "recipe_entity_id": "ent_84eab6e41a71565f679df592",
+      "relation_claim_id": "clm_s0311379b7ba8c5f641ac18a4ea",
+      "source_input_claim_id": "clm_f9d8182a657d304d9f11d0d4",
+      "source_label": "Red Desert Flower",
+      "source_text": "Red Desert Flower",
+      "target_entity_id": "ent_s03ee75e16e957347b2332231af"
+    },
+    {
+      "disposition": "held_category_identity",
+      "evidence_ids": [
+        "evd_06652a8fff4f0593f8ce8431"
+      ],
+      "quantity": 1,
+      "quantity_status": "explicit_source_count",
+      "recipe_entity_id": "ent_5bb8fb76f7bb28ff0ca7b338",
+      "relation_claim_id": null,
+      "source_input_claim_id": "clm_fc3f367fb7a41c05787abbdc",
+      "source_label": "Vegetable",
+      "source_text": "Vegetable ×1",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "new_identity_link",
+      "evidence_ids": [
+        "evd_62f7da1955faa80092f4449a"
+      ],
+      "quantity": null,
+      "quantity_status": "not_recorded",
+      "recipe_entity_id": "ent_54f5a8165a2dba37c19d1eed",
+      "relation_claim_id": "clm_s030926ac46992acde54e7f5c88",
+      "source_input_claim_id": "clm_fcf2dda85f90ec3dd9210454",
+      "source_label": "Mordant",
+      "source_text": "Mordant",
+      "target_entity_id": "ent_s0326a5bec388ede4bc9432a030"
+    }
+  ],
+  "known_preexisting_query_ambiguities": [
+    {
+      "candidate_foreign_subject_claim_ids": [
+        "clm_95b8f15c8fc6897bc00872ce",
+        "clm_ee5a7b76900f77d3dd8cc0b7"
+      ],
+      "name": "Wine",
+      "prior_foreign_subject_claim_ids": [
+        "clm_95b8f15c8fc6897bc00872ce",
+        "clm_ee5a7b76900f77d3dd8cc0b7"
+      ],
+      "recipe_entity_id": "ent_0f44e2bac85651e4e5b136e8"
+    },
+    {
+      "candidate_foreign_subject_claim_ids": [
+        "clm_8f4c1ef8699aa90203516450"
+      ],
+      "name": "Haiden's Lesser Elixir",
+      "prior_foreign_subject_claim_ids": [
+        "clm_8f4c1ef8699aa90203516450"
+      ],
+      "recipe_entity_id": "ent_4158856feae336a21a199238"
+    }
+  ],
+  "label_mapping": [
+    {
+      "disposition": "new_named_material",
+      "matching_existing_entity_ids": [],
+      "occurrences": 1,
+      "reason": "Input label supports a bounded ingredient reference, not a source re-collection or gameplay observation.",
+      "source_label": "Abyss Dewdrop",
+      "supporting_input_claim_ids": [
+        "clm_cde80ca11d1ee08fb1cab636"
+      ],
+      "target_entity_id": "ent_s031076662488cb15c6dd07183c"
+    },
+    {
+      "disposition": "reuse_existing_resource",
+      "matching_existing_entity_ids": [
+        "ent_9ddd632416f00a032056f61a"
+      ],
+      "occurrences": 2,
+      "reason": "Exact compatible-type name/alias match; reuse stable identity.",
+      "source_label": "Bird Meat",
+      "supporting_input_claim_ids": [
+        "clm_1f827edfbb331166f1474f76",
+        "clm_9482d7126ac76a82d7771de4"
+      ],
+      "target_entity_id": "ent_9ddd632416f00a032056f61a"
+    },
+    {
+      "disposition": "new_food_distinct_from_recipe",
+      "matching_existing_entity_ids": [
+        "ent_4636d5719dea56c5ba734a60"
+      ],
+      "occurrences": 1,
+      "reason": "Retained input and exact recipe.output identify food, not the recipe process. Preserve the existing recipe ID; create a distinct item ID.",
+      "source_label": "Boiled Meat",
+      "supporting_input_claim_ids": [
+        "clm_9e79c91dab2041a353c49281"
+      ],
+      "target_entity_id": "ent_s03ab929b20e36553217f3ba6dd"
+    },
+    {
+      "disposition": "new_named_material",
+      "matching_existing_entity_ids": [],
+      "occurrences": 1,
+      "reason": "Input label supports a bounded ingredient reference, not a source re-collection or gameplay observation.",
+      "source_label": "Brimstone",
+      "supporting_input_claim_ids": [
+        "clm_e621f1419b6468c6cd5727e6"
+      ],
+      "target_entity_id": "ent_s0317d429230e465a246ccaf454"
+    },
+    {
+      "disposition": "new_named_material",
+      "matching_existing_entity_ids": [],
+      "occurrences": 1,
+      "reason": "Input label supports a bounded ingredient reference, not a source re-collection or gameplay observation.",
+      "source_label": "Charcoal",
+      "supporting_input_claim_ids": [
+        "clm_061779c905bb85ef00b63f75"
+      ],
+      "target_entity_id": "ent_s0341d0d35e0c0296303b53bba3"
+    },
+    {
+      "disposition": "new_named_material",
+      "matching_existing_entity_ids": [],
+      "occurrences": 1,
+      "reason": "Input label supports a bounded ingredient reference, not a source re-collection or gameplay observation.",
+      "source_label": "Common Attack Reagent",
+      "supporting_input_claim_ids": [
+        "clm_1a8acd4953d57c305b3fcd0f"
+      ],
+      "target_entity_id": "ent_s031d2e5e8ac019b549a44aa03c"
+    },
+    {
+      "disposition": "new_named_material",
+      "matching_existing_entity_ids": [],
+      "occurrences": 1,
+      "reason": "Input label supports a bounded ingredient reference, not a source re-collection or gameplay observation.",
+      "source_label": "Common Health Reagent",
+      "supporting_input_claim_ids": [
+        "clm_ac1b0646ad33246eff8d6198"
+      ],
+      "target_entity_id": "ent_s03238fed15b8d8f96a483ecad6"
+    },
+    {
+      "disposition": "new_named_material",
+      "matching_existing_entity_ids": [],
+      "occurrences": 1,
+      "reason": "Input label supports a bounded ingredient reference, not a source re-collection or gameplay observation.",
+      "source_label": "Common Spirit Reagent",
+      "supporting_input_claim_ids": [
+        "clm_78f57a9d63960e8a858d68ef"
+      ],
+      "target_entity_id": "ent_s03137356b7daee3ed71852c130"
+    },
+    {
+      "disposition": "reuse_existing_resource",
+      "matching_existing_entity_ids": [
+        "ent_c7c2d3713301f2b89cd72aab"
+      ],
+      "occurrences": 7,
+      "reason": "Exact compatible-type name/alias match; reuse stable identity.",
+      "source_label": "Cooking Oil",
+      "supporting_input_claim_ids": [
+        "clm_430a175ce3890b1991c02b86",
+        "clm_486345fa7d9e2206afa9bc48",
+        "clm_50c94f97a04931e150a3b5d3",
+        "clm_8109195abc50fb876a27828f",
+        "clm_8bab2029fb790491b403d380",
+        "clm_d00b1e820fcb50a162c42fa2",
+        "clm_f4930d3e8ecba3110351cbfc"
+      ],
+      "target_entity_id": "ent_c7c2d3713301f2b89cd72aab"
+    },
+    {
+      "disposition": "new_named_material",
+      "matching_existing_entity_ids": [],
+      "occurrences": 1,
+      "reason": "Input label supports a bounded ingredient reference, not a source re-collection or gameplay observation.",
+      "source_label": "Copper Sulfate",
+      "supporting_input_claim_ids": [
+        "clm_e92b097d15a65d87595e5470"
+      ],
+      "target_entity_id": "ent_s03a807aef1ca3624d5d3993c8f"
+    },
+    {
+      "disposition": "reuse_existing_resource",
+      "matching_existing_entity_ids": [
+        "ent_10862c2f90337493b0fa7679"
+      ],
+      "occurrences": 10,
+      "reason": "Exact compatible-type name/alias match; reuse stable identity.",
+      "source_label": "Egg",
+      "supporting_input_claim_ids": [
+        "clm_0c4dd5aecc2e618a5088031e",
+        "clm_5573f48c468d002fa6d5e4b2",
+        "clm_67ed88b194980eef2079a9e0",
+        "clm_7f5986ef617a80dd47218b45",
+        "clm_a776f6f81b5283eb5149a980",
+        "clm_b6007449d0a44f640dd7cfb8",
+        "clm_bd0fa9724c04a2f80e4be379",
+        "clm_e26c80a1f948800cd2ac0780",
+        "clm_e3b1dfab60faefb2cd44004f",
+        "clm_f12e2df50f7c4efadbf5eb87"
+      ],
+      "target_entity_id": "ent_10862c2f90337493b0fa7679"
+    },
+    {
+      "disposition": "reuse_existing_resource",
+      "matching_existing_entity_ids": [
+        "ent_9c46e6c2b4568ea418ec682d"
+      ],
+      "occurrences": 7,
+      "reason": "Exact compatible-type name/alias match; reuse stable identity.",
+      "source_label": "Empty Bottle",
+      "supporting_input_claim_ids": [
+        "clm_234bad6197fa2bf84afae050",
+        "clm_298b429f8eb1f7f791f25da7",
+        "clm_4890166292c4796e5b67a6a9",
+        "clm_9b0145169f0f8274e8bceefd",
+        "clm_9bcda7f36d70195f0b8afabd",
+        "clm_b264238dd8e1e62469abfae8",
+        "clm_e065cbe2678f92c371296af2"
+      ],
+      "target_entity_id": "ent_9c46e6c2b4568ea418ec682d"
+    },
+    {
+      "disposition": "reuse_existing_resource",
+      "matching_existing_entity_ids": [
+        "ent_67e3c55b1c58edd97ba44c22"
+      ],
+      "occurrences": 4,
+      "reason": "Exact compatible-type name/alias match; reuse stable identity.",
+      "source_label": "Fine Meat",
+      "supporting_input_claim_ids": [
+        "clm_19827fbc50731e484459b963",
+        "clm_5859615e56e280233b6c8047",
+        "clm_96ed8be4a47f09fe7277de70",
+        "clm_c30dfe9f08d314d76e5a5dbf"
+      ],
+      "target_entity_id": "ent_67e3c55b1c58edd97ba44c22"
+    },
+    {
+      "disposition": "reuse_existing_resource",
+      "matching_existing_entity_ids": [
+        "ent_30f0042097ec07fc018eb915"
+      ],
+      "occurrences": 5,
+      "reason": "Exact compatible-type name/alias match; reuse stable identity.",
+      "source_label": "Fish Fillet",
+      "supporting_input_claim_ids": [
+        "clm_298c41baed4dab9020fa4b3d",
+        "clm_4e1fcc7fd2e245b3d9a535eb",
+        "clm_86c76a531e781aa6d822a54b",
+        "clm_a5dab4ea32d9af16b02b30e3",
+        "clm_bf88cf109e6c5b864d3ef66f"
+      ],
+      "target_entity_id": "ent_30f0042097ec07fc018eb915"
+    },
+    {
+      "disposition": "held_category_identity",
+      "matching_existing_entity_ids": [],
+      "occurrences": 14,
+      "reason": "Broad culinary label; no specific fruit or substitution membership established.",
+      "source_label": "Fruit",
+      "supporting_input_claim_ids": [
+        "clm_0d24b59ed711509d12b4ce6f",
+        "clm_2eeb45b4b004748d7cb2fa3d",
+        "clm_344fa025bf735e66d0831a8f",
+        "clm_37cf46b21c216cac792e1836",
+        "clm_5e034f5c49146e184716a45c",
+        "clm_a0713816e3b2d6a2b7dc918e",
+        "clm_a567ca643d7e8f02ab2a3197",
+        "clm_a861c57c462e0c4911ae81c1",
+        "clm_b1b9a0a0e9620b9cf277b0b9",
+        "clm_c32d419e034245c032743723",
+        "clm_cff3b4c3382ef3b9adcb1af9",
+        "clm_d8b28e3a60b905c77cf202ea",
+        "clm_d9e6867ad77a030168ebda99",
+        "clm_de068ae996111e8a6f6605a2"
+      ],
+      "target_entity_id": null
+    },
+    {
+      "disposition": "new_named_material",
+      "matching_existing_entity_ids": [],
+      "occurrences": 1,
+      "reason": "Input label supports a bounded ingredient reference, not a source re-collection or gameplay observation.",
+      "source_label": "Gold Bar",
+      "supporting_input_claim_ids": [
+        "clm_23026528ce2622f706626bf3"
+      ],
+      "target_entity_id": "ent_s0336b30e5fa7b90af69b7b3249"
+    },
+    {
+      "disposition": "new_named_material",
+      "matching_existing_entity_ids": [],
+      "occurrences": 1,
+      "reason": "Input label supports a bounded ingredient reference, not a source re-collection or gameplay observation.",
+      "source_label": "Gold Dust",
+      "supporting_input_claim_ids": [
+        "clm_f1e37c12878612d7a7bb638d"
+      ],
+      "target_entity_id": "ent_s03a11ab221daa573373176fcae"
+    },
+    {
+      "disposition": "held_category_identity",
+      "matching_existing_entity_ids": [],
+      "occurrences": 11,
+      "reason": "Broad culinary label; no specific grain or substitution membership established.",
+      "source_label": "Grain",
+      "supporting_input_claim_ids": [
+        "clm_09574afb1c1bcdceca022656",
+        "clm_16c7fab69ad5401b9b7f311e",
+        "clm_2709270674656849cc58a145",
+        "clm_766e68899cf8941382226fa4",
+        "clm_a2c3dca6556a4130d68f5a7e",
+        "clm_a4ce8b9680113863d37890f4",
+        "clm_b1ea400c5d273282fa342610",
+        "clm_b653ef06af6d756120d766d3",
+        "clm_db27a48734bac95e7f54145d",
+        "clm_dca3c1c688ff5e50ed297970",
+        "clm_f1483a3025c567e6f8cc0b89"
+      ],
+      "target_entity_id": null
+    },
+    {
+      "disposition": "new_named_material",
+      "matching_existing_entity_ids": [],
+      "occurrences": 1,
+      "reason": "Input label supports a bounded ingredient reference, not a source re-collection or gameplay observation.",
+      "source_label": "Green Moss",
+      "supporting_input_claim_ids": [
+        "clm_aa0c6f53ac40a8c4e391ec77"
+      ],
+      "target_entity_id": "ent_s03c495af6e1a006917f931baf3"
+    },
+    {
+      "disposition": "reuse_existing_resource",
+      "matching_existing_entity_ids": [
+        "ent_bf39f2fc2306a8dfd3a3149a"
+      ],
+      "occurrences": 1,
+      "reason": "Exact compatible-type name/alias match; reuse stable identity.",
+      "source_label": "Holy Water",
+      "supporting_input_claim_ids": [
+        "clm_d4c18143149f3a713e7d5598"
+      ],
+      "target_entity_id": "ent_bf39f2fc2306a8dfd3a3149a"
+    },
+    {
+      "disposition": "reuse_existing_resource",
+      "matching_existing_entity_ids": [
+        "ent_118c452218302f0b4ad7d88d"
+      ],
+      "occurrences": 2,
+      "reason": "Exact compatible-type name/alias match; reuse stable identity.",
+      "source_label": "Honey",
+      "supporting_input_claim_ids": [
+        "clm_b5fb6533efd3511e3a1d2c59",
+        "clm_d105b3be17c77a398e033312"
+      ],
+      "target_entity_id": "ent_118c452218302f0b4ad7d88d"
+    },
+    {
+      "disposition": "new_named_material",
+      "matching_existing_entity_ids": [],
+      "occurrences": 7,
+      "reason": "Input label supports a bounded ingredient reference, not a source re-collection or gameplay observation.",
+      "source_label": "Lesser Catalyst",
+      "supporting_input_claim_ids": [
+        "clm_3390698e122a2efa6f200c7c",
+        "clm_8863c26b77b2a18d568dc483",
+        "clm_973e9b015c609eab3608938d",
+        "clm_a17b5a7f6d93d4ca7aaf6507",
+        "clm_a2b464099b38a912a704377c",
+        "clm_ca893ef106ccfb8bc20cba36",
+        "clm_df8632211b85564c6c6e7148"
+      ],
+      "target_entity_id": "ent_s036d0b6578619bc2e5c3ae47db"
+    },
+    {
+      "disposition": "new_named_material",
+      "matching_existing_entity_ids": [],
+      "occurrences": 1,
+      "reason": "Input label supports a bounded ingredient reference, not a source re-collection or gameplay observation.",
+      "source_label": "Lesser Defense Reagent",
+      "supporting_input_claim_ids": [
+        "clm_341727f9323d38b0f90851c1"
+      ],
+      "target_entity_id": "ent_s03089f93124a24ccd5129cbd20"
+    },
+    {
+      "disposition": "new_named_material",
+      "matching_existing_entity_ids": [],
+      "occurrences": 1,
+      "reason": "Input label supports a bounded ingredient reference, not a source re-collection or gameplay observation.",
+      "source_label": "Lesser Health Reagent",
+      "supporting_input_claim_ids": [
+        "clm_38a154925d3573f2238d0b8a"
+      ],
+      "target_entity_id": "ent_s03375205c169f9d7df035ab89b"
+    },
+    {
+      "disposition": "new_named_material",
+      "matching_existing_entity_ids": [],
+      "occurrences": 1,
+      "reason": "Input label supports a bounded ingredient reference, not a source re-collection or gameplay observation.",
+      "source_label": "Lesser Spirit Reagent",
+      "supporting_input_claim_ids": [
+        "clm_9cb18a6e3c2accfc1663e563"
+      ],
+      "target_entity_id": "ent_s03d79a296f64b4639e54cbffb1"
+    },
+    {
+      "disposition": "new_named_material",
+      "matching_existing_entity_ids": [],
+      "occurrences": 1,
+      "reason": "Input label supports a bounded ingredient reference, not a source re-collection or gameplay observation.",
+      "source_label": "Lesser Stamina Reagent",
+      "supporting_input_claim_ids": [
+        "clm_1a4f0d05b713c4dd80b6f494"
+      ],
+      "target_entity_id": "ent_s03764218d38cdfc1246e41b96a"
+    },
+    {
+      "disposition": "held_category_identity",
+      "matching_existing_entity_ids": [],
+      "occurrences": 7,
+      "reason": "Generic meat label; not interchangeable with Fine Meat or Bird Meat without evidence.",
+      "source_label": "Meat",
+      "supporting_input_claim_ids": [
+        "clm_0f3b49b81c0cbff6ed13c51a",
+        "clm_471186cbb703642ef18c82b7",
+        "clm_4c526fdda0983516f0563fd2",
+        "clm_7d6604a8742f19ee71d51838",
+        "clm_909edd7ecf2c91736fce09e8",
+        "clm_9951f6a8d549e2dd20d46500",
+        "clm_d252ab93380758825c84c8a0"
+      ],
+      "target_entity_id": null
+    },
+    {
+      "disposition": "new_food_distinct_from_recipe",
+      "matching_existing_entity_ids": [
+        "ent_8b27e32376389d63ee0eaae8"
+      ],
+      "occurrences": 1,
+      "reason": "Retained input and exact recipe.output identify food, not the recipe process. Preserve the existing recipe ID; create a distinct item ID.",
+      "source_label": "Meat and Fish Skewers",
+      "supporting_input_claim_ids": [
+        "clm_14619b72ea3b90ec0fccb1a2"
+      ],
+      "target_entity_id": "ent_s03c5b8acce23ec128ccb3d3416"
+    },
+    {
+      "disposition": "held_category_identity",
+      "matching_existing_entity_ids": [],
+      "occurrences": 2,
+      "reason": "Category-versus-inventory-item meaning unresolved in retained inputs.",
+      "source_label": "Medicinal Herb",
+      "supporting_input_claim_ids": [
+        "clm_b6c99b3a5a2f9fbaa08fc30a",
+        "clm_bd6b9065dcf5972fa206df74"
+      ],
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_category_identity",
+      "matching_existing_entity_ids": [],
+      "occurrences": 1,
+      "reason": "Size-qualified fish label; no species, inventory identity or substitution set established.",
+      "source_label": "Medium Fish",
+      "supporting_input_claim_ids": [
+        "clm_c6b16c8fcfe32f1b456fc6f4"
+      ],
+      "target_entity_id": null
+    },
+    {
+      "disposition": "new_named_material",
+      "matching_existing_entity_ids": [],
+      "occurrences": 1,
+      "reason": "Input label supports a bounded ingredient reference, not a source re-collection or gameplay observation.",
+      "source_label": "Mercury",
+      "supporting_input_claim_ids": [
+        "clm_e4628fc810beaa12801863c0"
+      ],
+      "target_entity_id": "ent_s03b067d1e10cebfcdeb1136327"
+    },
+    {
+      "disposition": "reuse_existing_resource",
+      "matching_existing_entity_ids": [
+        "ent_6dafffa4719717750bacd537"
+      ],
+      "occurrences": 1,
+      "reason": "Exact compatible-type name/alias match; reuse stable identity.",
+      "source_label": "Milk",
+      "supporting_input_claim_ids": [
+        "clm_68498600bd5db37606008be5"
+      ],
+      "target_entity_id": "ent_6dafffa4719717750bacd537"
+    },
+    {
+      "disposition": "new_named_material",
+      "matching_existing_entity_ids": [],
+      "occurrences": 3,
+      "reason": "Input label supports a bounded ingredient reference, not a source re-collection or gameplay observation.",
+      "source_label": "Mordant",
+      "supporting_input_claim_ids": [
+        "clm_528c3e9ff94310c42a7b9425",
+        "clm_f41540371b795268be5b1209",
+        "clm_fcf2dda85f90ec3dd9210454"
+      ],
+      "target_entity_id": "ent_s0326a5bec388ede4bc9432a030"
+    },
+    {
+      "disposition": "reuse_existing_resource",
+      "matching_existing_entity_ids": [
+        "ent_18fdd1d68f2db65658d99545"
+      ],
+      "occurrences": 1,
+      "reason": "Exact compatible-type name/alias match; reuse stable identity.",
+      "source_label": "Oakwood Mushroom",
+      "supporting_input_claim_ids": [
+        "clm_b046f590222e1250e844c86a"
+      ],
+      "target_entity_id": "ent_18fdd1d68f2db65658d99545"
+    },
+    {
+      "disposition": "new_named_material",
+      "matching_existing_entity_ids": [],
+      "occurrences": 1,
+      "reason": "Input label supports a bounded ingredient reference, not a source re-collection or gameplay observation.",
+      "source_label": "Palmar Beetle",
+      "supporting_input_claim_ids": [
+        "clm_e0179af98b571e1a81a8f3a8"
+      ],
+      "target_entity_id": "ent_s03f8be2f45de62eec9e2a00d8f"
+    },
+    {
+      "disposition": "new_named_material",
+      "matching_existing_entity_ids": [],
+      "occurrences": 1,
+      "reason": "Input label supports a bounded ingredient reference, not a source re-collection or gameplay observation.",
+      "source_label": "Palmar Leaf",
+      "supporting_input_claim_ids": [
+        "clm_6bb914ccc4cbc507bd77a9c7"
+      ],
+      "target_entity_id": "ent_s03700416f71b2e78ba21cf4bf8"
+    },
+    {
+      "disposition": "held_category_identity",
+      "matching_existing_entity_ids": [],
+      "occurrences": 1,
+      "reason": "Quality-qualified group-versus-item meaning unresolved; no specific herb identity.",
+      "source_label": "Quality Medicinal Herb",
+      "supporting_input_claim_ids": [
+        "clm_ba7c76eb11edfde1f4ea08e1"
+      ],
+      "target_entity_id": null
+    },
+    {
+      "disposition": "new_named_material",
+      "matching_existing_entity_ids": [],
+      "occurrences": 1,
+      "reason": "Input label supports a bounded ingredient reference, not a source re-collection or gameplay observation.",
+      "source_label": "Red Desert Flower",
+      "supporting_input_claim_ids": [
+        "clm_f9d8182a657d304d9f11d0d4"
+      ],
+      "target_entity_id": "ent_s03ee75e16e957347b2332231af"
+    },
+    {
+      "disposition": "new_named_material",
+      "matching_existing_entity_ids": [],
+      "occurrences": 1,
+      "reason": "Input label supports a bounded ingredient reference, not a source re-collection or gameplay observation.",
+      "source_label": "Saffron",
+      "supporting_input_claim_ids": [
+        "clm_381b2cda085116ad50aafea6"
+      ],
+      "target_entity_id": "ent_s0336552f8920e541a79f875ece"
+    },
+    {
+      "disposition": "reuse_existing_resource",
+      "matching_existing_entity_ids": [
+        "ent_7e6466f40b750aa7b2c6beb6"
+      ],
+      "occurrences": 8,
+      "reason": "Exact compatible-type name/alias match; reuse stable identity.",
+      "source_label": "Salt",
+      "supporting_input_claim_ids": [
+        "clm_215a5366ee13b51ab834d854",
+        "clm_22b67e8241c09296666da941",
+        "clm_40c45f0c0cf2f6efd7beeb07",
+        "clm_4b281ec23f71ba5f59b98aa8",
+        "clm_5d380a4e89871494f6bdd007",
+        "clm_622551006ea98f5b8c80872f",
+        "clm_aefb06e24155f1c60c1659cb",
+        "clm_dcc8db89bc7153ce5a4da691"
+      ],
+      "target_entity_id": "ent_7e6466f40b750aa7b2c6beb6"
+    },
+    {
+      "disposition": "held_category_identity",
+      "matching_existing_entity_ids": [],
+      "occurrences": 5,
+      "reason": "Broad culinary label; do not equate it with Fish Fillet or an invented specific item.",
+      "source_label": "Seafood",
+      "supporting_input_claim_ids": [
+        "clm_2fcd3c084adca008b2040308",
+        "clm_6b5a0c380b98185e8887c5a0",
+        "clm_943964c02df8e40e0b4b2722",
+        "clm_9de2c5a7b269bd6dd416c4f1",
+        "clm_bea46e059b3b0eae54588619"
+      ],
+      "target_entity_id": null
+    },
+    {
+      "disposition": "new_named_material",
+      "matching_existing_entity_ids": [],
+      "occurrences": 1,
+      "reason": "Input label supports a bounded ingredient reference, not a source re-collection or gameplay observation.",
+      "source_label": "Silver Dust",
+      "supporting_input_claim_ids": [
+        "clm_8e06378a7cda5a3653cd96eb"
+      ],
+      "target_entity_id": "ent_s033608360d22137d115f4907ee"
+    },
+    {
+      "disposition": "held_category_identity",
+      "matching_existing_entity_ids": [],
+      "occurrences": 2,
+      "reason": "Size-qualified fish label; no species, inventory identity or substitution set established.",
+      "source_label": "Small Fish",
+      "supporting_input_claim_ids": [
+        "clm_6cd246c8f20cc889e6d59b87",
+        "clm_cced37a2ae8ce91c33ff70fb"
+      ],
+      "target_entity_id": null
+    },
+    {
+      "disposition": "new_named_material",
+      "matching_existing_entity_ids": [],
+      "occurrences": 1,
+      "reason": "Input label supports a bounded ingredient reference, not a source re-collection or gameplay observation.",
+      "source_label": "Squid Ink",
+      "supporting_input_claim_ids": [
+        "clm_57a3c98c3f0435f3d6cbfc78"
+      ],
+      "target_entity_id": "ent_s032918edbe11909697e6d301b0"
+    },
+    {
+      "disposition": "reuse_existing_resource",
+      "matching_existing_entity_ids": [
+        "ent_20f1ca01c174a8f005c50a8f"
+      ],
+      "occurrences": 2,
+      "reason": "Exact compatible-type name/alias match; reuse stable identity.",
+      "source_label": "Sugar",
+      "supporting_input_claim_ids": [
+        "clm_805dba20895953776e34d7c7",
+        "clm_aeeb182a59d36ecaf745a7d7"
+      ],
+      "target_entity_id": "ent_20f1ca01c174a8f005c50a8f"
+    },
+    {
+      "disposition": "held_category_identity",
+      "matching_existing_entity_ids": [],
+      "occurrences": 16,
+      "reason": "Broad culinary label; no specific vegetable or substitution membership established.",
+      "source_label": "Vegetable",
+      "supporting_input_claim_ids": [
+        "clm_20b9dd0b53dab0fa80c18caa",
+        "clm_3b253d4bc7aab3a4329f0eaa",
+        "clm_42fd7fa2268d8bd48d272baf",
+        "clm_51add7e349057eb151abc1f5",
+        "clm_57684a3795f4fb892a01f825",
+        "clm_57705585ae00add90c699113",
+        "clm_8686992c93c099f7a5303f60",
+        "clm_b324d4bb080811474c577d2d",
+        "clm_bbc72fba79f91195687ff299",
+        "clm_bf13bbc41bf71ecbcfe20aed",
+        "clm_c484342240b7ff8f7e1328b4",
+        "clm_c84f6de5b31a3fdde6f95e9a",
+        "clm_c9defd0312d086fca363c130",
+        "clm_ce332df1ade973dd2918ac74",
+        "clm_d7da2937d5130c895f60b54d",
+        "clm_fc3f367fb7a41c05787abbdc"
+      ],
+      "target_entity_id": null
+    },
+    {
+      "disposition": "reuse_existing_resource",
+      "matching_existing_entity_ids": [
+        "ent_2556849787477de43f0e11d6"
+      ],
+      "occurrences": 19,
+      "reason": "Exact compatible-type name/alias match; reuse stable identity.",
+      "source_label": "Water",
+      "supporting_input_claim_ids": [
+        "clm_20411a875f93baddda358d85",
+        "clm_2775a4a74d819915cd890451",
+        "clm_2d8902826d94232ac37e2cfe",
+        "clm_38347688148d114af5ca34bf",
+        "clm_39cd902bf08e8e197635c000",
+        "clm_4b1b1e7d8f4bd016ad65f74f",
+        "clm_535336218780120b8c284725",
+        "clm_6134bf08901de94335109446",
+        "clm_61ffaa3d690f037fbcdd6e51",
+        "clm_648346e1073092a1e3addf08",
+        "clm_7154f566fec468ca68535855",
+        "clm_80d672a6a748cf72b0f26d1b",
+        "clm_b7185587fcc2a796d82389fe",
+        "clm_b8186adff2dacfd6341e922b",
+        "clm_b912001715ae2aa8d558f015",
+        "clm_bc964ceaca2e0484053244df",
+        "clm_beb2218d6e0942f4ed7d32e7",
+        "clm_bffc4506df10713e16dc6aed",
+        "clm_c034c4b867e7124062eab015"
+      ],
+      "target_entity_id": "ent_2556849787477de43f0e11d6"
+    }
+  ],
+  "limitations": [
+    "Source admission has been reviewed; exact PR/head/main integration and CI evidence are recorded in GitHub issue 17 and its linked pull request. This ledger does not itself certify integration or publication.",
+    "Existing historical evidence is unverified and was not freshly checked; source availability and gameplay truth are not established.",
+    "Quantities remain in original recipe.input strings. Identity-only graph edges never imply quantity one when quantity is absent.",
+    "Nine broad or ambiguous labels remain as text with unknown exact item/category identities; no substitution membership is invented.",
+    "The two food outputs intentionally share display names with recipes but have different typed IDs; never equate them.",
+    "The receipt was under_review in the prepared archive. Same-session source/mapping review finalized admission; the existing publication acceptance gate remains enabled.",
+    "Full pinned-runtime CI, actual REST/MCP and resulting-main verification are required before the integration task can be reported complete; see the linked GitHub review record for actual results.",
+    "S02 remains withheld; no earlier canonical file is removed or edited."
+  ],
+  "milestone": "S03",
+  "prepared_archive_sha256": "c74e7343b8b1ee987fea2b970a3a5b76d149bc6384420d9b27d6cba8b9e72196",
+  "prepared_at": "2026-09-11T21:08:57Z",
+  "prepared_candidate_id": "s03-04c5d376dd7dbc712e9b",
+  "prior_canonical_files": {
+    "data/canonical/claims/controller-remapping-available.json": "c890065c764c7a4ee4a5a5ba61d8fccf9f8e9451377220a0d3a0bbc4b717d6fe",
+    "data/canonical/claims/creative-research-seed.json": "990f8133f845c8ea4244a0a10f25f59d8d0172d30b060fbf043b962375544eaa",
+    "data/canonical/claims/crimsonwiki-abyss-gear-depth-v0.4.json": "96a191fac8013905cbce611b88b9f2375503dc6f0c5b0342e9e8dde6ff3fe61d",
+    "data/canonical/claims/crimsonwiki-alchemy-depth-v0.4.json": "74b9d60b1331d76d87d2a0c7a3671fe3fdf10925970593616c4f07320862e5d7",
+    "data/canonical/claims/crimsonwiki-chapter-fields-v0.4.json": "e8d74be061ff07d37d1c341cd7684266dac00be755a648f7631231c6f97f0286",
+    "data/canonical/claims/crimsonwiki-chapter-objectives-v0.4.json": "28a9fa92ca01d528a2b5dfb10e67fa5794c97226c517f0ebc79d8843a32305e0",
+    "data/canonical/claims/crimsonwiki-cooking-recipes-v0.4.json": "9efbb855a2f81606497b44bc5774ffaff5e2a9d488c9cbcd7a2d75348d776639",
+    "data/canonical/claims/crimsonwiki-licensed-bosses-v0.4.json": "89586065fe3522eeadb7363a2e38a1a5f6bf417dd122a6a74af61b0b58cad6af",
+    "data/canonical/claims/depth-first-official-facts-v1.json": "aa97d6aa86370f02e6d70f52fbb398e1bbc8c62295d69855c8af81d3aedafad9",
+    "data/canonical/claims/farming-seed-quickslots.json": "f94ac5e11ae341bfd80f3c90d2b705d15ab44768b5dd7be8686f00fe9e184123",
+    "data/canonical/claims/identity-repair-quest-challenges-v0.4.json": "5998616625d6e9b6b91bbca40c60cb2eca99c69436bc4b01f1799ef9061885e4",
+    "data/canonical/claims/licensed-mount-roster-depth-v0.4.json": "4212705c2f440c218cc1f72532a11a419c35ba521693a8870f6a7e68192da4f8",
+    "data/canonical/claims/licensed-near-full-actor-abilities-v0.4.json": "c038c7cd0cd33169b724b11cb8a4816912fb9e3ea199b23ddeedce17e342c09c",
+    "data/canonical/claims/m7-house-roberts.json": "7d7a669726f9ec3f847780e73ad82834b96d4fdafbd75f7793451822e3c660c9",
+    "data/canonical/claims/m8a-progression.json": "b41d159886deaaf32e7a317f38362d22110b6af1405df69e7d895b12d9aa6ad9",
+    "data/canonical/claims/m8b-equipment.json": "3bdb518a3fa3a138edef31e5e1306f644cd9605ce4953d5c18235cab0db898a8",
+    "data/canonical/claims/magic-scythe-full-inventory.json": "00c27ee3a2ce1c2eab30065c0f4918e6ab6585e2111b5feceea1faa7335d5fb0",
+    "data/canonical/claims/priority-home-base-closure-v0.4.json": "df2508d815ff0b5a3859a37054ee2db4df9a6f2c84d70fe08ca597e2db96f768",
+    "data/canonical/claims/priority-licensed-closure-v0.4.json": "9a3578e4c7618ec04fb9470592c36c8282f4d66e4488ce4ffe7a623091464843",
+    "data/canonical/claims/priority-tail-relationships-v0.4.json": "65d04fb0bd1a74db13783ea62dbf548c7625fdb2daabe6c4e737b1ca80270c86",
+    "data/canonical/claims/r01-equipment-database.json": "7c778a34f069096844fde3f5179cd055eeb1591d6cf9fcc54b2cd6e3b7cc1879",
+    "data/canonical/claims/relationship-completion-nine-v0.4.json": "8f5a54c185edac16714d4401be34e6ce0eda84e5edf3f82d0473d4fd88916e4c",
+    "data/canonical/claims/s01-equipment.json": "b57aa624253af81fa9908013529d59bdc327d4b9f15920967e6b753e6d8a6c39",
+    "data/canonical/claims/wave-two-skill-cost-unlocks-v0.4.json": "741bc248bdf5034058ef0c11ff528e830fdba40338695cdd001913c674538a63",
+    "data/canonical/claims/wave-two-world-regions-v0.4.json": "2aee71506ba6d7606001fae545994e79deac514eca7b9e626115c4195b4206a5",
+    "data/canonical/entities/community-catalog-seed.json": "ce8bd3f9c197849eb69e831ff1e6faa1d496cfed1926a87c64e22375441b123c",
+    "data/canonical/entities/community-catalog-v0.3.json": "a93f0ccbea44cf4dff71d11bb64a8e852f4e46ae70e195d8fa0bc533157b12d6",
+    "data/canonical/entities/creative-research-seed.json": "5bb34a37b8b48808f49ccca74dfdb8f5a1c092881b5826cc2177cdcfe097dd12",
+    "data/canonical/entities/crimsonwiki-alchemy-depth-v0.4.json": "6f1e5d27be081a0d292e79051b10372844322a030505a782efa74756ffad816a",
+    "data/canonical/entities/crimsonwiki-cooking-recipes-v0.4.json": "e33db3be7b094b124f781389b33719db5ffdf23d96e27c9d90544058f4c669f9",
+    "data/canonical/entities/depth-first-official-entities-v1.json": "cf88fa7abaec9d513e73528ab32dbdd9b3bf67faa6db43e7fe6f2f252063f068",
+    "data/canonical/entities/depth-first-systems-v1.json": "b80e06283df162ec92f9e3abd59b31fa89aa01097df34825c79d6549ff4f0776",
+    "data/canonical/entities/item-magic-scythe.json": "37f651b90ecafd01f165844bbb195cd3e51b8c7de3390f4fee7aae21fb57926b",
+    "data/canonical/entities/licensed-mount-roster-depth-v0.4.json": "abe9e68211c938459c56131c33bd45ef31547e70d8f35801f99ab9c893800bdc",
+    "data/canonical/entities/m7-house-roberts.json": "4b4d1d6ba61f4e1321de43f539b9042331d9b4a7a13a70d902045df0c706592a",
+    "data/canonical/entities/m8b-equipment.json": "ce6ed10a2823a77a5b15dbe28e61a6d48fab4848dc92bd4644c654e9d69d74ad",
+    "data/canonical/entities/official-catalog-distinct-identities-v0.4.json": "b91bea529d204eb1f4a3a0a9d4aa6146eae15a93ffc6e2db1d14c8d5723a8578",
+    "data/canonical/entities/s01-equipment.json": "c78b25cd40b6fc4e29da18484e150fe1e2465e71a92ce76874f2b4155bcecc45",
+    "data/canonical/entities/system-controller-remapping.json": "a9ed5dff8fb45168157c56157e033bb28e9ff2307049ecf5bc842ca748164a4d",
+    "data/canonical/entities/system-farming.json": "290d9ff5a9f7e5b1f0e2c686a88e4395902826482858c7782b6d451e7bf87c5b",
+    "data/canonical/evidence/crimsonwiki-abyss-gear-depth-v0.4.json": "b069bc04b6aa2ea79badab485f07e3092aa355dc1368e07e6b7a494884c28cf5",
+    "data/canonical/evidence/crimsonwiki-alchemy-depth-v0.4.json": "3801e45593eb171aca270efd7cc11abf630de515a78d7554c975b6e051f0cbf2",
+    "data/canonical/evidence/crimsonwiki-chapter-fields-v0.4.json": "d0c0dd00c03f7fa5922eb21db87ff5ebecddc433647f839a3b36906569455624",
+    "data/canonical/evidence/crimsonwiki-chapter-objectives-v0.4.json": "9fdd704dcac717326a8c20fe763a38954d6237ca89ec68f7e2775417a0f63ce2",
+    "data/canonical/evidence/crimsonwiki-cooking-recipes-v0.4.json": "bcf7afe9d4e53b4ea360d758096d213f2e3ab7c4b04e6a82e6f9806d38f2380d",
+    "data/canonical/evidence/crimsonwiki-licensed-bosses-v0.4.json": "47d87528787b528f7f718d6de714b73c6e45bbd7ca275bd7f402bb9d67bf7984",
+    "data/canonical/evidence/g02-official-catchup.json": "3fe7ff0c813463c2bcdf78c81f94d38153c65bbd9e2d0b9d362aa07411b269bc",
+    "data/canonical/evidence/licensed-mount-roster-depth-v0.4.json": "bebe8186e778c7236e8cce60ca014a97bc312ba2bb821324317f8ae6481e474c",
+    "data/canonical/evidence/licensed-near-full-actor-abilities-v0.4.json": "e807ef4dbb9f86e716ea8aadc7a614490103e7b417baa630c7915d1355dd17cc",
+    "data/canonical/evidence/m7-house-roberts.json": "7643d3b8c70f7c61f36240c817ccb582819a7bb86fd2911726c2b4b9db0527bb",
+    "data/canonical/evidence/m8a-progression.json": "7f2b09ad7e756a164e0ee9c709f8536ee6fcc8d61a786eea22699966721a2f32",
+    "data/canonical/evidence/m8b-equipment.json": "17cc196f31bcb6a8513d71204879a8d24485c576b749d21b2f8d408613bc26a0",
+    "data/canonical/evidence/official-patch-history.json": "5059d2f1d78ba4d0efc20ee6f21ad17e16ca82b9deae28f5e2f077fc4be906c9",
+    "data/canonical/evidence/patch-1.09.00-official.json": "a7170bb1683877a8eec4eb96199ee84475bc999094ce9b9d8431eacb2de5caa7",
+    "data/canonical/evidence/r01-equipment-database.json": "e2aee03faeb17c06f2da50067f3b2aa98be785219f210c70e32a2d20beb4b4d9",
+    "data/canonical/evidence/s01-equipment.json": "4c2b303c64cf1e84ed601f2d65ea95e6c7920fc6cd4a76e2944ed754a0d847ab",
+    "data/canonical/evidence/wave-two-world-regions-v0.4.json": "73a6d6128d68a3914b857683565fc38b3032633b602c6bdba8649e0fb0020ab3",
+    "data/canonical/patches/1.09.00.json": "49a345c204c263284a84156b7c2a8ca873760768efd21eb5356e3afe738fb489",
+    "data/canonical/patches/g02-official-catchup.json": "b99cde6a7a6c744b903311583315e6c7736b773694d6b132bb864078bce1a1d8",
+    "data/canonical/patches/official-patch-history.json": "1542f1d516bed67c4d52ada8bf51fe4fa3a290aa9e15931eca7ab71283bf22e4",
+    "data/canonical/receipts/g02-official-catchup.json": "d34447dc1ae97280b4dd0f3ff262eb118d93a1d07a65e60b4790bc02c7535492",
+    "data/canonical/receipts/m7-house-roberts.json": "fca2eea55af93ab323b63984c451df96ed7c933fb0bf47f78133264418ce9181",
+    "data/canonical/receipts/m8a-progression.json": "a7059b71c3bbf3d1cc147462c76094d81a17b57b2471c231d9af8d38b1f5b807",
+    "data/canonical/receipts/m8b-equipment.json": "407e4d8d4f6d70e400265a977ffd913e3a72d14650ce6922950696b38e0e0c67",
+    "data/canonical/receipts/public-selection-m1.json": "272ea7b68e3c30bd324167d52331ca3843419376a4f5d72cbd7a304ddf836c5d",
+    "data/canonical/receipts/r01-equipment-database.json": "01ea1b36d3b98deb59c9fe14565b5b0c7c068bb95158e506bf428e0fb68815fd",
+    "data/canonical/receipts/s01-equipment.json": "ea6aaf5a1bc774abbeebe55afa293416ca05f3ec5ccd2b8f28b2c0991a023f29",
+    "data/canonical/strategies/farming-seed-quickslot.json": "05e593326d20341cad9756d65551b28975fc6ac141bb964a6360898999b2f7ea"
+  },
+  "prior_claims_sha256": "81642ca04f9025ebcf7ad4fad641511e6571dd50655debd49bb54da3a2694e52",
+  "prior_entities_sha256": "22f183c8d551258597ee3b2fa7c81bceec933d085d4934a02ad0965056f97756",
+  "receipt_id": "rcp_s03recipeinputs2026091101",
+  "receipt_payload_sha256": "39ac6dae746052f3ec99900ef3431cb183c6ed8b2fcc6f32d0da4e92d61d4eff",
+  "receipt_state": "accepted",
+  "recipe_subject_ids": [
+    "ent_03c5ba0bf6270dc203d010ab",
+    "ent_0f44e2bac85651e4e5b136e8",
+    "ent_11013a31269f61b38e9045d3",
+    "ent_11f1b3b38826e851cb876400",
+    "ent_143cc2bcb8cabe68ea843701",
+    "ent_14abb1243a29666ee279b722",
+    "ent_150a4a1ebec468988cb13e9f",
+    "ent_168981a3b19aa6ebc5ff7382",
+    "ent_23a74ff251f041c5554f0a4f",
+    "ent_38ee02cb58a09139b5106573",
+    "ent_3c3a97c5513968b5c079b53f",
+    "ent_3c49a08e84b7f0d25bd8e179",
+    "ent_3f8a9d8c6073e808a0b25f2d",
+    "ent_4158856feae336a21a199238",
+    "ent_4636d5719dea56c5ba734a60",
+    "ent_479a93f69c96c7fda9202fd3",
+    "ent_4e499499e9969fa550a62717",
+    "ent_54f5a8165a2dba37c19d1eed",
+    "ent_563201b636aefc447d1d9625",
+    "ent_5bb8fb76f7bb28ff0ca7b338",
+    "ent_5f8dd155f9de4c2129eceae8",
+    "ent_644f166107b14c0f93715e32",
+    "ent_664b1f96b2452e94ccbbcc9a",
+    "ent_69a9fa6dfb66fe9ce494a92d",
+    "ent_6eb01f947143d14deca8b097",
+    "ent_71b73f52515fe122b11b5629",
+    "ent_79601484c6c30655d3df006b",
+    "ent_82f3588da0dfed1a2f73ee3a",
+    "ent_84bca4977c727b61bb35e2e2",
+    "ent_84eab6e41a71565f679df592",
+    "ent_89d31109424a84f68a407d81",
+    "ent_8b27e32376389d63ee0eaae8",
+    "ent_8eeba8bd21b526c56d120995",
+    "ent_931dcd0fc4da2de03c86abb1",
+    "ent_9b5014c7efec96931ce80d8d",
+    "ent_a408cb61e55821597416abbb",
+    "ent_a86c763b8cb20b24ef850ab9",
+    "ent_b15bb81db2aff0a3804d0d40",
+    "ent_c9535443cb8a556f638caf3f",
+    "ent_d2d4221bdc0342f4a1b77eae",
+    "ent_d9c90d94d1e0d3c4c6d50ed4",
+    "ent_e772bc466331e951df46475e",
+    "ent_e8b9801164c3598cdf32cc89",
+    "ent_eee0c44c0b64b4135ee302f7",
+    "ent_f02bd783538d05a4d19dfa36",
+    "ent_f2f901ec1be4b269ba560b54"
+  ],
+  "recipes_gaining_input_links": [
+    "ent_11013a31269f61b38e9045d3",
+    "ent_3c3a97c5513968b5c079b53f",
+    "ent_3c49a08e84b7f0d25bd8e179",
+    "ent_4158856feae336a21a199238",
+    "ent_54f5a8165a2dba37c19d1eed",
+    "ent_5f8dd155f9de4c2129eceae8",
+    "ent_664b1f96b2452e94ccbbcc9a",
+    "ent_71b73f52515fe122b11b5629",
+    "ent_79601484c6c30655d3df006b",
+    "ent_84eab6e41a71565f679df592",
+    "ent_a86c763b8cb20b24ef850ab9",
+    "ent_b15bb81db2aff0a3804d0d40",
+    "ent_d2d4221bdc0342f4a1b77eae",
+    "ent_e8b9801164c3598cdf32cc89",
+    "ent_f02bd783538d05a4d19dfa36",
+    "ent_f2f901ec1be4b269ba560b54"
+  ],
+  "repository": "RolandSaint/pywel",
+  "review_record": "https://github.com/RolandSaint/pywel/issues/17",
+  "scope": "Identity normalization of exactly 161 retained inputs in 46 cooking/alchemy recipe subjects; no external collection, outreach or restoration of S02.",
+  "source_input_file_sha256": {
+    "data/canonical/claims/crimsonwiki-alchemy-depth-v0.4.json": "74b9d60b1331d76d87d2a0c7a3671fe3fdf10925970593616c4f07320862e5d7",
+    "data/canonical/claims/crimsonwiki-cooking-recipes-v0.4.json": "9efbb855a2f81606497b44bc5774ffaff5e2a9d488c9cbcd7a2d75348d776639"
+  },
+  "source_method": {
+    "actual_access": "Offline transformation of existing canonical records from the mounted repository source artifact; current manifest identity checked against GitHub.",
+    "existing_evidence_ids": [
+      "evd_06652a8fff4f0593f8ce8431",
+      "evd_62f7da1955faa80092f4449a"
+    ],
+    "independence_group": "crimsonwiki-community-wiki",
+    "no_new_capture": true,
+    "permission_contact": false,
+    "platforms": "Inherit retained all-platform historical scope; this is not platform testing.",
+    "reliability": "unverified",
+    "retained_source_capture_dates": [
+      "2026-07-16T19:30:00Z",
+      "2026-07-16T20:55:00Z"
+    ],
+    "rights_basis": "Existing compatible-license CrimsonWiki canonical evidence and project data contribution rights, subject to DATA_RIGHTS.md and unchanged attribution; not a new third-party permission decision."
+  },
+  "status": "reviewed_source_batch",
+  "superseded_wrong_target_claim_ids": [
+    "clm_463b6ce020d36f7aa4304197",
+    "clm_71437fca877548d0908c25bb"
+  ]
+}

@@ -37,6 +37,7 @@ read_first:
   - docs/G02_PATCH_CATCHUP.md
   - docs/S01_EQUIPMENT_POPULATION.md
   - docs/S02_ACQUISITION.md
+  - docs/S03_RECIPE_INPUTS.md
 run_first:
   - npm ci --ignore-scripts --no-audit --no-fund
   - npm run check
