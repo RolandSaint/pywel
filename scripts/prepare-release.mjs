@@ -90,7 +90,11 @@ try {
 } finally { await rm(scratch, { recursive: true, force: true }); }
 
 await writeFile(resolve(out, 'M10-ACCEPTANCE.json'), acceptanceBytes, { flag: 'wx' });
-const notes = await readFile(resolve(root, 'docs/M10_RELEASE_CANDIDATE.md'));
+// The notes travel outside docs/, so their two sibling links must still resolve.
+const notes = (await readFile(resolve(root, 'docs/M10_RELEASE_CANDIDATE.md'), 'utf8'))
+  .replace(/\]\((COMPATIBILITY|OPERATIONS)\.md\)/g,
+    (_, name) => `](https://github.com/RolandSaint/pywel/blob/${commit}/docs/${name}.md)`);
+assert(!/\]\((COMPATIBILITY|OPERATIONS)\.md\)/.test(notes));
 await writeFile(resolve(out, 'RELEASE_NOTES.md'), notes, { flag: 'wx' });
 const archiveFiles = [sourceName, dataName];
 const files = await Promise.all(archiveFiles.map(async name => {
