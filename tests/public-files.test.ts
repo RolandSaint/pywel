@@ -18,7 +18,7 @@ async function probe(snapshot: string, localRoot?: string) {
       cwd: scratch, env: { PATH: process.env.PATH ?? "", HOME: scratch, TMPDIR: scratch },
       timeout: 90000, maxBuffer: 1024 * 1024,
     });
-    expect(await readdir(scratch)).toEqual(["probe.mjs"]); // No checkout, packages, cached corpus or generated output.
+    expect(await readdir(scratch)).toEqual(["probe.mjs"]);
     return JSON.parse(stdout);
   } finally { await rm(scratch, { recursive: true, force: true }); }
 }
@@ -40,15 +40,19 @@ describe("M9 public-file consumption", () => {
     }
   });
 
-  it("keeps sample routes bound to canonical data and preserves unknown/review metadata", async () => {
+  it("keeps sample routes bound to canonical data and preserves unknown/review/supersession metadata", async () => {
     const result = await probe(fixtureSha, root);
     expect(result.ok).toBe(true);
     expect(result.transport).toBe("local_fixture");
-    expect(result.requests).toBe(9);
+    expect(result.requests).toBe(11);
     expect(result.bytes).toBeLessThanOrEqual(512 * 1024);
     expect(result.results).toHaveLength(6);
-    expect(result.results.map((item: { record_ids: string[] }) => item.record_ids.length)).toEqual([1, 3, 1, 2, 1, 0]);
+    // Raw counts include retained history, unlike the context-filtered answer API.
+    expect(result.results.map((item: { record_ids: string[] }) => item.record_ids.length)).toEqual([2, 7, 3, 7, 1, 0]);
+    expect(result.results[3].unknown_records).toBe(1);
     expect(result.results[4].unknown_records).toBe(1);
+    expect(result.results[1].supersession_links).toHaveLength(1);
+    expect(result.results[3].supersession_links).toHaveLength(2);
     expect(result.results[5].selection).toBe("absent_from_example_slice_only");
     expect(result).not.toHaveProperty("answer_state");
     expect(result).not.toHaveProperty("build_id");
@@ -80,7 +84,9 @@ describe("M9 public-file consumption", () => {
       expect(result.transport).toBe("anonymous_https");
       expect(result.snapshot).toBe(snapshot);
       expect(result.results).toHaveLength(6);
-      expect(result.requests).toBe(9);
+      expect(result.requests).toBe(11);
+      expect(result.results[1].supersession_links).toHaveLength(1);
+      expect(result.results[3].supersession_links).toHaveLength(2);
       expect(result.files.every((file: { path: string }) => !file.path.startsWith("src/") && !file.path.startsWith("dist/"))).toBe(true);
       console.log(`M9_LIVE_PUBLIC_READ ${JSON.stringify(result)}`);
     }, 100000,
