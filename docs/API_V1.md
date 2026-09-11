@@ -51,7 +51,7 @@ Context inputs are `patch`, `platform`, `locale`, and `spoiler`. History flags a
 
 | Input | Default and meaning |
 | --- | --- |
-| `patch` | Latest indexed stable historical patch, currently `1.14.00`; the assumption is disclosed. A syntactically valid unknown patch is accepted as unknown context, never silently replaced. |
+| `patch` | Latest indexed stable historical patch for the selected source build; read the resolved value from `GET /v1`, `pywel://service`, or the response. G02 resolves to `2.01.00`; the original `v1.0.0` and published first-expansion snapshots resolve to `1.14.00`. The assumption is disclosed. Added patch identities do not refresh claim reviews. A syntactically valid unknown patch is accepted as unknown context, never silently replaced. |
 | `platform` | `all` selects the union of platform records. It does not assert that every returned fact holds on every platform. Named values are `pc-steam`, `pc-epic`, `mac-steam`, `mac-app-store`, `playstation-5`, and `xbox-series`; inspect each claim's `validity.platforms`. |
 | `locale` | `en-US`, the only accepted public retrieval locale. Other locales fail explicitly; translated retrieval is not implemented. |
 | `spoiler` | `none` for every question. The ordered ceilings are `none`, `discovery`, `quest_minor`, `quest_major`, and `ending`. Acquisition/use/vendor wording never raises the ceiling implicitly. |
