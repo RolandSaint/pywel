@@ -1,13 +1,16 @@
 # Temporary publication job. Keep this off main; never tag this helper commit.
 name: publish-approved-expansion
-on: create
+on:
+  create:
+  push:
+    branches: [agent/publish-approved-expansion-2026-09-10]
 permissions: {}
 concurrency:
   group: publish-expansion-2026-09-10-1
   cancel-in-progress: false
 jobs:
   publish:
-    if: github.repository == 'RolandSaint/pywel' && github.event.ref_type == 'branch' && github.event.ref == 'agent/publish-approved-expansion-2026-09-10'
+    if: github.repository == 'RolandSaint/pywel' && github.ref == 'refs/heads/agent/publish-approved-expansion-2026-09-10'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:
