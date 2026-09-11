@@ -1,0 +1,2487 @@
+{
+  "milestone": "S02",
+  "base_commit": "6c8b2d1b189adf39276e623207b474690a01cafc",
+  "scope": "Acquisition depth for 100 existing S01 entries with no previous acquisition claims; no new equipment or stat facts.",
+  "source_projection": {
+    "artifact_id": 10277441418,
+    "run_id": 34633199782,
+    "archive_sha256": "7e0dfadbc72863a575ed71ddd65de624914c1b72b304638bd2d549a420e7c2a3",
+    "fields_sha256": "e8c365df56f296821693bab40b62e0b3c5af43a60b7e384b5c3a77c7d2cdef24",
+    "requests": 103,
+    "started_at": "2026-09-11T18:25:46.625505+00:00",
+    "finished_at": "2026-09-11T18:27:39.117494+00:00"
+  },
+  "preliminary_link_pass": {
+    "run_id": 34632909442,
+    "artifact_id": 10277052047,
+    "disposition": "Discovery only; not the admitted cohort. Its lack of selected seller/crafting links was not interpreted as absence."
+  },
+  "counts": {
+    "items": 100,
+    "claims": 245,
+    "evidence": 103,
+    "receipts": 1,
+    "claim_kinds": {
+      "crafting_requirement": 31,
+      "crafting_station": 85,
+      "guide_route": 3,
+      "map_lead": 43,
+      "quest_listing": 15,
+      "quest_relationship": 3,
+      "vendor": 65
+    },
+    "s01_acquisition_covered_before": 12,
+    "s01_acquisition_covered_after": 112,
+    "s01_without_acquisition_after": 88
+  },
+  "prior_claims_sha256": "81642ca04f9025ebcf7ad4fad641511e6571dd50655debd49bb54da3a2694e52",
+  "prior_entities_sha256": "22f183c8d551258597ee3b2fa7c81bceec933d085d4934a02ad0965056f97756",
+  "prior_canonical_files": {
+    "data/canonical/claims/controller-remapping-available.json": "c890065c764c7a4ee4a5a5ba61d8fccf9f8e9451377220a0d3a0bbc4b717d6fe",
+    "data/canonical/claims/creative-research-seed.json": "990f8133f845c8ea4244a0a10f25f59d8d0172d30b060fbf043b962375544eaa",
+    "data/canonical/claims/crimsonwiki-abyss-gear-depth-v0.4.json": "96a191fac8013905cbce611b88b9f2375503dc6f0c5b0342e9e8dde6ff3fe61d",
+    "data/canonical/claims/crimsonwiki-alchemy-depth-v0.4.json": "74b9d60b1331d76d87d2a0c7a3671fe3fdf10925970593616c4f07320862e5d7",
+    "data/canonical/claims/crimsonwiki-chapter-fields-v0.4.json": "e8d74be061ff07d37d1c341cd7684266dac00be755a648f7631231c6f97f0286",
+    "data/canonical/claims/crimsonwiki-chapter-objectives-v0.4.json": "28a9fa92ca01d528a2b5dfb10e67fa5794c97226c517f0ebc79d8843a32305e0",
+    "data/canonical/claims/crimsonwiki-cooking-recipes-v0.4.json": "9efbb855a2f81606497b44bc5774ffaff5e2a9d488c9cbcd7a2d75348d776639",
+    "data/canonical/claims/crimsonwiki-licensed-bosses-v0.4.json": "89586065fe3522eeadb7363a2e38a1a5f6bf417dd122a6a74af61b0b58cad6af",
+    "data/canonical/claims/depth-first-official-facts-v1.json": "aa97d6aa86370f02e6d70f52fbb398e1bbc8c62295d69855c8af81d3aedafad9",
+    "data/canonical/claims/farming-seed-quickslots.json": "f94ac5e11ae341bfd80f3c90d2b705d15ab44768b5dd7be8686f00fe9e184123",
+    "data/canonical/claims/identity-repair-quest-challenges-v0.4.json": "5998616625d6e9b6b91bbca40c60cb2eca99c69436bc4b01f1799ef9061885e4",
+    "data/canonical/claims/licensed-mount-roster-depth-v0.4.json": "4212705c2f440c218cc1f72532a11a419c35ba521693a8870f6a7e68192da4f8",
+    "data/canonical/claims/licensed-near-full-actor-abilities-v0.4.json": "c038c7cd0cd33169b724b11cb8a4816912fb9e3ea199b23ddeedce17e342c09c",
+    "data/canonical/claims/m7-house-roberts.json": "7d7a669726f9ec3f847780e73ad82834b96d4fdafbd75f7793451822e3c660c9",
+    "data/canonical/claims/m8a-progression.json": "b41d159886deaaf32e7a317f38362d22110b6af1405df69e7d895b12d9aa6ad9",
+    "data/canonical/claims/m8b-equipment.json": "3bdb518a3fa3a138edef31e5e1306f644cd9605ce4953d5c18235cab0db898a8",
+    "data/canonical/claims/magic-scythe-full-inventory.json": "00c27ee3a2ce1c2eab30065c0f4918e6ab6585e2111b5feceea1faa7335d5fb0",
+    "data/canonical/claims/priority-home-base-closure-v0.4.json": "df2508d815ff0b5a3859a37054ee2db4df9a6f2c84d70fe08ca597e2db96f768",
+    "data/canonical/claims/priority-licensed-closure-v0.4.json": "9a3578e4c7618ec04fb9470592c36c8282f4d66e4488ce4ffe7a623091464843",
+    "data/canonical/claims/priority-tail-relationships-v0.4.json": "65d04fb0bd1a74db13783ea62dbf548c7625fdb2daabe6c4e737b1ca80270c86",
+    "data/canonical/claims/r01-equipment-database.json": "7c778a34f069096844fde3f5179cd055eeb1591d6cf9fcc54b2cd6e3b7cc1879",
+    "data/canonical/claims/relationship-completion-nine-v0.4.json": "8f5a54c185edac16714d4401be34e6ce0eda84e5edf3f82d0473d4fd88916e4c",
+    "data/canonical/claims/s01-equipment.json": "b57aa624253af81fa9908013529d59bdc327d4b9f15920967e6b753e6d8a6c39",
+    "data/canonical/claims/wave-two-skill-cost-unlocks-v0.4.json": "741bc248bdf5034058ef0c11ff528e830fdba40338695cdd001913c674538a63",
+    "data/canonical/claims/wave-two-world-regions-v0.4.json": "2aee71506ba6d7606001fae545994e79deac514eca7b9e626115c4195b4206a5",
+    "data/canonical/entities/community-catalog-seed.json": "ce8bd3f9c197849eb69e831ff1e6faa1d496cfed1926a87c64e22375441b123c",
+    "data/canonical/entities/community-catalog-v0.3.json": "a93f0ccbea44cf4dff71d11bb64a8e852f4e46ae70e195d8fa0bc533157b12d6",
+    "data/canonical/entities/creative-research-seed.json": "5bb34a37b8b48808f49ccca74dfdb8f5a1c092881b5826cc2177cdcfe097dd12",
+    "data/canonical/entities/crimsonwiki-alchemy-depth-v0.4.json": "6f1e5d27be081a0d292e79051b10372844322a030505a782efa74756ffad816a",
+    "data/canonical/entities/crimsonwiki-cooking-recipes-v0.4.json": "e33db3be7b094b124f781389b33719db5ffdf23d96e27c9d90544058f4c669f9",
+    "data/canonical/entities/depth-first-official-entities-v1.json": "cf88fa7abaec9d513e73528ab32dbdd9b3bf67faa6db43e7fe6f2f252063f068",
+    "data/canonical/entities/depth-first-systems-v1.json": "b80e06283df162ec92f9e3abd59b31fa89aa01097df34825c79d6549ff4f0776",
+    "data/canonical/entities/item-magic-scythe.json": "37f651b90ecafd01f165844bbb195cd3e51b8c7de3390f4fee7aae21fb57926b",
+    "data/canonical/entities/licensed-mount-roster-depth-v0.4.json": "abe9e68211c938459c56131c33bd45ef31547e70d8f35801f99ab9c893800bdc",
+    "data/canonical/entities/m7-house-roberts.json": "4b4d1d6ba61f4e1321de43f539b9042331d9b4a7a13a70d902045df0c706592a",
+    "data/canonical/entities/m8b-equipment.json": "ce6ed10a2823a77a5b15dbe28e61a6d48fab4848dc92bd4644c654e9d69d74ad",
+    "data/canonical/entities/official-catalog-distinct-identities-v0.4.json": "b91bea529d204eb1f4a3a0a9d4aa6146eae15a93ffc6e2db1d14c8d5723a8578",
+    "data/canonical/entities/s01-equipment.json": "c78b25cd40b6fc4e29da18484e150fe1e2465e71a92ce76874f2b4155bcecc45",
+    "data/canonical/entities/system-controller-remapping.json": "a9ed5dff8fb45168157c56157e033bb28e9ff2307049ecf5bc842ca748164a4d",
+    "data/canonical/entities/system-farming.json": "290d9ff5a9f7e5b1f0e2c686a88e4395902826482858c7782b6d451e7bf87c5b",
+    "data/canonical/evidence/crimsonwiki-abyss-gear-depth-v0.4.json": "b069bc04b6aa2ea79badab485f07e3092aa355dc1368e07e6b7a494884c28cf5",
+    "data/canonical/evidence/crimsonwiki-alchemy-depth-v0.4.json": "3801e45593eb171aca270efd7cc11abf630de515a78d7554c975b6e051f0cbf2",
+    "data/canonical/evidence/crimsonwiki-chapter-fields-v0.4.json": "d0c0dd00c03f7fa5922eb21db87ff5ebecddc433647f839a3b36906569455624",
+    "data/canonical/evidence/crimsonwiki-chapter-objectives-v0.4.json": "9fdd704dcac717326a8c20fe763a38954d6237ca89ec68f7e2775417a0f63ce2",
+    "data/canonical/evidence/crimsonwiki-cooking-recipes-v0.4.json": "bcf7afe9d4e53b4ea360d758096d213f2e3ab7c4b04e6a82e6f9806d38f2380d",
+    "data/canonical/evidence/crimsonwiki-licensed-bosses-v0.4.json": "47d87528787b528f7f718d6de714b73c6e45bbd7ca275bd7f402bb9d67bf7984",
+    "data/canonical/evidence/g02-official-catchup.json": "3fe7ff0c813463c2bcdf78c81f94d38153c65bbd9e2d0b9d362aa07411b269bc",
+    "data/canonical/evidence/licensed-mount-roster-depth-v0.4.json": "bebe8186e778c7236e8cce60ca014a97bc312ba2bb821324317f8ae6481e474c",
+    "data/canonical/evidence/licensed-near-full-actor-abilities-v0.4.json": "e807ef4dbb9f86e716ea8aadc7a614490103e7b417baa630c7915d1355dd17cc",
+    "data/canonical/evidence/m7-house-roberts.json": "7643d3b8c70f7c61f36240c817ccb582819a7bb86fd2911726c2b4b9db0527bb",
+    "data/canonical/evidence/m8a-progression.json": "7f2b09ad7e756a164e0ee9c709f8536ee6fcc8d61a786eea22699966721a2f32",
+    "data/canonical/evidence/m8b-equipment.json": "17cc196f31bcb6a8513d71204879a8d24485c576b749d21b2f8d408613bc26a0",
+    "data/canonical/evidence/official-patch-history.json": "5059d2f1d78ba4d0efc20ee6f21ad17e16ca82b9deae28f5e2f077fc4be906c9",
+    "data/canonical/evidence/patch-1.09.00-official.json": "a7170bb1683877a8eec4eb96199ee84475bc999094ce9b9d8431eacb2de5caa7",
+    "data/canonical/evidence/r01-equipment-database.json": "e2aee03faeb17c06f2da50067f3b2aa98be785219f210c70e32a2d20beb4b4d9",
+    "data/canonical/evidence/s01-equipment.json": "4c2b303c64cf1e84ed601f2d65ea95e6c7920fc6cd4a76e2944ed754a0d847ab",
+    "data/canonical/evidence/wave-two-world-regions-v0.4.json": "73a6d6128d68a3914b857683565fc38b3032633b602c6bdba8649e0fb0020ab3",
+    "data/canonical/patches/1.09.00.json": "49a345c204c263284a84156b7c2a8ca873760768efd21eb5356e3afe738fb489",
+    "data/canonical/patches/g02-official-catchup.json": "b99cde6a7a6c744b903311583315e6c7736b773694d6b132bb864078bce1a1d8",
+    "data/canonical/patches/official-patch-history.json": "1542f1d516bed67c4d52ada8bf51fe4fa3a290aa9e15931eca7ab71283bf22e4",
+    "data/canonical/receipts/g02-official-catchup.json": "d34447dc1ae97280b4dd0f3ff262eb118d93a1d07a65e60b4790bc02c7535492",
+    "data/canonical/receipts/m7-house-roberts.json": "fca2eea55af93ab323b63984c451df96ed7c933fb0bf47f78133264418ce9181",
+    "data/canonical/receipts/m8a-progression.json": "a7059b71c3bbf3d1cc147462c76094d81a17b57b2471c231d9af8d38b1f5b807",
+    "data/canonical/receipts/m8b-equipment.json": "407e4d8d4f6d70e400265a977ffd913e3a72d14650ce6922950696b38e0e0c67",
+    "data/canonical/receipts/public-selection-m1.json": "272ea7b68e3c30bd324167d52331ca3843419376a4f5d72cbd7a304ddf836c5d",
+    "data/canonical/receipts/r01-equipment-database.json": "01ea1b36d3b98deb59c9fe14565b5b0c7c068bb95158e506bf428e0fb68815fd",
+    "data/canonical/receipts/s01-equipment.json": "ea6aaf5a1bc774abbeebe55afa293416ca05f3ec5ccd2b8f28b2c0991a023f29",
+    "data/canonical/strategies/farming-seed-quickslot.json": "05e593326d20341cad9756d65551b28975fc6ac141bb964a6360898999b2f7ea"
+  },
+  "selection": [
+    {
+      "entity_id": "ent_s01ba3fc2f33604054bcde81f42",
+      "name": "Acria Sword",
+      "source_id": "/weapons/acria-sword",
+      "evidence_id": "evd_s02ba3fc2f33604054bcde81f42",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s02f01c620e1932d8a19e9505c9",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s0239845d83af954fd9b0548bb4",
+          "seller_label": "Gurbit",
+          "shop_label": "Crimson Mountains Equipment"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s02378ae2e2bd0b0e6dfc15e5a3",
+          "url": "https://crimsondb.gg/map?x=-4432.2&y=-258.8&only=1&points=-4432.2%2C-258.8"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s010f45adc7fd18c7016d0b7553",
+      "name": "Autumn Banquet Plate Helm",
+      "source_id": "/armor/autumn-banquet-plate-helm",
+      "evidence_id": "evd_s020f45adc7fd18c7016d0b7553",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s02c4f9dd976793da364a5fa93a",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s02c3ba7c00a27a7393d0fb6e9f",
+          "seller_label": "Sumore",
+          "shop_label": "Saddle BlackMarket"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s0206b607963027adcc0ffe78ce",
+          "url": "https://crimsondb.gg/map?x=-9208.93&y=-2422.7&only=1&points=-9208.93%2C-2422.7"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01f5b2695d44ae9a0f0ec1dba6",
+      "name": "Aeserion Bow",
+      "source_id": "/weapons/aeserion-bow",
+      "evidence_id": "evd_s02f5b2695d44ae9a0f0ec1dba6",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s02731de91d28c14e05b519323d",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "crafting_requirement",
+          "claim_id": "clm_s026525c6160bdb2d596e1b4b4a",
+          "label": "Aeserion Gear Blueprint",
+          "url": "https://crimsondb.gg/miscellaneous/aeserion-gear-blueprint"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01c0c83dcae26dc921ce7f59a3",
+      "name": "Blackwing Leather Boots",
+      "source_id": "/armor/blackwing-leather-boots",
+      "evidence_id": "evd_s02c0c83dcae26dc921ce7f59a3",
+      "sample_page_reviewed": true,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s0282e59b0cf4a80beca4a1df93",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s02aece454bb6b7a8a7c3d2db27",
+          "seller_label": "Elise",
+          "shop_label": "Tar Costume"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s0221866075134cd7a5c7fd6aa3",
+          "url": "https://crimsondb.gg/map?x=-9398.89&y=-4142.09&only=1&points=-9398.89%2C-4142.09"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s017f10ef25066b558b41b2f6b8",
+      "name": "Ancient Earring",
+      "source_id": "/accessories/ancient-earring",
+      "evidence_id": "evd_s027f10ef25066b558b41b2f6b8",
+      "sample_page_reviewed": true,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s02a0c3773634888556c61c9376",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s0261393422fc191300aa91218d",
+          "seller_label": "Elowen",
+          "shop_label": "Her Witch"
+        },
+        {
+          "kind": "quest_listing",
+          "claim_id": "clm_s02a73e3e82a2a073f205f9f830",
+          "series_label": "Praevus the Ancient",
+          "stage_label": "Praevus the Ancient",
+          "context_labels": [
+            "Praevus the Ancient"
+          ],
+          "url": "https://crimsondb.gg/faction-quests/praevus-the-ancient",
+          "spoiler_level": "quest_major"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01a58bc7c3afa3fedff033ba0f",
+      "name": "Aeserion Dagger",
+      "source_id": "/weapons/aeserion-dagger",
+      "evidence_id": "evd_s02a58bc7c3afa3fedff033ba0f",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s02f41299a20593eb31f402ab56",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "crafting_requirement",
+          "claim_id": "clm_s02c26b0d643bb6df2121ea5cbc",
+          "label": "Aeserion Gear Blueprint",
+          "url": "https://crimsondb.gg/miscellaneous/aeserion-gear-blueprint"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s0162524d8933793b5470be5ced",
+      "name": "Blackwing Leather Cloak",
+      "source_id": "/armor/blackwing-leather-cloak",
+      "evidence_id": "evd_s0262524d8933793b5470be5ced",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s02ee4ad64a6208a63cb8e4fd96",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s02449829ee2634a384ea73e325",
+          "seller_label": "Elise",
+          "shop_label": "Tar Costume"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s020c2cae484ef11fd9380d1233",
+          "url": "https://crimsondb.gg/map?x=-10007.81&y=-5141.32&only=1&points=-10007.81%2C-5141.32"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s0126b7948e4ef7f8a96f4e143a",
+      "name": "Aeserion Greataxe",
+      "source_id": "/weapons/aeserion-greataxe",
+      "evidence_id": "evd_s0226b7948e4ef7f8a96f4e143a",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s02a5dd90eca060314c89a7e685",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "crafting_requirement",
+          "claim_id": "clm_s02a303c07499e4664eb23304e8",
+          "label": "Aeserion Gear Blueprint",
+          "url": "https://crimsondb.gg/miscellaneous/aeserion-gear-blueprint"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s0178a5608097f2dfab8623d7a9",
+      "name": "Blackwing Mask",
+      "source_id": "/armor/blackwing-mask",
+      "evidence_id": "evd_s0278a5608097f2dfab8623d7a9",
+      "sample_page_reviewed": true,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s02686bee576967bb85cc1b644e",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s02a9ae648abad07f9dfac3f866",
+          "seller_label": "Elise",
+          "shop_label": "Tar Costume"
+        },
+        {
+          "kind": "quest_listing",
+          "claim_id": "clm_s02b5bdb52da9558b36a817e324",
+          "series_label": "Black and White",
+          "stage_label": "Toward the Nest",
+          "context_labels": [
+            "Black and White",
+            "V. Guest Unbidden",
+            "Toward the Nest"
+          ],
+          "url": "https://crimsondb.gg/quests/guest-unbidden/black-and-white",
+          "spoiler_level": "quest_major"
+        },
+        {
+          "kind": "quest_relationship",
+          "claim_id": "clm_s02767e4a02552236922da2bec5",
+          "target_entity_id": "ent_a20a82dcf487811f6f7d3019",
+          "stage_label": "Toward the Nest"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s016cfe03884e28bc8caf1198c1",
+      "name": "Ancient Ring",
+      "source_id": "/accessories/ancient-ring",
+      "evidence_id": "evd_s026cfe03884e28bc8caf1198c1",
+      "sample_page_reviewed": true,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s0245ad97395374904f469a7824",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s026f2cc203f2859e47b0bd3c0d",
+          "seller_label": "Lyselia",
+          "shop_label": "Dem Witch"
+        },
+        {
+          "kind": "quest_listing",
+          "claim_id": "clm_s021fd99ce4f4047ad02ee0fa5e",
+          "series_label": "Primus the Ancient",
+          "stage_label": "Primus the Ancient",
+          "context_labels": [
+            "Primus the Ancient"
+          ],
+          "url": "https://crimsondb.gg/faction-quests/primus-the-ancient",
+          "spoiler_level": "quest_major"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01670137a95e64a9a1692ce655",
+      "name": "Aeserion Greathammer",
+      "source_id": "/weapons/aeserion-greathammer",
+      "evidence_id": "evd_s02670137a95e64a9a1692ce655",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s0231c6dcbdf43edf95246b4a57",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "crafting_requirement",
+          "claim_id": "clm_s02a15b3f47c22f76ac2fb3afe5",
+          "label": "Aeserion Gear Blueprint",
+          "url": "https://crimsondb.gg/miscellaneous/aeserion-gear-blueprint"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01a8ede13d2b0f71f6fcb8ed3d",
+      "name": "Brass Warden's Plate Gloves",
+      "source_id": "/armor/brass-wardens-plate-gloves",
+      "evidence_id": "evd_s02a8ede13d2b0f71f6fcb8ed3d",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s020ac9bc2f2c96f498d6be17fc",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s021a3a215549b7a149ad812cbb",
+          "seller_label": "Lederson",
+          "shop_label": "Her Equipment"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01fb8c7196aeb4ada3492819f1",
+      "name": "Aeserion Halberd",
+      "source_id": "/weapons/aeserion-halberd",
+      "evidence_id": "evd_s02fb8c7196aeb4ada3492819f1",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s0255e0a5f80414c3ee7da49aae",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "crafting_requirement",
+          "claim_id": "clm_s027071e9627d045b0f3209ba78",
+          "label": "Aeserion Gear Blueprint",
+          "url": "https://crimsondb.gg/miscellaneous/aeserion-gear-blueprint"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01a28676d0e85749673ddae532",
+      "name": "Dark Executioner Leather Armor",
+      "source_id": "/armor/dark-executioner-leather-armor",
+      "evidence_id": "evd_s02a28676d0e85749673ddae532",
+      "sample_page_reviewed": true,
+      "entries": [
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s0263a028aca9d052748e32cd4c",
+          "seller_label": "Olanelle",
+          "shop_label": "Dem Costume"
+        },
+        {
+          "kind": "quest_listing",
+          "claim_id": "clm_s029b9260604f94e98411f85c98",
+          "series_label": "Journey's End",
+          "stage_label": "The Heart of Pywel",
+          "context_labels": [
+            "Journey's End",
+            "Epilogue. Journey's End",
+            "The Heart of Pywel"
+          ],
+          "url": "https://crimsondb.gg/quests/journeys-end/journeys-end",
+          "spoiler_level": "ending"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s0194b56fa7df76eafea5ccaef7",
+      "name": "Ancient's Necklace",
+      "source_id": "/accessories/ancients-necklace",
+      "evidence_id": "evd_s0294b56fa7df76eafea5ccaef7",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s024f7761cf030cbc15956eb1e5",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s0246e5802ae94e0fa36cc2f22d",
+          "seller_label": "Bari",
+          "shop_label": "Pai Witch"
+        },
+        {
+          "kind": "quest_listing",
+          "claim_id": "clm_s02287cba33556591cad7607043",
+          "series_label": "Priscus the Ancient",
+          "stage_label": "Priscus the Ancient",
+          "context_labels": [
+            "Priscus the Ancient"
+          ],
+          "url": "https://crimsondb.gg/faction-quests/priscus-the-ancient",
+          "spoiler_level": "quest_major"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01cfbc19b3640292c76e2624d6",
+      "name": "Aeserion Longsword",
+      "source_id": "/weapons/aeserion-longsword",
+      "evidence_id": "evd_s02cfbc19b3640292c76e2624d6",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s029060c49eb73a913b936d0498",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "crafting_requirement",
+          "claim_id": "clm_s0297c833385d5751210a849b64",
+          "label": "Aeserion Gear Blueprint",
+          "url": "https://crimsondb.gg/miscellaneous/aeserion-gear-blueprint"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s015989c42b14d08fb30cd9a23e",
+      "name": "Dark Marksman's Plate Armor",
+      "source_id": "/armor/dark-marksmans-plate-armor",
+      "evidence_id": "evd_s025989c42b14d08fb30cd9a23e",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s02866f8a01c0b06c74081ce594",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s0246f5d92fcd3602ad1c5af228",
+          "seller_label": "Vex",
+          "shop_label": "Tash BlackMarket"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s023af4a19f004928d1c0e2beb1",
+          "url": "https://crimsondb.gg/map?x=-6596.82&y=-1890.91&only=1&points=-6596.82%2C-1890.91"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01897ede1e854816ee08c45f76",
+      "name": "Aeserion Mace",
+      "source_id": "/weapons/aeserion-mace",
+      "evidence_id": "evd_s02897ede1e854816ee08c45f76",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s02fad88499574571e9d8d93589",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "crafting_requirement",
+          "claim_id": "clm_s02a87aba4c075dc06ac94fae0a",
+          "label": "Aeserion Gear Blueprint",
+          "url": "https://crimsondb.gg/miscellaneous/aeserion-gear-blueprint"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s016b70d6fc31e8376526fb2031",
+      "name": "Dark Marksman's Plate Boots",
+      "source_id": "/armor/dark-marksmans-plate-boots",
+      "evidence_id": "evd_s026b70d6fc31e8376526fb2031",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s02893712b98f0c600186ba06e0",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s0253819993204ea00dc79c4fa6",
+          "seller_label": "Vex",
+          "shop_label": "Tash BlackMarket"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s029386b26dda14f561417b4ef6",
+          "url": "https://crimsondb.gg/map?x=-6244.74&y=-2840.66&only=1&points=-6244.74%2C-2840.66"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01b8f411000c7b336c8e73a758",
+      "name": "Black Lion Earring",
+      "source_id": "/accessories/black-lion-earring",
+      "evidence_id": "evd_s02b8f411000c7b336c8e73a758",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s02bb2b630d9c78e6f0588dfdca",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s02418afaf8c8fb7ac11b3487a7",
+          "seller_label": "Kathor",
+          "shop_label": "Dem Equipment"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01323d43b866fe4d927b4b9b33",
+      "name": "Aeserion Spear",
+      "source_id": "/weapons/aeserion-spear",
+      "evidence_id": "evd_s02323d43b866fe4d927b4b9b33",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s0235c3031a94840f977f048266",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "crafting_requirement",
+          "claim_id": "clm_s02a8bda7967121b70bc387151b",
+          "label": "Aeserion Gear Blueprint",
+          "url": "https://crimsondb.gg/miscellaneous/aeserion-gear-blueprint"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01b7d6999189fd8d80c697e455",
+      "name": "Dark Marksman's Plate Cloak",
+      "source_id": "/armor/dark-marksmans-plate-cloak",
+      "evidence_id": "evd_s02b7d6999189fd8d80c697e455",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s02b02d153835c126a2aa55cc17",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s02faa66d38f27a5e8085f94121",
+          "seller_label": "Vex",
+          "shop_label": "Tash BlackMarket"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s02009d1e9f4bea19391ead9d30",
+          "url": "https://crimsondb.gg/map?x=-5708&y=-2394.92&only=1&points=-5708%2C-2394.92"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01936c9b12c61db358be4e8364",
+      "name": "Aeserion Sword",
+      "source_id": "/weapons/aeserion-sword",
+      "evidence_id": "evd_s02936c9b12c61db358be4e8364",
+      "sample_page_reviewed": true,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s022487c72b1bd7ecb435971209",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "quest_listing",
+          "claim_id": "clm_s0242df9c8402b5134ed374f02b",
+          "series_label": "Aeserion, the Great Serpent",
+          "stage_label": "Shackled God",
+          "context_labels": [
+            "Aeserion, the Great Serpent",
+            "Shackled God"
+          ],
+          "url": "https://crimsondb.gg/faction-quests/aeserion-the-great-serpent",
+          "spoiler_level": "quest_major"
+        },
+        {
+          "kind": "crafting_requirement",
+          "claim_id": "clm_s02a9bd2f65c5fb175716add266",
+          "label": "Aeserion Gear Blueprint",
+          "url": "https://crimsondb.gg/miscellaneous/aeserion-gear-blueprint"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s0192205c22b381b515f74d7ec2",
+      "name": "Dark Marksman's Plate Gloves",
+      "source_id": "/armor/dark-marksmans-plate-gloves",
+      "evidence_id": "evd_s0292205c22b381b515f74d7ec2",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s025693c933ecb17e5e5800f115",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s02900c23d36c94900ccc872246",
+          "seller_label": "Vex",
+          "shop_label": "Tash BlackMarket"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s02cc215fe5662ec7272f524ba7",
+          "url": "https://crimsondb.gg/map?x=-6255.56&y=-2857.53&only=1&points=-6255.56%2C-2857.53"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01ee53ec9ee371aef8e3056cd5",
+      "name": "Blizzard Crystal Necklace",
+      "source_id": "/accessories/blizzard-crystal-necklace",
+      "evidence_id": "evd_s02ee53ec9ee371aef8e3056cd5",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s02f0614c5c1f63ab6f62345b9b",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "crafting_requirement",
+          "claim_id": "clm_s02bf2f7dd2ccbdf8978bff09c4",
+          "label": "Accessories of the World, Vol. IV",
+          "url": "https://crimsondb.gg/miscellaneous/accessories-of-the-world-vol-iv"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s010925b070ed804ce57b0efd53",
+      "name": "Aeserion Warhammer",
+      "source_id": "/weapons/aeserion-warhammer",
+      "evidence_id": "evd_s020925b070ed804ce57b0efd53",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s027ca08707145f83a607241553",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "crafting_requirement",
+          "claim_id": "clm_s0273ff83f837451160aaac8e43",
+          "label": "Aeserion Gear Blueprint",
+          "url": "https://crimsondb.gg/miscellaneous/aeserion-gear-blueprint"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01e62d0302cb424001ecee6628",
+      "name": "Dark Ringleader's Cloth Armor",
+      "source_id": "/armor/dark-ringleaders-cloth-armor",
+      "evidence_id": "evd_s02e62d0302cb424001ecee6628",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s0203a88b0256ddcfa8a6845053",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s023a92aa5eb6ac911c2c099260",
+          "seller_label": "Galdor",
+          "shop_label": "Warspike Equipment"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s02a0673c96ff250de03c1e7456",
+          "url": "https://crimsondb.gg/map?x=-11753.58&y=-4181.41&only=1&points=-11753.58%2C-4181.41"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01e9771a4e06113cff561124c8",
+      "name": "Antumbra's Eye",
+      "source_id": "/weapons/antumbras-eye",
+      "evidence_id": "evd_s02e9771a4e06113cff561124c8",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s02d42334ced28b54fa58f4f7ca",
+          "seller_label": "Bari",
+          "shop_label": "Pai Witch"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s02e1cb111a3691d545a428de3c",
+          "url": "https://crimsondb.gg/map?x=-11636.1&y=42.8&only=1&points=-11636.1%2C42.8"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01359b676706eb32b86755442d",
+      "name": "Dark Ringleader's Cloth Cloak",
+      "source_id": "/armor/dark-ringleaders-cloth-cloak",
+      "evidence_id": "evd_s02359b676706eb32b86755442d",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s02bbc2969616c8171482f5ce9f",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s025b9ef9ca3642a1389a256e29",
+          "seller_label": "Galdor",
+          "shop_label": "Warspike Equipment"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s023a2874319933c1a829c06307",
+          "url": "https://crimsondb.gg/map?x=-11516.47&y=-5196.04&only=1&points=-11516.47%2C-5196.04"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s014cd6fddfb78ba9d787f1cf4e",
+      "name": "Crossroads Necklace",
+      "source_id": "/accessories/crossroads-necklace",
+      "evidence_id": "evd_s024cd6fddfb78ba9d787f1cf4e",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s0215beaf088caf0fcfde20c02d",
+          "seller_label": "Randolph",
+          "shop_label": "Pai BlackMarket"
+        },
+        {
+          "kind": "quest_listing",
+          "claim_id": "clm_s0273fa33eb621c0d9851d649e0",
+          "series_label": "Bloodied Path",
+          "stage_label": "Vanquished Threat",
+          "context_labels": [
+            "Bloodied Path",
+            "Vanquished Threat"
+          ],
+          "url": "https://crimsondb.gg/faction-quests/bloodied-path",
+          "spoiler_level": "quest_major"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01d88f7da370275889991380c1",
+      "name": "Artisan's Hand",
+      "source_id": "/weapons/artisans-hand",
+      "evidence_id": "evd_s02d88f7da370275889991380c1",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s02d0ebedff2f9c016b3efc9425",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "crafting_requirement",
+          "claim_id": "clm_s0212b20d227d6636f2bcaae504",
+          "label": "One-Handed Weapons of the World, Vol. IV",
+          "url": "https://crimsondb.gg/miscellaneous/one-handed-weapons-of-the-world-vol-iv"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01ad18f281af01b5b52710ae55",
+      "name": "Dark Ringleader's Cloth Helm",
+      "source_id": "/armor/dark-ringleaders-cloth-helm",
+      "evidence_id": "evd_s02ad18f281af01b5b52710ae55",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s023cd2ebdfc202e55b6db539d0",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s0246e40dae70f435140bec22a8",
+          "seller_label": "Galdor",
+          "shop_label": "Warspike Equipment"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s02816fd187f18c2a87fe6f8dc0",
+          "url": "https://crimsondb.gg/map?x=-11673.97&y=-4334.11&only=1&points=-11673.97%2C-4334.11"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01838b8d70094bf69dc1e00f5b",
+      "name": "Black Iron Axe",
+      "source_id": "/weapons/black-iron-axe",
+      "evidence_id": "evd_s02838b8d70094bf69dc1e00f5b",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s0218ee2006fa9066a22aea67ba",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "crafting_requirement",
+          "claim_id": "clm_s02572e92ab6264a4d6e8599757",
+          "label": "One-Handed Weapons of the World, Vol. IV",
+          "url": "https://crimsondb.gg/miscellaneous/one-handed-weapons-of-the-world-vol-iv"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01b2015aabe65c4d209c445f00",
+      "name": "Duskfang Leather Cloak",
+      "source_id": "/armor/duskfang-leather-cloak",
+      "evidence_id": "evd_s02b2015aabe65c4d209c445f00",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s028787f2ff3f4f3850b595a01f",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s028f992a0a8bb4f4fefea02f66",
+          "seller_label": "Tina",
+          "shop_label": "Her Costume"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s023575723836444ec9f6172142",
+          "url": "https://crimsondb.gg/map?x=-10321.99&y=-4803.98&only=1&points=-10321.99%2C-4803.98"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s012f41f409dcc9d5698bb78ca7",
+      "name": "Delesyian Signet",
+      "source_id": "/accessories/delesyian-signet",
+      "evidence_id": "evd_s022f41f409dcc9d5698bb78ca7",
+      "sample_page_reviewed": true,
+      "entries": [
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s02b5955718a3d4d89003d4c4f7",
+          "seller_label": "Fennheim",
+          "shop_label": "Del Contribution"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01790422a5f4e849ea6dec7d5a",
+      "name": "Blaster No. 8",
+      "source_id": "/weapons/blaster-no-8",
+      "evidence_id": "evd_s02790422a5f4e849ea6dec7d5a",
+      "sample_page_reviewed": true,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s02cb78c0d50099c841eb7e2141",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s02b631b6ded903d0a372df12e4",
+          "seller_label": "Sky Galleon Vargon Merchant",
+          "shop_label": "Airship"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s0154c3eba58bcc92562c05a824",
+      "name": "Elegant Carmine Leather Armor",
+      "source_id": "/armor/elegant-carmine-leather-armor",
+      "evidence_id": "evd_s0254c3eba58bcc92562c05a824",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s02d33c2656e8721cdbab56bfc8",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "crafting_requirement",
+          "claim_id": "clm_s02ccc068fdfe0cab05d16871b2",
+          "label": "Elegant Carmine Armor Blueprint",
+          "url": "https://crimsondb.gg/miscellaneous/elegant-carmine-armor-blueprint"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s0127c4a85d0a5256a4c8fc7c7a",
+      "name": "Brass Rose Rapier",
+      "source_id": "/weapons/brass-rose-rapier",
+      "evidence_id": "evd_s0227c4a85d0a5256a4c8fc7c7a",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s0283446eab5fddaddbabd03dd9",
+          "url": "https://crimsondb.gg/map?x=-5268.1&y=-4012.8&only=1&points=-5268.1%2C-4012.8"
+        },
+        {
+          "kind": "guide_route",
+          "claim_id": "clm_s02c0c783aa7a5703d08d042929",
+          "evidence_id": "evd_s02fb1f57b893b17367409f5658"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01fbbd6bd3dbaa722e83b8062f",
+      "name": "Elegant Carmine Leather Cloak",
+      "source_id": "/armor/elegant-carmine-leather-cloak",
+      "evidence_id": "evd_s02fbbd6bd3dbaa722e83b8062f",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s02828b720bbe7ee45ea12d6501",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "crafting_requirement",
+          "claim_id": "clm_s022db5be754857cd8d77f6abea",
+          "label": "Elegant Carmine Cloak Blueprint",
+          "url": "https://crimsondb.gg/miscellaneous/elegant-carmine-cloak-blueprint"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01ca8e68309a055b579d6c828d",
+      "name": "Demeniss Earring",
+      "source_id": "/accessories/demeniss-earring",
+      "evidence_id": "evd_s02ca8e68309a055b579d6c828d",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s02fec144149453407a217cdffc",
+          "station_label": "Smith"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01a393901606530a19d23fd292",
+      "name": "Caliburn's Mercy Pistol",
+      "source_id": "/weapons/caliburns-mercy-pistol",
+      "evidence_id": "evd_s02a393901606530a19d23fd292",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s025fa3b8b5c17dace6cb6383c0",
+          "seller_label": "Brek",
+          "shop_label": "Dem BlackMarket"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s02b1822ba55f9b931d4e257093",
+          "url": "https://crimsondb.gg/map?x=-6617.3&y=-1883.5&only=1&points=-6617.3%2C-1883.5"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01cf0d284d54e5815438c6d98e",
+      "name": "Elegant Carmine Plate Boots",
+      "source_id": "/armor/elegant-carmine-plate-boots",
+      "evidence_id": "evd_s02cf0d284d54e5815438c6d98e",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s02d96c8cbe2905b74ed9f8f722",
+          "seller_label": "Nora",
+          "shop_label": "Var Costume"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s010b7b9b1db8261813f72360af",
+      "name": "Chillfallen Sword",
+      "source_id": "/weapons/chillfallen-sword",
+      "evidence_id": "evd_s020b7b9b1db8261813f72360af",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s026c3457dcb46f5200f6213feb",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s0266b78b883e7ff1f5a57614a5",
+          "seller_label": "Gorio",
+          "shop_label": "Skog Equipment"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s02a86c340128ca42c998d9b2ee",
+          "url": "https://crimsondb.gg/map?x=-12816.9&y=-283.5&only=1&points=-12816.9%2C-283.5"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01f86a1a438751e8b1e18d6924",
+      "name": "Elegant Carmine Plate Gloves",
+      "source_id": "/armor/elegant-carmine-plate-gloves",
+      "evidence_id": "evd_s02f86a1a438751e8b1e18d6924",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s02e2c6a0a9c30f9101b9abaa24",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "crafting_requirement",
+          "claim_id": "clm_s02336eec8a0d666adea3b227d4",
+          "label": "Elegant Carmine Gloves Blueprint",
+          "url": "https://crimsondb.gg/miscellaneous/elegant-carmine-gloves-blueprint"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01e46db911005914747059dade",
+      "name": "Demenissian Signet",
+      "source_id": "/accessories/demenissian-signet",
+      "evidence_id": "evd_s02e46db911005914747059dade",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s022a1a759824845708af8ea5f9",
+          "seller_label": "Valentine",
+          "shop_label": "DemCastle Contribution"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01ddf12e8964cce3deccd3b6c5",
+      "name": "Crimson Warden's Bow",
+      "source_id": "/weapons/crimson-wardens-bow",
+      "evidence_id": "evd_s02ddf12e8964cce3deccd3b6c5",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s027ec29dfccaaeff3db34492b4",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s027087c11b8b9c8dc89ced77f9",
+          "seller_label": "Kathor",
+          "shop_label": "Dem Equipment"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s02634315d0ee4e4609c97156bd",
+          "url": "https://crimsondb.gg/map?x=-7800.44&y=-3215.02&only=1&points=-7800.44%2C-3215.02"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s014c7fb6861d4babcb217459f3",
+      "name": "Elegant Carmine Plate Helm",
+      "source_id": "/armor/elegant-carmine-plate-helm",
+      "evidence_id": "evd_s024c7fb6861d4babcb217459f3",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s021f404638b5bce7fbb81eab83",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "crafting_requirement",
+          "claim_id": "clm_s0240131a17d789d1e00664aa08",
+          "label": "Elegant Carmine Helm Blueprint",
+          "url": "https://crimsondb.gg/miscellaneous/elegant-carmine-helm-blueprint"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s0129e4c598dc56ded9970e433e",
+      "name": "Dagger of Dark Pursuit",
+      "source_id": "/weapons/dagger-of-dark-pursuit",
+      "evidence_id": "evd_s0229e4c598dc56ded9970e433e",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s0208bffa4545dca120451a1f31",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s0230042e114cb33880d44a381f",
+          "url": "https://crimsondb.gg/map?x=-10481.36&y=-644.6&only=1&points=-10481.36%2C-644.6"
+        },
+        {
+          "kind": "crafting_requirement",
+          "claim_id": "clm_s029122d1a6d96566a9de78fd7f",
+          "label": "One-Handed Weapons of the World, Vol. III",
+          "url": "https://crimsondb.gg/miscellaneous/one-handed-weapons-of-the-world-vol-iii"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01b7f9dc2d5f22b65343e29eb5",
+      "name": "Fluttering Radiance Plate Boots",
+      "source_id": "/armor/fluttering-radiance-plate-boots",
+      "evidence_id": "evd_s02b7f9dc2d5f22b65343e29eb5",
+      "sample_page_reviewed": true,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s025d4f33274ca6bfe3eebbfdd8",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "crafting_requirement",
+          "claim_id": "clm_s0278600575d56f9b865999917c",
+          "label": "Fluttering Radiance Plate Boots",
+          "url": "https://crimsondb.gg/miscellaneous/fluttering-radiance-plate-boots"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01ae60722824616fbca02d2c22",
+      "name": "Earring of Dark Magic",
+      "source_id": "/accessories/earring-of-dark-magic",
+      "evidence_id": "evd_s02ae60722824616fbca02d2c22",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s02b5453a3db7e14ed2178f3233",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s02b412ba8b47454bc80aca2100",
+          "seller_label": "Elise",
+          "shop_label": "Tar Costume"
+        },
+        {
+          "kind": "quest_listing",
+          "claim_id": "clm_s029459968ccb89d129a89d44da",
+          "series_label": "Veiled Witch",
+          "stage_label": "Black Witch",
+          "context_labels": [
+            "Veiled Witch",
+            "IX. The Sage of the Desert",
+            "Black Witch"
+          ],
+          "url": "https://crimsondb.gg/quests/the-sage-of-the-desert/veiled-witch",
+          "spoiler_level": "quest_major"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s016e88feee4436d34aa0ffcc8a",
+      "name": "Darkbringer",
+      "source_id": "/weapons/darkbringer",
+      "evidence_id": "evd_s026e88feee4436d34aa0ffcc8a",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s026c260e2e16144fad9d9ee348",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s02eaee0b28e0147abf3c5be1ac",
+          "seller_label": "Bari",
+          "shop_label": "Pai Witch"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s02057ec836f2f78bc8ec4e19b5",
+          "url": "https://crimsondb.gg/map?x=-11788.5&y=949.2&only=1&points=-11788.5%2C949.2"
+        },
+        {
+          "kind": "quest_listing",
+          "claim_id": "clm_s0241b007c8cbf4f1faaca47132",
+          "series_label": "Cloister of Ruination",
+          "stage_label": "Archon of Antumbra",
+          "context_labels": [
+            "Cloister of Ruination",
+            "Archon of Antumbra"
+          ],
+          "url": "https://crimsondb.gg/faction-quests/cloister-of-ruination",
+          "spoiler_level": "quest_major"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s014906eb60e6092efd5f84d249",
+      "name": "Frozen Heart Plate Boots",
+      "source_id": "/armor/frozen-heart-plate-boots",
+      "evidence_id": "evd_s024906eb60e6092efd5f84d249",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s027109ae91ff08b3a3f11f9681",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s02d4cbc567ef2d6a8f46ecfeaa",
+          "seller_label": "Leore",
+          "shop_label": "Del Equipment"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s0233f0db8d13d3f43f6ac5e2ea",
+          "url": "https://crimsondb.gg/map?x=-3485.17&y=-4842.87&only=1&points=-3485.17%2C-4842.87"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01da6d9dc4714302274b85b35b",
+      "name": "Demenissian Hero's Musket",
+      "source_id": "/weapons/demenissian-heros-musket",
+      "evidence_id": "evd_s02da6d9dc4714302274b85b35b",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s0216468165baff05d3654df731",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s0223adf9a0138ab02857bd01ea",
+          "seller_label": "Kathor",
+          "shop_label": "Dem Equipment"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s0212e328e82befd43cc37f180c",
+          "url": "https://crimsondb.gg/map?x=-7717.94&y=-4250.69&only=1&points=-7717.94%2C-4250.69"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s017f5d9633fd7982b45899a747",
+      "name": "Frozen Heart Plate Cloak",
+      "source_id": "/armor/frozen-heart-plate-cloak",
+      "evidence_id": "evd_s027f5d9633fd7982b45899a747",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s0216cd40ead39082b808e36e68",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s0215fff2f4feab2fff5b0b9b5d",
+          "seller_label": "Leore",
+          "shop_label": "Del Equipment"
+        },
+        {
+          "kind": "quest_listing",
+          "claim_id": "clm_s026d96046eb7871c58121bdf99",
+          "series_label": "Forbidden Transplant",
+          "stage_label": "Forbidden Gatekeeper",
+          "context_labels": [
+            "Forbidden Transplant",
+            "Forbidden Gatekeeper"
+          ],
+          "url": "https://crimsondb.gg/faction-quests/forbidden-transplant",
+          "spoiler_level": "quest_major"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s0108e15703ded1fe255c4ae796",
+      "name": "Eternal Darkness",
+      "source_id": "/accessories/eternal-darkness",
+      "evidence_id": "evd_s0208e15703ded1fe255c4ae796",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s023899160ab86be20786ce674a",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s0267674903fe3d601ed2b4c25f",
+          "seller_label": "Areciel",
+          "shop_label": "Crim Witch"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s012c52725f2347170bd53c2488",
+      "name": "Desert Hammer",
+      "source_id": "/weapons/desert-hammer",
+      "evidence_id": "evd_s022c52725f2347170bd53c2488",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s0248086f994f968bea09fefa90",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "crafting_requirement",
+          "claim_id": "clm_s02a1fdd0cec4cdab9468e9aef8",
+          "label": "One-Handed Weapons of the World, Vol. IV",
+          "url": "https://crimsondb.gg/miscellaneous/one-handed-weapons-of-the-world-vol-iv"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s017be1db8c53bb4401f0e94cd9",
+      "name": "Frozen Heart Plate Gloves",
+      "source_id": "/armor/frozen-heart-plate-gloves",
+      "evidence_id": "evd_s027be1db8c53bb4401f0e94cd9",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s02d0f9d5c9c8978ea8b2ee4685",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s02b0489c60383424982d8b76e1",
+          "seller_label": "Leore",
+          "shop_label": "Del Equipment"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s02d36fb31fcbc21c58f128647f",
+          "url": "https://crimsondb.gg/map?x=-4254.62&y=-3982.55&only=1&points=-4254.62%2C-3982.55"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s0113a91ee753fb6ec2b2767e0a",
+      "name": "Divine Echoes Bow",
+      "source_id": "/weapons/divine-echoes-bow",
+      "evidence_id": "evd_s0213a91ee753fb6ec2b2767e0a",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s0256f76148c8c985a7982b75b1",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s02ddcecb4b4a9393ddb880e0c0",
+          "seller_label": "Gurbit",
+          "shop_label": "Crimson Mountains Equipment"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s0249a369ece0db466154acda01",
+          "url": "https://crimsondb.gg/map?x=-4460.77&y=-333.74&only=1&points=-4460.77%2C-333.74"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01b9abb8a2ec23040a6a912003",
+      "name": "Golden Greed Plate Armor",
+      "source_id": "/armor/golden-greed-plate-armor",
+      "evidence_id": "evd_s02b9abb8a2ec23040a6a912003",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s0288ce1a5cdce5141169b0b58d",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s0292683a5d5fd4217db193ddb5",
+          "seller_label": "Aris",
+          "shop_label": "Muiquun BlackMarket"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s02d80849a7d80e3b6d2919d6fd",
+          "url": "https://crimsondb.gg/map?x=-4378.14&y=-2282.5&only=1&points=-4378.14%2C-2282.5"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s015db0d4fa9f8861ebe586e601",
+      "name": "Finely Crafted Gold Necklace",
+      "source_id": "/accessories/finely-crafted-gold-necklace",
+      "evidence_id": "evd_s025db0d4fa9f8861ebe586e601",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s024d61d1186efa98ec1055c92a",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "crafting_requirement",
+          "claim_id": "clm_s0210e49f91503845e45e2cb628",
+          "label": "Accessories of the World, Vol. III",
+          "url": "https://crimsondb.gg/miscellaneous/accessories-of-the-world-vol-iii"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01a369b68176b02908aab48073",
+      "name": "Double-Headed Axe of Greed",
+      "source_id": "/weapons/double-headed-axe-of-greed",
+      "evidence_id": "evd_s02a369b68176b02908aab48073",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s0263a1309d29d2409ef9619698",
+          "url": "https://crimsondb.gg/map?x=-8822.1&y=-6360.1&only=1&points=-8822.1%2C-6360.1"
+        },
+        {
+          "kind": "guide_route",
+          "claim_id": "clm_s02932bbb21d42aca14e7397879",
+          "evidence_id": "evd_s02b1462ee85dacef6b919eb695"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s016a015bb316df73e5e1d1a67c",
+      "name": "Golden Greed Plate Boots",
+      "source_id": "/armor/golden-greed-plate-boots",
+      "evidence_id": "evd_s026a015bb316df73e5e1d1a67c",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s02e135bc8c1e949fa8f31848d6",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s0248566a23e7d353dc9863bdd2",
+          "seller_label": "Aris",
+          "shop_label": "Muiquun BlackMarket"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s02b066e81a08ef09a4357e2cdf",
+          "url": "https://crimsondb.gg/map?x=-4671.4&y=-2010.94&only=1&points=-4671.4%2C-2010.94"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s018a13b0a29d90f2c190cb0557",
+      "name": "Drakhan Hammer",
+      "source_id": "/weapons/drakhan-hammer",
+      "evidence_id": "evd_s028a13b0a29d90f2c190cb0557",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s02334f93e48f559adce0f00839",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "crafting_requirement",
+          "claim_id": "clm_s021274b583db18ba7cb410a7c9",
+          "label": "One-Handed Weapons of the World, Vol. IV",
+          "url": "https://crimsondb.gg/miscellaneous/one-handed-weapons-of-the-world-vol-iv"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01979f0bb0549c07a3a422bf62",
+      "name": "Golden Greed Plate Cloak",
+      "source_id": "/armor/golden-greed-plate-cloak",
+      "evidence_id": "evd_s02979f0bb0549c07a3a422bf62",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s027f54d8e1d632ba6a5cd9eb70",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s028a6cd6c10e92b1454f02a9fd",
+          "seller_label": "Aris",
+          "shop_label": "Muiquun BlackMarket"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s029cbba33721d11bb4752f65fc",
+          "url": "https://crimsondb.gg/map?x=-4469.59&y=-1941.4&only=1&points=-4469.59%2C-1941.4"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01e253a0b690d88eb526f031b7",
+      "name": "Finely Crafted Gold Ring",
+      "source_id": "/accessories/finely-crafted-gold-ring",
+      "evidence_id": "evd_s02e253a0b690d88eb526f031b7",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s0269415d93a0eeee97e75d5e8a",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "crafting_requirement",
+          "claim_id": "clm_s0209718efa4b9d87327190e3a2",
+          "label": "Accessories of the World, Vol. III",
+          "url": "https://crimsondb.gg/miscellaneous/accessories-of-the-world-vol-iii"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s0198b22f2bc951189870ab9fa0",
+      "name": "Earthsplitter",
+      "source_id": "/weapons/earthsplitter",
+      "evidence_id": "evd_s0298b22f2bc951189870ab9fa0",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s02110b1e2915dca07db65f2e1f",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s023df4f2f788a9b6c281a2ecaa",
+          "seller_label": "Lyle",
+          "shop_label": "Flame HandCannon"
+        },
+        {
+          "kind": "quest_listing",
+          "claim_id": "clm_s023ed5a14e433d37866afae68d",
+          "series_label": "Guardian of the Ancient Ruins",
+          "stage_label": "Pillar of Light atop the Mountain",
+          "context_labels": [
+            "Guardian of the Ancient Ruins",
+            "Pillar of Light atop the Mountain"
+          ],
+          "url": "https://crimsondb.gg/faction-quests/guardian-of-the-ancient-ruins",
+          "spoiler_level": "quest_major"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s0173bf17068401dcb610bf7e0b",
+      "name": "Golden Greed Plate Gloves",
+      "source_id": "/armor/golden-greed-plate-gloves",
+      "evidence_id": "evd_s0273bf17068401dcb610bf7e0b",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s02b55deddd97c89cd0aa0c7afc",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s02fc6ebc3bb6dec2fa7caf5a7a",
+          "seller_label": "Aris",
+          "shop_label": "Muiquun BlackMarket"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s02af1bbce199ac78307b19519e",
+          "url": "https://crimsondb.gg/map?x=-5232.54&y=-2585.87&only=1&points=-5232.54%2C-2585.87"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01276958a80aa9e36b02a7f5d1",
+      "name": "Fallen Kingdom's Rapier",
+      "source_id": "/weapons/fallen-kingdoms-rapier",
+      "evidence_id": "evd_s02276958a80aa9e36b02a7f5d1",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s02602642865fc9537cb6a59f64",
+          "seller_label": "Quentin",
+          "shop_label": "WhiteMt Equipment"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s02ce5cd28a2c426432b7addcec",
+          "url": "https://crimsondb.gg/map?x=-11953.8&y=-3143.5&only=1&points=-11953.8%2C-3143.5"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s017c3f7600914a2c4d293c51db",
+      "name": "Golden Greed Plate Helm",
+      "source_id": "/armor/golden-greed-plate-helm",
+      "evidence_id": "evd_s027c3f7600914a2c4d293c51db",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s027af6e6920b72a81f64149371",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s02abb280f0f6560f0cf956c061",
+          "seller_label": "Aris",
+          "shop_label": "Muiquun BlackMarket"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s02acd1df6ab6d4230ea2de4acd",
+          "url": "https://crimsondb.gg/map?x=-5115.8&y=-2297.21&only=1&points=-5115.8%2C-2297.21"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s0195f3115e14f7d098cc7de9be",
+      "name": "Golden Deer's Tear",
+      "source_id": "/accessories/golden-deers-tear",
+      "evidence_id": "evd_s0295f3115e14f7d098cc7de9be",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s02b15bb5a3381d514dad5dab25",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "crafting_requirement",
+          "claim_id": "clm_s020a1832424e077a9b46f15b73",
+          "label": "Accessories of the World, Vol. IV",
+          "url": "https://crimsondb.gg/miscellaneous/accessories-of-the-world-vol-iv"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01a0692a826059913070d3e720",
+      "name": "Goldlight Plate Boots",
+      "source_id": "/armor/goldlight-plate-boots",
+      "evidence_id": "evd_s02a0692a826059913070d3e720",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s02f5d2d6d97c67e0bef7cf1db3",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s02b28b0d87a8ed7eaf2ca9f2c7",
+          "seller_label": "Drasso",
+          "shop_label": "Burhum Equipment"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s02d2ad4c8661a324633838483f",
+          "url": "https://crimsondb.gg/map?x=-8029.11&y=-603.69&only=1&points=-8029.11%2C-603.69"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01b6b9349f531a870d8ffd3767",
+      "name": "Finest Rhinard Cannon",
+      "source_id": "/weapons/finest-rhinard-cannon",
+      "evidence_id": "evd_s02b6b9349f531a870d8ffd3767",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s0236a4356e4e08a88b6fbfa892",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s0276f95c7bd65fcf81c1d86b4d",
+          "url": "https://crimsondb.gg/map?x=-6797.7&y=-5253.32&only=1&points=-6797.7%2C-5253.32"
+        },
+        {
+          "kind": "crafting_requirement",
+          "claim_id": "clm_s02e53d5171c7a60bda5e6aeda8",
+          "label": "Two-Handed Weapons of the World, Vol. IV",
+          "url": "https://crimsondb.gg/miscellaneous/two-handed-weapons-of-the-world-vol-iv"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s0126e41d0e2deecf7a184cde13",
+      "name": "Goldlight Plate Cloak",
+      "source_id": "/armor/goldlight-plate-cloak",
+      "evidence_id": "evd_s0226e41d0e2deecf7a184cde13",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s020f6a1209df311b558c9964ad",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s02c0a18b3ca0d9b30d646ee585",
+          "seller_label": "Gurbit",
+          "shop_label": "Crimson Mountains Equipment"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s0270fab1cdb5fbfd4024448266",
+          "url": "https://crimsondb.gg/map?x=-5273.79&y=-778.47&only=1&points=-5273.79%2C-778.47"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01975a7b942441720522085071",
+      "name": "Greymane's Earring",
+      "source_id": "/accessories/greymanes-earring",
+      "evidence_id": "evd_s02975a7b942441720522085071",
+      "sample_page_reviewed": true,
+      "entries": [
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s022c98100fc2ca68485139f458",
+          "seller_label": "Connor",
+          "shop_label": "Camp Accessory"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01e04c9c3d421b88c9660e8e52",
+      "name": "Frozen Anguish",
+      "source_id": "/weapons/frozen-anguish",
+      "evidence_id": "evd_s02e04c9c3d421b88c9660e8e52",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s0258db5a4599284b0ca53ee0ad",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s023c81619598ae5954694dcbc4",
+          "seller_label": "Khron",
+          "shop_label": "Tar Equipment"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s010ce3c76ce0bc2c97918cd559",
+      "name": "Goldlight Plate Gloves",
+      "source_id": "/armor/goldlight-plate-gloves",
+      "evidence_id": "evd_s020ce3c76ce0bc2c97918cd559",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s027bbc601d5bc77fb303d260b7",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s0230717517af082a6d2b8a9c10",
+          "seller_label": "Gurbit",
+          "shop_label": "Crimson Mountains Equipment"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s02447b4545238ee1981be8dcb2",
+          "url": "https://crimsondb.gg/map?x=-5527.85&y=-1156.11&only=1&points=-5527.85%2C-1156.11"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s0177fcf54d139b514b8206f111",
+      "name": "Frozen Soul",
+      "source_id": "/weapons/frozen-soul",
+      "evidence_id": "evd_s0277fcf54d139b514b8206f111",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s02b30ece887262fdb62272e591",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "crafting_requirement",
+          "claim_id": "clm_s020fe6a891679d13362d949614",
+          "label": "One-Handed Weapons of the World, Vol. IV",
+          "url": "https://crimsondb.gg/miscellaneous/one-handed-weapons-of-the-world-vol-iv"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s0100f6c0f5854c228bc6ada8e6",
+      "name": "Goldlight Plate Helm",
+      "source_id": "/armor/goldlight-plate-helm",
+      "evidence_id": "evd_s0200f6c0f5854c228bc6ada8e6",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s025649e017e2d255b05bd4f6b0",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s02b34777f5a76c55ce8a22e8a0",
+          "seller_label": "Aris",
+          "shop_label": "Muiquun BlackMarket"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s02f26e2376ffd03323381dcd6a",
+          "url": "https://crimsondb.gg/map?x=-5754.91&y=-2625.98&only=1&points=-5754.91%2C-2625.98"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s0166edd45226bc4341e1e3f2f6",
+      "name": "Hernandian Signet",
+      "source_id": "/accessories/hernandian-signet",
+      "evidence_id": "evd_s0266edd45226bc4341e1e3f2f6",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s023ba9078f29ed5a16c775132a",
+          "seller_label": "Haldwin",
+          "shop_label": "Her Contribution"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01ff1bc803f3261a21f100ec51",
+      "name": "Goblin King's Treasure Dagger",
+      "source_id": "/weapons/goblin-kings-treasure-dagger",
+      "evidence_id": "evd_s02ff1bc803f3261a21f100ec51",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s02de65f932935ee080fd5b2558",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s020d10292b6f3f0194fdb2c0fd",
+          "seller_label": "Grisle",
+          "shop_label": "Halsius BlackMarket"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s02023d050c43917d3f4e3abe8a",
+          "url": "https://crimsondb.gg/map?x=-9874.45&y=-4925.9&only=1&points=-9874.45%2C-4925.9"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s019aae86271301a7ad9d0dcdc9",
+      "name": "Great Thief's Gloves",
+      "source_id": "/armor/great-thiefs-gloves",
+      "evidence_id": "evd_s029aae86271301a7ad9d0dcdc9",
+      "sample_page_reviewed": true,
+      "entries": [
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s023f1e0b911dec31b579cf5a1c",
+          "seller_label": "Grimrak",
+          "shop_label": "Her BlackMarket"
+        },
+        {
+          "kind": "quest_listing",
+          "claim_id": "clm_s0214e5f24d344a79d26fc796e0",
+          "series_label": "Secret of the Lost Seal",
+          "stage_label": "Heart of Anvil Hill",
+          "context_labels": [
+            "Secret of the Lost Seal",
+            "Heart of Anvil Hill"
+          ],
+          "url": "https://crimsondb.gg/faction-quests/secret-of-the-lost-seal",
+          "spoiler_level": "quest_major"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s0137b4d9569787bddfac506bce",
+      "name": "Golden Fire",
+      "source_id": "/weapons/golden-fire",
+      "evidence_id": "evd_s0237b4d9569787bddfac506bce",
+      "sample_page_reviewed": true,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s0296523dcf18d5d5455e0cbbf2",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s028f1c9efa3c416df09e4bc517",
+          "seller_label": "Forrex",
+          "shop_label": "Neutral HandCannon"
+        },
+        {
+          "kind": "quest_listing",
+          "claim_id": "clm_s0229fc1849f3292e2f4639a83b",
+          "series_label": "Foreboding Shadow",
+          "stage_label": "Master of a Forgotten Land",
+          "context_labels": [
+            "Foreboding Shadow",
+            "XI. Truth and Reality",
+            "Master of a Forgotten Land"
+          ],
+          "url": "https://crimsondb.gg/quests/truth-and-reality/foreboding-shadow",
+          "spoiler_level": "quest_major"
+        },
+        {
+          "kind": "quest_relationship",
+          "claim_id": "clm_s02f58f08e39ff5902a02860d1e",
+          "target_entity_id": "ent_c0e01b2bab099c6c13b3d0a0",
+          "stage_label": "Master of a Forgotten Land"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s017db5ae54d98d36b163648ba3",
+      "name": "Hungering Fang Leather Armor",
+      "source_id": "/armor/hungering-fang-leather-armor",
+      "evidence_id": "evd_s027db5ae54d98d36b163648ba3",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s021040869089d1ad25564497f2",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s02849c52e9c1c86df4c902a4e1",
+          "seller_label": "Lola",
+          "shop_label": "Pai Costume"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s02a5db91c22a32f6ac445cf629",
+          "url": "https://crimsondb.gg/map?x=-9665.21&y=335.99&only=1&points=-9665.21%2C335.99"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01fcb74bc5577bace1debd0be2",
+      "name": "Karanda's Necklace",
+      "source_id": "/accessories/karandas-necklace",
+      "evidence_id": "evd_s02fcb74bc5577bace1debd0be2",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s02070727ba829efd073592d6cc",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s029feeb8026e9754fdb200802c",
+          "seller_label": "Gorio",
+          "shop_label": "Skog Equipment"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s019413a53c3a65030e7cea3de8",
+      "name": "Golden-Knotted Ancestral Bow",
+      "source_id": "/weapons/golden-knotted-ancestral-bow",
+      "evidence_id": "evd_s029413a53c3a65030e7cea3de8",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s02ff05119130a82ac45fc09dcf",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s0206c629396d85811e912f4f7c",
+          "seller_label": "Bargul",
+          "shop_label": "Odeck Equipment"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s02894db91a86a473e3b30b055d",
+          "url": "https://crimsondb.gg/map?x=-11058.1&y=836&only=1&points=-11058.1%2C836"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01c245cd4d184f4f9c780af23d",
+      "name": "Hungering Fang Leather Cloak",
+      "source_id": "/armor/hungering-fang-leather-cloak",
+      "evidence_id": "evd_s02c245cd4d184f4f9c780af23d",
+      "sample_page_reviewed": true,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s0293da058b4cb1e939b9c7d57a",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s0255540058e2dd81e588f2d80d",
+          "seller_label": "Lola",
+          "shop_label": "Pai Costume"
+        },
+        {
+          "kind": "quest_listing",
+          "claim_id": "clm_s0263afae9910b5f0a327d432e3",
+          "series_label": "Dawn",
+          "stage_label": "Lonely Jackals",
+          "context_labels": [
+            "Dawn",
+            "VII. Homecoming",
+            "Lonely Jackals"
+          ],
+          "url": "https://crimsondb.gg/quests/homecoming/dawn",
+          "spoiler_level": "quest_major"
+        },
+        {
+          "kind": "quest_relationship",
+          "claim_id": "clm_s02153595a6f1d9cb9fb4b404f2",
+          "target_entity_id": "ent_062fbc251e8e2fe18fd484b8",
+          "stage_label": "Lonely Jackals"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s012af9a70a7639a317e8ff3a2f",
+      "name": "Greathammer of Fire",
+      "source_id": "/weapons/greathammer-of-fire",
+      "evidence_id": "evd_s022af9a70a7639a317e8ff3a2f",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s02fd815a30f969ab8bbaaf2079",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s026ca2069e4515fec5225b3190",
+          "seller_label": "Omar",
+          "shop_label": "Var Equipment"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s0272acfa773d48dc8e15a6c250",
+          "url": "https://crimsondb.gg/map?x=-4478.48&y=1565.03&only=1&points=-4478.48%2C1565.03"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s0149311df97570addf8011a1c4",
+      "name": "Hungering Fang Leather Gloves",
+      "source_id": "/armor/hungering-fang-leather-gloves",
+      "evidence_id": "evd_s0249311df97570addf8011a1c4",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s02e7d1dea5298fdbf801071338",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s02aa184efe58685acbd1050244",
+          "seller_label": "Lola",
+          "shop_label": "Pai Costume"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s029dc7d221ea5be6db40497ec6",
+          "url": "https://crimsondb.gg/map?x=-10029.14&y=164.38&only=1&points=-10029.14%2C164.38"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01a5eb0006ed534b2560e068ea",
+      "name": "Light of the Battlefield Earring",
+      "source_id": "/accessories/light-of-the-battlefield-earring",
+      "evidence_id": "evd_s02a5eb0006ed534b2560e068ea",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s02288042fb4a759fa6d4e2baad",
+          "seller_label": "Olive",
+          "shop_label": "Tariv General"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01e7835f0776f0392db297cf8a",
+      "name": "Gustav Musket",
+      "source_id": "/weapons/gustav-musket",
+      "evidence_id": "evd_s02e7835f0776f0392db297cf8a",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s026199f6564ceadc1a722dd70e",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s024430a46706a907dcc56c09e1",
+          "seller_label": "Drasso",
+          "shop_label": "Burhum Equipment"
+        },
+        {
+          "kind": "quest_listing",
+          "claim_id": "clm_s023f076b411a62df047f75b558",
+          "series_label": "Bullets Piercing the Sandstorm",
+          "stage_label": "The Dusksongs",
+          "context_labels": [
+            "Bullets Piercing the Sandstorm",
+            "The Dusksongs"
+          ],
+          "url": "https://crimsondb.gg/faction-quests/bullets-piercing-the-sandstorm",
+          "spoiler_level": "quest_major"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s018975e70ecadc0eaf7d54f756",
+      "name": "Kuku Flame-Resistant Armor",
+      "source_id": "/armor/kuku-flame-resistant-armor",
+      "evidence_id": "evd_s028975e70ecadc0eaf7d54f756",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s022eb43b8e37d4866601ddbf00",
+          "station_label": "Cook KukuPot"
+        },
+        {
+          "kind": "crafting_requirement",
+          "claim_id": "clm_s02836f3280d4dd902f642dface",
+          "label": "Kuku Gear Special Blueprint",
+          "url": "https://crimsondb.gg/miscellaneous/kuku-gear-special-blueprint"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s0162674ba59b356e936c6988bd",
+      "name": "Kadel Mace",
+      "source_id": "/weapons/kadel-mace",
+      "evidence_id": "evd_s0262674ba59b356e936c6988bd",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s027fe160b2e642783f57ebcf47",
+          "url": "https://crimsondb.gg/map?x=-11112.2&y=1302.3&only=1&points=-11112.2%2C1302.3"
+        },
+        {
+          "kind": "guide_route",
+          "claim_id": "clm_s02a7e2ee1598f6d813d7dfc05d",
+          "evidence_id": "evd_s0230b1528edea2d4c2ba08c9ab"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s0190edee3ad65f6dba6dc1bcfc",
+      "name": "Kuku Ice-Resistant Armor",
+      "source_id": "/armor/kuku-ice-resistant-armor",
+      "evidence_id": "evd_s0290edee3ad65f6dba6dc1bcfc",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s029936eab893976488532d937d",
+          "station_label": "Cook KukuPot"
+        },
+        {
+          "kind": "crafting_requirement",
+          "claim_id": "clm_s02600c87cf6e4343e9c1f03f4d",
+          "label": "Kuku Gear Special Blueprint",
+          "url": "https://crimsondb.gg/miscellaneous/kuku-gear-special-blueprint"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01700a431a0ac6e83b587bb2ae",
+      "name": "Necklace of Lightning",
+      "source_id": "/accessories/necklace-of-lightning",
+      "evidence_id": "evd_s02700a431a0ac6e83b587bb2ae",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s029326b9fe97a6bfd41131ee0a",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s026c1e7b56a2f6afe4484b2b7b",
+          "seller_label": "Bari",
+          "shop_label": "Pai Witch"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s013dc92c3e98108c7bc589506c",
+      "name": "King's Dagger",
+      "source_id": "/weapons/kings-dagger",
+      "evidence_id": "evd_s023dc92c3e98108c7bc589506c",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s02e400f4db9df1e3f20ecd69c7",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s02a57179bc8204ebbaa0cd473e",
+          "seller_label": "Gunter",
+          "shop_label": "Pai Equipment"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s02f8f5b4313e7a0e215a9959c7",
+          "url": "https://crimsondb.gg/map?x=-9767.76&y=550.97&only=1&points=-9767.76%2C550.97"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01b2c4028f3ea626e9d9bb50a7",
+      "name": "Kuku Lightning-Resistant Armor",
+      "source_id": "/armor/kuku-lightning-resistant-armor",
+      "evidence_id": "evd_s02b2c4028f3ea626e9d9bb50a7",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s020b6b43f6ea05a04c093d0f6c",
+          "station_label": "Cook KukuPot"
+        },
+        {
+          "kind": "crafting_requirement",
+          "claim_id": "clm_s02b4e51d2ae1a6857439e71c7c",
+          "label": "Kuku Gear Special Blueprint",
+          "url": "https://crimsondb.gg/miscellaneous/kuku-gear-special-blueprint"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s0182fc5a2bc0eded94c335be2e",
+      "name": "Knightlord's Sword",
+      "source_id": "/weapons/knightlords-sword",
+      "evidence_id": "evd_s0282fc5a2bc0eded94c335be2e",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s0231b0fbe4b96526c03f2cf659",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s023cbfa286716eef23fe398ddd",
+          "seller_label": "Lyle",
+          "shop_label": "Flame HandCannon"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01ecedf495cf54ed8c1fa51842",
+      "name": "Kuku Rishi's Boots",
+      "source_id": "/armor/kuku-rishis-boots",
+      "evidence_id": "evd_s02ecedf495cf54ed8c1fa51842",
+      "sample_page_reviewed": true,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s02365106aa8d6d67203a7eac8c",
+          "station_label": "Cook KukuPot"
+        },
+        {
+          "kind": "crafting_requirement",
+          "claim_id": "clm_s0229e9c65b080b15b0936ab469",
+          "label": "Kuku Gear Special Blueprint",
+          "url": "https://crimsondb.gg/miscellaneous/kuku-gear-special-blueprint"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s01aaf49e0cb768623a6c432381",
+      "name": "Kuku Bismuth Spear",
+      "source_id": "/weapons/kuku-bismuth-spear",
+      "evidence_id": "evd_s02aaf49e0cb768623a6c432381",
+      "sample_page_reviewed": true,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s02d8e9bad7c8cd84e57f2c88ad",
+          "station_label": "Cook KukuPot"
+        },
+        {
+          "kind": "crafting_requirement",
+          "claim_id": "clm_s0250b2383a379cbd21f652f00c",
+          "label": "Kuku Spear Special Blueprint",
+          "url": "https://crimsondb.gg/miscellaneous/kuku-spear-special-blueprint"
+        }
+      ]
+    },
+    {
+      "entity_id": "ent_s011957c660bdfb77f4fd264520",
+      "name": "Leather Helm of the Fallen Kingdom",
+      "source_id": "/armor/leather-helm-of-the-fallen-kingdom",
+      "evidence_id": "evd_s021957c660bdfb77f4fd264520",
+      "sample_page_reviewed": false,
+      "entries": [
+        {
+          "kind": "crafting_station",
+          "claim_id": "clm_s0244c3b91064e2d1f78e31c5e4",
+          "station_label": "Smith"
+        },
+        {
+          "kind": "vendor",
+          "claim_id": "clm_s02521052678250be5d15838ce3",
+          "seller_label": "Quentin",
+          "shop_label": "WhiteMt Equipment"
+        },
+        {
+          "kind": "map_lead",
+          "claim_id": "clm_s0229094844334fd63a948168fc",
+          "url": "https://crimsondb.gg/map?x=-12435.05&y=-3563.83&only=1&points=-12435.05%2C-3563.83"
+        }
+      ]
+    }
+  ],
+  "encountered_exclusions": [
+    {
+      "entity_id": "ent_s016abaab5cd7fba46a8476155d",
+      "source_id": "/weapons/fallen-nobles-rapier",
+      "reason": "No selected acquisition field; not unobtainability."
+    },
+    {
+      "entity_id": "ent_s0180ca232baca4887a0e20800c",
+      "source_id": "/accessories/pailunese-signet",
+      "reason": "No selected acquisition field; not unobtainability."
+    }
+  ],
+  "sample_source_ids": [
+    "/weapons/aeserion-sword",
+    "/weapons/golden-fire",
+    "/accessories/ancient-ring",
+    "/armor/blackwing-leather-boots",
+    "/armor/fluttering-radiance-plate-boots",
+    "/weapons/kuku-bismuth-spear",
+    "/accessories/ancient-earring",
+    "/weapons/blaster-no-8",
+    "/accessories/delesyian-signet",
+    "/armor/blackwing-mask",
+    "/armor/dark-executioner-leather-armor",
+    "/armor/great-thiefs-gloves",
+    "/armor/hungering-fang-leather-cloak",
+    "/armor/kuku-rishis-boots",
+    "/accessories/greymanes-earring"
+  ],
+  "review_notes": [
+    "All 100 identities, selected field shapes, source links and claim mappings checked; 15 item pages rendered separately as a cross-section. Not independent observation of every item.",
+    "Seller text is one seller/shop pair, not two sellers. Technical labels are retained, not expanded into guessed coordinates.",
+    "Only three exact existing quest-stage IDs are linked. Priscus the Ancient is an actor in canon, so a same-named quest link does not become that actor relation.",
+    "Fluttering Radiance Plate Boots Required to Learn links a miscellaneous source entry with the same title; no self-referential item prerequisite is invented.",
+    "Five recipes retain the Cook KukuPot source label; no ordinary cooking or default blacksmith conversion is inferred.",
+    "Dark Executioner epilogue quest context is ending-level; generic acquisition-source metadata does not disclose its stage to lower spoiler levels.",
+    "Three map-only items receive one short additional guide route each. Map coordinates, respawn claims and detailed unlock gates are not certified.",
+    "All DB sources share one unresolved-upstream group; guides retain their own known upstream attribution. No claim receives independent corroboration or patch-review credit."
+  ],
+  "remaining_limits": [
+    "No complete recipe/material/cost tables or general current-stock guarantee.",
+    "A listed crafting route may be internal or unavailable; live implementation and unlock state are unverified.",
+    "Missing fields and unvisited entries are gaps, not assertions of unobtainability.",
+    "Two published releases remain unchanged. No public release, hosting or next wave authorized."
+  ]
+}

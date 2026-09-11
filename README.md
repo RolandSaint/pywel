@@ -103,3 +103,9 @@ Never add personal state, conversations, private paths, credentials, copied sour
 ## S01 equipment population
 
 [S01](docs/S01_EQUIPMENT_POPULATION.md) adds 200 equipment identities (80 weapons, 80 armor, 40 accessories), 1,144 source-qualified claims, 200 item-page evidence records and one receipt. This source now has **520 entities, 2,591 stored claims, 306 evidence records, 44 patch identities, one strategy and seven receipts**. The new claims comprise 729 selected +5/+10 stat cells, 400 classification claims, 14 acquisition listings and one existing-quest link. They are historical secondary-source reports, not complete loadout effects, guaranteed stock or current-build observations. All earlier canonical records and both published releases are unchanged. No new release is created by this source update.
+
+## S02 acquisition depth
+
+[S02](docs/S02_ACQUISITION.md) adds **245 qualified acquisition/requirement records and 103 evidence records** for **100 existing S01 items**, without adding items or changing stats. Current source totals: **520 entities, 2,836 stored claims, 409 evidence records, 44 patch identities, one strategy, eight receipts**. S01 acquisition coverage rises from 12 to 112 of its 200 entries; 88 remain without acquisition claims.
+
+The batch distinguishes 85 source-listed crafting stations, 65 seller/shop associations, 15 quest listings, 31 route-specific learning requirements, 43 map leads, three short guide routes and three existing quest-stage links. These are overlapping records, not 245 fully verified acquisition paths. Recipe availability, live inventory, exact triggers and map placement remain qualified; the epilogue association is ending-gated. All earlier records and both published releases remain unchanged.
