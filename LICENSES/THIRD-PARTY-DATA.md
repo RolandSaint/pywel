@@ -384,9 +384,3 @@ Reviewed September 11, 2026. CrimsonDB individual public entries; 200 additional
 | `evd_s01fcb74bc5577bace1debd0be2` | [Karanda's Necklace - CrimsonDB](https://crimsondb.gg/accessories/karandas-necklace) |
 | `evd_s01fea3dc26f32a8fd64f17f862` | [White Bear Helm - CrimsonDB](https://crimsondb.gg/armor/white-bear-helm) |
 | `evd_s01ff1bc803f3261a21f100ec51` | [Goblin King's Treasure Dagger - CrimsonDB](https://crimsondb.gg/weapons/goblin-kings-treasure-dagger) |
-
-## S03 retained recipe-input normalization
-
-S03 reuses `evd_06652a8fff4f0593f8ce8431` (CrimsonWiki contributors, Cooking guide, retained capture July 16, 2026) and `evd_62f7da1955faa80092f4449a` (CrimsonWiki contributors, Potions guide, same date). Their exact public locators, normalized-projection hashes, capture limitations, CC BY-SA 4.0 attribution and history references remain in the unchanged evidence records and the CrimsonWiki notice above. No source was fetched again and no additional independence or permission is asserted. The unusual retained Potions locator is not silently repaired or newly verified.
-
-The modification is a Pywel-authored normalization of retained ingredient labels into 25 distinct ingredient references and 36 typed relationships, including two corrections that separate a recipe from its prepared food. All original quantity strings remain unchanged. Nine category-versus-item labels remain unlinked. Share-alike and existing underlying-game-IP exclusions remain applicable. Source admission was reviewed without a new capture or permission grant; see `docs/S03_RECIPE_INPUTS.md` and issue #17 for the exact integration and verification record. This is not a new release.
