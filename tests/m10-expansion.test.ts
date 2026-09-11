@@ -1,7 +1,7 @@
 import { readFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import { describe, expect, it } from "vitest";
-import { canonicalJson, sha256 } from "../src/core/canonical-json.js";
+import { sha256 } from "../src/core/canonical-json.js";
 import { KnowledgeIndex } from "../src/core/query.js";
 import { firstExpansionStore, originalReleaseStore } from "./helpers.js";
 
@@ -36,7 +36,8 @@ describe("M10 published-expansion regression (not a new release acceptance)", ()
       canonical_files: additions.canonical_files.filter((file: { path: string }) => !file.path.endsWith("/g02-official-catchup.json")),
       record_ids: Object.fromEntries(Object.entries(additions.record_ids as Record<string, string[]>).map(([key, ids]) => [key, ids.filter(id => !id.includes("_g02"))])),
     };
-    expect(sha256(canonicalJson(published, true))).toBe("17f6abb88ce201d6095efa2efd2a061e63076da3c3577f6e4184d2c0cc07c8f0");
+    // Preserve the historical JSON key order; locale-based canonical sorting is different.
+    expect(sha256(`${JSON.stringify(published, null, 2)}\n`)).toBe("17f6abb88ce201d6095efa2efd2a061e63076da3c3577f6e4184d2c0cc07c8f0");
     expect(sha256(await readFile(resolve(root, "quality/public-release-scope.json")))).toBe("9bea33a672f0d2043e19e706e4d67cd8537823ad47154242916422c53c7aeb7f");
     expect([store.entities.length, store.claims.length, store.evidence.length, store.patches.length, store.strategies.length, store.receipts.length]).toEqual([320, 1447, 88, 27, 1, 5]);
     expect(store.predicateRegistry.registry_version).toBe(14);
