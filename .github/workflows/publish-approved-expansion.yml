@@ -1,0 +1,37 @@
+# Temporary publication job. Keep this off main; never tag this helper commit.
+name: publish-approved-expansion
+on: create
+permissions: {}
+concurrency:
+  group: publish-expansion-2026-09-10-1
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.repository == 'RolandSaint/pywel' && github.event.ref_type == 'branch' && github.event.ref == 'agent/publish-approved-expansion-2026-09-10'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      actions: read
+    steps:
+      - name: Read the reviewed one-time publishing helper, not the release source
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - name: Publish and anonymously verify the exact approved M10 package
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/publish-approved-expansion.py
+      - name: Remove only unchanged temporary publication branches
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          for branch in agent/publication-review-expansion-2026-09-10 agent/publish-approved-expansion-2026-09-10; do
+            ref="repos/$GITHUB_REPOSITORY/git/refs/heads/$branch"
+            actual="$(gh api "$ref" --jq '.object.sha')"
+            test "$actual" = "$GITHUB_SHA" || { echo 'Branch advanced; leave it unchanged.'; exit 1; }
+            gh api --method DELETE "$ref"
+          done
