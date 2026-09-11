@@ -1,7 +1,7 @@
 schema_version: pywel.load_first.v4
 project_id: pywel_knowledge_standard
 display_name: Pywel Knowledge Standard
-status: post_release_s02_source
+status: post_release_s02_intake_blocked
 source_repository: https://github.com/RolandSaint/pywel
 source_visibility: public
 scope_adopted_on: '2026-09-10'
