@@ -1,0 +1,1714 @@
+{
+  "milestone": "S01",
+  "base_commit": "38c6389cfe79bd428fb8cad73f026e6915679812",
+  "source_projection_sha256": "48021a70c799b8e9c3578cb1d05ecd20fb13a4904aae137191915839d241e416",
+  "source_artifact": 10275232695,
+  "source_run": 34628099692,
+  "source_started_at": "2026-09-11T17:30:52.407425+00:00",
+  "source_finished_at": "2026-09-11T17:34:23.763042+00:00",
+  "reviewed_on": "2026-09-11",
+  "selection": [
+    {
+      "entity_id": "ent_s017f10ef25066b558b41b2f6b8",
+      "source_id": "/accessories/ancient-earring",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s016cfe03884e28bc8caf1198c1",
+      "source_id": "/accessories/ancient-ring",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s0194b56fa7df76eafea5ccaef7",
+      "source_id": "/accessories/ancients-necklace",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01b8f411000c7b336c8e73a758",
+      "source_id": "/accessories/black-lion-earring",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01ee53ec9ee371aef8e3056cd5",
+      "source_id": "/accessories/blizzard-crystal-necklace",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s014cd6fddfb78ba9d787f1cf4e",
+      "source_id": "/accessories/crossroads-necklace",
+      "field_count": 6,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s012f41f409dcc9d5698bb78ca7",
+      "source_id": "/accessories/delesyian-signet",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01ca8e68309a055b579d6c828d",
+      "source_id": "/accessories/demeniss-earring",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01e46db911005914747059dade",
+      "source_id": "/accessories/demenissian-signet",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01ae60722824616fbca02d2c22",
+      "source_id": "/accessories/earring-of-dark-magic",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s0108e15703ded1fe255c4ae796",
+      "source_id": "/accessories/eternal-darkness",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s015db0d4fa9f8861ebe586e601",
+      "source_id": "/accessories/finely-crafted-gold-necklace",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01e253a0b690d88eb526f031b7",
+      "source_id": "/accessories/finely-crafted-gold-ring",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01deb735dd40de02dc8c7b09f6",
+      "source_id": "/accessories/flower-petal-earring",
+      "field_count": 3,
+      "omitted_fields": [
+        "Movement Speed: non-scalar"
+      ],
+      "acquisition_fields": 1,
+      "sample_reviewed": true
+    },
+    {
+      "entity_id": "ent_s0195f3115e14f7d098cc7de9be",
+      "source_id": "/accessories/golden-deers-tear",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01b85fb90538a83baa4559c462",
+      "source_id": "/accessories/greymane-signet",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 1,
+      "sample_reviewed": true
+    },
+    {
+      "entity_id": "ent_s01975a7b942441720522085071",
+      "source_id": "/accessories/greymanes-earring",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s0166edd45226bc4341e1e3f2f6",
+      "source_id": "/accessories/hernandian-signet",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01fcb74bc5577bace1debd0be2",
+      "source_id": "/accessories/karandas-necklace",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01a5eb0006ed534b2560e068ea",
+      "source_id": "/accessories/light-of-the-battlefield-earring",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s011131d613ad055e56d4e5484e",
+      "source_id": "/accessories/mark-of-darkness",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 1,
+      "sample_reviewed": true
+    },
+    {
+      "entity_id": "ent_s01700a431a0ac6e83b587bb2ae",
+      "source_id": "/accessories/necklace-of-lightning",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s0106dd78221ed3803d12b65853",
+      "source_id": "/accessories/ogres-ring",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 1,
+      "sample_reviewed": true
+    },
+    {
+      "entity_id": "ent_s0180ca232baca4887a0e20800c",
+      "source_id": "/accessories/pailunese-signet",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s013ba21f74d97ff2a20f1732be",
+      "source_id": "/accessories/radiant-necklace",
+      "field_count": 6,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01da06df2a661964847677e014",
+      "source_id": "/accessories/rainstorm-necklace",
+      "field_count": 3,
+      "omitted_fields": [
+        "Critical Rate: non-scalar"
+      ],
+      "acquisition_fields": 0,
+      "sample_reviewed": true
+    },
+    {
+      "entity_id": "ent_s016b462f57249c68870be9a58f",
+      "source_id": "/accessories/relic-of-darkness",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01e75cd58c5fc4dbccafd9979d",
+      "source_id": "/accessories/ring-of-lightning",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01f382e2f3a650882da204cbf7",
+      "source_id": "/accessories/rough-bluestone-ring",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s011ee332083e5db2c9067ea64d",
+      "source_id": "/accessories/saints-necklace",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": true
+    },
+    {
+      "entity_id": "ent_s018a8cbf056898b3898ffbf53d",
+      "source_id": "/accessories/seal-of-pitch-black-darkness",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s015dfe862a25d0de577126050a",
+      "source_id": "/accessories/stardust-necklace",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s015217bf35613b97a1704b474b",
+      "source_id": "/accessories/surreal-necklace",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s018a7bc156a6e593a82ad046ba",
+      "source_id": "/accessories/tarivian-necklace",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01450bfb5f44b21b57179340c7",
+      "source_id": "/accessories/tashkalpian-signet",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s012d910c087632ea1a0d293e33",
+      "source_id": "/accessories/tigerfang-ring",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01d77139f791febe0c88d9b37d",
+      "source_id": "/accessories/white-horns-earring",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01e4bd9b67f97effc0c96c6d61",
+      "source_id": "/accessories/white-horns-ring",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 2,
+      "sample_reviewed": true
+    },
+    {
+      "entity_id": "ent_s01d87b56a12846f7ff6c05a48c",
+      "source_id": "/accessories/white-lion-necklace",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s0108fac36c18fef9c53cb1e694",
+      "source_id": "/accessories/witchs-earring",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s010f45adc7fd18c7016d0b7553",
+      "source_id": "/armor/autumn-banquet-plate-helm",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01c0c83dcae26dc921ce7f59a3",
+      "source_id": "/armor/blackwing-leather-boots",
+      "field_count": 6,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s0162524d8933793b5470be5ced",
+      "source_id": "/armor/blackwing-leather-cloak",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s0178a5608097f2dfab8623d7a9",
+      "source_id": "/armor/blackwing-mask",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01a8ede13d2b0f71f6fcb8ed3d",
+      "source_id": "/armor/brass-wardens-plate-gloves",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01a28676d0e85749673ddae532",
+      "source_id": "/armor/dark-executioner-leather-armor",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s015989c42b14d08fb30cd9a23e",
+      "source_id": "/armor/dark-marksmans-plate-armor",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s016b70d6fc31e8376526fb2031",
+      "source_id": "/armor/dark-marksmans-plate-boots",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01b7d6999189fd8d80c697e455",
+      "source_id": "/armor/dark-marksmans-plate-cloak",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s0192205c22b381b515f74d7ec2",
+      "source_id": "/armor/dark-marksmans-plate-gloves",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01e62d0302cb424001ecee6628",
+      "source_id": "/armor/dark-ringleaders-cloth-armor",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01359b676706eb32b86755442d",
+      "source_id": "/armor/dark-ringleaders-cloth-cloak",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01ad18f281af01b5b52710ae55",
+      "source_id": "/armor/dark-ringleaders-cloth-helm",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01b2015aabe65c4d209c445f00",
+      "source_id": "/armor/duskfang-leather-cloak",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s0154c3eba58bcc92562c05a824",
+      "source_id": "/armor/elegant-carmine-leather-armor",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01fbbd6bd3dbaa722e83b8062f",
+      "source_id": "/armor/elegant-carmine-leather-cloak",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01cf0d284d54e5815438c6d98e",
+      "source_id": "/armor/elegant-carmine-plate-boots",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01f86a1a438751e8b1e18d6924",
+      "source_id": "/armor/elegant-carmine-plate-gloves",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s014c7fb6861d4babcb217459f3",
+      "source_id": "/armor/elegant-carmine-plate-helm",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01b7f9dc2d5f22b65343e29eb5",
+      "source_id": "/armor/fluttering-radiance-plate-boots",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01cd5a695ab5615d99dd7aad84",
+      "source_id": "/armor/frozen-heart-plate-armor",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 1,
+      "sample_reviewed": true
+    },
+    {
+      "entity_id": "ent_s014906eb60e6092efd5f84d249",
+      "source_id": "/armor/frozen-heart-plate-boots",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s017f5d9633fd7982b45899a747",
+      "source_id": "/armor/frozen-heart-plate-cloak",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s017be1db8c53bb4401f0e94cd9",
+      "source_id": "/armor/frozen-heart-plate-gloves",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s0199d192476c42dd81c4b5e67b",
+      "source_id": "/armor/giants-boots",
+      "field_count": 6,
+      "omitted_fields": [],
+      "acquisition_fields": 1,
+      "sample_reviewed": true
+    },
+    {
+      "entity_id": "ent_s01b9abb8a2ec23040a6a912003",
+      "source_id": "/armor/golden-greed-plate-armor",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s016a015bb316df73e5e1d1a67c",
+      "source_id": "/armor/golden-greed-plate-boots",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01979f0bb0549c07a3a422bf62",
+      "source_id": "/armor/golden-greed-plate-cloak",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s0173bf17068401dcb610bf7e0b",
+      "source_id": "/armor/golden-greed-plate-gloves",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s017c3f7600914a2c4d293c51db",
+      "source_id": "/armor/golden-greed-plate-helm",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01a0692a826059913070d3e720",
+      "source_id": "/armor/goldlight-plate-boots",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s0126e41d0e2deecf7a184cde13",
+      "source_id": "/armor/goldlight-plate-cloak",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s010ce3c76ce0bc2c97918cd559",
+      "source_id": "/armor/goldlight-plate-gloves",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s0100f6c0f5854c228bc6ada8e6",
+      "source_id": "/armor/goldlight-plate-helm",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s019aae86271301a7ad9d0dcdc9",
+      "source_id": "/armor/great-thiefs-gloves",
+      "field_count": 6,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s017db5ae54d98d36b163648ba3",
+      "source_id": "/armor/hungering-fang-leather-armor",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01c245cd4d184f4f9c780af23d",
+      "source_id": "/armor/hungering-fang-leather-cloak",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s0149311df97570addf8011a1c4",
+      "source_id": "/armor/hungering-fang-leather-gloves",
+      "field_count": 6,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s018975e70ecadc0eaf7d54f756",
+      "source_id": "/armor/kuku-flame-resistant-armor",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s0190edee3ad65f6dba6dc1bcfc",
+      "source_id": "/armor/kuku-ice-resistant-armor",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01b2c4028f3ea626e9d9bb50a7",
+      "source_id": "/armor/kuku-lightning-resistant-armor",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01ecedf495cf54ed8c1fa51842",
+      "source_id": "/armor/kuku-rishis-boots",
+      "field_count": 6,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s011957c660bdfb77f4fd264520",
+      "source_id": "/armor/leather-helm-of-the-fallen-kingdom",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01a04c41d5bdb0e167ab102f14",
+      "source_id": "/armor/light-of-the-battlefield-cloth-cloak",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s0101461ab90dab4667949e6279",
+      "source_id": "/armor/light-of-the-battlefield-plate-armor",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s0139dda25a9f06ba6902047fb8",
+      "source_id": "/armor/light-of-the-battlefield-plate-boots",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s015d159ce21792d793d246c44c",
+      "source_id": "/armor/light-of-the-battlefield-plate-gloves",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01b491c5ed8e06bc6a21955517",
+      "source_id": "/armor/light-of-the-battlefield-plate-helm",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s0102e181c5f260838b54bf1af4",
+      "source_id": "/armor/martial-monks-cloth-boots",
+      "field_count": 6,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01f96306822352e239616c1c6f",
+      "source_id": "/armor/martial-monks-cloth-gloves",
+      "field_count": 6,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": true
+    },
+    {
+      "entity_id": "ent_s01dbdfe9e705b7356c3a7b7a5e",
+      "source_id": "/armor/martial-monks-cloth-robe",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s0101e4c138d0c71bc440858c1f",
+      "source_id": "/armor/official-knights-leather-boots",
+      "field_count": 6,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s018b884f466f58adb75ffa650b",
+      "source_id": "/armor/official-knights-leather-gloves",
+      "field_count": 6,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01bb2ee13323a1e8ea1ff14b5b",
+      "source_id": "/armor/pale-predators-leather-gloves",
+      "field_count": 6,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01add7a7273b1e46f872900ac1",
+      "source_id": "/armor/plate-boots-of-the-fallen-kingdom",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01faa24db2427875d397006ba0",
+      "source_id": "/armor/silver-fang-helm",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s013ec16746d8be2878da36de51",
+      "source_id": "/armor/skyblazer-cloth-armor",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s018683359bd21cfe773dbd920e",
+      "source_id": "/armor/skyblazer-cloth-cloak",
+      "field_count": 3,
+      "omitted_fields": [
+        "Movement Speed: non-scalar"
+      ],
+      "acquisition_fields": 1,
+      "sample_reviewed": true
+    },
+    {
+      "entity_id": "ent_s01809687f83e969db9e6aab06d",
+      "source_id": "/armor/skyblazer-cloth-helm",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01b727784c7e35376585b9aeb2",
+      "source_id": "/armor/skyblazer-leather-gloves",
+      "field_count": 6,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s0176e7542ede5fe964d3da16e7",
+      "source_id": "/armor/sunset-reed-cloth-boots",
+      "field_count": 6,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01a13c0b2a3ae38bd4b80fa46e",
+      "source_id": "/armor/sunset-reed-cloth-gloves",
+      "field_count": 6,
+      "omitted_fields": [],
+      "acquisition_fields": 1,
+      "sample_reviewed": true
+    },
+    {
+      "entity_id": "ent_s017a4d30fe46d156415091dca1",
+      "source_id": "/armor/tariv-cloth-attire",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01abbb7de9c62562a394bf3827",
+      "source_id": "/armor/tariv-cloth-boots",
+      "field_count": 6,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01c6c51ca8c183fdb320c5927d",
+      "source_id": "/armor/tariv-cloth-cloak",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s015026fc0d14c15d4dff4605a7",
+      "source_id": "/armor/tariv-cloth-gloves",
+      "field_count": 6,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s015158e403925f4353684dff8c",
+      "source_id": "/armor/the-ashens-leather-boots",
+      "field_count": 6,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s017e6575b5f4891e38ec54caf9",
+      "source_id": "/armor/the-ashens-leather-cloak",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s015e4220ecbacb754c7b4b14ca",
+      "source_id": "/armor/the-ashens-plate-armor",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01dc7059c993084e6351d6769e",
+      "source_id": "/armor/the-ashens-plate-gloves",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s012175c31c1b446748d569bc7c",
+      "source_id": "/armor/the-ashens-plate-helm",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01e2c5e8e519875bb8cd2390ed",
+      "source_id": "/armor/wanderer-of-faith-leather-armor",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01e1abe0160bb55d4448f717b8",
+      "source_id": "/armor/wanderer-of-faith-leather-boots",
+      "field_count": 6,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01191a670e35b9d01dd33b79e0",
+      "source_id": "/armor/wanderer-of-faith-leather-cloak",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01415f3d81147809a9d4dd1269",
+      "source_id": "/armor/wanderer-of-faith-leather-gloves",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01fea3dc26f32a8fd64f17f862",
+      "source_id": "/armor/white-bear-helm",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s017d88031bbb0e2eac36006ec5",
+      "source_id": "/armor/white-bloodwind-cloth-cloak",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s012e6271bd251ecd1100966d33",
+      "source_id": "/armor/white-bloodwind-leather-armor",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s011cc5041daee1060ba461fd9f",
+      "source_id": "/armor/white-bloodwind-leather-boots",
+      "field_count": 6,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01dae9650669705e4187c47b9c",
+      "source_id": "/armor/white-bloodwind-plate-gloves",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01ba3fc2f33604054bcde81f42",
+      "source_id": "/weapons/acria-sword",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01f5b2695d44ae9a0f0ec1dba6",
+      "source_id": "/weapons/aeserion-bow",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01a58bc7c3afa3fedff033ba0f",
+      "source_id": "/weapons/aeserion-dagger",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": true
+    },
+    {
+      "entity_id": "ent_s0126b7948e4ef7f8a96f4e143a",
+      "source_id": "/weapons/aeserion-greataxe",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01670137a95e64a9a1692ce655",
+      "source_id": "/weapons/aeserion-greathammer",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01fb8c7196aeb4ada3492819f1",
+      "source_id": "/weapons/aeserion-halberd",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01cfbc19b3640292c76e2624d6",
+      "source_id": "/weapons/aeserion-longsword",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01897ede1e854816ee08c45f76",
+      "source_id": "/weapons/aeserion-mace",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01323d43b866fe4d927b4b9b33",
+      "source_id": "/weapons/aeserion-spear",
+      "field_count": 6,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01936c9b12c61db358be4e8364",
+      "source_id": "/weapons/aeserion-sword",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s010925b070ed804ce57b0efd53",
+      "source_id": "/weapons/aeserion-warhammer",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01e9771a4e06113cff561124c8",
+      "source_id": "/weapons/antumbras-eye",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01d88f7da370275889991380c1",
+      "source_id": "/weapons/artisans-hand",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01838b8d70094bf69dc1e00f5b",
+      "source_id": "/weapons/black-iron-axe",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01790422a5f4e849ea6dec7d5a",
+      "source_id": "/weapons/blaster-no-8",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s0127c4a85d0a5256a4c8fc7c7a",
+      "source_id": "/weapons/brass-rose-rapier",
+      "field_count": 6,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01a393901606530a19d23fd292",
+      "source_id": "/weapons/caliburns-mercy-pistol",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s010b7b9b1db8261813f72360af",
+      "source_id": "/weapons/chillfallen-sword",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01ddf12e8964cce3deccd3b6c5",
+      "source_id": "/weapons/crimson-wardens-bow",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s0129e4c598dc56ded9970e433e",
+      "source_id": "/weapons/dagger-of-dark-pursuit",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s016e88feee4436d34aa0ffcc8a",
+      "source_id": "/weapons/darkbringer",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01da6d9dc4714302274b85b35b",
+      "source_id": "/weapons/demenissian-heros-musket",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s012c52725f2347170bd53c2488",
+      "source_id": "/weapons/desert-hammer",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s0113a91ee753fb6ec2b2767e0a",
+      "source_id": "/weapons/divine-echoes-bow",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01a369b68176b02908aab48073",
+      "source_id": "/weapons/double-headed-axe-of-greed",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": true
+    },
+    {
+      "entity_id": "ent_s018a13b0a29d90f2c190cb0557",
+      "source_id": "/weapons/drakhan-hammer",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s0198b22f2bc951189870ab9fa0",
+      "source_id": "/weapons/earthsplitter",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01a8b4e0edfc775b33cbcaa8d4",
+      "source_id": "/weapons/electro-mecha-spear",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 1,
+      "sample_reviewed": true
+    },
+    {
+      "entity_id": "ent_s01276958a80aa9e36b02a7f5d1",
+      "source_id": "/weapons/fallen-kingdoms-rapier",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s016abaab5cd7fba46a8476155d",
+      "source_id": "/weapons/fallen-nobles-rapier",
+      "field_count": 6,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s017b473b5353948f330bdeaa09",
+      "source_id": "/weapons/fated-shadow",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 1,
+      "sample_reviewed": true
+    },
+    {
+      "entity_id": "ent_s01b6b9349f531a870d8ffd3767",
+      "source_id": "/weapons/finest-rhinard-cannon",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01e04c9c3d421b88c9660e8e52",
+      "source_id": "/weapons/frozen-anguish",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s0177fcf54d139b514b8206f111",
+      "source_id": "/weapons/frozen-soul",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01ff1bc803f3261a21f100ec51",
+      "source_id": "/weapons/goblin-kings-treasure-dagger",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s0137b4d9569787bddfac506bce",
+      "source_id": "/weapons/golden-fire",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s019413a53c3a65030e7cea3de8",
+      "source_id": "/weapons/golden-knotted-ancestral-bow",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s012af9a70a7639a317e8ff3a2f",
+      "source_id": "/weapons/greathammer-of-fire",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01e7835f0776f0392db297cf8a",
+      "source_id": "/weapons/gustav-musket",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s0162674ba59b356e936c6988bd",
+      "source_id": "/weapons/kadel-mace",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s013dc92c3e98108c7bc589506c",
+      "source_id": "/weapons/kings-dagger",
+      "field_count": 6,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s0182fc5a2bc0eded94c335be2e",
+      "source_id": "/weapons/knightlords-sword",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01aaf49e0cb768623a6c432381",
+      "source_id": "/weapons/kuku-bismuth-spear",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01920fb7f84b49fafb9e8f4744",
+      "source_id": "/weapons/kuku-disruptor-spear",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s0181e4ad6635be38361e6019af",
+      "source_id": "/weapons/kuku-flame-spear",
+      "field_count": 6,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s0172559d2a601f80bcd01c9474",
+      "source_id": "/weapons/kuku-laser-cannon-spear",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01d07aaabdd885c3654bfd3954",
+      "source_id": "/weapons/kuku-lightning-spear",
+      "field_count": 6,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s017aa2c840c1db3707def659a3",
+      "source_id": "/weapons/kuku-propeller-spear",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s018f375e3aa8e5f895563a4b0e",
+      "source_id": "/weapons/legionarys-gladius",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01a8a0adad7d9aae12277343d8",
+      "source_id": "/weapons/leofric-double-headed-axe",
+      "field_count": 6,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s010eb777487fdc7dee796f7f24",
+      "source_id": "/weapons/leofric-musket",
+      "field_count": 6,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s0116c6b732db6a5672f529cece",
+      "source_id": "/weapons/leonne-rapier",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s015675dc93d0c6fff0c7925347",
+      "source_id": "/weapons/liberre-rapier",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01deafc684eddfb37f5b8f496e",
+      "source_id": "/weapons/mace-of-ambition",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01c45e8bc5cafc5555dc1c075a",
+      "source_id": "/weapons/mace-of-resolve",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01ac3bd5dcce9746bab8637318",
+      "source_id": "/weapons/marching-baton",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s016d6752655d95faa9b757a1ef",
+      "source_id": "/weapons/marni-devotees-mace",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s0172722c6b97400f88bb0a00bf",
+      "source_id": "/weapons/marni-musket",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s012c09605c25496eaacc145e08",
+      "source_id": "/weapons/marni-tank-blaster",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01d9e963aeff6070460867adb2",
+      "source_id": "/weapons/mechanical-clockwork-blaster",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 2,
+      "sample_reviewed": true
+    },
+    {
+      "entity_id": "ent_s0105807b9e3e86546058c2dab2",
+      "source_id": "/weapons/melted-ambition",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01ea598a8fc77587202f12ee1f",
+      "source_id": "/weapons/nazk-sword",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01a8751a4d0f23988da3717426",
+      "source_id": "/weapons/noble-mans-bow",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01d3e472f2ad5bba44cce91611",
+      "source_id": "/weapons/peltree-sword",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01f990289ceb12ac22a0c6401c",
+      "source_id": "/weapons/reckoning",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01bce9519692a96743518af781",
+      "source_id": "/weapons/red-needle",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01f4eeb4387e66e7fb303928f3",
+      "source_id": "/weapons/rhiass-axe",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01a75806475b842dad4970fb4c",
+      "source_id": "/weapons/royal-oath",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01e1039ed9402e95f3ac171ab4",
+      "source_id": "/weapons/shadow-of-the-past-pistol",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s017f5d853299e8d69c43c27d48",
+      "source_id": "/weapons/sigremon-greataxe",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01069acec74e98b182f1f85dbb",
+      "source_id": "/weapons/sior-blaster",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s0161d1fca704ddb0b7549527ce",
+      "source_id": "/weapons/survivors-solitude",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s0100e3cdeccacd43e9f5221044",
+      "source_id": "/weapons/sword-of-greed",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s015cc31b390a9ab0dea1722723",
+      "source_id": "/weapons/sword-of-starlight",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s010436a13b92a509495630f45c",
+      "source_id": "/weapons/tommasoan-bow",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s018579eba8657bb5a637a61716",
+      "source_id": "/weapons/twisted-verdict",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s0195943e3b5d542e628817f687",
+      "source_id": "/weapons/varnian-sword",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01458c0d467e08ffe1b89992d3",
+      "source_id": "/weapons/volcanic-blaster",
+      "field_count": 2,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s010e6c16065135992d92290eeb",
+      "source_id": "/weapons/vow-of-the-dead-king",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    },
+    {
+      "entity_id": "ent_s01f25e52a8d4653d8387abe3fc",
+      "source_id": "/weapons/wyvern-blaster",
+      "field_count": 4,
+      "omitted_fields": [],
+      "acquisition_fields": 0,
+      "sample_reviewed": false
+    }
+  ],
+  "excluded_candidates": [
+    {
+      "url": "https://crimsondb.gg/weapons/atag-fist",
+      "reason": "Vehicle, identity-control or ambiguous base configuration outside S01 selection."
+    },
+    {
+      "url": "https://crimsondb.gg/weapons/atag-cannon",
+      "reason": "Vehicle, identity-control or ambiguous base configuration outside S01 selection."
+    },
+    {
+      "url": "https://crimsondb.gg/weapons/atag-laser",
+      "reason": "Vehicle, identity-control or ambiguous base configuration outside S01 selection."
+    },
+    {
+      "url": "https://crimsondb.gg/weapons/atag-pincers",
+      "reason": "Vehicle, identity-control or ambiguous base configuration outside S01 selection."
+    },
+    {
+      "url": "https://crimsondb.gg/weapons/atag-machine-gun",
+      "reason": "Vehicle, identity-control or ambiguous base configuration outside S01 selection."
+    },
+    {
+      "url": "https://crimsondb.gg/weapons/atag-flamespitter",
+      "reason": "Vehicle, identity-control or ambiguous base configuration outside S01 selection."
+    },
+    {
+      "url": "https://crimsondb.gg/weapons/atag-welder",
+      "reason": "Vehicle, identity-control or ambiguous base configuration outside S01 selection."
+    },
+    {
+      "url": "https://crimsondb.gg/weapons/kuku-spear",
+      "reason": "Vehicle, identity-control or ambiguous base configuration outside S01 selection."
+    },
+    {
+      "url": "https://crimsondb.gg/weapons/furious-waves-gauntlet",
+      "reason": "No inspectable +10 scalar refinement row; not inferred from card/default or script data."
+    },
+    {
+      "url": "https://crimsondb.gg/weapons/iron-fists-gauntlet",
+      "reason": "No inspectable +10 scalar refinement row; not inferred from card/default or script data."
+    },
+    {
+      "url": "https://crimsondb.gg/armor/master-dus-circlet",
+      "reason": "No inspectable +10 scalar refinement row; not inferred from card/default or script data."
+    },
+    {
+      "url": "https://crimsondb.gg/armor/hernandian-circlet",
+      "reason": "No inspectable +10 scalar refinement row; not inferred from card/default or script data."
+    },
+    {
+      "url": "https://crimsondb.gg/armor/demenissian-circlet",
+      "reason": "No inspectable +10 scalar refinement row; not inferred from card/default or script data."
+    },
+    {
+      "url": "https://crimsondb.gg/armor/delesyian-circlet",
+      "reason": "No inspectable +10 scalar refinement row; not inferred from card/default or script data."
+    },
+    {
+      "url": "https://crimsondb.gg/armor/varnian-circlet",
+      "reason": "No inspectable +10 scalar refinement row; not inferred from card/default or script data."
+    },
+    {
+      "url": "https://crimsondb.gg/accessories/witchs-ring",
+      "reason": "Existing or duplicate item identity; no silent alias merge."
+    }
+  ],
+  "scope": "Selected fields, not whole databases, descriptions or independently observed live gameplay. Numeric mapping checked across all candidates; rendered-page sample and every flagged scalar omission reviewed. Missing fields are not zero or known absent. Seller parser output was rejected; fourteen labels were inspected separately.",
+  "counts": {
+    "new_entities": 200,
+    "new_claims": 1144,
+    "stat_claims": 729,
+    "classification_claims": 400,
+    "acquisition_claims": 14,
+    "relationship_claims": 1,
+    "new_evidence": 200,
+    "new_receipts": 1
+  },
+  "sample_source_ids": [
+    "/weapons/double-headed-axe-of-greed",
+    "/weapons/mechanical-clockwork-blaster",
+    "/weapons/aeserion-dagger",
+    "/weapons/fated-shadow",
+    "/weapons/electro-mecha-spear",
+    "/armor/skyblazer-cloth-cloak",
+    "/armor/sunset-reed-cloth-gloves",
+    "/armor/frozen-heart-plate-armor",
+    "/armor/giants-boots",
+    "/armor/martial-monks-cloth-gloves",
+    "/accessories/white-horns-ring",
+    "/accessories/ogres-ring",
+    "/accessories/greymane-signet",
+    "/accessories/rainstorm-necklace",
+    "/accessories/flower-petal-earring",
+    "/accessories/mark-of-darkness",
+    "/accessories/saints-necklace"
+  ]
+}

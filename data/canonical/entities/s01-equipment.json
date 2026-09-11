@@ -1,0 +1,4606 @@
+{
+  "schema_version": "pywel.entity_catalog.v1",
+  "catalog_id": "cat_s01equipmententities20260911",
+  "records": [
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s0100e3cdeccacd43e9f5221044",
+      "game_id": "crimson_desert",
+      "slug": "item.sword-of-greed",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Sword of Greed"
+      },
+      "summary": "Sword of Greed: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s0100f6c0f5854c228bc6ada8e6",
+      "game_id": "crimson_desert",
+      "slug": "item.goldlight-plate-helm",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Goldlight Plate Helm"
+      },
+      "summary": "Goldlight Plate Helm: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s0101461ab90dab4667949e6279",
+      "game_id": "crimson_desert",
+      "slug": "item.light-of-the-battlefield-plate-armor",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Light of the Battlefield Plate Armor"
+      },
+      "summary": "Light of the Battlefield Plate Armor: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s0101e4c138d0c71bc440858c1f",
+      "game_id": "crimson_desert",
+      "slug": "item.official-knights-leather-boots",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Official Knight's Leather Boots"
+      },
+      "summary": "Official Knight's Leather Boots: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s0102e181c5f260838b54bf1af4",
+      "game_id": "crimson_desert",
+      "slug": "item.martial-monks-cloth-boots",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Martial Monk's Cloth Boots"
+      },
+      "summary": "Martial Monk's Cloth Boots: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s010436a13b92a509495630f45c",
+      "game_id": "crimson_desert",
+      "slug": "item.tommasoan-bow",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Tommasoan Bow"
+      },
+      "summary": "Tommasoan Bow: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s0105807b9e3e86546058c2dab2",
+      "game_id": "crimson_desert",
+      "slug": "item.melted-ambition",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Melted Ambition"
+      },
+      "summary": "Melted Ambition: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01069acec74e98b182f1f85dbb",
+      "game_id": "crimson_desert",
+      "slug": "item.sior-blaster",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Sior Blaster"
+      },
+      "summary": "Sior Blaster: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s0106dd78221ed3803d12b65853",
+      "game_id": "crimson_desert",
+      "slug": "item.ogres-ring",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Ogre's Ring"
+      },
+      "summary": "Ogre's Ring: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s0108e15703ded1fe255c4ae796",
+      "game_id": "crimson_desert",
+      "slug": "item.eternal-darkness",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Eternal Darkness"
+      },
+      "summary": "Eternal Darkness: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s0108fac36c18fef9c53cb1e694",
+      "game_id": "crimson_desert",
+      "slug": "item.witchs-earring",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Witch's Earring"
+      },
+      "summary": "Witch's Earring: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s010925b070ed804ce57b0efd53",
+      "game_id": "crimson_desert",
+      "slug": "item.aeserion-warhammer",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Aeserion Warhammer"
+      },
+      "summary": "Aeserion Warhammer: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s010b7b9b1db8261813f72360af",
+      "game_id": "crimson_desert",
+      "slug": "item.chillfallen-sword",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Chillfallen Sword"
+      },
+      "summary": "Chillfallen Sword: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s010ce3c76ce0bc2c97918cd559",
+      "game_id": "crimson_desert",
+      "slug": "item.goldlight-plate-gloves",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Goldlight Plate Gloves"
+      },
+      "summary": "Goldlight Plate Gloves: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s010e6c16065135992d92290eeb",
+      "game_id": "crimson_desert",
+      "slug": "item.vow-of-the-dead-king",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Vow of the Dead King"
+      },
+      "summary": "Vow of the Dead King: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s010eb777487fdc7dee796f7f24",
+      "game_id": "crimson_desert",
+      "slug": "item.leofric-musket",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Leofric Musket"
+      },
+      "summary": "Leofric Musket: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s010f45adc7fd18c7016d0b7553",
+      "game_id": "crimson_desert",
+      "slug": "item.autumn-banquet-plate-helm",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Autumn Banquet Plate Helm"
+      },
+      "summary": "Autumn Banquet Plate Helm: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s011131d613ad055e56d4e5484e",
+      "game_id": "crimson_desert",
+      "slug": "item.mark-of-darkness",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Mark of Darkness"
+      },
+      "summary": "Mark of Darkness: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s0113a91ee753fb6ec2b2767e0a",
+      "game_id": "crimson_desert",
+      "slug": "item.divine-echoes-bow",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Divine Echoes Bow"
+      },
+      "summary": "Divine Echoes Bow: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s0116c6b732db6a5672f529cece",
+      "game_id": "crimson_desert",
+      "slug": "item.leonne-rapier",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Leonne Rapier"
+      },
+      "summary": "Leonne Rapier: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01191a670e35b9d01dd33b79e0",
+      "game_id": "crimson_desert",
+      "slug": "item.wanderer-of-faith-leather-cloak",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Wanderer of Faith Leather Cloak"
+      },
+      "summary": "Wanderer of Faith Leather Cloak: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s011957c660bdfb77f4fd264520",
+      "game_id": "crimson_desert",
+      "slug": "item.leather-helm-of-the-fallen-kingdom",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Leather Helm of the Fallen Kingdom"
+      },
+      "summary": "Leather Helm of the Fallen Kingdom: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s011cc5041daee1060ba461fd9f",
+      "game_id": "crimson_desert",
+      "slug": "item.white-bloodwind-leather-boots",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "White Bloodwind Leather Boots"
+      },
+      "summary": "White Bloodwind Leather Boots: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s011ee332083e5db2c9067ea64d",
+      "game_id": "crimson_desert",
+      "slug": "item.saints-necklace",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Saint's Necklace"
+      },
+      "summary": "Saint's Necklace: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s012175c31c1b446748d569bc7c",
+      "game_id": "crimson_desert",
+      "slug": "item.the-ashens-plate-helm",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "The Ashen's Plate Helm"
+      },
+      "summary": "The Ashen's Plate Helm: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s0126b7948e4ef7f8a96f4e143a",
+      "game_id": "crimson_desert",
+      "slug": "item.aeserion-greataxe",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Aeserion Greataxe"
+      },
+      "summary": "Aeserion Greataxe: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s0126e41d0e2deecf7a184cde13",
+      "game_id": "crimson_desert",
+      "slug": "item.goldlight-plate-cloak",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Goldlight Plate Cloak"
+      },
+      "summary": "Goldlight Plate Cloak: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01276958a80aa9e36b02a7f5d1",
+      "game_id": "crimson_desert",
+      "slug": "item.fallen-kingdoms-rapier",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Fallen Kingdom's Rapier"
+      },
+      "summary": "Fallen Kingdom's Rapier: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s0127c4a85d0a5256a4c8fc7c7a",
+      "game_id": "crimson_desert",
+      "slug": "item.brass-rose-rapier",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Brass Rose Rapier"
+      },
+      "summary": "Brass Rose Rapier: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s0129e4c598dc56ded9970e433e",
+      "game_id": "crimson_desert",
+      "slug": "item.dagger-of-dark-pursuit",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Dagger of Dark Pursuit"
+      },
+      "summary": "Dagger of Dark Pursuit: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s012af9a70a7639a317e8ff3a2f",
+      "game_id": "crimson_desert",
+      "slug": "item.greathammer-of-fire",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Greathammer of Fire"
+      },
+      "summary": "Greathammer of Fire: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s012c09605c25496eaacc145e08",
+      "game_id": "crimson_desert",
+      "slug": "item.marni-tank-blaster",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Marni Tank Blaster"
+      },
+      "summary": "Marni Tank Blaster: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s012c52725f2347170bd53c2488",
+      "game_id": "crimson_desert",
+      "slug": "item.desert-hammer",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Desert Hammer"
+      },
+      "summary": "Desert Hammer: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s012d910c087632ea1a0d293e33",
+      "game_id": "crimson_desert",
+      "slug": "item.tigerfang-ring",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Tigerfang Ring"
+      },
+      "summary": "Tigerfang Ring: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s012e6271bd251ecd1100966d33",
+      "game_id": "crimson_desert",
+      "slug": "item.white-bloodwind-leather-armor",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "White Bloodwind Leather Armor"
+      },
+      "summary": "White Bloodwind Leather Armor: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s012f41f409dcc9d5698bb78ca7",
+      "game_id": "crimson_desert",
+      "slug": "item.delesyian-signet",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Delesyian Signet"
+      },
+      "summary": "Delesyian Signet: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01323d43b866fe4d927b4b9b33",
+      "game_id": "crimson_desert",
+      "slug": "item.aeserion-spear",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Aeserion Spear"
+      },
+      "summary": "Aeserion Spear: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01359b676706eb32b86755442d",
+      "game_id": "crimson_desert",
+      "slug": "item.dark-ringleaders-cloth-cloak",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Dark Ringleader's Cloth Cloak"
+      },
+      "summary": "Dark Ringleader's Cloth Cloak: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s0137b4d9569787bddfac506bce",
+      "game_id": "crimson_desert",
+      "slug": "item.golden-fire",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Golden Fire"
+      },
+      "summary": "Golden Fire: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s0139dda25a9f06ba6902047fb8",
+      "game_id": "crimson_desert",
+      "slug": "item.light-of-the-battlefield-plate-boots",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Light of the Battlefield Plate Boots"
+      },
+      "summary": "Light of the Battlefield Plate Boots: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s013ba21f74d97ff2a20f1732be",
+      "game_id": "crimson_desert",
+      "slug": "item.radiant-necklace",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Radiant Necklace"
+      },
+      "summary": "Radiant Necklace: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s013dc92c3e98108c7bc589506c",
+      "game_id": "crimson_desert",
+      "slug": "item.kings-dagger",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "King's Dagger"
+      },
+      "summary": "King's Dagger: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s013ec16746d8be2878da36de51",
+      "game_id": "crimson_desert",
+      "slug": "item.skyblazer-cloth-armor",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Skyblazer Cloth Armor"
+      },
+      "summary": "Skyblazer Cloth Armor: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01415f3d81147809a9d4dd1269",
+      "game_id": "crimson_desert",
+      "slug": "item.wanderer-of-faith-leather-gloves",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Wanderer of Faith Leather Gloves"
+      },
+      "summary": "Wanderer of Faith Leather Gloves: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01450bfb5f44b21b57179340c7",
+      "game_id": "crimson_desert",
+      "slug": "item.tashkalpian-signet",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Tashkalpian Signet"
+      },
+      "summary": "Tashkalpian Signet: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01458c0d467e08ffe1b89992d3",
+      "game_id": "crimson_desert",
+      "slug": "item.volcanic-blaster",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Volcanic Blaster"
+      },
+      "summary": "Volcanic Blaster: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s014906eb60e6092efd5f84d249",
+      "game_id": "crimson_desert",
+      "slug": "item.frozen-heart-plate-boots",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Frozen Heart Plate Boots"
+      },
+      "summary": "Frozen Heart Plate Boots: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s0149311df97570addf8011a1c4",
+      "game_id": "crimson_desert",
+      "slug": "item.hungering-fang-leather-gloves",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Hungering Fang Leather Gloves"
+      },
+      "summary": "Hungering Fang Leather Gloves: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s014c7fb6861d4babcb217459f3",
+      "game_id": "crimson_desert",
+      "slug": "item.elegant-carmine-plate-helm",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Elegant Carmine Plate Helm"
+      },
+      "summary": "Elegant Carmine Plate Helm: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s014cd6fddfb78ba9d787f1cf4e",
+      "game_id": "crimson_desert",
+      "slug": "item.crossroads-necklace",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Crossroads Necklace"
+      },
+      "summary": "Crossroads Necklace: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s015026fc0d14c15d4dff4605a7",
+      "game_id": "crimson_desert",
+      "slug": "item.tariv-cloth-gloves",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Tariv Cloth Gloves"
+      },
+      "summary": "Tariv Cloth Gloves: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s015158e403925f4353684dff8c",
+      "game_id": "crimson_desert",
+      "slug": "item.the-ashens-leather-boots",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "The Ashen's Leather Boots"
+      },
+      "summary": "The Ashen's Leather Boots: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s015217bf35613b97a1704b474b",
+      "game_id": "crimson_desert",
+      "slug": "item.surreal-necklace",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Surreal Necklace"
+      },
+      "summary": "Surreal Necklace: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s0154c3eba58bcc92562c05a824",
+      "game_id": "crimson_desert",
+      "slug": "item.elegant-carmine-leather-armor",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Elegant Carmine Leather Armor"
+      },
+      "summary": "Elegant Carmine Leather Armor: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s015675dc93d0c6fff0c7925347",
+      "game_id": "crimson_desert",
+      "slug": "item.liberre-rapier",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Liberre Rapier"
+      },
+      "summary": "Liberre Rapier: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s015989c42b14d08fb30cd9a23e",
+      "game_id": "crimson_desert",
+      "slug": "item.dark-marksmans-plate-armor",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Dark Marksman's Plate Armor"
+      },
+      "summary": "Dark Marksman's Plate Armor: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s015cc31b390a9ab0dea1722723",
+      "game_id": "crimson_desert",
+      "slug": "item.sword-of-starlight",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Sword of Starlight"
+      },
+      "summary": "Sword of Starlight: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s015d159ce21792d793d246c44c",
+      "game_id": "crimson_desert",
+      "slug": "item.light-of-the-battlefield-plate-gloves",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Light of the Battlefield Plate Gloves"
+      },
+      "summary": "Light of the Battlefield Plate Gloves: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s015db0d4fa9f8861ebe586e601",
+      "game_id": "crimson_desert",
+      "slug": "item.finely-crafted-gold-necklace",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Finely Crafted Gold Necklace"
+      },
+      "summary": "Finely Crafted Gold Necklace: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s015dfe862a25d0de577126050a",
+      "game_id": "crimson_desert",
+      "slug": "item.stardust-necklace",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Stardust Necklace"
+      },
+      "summary": "Stardust Necklace: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s015e4220ecbacb754c7b4b14ca",
+      "game_id": "crimson_desert",
+      "slug": "item.the-ashens-plate-armor",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "The Ashen's Plate Armor"
+      },
+      "summary": "The Ashen's Plate Armor: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s0161d1fca704ddb0b7549527ce",
+      "game_id": "crimson_desert",
+      "slug": "item.survivors-solitude",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Survivor's Solitude"
+      },
+      "summary": "Survivor's Solitude: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s0162524d8933793b5470be5ced",
+      "game_id": "crimson_desert",
+      "slug": "item.blackwing-leather-cloak",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Blackwing Leather Cloak"
+      },
+      "summary": "Blackwing Leather Cloak: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s0162674ba59b356e936c6988bd",
+      "game_id": "crimson_desert",
+      "slug": "item.kadel-mace",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Kadel Mace"
+      },
+      "summary": "Kadel Mace: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s0166edd45226bc4341e1e3f2f6",
+      "game_id": "crimson_desert",
+      "slug": "item.hernandian-signet",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Hernandian Signet"
+      },
+      "summary": "Hernandian Signet: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01670137a95e64a9a1692ce655",
+      "game_id": "crimson_desert",
+      "slug": "item.aeserion-greathammer",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Aeserion Greathammer"
+      },
+      "summary": "Aeserion Greathammer: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s016a015bb316df73e5e1d1a67c",
+      "game_id": "crimson_desert",
+      "slug": "item.golden-greed-plate-boots",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Golden Greed Plate Boots"
+      },
+      "summary": "Golden Greed Plate Boots: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s016abaab5cd7fba46a8476155d",
+      "game_id": "crimson_desert",
+      "slug": "item.fallen-nobles-rapier",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Fallen Noble's Rapier"
+      },
+      "summary": "Fallen Noble's Rapier: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s016b462f57249c68870be9a58f",
+      "game_id": "crimson_desert",
+      "slug": "item.relic-of-darkness",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Relic of Darkness"
+      },
+      "summary": "Relic of Darkness: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s016b70d6fc31e8376526fb2031",
+      "game_id": "crimson_desert",
+      "slug": "item.dark-marksmans-plate-boots",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Dark Marksman's Plate Boots"
+      },
+      "summary": "Dark Marksman's Plate Boots: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s016cfe03884e28bc8caf1198c1",
+      "game_id": "crimson_desert",
+      "slug": "item.ancient-ring",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Ancient Ring"
+      },
+      "summary": "Ancient Ring: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s016d6752655d95faa9b757a1ef",
+      "game_id": "crimson_desert",
+      "slug": "item.marni-devotees-mace",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Marni Devotee's Mace"
+      },
+      "summary": "Marni Devotee's Mace: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s016e88feee4436d34aa0ffcc8a",
+      "game_id": "crimson_desert",
+      "slug": "item.darkbringer",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Darkbringer"
+      },
+      "summary": "Darkbringer: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01700a431a0ac6e83b587bb2ae",
+      "game_id": "crimson_desert",
+      "slug": "item.necklace-of-lightning",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Necklace of Lightning"
+      },
+      "summary": "Necklace of Lightning: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s0172559d2a601f80bcd01c9474",
+      "game_id": "crimson_desert",
+      "slug": "item.kuku-laser-cannon-spear",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Kuku Laser Cannon Spear"
+      },
+      "summary": "Kuku Laser Cannon Spear: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s0172722c6b97400f88bb0a00bf",
+      "game_id": "crimson_desert",
+      "slug": "item.marni-musket",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Marni Musket"
+      },
+      "summary": "Marni Musket: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s0173bf17068401dcb610bf7e0b",
+      "game_id": "crimson_desert",
+      "slug": "item.golden-greed-plate-gloves",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Golden Greed Plate Gloves"
+      },
+      "summary": "Golden Greed Plate Gloves: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s0176e7542ede5fe964d3da16e7",
+      "game_id": "crimson_desert",
+      "slug": "item.sunset-reed-cloth-boots",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Sunset Reed Cloth Boots"
+      },
+      "summary": "Sunset Reed Cloth Boots: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s0177fcf54d139b514b8206f111",
+      "game_id": "crimson_desert",
+      "slug": "item.frozen-soul",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Frozen Soul"
+      },
+      "summary": "Frozen Soul: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s0178a5608097f2dfab8623d7a9",
+      "game_id": "crimson_desert",
+      "slug": "item.blackwing-mask",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Blackwing Mask"
+      },
+      "summary": "Blackwing Mask: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01790422a5f4e849ea6dec7d5a",
+      "game_id": "crimson_desert",
+      "slug": "item.blaster-no-8",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Blaster No. 8"
+      },
+      "summary": "Blaster No. 8: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s017a4d30fe46d156415091dca1",
+      "game_id": "crimson_desert",
+      "slug": "item.tariv-cloth-attire",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Tariv Cloth Attire"
+      },
+      "summary": "Tariv Cloth Attire: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s017aa2c840c1db3707def659a3",
+      "game_id": "crimson_desert",
+      "slug": "item.kuku-propeller-spear",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Kuku Propeller Spear"
+      },
+      "summary": "Kuku Propeller Spear: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s017b473b5353948f330bdeaa09",
+      "game_id": "crimson_desert",
+      "slug": "item.fated-shadow",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Fated Shadow"
+      },
+      "summary": "Fated Shadow: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s017be1db8c53bb4401f0e94cd9",
+      "game_id": "crimson_desert",
+      "slug": "item.frozen-heart-plate-gloves",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Frozen Heart Plate Gloves"
+      },
+      "summary": "Frozen Heart Plate Gloves: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s017c3f7600914a2c4d293c51db",
+      "game_id": "crimson_desert",
+      "slug": "item.golden-greed-plate-helm",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Golden Greed Plate Helm"
+      },
+      "summary": "Golden Greed Plate Helm: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s017d88031bbb0e2eac36006ec5",
+      "game_id": "crimson_desert",
+      "slug": "item.white-bloodwind-cloth-cloak",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "White Bloodwind Cloth Cloak"
+      },
+      "summary": "White Bloodwind Cloth Cloak: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s017db5ae54d98d36b163648ba3",
+      "game_id": "crimson_desert",
+      "slug": "item.hungering-fang-leather-armor",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Hungering Fang Leather Armor"
+      },
+      "summary": "Hungering Fang Leather Armor: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s017e6575b5f4891e38ec54caf9",
+      "game_id": "crimson_desert",
+      "slug": "item.the-ashens-leather-cloak",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "The Ashen's Leather Cloak"
+      },
+      "summary": "The Ashen's Leather Cloak: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s017f10ef25066b558b41b2f6b8",
+      "game_id": "crimson_desert",
+      "slug": "item.ancient-earring",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Ancient Earring"
+      },
+      "summary": "Ancient Earring: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s017f5d853299e8d69c43c27d48",
+      "game_id": "crimson_desert",
+      "slug": "item.sigremon-greataxe",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Sigremon Greataxe"
+      },
+      "summary": "Sigremon Greataxe: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s017f5d9633fd7982b45899a747",
+      "game_id": "crimson_desert",
+      "slug": "item.frozen-heart-plate-cloak",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Frozen Heart Plate Cloak"
+      },
+      "summary": "Frozen Heart Plate Cloak: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01809687f83e969db9e6aab06d",
+      "game_id": "crimson_desert",
+      "slug": "item.skyblazer-cloth-helm",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Skyblazer Cloth Helm"
+      },
+      "summary": "Skyblazer Cloth Helm: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s0180ca232baca4887a0e20800c",
+      "game_id": "crimson_desert",
+      "slug": "item.pailunese-signet",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Pailunese Signet"
+      },
+      "summary": "Pailunese Signet: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s0181e4ad6635be38361e6019af",
+      "game_id": "crimson_desert",
+      "slug": "item.kuku-flame-spear",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Kuku Flame Spear"
+      },
+      "summary": "Kuku Flame Spear: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s0182fc5a2bc0eded94c335be2e",
+      "game_id": "crimson_desert",
+      "slug": "item.knightlords-sword",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Knightlord's Sword"
+      },
+      "summary": "Knightlord's Sword: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01838b8d70094bf69dc1e00f5b",
+      "game_id": "crimson_desert",
+      "slug": "item.black-iron-axe",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Black Iron Axe"
+      },
+      "summary": "Black Iron Axe: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s018579eba8657bb5a637a61716",
+      "game_id": "crimson_desert",
+      "slug": "item.twisted-verdict",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Twisted Verdict"
+      },
+      "summary": "Twisted Verdict: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s018683359bd21cfe773dbd920e",
+      "game_id": "crimson_desert",
+      "slug": "item.skyblazer-cloth-cloak",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Skyblazer Cloth Cloak"
+      },
+      "summary": "Skyblazer Cloth Cloak: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s018975e70ecadc0eaf7d54f756",
+      "game_id": "crimson_desert",
+      "slug": "item.kuku-flame-resistant-armor",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Kuku Flame-Resistant Armor"
+      },
+      "summary": "Kuku Flame-Resistant Armor: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01897ede1e854816ee08c45f76",
+      "game_id": "crimson_desert",
+      "slug": "item.aeserion-mace",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Aeserion Mace"
+      },
+      "summary": "Aeserion Mace: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s018a13b0a29d90f2c190cb0557",
+      "game_id": "crimson_desert",
+      "slug": "item.drakhan-hammer",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Drakhan Hammer"
+      },
+      "summary": "Drakhan Hammer: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s018a7bc156a6e593a82ad046ba",
+      "game_id": "crimson_desert",
+      "slug": "item.tarivian-necklace",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Tarivian Necklace"
+      },
+      "summary": "Tarivian Necklace: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s018a8cbf056898b3898ffbf53d",
+      "game_id": "crimson_desert",
+      "slug": "item.seal-of-pitch-black-darkness",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Seal of Pitch-Black Darkness"
+      },
+      "summary": "Seal of Pitch-Black Darkness: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s018b884f466f58adb75ffa650b",
+      "game_id": "crimson_desert",
+      "slug": "item.official-knights-leather-gloves",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Official Knight's Leather Gloves"
+      },
+      "summary": "Official Knight's Leather Gloves: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s018f375e3aa8e5f895563a4b0e",
+      "game_id": "crimson_desert",
+      "slug": "item.legionarys-gladius",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Legionary's Gladius"
+      },
+      "summary": "Legionary's Gladius: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s0190edee3ad65f6dba6dc1bcfc",
+      "game_id": "crimson_desert",
+      "slug": "item.kuku-ice-resistant-armor",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Kuku Ice-Resistant Armor"
+      },
+      "summary": "Kuku Ice-Resistant Armor: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01920fb7f84b49fafb9e8f4744",
+      "game_id": "crimson_desert",
+      "slug": "item.kuku-disruptor-spear",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Kuku Disruptor Spear"
+      },
+      "summary": "Kuku Disruptor Spear: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s0192205c22b381b515f74d7ec2",
+      "game_id": "crimson_desert",
+      "slug": "item.dark-marksmans-plate-gloves",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Dark Marksman's Plate Gloves"
+      },
+      "summary": "Dark Marksman's Plate Gloves: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01936c9b12c61db358be4e8364",
+      "game_id": "crimson_desert",
+      "slug": "item.aeserion-sword",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Aeserion Sword"
+      },
+      "summary": "Aeserion Sword: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s019413a53c3a65030e7cea3de8",
+      "game_id": "crimson_desert",
+      "slug": "item.golden-knotted-ancestral-bow",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Golden-Knotted Ancestral Bow"
+      },
+      "summary": "Golden-Knotted Ancestral Bow: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s0194b56fa7df76eafea5ccaef7",
+      "game_id": "crimson_desert",
+      "slug": "item.ancients-necklace",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Ancient's Necklace"
+      },
+      "summary": "Ancient's Necklace: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s0195943e3b5d542e628817f687",
+      "game_id": "crimson_desert",
+      "slug": "item.varnian-sword",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Varnian Sword"
+      },
+      "summary": "Varnian Sword: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s0195f3115e14f7d098cc7de9be",
+      "game_id": "crimson_desert",
+      "slug": "item.golden-deers-tear",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Golden Deer's Tear"
+      },
+      "summary": "Golden Deer's Tear: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01975a7b942441720522085071",
+      "game_id": "crimson_desert",
+      "slug": "item.greymanes-earring",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Greymane's Earring"
+      },
+      "summary": "Greymane's Earring: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01979f0bb0549c07a3a422bf62",
+      "game_id": "crimson_desert",
+      "slug": "item.golden-greed-plate-cloak",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Golden Greed Plate Cloak"
+      },
+      "summary": "Golden Greed Plate Cloak: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s0198b22f2bc951189870ab9fa0",
+      "game_id": "crimson_desert",
+      "slug": "item.earthsplitter",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Earthsplitter"
+      },
+      "summary": "Earthsplitter: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s0199d192476c42dd81c4b5e67b",
+      "game_id": "crimson_desert",
+      "slug": "item.giants-boots",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Giant's Boots"
+      },
+      "summary": "Giant's Boots: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s019aae86271301a7ad9d0dcdc9",
+      "game_id": "crimson_desert",
+      "slug": "item.great-thiefs-gloves",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Great Thief's Gloves"
+      },
+      "summary": "Great Thief's Gloves: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01a04c41d5bdb0e167ab102f14",
+      "game_id": "crimson_desert",
+      "slug": "item.light-of-the-battlefield-cloth-cloak",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Light of the Battlefield Cloth Cloak"
+      },
+      "summary": "Light of the Battlefield Cloth Cloak: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01a0692a826059913070d3e720",
+      "game_id": "crimson_desert",
+      "slug": "item.goldlight-plate-boots",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Goldlight Plate Boots"
+      },
+      "summary": "Goldlight Plate Boots: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01a13c0b2a3ae38bd4b80fa46e",
+      "game_id": "crimson_desert",
+      "slug": "item.sunset-reed-cloth-gloves",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Sunset Reed Cloth Gloves"
+      },
+      "summary": "Sunset Reed Cloth Gloves: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01a28676d0e85749673ddae532",
+      "game_id": "crimson_desert",
+      "slug": "item.dark-executioner-leather-armor",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Dark Executioner Leather Armor"
+      },
+      "summary": "Dark Executioner Leather Armor: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01a369b68176b02908aab48073",
+      "game_id": "crimson_desert",
+      "slug": "item.double-headed-axe-of-greed",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Double-Headed Axe of Greed"
+      },
+      "summary": "Double-Headed Axe of Greed: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01a393901606530a19d23fd292",
+      "game_id": "crimson_desert",
+      "slug": "item.caliburns-mercy-pistol",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Caliburn's Mercy Pistol"
+      },
+      "summary": "Caliburn's Mercy Pistol: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01a58bc7c3afa3fedff033ba0f",
+      "game_id": "crimson_desert",
+      "slug": "item.aeserion-dagger",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Aeserion Dagger"
+      },
+      "summary": "Aeserion Dagger: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01a5eb0006ed534b2560e068ea",
+      "game_id": "crimson_desert",
+      "slug": "item.light-of-the-battlefield-earring",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Light of the Battlefield Earring"
+      },
+      "summary": "Light of the Battlefield Earring: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01a75806475b842dad4970fb4c",
+      "game_id": "crimson_desert",
+      "slug": "item.royal-oath",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Royal Oath"
+      },
+      "summary": "Royal Oath: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01a8751a4d0f23988da3717426",
+      "game_id": "crimson_desert",
+      "slug": "item.noble-mans-bow",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Noble Man's Bow"
+      },
+      "summary": "Noble Man's Bow: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01a8a0adad7d9aae12277343d8",
+      "game_id": "crimson_desert",
+      "slug": "item.leofric-double-headed-axe",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Leofric Double-Headed Axe"
+      },
+      "summary": "Leofric Double-Headed Axe: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01a8b4e0edfc775b33cbcaa8d4",
+      "game_id": "crimson_desert",
+      "slug": "item.electro-mecha-spear",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Electro-Mecha Spear"
+      },
+      "summary": "Electro-Mecha Spear: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01a8ede13d2b0f71f6fcb8ed3d",
+      "game_id": "crimson_desert",
+      "slug": "item.brass-wardens-plate-gloves",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Brass Warden's Plate Gloves"
+      },
+      "summary": "Brass Warden's Plate Gloves: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01aaf49e0cb768623a6c432381",
+      "game_id": "crimson_desert",
+      "slug": "item.kuku-bismuth-spear",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Kuku Bismuth Spear"
+      },
+      "summary": "Kuku Bismuth Spear: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01abbb7de9c62562a394bf3827",
+      "game_id": "crimson_desert",
+      "slug": "item.tariv-cloth-boots",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Tariv Cloth Boots"
+      },
+      "summary": "Tariv Cloth Boots: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01ac3bd5dcce9746bab8637318",
+      "game_id": "crimson_desert",
+      "slug": "item.marching-baton",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Marching Baton"
+      },
+      "summary": "Marching Baton: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01ad18f281af01b5b52710ae55",
+      "game_id": "crimson_desert",
+      "slug": "item.dark-ringleaders-cloth-helm",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Dark Ringleader's Cloth Helm"
+      },
+      "summary": "Dark Ringleader's Cloth Helm: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01add7a7273b1e46f872900ac1",
+      "game_id": "crimson_desert",
+      "slug": "item.plate-boots-of-the-fallen-kingdom",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Plate Boots of the Fallen Kingdom"
+      },
+      "summary": "Plate Boots of the Fallen Kingdom: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01ae60722824616fbca02d2c22",
+      "game_id": "crimson_desert",
+      "slug": "item.earring-of-dark-magic",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Earring of Dark Magic"
+      },
+      "summary": "Earring of Dark Magic: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01b2015aabe65c4d209c445f00",
+      "game_id": "crimson_desert",
+      "slug": "item.duskfang-leather-cloak",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Duskfang Leather Cloak"
+      },
+      "summary": "Duskfang Leather Cloak: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01b2c4028f3ea626e9d9bb50a7",
+      "game_id": "crimson_desert",
+      "slug": "item.kuku-lightning-resistant-armor",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Kuku Lightning-Resistant Armor"
+      },
+      "summary": "Kuku Lightning-Resistant Armor: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01b491c5ed8e06bc6a21955517",
+      "game_id": "crimson_desert",
+      "slug": "item.light-of-the-battlefield-plate-helm",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Light of the Battlefield Plate Helm"
+      },
+      "summary": "Light of the Battlefield Plate Helm: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01b6b9349f531a870d8ffd3767",
+      "game_id": "crimson_desert",
+      "slug": "item.finest-rhinard-cannon",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Finest Rhinard Cannon"
+      },
+      "summary": "Finest Rhinard Cannon: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01b727784c7e35376585b9aeb2",
+      "game_id": "crimson_desert",
+      "slug": "item.skyblazer-leather-gloves",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Skyblazer Leather Gloves"
+      },
+      "summary": "Skyblazer Leather Gloves: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01b7d6999189fd8d80c697e455",
+      "game_id": "crimson_desert",
+      "slug": "item.dark-marksmans-plate-cloak",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Dark Marksman's Plate Cloak"
+      },
+      "summary": "Dark Marksman's Plate Cloak: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01b7f9dc2d5f22b65343e29eb5",
+      "game_id": "crimson_desert",
+      "slug": "item.fluttering-radiance-plate-boots",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Fluttering Radiance Plate Boots"
+      },
+      "summary": "Fluttering Radiance Plate Boots: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01b85fb90538a83baa4559c462",
+      "game_id": "crimson_desert",
+      "slug": "item.greymane-signet",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Greymane Signet"
+      },
+      "summary": "Greymane Signet: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01b8f411000c7b336c8e73a758",
+      "game_id": "crimson_desert",
+      "slug": "item.black-lion-earring",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Black Lion Earring"
+      },
+      "summary": "Black Lion Earring: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01b9abb8a2ec23040a6a912003",
+      "game_id": "crimson_desert",
+      "slug": "item.golden-greed-plate-armor",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Golden Greed Plate Armor"
+      },
+      "summary": "Golden Greed Plate Armor: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01ba3fc2f33604054bcde81f42",
+      "game_id": "crimson_desert",
+      "slug": "item.acria-sword",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Acria Sword"
+      },
+      "summary": "Acria Sword: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01bb2ee13323a1e8ea1ff14b5b",
+      "game_id": "crimson_desert",
+      "slug": "item.pale-predators-leather-gloves",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Pale Predator's Leather Gloves"
+      },
+      "summary": "Pale Predator's Leather Gloves: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01bce9519692a96743518af781",
+      "game_id": "crimson_desert",
+      "slug": "item.red-needle",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Red Needle"
+      },
+      "summary": "Red Needle: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01c0c83dcae26dc921ce7f59a3",
+      "game_id": "crimson_desert",
+      "slug": "item.blackwing-leather-boots",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Blackwing Leather Boots"
+      },
+      "summary": "Blackwing Leather Boots: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01c245cd4d184f4f9c780af23d",
+      "game_id": "crimson_desert",
+      "slug": "item.hungering-fang-leather-cloak",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Hungering Fang Leather Cloak"
+      },
+      "summary": "Hungering Fang Leather Cloak: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01c45e8bc5cafc5555dc1c075a",
+      "game_id": "crimson_desert",
+      "slug": "item.mace-of-resolve",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Mace of Resolve"
+      },
+      "summary": "Mace of Resolve: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01c6c51ca8c183fdb320c5927d",
+      "game_id": "crimson_desert",
+      "slug": "item.tariv-cloth-cloak",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Tariv Cloth Cloak"
+      },
+      "summary": "Tariv Cloth Cloak: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01ca8e68309a055b579d6c828d",
+      "game_id": "crimson_desert",
+      "slug": "item.demeniss-earring",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Demeniss Earring"
+      },
+      "summary": "Demeniss Earring: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01cd5a695ab5615d99dd7aad84",
+      "game_id": "crimson_desert",
+      "slug": "item.frozen-heart-plate-armor",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Frozen Heart Plate Armor"
+      },
+      "summary": "Frozen Heart Plate Armor: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01cf0d284d54e5815438c6d98e",
+      "game_id": "crimson_desert",
+      "slug": "item.elegant-carmine-plate-boots",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Elegant Carmine Plate Boots"
+      },
+      "summary": "Elegant Carmine Plate Boots: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01cfbc19b3640292c76e2624d6",
+      "game_id": "crimson_desert",
+      "slug": "item.aeserion-longsword",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Aeserion Longsword"
+      },
+      "summary": "Aeserion Longsword: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01d07aaabdd885c3654bfd3954",
+      "game_id": "crimson_desert",
+      "slug": "item.kuku-lightning-spear",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Kuku Lightning Spear"
+      },
+      "summary": "Kuku Lightning Spear: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01d3e472f2ad5bba44cce91611",
+      "game_id": "crimson_desert",
+      "slug": "item.peltree-sword",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Peltree Sword"
+      },
+      "summary": "Peltree Sword: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01d77139f791febe0c88d9b37d",
+      "game_id": "crimson_desert",
+      "slug": "item.white-horns-earring",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "White Horn's Earring"
+      },
+      "summary": "White Horn's Earring: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01d87b56a12846f7ff6c05a48c",
+      "game_id": "crimson_desert",
+      "slug": "item.white-lion-necklace",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "White Lion Necklace"
+      },
+      "summary": "White Lion Necklace: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01d88f7da370275889991380c1",
+      "game_id": "crimson_desert",
+      "slug": "item.artisans-hand",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Artisan's Hand"
+      },
+      "summary": "Artisan's Hand: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01d9e963aeff6070460867adb2",
+      "game_id": "crimson_desert",
+      "slug": "item.mechanical-clockwork-blaster",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Mechanical Clockwork Blaster"
+      },
+      "summary": "Mechanical Clockwork Blaster: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01da06df2a661964847677e014",
+      "game_id": "crimson_desert",
+      "slug": "item.rainstorm-necklace",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Rainstorm Necklace"
+      },
+      "summary": "Rainstorm Necklace: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01da6d9dc4714302274b85b35b",
+      "game_id": "crimson_desert",
+      "slug": "item.demenissian-heros-musket",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Demenissian Hero's Musket"
+      },
+      "summary": "Demenissian Hero's Musket: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01dae9650669705e4187c47b9c",
+      "game_id": "crimson_desert",
+      "slug": "item.white-bloodwind-plate-gloves",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "White Bloodwind Plate Gloves"
+      },
+      "summary": "White Bloodwind Plate Gloves: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01dbdfe9e705b7356c3a7b7a5e",
+      "game_id": "crimson_desert",
+      "slug": "item.martial-monks-cloth-robe",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Martial Monk's Cloth Robe"
+      },
+      "summary": "Martial Monk's Cloth Robe: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01dc7059c993084e6351d6769e",
+      "game_id": "crimson_desert",
+      "slug": "item.the-ashens-plate-gloves",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "The Ashen's Plate Gloves"
+      },
+      "summary": "The Ashen's Plate Gloves: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01ddf12e8964cce3deccd3b6c5",
+      "game_id": "crimson_desert",
+      "slug": "item.crimson-wardens-bow",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Crimson Warden's Bow"
+      },
+      "summary": "Crimson Warden's Bow: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01deafc684eddfb37f5b8f496e",
+      "game_id": "crimson_desert",
+      "slug": "item.mace-of-ambition",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Mace of Ambition"
+      },
+      "summary": "Mace of Ambition: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01deb735dd40de02dc8c7b09f6",
+      "game_id": "crimson_desert",
+      "slug": "item.flower-petal-earring",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Flower Petal Earring"
+      },
+      "summary": "Flower Petal Earring: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01e04c9c3d421b88c9660e8e52",
+      "game_id": "crimson_desert",
+      "slug": "item.frozen-anguish",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Frozen Anguish"
+      },
+      "summary": "Frozen Anguish: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01e1039ed9402e95f3ac171ab4",
+      "game_id": "crimson_desert",
+      "slug": "item.shadow-of-the-past-pistol",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Shadow of the Past Pistol"
+      },
+      "summary": "Shadow of the Past Pistol: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01e1abe0160bb55d4448f717b8",
+      "game_id": "crimson_desert",
+      "slug": "item.wanderer-of-faith-leather-boots",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Wanderer of Faith Leather Boots"
+      },
+      "summary": "Wanderer of Faith Leather Boots: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01e253a0b690d88eb526f031b7",
+      "game_id": "crimson_desert",
+      "slug": "item.finely-crafted-gold-ring",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Finely Crafted Gold Ring"
+      },
+      "summary": "Finely Crafted Gold Ring: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01e2c5e8e519875bb8cd2390ed",
+      "game_id": "crimson_desert",
+      "slug": "item.wanderer-of-faith-leather-armor",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Wanderer of Faith Leather Armor"
+      },
+      "summary": "Wanderer of Faith Leather Armor: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01e46db911005914747059dade",
+      "game_id": "crimson_desert",
+      "slug": "item.demenissian-signet",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Demenissian Signet"
+      },
+      "summary": "Demenissian Signet: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01e4bd9b67f97effc0c96c6d61",
+      "game_id": "crimson_desert",
+      "slug": "item.white-horns-ring",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "White Horn's Ring"
+      },
+      "summary": "White Horn's Ring: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01e62d0302cb424001ecee6628",
+      "game_id": "crimson_desert",
+      "slug": "item.dark-ringleaders-cloth-armor",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Dark Ringleader's Cloth Armor"
+      },
+      "summary": "Dark Ringleader's Cloth Armor: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01e75cd58c5fc4dbccafd9979d",
+      "game_id": "crimson_desert",
+      "slug": "item.ring-of-lightning",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Ring of Lightning"
+      },
+      "summary": "Ring of Lightning: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01e7835f0776f0392db297cf8a",
+      "game_id": "crimson_desert",
+      "slug": "item.gustav-musket",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Gustav Musket"
+      },
+      "summary": "Gustav Musket: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01e9771a4e06113cff561124c8",
+      "game_id": "crimson_desert",
+      "slug": "item.antumbras-eye",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Antumbra's Eye"
+      },
+      "summary": "Antumbra's Eye: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01ea598a8fc77587202f12ee1f",
+      "game_id": "crimson_desert",
+      "slug": "item.nazk-sword",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Nazk Sword"
+      },
+      "summary": "Nazk Sword: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01ecedf495cf54ed8c1fa51842",
+      "game_id": "crimson_desert",
+      "slug": "item.kuku-rishis-boots",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Kuku Rishi's Boots"
+      },
+      "summary": "Kuku Rishi's Boots: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01ee53ec9ee371aef8e3056cd5",
+      "game_id": "crimson_desert",
+      "slug": "item.blizzard-crystal-necklace",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Blizzard Crystal Necklace"
+      },
+      "summary": "Blizzard Crystal Necklace: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01f25e52a8d4653d8387abe3fc",
+      "game_id": "crimson_desert",
+      "slug": "item.wyvern-blaster",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Wyvern Blaster"
+      },
+      "summary": "Wyvern Blaster: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01f382e2f3a650882da204cbf7",
+      "game_id": "crimson_desert",
+      "slug": "item.rough-bluestone-ring",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Rough Bluestone Ring"
+      },
+      "summary": "Rough Bluestone Ring: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01f4eeb4387e66e7fb303928f3",
+      "game_id": "crimson_desert",
+      "slug": "item.rhiass-axe",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Rhias's Axe"
+      },
+      "summary": "Rhias's Axe: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01f5b2695d44ae9a0f0ec1dba6",
+      "game_id": "crimson_desert",
+      "slug": "item.aeserion-bow",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Aeserion Bow"
+      },
+      "summary": "Aeserion Bow: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01f86a1a438751e8b1e18d6924",
+      "game_id": "crimson_desert",
+      "slug": "item.elegant-carmine-plate-gloves",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Elegant Carmine Plate Gloves"
+      },
+      "summary": "Elegant Carmine Plate Gloves: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01f96306822352e239616c1c6f",
+      "game_id": "crimson_desert",
+      "slug": "item.martial-monks-cloth-gloves",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Martial Monk's Cloth Gloves"
+      },
+      "summary": "Martial Monk's Cloth Gloves: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01f990289ceb12ac22a0c6401c",
+      "game_id": "crimson_desert",
+      "slug": "item.reckoning",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Reckoning"
+      },
+      "summary": "Reckoning: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01faa24db2427875d397006ba0",
+      "game_id": "crimson_desert",
+      "slug": "item.silver-fang-helm",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Silver Fang Helm"
+      },
+      "summary": "Silver Fang Helm: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01fb8c7196aeb4ada3492819f1",
+      "game_id": "crimson_desert",
+      "slug": "item.aeserion-halberd",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Aeserion Halberd"
+      },
+      "summary": "Aeserion Halberd: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01fbbd6bd3dbaa722e83b8062f",
+      "game_id": "crimson_desert",
+      "slug": "item.elegant-carmine-leather-cloak",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Elegant Carmine Leather Cloak"
+      },
+      "summary": "Elegant Carmine Leather Cloak: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01fcb74bc5577bace1debd0be2",
+      "game_id": "crimson_desert",
+      "slug": "item.karandas-necklace",
+      "entity_type": "item",
+      "subtype": "accessory",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Karanda's Necklace"
+      },
+      "summary": "Karanda's Necklace: source-indexed accessory with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01fea3dc26f32a8fd64f17f862",
+      "game_id": "crimson_desert",
+      "slug": "item.white-bear-helm",
+      "entity_type": "item",
+      "subtype": "armor",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "White Bear Helm"
+      },
+      "summary": "White Bear Helm: source-indexed armor with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    },
+    {
+      "schema_version": "pywel.entity.v1",
+      "entity_id": "ent_s01ff1bc803f3261a21f100ec51",
+      "game_id": "crimson_desert",
+      "slug": "item.goblin-kings-treasure-dagger",
+      "entity_type": "item",
+      "subtype": "weapon",
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Goblin King's Treasure Dagger"
+      },
+      "summary": "Goblin King's Treasure Dagger: source-indexed weapon with selected refinement-row reports. Live availability, complete effects and current-build correctness are not established.",
+      "aliases": [],
+      "tags": [
+        "equipment",
+        "historical-reference"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T17:48:00Z",
+        "created_by": "pywel_s01_equipment_population",
+        "source_receipt_id": "rcp_s01equipment2026091101"
+      }
+    }
+  ]
+}

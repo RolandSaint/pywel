@@ -176,3 +176,211 @@ Pearl Abyss; retrieved 2026-09-10 (America/Chicago). Titles, notice identities, 
 | `evd_g02notice1260001` | [Patch Notes Version 2.00.01](https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=126) |
 | `evd_g02notice1270001` | [Patch Notes Version 2.00.02](https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=127) |
 | `evd_g02notice1280001` | [Patch Notes Version 2.01.00](https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=128) |
+
+
+## S01 selected equipment fields
+
+Reviewed September 11, 2026. CrimsonDB individual public entries; 200 additional evidence records, 306 total. Selected +5/+10 scalars and bounded labels only, expressed as source reports. Public access is not a dataset licence. No descriptions, full tables, game assets, recovered files, or upstream-independence credit. See [S01](../docs/S01_EQUIPMENT_POPULATION.md) and the per-source additions dispositions.
+
+| Evidence ID | Source |
+| --- | --- |
+| `evd_s0100e3cdeccacd43e9f5221044` | [Sword of Greed - CrimsonDB](https://crimsondb.gg/weapons/sword-of-greed) |
+| `evd_s0100f6c0f5854c228bc6ada8e6` | [Goldlight Plate Helm - CrimsonDB](https://crimsondb.gg/armor/goldlight-plate-helm) |
+| `evd_s0101461ab90dab4667949e6279` | [Light of the Battlefield Plate Armor - CrimsonDB](https://crimsondb.gg/armor/light-of-the-battlefield-plate-armor) |
+| `evd_s0101e4c138d0c71bc440858c1f` | [Official Knight's Leather Boots - CrimsonDB](https://crimsondb.gg/armor/official-knights-leather-boots) |
+| `evd_s0102e181c5f260838b54bf1af4` | [Martial Monk's Cloth Boots - CrimsonDB](https://crimsondb.gg/armor/martial-monks-cloth-boots) |
+| `evd_s010436a13b92a509495630f45c` | [Tommasoan Bow - CrimsonDB](https://crimsondb.gg/weapons/tommasoan-bow) |
+| `evd_s0105807b9e3e86546058c2dab2` | [Melted Ambition - CrimsonDB](https://crimsondb.gg/weapons/melted-ambition) |
+| `evd_s01069acec74e98b182f1f85dbb` | [Sior Blaster - CrimsonDB](https://crimsondb.gg/weapons/sior-blaster) |
+| `evd_s0106dd78221ed3803d12b65853` | [Ogre's Ring - CrimsonDB](https://crimsondb.gg/accessories/ogres-ring) |
+| `evd_s0108e15703ded1fe255c4ae796` | [Eternal Darkness - CrimsonDB](https://crimsondb.gg/accessories/eternal-darkness) |
+| `evd_s0108fac36c18fef9c53cb1e694` | [Witch's Earring - CrimsonDB](https://crimsondb.gg/accessories/witchs-earring) |
+| `evd_s010925b070ed804ce57b0efd53` | [Aeserion Warhammer - CrimsonDB](https://crimsondb.gg/weapons/aeserion-warhammer) |
+| `evd_s010b7b9b1db8261813f72360af` | [Chillfallen Sword - CrimsonDB](https://crimsondb.gg/weapons/chillfallen-sword) |
+| `evd_s010ce3c76ce0bc2c97918cd559` | [Goldlight Plate Gloves - CrimsonDB](https://crimsondb.gg/armor/goldlight-plate-gloves) |
+| `evd_s010e6c16065135992d92290eeb` | [Vow of the Dead King - CrimsonDB](https://crimsondb.gg/weapons/vow-of-the-dead-king) |
+| `evd_s010eb777487fdc7dee796f7f24` | [Leofric Musket - CrimsonDB](https://crimsondb.gg/weapons/leofric-musket) |
+| `evd_s010f45adc7fd18c7016d0b7553` | [Autumn Banquet Plate Helm - CrimsonDB](https://crimsondb.gg/armor/autumn-banquet-plate-helm) |
+| `evd_s011131d613ad055e56d4e5484e` | [Mark of Darkness - CrimsonDB](https://crimsondb.gg/accessories/mark-of-darkness) |
+| `evd_s0113a91ee753fb6ec2b2767e0a` | [Divine Echoes Bow - CrimsonDB](https://crimsondb.gg/weapons/divine-echoes-bow) |
+| `evd_s0116c6b732db6a5672f529cece` | [Leonne Rapier - CrimsonDB](https://crimsondb.gg/weapons/leonne-rapier) |
+| `evd_s01191a670e35b9d01dd33b79e0` | [Wanderer of Faith Leather Cloak - CrimsonDB](https://crimsondb.gg/armor/wanderer-of-faith-leather-cloak) |
+| `evd_s011957c660bdfb77f4fd264520` | [Leather Helm of the Fallen Kingdom - CrimsonDB](https://crimsondb.gg/armor/leather-helm-of-the-fallen-kingdom) |
+| `evd_s011cc5041daee1060ba461fd9f` | [White Bloodwind Leather Boots - CrimsonDB](https://crimsondb.gg/armor/white-bloodwind-leather-boots) |
+| `evd_s011ee332083e5db2c9067ea64d` | [Saint's Necklace - CrimsonDB](https://crimsondb.gg/accessories/saints-necklace) |
+| `evd_s012175c31c1b446748d569bc7c` | [The Ashen's Plate Helm - CrimsonDB](https://crimsondb.gg/armor/the-ashens-plate-helm) |
+| `evd_s0126b7948e4ef7f8a96f4e143a` | [Aeserion Greataxe - CrimsonDB](https://crimsondb.gg/weapons/aeserion-greataxe) |
+| `evd_s0126e41d0e2deecf7a184cde13` | [Goldlight Plate Cloak - CrimsonDB](https://crimsondb.gg/armor/goldlight-plate-cloak) |
+| `evd_s01276958a80aa9e36b02a7f5d1` | [Fallen Kingdom's Rapier - CrimsonDB](https://crimsondb.gg/weapons/fallen-kingdoms-rapier) |
+| `evd_s0127c4a85d0a5256a4c8fc7c7a` | [Brass Rose Rapier - CrimsonDB](https://crimsondb.gg/weapons/brass-rose-rapier) |
+| `evd_s0129e4c598dc56ded9970e433e` | [Dagger of Dark Pursuit - CrimsonDB](https://crimsondb.gg/weapons/dagger-of-dark-pursuit) |
+| `evd_s012af9a70a7639a317e8ff3a2f` | [Greathammer of Fire - CrimsonDB](https://crimsondb.gg/weapons/greathammer-of-fire) |
+| `evd_s012c09605c25496eaacc145e08` | [Marni Tank Blaster - CrimsonDB](https://crimsondb.gg/weapons/marni-tank-blaster) |
+| `evd_s012c52725f2347170bd53c2488` | [Desert Hammer - CrimsonDB](https://crimsondb.gg/weapons/desert-hammer) |
+| `evd_s012d910c087632ea1a0d293e33` | [Tigerfang Ring - CrimsonDB](https://crimsondb.gg/accessories/tigerfang-ring) |
+| `evd_s012e6271bd251ecd1100966d33` | [White Bloodwind Leather Armor - CrimsonDB](https://crimsondb.gg/armor/white-bloodwind-leather-armor) |
+| `evd_s012f41f409dcc9d5698bb78ca7` | [Delesyian Signet - CrimsonDB](https://crimsondb.gg/accessories/delesyian-signet) |
+| `evd_s01323d43b866fe4d927b4b9b33` | [Aeserion Spear - CrimsonDB](https://crimsondb.gg/weapons/aeserion-spear) |
+| `evd_s01359b676706eb32b86755442d` | [Dark Ringleader's Cloth Cloak - CrimsonDB](https://crimsondb.gg/armor/dark-ringleaders-cloth-cloak) |
+| `evd_s0137b4d9569787bddfac506bce` | [Golden Fire - CrimsonDB](https://crimsondb.gg/weapons/golden-fire) |
+| `evd_s0139dda25a9f06ba6902047fb8` | [Light of the Battlefield Plate Boots - CrimsonDB](https://crimsondb.gg/armor/light-of-the-battlefield-plate-boots) |
+| `evd_s013ba21f74d97ff2a20f1732be` | [Radiant Necklace - CrimsonDB](https://crimsondb.gg/accessories/radiant-necklace) |
+| `evd_s013dc92c3e98108c7bc589506c` | [King's Dagger - CrimsonDB](https://crimsondb.gg/weapons/kings-dagger) |
+| `evd_s013ec16746d8be2878da36de51` | [Skyblazer Cloth Armor - CrimsonDB](https://crimsondb.gg/armor/skyblazer-cloth-armor) |
+| `evd_s01415f3d81147809a9d4dd1269` | [Wanderer of Faith Leather Gloves - CrimsonDB](https://crimsondb.gg/armor/wanderer-of-faith-leather-gloves) |
+| `evd_s01450bfb5f44b21b57179340c7` | [Tashkalpian Signet - CrimsonDB](https://crimsondb.gg/accessories/tashkalpian-signet) |
+| `evd_s01458c0d467e08ffe1b89992d3` | [Volcanic Blaster - CrimsonDB](https://crimsondb.gg/weapons/volcanic-blaster) |
+| `evd_s014906eb60e6092efd5f84d249` | [Frozen Heart Plate Boots - CrimsonDB](https://crimsondb.gg/armor/frozen-heart-plate-boots) |
+| `evd_s0149311df97570addf8011a1c4` | [Hungering Fang Leather Gloves - CrimsonDB](https://crimsondb.gg/armor/hungering-fang-leather-gloves) |
+| `evd_s014c7fb6861d4babcb217459f3` | [Elegant Carmine Plate Helm - CrimsonDB](https://crimsondb.gg/armor/elegant-carmine-plate-helm) |
+| `evd_s014cd6fddfb78ba9d787f1cf4e` | [Crossroads Necklace - CrimsonDB](https://crimsondb.gg/accessories/crossroads-necklace) |
+| `evd_s015026fc0d14c15d4dff4605a7` | [Tariv Cloth Gloves - CrimsonDB](https://crimsondb.gg/armor/tariv-cloth-gloves) |
+| `evd_s015158e403925f4353684dff8c` | [The Ashen's Leather Boots - CrimsonDB](https://crimsondb.gg/armor/the-ashens-leather-boots) |
+| `evd_s015217bf35613b97a1704b474b` | [Surreal Necklace - CrimsonDB](https://crimsondb.gg/accessories/surreal-necklace) |
+| `evd_s0154c3eba58bcc92562c05a824` | [Elegant Carmine Leather Armor - CrimsonDB](https://crimsondb.gg/armor/elegant-carmine-leather-armor) |
+| `evd_s015675dc93d0c6fff0c7925347` | [Liberre Rapier - CrimsonDB](https://crimsondb.gg/weapons/liberre-rapier) |
+| `evd_s015989c42b14d08fb30cd9a23e` | [Dark Marksman's Plate Armor - CrimsonDB](https://crimsondb.gg/armor/dark-marksmans-plate-armor) |
+| `evd_s015cc31b390a9ab0dea1722723` | [Sword of Starlight - CrimsonDB](https://crimsondb.gg/weapons/sword-of-starlight) |
+| `evd_s015d159ce21792d793d246c44c` | [Light of the Battlefield Plate Gloves - CrimsonDB](https://crimsondb.gg/armor/light-of-the-battlefield-plate-gloves) |
+| `evd_s015db0d4fa9f8861ebe586e601` | [Finely Crafted Gold Necklace - CrimsonDB](https://crimsondb.gg/accessories/finely-crafted-gold-necklace) |
+| `evd_s015dfe862a25d0de577126050a` | [Stardust Necklace - CrimsonDB](https://crimsondb.gg/accessories/stardust-necklace) |
+| `evd_s015e4220ecbacb754c7b4b14ca` | [The Ashen's Plate Armor - CrimsonDB](https://crimsondb.gg/armor/the-ashens-plate-armor) |
+| `evd_s0161d1fca704ddb0b7549527ce` | [Survivor's Solitude - CrimsonDB](https://crimsondb.gg/weapons/survivors-solitude) |
+| `evd_s0162524d8933793b5470be5ced` | [Blackwing Leather Cloak - CrimsonDB](https://crimsondb.gg/armor/blackwing-leather-cloak) |
+| `evd_s0162674ba59b356e936c6988bd` | [Kadel Mace - CrimsonDB](https://crimsondb.gg/weapons/kadel-mace) |
+| `evd_s0166edd45226bc4341e1e3f2f6` | [Hernandian Signet - CrimsonDB](https://crimsondb.gg/accessories/hernandian-signet) |
+| `evd_s01670137a95e64a9a1692ce655` | [Aeserion Greathammer - CrimsonDB](https://crimsondb.gg/weapons/aeserion-greathammer) |
+| `evd_s016a015bb316df73e5e1d1a67c` | [Golden Greed Plate Boots - CrimsonDB](https://crimsondb.gg/armor/golden-greed-plate-boots) |
+| `evd_s016abaab5cd7fba46a8476155d` | [Fallen Noble's Rapier - CrimsonDB](https://crimsondb.gg/weapons/fallen-nobles-rapier) |
+| `evd_s016b462f57249c68870be9a58f` | [Relic of Darkness - CrimsonDB](https://crimsondb.gg/accessories/relic-of-darkness) |
+| `evd_s016b70d6fc31e8376526fb2031` | [Dark Marksman's Plate Boots - CrimsonDB](https://crimsondb.gg/armor/dark-marksmans-plate-boots) |
+| `evd_s016cfe03884e28bc8caf1198c1` | [Ancient Ring - CrimsonDB](https://crimsondb.gg/accessories/ancient-ring) |
+| `evd_s016d6752655d95faa9b757a1ef` | [Marni Devotee's Mace - CrimsonDB](https://crimsondb.gg/weapons/marni-devotees-mace) |
+| `evd_s016e88feee4436d34aa0ffcc8a` | [Darkbringer - CrimsonDB](https://crimsondb.gg/weapons/darkbringer) |
+| `evd_s01700a431a0ac6e83b587bb2ae` | [Necklace of Lightning - CrimsonDB](https://crimsondb.gg/accessories/necklace-of-lightning) |
+| `evd_s0172559d2a601f80bcd01c9474` | [Kuku Laser Cannon Spear - CrimsonDB](https://crimsondb.gg/weapons/kuku-laser-cannon-spear) |
+| `evd_s0172722c6b97400f88bb0a00bf` | [Marni Musket - CrimsonDB](https://crimsondb.gg/weapons/marni-musket) |
+| `evd_s0173bf17068401dcb610bf7e0b` | [Golden Greed Plate Gloves - CrimsonDB](https://crimsondb.gg/armor/golden-greed-plate-gloves) |
+| `evd_s0176e7542ede5fe964d3da16e7` | [Sunset Reed Cloth Boots - CrimsonDB](https://crimsondb.gg/armor/sunset-reed-cloth-boots) |
+| `evd_s0177fcf54d139b514b8206f111` | [Frozen Soul - CrimsonDB](https://crimsondb.gg/weapons/frozen-soul) |
+| `evd_s0178a5608097f2dfab8623d7a9` | [Blackwing Mask - CrimsonDB](https://crimsondb.gg/armor/blackwing-mask) |
+| `evd_s01790422a5f4e849ea6dec7d5a` | [Blaster No. 8 - CrimsonDB](https://crimsondb.gg/weapons/blaster-no-8) |
+| `evd_s017a4d30fe46d156415091dca1` | [Tariv Cloth Attire - CrimsonDB](https://crimsondb.gg/armor/tariv-cloth-attire) |
+| `evd_s017aa2c840c1db3707def659a3` | [Kuku Propeller Spear - CrimsonDB](https://crimsondb.gg/weapons/kuku-propeller-spear) |
+| `evd_s017b473b5353948f330bdeaa09` | [Fated Shadow - CrimsonDB](https://crimsondb.gg/weapons/fated-shadow) |
+| `evd_s017be1db8c53bb4401f0e94cd9` | [Frozen Heart Plate Gloves - CrimsonDB](https://crimsondb.gg/armor/frozen-heart-plate-gloves) |
+| `evd_s017c3f7600914a2c4d293c51db` | [Golden Greed Plate Helm - CrimsonDB](https://crimsondb.gg/armor/golden-greed-plate-helm) |
+| `evd_s017d88031bbb0e2eac36006ec5` | [White Bloodwind Cloth Cloak - CrimsonDB](https://crimsondb.gg/armor/white-bloodwind-cloth-cloak) |
+| `evd_s017db5ae54d98d36b163648ba3` | [Hungering Fang Leather Armor - CrimsonDB](https://crimsondb.gg/armor/hungering-fang-leather-armor) |
+| `evd_s017e6575b5f4891e38ec54caf9` | [The Ashen's Leather Cloak - CrimsonDB](https://crimsondb.gg/armor/the-ashens-leather-cloak) |
+| `evd_s017f10ef25066b558b41b2f6b8` | [Ancient Earring - CrimsonDB](https://crimsondb.gg/accessories/ancient-earring) |
+| `evd_s017f5d853299e8d69c43c27d48` | [Sigremon Greataxe - CrimsonDB](https://crimsondb.gg/weapons/sigremon-greataxe) |
+| `evd_s017f5d9633fd7982b45899a747` | [Frozen Heart Plate Cloak - CrimsonDB](https://crimsondb.gg/armor/frozen-heart-plate-cloak) |
+| `evd_s01809687f83e969db9e6aab06d` | [Skyblazer Cloth Helm - CrimsonDB](https://crimsondb.gg/armor/skyblazer-cloth-helm) |
+| `evd_s0180ca232baca4887a0e20800c` | [Pailunese Signet - CrimsonDB](https://crimsondb.gg/accessories/pailunese-signet) |
+| `evd_s0181e4ad6635be38361e6019af` | [Kuku Flame Spear - CrimsonDB](https://crimsondb.gg/weapons/kuku-flame-spear) |
+| `evd_s0182fc5a2bc0eded94c335be2e` | [Knightlord's Sword - CrimsonDB](https://crimsondb.gg/weapons/knightlords-sword) |
+| `evd_s01838b8d70094bf69dc1e00f5b` | [Black Iron Axe - CrimsonDB](https://crimsondb.gg/weapons/black-iron-axe) |
+| `evd_s018579eba8657bb5a637a61716` | [Twisted Verdict - CrimsonDB](https://crimsondb.gg/weapons/twisted-verdict) |
+| `evd_s018683359bd21cfe773dbd920e` | [Skyblazer Cloth Cloak - CrimsonDB](https://crimsondb.gg/armor/skyblazer-cloth-cloak) |
+| `evd_s018975e70ecadc0eaf7d54f756` | [Kuku Flame-Resistant Armor - CrimsonDB](https://crimsondb.gg/armor/kuku-flame-resistant-armor) |
+| `evd_s01897ede1e854816ee08c45f76` | [Aeserion Mace - CrimsonDB](https://crimsondb.gg/weapons/aeserion-mace) |
+| `evd_s018a13b0a29d90f2c190cb0557` | [Drakhan Hammer - CrimsonDB](https://crimsondb.gg/weapons/drakhan-hammer) |
+| `evd_s018a7bc156a6e593a82ad046ba` | [Tarivian Necklace - CrimsonDB](https://crimsondb.gg/accessories/tarivian-necklace) |
+| `evd_s018a8cbf056898b3898ffbf53d` | [Seal of Pitch-Black Darkness - CrimsonDB](https://crimsondb.gg/accessories/seal-of-pitch-black-darkness) |
+| `evd_s018b884f466f58adb75ffa650b` | [Official Knight's Leather Gloves - CrimsonDB](https://crimsondb.gg/armor/official-knights-leather-gloves) |
+| `evd_s018f375e3aa8e5f895563a4b0e` | [Legionary's Gladius - CrimsonDB](https://crimsondb.gg/weapons/legionarys-gladius) |
+| `evd_s0190edee3ad65f6dba6dc1bcfc` | [Kuku Ice-Resistant Armor - CrimsonDB](https://crimsondb.gg/armor/kuku-ice-resistant-armor) |
+| `evd_s01920fb7f84b49fafb9e8f4744` | [Kuku Disruptor Spear - CrimsonDB](https://crimsondb.gg/weapons/kuku-disruptor-spear) |
+| `evd_s0192205c22b381b515f74d7ec2` | [Dark Marksman's Plate Gloves - CrimsonDB](https://crimsondb.gg/armor/dark-marksmans-plate-gloves) |
+| `evd_s01936c9b12c61db358be4e8364` | [Aeserion Sword - CrimsonDB](https://crimsondb.gg/weapons/aeserion-sword) |
+| `evd_s019413a53c3a65030e7cea3de8` | [Golden-Knotted Ancestral Bow - CrimsonDB](https://crimsondb.gg/weapons/golden-knotted-ancestral-bow) |
+| `evd_s0194b56fa7df76eafea5ccaef7` | [Ancient's Necklace - CrimsonDB](https://crimsondb.gg/accessories/ancients-necklace) |
+| `evd_s0195943e3b5d542e628817f687` | [Varnian Sword - CrimsonDB](https://crimsondb.gg/weapons/varnian-sword) |
+| `evd_s0195f3115e14f7d098cc7de9be` | [Golden Deer's Tear - CrimsonDB](https://crimsondb.gg/accessories/golden-deers-tear) |
+| `evd_s01975a7b942441720522085071` | [Greymane's Earring - CrimsonDB](https://crimsondb.gg/accessories/greymanes-earring) |
+| `evd_s01979f0bb0549c07a3a422bf62` | [Golden Greed Plate Cloak - CrimsonDB](https://crimsondb.gg/armor/golden-greed-plate-cloak) |
+| `evd_s0198b22f2bc951189870ab9fa0` | [Earthsplitter - CrimsonDB](https://crimsondb.gg/weapons/earthsplitter) |
+| `evd_s0199d192476c42dd81c4b5e67b` | [Giant's Boots - CrimsonDB](https://crimsondb.gg/armor/giants-boots) |
+| `evd_s019aae86271301a7ad9d0dcdc9` | [Great Thief's Gloves - CrimsonDB](https://crimsondb.gg/armor/great-thiefs-gloves) |
+| `evd_s01a04c41d5bdb0e167ab102f14` | [Light of the Battlefield Cloth Cloak - CrimsonDB](https://crimsondb.gg/armor/light-of-the-battlefield-cloth-cloak) |
+| `evd_s01a0692a826059913070d3e720` | [Goldlight Plate Boots - CrimsonDB](https://crimsondb.gg/armor/goldlight-plate-boots) |
+| `evd_s01a13c0b2a3ae38bd4b80fa46e` | [Sunset Reed Cloth Gloves - CrimsonDB](https://crimsondb.gg/armor/sunset-reed-cloth-gloves) |
+| `evd_s01a28676d0e85749673ddae532` | [Dark Executioner Leather Armor - CrimsonDB](https://crimsondb.gg/armor/dark-executioner-leather-armor) |
+| `evd_s01a369b68176b02908aab48073` | [Double-Headed Axe of Greed - CrimsonDB](https://crimsondb.gg/weapons/double-headed-axe-of-greed) |
+| `evd_s01a393901606530a19d23fd292` | [Caliburn's Mercy Pistol - CrimsonDB](https://crimsondb.gg/weapons/caliburns-mercy-pistol) |
+| `evd_s01a58bc7c3afa3fedff033ba0f` | [Aeserion Dagger - CrimsonDB](https://crimsondb.gg/weapons/aeserion-dagger) |
+| `evd_s01a5eb0006ed534b2560e068ea` | [Light of the Battlefield Earring - CrimsonDB](https://crimsondb.gg/accessories/light-of-the-battlefield-earring) |
+| `evd_s01a75806475b842dad4970fb4c` | [Royal Oath - CrimsonDB](https://crimsondb.gg/weapons/royal-oath) |
+| `evd_s01a8751a4d0f23988da3717426` | [Noble Man's Bow - CrimsonDB](https://crimsondb.gg/weapons/noble-mans-bow) |
+| `evd_s01a8a0adad7d9aae12277343d8` | [Leofric Double-Headed Axe - CrimsonDB](https://crimsondb.gg/weapons/leofric-double-headed-axe) |
+| `evd_s01a8b4e0edfc775b33cbcaa8d4` | [Electro-Mecha Spear - CrimsonDB](https://crimsondb.gg/weapons/electro-mecha-spear) |
+| `evd_s01a8ede13d2b0f71f6fcb8ed3d` | [Brass Warden's Plate Gloves - CrimsonDB](https://crimsondb.gg/armor/brass-wardens-plate-gloves) |
+| `evd_s01aaf49e0cb768623a6c432381` | [Kuku Bismuth Spear - CrimsonDB](https://crimsondb.gg/weapons/kuku-bismuth-spear) |
+| `evd_s01abbb7de9c62562a394bf3827` | [Tariv Cloth Boots - CrimsonDB](https://crimsondb.gg/armor/tariv-cloth-boots) |
+| `evd_s01ac3bd5dcce9746bab8637318` | [Marching Baton - CrimsonDB](https://crimsondb.gg/weapons/marching-baton) |
+| `evd_s01ad18f281af01b5b52710ae55` | [Dark Ringleader's Cloth Helm - CrimsonDB](https://crimsondb.gg/armor/dark-ringleaders-cloth-helm) |
+| `evd_s01add7a7273b1e46f872900ac1` | [Plate Boots of the Fallen Kingdom - CrimsonDB](https://crimsondb.gg/armor/plate-boots-of-the-fallen-kingdom) |
+| `evd_s01ae60722824616fbca02d2c22` | [Earring of Dark Magic - CrimsonDB](https://crimsondb.gg/accessories/earring-of-dark-magic) |
+| `evd_s01b2015aabe65c4d209c445f00` | [Duskfang Leather Cloak - CrimsonDB](https://crimsondb.gg/armor/duskfang-leather-cloak) |
+| `evd_s01b2c4028f3ea626e9d9bb50a7` | [Kuku Lightning-Resistant Armor - CrimsonDB](https://crimsondb.gg/armor/kuku-lightning-resistant-armor) |
+| `evd_s01b491c5ed8e06bc6a21955517` | [Light of the Battlefield Plate Helm - CrimsonDB](https://crimsondb.gg/armor/light-of-the-battlefield-plate-helm) |
+| `evd_s01b6b9349f531a870d8ffd3767` | [Finest Rhinard Cannon - CrimsonDB](https://crimsondb.gg/weapons/finest-rhinard-cannon) |
+| `evd_s01b727784c7e35376585b9aeb2` | [Skyblazer Leather Gloves - CrimsonDB](https://crimsondb.gg/armor/skyblazer-leather-gloves) |
+| `evd_s01b7d6999189fd8d80c697e455` | [Dark Marksman's Plate Cloak - CrimsonDB](https://crimsondb.gg/armor/dark-marksmans-plate-cloak) |
+| `evd_s01b7f9dc2d5f22b65343e29eb5` | [Fluttering Radiance Plate Boots - CrimsonDB](https://crimsondb.gg/armor/fluttering-radiance-plate-boots) |
+| `evd_s01b85fb90538a83baa4559c462` | [Greymane Signet - CrimsonDB](https://crimsondb.gg/accessories/greymane-signet) |
+| `evd_s01b8f411000c7b336c8e73a758` | [Black Lion Earring - CrimsonDB](https://crimsondb.gg/accessories/black-lion-earring) |
+| `evd_s01b9abb8a2ec23040a6a912003` | [Golden Greed Plate Armor - CrimsonDB](https://crimsondb.gg/armor/golden-greed-plate-armor) |
+| `evd_s01ba3fc2f33604054bcde81f42` | [Acria Sword - CrimsonDB](https://crimsondb.gg/weapons/acria-sword) |
+| `evd_s01bb2ee13323a1e8ea1ff14b5b` | [Pale Predator's Leather Gloves - CrimsonDB](https://crimsondb.gg/armor/pale-predators-leather-gloves) |
+| `evd_s01bce9519692a96743518af781` | [Red Needle - CrimsonDB](https://crimsondb.gg/weapons/red-needle) |
+| `evd_s01c0c83dcae26dc921ce7f59a3` | [Blackwing Leather Boots - CrimsonDB](https://crimsondb.gg/armor/blackwing-leather-boots) |
+| `evd_s01c245cd4d184f4f9c780af23d` | [Hungering Fang Leather Cloak - CrimsonDB](https://crimsondb.gg/armor/hungering-fang-leather-cloak) |
+| `evd_s01c45e8bc5cafc5555dc1c075a` | [Mace of Resolve - CrimsonDB](https://crimsondb.gg/weapons/mace-of-resolve) |
+| `evd_s01c6c51ca8c183fdb320c5927d` | [Tariv Cloth Cloak - CrimsonDB](https://crimsondb.gg/armor/tariv-cloth-cloak) |
+| `evd_s01ca8e68309a055b579d6c828d` | [Demeniss Earring - CrimsonDB](https://crimsondb.gg/accessories/demeniss-earring) |
+| `evd_s01cd5a695ab5615d99dd7aad84` | [Frozen Heart Plate Armor - CrimsonDB](https://crimsondb.gg/armor/frozen-heart-plate-armor) |
+| `evd_s01cf0d284d54e5815438c6d98e` | [Elegant Carmine Plate Boots - CrimsonDB](https://crimsondb.gg/armor/elegant-carmine-plate-boots) |
+| `evd_s01cfbc19b3640292c76e2624d6` | [Aeserion Longsword - CrimsonDB](https://crimsondb.gg/weapons/aeserion-longsword) |
+| `evd_s01d07aaabdd885c3654bfd3954` | [Kuku Lightning Spear - CrimsonDB](https://crimsondb.gg/weapons/kuku-lightning-spear) |
+| `evd_s01d3e472f2ad5bba44cce91611` | [Peltree Sword - CrimsonDB](https://crimsondb.gg/weapons/peltree-sword) |
+| `evd_s01d77139f791febe0c88d9b37d` | [White Horn's Earring - CrimsonDB](https://crimsondb.gg/accessories/white-horns-earring) |
+| `evd_s01d87b56a12846f7ff6c05a48c` | [White Lion Necklace - CrimsonDB](https://crimsondb.gg/accessories/white-lion-necklace) |
+| `evd_s01d88f7da370275889991380c1` | [Artisan's Hand - CrimsonDB](https://crimsondb.gg/weapons/artisans-hand) |
+| `evd_s01d9e963aeff6070460867adb2` | [Mechanical Clockwork Blaster - CrimsonDB](https://crimsondb.gg/weapons/mechanical-clockwork-blaster) |
+| `evd_s01da06df2a661964847677e014` | [Rainstorm Necklace - CrimsonDB](https://crimsondb.gg/accessories/rainstorm-necklace) |
+| `evd_s01da6d9dc4714302274b85b35b` | [Demenissian Hero's Musket - CrimsonDB](https://crimsondb.gg/weapons/demenissian-heros-musket) |
+| `evd_s01dae9650669705e4187c47b9c` | [White Bloodwind Plate Gloves - CrimsonDB](https://crimsondb.gg/armor/white-bloodwind-plate-gloves) |
+| `evd_s01dbdfe9e705b7356c3a7b7a5e` | [Martial Monk's Cloth Robe - CrimsonDB](https://crimsondb.gg/armor/martial-monks-cloth-robe) |
+| `evd_s01dc7059c993084e6351d6769e` | [The Ashen's Plate Gloves - CrimsonDB](https://crimsondb.gg/armor/the-ashens-plate-gloves) |
+| `evd_s01ddf12e8964cce3deccd3b6c5` | [Crimson Warden's Bow - CrimsonDB](https://crimsondb.gg/weapons/crimson-wardens-bow) |
+| `evd_s01deafc684eddfb37f5b8f496e` | [Mace of Ambition - CrimsonDB](https://crimsondb.gg/weapons/mace-of-ambition) |
+| `evd_s01deb735dd40de02dc8c7b09f6` | [Flower Petal Earring - CrimsonDB](https://crimsondb.gg/accessories/flower-petal-earring) |
+| `evd_s01e04c9c3d421b88c9660e8e52` | [Frozen Anguish - CrimsonDB](https://crimsondb.gg/weapons/frozen-anguish) |
+| `evd_s01e1039ed9402e95f3ac171ab4` | [Shadow of the Past Pistol - CrimsonDB](https://crimsondb.gg/weapons/shadow-of-the-past-pistol) |
+| `evd_s01e1abe0160bb55d4448f717b8` | [Wanderer of Faith Leather Boots - CrimsonDB](https://crimsondb.gg/armor/wanderer-of-faith-leather-boots) |
+| `evd_s01e253a0b690d88eb526f031b7` | [Finely Crafted Gold Ring - CrimsonDB](https://crimsondb.gg/accessories/finely-crafted-gold-ring) |
+| `evd_s01e2c5e8e519875bb8cd2390ed` | [Wanderer of Faith Leather Armor - CrimsonDB](https://crimsondb.gg/armor/wanderer-of-faith-leather-armor) |
+| `evd_s01e46db911005914747059dade` | [Demenissian Signet - CrimsonDB](https://crimsondb.gg/accessories/demenissian-signet) |
+| `evd_s01e4bd9b67f97effc0c96c6d61` | [White Horn's Ring - CrimsonDB](https://crimsondb.gg/accessories/white-horns-ring) |
+| `evd_s01e62d0302cb424001ecee6628` | [Dark Ringleader's Cloth Armor - CrimsonDB](https://crimsondb.gg/armor/dark-ringleaders-cloth-armor) |
+| `evd_s01e75cd58c5fc4dbccafd9979d` | [Ring of Lightning - CrimsonDB](https://crimsondb.gg/accessories/ring-of-lightning) |
+| `evd_s01e7835f0776f0392db297cf8a` | [Gustav Musket - CrimsonDB](https://crimsondb.gg/weapons/gustav-musket) |
+| `evd_s01e9771a4e06113cff561124c8` | [Antumbra's Eye - CrimsonDB](https://crimsondb.gg/weapons/antumbras-eye) |
+| `evd_s01ea598a8fc77587202f12ee1f` | [Nazk Sword - CrimsonDB](https://crimsondb.gg/weapons/nazk-sword) |
+| `evd_s01ecedf495cf54ed8c1fa51842` | [Kuku Rishi's Boots - CrimsonDB](https://crimsondb.gg/armor/kuku-rishis-boots) |
+| `evd_s01ee53ec9ee371aef8e3056cd5` | [Blizzard Crystal Necklace - CrimsonDB](https://crimsondb.gg/accessories/blizzard-crystal-necklace) |
+| `evd_s01f25e52a8d4653d8387abe3fc` | [Wyvern Blaster - CrimsonDB](https://crimsondb.gg/weapons/wyvern-blaster) |
+| `evd_s01f382e2f3a650882da204cbf7` | [Rough Bluestone Ring - CrimsonDB](https://crimsondb.gg/accessories/rough-bluestone-ring) |
+| `evd_s01f4eeb4387e66e7fb303928f3` | [Rhias's Axe - CrimsonDB](https://crimsondb.gg/weapons/rhiass-axe) |
+| `evd_s01f5b2695d44ae9a0f0ec1dba6` | [Aeserion Bow - CrimsonDB](https://crimsondb.gg/weapons/aeserion-bow) |
+| `evd_s01f86a1a438751e8b1e18d6924` | [Elegant Carmine Plate Gloves - CrimsonDB](https://crimsondb.gg/armor/elegant-carmine-plate-gloves) |
+| `evd_s01f96306822352e239616c1c6f` | [Martial Monk's Cloth Gloves - CrimsonDB](https://crimsondb.gg/armor/martial-monks-cloth-gloves) |
+| `evd_s01f990289ceb12ac22a0c6401c` | [Reckoning - CrimsonDB](https://crimsondb.gg/weapons/reckoning) |
+| `evd_s01faa24db2427875d397006ba0` | [Silver Fang Helm - CrimsonDB](https://crimsondb.gg/armor/silver-fang-helm) |
+| `evd_s01fb8c7196aeb4ada3492819f1` | [Aeserion Halberd - CrimsonDB](https://crimsondb.gg/weapons/aeserion-halberd) |
+| `evd_s01fbbd6bd3dbaa722e83b8062f` | [Elegant Carmine Leather Cloak - CrimsonDB](https://crimsondb.gg/armor/elegant-carmine-leather-cloak) |
+| `evd_s01fcb74bc5577bace1debd0be2` | [Karanda's Necklace - CrimsonDB](https://crimsondb.gg/accessories/karandas-necklace) |
+| `evd_s01fea3dc26f32a8fd64f17f862` | [White Bear Helm - CrimsonDB](https://crimsondb.gg/armor/white-bear-helm) |
+| `evd_s01ff1bc803f3261a21f100ec51` | [Goblin King's Treasure Dagger - CrimsonDB](https://crimsondb.gg/weapons/goblin-kings-treasure-dagger) |

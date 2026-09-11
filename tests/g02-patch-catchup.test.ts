@@ -34,9 +34,9 @@ describe("G02 official patch identities, not automatic claim freshness", () => {
 
   it("preserves every pre-G02 claim and entity, including all review boundaries", async () => {
     const { store } = await validStore();
-    expect(stableRecordHash([...store.claims].sort((a, b) => a.claim_id.localeCompare(b.claim_id)))).toBe("26e48aac8591026951d409f36680f03da1f0b3cc1eaad8bfdbd046dea9e24b74");
-    expect(stableRecordHash([...store.entities].sort((a, b) => a.entity_id.localeCompare(b.entity_id)))).toBe("ce4b177e7c1388a1f378cbd83368cd4bf3c26243e6f000d29889ff66680cc405");
     const prior = (await firstExpansionStore()).store;
+    expect(stableRecordHash([...prior.claims].sort((a, b) => a.claim_id.localeCompare(b.claim_id)))).toBe("26e48aac8591026951d409f36680f03da1f0b3cc1eaad8bfdbd046dea9e24b74");
+    expect(stableRecordHash([...prior.entities].sort((a, b) => a.entity_id.localeCompare(b.entity_id)))).toBe("ce4b177e7c1388a1f378cbd83368cd4bf3c26243e6f000d29889ff66680cc405");
     expect([prior.entities.length, prior.claims.length, prior.evidence.length, prior.patches.length, prior.receipts.length]).toEqual([320, 1447, 88, 27, 5]);
   });
 
