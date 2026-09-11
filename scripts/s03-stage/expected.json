@@ -1,0 +1,19 @@
+{
+  "base": "0d6373f8f984d6a857d8953fb1e89cb9e503087e",
+  "base_tree": "3be912252c9c21e23b6b9ced759156fc1318bcca",
+  "expected_tree": "b4215084df852242711388724078a299ac2d0e88",
+  "files": [
+    {"path":"000_LOAD_FIRST_PYWEL.yaml","sha256":"1d644dd69660a2b124e9ac34d4717fff895afd6bdfc7378cc75b26d593db5755","blob_sha":"a0a09c69cac9ed0a70f82ddc0f9d92620f37770a"},
+    {"path":"LICENSES/THIRD-PARTY-DATA.md","sha256":"419a9bc42537b18be2024af69c0dc2c177f0755de25bb993c53beb4cdac2af87","blob_sha":"8c973964decbbcafcafbbd3ea1339b79eb4f776b"},
+    {"path":"data/canonical/claims/s03-recipe-inputs.json","sha256":"7f37b394a23e398d7b00b476f462c1d114ea99585fae9787975db7714c9571c6","blob_sha":"44771f1712417328c06d013f2a0eb1a32bf8f25f"},
+    {"path":"data/canonical/entities/s03-recipe-inputs.json","sha256":"3dd6602a8a984f34e2122f0ab616dea183b2589c65d4c9ffd12e8ea22fb09095","blob_sha":"6400192881a52bbca3743389d35ef73d9f636151"},
+    {"path":"data/canonical/receipts/s03-recipe-inputs.json","sha256":"8f5f98437b62d33d6da7b9813138a0dfb6cdd3fd083ec32cf67832f6c7ab237e","blob_sha":"09d0e72add41257c09339e4445b09d6d750f0d4c"},
+    {"path":"docs/S03_RECIPE_INPUTS.md","sha256":"1256dc6d3ffb8e8a7e217a2db22daebb806f3f2b1002db42e7dde19dfd8e95c1","blob_sha":"0d003e56da2f10722978e867aff5c8d313a7f63d"},
+    {"path":"quality/corpus-additions.json","sha256":"68b228da7fb4f5472e5fbe19ce750d62a4d250585be499b378de4fe4788071d6","blob_sha":"1f1afcb53ec3613d97af8c5c3d810a8bad8bdc04"},
+    {"path":"quality/publication-contract-v1.json","sha256":"588b14169d48ff8778180bff4e8fac45c03ef5f012336bef40ff79a55482821d","blob_sha":"4e20f86a2c0bfff7d949e130140071985a31ea56"},
+    {"path":"quality/s03-recipe-input-review.json","sha256":"44c07a011eefffcf28b18c1e9068d70a60d42d0d80d5bca74599c04feccea607","blob_sha":"c06dd9129c099c7444ac39f10acb1b5f3739a29c"},
+    {"path":"tests/s02-acquisition.test.ts","sha256":"011b333b7e74809221c3ff8ce978d4c72f6a03a13d83dd31792a4c0850e455e2","blob_sha":"e288ca75d8ee688a09d1a21f6489af2c0af7a2bb"},
+    {"path":"tests/s03-recipe-inputs.test.ts","sha256":"dd0c20a7786ecd5cf4ed4390a14aff378de5a95c1d9c29cebbfd6e9579116a0c","blob_sha":"59b7898635da85f9d940b3ade181034e5711913e"},
+    {"path":"tests/support/current-coverage.ts","sha256":"a8beb64b6ebb605ca9fb3075753cd5c5cfc3e10fda58373696f073174452b0f5","blob_sha":"7db4a0f562dc9d9738f9a108d2879a2d74145bbd"}
+  ]
+}

@@ -1,0 +1,100 @@
+# Temporary exact-output materialization only. Never merge this helper into main.
+name: s03-materialize-reviewed-candidate
+on: create
+permissions:
+  contents: read
+jobs:
+  materialize:
+    if: github.repository == 'RolandSaint/pywel' && github.event.ref_type == 'branch' && github.event.ref == 'agent/s03-materialize-2026-09-11'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - name: Read fixed materialization assets
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10
+        with:
+          ref: ${{ github.sha }}
+          path: staging
+          persist-credentials: false
+      - name: Read exact approved base
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10
+        with:
+          ref: 0d6373f8f984d6a857d8953fb1e89cb9e503087e
+          path: product
+          persist-credentials: false
+      - name: Reproduce and verify exact product bytes
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(git -C product rev-parse HEAD)" = 0d6373f8f984d6a857d8953fb1e89cb9e503087e
+          test "$(git -C product rev-parse HEAD^{tree})" = 3be912252c9c21e23b6b9ced759156fc1318bcca
+          test "$(git hash-object staging/scripts/s03-stage/materialize.py)" = 428a630b003ae1bba9704a2a9b9147deddb54140
+          python staging/scripts/s03-stage/materialize.py product staging/scripts/s03-stage
+          git -C product add .
+          git -C product diff --cached --check
+          test "$(git -C product write-tree)" = b4215084df852242711388724078a299ac2d0e88
+      - name: Store verified Git objects only; no ref or PR changes
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: python
+        run: |
+          import base64, hashlib, json, os, re, subprocess, urllib.error, urllib.request
+          from pathlib import Path
+          REPO = 'RolandSaint/pywel'
+          BASE = '0d6373f8f984d6a857d8953fb1e89cb9e503087e'
+          TREE = 'b4215084df852242711388724078a299ac2d0e88'
+          SELF = 'agent/s03-materialize-2026-09-11'
+          assert os.environ['GITHUB_REPOSITORY'] == REPO
+          assert os.environ['GITHUB_REF'] == 'refs/heads/' + SELF
+          assert re.fullmatch('[a-f0-9]{40}', os.environ['GITHUB_SHA'])
+          expected = json.loads(Path('staging/scripts/s03-stage/expected.json').read_text())
+          assert (expected['base'], expected['expected_tree']) == (BASE, TREE)
+          assert len(expected['files']) == 12
+          def git(*args):
+              return subprocess.check_output(['git', '-C', 'product', *args]).decode().strip()
+          assert git('rev-parse','HEAD') == BASE
+          assert git('write-tree') == TREE
+          assert sorted(git('diff','--cached','--name-only').splitlines()) == sorted(f['path'] for f in expected['files'])
+          class NoRedirect(urllib.request.HTTPRedirectHandler):
+              def redirect_request(self, req, fp, code, msg, headers, newurl):
+                  return None
+          opener = urllib.request.build_opener(NoRedirect)
+          def api(path, data=None):
+              # Deliberately no ref mutation, release, deployment, or external host path.
+              allowed_write = {'git/blobs','git/trees','git/commits'}
+              assert data is None or path in allowed_write
+              req = urllib.request.Request('https://api.github.com/repos/'+REPO+'/'+path,
+                  data=json.dumps(data).encode() if data is not None else None,
+                  method='POST' if data is not None else 'GET',
+                  headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'], 'Accept':'application/vnd.github+json',
+                           'X-GitHub-Api-Version':'2022-11-28','User-Agent':'pywel-s03-exact-materialization','Content-Type':'application/json'})
+              try:
+                  with opener.open(req,timeout=30) as response:
+                      return json.load(response)
+              except urllib.error.HTTPError as exc:
+                  raise RuntimeError(f'GitHub {path}: HTTP {exc.code}') from None
+          def guard():
+              assert api('git/ref/heads/main')['object']['sha'] == BASE, 'Main advanced; stop'
+              assert api('git/ref/heads/'+SELF)['object']['sha'] == os.environ['GITHUB_SHA'], 'Helper ref moved; stop'
+          guard()
+          elements=[]
+          for f in expected['files']:
+              data=(Path('product')/f['path']).read_bytes()
+              assert hashlib.sha256(data).hexdigest()==f['sha256'], 'Changed output: '+f['path']
+              assert hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest()==f['blob_sha']
+              blob=api('git/blobs',{'content':base64.b64encode(data).decode(),'encoding':'base64'})
+              assert blob['sha']==f['blob_sha'], 'Blob identity mismatch'
+              elements.append({'path':f['path'],'mode':'100644','type':'blob','sha':blob['sha']})
+          guard()
+          tree=api('git/trees',{'base_tree':expected['base_tree'],'tree':elements})
+          assert tree['sha']==TREE, 'Remote product tree mismatch'
+          commit=api('git/commits',{'tree':TREE,'parents':[BASE],
+              'message':'data: normalize retained recipe ingredients for S03\n\nExact reviewed candidate s03-04c5d376dd7dbc712e9b with finalized admission metadata. Add 25 identities and 36 relationships from retained evidence only. Preserve every earlier canonical file, quantities, source limitations, and S02 withholding. Product tree b4215084df852242711388724078a299ac2d0e88 matches locally reviewed output. The one-shot materializer is not in this tree or its parent history. Required PR review, pinned-runtime CI, guarded merge and post-merge CI remain outstanding. No release or new source collection.'})
+          guard()
+          report={'result':'pass','candidate_commit':commit['sha'],'candidate_tree':TREE,'base_commit':BASE,
+                  'verified_files':12,'main_changed':False,'ref_mutations':False,'source_collection':False,
+                  'ci_acceptance':False,'helper_commit':os.environ['GITHUB_SHA']}
+          text=json.dumps(report,indent=2)
+          print(text)
+          Path(os.environ['GITHUB_STEP_SUMMARY']).write_text('# Exact S03 materialization\n\n```json\n'+text+'\n```\n')
