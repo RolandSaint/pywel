@@ -1,0 +1,501 @@
+{
+  "catalog_id": "cat_g02officialpatches20260910",
+  "records": [
+    {
+      "affected_entity_ids": [],
+      "content_coverage": {
+        "level": "identity_only",
+        "normalized_claim_count": 0,
+        "notes": "Identity and official locators only; no normalized gameplay claims or claim-review advancement. released_at anchors the earliest cited notice publication, not simultaneous storefront rollout. Only explicitly scheduled storefronts are indexed; actual scheduled times and title revisions are preserved in quality/g02-patch-review.json."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_g02patch100030001",
+      "platforms": [
+        "pc-epic",
+        "playstation-5",
+        "xbox-series"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T03:01:46Z",
+        "created_by": "public_official_patch_reconciliation",
+        "source_receipt_id": "rcp_g02patchcatchup2026091001"
+      },
+      "released_at": "2026-03-23T01:10:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_g02notice0730001"
+      ],
+      "version": "1.00.03"
+    },
+    {
+      "affected_entity_ids": [],
+      "content_coverage": {
+        "level": "identity_only",
+        "normalized_claim_count": 0,
+        "notes": "Identity and official locators only; no normalized gameplay claims or claim-review advancement. released_at anchors the earliest cited notice publication, not simultaneous storefront rollout. Two separate PS5/Mac Steam notices retain distinct evidence timestamps and platform scopes in quality/g02-patch-review.json."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_g02patch100040001",
+      "platforms": [
+        "mac-steam",
+        "playstation-5"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T03:01:46Z",
+        "created_by": "public_official_patch_reconciliation",
+        "source_receipt_id": "rcp_g02patchcatchup2026091001"
+      },
+      "released_at": "2026-03-23T07:25:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_g02notice0740001",
+        "evd_g02notice0750001"
+      ],
+      "version": "1.00.04"
+    },
+    {
+      "affected_entity_ids": [],
+      "content_coverage": {
+        "level": "identity_only",
+        "normalized_claim_count": 0,
+        "notes": "Identity and official locators only; no normalized gameplay claims or claim-review advancement. released_at anchors the earliest cited notice publication, not simultaneous storefront rollout."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_g02patch102000001",
+      "platforms": [
+        "mac-app-store",
+        "mac-steam",
+        "pc-epic",
+        "pc-steam",
+        "playstation-5",
+        "xbox-series"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T03:01:46Z",
+        "created_by": "public_official_patch_reconciliation",
+        "source_receipt_id": "rcp_g02patchcatchup2026091001"
+      },
+      "released_at": "2026-04-04T01:14:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_g02notice0800001"
+      ],
+      "version": "1.02.00"
+    },
+    {
+      "affected_entity_ids": [],
+      "content_coverage": {
+        "level": "identity_only",
+        "normalized_claim_count": 0,
+        "notes": "Identity and official locators only; no normalized gameplay claims or claim-review advancement. released_at anchors the earliest cited notice publication, not simultaneous storefront rollout. Still pending in the retrieved notice: mac-app-store."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_g02patch115000001",
+      "platforms": [
+        "mac-steam",
+        "pc-epic",
+        "pc-steam",
+        "playstation-5",
+        "xbox-series"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T03:01:46Z",
+        "created_by": "public_official_patch_reconciliation",
+        "source_receipt_id": "rcp_g02patchcatchup2026091001"
+      },
+      "released_at": "2026-07-24T02:40:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_g02notice1090001"
+      ],
+      "version": "1.15.00"
+    },
+    {
+      "affected_entity_ids": [],
+      "content_coverage": {
+        "level": "identity_only",
+        "normalized_claim_count": 0,
+        "notes": "Identity and official locators only; no normalized gameplay claims or claim-review advancement. released_at anchors the earliest cited notice publication, not simultaneous storefront rollout. Still pending in the retrieved notice: mac-app-store."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_g02patch116000001",
+      "platforms": [
+        "mac-steam",
+        "pc-epic",
+        "pc-steam",
+        "playstation-5",
+        "xbox-series"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T03:01:46Z",
+        "created_by": "public_official_patch_reconciliation",
+        "source_receipt_id": "rcp_g02patchcatchup2026091001"
+      },
+      "released_at": "2026-08-01T03:30:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_g02notice1100001"
+      ],
+      "version": "1.16.00"
+    },
+    {
+      "affected_entity_ids": [],
+      "content_coverage": {
+        "level": "identity_only",
+        "normalized_claim_count": 0,
+        "notes": "Identity and official locators only; no normalized gameplay claims or claim-review advancement. released_at anchors the earliest cited notice publication, not simultaneous storefront rollout. Still pending in the retrieved notice: mac-app-store."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_g02patch116010001",
+      "platforms": [
+        "mac-steam",
+        "pc-epic",
+        "pc-steam",
+        "playstation-5",
+        "xbox-series"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T03:01:46Z",
+        "created_by": "public_official_patch_reconciliation",
+        "source_receipt_id": "rcp_g02patchcatchup2026091001"
+      },
+      "released_at": "2026-08-02T01:00:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_g02notice1110001"
+      ],
+      "version": "1.16.01"
+    },
+    {
+      "affected_entity_ids": [],
+      "content_coverage": {
+        "level": "identity_only",
+        "normalized_claim_count": 0,
+        "notes": "Identity and official locators only; no normalized gameplay claims or claim-review advancement. released_at anchors the earliest cited notice publication, not simultaneous storefront rollout. Still pending in the retrieved notice: mac-app-store, mac-steam."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_g02patch116020001",
+      "platforms": [
+        "pc-epic",
+        "pc-steam",
+        "playstation-5",
+        "xbox-series"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T03:01:46Z",
+        "created_by": "public_official_patch_reconciliation",
+        "source_receipt_id": "rcp_g02patchcatchup2026091001"
+      },
+      "released_at": "2026-08-03T14:40:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_g02notice1120001"
+      ],
+      "version": "1.16.02"
+    },
+    {
+      "affected_entity_ids": [],
+      "content_coverage": {
+        "level": "identity_only",
+        "normalized_claim_count": 0,
+        "notes": "Identity and official locators only; no normalized gameplay claims or claim-review advancement. released_at anchors the earliest cited notice publication, not simultaneous storefront rollout. Still pending in the retrieved notice: mac-app-store."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_g02patch116030001",
+      "platforms": [
+        "mac-steam",
+        "pc-epic",
+        "pc-steam",
+        "playstation-5",
+        "xbox-series"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T03:01:46Z",
+        "created_by": "public_official_patch_reconciliation",
+        "source_receipt_id": "rcp_g02patchcatchup2026091001"
+      },
+      "released_at": "2026-08-04T04:50:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_g02notice1140001"
+      ],
+      "version": "1.16.03"
+    },
+    {
+      "affected_entity_ids": [],
+      "content_coverage": {
+        "level": "identity_only",
+        "normalized_claim_count": 0,
+        "notes": "Identity and official locators only; no normalized gameplay claims or claim-review advancement. released_at anchors the earliest cited notice publication, not simultaneous storefront rollout. Still pending in the retrieved notice: mac-app-store."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_g02patch116040001",
+      "platforms": [
+        "mac-steam",
+        "pc-epic",
+        "pc-steam",
+        "playstation-5",
+        "xbox-series"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T03:01:46Z",
+        "created_by": "public_official_patch_reconciliation",
+        "source_receipt_id": "rcp_g02patchcatchup2026091001"
+      },
+      "released_at": "2026-08-05T09:00:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_g02notice1150001"
+      ],
+      "version": "1.16.04"
+    },
+    {
+      "affected_entity_ids": [],
+      "content_coverage": {
+        "level": "identity_only",
+        "normalized_claim_count": 0,
+        "notes": "Identity and official locators only; no normalized gameplay claims or claim-review advancement. released_at anchors the earliest cited notice publication, not simultaneous storefront rollout. Still pending in the retrieved notice: mac-app-store."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_g02patch117000001",
+      "platforms": [
+        "mac-steam",
+        "pc-epic",
+        "pc-steam",
+        "playstation-5",
+        "xbox-series"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T03:01:46Z",
+        "created_by": "public_official_patch_reconciliation",
+        "source_receipt_id": "rcp_g02patchcatchup2026091001"
+      },
+      "released_at": "2026-08-07T12:30:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_g02notice1160001"
+      ],
+      "version": "1.17.00"
+    },
+    {
+      "affected_entity_ids": [],
+      "content_coverage": {
+        "level": "identity_only",
+        "normalized_claim_count": 0,
+        "notes": "Identity and official locators only; no normalized gameplay claims or claim-review advancement. released_at anchors the earliest cited notice publication, not simultaneous storefront rollout. Still pending in the retrieved notice: mac-app-store."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_g02patch118000001",
+      "platforms": [
+        "mac-steam",
+        "pc-epic",
+        "pc-steam",
+        "playstation-5",
+        "xbox-series"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T03:01:46Z",
+        "created_by": "public_official_patch_reconciliation",
+        "source_receipt_id": "rcp_g02patchcatchup2026091001"
+      },
+      "released_at": "2026-08-15T03:43:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_g02notice1170001"
+      ],
+      "version": "1.18.00"
+    },
+    {
+      "affected_entity_ids": [],
+      "content_coverage": {
+        "level": "identity_only",
+        "normalized_claim_count": 0,
+        "notes": "Identity and official locators only; no normalized gameplay claims or claim-review advancement. released_at anchors the earliest cited notice publication, not simultaneous storefront rollout."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_g02patch118010001",
+      "platforms": [
+        "mac-app-store",
+        "mac-steam",
+        "pc-epic",
+        "pc-steam",
+        "playstation-5",
+        "xbox-series"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T03:01:46Z",
+        "created_by": "public_official_patch_reconciliation",
+        "source_receipt_id": "rcp_g02patchcatchup2026091001"
+      },
+      "released_at": "2026-08-16T04:00:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_g02notice1190001"
+      ],
+      "version": "1.18.01"
+    },
+    {
+      "affected_entity_ids": [],
+      "content_coverage": {
+        "level": "identity_only",
+        "normalized_claim_count": 0,
+        "notes": "Identity and official locators only; no normalized gameplay claims or claim-review advancement. released_at anchors the earliest cited notice publication, not simultaneous storefront rollout."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_g02patch118020001",
+      "platforms": [
+        "mac-app-store",
+        "mac-steam",
+        "pc-epic",
+        "pc-steam",
+        "playstation-5",
+        "xbox-series"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T03:01:46Z",
+        "created_by": "public_official_patch_reconciliation",
+        "source_receipt_id": "rcp_g02patchcatchup2026091001"
+      },
+      "released_at": "2026-08-16T10:00:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_g02notice1200001"
+      ],
+      "version": "1.18.02"
+    },
+    {
+      "affected_entity_ids": [],
+      "content_coverage": {
+        "level": "identity_only",
+        "normalized_claim_count": 0,
+        "notes": "Identity and official locators only; no normalized gameplay claims or claim-review advancement. released_at anchors the earliest cited notice publication, not simultaneous storefront rollout."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_g02patch200000001",
+      "platforms": [
+        "mac-app-store",
+        "mac-steam",
+        "pc-epic",
+        "pc-steam",
+        "playstation-5",
+        "xbox-series"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T03:01:46Z",
+        "created_by": "public_official_patch_reconciliation",
+        "source_receipt_id": "rcp_g02patchcatchup2026091001"
+      },
+      "released_at": "2026-08-25T18:20:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_g02notice1230001"
+      ],
+      "version": "2.00.00"
+    },
+    {
+      "affected_entity_ids": [],
+      "content_coverage": {
+        "level": "identity_only",
+        "normalized_claim_count": 0,
+        "notes": "Identity and official locators only; no normalized gameplay claims or claim-review advancement. released_at anchors the earliest cited notice publication, not simultaneous storefront rollout."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_g02patch200010001",
+      "platforms": [
+        "mac-app-store",
+        "mac-steam",
+        "pc-epic",
+        "pc-steam",
+        "playstation-5",
+        "xbox-series"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T03:01:46Z",
+        "created_by": "public_official_patch_reconciliation",
+        "source_receipt_id": "rcp_g02patchcatchup2026091001"
+      },
+      "released_at": "2026-08-28T00:00:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_g02notice1260001"
+      ],
+      "version": "2.00.01"
+    },
+    {
+      "affected_entity_ids": [],
+      "content_coverage": {
+        "level": "identity_only",
+        "normalized_claim_count": 0,
+        "notes": "Identity and official locators only; no normalized gameplay claims or claim-review advancement. released_at anchors the earliest cited notice publication, not simultaneous storefront rollout."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_g02patch200020001",
+      "platforms": [
+        "mac-app-store",
+        "mac-steam",
+        "pc-epic",
+        "pc-steam",
+        "playstation-5",
+        "xbox-series"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T03:01:46Z",
+        "created_by": "public_official_patch_reconciliation",
+        "source_receipt_id": "rcp_g02patchcatchup2026091001"
+      },
+      "released_at": "2026-08-28T00:00:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_g02notice1270001"
+      ],
+      "version": "2.00.02"
+    },
+    {
+      "affected_entity_ids": [],
+      "content_coverage": {
+        "level": "identity_only",
+        "normalized_claim_count": 0,
+        "notes": "Identity and official locators only; no normalized gameplay claims or claim-review advancement. released_at anchors the earliest cited notice publication, not simultaneous storefront rollout."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_g02patch201000001",
+      "platforms": [
+        "mac-app-store",
+        "mac-steam",
+        "pc-epic",
+        "pc-steam",
+        "playstation-5",
+        "xbox-series"
+      ],
+      "provenance": {
+        "created_at": "2026-09-11T03:01:46Z",
+        "created_by": "public_official_patch_reconciliation",
+        "source_receipt_id": "rcp_g02patchcatchup2026091001"
+      },
+      "released_at": "2026-09-04T04:20:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_g02notice1280001"
+      ],
+      "version": "2.01.00"
+    }
+  ],
+  "schema_version": "pywel.patch_catalog.v1"
+}

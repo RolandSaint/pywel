@@ -500,20 +500,16 @@ export function validateIntegrity(store: KnowledgeStore): ValidationIssue[] {
           ),
         );
       }
-      if (
-        evidence?.source.published_at !== undefined &&
-        evidence.source.published_at !== null &&
-        evidence.source.published_at !== patch.released_at
-      ) {
-        issues.push(
-          makeIssue(
-            "error",
-            "patch_release_time_mismatch",
-            `Patch release time differs from evidence ${evidenceId}`,
-            { record_id: patch.patch_id },
-          ),
-        );
-      }
+    }
+    // One version can have distinct platform notices. Preserve each source date;
+    // the patch index anchors to the earliest published notice, not every rollout.
+    const sourceTimes = patch.source_evidence_ids
+      .map((id) => evidenceById.get(id)?.source.published_at)
+      .filter((time): time is string => time !== undefined && time !== null)
+      .map((time) => Date.parse(time));
+    if (sourceTimes.length > 0 && Date.parse(patch.released_at) !== Math.min(...sourceTimes)) {
+      issues.push(makeIssue("error", "patch_release_time_mismatch",
+        "Patch index time differs from its earliest source publication", { record_id: patch.patch_id }));
     }
     for (const entityId of patch.affected_entity_ids) {
       referenceIssue(issues, patch.patch_id, entityId, entityIds, "Patch affected entity");

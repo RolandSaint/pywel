@@ -1,0 +1,633 @@
+{
+  "added_patch_ids": [
+    "pat_g02patch100030001",
+    "pat_g02patch100040001",
+    "pat_g02patch102000001",
+    "pat_g02patch115000001",
+    "pat_g02patch116000001",
+    "pat_g02patch116010001",
+    "pat_g02patch116020001",
+    "pat_g02patch116030001",
+    "pat_g02patch116040001",
+    "pat_g02patch117000001",
+    "pat_g02patch118000001",
+    "pat_g02patch118010001",
+    "pat_g02patch118020001",
+    "pat_g02patch200000001",
+    "pat_g02patch200010001",
+    "pat_g02patch200020001",
+    "pat_g02patch201000001"
+  ],
+  "base_commit": "e8901037e03965e806696da0b239c9e8720f924b",
+  "latest_observed_official_version": "2.01.00",
+  "milestone": "G02",
+  "newer_versions": [
+    "1.15.00",
+    "1.16.00",
+    "1.16.01",
+    "1.16.02",
+    "1.16.03",
+    "1.16.04",
+    "1.17.00",
+    "1.18.00",
+    "1.18.01",
+    "1.18.02",
+    "2.00.00",
+    "2.00.01",
+    "2.00.02",
+    "2.01.00"
+  ],
+  "notice_reviews": [
+    {
+      "available_platforms": [
+        "playstation-5",
+        "xbox-series",
+        "pc-epic"
+      ],
+      "evidence_id": "evd_g02notice0730001",
+      "notes": "Revised March 25 13:30 UTC; explicit rollout schedule: PS5 March 23 02:15, Xbox March 23 08:15, Epic March 25 13:15 UTC. Other storefront rollout times are not established by that schedule.",
+      "notice_published_at": "2026-03-23T01:10:00Z",
+      "pending_platforms": [],
+      "version": "1.00.03"
+    },
+    {
+      "available_platforms": [
+        "playstation-5"
+      ],
+      "evidence_id": "evd_g02notice0740001",
+      "notes": "PlayStation-specific character-switching fix; separate from the Mac Steam notice.",
+      "notice_published_at": "2026-03-23T07:25:00Z",
+      "pending_platforms": [],
+      "version": "1.00.04"
+    },
+    {
+      "available_platforms": [
+        "mac-steam"
+      ],
+      "evidence_id": "evd_g02notice0750001",
+      "notes": "Mac Steam-specific crash fix; separate notice and publication time.",
+      "notice_published_at": "2026-03-24T16:51:00Z",
+      "pending_platforms": [],
+      "version": "1.00.04"
+    },
+    {
+      "available_platforms": [
+        "pc-steam",
+        "mac-steam",
+        "playstation-5",
+        "xbox-series",
+        "pc-epic",
+        "mac-app-store"
+      ],
+      "evidence_id": "evd_g02notice0800001",
+      "notes": "Revision at April 4 05:00 UTC includes the investment-refresh fix; a gate change is explicitly attributed to 1.01.00, not introduced here.",
+      "notice_published_at": "2026-04-04T01:14:00Z",
+      "pending_platforms": [],
+      "version": "1.02.00"
+    },
+    {
+      "available_platforms": [
+        "pc-steam",
+        "mac-steam",
+        "playstation-5",
+        "xbox-series",
+        "pc-epic"
+      ],
+      "evidence_id": "evd_g02notice1090001",
+      "notes": "",
+      "notice_published_at": "2026-07-24T02:40:00Z",
+      "pending_platforms": [
+        "mac-app-store"
+      ],
+      "version": "1.15.00"
+    },
+    {
+      "available_platforms": [
+        "pc-steam",
+        "mac-steam",
+        "playstation-5",
+        "xbox-series",
+        "pc-epic"
+      ],
+      "evidence_id": "evd_g02notice1100001",
+      "notes": "The new-post unlock sentence is incomplete; do not infer its missing condition.",
+      "notice_published_at": "2026-08-01T03:30:00Z",
+      "pending_platforms": [
+        "mac-app-store"
+      ],
+      "version": "1.16.00"
+    },
+    {
+      "available_platforms": [
+        "pc-steam",
+        "mac-steam",
+        "playstation-5",
+        "xbox-series",
+        "pc-epic"
+      ],
+      "evidence_id": "evd_g02notice1110001",
+      "notes": "",
+      "notice_published_at": "2026-08-02T01:00:00Z",
+      "pending_platforms": [
+        "mac-app-store"
+      ],
+      "version": "1.16.01"
+    },
+    {
+      "available_platforms": [
+        "pc-steam",
+        "playstation-5",
+        "xbox-series",
+        "pc-epic"
+      ],
+      "evidence_id": "evd_g02notice1120001",
+      "notes": "Mac fix text does not override the pending Mac rollout rows.",
+      "notice_published_at": "2026-08-03T14:40:00Z",
+      "pending_platforms": [
+        "mac-steam",
+        "mac-app-store"
+      ],
+      "version": "1.16.02"
+    },
+    {
+      "available_platforms": [
+        "pc-steam",
+        "mac-steam",
+        "playstation-5",
+        "xbox-series",
+        "pc-epic"
+      ],
+      "evidence_id": "evd_g02notice1140001",
+      "notes": "",
+      "notice_published_at": "2026-08-04T04:50:00Z",
+      "pending_platforms": [
+        "mac-app-store"
+      ],
+      "version": "1.16.03"
+    },
+    {
+      "available_platforms": [
+        "pc-steam",
+        "mac-steam",
+        "playstation-5",
+        "xbox-series",
+        "pc-epic"
+      ],
+      "evidence_id": "evd_g02notice1150001",
+      "notes": "",
+      "notice_published_at": "2026-08-05T09:00:00Z",
+      "pending_platforms": [
+        "mac-app-store"
+      ],
+      "version": "1.16.04"
+    },
+    {
+      "available_platforms": [
+        "pc-steam",
+        "mac-steam",
+        "playstation-5",
+        "xbox-series",
+        "pc-epic"
+      ],
+      "evidence_id": "evd_g02notice1160001",
+      "notes": "",
+      "notice_published_at": "2026-08-07T12:30:00Z",
+      "pending_platforms": [
+        "mac-app-store"
+      ],
+      "version": "1.17.00"
+    },
+    {
+      "available_platforms": [
+        "pc-steam",
+        "mac-steam",
+        "playstation-5",
+        "xbox-series",
+        "pc-epic"
+      ],
+      "evidence_id": "evd_g02notice1170001",
+      "notes": "",
+      "notice_published_at": "2026-08-15T03:43:00Z",
+      "pending_platforms": [
+        "mac-app-store"
+      ],
+      "version": "1.18.00"
+    },
+    {
+      "available_platforms": [
+        "pc-steam",
+        "mac-steam",
+        "playstation-5",
+        "xbox-series",
+        "pc-epic",
+        "mac-app-store"
+      ],
+      "evidence_id": "evd_g02notice1190001",
+      "notes": "",
+      "notice_published_at": "2026-08-16T04:00:00Z",
+      "pending_platforms": [],
+      "version": "1.18.01"
+    },
+    {
+      "available_platforms": [
+        "pc-steam",
+        "mac-steam",
+        "playstation-5",
+        "xbox-series",
+        "pc-epic",
+        "mac-app-store"
+      ],
+      "evidence_id": "evd_g02notice1200001",
+      "notes": "",
+      "notice_published_at": "2026-08-16T10:00:00Z",
+      "pending_platforms": [],
+      "version": "1.18.02"
+    },
+    {
+      "available_platforms": [
+        "pc-steam",
+        "mac-steam",
+        "playstation-5",
+        "xbox-series",
+        "pc-epic",
+        "mac-app-store"
+      ],
+      "evidence_id": "evd_g02notice1230001",
+      "notes": "",
+      "notice_published_at": "2026-08-25T18:20:00Z",
+      "pending_platforms": [],
+      "version": "2.00.00"
+    },
+    {
+      "available_platforms": [
+        "pc-steam",
+        "mac-steam",
+        "playstation-5",
+        "xbox-series",
+        "pc-epic",
+        "mac-app-store"
+      ],
+      "evidence_id": "evd_g02notice1260001",
+      "notes": "Same displayed publication time as 2.00.02; no minute-level rollout ordering inferred.",
+      "notice_published_at": "2026-08-28T00:00:00Z",
+      "pending_platforms": [],
+      "version": "2.00.01"
+    },
+    {
+      "available_platforms": [
+        "pc-steam",
+        "mac-steam",
+        "playstation-5",
+        "xbox-series",
+        "pc-epic",
+        "mac-app-store"
+      ],
+      "evidence_id": "evd_g02notice1270001",
+      "notes": "Same displayed publication time as 2.00.01; no minute-level rollout ordering inferred.",
+      "notice_published_at": "2026-08-28T00:00:00Z",
+      "pending_platforms": [],
+      "version": "2.00.02"
+    },
+    {
+      "available_platforms": [
+        "pc-steam",
+        "mac-steam",
+        "playstation-5",
+        "xbox-series",
+        "pc-epic",
+        "mac-app-store"
+      ],
+      "evidence_id": "evd_g02notice1280001",
+      "notes": "",
+      "notice_published_at": "2026-09-04T04:20:00Z",
+      "pending_platforms": [],
+      "version": "2.01.00"
+    }
+  ],
+  "official_index_pages": [
+    "https://crimsondesert.pearlabyss.com/en-US/News/Notice?_categoryNo=2&_checkDisplayDate=True&_pageNo=1&_searchType=2",
+    "https://crimsondesert.pearlabyss.com/en-US/News/Notice?_categoryNo=2&_checkDisplayDate=True&_pageNo=2&_searchType=2",
+    "https://crimsondesert.pearlabyss.com/en-US/News/Notice?_categoryNo=2&_checkDisplayDate=True&_pageNo=3&_searchType=2",
+    "https://crimsondesert.pearlabyss.com/en-US/News/Notice?_categoryNo=2&_checkDisplayDate=True&_pageNo=4&_searchType=2"
+  ],
+  "older_backfill_versions": [
+    "1.00.03",
+    "1.00.04",
+    "1.02.00"
+  ],
+  "publication": {
+    "new_release_authorized": false,
+    "tags_unchanged": [
+      "v1.0.0",
+      "expansion-2026.09.10.1"
+    ]
+  },
+  "remaining_gaps": [
+    "No existing Bank/Bonds, Housing or Abyss Link entity; generic parent records are context, not substitutes.",
+    "Righteous Verdict and Witch's Ring are not specifically named in these retrieved notices. That is not confirmation of their values, availability or current freshness.",
+    "No claim was superseded or reviewed through a newer patch. Later omission of a change is not verification.",
+    "The 1.16.00 trading-post unlock sentence is incomplete; retain that source limitation.",
+    "One canonical patch per version preserves both 1.00.04 evidence dates; platforms are a union, never equal simultaneous rollouts."
+  ],
+  "review_queue": [
+    {
+      "acceptance": "Review the three records; add a patch-specific prerequisite only with stable identity and source support. Preserve historical sequence.",
+      "claim_ids": [
+        "clm_2d2c9b5ae45e697dc32d549e",
+        "clm_51ec3d2a67b45173e79a30f3",
+        "clm_e13fe499e9d397219e64930e"
+      ],
+      "entity_ids": [
+        "ent_74edc051ca3074d64d74e718"
+      ],
+      "id": "G02-Q01",
+      "locator": "Content: Where Misery Gathers prerequisite",
+      "match": "direct_named_change",
+      "priority": "P1",
+      "reason": "A named quest now requires Shadow Cast Over the River. Existing order/objectives do not encode that requirement.",
+      "source_evidence_ids": [
+        "evd_g02notice1100001"
+      ],
+      "state": "needs_claim_review"
+    },
+    {
+      "acceptance": "Check crane-stage guidance; preserve location, organization, prerequisite and reward uncertainty unless separate evidence changes them.",
+      "claim_ids": [
+        "clm_46f71b753dd5a51e961ec6df",
+        "clm_6974a88ce5d2afad27b63ece",
+        "clm_m8asealednoitem2026091001",
+        "clm_m8asealedprereq2026091001"
+      ],
+      "entity_ids": [
+        "ent_d1b3b818dfa863a35aab7680"
+      ],
+      "id": "G02-Q02",
+      "locator": "Others: House Roberts > Sealed in Stone; Patch Details: Karin Quarry crane",
+      "match": "direct_and_context",
+      "priority": "P1",
+      "reason": "Notes repair elemental-arrow crane breakage and a later small-crane input lock. The second notice does not explicitly name this quest.",
+      "source_evidence_ids": [
+        "evd_g02notice1230001",
+        "evd_g02notice1270001"
+      ],
+      "state": "needs_claim_review"
+    },
+    {
+      "acceptance": "Add bounded publisher-intent progression facts; verify resource/refund conditions individually, never refresh all abilities.",
+      "claim_ids": [
+        "clm_a58c0c9b8d5d1cdf8f348ce9"
+      ],
+      "entity_ids": [
+        "ent_9562fabc1b8b8a5b33bd9fe6"
+      ],
+      "id": "G02-Q03",
+      "locator": "Content: skill observation; Enhanced: skill-learning system; Content: skill knowledge UI",
+      "match": "direct_system_change",
+      "priority": "P1",
+      "reason": "Abyss Links and per-character resets change progression; knowledge UI changes follow. Historical Watch and Learn support is not a complete modern description.",
+      "source_evidence_ids": [
+        "evd_g02notice0730001",
+        "evd_g02notice1230001",
+        "evd_g02notice1280001"
+      ],
+      "state": "needs_claim_review"
+    },
+    {
+      "acceptance": "Scope camp and investment questions separately; retain the two existing claims and create only evidence-supported additions.",
+      "claim_ids": [
+        "clm_787ebb78460883ff066f0ead",
+        "clm_8fbd26526d52c26c36e9da6d"
+      ],
+      "entity_ids": [
+        "ent_242bdf4ccf6178fd113970e7"
+      ],
+      "id": "G02-Q04",
+      "locator": "Content: storage, research currency, housing; New Additions: bank; Patch Details: storage UI",
+      "match": "context_review",
+      "priority": "P1",
+      "reason": "Camp/storage/research and bank systems changed. Existing camp claims describe only its Alchemy Lab. Bank investment details need new knowledge, not a relabelled lab claim.",
+      "source_evidence_ids": [
+        "evd_g02notice0800001",
+        "evd_g02notice1100001",
+        "evd_g02notice1110001",
+        "evd_g02notice1170001",
+        "evd_g02notice1190001",
+        "evd_g02notice1200001",
+        "evd_g02notice1280001"
+      ],
+      "state": "needs_claim_review"
+    },
+    {
+      "acceptance": "Review its two objectives and sequence; add official fix context without promising universal completion.",
+      "claim_ids": [
+        "clm_613ef9601a3c67c8d197c72c",
+        "clm_aaf4f67aedfde12b2d1ff5b8",
+        "clm_b05b6ea3771b279f85b52075"
+      ],
+      "entity_ids": [
+        "ent_f197777cff5b2c9764168849"
+      ],
+      "id": "G02-Q05",
+      "locator": "Content: The Cursed Knight completion",
+      "match": "direct_named_change",
+      "priority": "P1",
+      "reason": "A completion-state fix names this quest. Objective presence does not prove its post-fix completion behavior.",
+      "source_evidence_ids": [
+        "evd_g02notice1280001"
+      ],
+      "state": "needs_claim_review"
+    },
+    {
+      "acceptance": "Review four farming claims; add the bounded fix only, preserving each original review boundary.",
+      "claim_ids": [
+        "clm_01jzcdseedquickslot000001",
+        "clm_81b633cf0be60e9400185c6f",
+        "clm_ed070c0135f95549e401b91b",
+        "clm_f1c2d00c280cc4d7f48b52a0"
+      ],
+      "entity_ids": [
+        "ent_01jzcdfarming000000000001"
+      ],
+      "id": "G02-Q06",
+      "locator": "Content: crop growth and harvesting",
+      "match": "direct_system_change",
+      "priority": "P2",
+      "reason": "Crop failures are fixed, but seed quickslots and crop-yield magnitude are not independently reconfirmed.",
+      "source_evidence_ids": [
+        "evd_g02notice1090001"
+      ],
+      "state": "needs_claim_review"
+    },
+    {
+      "acceptance": "Review travel and ability statements; separate named Blackstar fixes from generic mount changes and unverified unlock details.",
+      "claim_ids": [
+        "clm_5abe51bed739b009b037f038",
+        "clm_2b8d59dd0293defe2dd58c14",
+        "clm_3f2e0a0e31fa7e4e9b8a2356",
+        "clm_59b6a691b79c15504a6eacae",
+        "clm_9274eed86d6702314caf5b91",
+        "clm_a844a13f1d22b4f9f0115cfe",
+        "clm_b5256ac9ff13c95ee976a0a3",
+        "clm_e16d125681bfd2e2bb779db9"
+      ],
+      "entity_ids": [
+        "ent_d57a8b7058af04f49999261f",
+        "ent_17e889663cccf45caa460753"
+      ],
+      "id": "G02-Q07",
+      "locator": "Controls/Combat: mounts; Content: Blackstar cooldown and summoning",
+      "match": "context_review",
+      "priority": "P2",
+      "reason": "Mount movement, flying controls and Blackstar cooldown/summoning changed. Generic Wyvern text is not automatic proof of Blackstar identity.",
+      "source_evidence_ids": [
+        "evd_g02notice0800001",
+        "evd_g02notice1090001",
+        "evd_g02notice1100001",
+        "evd_g02notice1170001",
+        "evd_g02notice1230001",
+        "evd_g02notice1280001"
+      ],
+      "state": "needs_claim_review"
+    },
+    {
+      "acceptance": "Check specific kiln stages and workshop identity; preserve unrelated Make Now and recipe assertions.",
+      "claim_ids": [
+        "clm_3b202694848efd1ad88dd3b9",
+        "clm_71bc5bbe8971d1c0fc62fe73",
+        "clm_de0ff18b4b7878a669f94d98",
+        "clm_af33a2cf5d64e512b292099b"
+      ],
+      "entity_ids": [
+        "ent_ebe2c1cf987ea4158af92be1",
+        "ent_667649ca6528166ee10ddb22"
+      ],
+      "id": "G02-Q08",
+      "locator": "Quests: Mysterious Pot; Content: Kilnden kiln/workshop",
+      "match": "context_review",
+      "priority": "P2",
+      "reason": "Kiln repair gains Force Current support; workshop crafting has a later fix. These do not establish new cooking inputs.",
+      "source_evidence_ids": [
+        "evd_g02notice0730001",
+        "evd_g02notice1170001",
+        "evd_g02notice1230001"
+      ],
+      "state": "needs_claim_review"
+    },
+    {
+      "acceptance": "Review only map UI context; no unrelated controller-remapping review credit.",
+      "claim_ids": [
+        "clm_e10505031baad22d4e6344bd"
+      ],
+      "entity_ids": [
+        "ent_52b83b4a21bdb255a154f092"
+      ],
+      "id": "G02-Q09",
+      "locator": "UI: treasure icons, trade routes and revealed map areas",
+      "match": "context_review",
+      "priority": "P2",
+      "reason": "Map presentation changes overlap the existing historical treasure-icon record, without contradicting it.",
+      "source_evidence_ids": [
+        "evd_g02notice1160001",
+        "evd_g02notice1170001"
+      ],
+      "state": "needs_claim_review"
+    },
+    {
+      "acceptance": "Add or refine strategy coverage only with phase-specific evidence; leave reward and objective claims unchanged absent new support.",
+      "claim_ids": [
+        "clm_005b99d4119acf1aa55f1c88",
+        "clm_1247bdf23070d699cfb42048",
+        "clm_139221ce21ece643571fa6bc",
+        "clm_f8d3036d1fefe2ef99172460"
+      ],
+      "entity_ids": [
+        "ent_c0e01b2bab099c6c13b3d0a0"
+      ],
+      "id": "G02-Q10",
+      "locator": "Combat / Action: Golden Star phases",
+      "match": "named_encounter_context",
+      "priority": "P2",
+      "reason": "Golden Star gains distinct battle phases. The existing quest objectives do not describe the encounter strategy.",
+      "source_evidence_ids": [
+        "evd_g02notice1230001"
+      ],
+      "state": "needs_claim_review"
+    },
+    {
+      "acceptance": "Check resource category and recipe usability against structured databases or observation; do not delete recipe facts.",
+      "claim_ids": [
+        "clm_125b6920010475d58df485d7",
+        "clm_29e4edbf0ae0398b1d4d0d7a",
+        "clm_307dbff1e73b91828c2e9269",
+        "clm_61ffaa3d690f037fbcdd6e51",
+        "clm_b046f590222e1250e844c86a",
+        "clm_c4c89e3773a079bed0adafbc",
+        "clm_c7cc7a4e5da5613347bf01c0",
+        "clm_cafa5a6fa07100deb2530006",
+        "clm_ce00a103e1a18d7b916dc46d",
+        "clm_e92ff77a2b7253dad89c8f91"
+      ],
+      "entity_ids": [
+        "ent_18fdd1d68f2db65658d99545",
+        "ent_38ee02cb58a09139b5106573"
+      ],
+      "id": "G02-Q11",
+      "locator": "Others: mushroom item categories",
+      "match": "context_review",
+      "priority": "P3",
+      "reason": "Mushroom categorization changes, but the note does not remove this recipe or identify its ingredients as invalid.",
+      "source_evidence_ids": [
+        "evd_g02notice1100001"
+      ],
+      "state": "needs_claim_review"
+    },
+    {
+      "acceptance": "Retain the unresolved harvest question and distinguish behavior from patch intent.",
+      "claim_ids": [
+        "clm_098d57fbe8604b53eb78f31c"
+      ],
+      "entity_ids": [
+        "ent_e9641d4021b92aba4ee7a9ae"
+      ],
+      "id": "G02-Q12",
+      "locator": "Content: pet looting",
+      "match": "context_review",
+      "priority": "P3",
+      "reason": "A looting fix is relevant context but does not establish carcass harvesting.",
+      "source_evidence_ids": [
+        "evd_g02notice0730001"
+      ],
+      "state": "needs_claim_review"
+    },
+    {
+      "acceptance": "Review only relevant issue-specific support; do not apply broad stability notes to individual equipment stats.",
+      "claim_ids": [
+        "clm_f058698a2d5cb8e89b20e0de"
+      ],
+      "entity_ids": [
+        "ent_5d5ab45056dca48b945646a4"
+      ],
+      "id": "G02-Q13",
+      "locator": "Platform-specific and stability sections",
+      "match": "context_review",
+      "priority": "P3",
+      "reason": "Save/load, crash and item-persistence fixes have platform-specific scope. The old general optimization claim is not a current per-device guarantee.",
+      "source_evidence_ids": [
+        "evd_g02notice0730001",
+        "evd_g02notice0740001",
+        "evd_g02notice0750001",
+        "evd_g02notice0800001",
+        "evd_g02notice1090001",
+        "evd_g02notice1120001",
+        "evd_g02notice1140001",
+        "evd_g02notice1150001",
+        "evd_g02notice1190001",
+        "evd_g02notice1200001",
+        "evd_g02notice1260001"
+      ],
+      "state": "needs_claim_review"
+    }
+  ],
+  "scope": "Missing-notice reconciliation and selected claim-impact triage only; not exhaustive patch normalization or gameplay confirmation. Previously indexed notice bodies were not comprehensively re-reviewed.",
+  "source_cutoff_utc": "2026-09-11T03:01:46Z"
+}

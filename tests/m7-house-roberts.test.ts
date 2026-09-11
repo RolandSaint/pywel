@@ -71,7 +71,7 @@ describe("M7 historical House Roberts pilot", () => {
 
   it("does not manufacture current-patch applicability or escalate spoilers", async () => {
     const index = new KnowledgeIndex((await validStore()).store);
-    const future = index.answer("Where is House Roberts?", { ...context, patch: "2.01.00" });
+    const future = index.answer("Where is House Roberts?", { ...context, patch: "9.99.00" });
     expect(future.answer_state).toBe("unknown");
     expect(future.gaps.map(gap => gap.code)).toContain("patch_unknown");
     const hidden = index.answer("Which quests belong to House Roberts?", { ...context, spoilerCeiling: "none" });

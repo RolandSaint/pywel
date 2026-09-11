@@ -66,8 +66,8 @@ describe("publication boundary", () => {
   it("rejects an internally correct digest that omits a record citing the receipt", async () => {
     const { store } = await validStore();
     const mutated = structuredClone(store);
-    const receipt = mutated.receipts[0]!;
-    const claim = mutated.claims.find(item => item.provenance.source_receipt_id === receipt.receipt_id)!;
+    const claim = mutated.claims[0]!;
+    const receipt = mutated.receipts.find(item => item.receipt_id === claim.provenance.source_receipt_id)!;
     receipt.related_record_ids = [claim.claim_id];
     receipt.payload_sha256 = stableRecordHash([claim]);
     expect(() => publicKnowledgeProjection(mutated)).toThrow("omits a referring record");

@@ -37,3 +37,18 @@ export async function originalReleaseStore() {
     },
   };
 }
+
+// Named first-expansion checkpoint. Later receipt families do not redefine it.
+export async function firstExpansionStore() {
+  const current = await validStore();
+  const receipts = new Set([
+    "rcp_m1publicscope202609100001", "rcp_m7houseroberts2026091001",
+    "rcp_m8aprogression2026091001", "rcp_m8bequipment2026091001", "rcp_r01equipment2026091001",
+  ]);
+  const retained = (record: { provenance: { source_receipt_id?: string } }) => receipts.has(record.provenance.source_receipt_id ?? "");
+  return { ...current, store: { ...current.store,
+    entities: current.store.entities.filter(retained), claims: current.store.claims.filter(retained),
+    evidence: current.store.evidence.filter(retained), patches: current.store.patches.filter(retained),
+    strategies: current.store.strategies.filter(retained), receipts: current.store.receipts.filter(r => receipts.has(r.receipt_id)),
+  } };
+}
