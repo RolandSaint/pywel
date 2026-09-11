@@ -32,6 +32,12 @@ The [M7 House Roberts pilot](docs/M7_HOUSE_ROBERTS.md) added eight identities, 1
 
 Milestone integration is not a new GitHub Release. The v1.0.0 tag and its assets do not contain G01, M7, M8A, M8B, M9 or R01. To consume post-release main, replace `--branch v1.0.0` with `--branch main` below, record `git rev-parse HEAD`, and run the same checks on that exact checkout. Do not mix its data or build identity with older release artifacts.
 
+## First expansion release candidate
+
+[M10](https://github.com/RolandSaint/pywel/blob/main/docs/M10_RELEASE_CANDIDATE.md) freezes the completed content wave and prepares **`expansion-2026.09.10.1`** as a dated source/data snapshot. It includes maintained query corrections, not just changed knowledge; package metadata remains `1.0.0`/private while the exact commit and build identify this source. The original tag is not moved. The cumulative review also corrects a rivalry question that previously substituted the faction's description; no rival facts are invented.
+
+[PR #11](https://github.com/RolandSaint/pywel/pull/11) records the actual readiness decision, integrated commit, CI and candidate artifact checksums. CI retains checked source/data archives and acceptance evidence temporarily as an Actions artifact. **Preparation is not publication**: a new release/tag requires separate approval. Historical coverage, unresolved source meanings, no-install raw-file limits and all earlier rights boundaries remain. Follow the exact accepted commit and artifact identity from that record rather than assuming mutable main is the release.
+
 ## Install, verify, and read
 
 These commands require a complete Git working checkout. The source export is an immutable review/publication artifact; the data-only bundle contains no runtime. To prepare a separate working checkout from a verified export, follow [OPERATIONS](docs/OPERATIONS.md). Use Node **24.18.0**, as pinned in `.node-version`. These commands create a checkout of the published v1.0.0 release and run from its root:

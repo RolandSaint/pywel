@@ -35,3 +35,13 @@ jobs:
         run: npm run runtime:check && npm run check
       - name: Verify reproducible build
         run: npm run test:determinism
+      - name: Prepare verified expansion snapshot without publication
+        run: node --import tsx scripts/prepare-release.mjs expansion-2026.09.10.1
+      - name: Retain checked candidate package
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: pywel-candidate-${{ github.sha }}-${{ github.run_attempt }}
+          path: dist/release-candidate/
+          if-no-files-found: error
+          retention-days: 7
+          compression-level: 0
