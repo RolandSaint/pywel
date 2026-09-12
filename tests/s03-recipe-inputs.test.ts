@@ -6,6 +6,7 @@ import { describe, expect, it } from "vitest";
 import { createApp } from "../src/api/app.js";
 import { sha256, stableRecordHash } from "../src/core/canonical-json.js";
 import { KnowledgeIndex } from "../src/core/query.js";
+import type { Claim } from "../src/core/types.js";
 import { validStore } from "./helpers.js";
 import { CURRENT_CORPUS } from "./support/current-coverage.js";
 
@@ -133,18 +134,69 @@ describe("S03 retained recipe ingredient identities", () => {
       expect(packet.claims.length).toBeGreaterThan(0);
       expect(packet.claims.every(c => ["recipe.input","relation.crafted_from"].includes(c.predicate))).toBe(true);
       expect(packet.claims.filter(isS03).every(c => c.subject_entity_id === id)).toBe(true);
-      // These exact same-name item edges predate S03. Preserve and expose the
-      // known ambiguity, rather than claiming every natural-language result is recipe-only.
-      const preexistingAmbiguity: Record<string,string[]> = {
-        "ent_0f44e2bac85651e4e5b136e8": ["clm_95b8f15c8fc6897bc00872ce","clm_ee5a7b76900f77d3dd8cc0b7"],
-        "ent_4158856feae336a21a199238": ["clm_8f4c1ef8699aa90203516450"],
-      };
-      expect(packet.claims.filter(c => c.subject_entity_id !== id).map(c => c.claim_id).sort()).toEqual((preexistingAmbiguity[id] ?? []).sort());
+      // Ingredient answers select the same-named recipe, not item-side edges.
+      expect(packet.claims.every(c => c.subject_entity_id === id)).toBe(true);
       expect(packet.gaps.map(g => g.code)).toContain("post_patch_review_needed");
       const exact = index.filterClaims({ subjectEntityId: id, predicate: "recipe.input", context, limit: 200 });
       expect(exact.map(c => c.claim_id).sort()).toEqual(ledger.input_mapping.filter(m => m.recipe_entity_id === id).map(m => m.source_input_claim_id).sort());
     }
     expect(store.claims.filter(isS03).every(c => c.validity.reviewed_through_patch === null)).toBe(true);
+  });
+
+  it.each([
+    ["Wine", "ent_0f44e2bac85651e4e5b136e8", "ent_827db0496d4febdea9501e73", 2],
+    ["Haiden's Lesser Elixir", "ent_4158856feae336a21a199238", "ent_b66dd47ca47d6b51b1decbd4", 1],
+    ["Haidens Lesser Elixir", "ent_4158856feae336a21a199238", "ent_b66dd47ca47d6b51b1decbd4", 1],
+  ] as const)("grounds ingredient questions in the recipe without erasing the item: %s", async (name, recipeId, itemId, itemEdges) => {
+    const { index } = await setup();
+    for (const q of [`What ingredients are needed for ${name}?`, `Which ingredients are required to craft ${name}?`]) {
+      const packet = index.answer(q, context);
+      const expected = index.claimsForEntity(recipeId, context)
+        .filter(c => ["recipe.input", "relation.crafted_from"].includes(c.predicate));
+      expect(packet.answer_state).toBe("partial");
+      expect(packet.claims.map(c => c.claim_id).sort()).toEqual(expected.map(c => c.claim_id).sort());
+      expect(packet.evidence.map(e => e.evidence_id).sort()).toEqual([...new Set(expected.flatMap(c => c.evidence_ids))].sort());
+      expect(packet.strategies).toEqual([]);
+      expect(JSON.stringify(packet)).not.toContain(itemId);
+      expect(packet.gaps.map(g => g.code)).toContain("post_patch_review_needed");
+    }
+    expect(index.searchEntities(name, 100).map(e => e.entity_id)).toEqual(expect.arrayContaining([recipeId, itemId]));
+    expect(index.claimsForEntity(itemId, context).filter(c => c.predicate === "relation.crafted_from")).toHaveLength(itemEdges);
+    expect(index.getEntity(itemId)?.entity_type).toBe("item");
+  });
+
+  it("uses identity types and shared aliases, not special-cased item names", async () => {
+    const { store } = await setup();
+    const recipeId = "ent_4158856feae336a21a199238", itemId = "ent_b66dd47ca47d6b51b1decbd4";
+    const entities = store.entities.map(e => e.entity_id === recipeId || e.entity_id === itemId
+      ? { ...e, canonical_name: { ...e.canonical_name, text: "Lunar Tonic" }, aliases: [{ locale: "en-US", text: "Moon Draught" }] }
+      : e);
+    const index = new KnowledgeIndex({ ...store, entities });
+    for (const name of ["Lunar Tonic", "Moon Draught", "Lunar Tonix"]) {
+      const packet = index.answer(`What ingredients are needed for ${name}?`, context);
+      expect(packet.claims.length).toBeGreaterThan(0);
+      expect(packet.claims.every(c => c.subject_entity_id === recipeId)).toBe(true);
+      expect(JSON.stringify(packet)).not.toContain(itemId);
+    }
+    const itemOnly = new KnowledgeIndex({ ...store, entities: entities.filter(e => e.entity_id !== recipeId), claims: store.claims.filter(c => c.subject_entity_id !== recipeId) });
+    const fallback = itemOnly.answer("What ingredients are needed for Lunar Tonic?", context);
+    expect(fallback.claims.map(c => c.claim_id)).toEqual(["clm_8f4c1ef8699aa90203516450"]);
+  });
+
+  it.each(["spoiler", "platform", "retracted"] as const)("does not substitute item edges when recipe facts are excluded by %s", async (reason) => {
+    const { store } = await setup();
+    const recipeId = "ent_0f44e2bac85651e4e5b136e8", itemId = "ent_827db0496d4febdea9501e73";
+    const claims = store.claims.map((c): Claim => c.subject_entity_id !== recipeId ? c
+      : reason === "spoiler" ? { ...c, spoiler_level: "ending" }
+      : reason === "platform" ? { ...c, validity: { ...c.validity, platforms: ["pc-steam"] } }
+      : { ...c, status: "retracted" });
+    const index = new KnowledgeIndex({ ...store, claims });
+    const packet = index.answer("What ingredients are needed for Wine?", { ...context, platform: "playstation-5" });
+    expect(packet.answer_state).toBe("unknown");
+    expect(packet.claims).toEqual([]);
+    expect(packet.evidence).toEqual([]);
+    expect(packet.strategies).toEqual([]);
+    expect(JSON.stringify(packet)).not.toContain(itemId);
   });
 
   it("preserves unknown acquisition, fabricated names, contexts and S02 withholding", async () => {
@@ -166,7 +218,7 @@ describe("S03 retained recipe ingredient identities", () => {
       const descriptor = (await client.readResource({ uri: "pywel://service" })).contents[0]!;
       if (!("text" in descriptor)) throw new Error("Expected service JSON");
       const app = createApp(store,{ buildId: JSON.parse(descriptor.text).build_id });
-      for (const format of ["full","compact"]) for (const q of ["What ingredients are needed for Freya's Elixir?","What ingredients are needed for Meatball Soup?","What ingredients are needed for Midnight Black Dye?","Where can I get Gold Dust?","What ingredients are needed for Zorblax Elixir?"]) {
+      for (const format of ["full","compact"]) for (const q of ["What ingredients are needed for Freya's Elixir?","What ingredients are needed for Meatball Soup?","What ingredients are needed for Midnight Black Dye?","Where can I get Gold Dust?","What ingredients are needed for Zorblax Elixir?","What ingredients are needed for Wine?","What ingredients are needed for Haiden's Lesser Elixir?","Which ingredients are required to craft Haidens Lesser Elixir?"]) {
         const args = { q, format, patch: "2.01.00", platform: "all", locale: "en-US", spoiler: "none" };
         const response = await app.request(`/v1/answer?${new URLSearchParams(args)}`);
         const body = await response.json();
@@ -175,6 +227,16 @@ describe("S03 retained recipe ingredient identities", () => {
         expect(mcp.structuredContent).toEqual(body);
         expect(body[format === "compact" ? "state" : "answer_state"]).toBe(q.includes("Gold Dust") || q.includes("Zorblax") ? "unknown" : "partial");
         expect(JSON.stringify(body)).not.toMatch(/clm_s02|evd_s02|rcp_s02/);
+        if (q.includes("Wine") || q.includes("Elixir") && !q.includes("Freya") && !q.includes("Zorblax")) {
+          expect(JSON.stringify(body)).not.toMatch(/ent_827db0496d4febdea9501e73|ent_b66dd47ca47d6b51b1decbd4|clm_95b8f15c8fc6897bc00872ce|clm_ee5a7b76900f77d3dd8cc0b7|clm_8f4c1ef8699aa90203516450/);
+          const recipeId = q.includes("Wine") ? "ent_0f44e2bac85651e4e5b136e8" : "ent_4158856feae336a21a199238";
+          if (format === "full") {
+            expect(body.claims.length).toBe(q.includes("Wine") ? 5 : 6);
+            expect(body.claims.every((c: Claim) => c.subject_entity_id === recipeId)).toBe(true);
+          } else {
+            expect(body.claims).toHaveLength(5);
+          }
+        }
         if (format === "compact") expect((body.claims ?? []).length).toBeLessThanOrEqual(5);
       }
     } finally { await client.close(); }

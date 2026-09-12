@@ -32,9 +32,15 @@ The existing **Water** identity is reused for Palmar Pill's missing ingredient e
 
 The held labels are **Fruit, Grain, Meat, Vegetable, Seafood, Medicinal Herb, Quality Medicinal Herb, Small Fish and Medium Fish**. Their exact item-versus-group meaning and substitution membership are unresolved in the retained inputs. Their original recipe assertions remain; no species, inventory item or category membership is invented.
 
-## Known pre-existing name ambiguities
+## Recipe and item name resolution (G03 correction)
 
-The complete 46-recipe query sweep also found that Wine and Haiden's Lesser Elixir already have same-named item and recipe subjects. Their natural-language ingredient answers include, respectively, two and one pre-existing item-side ingredient edges. S03 does not create or enlarge that cross-subject set; all its newly returned ingredient edges target the intended recipe subject. The exact original IDs are fixed in the regression test and the candidate review results. Do not describe those two free-text answers as recipe-only. Exact-ID graph and claim reads distinguish their existing identities. Resolving their broader name-selection behavior would be a separate, demonstrated retrieval change, not an invented data correction in this population batch.
+At the integrated S03 checkpoint `64c08173199fef0903bb4e02bf531f68da680edd`, ingredient questions for Wine and Haiden's Lesser Elixir returned two and one item-side ingredient edges alongside the recipe's claims. S03 did not create those edges. The original records and historical audit remain unchanged.
+
+The subsequent G03 query correction gives a matched recipe precedence over non-recipe identities sharing the same matched normalized name or alias **for ingredient-only questions**. It is not a special case for these two names. Identity selection occurs before patch/platform/spoiler/status filtering, so missing or hidden recipe facts cannot cause substitution of item-side claims. An item-only match still uses its existing ingredient evidence when no matching recipe identity exists. Search and exact-ID reads retain both identities and their records.
+
+Wine now returns its five recipe input/relationship records; Haiden's Lesser Elixir returns six. Their three original item-side edges are preserved for exact-ID retrieval, not retracted or relabeled. All 46 reviewed recipes are checked for recipe-only ingredient subjects. Full/compact REST and actual stdio MCP regressions cover both names and the elixir alias, including compact truncation limits and historical uncertainty.
+
+This is a bounded shared-query repair, not population, source re-admission or a general natural-language disambiguation redesign. Other intents and compound requests retain their prior routing; use exact IDs for explicit item-versus-recipe selection outside the ingredient-only case. The correction PR records its actual head/base, review, required pinned-runtime CI and resulting-main verification. No canonical data, quantity, source context, schema, dependency, S02 exclusion or published release changes.
 
 ## Validation and integration
 
