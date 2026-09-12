@@ -1,0 +1,673 @@
+{
+  "base_additions_blob": "1f1afcb53ec3613d97af8c5c3d810a8bad8bdc04",
+  "base_commit": "26942c359be790dc6b821b3660907ddc4b0632f0",
+  "base_data_tree": "595c188af3131ef234e1773a6a401b377b0aea07",
+  "counts": {
+    "existing_typed_outputs_reused": 5,
+    "new_evidence": 0,
+    "new_output_identities": 41,
+    "new_typed_output_links": 41,
+    "prior_output_assertions": 48,
+    "recipe_subjects": 46,
+    "unresolved_outputs_in_cohort": 0
+  },
+  "derived_at": "2026-09-12T17:38:34Z",
+  "limitations": [
+    "This cohort is 46 retained recipes, not all recipes in the game.",
+    "New entities use the generic item subtype; names do not establish consumable, resource, equipment or other implementation classifications.",
+    "No yield count, effect, acquisition route, substitution, stock, unlock or current-build assertion is added.",
+    "Original strings remain alongside identity links. The link is another representation of the same supported output, not an additional independent source.",
+    "Evidence remains historical and unverified; original capture dates, shared independence group, platforms, spoiler levels and null review bounds are preserved.",
+    "The retained alchemy evidence locator is not refreshed or silently repaired.",
+    "S02 remains excluded; no new collection permission or policy waiver is inferred.",
+    "Source admission requires actual PR review, passing pinned-runtime checks, guarded merge and resulting-main verification before integration is complete."
+  ],
+  "milestone": "S04",
+  "output_mapping": [
+    {
+      "disposition": "reuse_existing_link",
+      "output_entity_id": "ent_844d8528e853cd98c4449f07",
+      "output_label": "Fish Porridge",
+      "prior_output_claim_ids": [
+        "clm_44f74f2ad00076123eba6bfd"
+      ],
+      "recipe_entity_id": "ent_03c5ba0bf6270dc203d010ab",
+      "source_output_claim_id": "clm_44f74f2ad00076123eba6bfd",
+      "typed_output_claim_id": "clm_44f74f2ad00076123eba6bfd"
+    },
+    {
+      "disposition": "reuse_existing_link",
+      "output_entity_id": "ent_827db0496d4febdea9501e73",
+      "output_label": "Wine",
+      "prior_output_claim_ids": [
+        "clm_417891680dd274b0a84e8c31"
+      ],
+      "recipe_entity_id": "ent_0f44e2bac85651e4e5b136e8",
+      "source_output_claim_id": "clm_417891680dd274b0a84e8c31",
+      "typed_output_claim_id": "clm_417891680dd274b0a84e8c31"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s0470222920bf489799ff047956",
+      "output_label": "Royal Gold Dye",
+      "prior_output_claim_ids": [
+        "clm_be72098eefc1245da886ef8a"
+      ],
+      "recipe_entity_id": "ent_11013a31269f61b38e9045d3",
+      "source_output_claim_id": "clm_be72098eefc1245da886ef8a",
+      "typed_output_claim_id": "clm_s042e44b2be1f0837e687b42b3f"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s04be08af771ed51d8ffb6964c0",
+      "output_label": "Seafood & Bird Stew",
+      "prior_output_claim_ids": [
+        "clm_eb819cfcf7d83666c9481249"
+      ],
+      "recipe_entity_id": "ent_11f1b3b38826e851cb876400",
+      "source_output_claim_id": "clm_eb819cfcf7d83666c9481249",
+      "typed_output_claim_id": "clm_s04ac09b570881d865a11c696a5"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s04f592db1dcaccf7c0cc1733b3",
+      "output_label": "Fruit Tea",
+      "prior_output_claim_ids": [
+        "clm_0acdb7b37a80aad887335d33"
+      ],
+      "recipe_entity_id": "ent_143cc2bcb8cabe68ea843701",
+      "source_output_claim_id": "clm_0acdb7b37a80aad887335d33",
+      "typed_output_claim_id": "clm_s048029b17646fe9939fcdb9d5f"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s044f00eff44ea879fcd646dd26",
+      "output_label": "Fish Fry",
+      "prior_output_claim_ids": [
+        "clm_5960ad49ed2cc7373f529a4b"
+      ],
+      "recipe_entity_id": "ent_14abb1243a29666ee279b722",
+      "source_output_claim_id": "clm_5960ad49ed2cc7373f529a4b",
+      "typed_output_claim_id": "clm_s04ac0f79381d7a77cd1aa8e8dd"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s043c7df0070eb08c0a435a6b40",
+      "output_label": "Simple Meat Porridge",
+      "prior_output_claim_ids": [
+        "clm_a25ffc598f19e7726558a688"
+      ],
+      "recipe_entity_id": "ent_150a4a1ebec468988cb13e9f",
+      "source_output_claim_id": "clm_a25ffc598f19e7726558a688",
+      "typed_output_claim_id": "clm_s04d7937d5e075285e27e6e7dcd"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s04eaf721ed4d5d3366d8771c01",
+      "output_label": "Seafood Fry",
+      "prior_output_claim_ids": [
+        "clm_531076afc4feaebc5dfe50af"
+      ],
+      "recipe_entity_id": "ent_168981a3b19aa6ebc5ff7382",
+      "source_output_claim_id": "clm_531076afc4feaebc5dfe50af",
+      "typed_output_claim_id": "clm_s04137819ccb333d4c299969bd7"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s0488f5b4131b7e5d8b0097ab4d",
+      "output_label": "Fish Soup",
+      "prior_output_claim_ids": [
+        "clm_dd92e5f4e10d4facacbd2bd4"
+      ],
+      "recipe_entity_id": "ent_23a74ff251f041c5554f0a4f",
+      "source_output_claim_id": "clm_dd92e5f4e10d4facacbd2bd4",
+      "typed_output_claim_id": "clm_s0463ed5dccc21f0f3d0c58f1f8"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s04f5f995c85b4ef2faaf877534",
+      "output_label": "Oakwood Mushroom Tea",
+      "prior_output_claim_ids": [
+        "clm_e92ff77a2b7253dad89c8f91"
+      ],
+      "recipe_entity_id": "ent_38ee02cb58a09139b5106573",
+      "source_output_claim_id": "clm_e92ff77a2b7253dad89c8f91",
+      "typed_output_claim_id": "clm_s042491273234d7ceaba52cb865"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s049ddc62d324e6f0521505804e",
+      "output_label": "Freya's Elixir",
+      "prior_output_claim_ids": [
+        "clm_9058e9c62728dd7c78b5f160"
+      ],
+      "recipe_entity_id": "ent_3c3a97c5513968b5c079b53f",
+      "source_output_claim_id": "clm_9058e9c62728dd7c78b5f160",
+      "typed_output_claim_id": "clm_s048871f915e10c7b2f67824f1b"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s04d79831d93a3e8b0e829ccdfa",
+      "output_label": "Meliara's Elixir",
+      "prior_output_claim_ids": [
+        "clm_eae3320aec64f94267654340"
+      ],
+      "recipe_entity_id": "ent_3c49a08e84b7f0d25bd8e179",
+      "source_output_claim_id": "clm_eae3320aec64f94267654340",
+      "typed_output_claim_id": "clm_s0494748401e597386298b12018"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s049fd4870d5596d1b776e329e6",
+      "output_label": "Creamy Meat Soup",
+      "prior_output_claim_ids": [
+        "clm_9408b2bbbb74eb13f6a320bc"
+      ],
+      "recipe_entity_id": "ent_3f8a9d8c6073e808a0b25f2d",
+      "source_output_claim_id": "clm_9408b2bbbb74eb13f6a320bc",
+      "typed_output_claim_id": "clm_s0463bd0745af756ffb320b8953"
+    },
+    {
+      "disposition": "reuse_existing_link",
+      "output_entity_id": "ent_b66dd47ca47d6b51b1decbd4",
+      "output_label": "Haiden's Lesser Elixir",
+      "prior_output_claim_ids": [
+        "clm_9beae308de1d37e38ac99d09"
+      ],
+      "recipe_entity_id": "ent_4158856feae336a21a199238",
+      "source_output_claim_id": "clm_9beae308de1d37e38ac99d09",
+      "typed_output_claim_id": "clm_9beae308de1d37e38ac99d09"
+    },
+    {
+      "disposition": "reuse_existing_link",
+      "output_entity_id": "ent_s03ab929b20e36553217f3ba6dd",
+      "output_label": "Boiled Meat",
+      "prior_output_claim_ids": [
+        "clm_7f2c670183780c1fdff76a46",
+        "clm_s03c9bc2000cefdc5632d38c401"
+      ],
+      "recipe_entity_id": "ent_4636d5719dea56c5ba734a60",
+      "source_output_claim_id": "clm_s03c9bc2000cefdc5632d38c401",
+      "typed_output_claim_id": "clm_s03c9bc2000cefdc5632d38c401"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s0446d8c1559e7c657a549286ca",
+      "output_label": "Meat Stew",
+      "prior_output_claim_ids": [
+        "clm_b0f287a3019b88d003601007"
+      ],
+      "recipe_entity_id": "ent_479a93f69c96c7fda9202fd3",
+      "source_output_claim_id": "clm_b0f287a3019b88d003601007",
+      "typed_output_claim_id": "clm_s0424c9c8e7ec33d8a45f2caa69"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s04a4b92f095f218605da85dd42",
+      "output_label": "Vegetable Juice",
+      "prior_output_claim_ids": [
+        "clm_0326a7287d051f124f36d5fa"
+      ],
+      "recipe_entity_id": "ent_4e499499e9969fa550a62717",
+      "source_output_claim_id": "clm_0326a7287d051f124f36d5fa",
+      "typed_output_claim_id": "clm_s047fbb4ab7f7bcfdd5a790a8c6"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s048190caa7fe6ab880337e01ab",
+      "output_label": "Midnight Black Dye",
+      "prior_output_claim_ids": [
+        "clm_c95a1a9891dfa07248402409"
+      ],
+      "recipe_entity_id": "ent_54f5a8165a2dba37c19d1eed",
+      "source_output_claim_id": "clm_c95a1a9891dfa07248402409",
+      "typed_output_claim_id": "clm_s0497b7b3c6e93d3b31cc8db06d"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s0404eabe2b7e566d283ef373b3",
+      "output_label": "Meat and Vegetable Porridge",
+      "prior_output_claim_ids": [
+        "clm_dba80367fbe50d3d085baf0b"
+      ],
+      "recipe_entity_id": "ent_563201b636aefc447d1d9625",
+      "source_output_claim_id": "clm_dba80367fbe50d3d085baf0b",
+      "typed_output_claim_id": "clm_s043e6062c0ea1397b5e74f6576"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s04c7b46088726fd5376836bfa1",
+      "output_label": "Marinated Meat",
+      "prior_output_claim_ids": [
+        "clm_fc5871744e2a1f539cc9a779"
+      ],
+      "recipe_entity_id": "ent_5bb8fb76f7bb28ff0ca7b338",
+      "source_output_claim_id": "clm_fc5871744e2a1f539cc9a779",
+      "typed_output_claim_id": "clm_s045c8fa327b760e7c3fdc541cc"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s048a6f2f7ada8277cfe52c717c",
+      "output_label": "Refined Palmar Pill",
+      "prior_output_claim_ids": [
+        "clm_41b9849dc32bc9ccc5f3ab98"
+      ],
+      "recipe_entity_id": "ent_5f8dd155f9de4c2129eceae8",
+      "source_output_claim_id": "clm_41b9849dc32bc9ccc5f3ab98",
+      "typed_output_claim_id": "clm_s040cd81313e9ffc2b1497a43b9"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s04c478da09096b9648e3ea18a1",
+      "output_label": "Pan-Fried Fine Meat",
+      "prior_output_claim_ids": [
+        "clm_bb8f2c2ee8a1c109c1035289"
+      ],
+      "recipe_entity_id": "ent_644f166107b14c0f93715e32",
+      "source_output_claim_id": "clm_bb8f2c2ee8a1c109c1035289",
+      "typed_output_claim_id": "clm_s0442c6311f91788fb92b61038b"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s040fbfb8939f194e834584be78",
+      "output_label": "Meliara's Lesser Elixir",
+      "prior_output_claim_ids": [
+        "clm_19c2cdc47d79b4fa3092661b"
+      ],
+      "recipe_entity_id": "ent_664b1f96b2452e94ccbbcc9a",
+      "source_output_claim_id": "clm_19c2cdc47d79b4fa3092661b",
+      "typed_output_claim_id": "clm_s04937fb4d2e66fc1236da3de27"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s04cb9a991c4a7a3b6df21d7589",
+      "output_label": "Pan-Fried Vegetables",
+      "prior_output_claim_ids": [
+        "clm_b003d7aae56140d77eaa25ac"
+      ],
+      "recipe_entity_id": "ent_69a9fa6dfb66fe9ce494a92d",
+      "source_output_claim_id": "clm_b003d7aae56140d77eaa25ac",
+      "typed_output_claim_id": "clm_s04fb47b7048c415f446963e37f"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s04b86928068066865428c927c5",
+      "output_label": "Seafood Soup",
+      "prior_output_claim_ids": [
+        "clm_33a75519e7fce91dbdc9156b"
+      ],
+      "recipe_entity_id": "ent_6eb01f947143d14deca8b097",
+      "source_output_claim_id": "clm_33a75519e7fce91dbdc9156b",
+      "typed_output_claim_id": "clm_s04bf486892aacc9be233f15cbb"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s04808af741f70eba5c968ac715",
+      "output_label": "Spirit Gauge Potion",
+      "prior_output_claim_ids": [
+        "clm_01bf8a78ba9cd7b7d88e0ab2"
+      ],
+      "recipe_entity_id": "ent_71b73f52515fe122b11b5629",
+      "source_output_claim_id": "clm_01bf8a78ba9cd7b7d88e0ab2",
+      "typed_output_claim_id": "clm_s0446328a4192a3d59f8371f93a"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s04622badb0232a18b5b41eb396",
+      "output_label": "Platinum",
+      "prior_output_claim_ids": [
+        "clm_71027470076fccb8eec6d5d6"
+      ],
+      "recipe_entity_id": "ent_79601484c6c30655d3df006b",
+      "source_output_claim_id": "clm_71027470076fccb8eec6d5d6",
+      "typed_output_claim_id": "clm_s04e6032016d53f785f95cb9eff"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s04c98fe7170c74f3fe152ff92f",
+      "output_label": "Fruit Porridge",
+      "prior_output_claim_ids": [
+        "clm_19056449be4d5335897b9763"
+      ],
+      "recipe_entity_id": "ent_82f3588da0dfed1a2f73ee3a",
+      "source_output_claim_id": "clm_19056449be4d5335897b9763",
+      "typed_output_claim_id": "clm_s0457b4e6627e18cfb5f1f3d901"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s0452bfc77363e564bb0f9077e2",
+      "output_label": "Mild Herbal Tea",
+      "prior_output_claim_ids": [
+        "clm_db747b3f88c4f8dc27a64d6c"
+      ],
+      "recipe_entity_id": "ent_84bca4977c727b61bb35e2e2",
+      "source_output_claim_id": "clm_db747b3f88c4f8dc27a64d6c",
+      "typed_output_claim_id": "clm_s042dbc749c73fb96455b549a8c"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s0450efb5751c9b75251d909654",
+      "output_label": "Crimson Dye",
+      "prior_output_claim_ids": [
+        "clm_0c2a5a326d7fe5b52b521e48"
+      ],
+      "recipe_entity_id": "ent_84eab6e41a71565f679df592",
+      "source_output_claim_id": "clm_0c2a5a326d7fe5b52b521e48",
+      "typed_output_claim_id": "clm_s04d17810b8e4549e6384736d6a"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s04c962a2d777375bf9adfa56fe",
+      "output_label": "Seafood Porridge",
+      "prior_output_claim_ids": [
+        "clm_3954059ad548c3ccb7a64584"
+      ],
+      "recipe_entity_id": "ent_89d31109424a84f68a407d81",
+      "source_output_claim_id": "clm_3954059ad548c3ccb7a64584",
+      "typed_output_claim_id": "clm_s0404c71ab03869cf5e02b86b70"
+    },
+    {
+      "disposition": "reuse_existing_link",
+      "output_entity_id": "ent_s03c5b8acce23ec128ccb3d3416",
+      "output_label": "Meat and Fish Skewers",
+      "prior_output_claim_ids": [
+        "clm_7711200bb385038e39be2f08",
+        "clm_s035a5634eadd8def2052363189"
+      ],
+      "recipe_entity_id": "ent_8b27e32376389d63ee0eaae8",
+      "source_output_claim_id": "clm_s035a5634eadd8def2052363189",
+      "typed_output_claim_id": "clm_s035a5634eadd8def2052363189"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s047b8aeb7bfc6a5f3652b96696",
+      "output_label": "Fine Seafood Stew",
+      "prior_output_claim_ids": [
+        "clm_392cc6b3df756bb68be5139d"
+      ],
+      "recipe_entity_id": "ent_8eeba8bd21b526c56d120995",
+      "source_output_claim_id": "clm_392cc6b3df756bb68be5139d",
+      "typed_output_claim_id": "clm_s04e25571c96ff7ceeba7faf0db"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s04219f678d7bb3dd2a8fe0b9ae",
+      "output_label": "Marinated Fish",
+      "prior_output_claim_ids": [
+        "clm_058d6387cc39e2a906908b93"
+      ],
+      "recipe_entity_id": "ent_931dcd0fc4da2de03c86abb1",
+      "source_output_claim_id": "clm_058d6387cc39e2a906908b93",
+      "typed_output_claim_id": "clm_s041fc73ede3fbe110117a0aaa9"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s04cf6ac0a91195dd6d94218008",
+      "output_label": "Honey Tea",
+      "prior_output_claim_ids": [
+        "clm_40cdc101e705d02e37a45c0f"
+      ],
+      "recipe_entity_id": "ent_9b5014c7efec96931ce80d8d",
+      "source_output_claim_id": "clm_40cdc101e705d02e37a45c0f",
+      "typed_output_claim_id": "clm_s04199f8a2489689a4134000c0d"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s04361424a37fb1c85c2792925c",
+      "output_label": "Grilled Meat Steak",
+      "prior_output_claim_ids": [
+        "clm_fdf45742ec234ba404de38bd"
+      ],
+      "recipe_entity_id": "ent_a408cb61e55821597416abbb",
+      "source_output_claim_id": "clm_fdf45742ec234ba404de38bd",
+      "typed_output_claim_id": "clm_s04dba85bfb556c8c96ed6a5dc2"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s044127a8154022bff818bccf38",
+      "output_label": "Haiden's Elixir",
+      "prior_output_claim_ids": [
+        "clm_f7f9d77a6cd1ae138012fd8c"
+      ],
+      "recipe_entity_id": "ent_a86c763b8cb20b24ef850ab9",
+      "source_output_claim_id": "clm_f7f9d77a6cd1ae138012fd8c",
+      "typed_output_claim_id": "clm_s04587de1f8b00c8f28361064e7"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s0403540e451b77eb97fcba76c9",
+      "output_label": "Apollonia's Lesser Elixir",
+      "prior_output_claim_ids": [
+        "clm_7cc4cdee5593e4361fae3f25"
+      ],
+      "recipe_entity_id": "ent_b15bb81db2aff0a3804d0d40",
+      "source_output_claim_id": "clm_7cc4cdee5593e4361fae3f25",
+      "typed_output_claim_id": "clm_s0445268db0c80363bd7df2ea4b"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s04fc3403569b2dc749d93578f4",
+      "output_label": "Fine Meat Mixed Fry",
+      "prior_output_claim_ids": [
+        "clm_dc61cf749351a121a8695168"
+      ],
+      "recipe_entity_id": "ent_c9535443cb8a556f638caf3f",
+      "source_output_claim_id": "clm_dc61cf749351a121a8695168",
+      "typed_output_claim_id": "clm_s044f592414e3061092365e25ef"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s04faaa613f25eef4bde76da9e5",
+      "output_label": "Astrid's Lesser Elixir",
+      "prior_output_claim_ids": [
+        "clm_b5ae1eda47ca5a3997e9f31b"
+      ],
+      "recipe_entity_id": "ent_d2d4221bdc0342f4a1b77eae",
+      "source_output_claim_id": "clm_b5ae1eda47ca5a3997e9f31b",
+      "typed_output_claim_id": "clm_s04da5c063e72f45a3d2709fc1b"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s04137ae13f9144053350d44eaf",
+      "output_label": "Vegetable Salad",
+      "prior_output_claim_ids": [
+        "clm_9578a778920469e6694d4985"
+      ],
+      "recipe_entity_id": "ent_d9c90d94d1e0d3c4c6d50ed4",
+      "source_output_claim_id": "clm_9578a778920469e6694d4985",
+      "typed_output_claim_id": "clm_s04aace118fa2d54a45154598a0"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s046ccd2a6eb89ded75fde1be6d",
+      "output_label": "Egg Soup",
+      "prior_output_claim_ids": [
+        "clm_b16c7a6c11e6033bfbf3b515"
+      ],
+      "recipe_entity_id": "ent_e772bc466331e951df46475e",
+      "source_output_claim_id": "clm_b16c7a6c11e6033bfbf3b515",
+      "typed_output_claim_id": "clm_s04299cfd68f6f09b21b722a97d"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s04478cb762ce0c3eba4105e8ec",
+      "output_label": "Palmar Pill",
+      "prior_output_claim_ids": [
+        "clm_3a76b7410989afba27fc7b52"
+      ],
+      "recipe_entity_id": "ent_e8b9801164c3598cdf32cc89",
+      "source_output_claim_id": "clm_3a76b7410989afba27fc7b52",
+      "typed_output_claim_id": "clm_s04be0f07c22071b08e5bd04b59"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s043d6054894e204b6a0a8ed531",
+      "output_label": "Grilled Bread",
+      "prior_output_claim_ids": [
+        "clm_eeaa3982ab1017db7ef5d3d0"
+      ],
+      "recipe_entity_id": "ent_eee0c44c0b64b4135ee302f7",
+      "source_output_claim_id": "clm_eeaa3982ab1017db7ef5d3d0",
+      "typed_output_claim_id": "clm_s041442fec9f1c0e16215ac7af2"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s044f28a330968ad6d7398a62b2",
+      "output_label": "Meatball Soup",
+      "prior_output_claim_ids": [
+        "clm_740df6536474d98c7c02ffb6"
+      ],
+      "recipe_entity_id": "ent_f02bd783538d05a4d19dfa36",
+      "source_output_claim_id": "clm_740df6536474d98c7c02ffb6",
+      "typed_output_claim_id": "clm_s04ef4bcd3e7356e2a71fa92aff"
+    },
+    {
+      "disposition": "new_output_identity_and_link",
+      "output_entity_id": "ent_s04cfa9377d654a3c88d1e7c5b7",
+      "output_label": "Forest Green Dye",
+      "prior_output_claim_ids": [
+        "clm_f4adbd9a873fc9916d2adce5"
+      ],
+      "recipe_entity_id": "ent_f2f901ec1be4b269ba560b54",
+      "source_output_claim_id": "clm_f4adbd9a873fc9916d2adce5",
+      "typed_output_claim_id": "clm_s0484f98a15478567e2028672a4"
+    }
+  ],
+  "prior_canonical_files": {
+    "data/canonical/claims/controller-remapping-available.json": "c890065c764c7a4ee4a5a5ba61d8fccf9f8e9451377220a0d3a0bbc4b717d6fe",
+    "data/canonical/claims/creative-research-seed.json": "990f8133f845c8ea4244a0a10f25f59d8d0172d30b060fbf043b962375544eaa",
+    "data/canonical/claims/crimsonwiki-abyss-gear-depth-v0.4.json": "96a191fac8013905cbce611b88b9f2375503dc6f0c5b0342e9e8dde6ff3fe61d",
+    "data/canonical/claims/crimsonwiki-alchemy-depth-v0.4.json": "74b9d60b1331d76d87d2a0c7a3671fe3fdf10925970593616c4f07320862e5d7",
+    "data/canonical/claims/crimsonwiki-chapter-fields-v0.4.json": "e8d74be061ff07d37d1c341cd7684266dac00be755a648f7631231c6f97f0286",
+    "data/canonical/claims/crimsonwiki-chapter-objectives-v0.4.json": "28a9fa92ca01d528a2b5dfb10e67fa5794c97226c517f0ebc79d8843a32305e0",
+    "data/canonical/claims/crimsonwiki-cooking-recipes-v0.4.json": "9efbb855a2f81606497b44bc5774ffaff5e2a9d488c9cbcd7a2d75348d776639",
+    "data/canonical/claims/crimsonwiki-licensed-bosses-v0.4.json": "89586065fe3522eeadb7363a2e38a1a5f6bf417dd122a6a74af61b0b58cad6af",
+    "data/canonical/claims/depth-first-official-facts-v1.json": "aa97d6aa86370f02e6d70f52fbb398e1bbc8c62295d69855c8af81d3aedafad9",
+    "data/canonical/claims/farming-seed-quickslots.json": "f94ac5e11ae341bfd80f3c90d2b705d15ab44768b5dd7be8686f00fe9e184123",
+    "data/canonical/claims/identity-repair-quest-challenges-v0.4.json": "5998616625d6e9b6b91bbca40c60cb2eca99c69436bc4b01f1799ef9061885e4",
+    "data/canonical/claims/licensed-mount-roster-depth-v0.4.json": "4212705c2f440c218cc1f72532a11a419c35ba521693a8870f6a7e68192da4f8",
+    "data/canonical/claims/licensed-near-full-actor-abilities-v0.4.json": "c038c7cd0cd33169b724b11cb8a4816912fb9e3ea199b23ddeedce17e342c09c",
+    "data/canonical/claims/m7-house-roberts.json": "7d7a669726f9ec3f847780e73ad82834b96d4fdafbd75f7793451822e3c660c9",
+    "data/canonical/claims/m8a-progression.json": "b41d159886deaaf32e7a317f38362d22110b6af1405df69e7d895b12d9aa6ad9",
+    "data/canonical/claims/m8b-equipment.json": "3bdb518a3fa3a138edef31e5e1306f644cd9605ce4953d5c18235cab0db898a8",
+    "data/canonical/claims/magic-scythe-full-inventory.json": "00c27ee3a2ce1c2eab30065c0f4918e6ab6585e2111b5feceea1faa7335d5fb0",
+    "data/canonical/claims/priority-home-base-closure-v0.4.json": "df2508d815ff0b5a3859a37054ee2db4df9a6f2c84d70fe08ca597e2db96f768",
+    "data/canonical/claims/priority-licensed-closure-v0.4.json": "9a3578e4c7618ec04fb9470592c36c8282f4d66e4488ce4ffe7a623091464843",
+    "data/canonical/claims/priority-tail-relationships-v0.4.json": "65d04fb0bd1a74db13783ea62dbf548c7625fdb2daabe6c4e737b1ca80270c86",
+    "data/canonical/claims/r01-equipment-database.json": "7c778a34f069096844fde3f5179cd055eeb1591d6cf9fcc54b2cd6e3b7cc1879",
+    "data/canonical/claims/relationship-completion-nine-v0.4.json": "8f5a54c185edac16714d4401be34e6ce0eda84e5edf3f82d0473d4fd88916e4c",
+    "data/canonical/claims/s01-equipment.json": "b57aa624253af81fa9908013529d59bdc327d4b9f15920967e6b753e6d8a6c39",
+    "data/canonical/claims/s03-recipe-inputs.json": "7f37b394a23e398d7b00b476f462c1d114ea99585fae9787975db7714c9571c6",
+    "data/canonical/claims/wave-two-skill-cost-unlocks-v0.4.json": "741bc248bdf5034058ef0c11ff528e830fdba40338695cdd001913c674538a63",
+    "data/canonical/claims/wave-two-world-regions-v0.4.json": "2aee71506ba6d7606001fae545994e79deac514eca7b9e626115c4195b4206a5",
+    "data/canonical/entities/community-catalog-seed.json": "ce8bd3f9c197849eb69e831ff1e6faa1d496cfed1926a87c64e22375441b123c",
+    "data/canonical/entities/community-catalog-v0.3.json": "a93f0ccbea44cf4dff71d11bb64a8e852f4e46ae70e195d8fa0bc533157b12d6",
+    "data/canonical/entities/creative-research-seed.json": "5bb34a37b8b48808f49ccca74dfdb8f5a1c092881b5826cc2177cdcfe097dd12",
+    "data/canonical/entities/crimsonwiki-alchemy-depth-v0.4.json": "6f1e5d27be081a0d292e79051b10372844322a030505a782efa74756ffad816a",
+    "data/canonical/entities/crimsonwiki-cooking-recipes-v0.4.json": "e33db3be7b094b124f781389b33719db5ffdf23d96e27c9d90544058f4c669f9",
+    "data/canonical/entities/depth-first-official-entities-v1.json": "cf88fa7abaec9d513e73528ab32dbdd9b3bf67faa6db43e7fe6f2f252063f068",
+    "data/canonical/entities/depth-first-systems-v1.json": "b80e06283df162ec92f9e3abd59b31fa89aa01097df34825c79d6549ff4f0776",
+    "data/canonical/entities/item-magic-scythe.json": "37f651b90ecafd01f165844bbb195cd3e51b8c7de3390f4fee7aae21fb57926b",
+    "data/canonical/entities/licensed-mount-roster-depth-v0.4.json": "abe9e68211c938459c56131c33bd45ef31547e70d8f35801f99ab9c893800bdc",
+    "data/canonical/entities/m7-house-roberts.json": "4b4d1d6ba61f4e1321de43f539b9042331d9b4a7a13a70d902045df0c706592a",
+    "data/canonical/entities/m8b-equipment.json": "ce6ed10a2823a77a5b15dbe28e61a6d48fab4848dc92bd4644c654e9d69d74ad",
+    "data/canonical/entities/official-catalog-distinct-identities-v0.4.json": "b91bea529d204eb1f4a3a0a9d4aa6146eae15a93ffc6e2db1d14c8d5723a8578",
+    "data/canonical/entities/s01-equipment.json": "c78b25cd40b6fc4e29da18484e150fe1e2465e71a92ce76874f2b4155bcecc45",
+    "data/canonical/entities/s03-recipe-inputs.json": "3dd6602a8a984f34e2122f0ab616dea183b2589c65d4c9ffd12e8ea22fb09095",
+    "data/canonical/entities/system-controller-remapping.json": "a9ed5dff8fb45168157c56157e033bb28e9ff2307049ecf5bc842ca748164a4d",
+    "data/canonical/entities/system-farming.json": "290d9ff5a9f7e5b1f0e2c686a88e4395902826482858c7782b6d451e7bf87c5b",
+    "data/canonical/evidence/crimsonwiki-abyss-gear-depth-v0.4.json": "b069bc04b6aa2ea79badab485f07e3092aa355dc1368e07e6b7a494884c28cf5",
+    "data/canonical/evidence/crimsonwiki-alchemy-depth-v0.4.json": "3801e45593eb171aca270efd7cc11abf630de515a78d7554c975b6e051f0cbf2",
+    "data/canonical/evidence/crimsonwiki-chapter-fields-v0.4.json": "d0c0dd00c03f7fa5922eb21db87ff5ebecddc433647f839a3b36906569455624",
+    "data/canonical/evidence/crimsonwiki-chapter-objectives-v0.4.json": "9fdd704dcac717326a8c20fe763a38954d6237ca89ec68f7e2775417a0f63ce2",
+    "data/canonical/evidence/crimsonwiki-cooking-recipes-v0.4.json": "bcf7afe9d4e53b4ea360d758096d213f2e3ab7c4b04e6a82e6f9806d38f2380d",
+    "data/canonical/evidence/crimsonwiki-licensed-bosses-v0.4.json": "47d87528787b528f7f718d6de714b73c6e45bbd7ca275bd7f402bb9d67bf7984",
+    "data/canonical/evidence/g02-official-catchup.json": "3fe7ff0c813463c2bcdf78c81f94d38153c65bbd9e2d0b9d362aa07411b269bc",
+    "data/canonical/evidence/licensed-mount-roster-depth-v0.4.json": "bebe8186e778c7236e8cce60ca014a97bc312ba2bb821324317f8ae6481e474c",
+    "data/canonical/evidence/licensed-near-full-actor-abilities-v0.4.json": "e807ef4dbb9f86e716ea8aadc7a614490103e7b417baa630c7915d1355dd17cc",
+    "data/canonical/evidence/m7-house-roberts.json": "7643d3b8c70f7c61f36240c817ccb582819a7bb86fd2911726c2b4b9db0527bb",
+    "data/canonical/evidence/m8a-progression.json": "7f2b09ad7e756a164e0ee9c709f8536ee6fcc8d61a786eea22699966721a2f32",
+    "data/canonical/evidence/m8b-equipment.json": "17cc196f31bcb6a8513d71204879a8d24485c576b749d21b2f8d408613bc26a0",
+    "data/canonical/evidence/official-patch-history.json": "5059d2f1d78ba4d0efc20ee6f21ad17e16ca82b9deae28f5e2f077fc4be906c9",
+    "data/canonical/evidence/patch-1.09.00-official.json": "a7170bb1683877a8eec4eb96199ee84475bc999094ce9b9d8431eacb2de5caa7",
+    "data/canonical/evidence/r01-equipment-database.json": "e2aee03faeb17c06f2da50067f3b2aa98be785219f210c70e32a2d20beb4b4d9",
+    "data/canonical/evidence/s01-equipment.json": "4c2b303c64cf1e84ed601f2d65ea95e6c7920fc6cd4a76e2944ed754a0d847ab",
+    "data/canonical/evidence/wave-two-world-regions-v0.4.json": "73a6d6128d68a3914b857683565fc38b3032633b602c6bdba8649e0fb0020ab3",
+    "data/canonical/patches/1.09.00.json": "49a345c204c263284a84156b7c2a8ca873760768efd21eb5356e3afe738fb489",
+    "data/canonical/patches/g02-official-catchup.json": "b99cde6a7a6c744b903311583315e6c7736b773694d6b132bb864078bce1a1d8",
+    "data/canonical/patches/official-patch-history.json": "1542f1d516bed67c4d52ada8bf51fe4fa3a290aa9e15931eca7ab71283bf22e4",
+    "data/canonical/receipts/g02-official-catchup.json": "d34447dc1ae97280b4dd0f3ff262eb118d93a1d07a65e60b4790bc02c7535492",
+    "data/canonical/receipts/m7-house-roberts.json": "fca2eea55af93ab323b63984c451df96ed7c933fb0bf47f78133264418ce9181",
+    "data/canonical/receipts/m8a-progression.json": "a7059b71c3bbf3d1cc147462c76094d81a17b57b2471c231d9af8d38b1f5b807",
+    "data/canonical/receipts/m8b-equipment.json": "407e4d8d4f6d70e400265a977ffd913e3a72d14650ce6922950696b38e0e0c67",
+    "data/canonical/receipts/public-selection-m1.json": "272ea7b68e3c30bd324167d52331ca3843419376a4f5d72cbd7a304ddf836c5d",
+    "data/canonical/receipts/r01-equipment-database.json": "01ea1b36d3b98deb59c9fe14565b5b0c7c068bb95158e506bf428e0fb68815fd",
+    "data/canonical/receipts/s01-equipment.json": "ea6aaf5a1bc774abbeebe55afa293416ca05f3ec5ccd2b8f28b2c0991a023f29",
+    "data/canonical/receipts/s03-recipe-inputs.json": "8f5f98437b62d33d6da7b9813138a0dfb6cdd3fd083ec32cf67832f6c7ab237e",
+    "data/canonical/strategies/farming-seed-quickslot.json": "05e593326d20341cad9756d65551b28975fc6ac141bb964a6360898999b2f7ea"
+  },
+  "prior_record_hashes": {
+    "claims": "2e693095a2072a32200e642a9c95eff697654fc84606ffcdd8da22b7fd3efb55",
+    "entities": "b2080f7dadcba19896cfb1332ccc19e0aea690c9754570e651ab23310c33c5e9",
+    "evidence": "308ad399fed51b04423b176a4fa84469953be9b0c136b346bbede59d010f856f",
+    "patches": "f5f6d5a0537b2d95edb2699c96c0395afe73deefc543a940b2e2a010f9f0b200",
+    "receipts": "003adce408b46afb8f04b76f0d94f9e2f07eedad2323bae1942bc58cd4c3f9e0",
+    "strategies": "b842cccda8eca332a4d26d017463f1118b5b339b3b681dc3665ae50ba3f8b126"
+  },
+  "receipt_id": "rcp_s04recipeoutputs2026091201",
+  "receipt_payload_sha256": "8e1d9eb4b5ce90b34c1deee5740100540f4a931b4608074e576e6b72ec7e46db",
+  "recipe_subject_ids": [
+    "ent_03c5ba0bf6270dc203d010ab",
+    "ent_0f44e2bac85651e4e5b136e8",
+    "ent_11013a31269f61b38e9045d3",
+    "ent_11f1b3b38826e851cb876400",
+    "ent_143cc2bcb8cabe68ea843701",
+    "ent_14abb1243a29666ee279b722",
+    "ent_150a4a1ebec468988cb13e9f",
+    "ent_168981a3b19aa6ebc5ff7382",
+    "ent_23a74ff251f041c5554f0a4f",
+    "ent_38ee02cb58a09139b5106573",
+    "ent_3c3a97c5513968b5c079b53f",
+    "ent_3c49a08e84b7f0d25bd8e179",
+    "ent_3f8a9d8c6073e808a0b25f2d",
+    "ent_4158856feae336a21a199238",
+    "ent_4636d5719dea56c5ba734a60",
+    "ent_479a93f69c96c7fda9202fd3",
+    "ent_4e499499e9969fa550a62717",
+    "ent_54f5a8165a2dba37c19d1eed",
+    "ent_563201b636aefc447d1d9625",
+    "ent_5bb8fb76f7bb28ff0ca7b338",
+    "ent_5f8dd155f9de4c2129eceae8",
+    "ent_644f166107b14c0f93715e32",
+    "ent_664b1f96b2452e94ccbbcc9a",
+    "ent_69a9fa6dfb66fe9ce494a92d",
+    "ent_6eb01f947143d14deca8b097",
+    "ent_71b73f52515fe122b11b5629",
+    "ent_79601484c6c30655d3df006b",
+    "ent_82f3588da0dfed1a2f73ee3a",
+    "ent_84bca4977c727b61bb35e2e2",
+    "ent_84eab6e41a71565f679df592",
+    "ent_89d31109424a84f68a407d81",
+    "ent_8b27e32376389d63ee0eaae8",
+    "ent_8eeba8bd21b526c56d120995",
+    "ent_931dcd0fc4da2de03c86abb1",
+    "ent_9b5014c7efec96931ce80d8d",
+    "ent_a408cb61e55821597416abbb",
+    "ent_a86c763b8cb20b24ef850ab9",
+    "ent_b15bb81db2aff0a3804d0d40",
+    "ent_c9535443cb8a556f638caf3f",
+    "ent_d2d4221bdc0342f4a1b77eae",
+    "ent_d9c90d94d1e0d3c4c6d50ed4",
+    "ent_e772bc466331e951df46475e",
+    "ent_e8b9801164c3598cdf32cc89",
+    "ent_eee0c44c0b64b4135ee302f7",
+    "ent_f02bd783538d05a4d19dfa36",
+    "ent_f2f901ec1be4b269ba560b54"
+  ],
+  "source_evidence_ids": [
+    "evd_06652a8fff4f0593f8ce8431",
+    "evd_62f7da1955faa80092f4449a"
+  ],
+  "source_method": "Offline normalization of already retained output assertions; no new external acquisition or source refresh.",
+  "status": "reviewed_source_pending_integration"
+}

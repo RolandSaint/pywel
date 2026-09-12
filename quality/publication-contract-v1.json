@@ -25,7 +25,8 @@
     "M8B_EQUIPMENT.md",
     "S01_EQUIPMENT_POPULATION.md",
     "S02_ACQUISITION.md",
-    "S03_RECIPE_INPUTS.md"
+    "S03_RECIPE_INPUTS.md",
+    "S04_RECIPE_OUTPUTS.md"
   ],
   "public_schemas": [
     "agent-contract.schema.json",

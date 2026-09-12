@@ -112,10 +112,18 @@ The S02 containment checkpoint retained **520 entities, 2,591 stored claims, 306
 
 The [S02 recovery record](https://github.com/RolandSaint/pywel/blob/main/quality/s02-acquisition-review.json) preserves existing subject IDs, source-file hashes and historical commit references without republishing withdrawn field payloads. Historical commits are not erased. The original permission blocker remains open; containment and passing checks do not establish source permission or complete S02.
 
-## S03 recipe input normalization — current source
+## S03 recipe input normalization
 
-[S03](docs/S03_RECIPE_INPUTS.md) adds **25 ingredient identities and 36 typed relationship records**, plus one receipt, by normalizing already-retained cooking and alchemy evidence. Current source totals are **545 entities, 2,627 stored claims, 306 evidence records, 44 patch identities, one strategy and eight receipts**. No additional source was collected or contacted. Both published releases remain unchanged; this is a post-release source update, not a new release.
+[S03](docs/S03_RECIPE_INPUTS.md) adds **25 ingredient identities and 36 typed relationship records**, plus one receipt, by normalizing already-retained cooking and alchemy evidence. The integrated S03 snapshot contained **545 entities, 2,627 stored claims, 306 evidence records, 44 patch identities, one strategy and eight receipts**. No additional source was collected or contacted. Both published releases remain unchanged; this is a post-release source update, not a new release.
 
 The batch reviews 161 input assertions across 46 existing recipes. It preserves 68 valid ingredient links and supplies 34 new or corrected links, giving suitable typed targets for 102 input occurrences. Nine ambiguous labels across 59 occurrences remain text-only. Sixteen recipes gain or correct links; the other 30 are not populated redundantly. Original quantity strings and all 68 earlier canonical files remain unchanged.
 
 Boiled Meat and Meat and Fish Skewers now have distinct food-item identities, two recipe-output links, and corrected ingredient links from Meatball Soup; superseded links remain in history. Existing evidence dates, attribution, historical uncertainty and null patch-review bounds are preserved. The [G03 correction](docs/S03_RECIPE_INPUTS.md#recipe-and-item-name-resolution-g03-correction) makes ingredient-only answers prefer the matched recipe over a same-named item, including Wine and Haiden's Lesser Elixir; search and exact-ID reads still preserve both identities. Other intents and compound requests retain their prior routing. S02 remains withheld. [PR #18](https://github.com/RolandSaint/pywel/pull/18) records the actual reviewed head, integration commit and required checks; source admission alone is not proof that integration passed.
+
+## S04 recipe output normalization: current source
+
+[S04](docs/S04_RECIPE_OUTPUTS.md) adds **41 named output-item identities and 41 typed recipe-output links**, using retained evidence only. Five already-linked outputs are reused unchanged. All **46 recipes** in the S03 cohort now have a typed output target; this is not a count of every recipe in the game. Current source totals are **586 entities, 2,668 stored claims, 306 evidence records, 44 patch identities, one strategy and nine receipts**.
+
+The 48 prior output assertions, all ingredient quantities, and all 71 earlier canonical files retain their exact bytes. New identities use the generic item subtype rather than guessing effects or inventory classifications. Recipe and output IDs remain separate. The existing G03 ingredient resolver and exact-ID graph/claim reads remain unchanged; all 46 ingredient answers are regression-tested against the prior corpus.
+
+This is structured expansion of existing historical knowledge, not new source collection or live-game verification. Existing attribution, capture dates, uncertainty and null patch-review bounds remain. S02 is still withheld, and neither published release changes. [PR #20](https://github.com/RolandSaint/pywel/pull/20) records the actual review, checked head, integration commit and post-merge checks.
