@@ -1,0 +1,1031 @@
+{
+  "catalog_id": "cat_s04recipeoutputentities01",
+  "records": [
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Apollonia's Lesser Elixir"
+      },
+      "entity_id": "ent_s0403540e451b77eb97fcba76c9",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.apollonia-s-lesser-elixir",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Meat and Vegetable Porridge"
+      },
+      "entity_id": "ent_s0404eabe2b7e566d283ef373b3",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.meat-and-vegetable-porridge",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Meliara's Lesser Elixir"
+      },
+      "entity_id": "ent_s040fbfb8939f194e834584be78",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.meliara-s-lesser-elixir",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Vegetable Salad"
+      },
+      "entity_id": "ent_s04137ae13f9144053350d44eaf",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.vegetable-salad",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Marinated Fish"
+      },
+      "entity_id": "ent_s04219f678d7bb3dd2a8fe0b9ae",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.marinated-fish",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Grilled Meat Steak"
+      },
+      "entity_id": "ent_s04361424a37fb1c85c2792925c",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.grilled-meat-steak",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Simple Meat Porridge"
+      },
+      "entity_id": "ent_s043c7df0070eb08c0a435a6b40",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.simple-meat-porridge",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Grilled Bread"
+      },
+      "entity_id": "ent_s043d6054894e204b6a0a8ed531",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.grilled-bread",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Haiden's Elixir"
+      },
+      "entity_id": "ent_s044127a8154022bff818bccf38",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.haiden-s-elixir",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Meat Stew"
+      },
+      "entity_id": "ent_s0446d8c1559e7c657a549286ca",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.meat-stew",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Palmar Pill"
+      },
+      "entity_id": "ent_s04478cb762ce0c3eba4105e8ec",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.palmar-pill",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Fish Fry"
+      },
+      "entity_id": "ent_s044f00eff44ea879fcd646dd26",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.fish-fry",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Meatball Soup"
+      },
+      "entity_id": "ent_s044f28a330968ad6d7398a62b2",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.meatball-soup",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Crimson Dye"
+      },
+      "entity_id": "ent_s0450efb5751c9b75251d909654",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.crimson-dye",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Mild Herbal Tea"
+      },
+      "entity_id": "ent_s0452bfc77363e564bb0f9077e2",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.mild-herbal-tea",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Platinum"
+      },
+      "entity_id": "ent_s04622badb0232a18b5b41eb396",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.platinum",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Egg Soup"
+      },
+      "entity_id": "ent_s046ccd2a6eb89ded75fde1be6d",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.egg-soup",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Royal Gold Dye"
+      },
+      "entity_id": "ent_s0470222920bf489799ff047956",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.royal-gold-dye",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Fine Seafood Stew"
+      },
+      "entity_id": "ent_s047b8aeb7bfc6a5f3652b96696",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.fine-seafood-stew",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Spirit Gauge Potion"
+      },
+      "entity_id": "ent_s04808af741f70eba5c968ac715",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.spirit-gauge-potion",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Midnight Black Dye"
+      },
+      "entity_id": "ent_s048190caa7fe6ab880337e01ab",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.midnight-black-dye",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Fish Soup"
+      },
+      "entity_id": "ent_s0488f5b4131b7e5d8b0097ab4d",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.fish-soup",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Refined Palmar Pill"
+      },
+      "entity_id": "ent_s048a6f2f7ada8277cfe52c717c",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.refined-palmar-pill",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Freya's Elixir"
+      },
+      "entity_id": "ent_s049ddc62d324e6f0521505804e",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.freya-s-elixir",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Creamy Meat Soup"
+      },
+      "entity_id": "ent_s049fd4870d5596d1b776e329e6",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.creamy-meat-soup",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Vegetable Juice"
+      },
+      "entity_id": "ent_s04a4b92f095f218605da85dd42",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.vegetable-juice",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Seafood Soup"
+      },
+      "entity_id": "ent_s04b86928068066865428c927c5",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.seafood-soup",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Seafood & Bird Stew"
+      },
+      "entity_id": "ent_s04be08af771ed51d8ffb6964c0",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.seafood-bird-stew",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Pan-Fried Fine Meat"
+      },
+      "entity_id": "ent_s04c478da09096b9648e3ea18a1",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.pan-fried-fine-meat",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Marinated Meat"
+      },
+      "entity_id": "ent_s04c7b46088726fd5376836bfa1",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.marinated-meat",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Seafood Porridge"
+      },
+      "entity_id": "ent_s04c962a2d777375bf9adfa56fe",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.seafood-porridge",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Fruit Porridge"
+      },
+      "entity_id": "ent_s04c98fe7170c74f3fe152ff92f",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.fruit-porridge",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Pan-Fried Vegetables"
+      },
+      "entity_id": "ent_s04cb9a991c4a7a3b6df21d7589",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.pan-fried-vegetables",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Honey Tea"
+      },
+      "entity_id": "ent_s04cf6ac0a91195dd6d94218008",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.honey-tea",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Forest Green Dye"
+      },
+      "entity_id": "ent_s04cfa9377d654a3c88d1e7c5b7",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.forest-green-dye",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Meliara's Elixir"
+      },
+      "entity_id": "ent_s04d79831d93a3e8b0e829ccdfa",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.meliara-s-elixir",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Seafood Fry"
+      },
+      "entity_id": "ent_s04eaf721ed4d5d3366d8771c01",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.seafood-fry",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Fruit Tea"
+      },
+      "entity_id": "ent_s04f592db1dcaccf7c0cc1733b3",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.fruit-tea",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Oakwood Mushroom Tea"
+      },
+      "entity_id": "ent_s04f5f995c85b4ef2faaf877534",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.oakwood-mushroom-tea",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Astrid's Lesser Elixir"
+      },
+      "entity_id": "ent_s04faaa613f25eef4bde76da9e5",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.astrid-s-lesser-elixir",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Fine Meat Mixed Fry"
+      },
+      "entity_id": "ent_s04fc3403569b2dc749d93578f4",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-12T17:38:34Z",
+        "created_by": "pywel_s04_retained_output_normalization",
+        "source_receipt_id": "rcp_s04recipeoutputs2026091201"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.fine-meat-mixed-fry",
+      "subtype": "item",
+      "summary": "Named output reference from retained historical recipe data. Yield, effects, inventory implementation, acquisition and current-build availability are not established by this identity.",
+      "tags": [
+        "s04-recipe-outputs",
+        "retained-source-derived",
+        "crimsonwiki-cc-by-sa",
+        "historical-build-unknown"
+      ]
+    }
+  ],
+  "schema_version": "pywel.entity_catalog.v1"
+}

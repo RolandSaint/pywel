@@ -1,11 +1,11 @@
-// Initial reference plus reviewed M7/M8, R01, G02 and S01 records, plus reviewed S03 records; S02 intake is withheld.
+// Initial reference plus reviewed M7/M8, R01, G02, S01, S03 and S04 records; S02 intake is withheld.
 // Retained superseded claims are included.
 export const CURRENT_CORPUS = {
-  entity_records: 545,
-  active_entities: 545,
-  claims: 2627,
+  entity_records: 586,
+  active_entities: 586,
+  claims: 2668,
   evidence: 306,
-  receipts: 8,
+  receipts: 9,
   patches: 44,
   strategies: 1,
 } as const;
