@@ -1,12 +1,13 @@
 import { describe, expect, it } from "vitest";
 import { compactEvidencePacket } from "../src/api/compact.js";
 import { KnowledgeIndex } from "../src/core/query.js";
-import { validStore } from "./helpers.js";
+import { originalReleaseStore, validStore } from "./helpers.js";
 import { queryFixture } from "./support/query-fixture.js";
 
 describe("knowledge retrieval", () => {
   it("reports graph truncation only when the edge cap omits a relationship", async () => {
-    const { store } = await validStore();
+    // Preserve the original eight-edge fixture as later recipe outputs grow the graph.
+    const { store } = await originalReleaseStore();
     const index = new KnowledgeIndex(store);
     const context = { patch: "1.14.00", spoilerCeiling: "ending" as const };
     const complete = index.relationshipGraph("resource.honey", context, 2, 500)!;
@@ -18,6 +19,19 @@ describe("knowledge retrieval", () => {
     expect(exactCap).toEqual(complete);
     expect(smallerCap.edges).toHaveLength(7);
     expect(smallerCap.truncated).toBe(true);
+  });
+
+  it("preserves exact-cap truncation semantics on the expanded live graph", async () => {
+    const { store } = await validStore();
+    const index = new KnowledgeIndex(store);
+    const context = { patch: "1.14.00", spoilerCeiling: "ending" as const };
+    const complete = index.relationshipGraph("resource.honey", context, 2, 500)!;
+    expect(complete.truncated).toBe(false);
+    expect(complete.edges.length).toBeGreaterThan(8);
+    expect(index.relationshipGraph("resource.honey", context, 2, complete.edges.length)).toEqual(complete);
+    const smaller = index.relationshipGraph("resource.honey", context, 2, complete.edges.length - 1)!;
+    expect(smaller.edges).toHaveLength(complete.edges.length - 1);
+    expect(smaller.truncated).toBe(true);
   });
 
   it("uses bounded typo tolerance without changing deterministic ordering", async () => {
