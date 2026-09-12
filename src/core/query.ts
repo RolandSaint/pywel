@@ -634,7 +634,7 @@ function explicitIdentityAnchors(query: string, entities: Entity[]): Set<string>
           )
         );
       })
-      .map((name) => ({ entity_id: entity.entity_id, name })),
+      .map((name) => ({ entity_id: entity.entity_id, entity_type: entity.entity_type, name })),
   );
   if (matches.length === 0) return new Set();
   // Remove embedded short names before preferring literal matches, so a typo
@@ -646,8 +646,20 @@ function explicitIdentityAnchors(query: string, entities: Entity[]): Set<string>
     ),
   );
   const exactMatches = specificMatches.filter(({ name }) => haystack.includes(` ${name} `));
+  const anchors = exactMatches.length > 0 ? exactMatches : specificMatches;
+  const intents = requestedFactIntents(query);
+  // An ingredient-only question names the recipe, not its same-named output.
+  // Resolve identity before context filtering: hidden/unavailable recipe facts
+  // must not fall back to the item's edges. Other intents and search are unchanged.
+  const recipeNames = new Set(
+    intents.length === 1 && intents[0]?.code === "recipe_ingredients"
+      ? anchors.filter(({ entity_type }) => entity_type === "recipe").map(({ name }) => name)
+      : [],
+  );
   return new Set(
-    (exactMatches.length > 0 ? exactMatches : specificMatches).map((match) => match.entity_id),
+    anchors
+      .filter(({ entity_type, name }) => entity_type === "recipe" || !recipeNames.has(name))
+      .map((match) => match.entity_id),
   );
 }
 
