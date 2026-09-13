@@ -129,8 +129,14 @@ The 48 prior output assertions, all ingredient quantities, and all 71 earlier ca
 This is structured expansion of existing historical knowledge, not new source collection or live-game verification. Existing attribution, capture dates, uncertainty and null patch-review bounds remain. S02 is still withheld, and neither published release changes. [PR #20](https://github.com/RolandSaint/pywel/pull/20) records the actual review, checked head, integration commit and post-merge checks.
 
 
-## S05 quest reward links: current source
+## S05 quest reward links
 
-[S05](docs/S05_QUEST_REWARDS.md) adds **12 typed reward links across 10 existing quests**, reusing existing item identities and seven retained CrimsonWiki sources. It adds one receipt, no entities, no evidence, and no prerequisites. Current source totals are **586 entities, 2,680 stored claims, 306 evidence records, 44 patch identities, one strategy and ten receipts**. All 74 earlier canonical files, original reward strings and quantities remain unchanged.
+[S05](docs/S05_QUEST_REWARDS.md) adds **12 typed reward links across 10 existing quests**, reusing existing item identities and seven retained CrimsonWiki sources. It adds one receipt, no entities, no evidence, and no prerequisites. The integrated S05 snapshot contained **586 entities, 2,680 stored claims, 306 evidence records, 44 patch identities, one strategy and ten receipts**. All 74 earlier canonical files, original reward strings and quantities remain unchanged.
 
 Palmar Pill and Honey Tea link to items, not same-named recipes. Text and typed records describe the same reward; do not sum them or count them as independent evidence. Of 65 audited reward assertions, 53 remain without a new typed link because an exact eligible item or unconditional item meaning is not established. Two existing prerequisite links are preserved; the two remaining prerequisite statements do not gain invented dependencies. Historical uncertainty, source dates, spoiler limits and S02 withholding remain. [Issue #21](https://github.com/RolandSaint/pywel/issues/21) and its linked PR record actual review, integration and verification. No new collection, outreach, release or deployment accompanies this source batch.
+
+## S06 reward-item references: source batch
+
+[S06](docs/S06_REWARD_ITEMS.md) adds **25 generic item identities and 29 typed reward links across 12 existing quests**, using seven already-retained CrimsonWiki evidence records. Repeated exact labels share one new identity. This source contains **611 entities, 2,709 stored claims, 306 evidence records, 44 patch identities, one strategy and eleven receipts**. No new evidence or source collection is included. [Issue #22](https://github.com/RolandSaint/pywel/issues/22) and its PR record actual review, integration and resulting-main checks; these source counts alone do not prove a completed merge.
+
+All 76 earlier canonical files, original quantities and historical source context remain unchanged. Typed links identify the same rewards as the original text, not extra rewards. Item classes, effects and live availability are not inferred. Conditional/opaque names, non-item benefits and the Medium Bags/Medium Bag variant are not silently normalized. Labels beyond the selected 25 remain outside this batch. S02 is still withheld and both published releases are unchanged.

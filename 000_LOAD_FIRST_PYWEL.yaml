@@ -40,6 +40,7 @@ read_first:
   - docs/S03_RECIPE_INPUTS.md
   - docs/S04_RECIPE_OUTPUTS.md
   - docs/S05_QUEST_REWARDS.md
+  - docs/S06_REWARD_ITEMS.md
 run_first:
   - npm ci --ignore-scripts --no-audit --no-fund
   - npm run check

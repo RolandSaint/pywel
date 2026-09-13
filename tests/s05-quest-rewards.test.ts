@@ -118,7 +118,8 @@ describe("S05 retained quest reward identities", () => {
   });
 
   it("exposes all twelve typed rewards through exact claims, bidirectional graphs and qualified quest answers", async () => {
-    const { ledger, index, before } = await setup();
+    const { ledger, index, before, prior } = await setup();
+    const priorClaimIds = new Set(prior.claims.map(c => c.claim_id));
     for (const m of ledger.reward_mapping.filter(m => m.new_claim_id !== null)) {
       expect(index.filterClaims({ subjectEntityId: m.quest_entity_id, predicate: "quest.reward", context, limit: 100 }).some(c => c.claim_id === m.new_claim_id)).toBe(true);
       for (const id of [m.quest_entity_id, m.target_entity_id!]) expect(index.relationshipGraph(id, context, 1, 500)!.edges.some(e => e.claim_id === m.new_claim_id && e.subject_entity_id === m.quest_entity_id && e.object_entity_id === m.target_entity_id)).toBe(true);
@@ -139,7 +140,8 @@ describe("S05 retained quest reward identities", () => {
       expect(packet.claims.filter(c => c.predicate !== "quest.reward").map(c => c.claim_id).sort()).toEqual(existingOtherClaims);
       expect(packet.claims.filter(c => c.predicate !== "quest.reward")).toEqual(old.claims.filter(c => c.predicate !== "quest.reward"));
       expect(packet.claims.filter(isS05).map(c => c.claim_id).sort(), q).toEqual(ledger.reward_mapping.filter(m => m.quest_entity_id === id && m.new_claim_id !== null).map(m => m.new_claim_id).sort());
-      expect(packet.claims.filter(c => !isS05(c)).map(c => c.claim_id).sort(), q).toEqual(old.claims.map(c => c.claim_id).sort());
+      // Compare the frozen prior cohort; later batch claims are tested independently.
+      expect(packet.claims.filter(c => priorClaimIds.has(c.claim_id)).map(c => c.claim_id).sort(), q).toEqual(old.claims.map(c => c.claim_id).sort());
       expect(packet.gaps.map(g => g.code), q).toContain("post_patch_review_needed");
     }
   });
