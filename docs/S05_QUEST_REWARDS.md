@@ -1,12 +1,12 @@
 # S05: retained quest reward identity links
 
-**Reviewed source batch; integration is established by the linked pull request and resulting-main checks in [issue #21](https://github.com/RolandSaint/pywel/issues/21).** Base: `152c967f2c66a9b3c9cd85028db8620469d6f07c`. Source admission is not completed integration. No new collection, outside contact, release, deployment, runtime, schema, vocabulary or dependency change is included. S02 remains withheld and its original permission finding unresolved.
+**Unmerged S05 candidate at this preparation checkpoint.** Base: `152c967f2c66a9b3c9cd85028db8620469d6f07c`. This document records proposed source changes, not completed integration. The receipt records source-admission review only. [PR #21](https://github.com/RolandSaint/pywel/pull/21) is authoritative for any subsequent merge and verification; completion requires an exact resulting-main commit and passing checks recorded there. No such completion is asserted by this document. No new collection, outside contact, release, deployment, runtime, schema, vocabulary or dependency change is included. S02 remains withheld and its original permission finding unresolved.
 
 ## Finite result
 
 The retained corpus has 144 quest identities, 65 `quest.reward` assertions and four `quest.prerequisite` assertions. This batch adds **12 entity-valued reward links across 10 existing quests**, reusing existing item identities and seven existing evidence records. There are **no new entities, evidence records or prerequisite links**. One contribution receipt binds the new claims.
 
-Current source totals are **586 entities, 2,680 stored claims, 306 evidence records, 44 patch identities, one strategy and ten receipts**. All **74 earlier canonical files** retain their exact bytes. This is identity normalization of existing reward reports, not twelve independently discovered rewards or a complete quest-reward inventory.
+Candidate source totals are **586 entities, 2,680 stored claims, 306 evidence records, 44 patch identities, one strategy and ten receipts**. All **74 earlier canonical files** retain their exact bytes. This is identity normalization of existing reward reports, not twelve independently discovered rewards or a complete quest-reward inventory.
 
 The ten enriched quests are Black and White, A Fleeting Dream, Resolution, Unexpected Gift, The Face Behind the Mask, Unwavering Steps, Where the Wind Guides You, Shackles of Fate, Incomplete Victory and Forbidden Knowledge. A Fleeting Dream and Unwavering Steps each gain two links; the others each gain one. Palmar Pill and Honey Tea resolve to the existing **item** identities rather than same-named recipes. No item, quest or recipe identity is renamed, deleted or merged.
 
