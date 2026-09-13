@@ -6,6 +6,14 @@
       "sha256": "7d7a669726f9ec3f847780e73ad82834b96d4fdafbd75f7793451822e3c660c9"
     },
     {
+      "path": "data/canonical/claims/s05-quest-rewards.json",
+      "sha256": "93ab7e229b1c4edf9e73db1ef0c461676bc395c25c457df16ad32053c6fc2cf1"
+    },
+    {
+      "path": "data/canonical/receipts/s05-quest-rewards.json",
+      "sha256": "443700122cb9c4678a5f55a1c47b11523ce9498b3d8f707ad0c935d41c2e394a"
+    },
+    {
       "path": "data/canonical/claims/m8a-progression.json",
       "sha256": "b41d159886deaaf32e7a317f38362d22110b6af1405df69e7d895b12d9aa6ad9"
     },
@@ -118,6 +126,18 @@
   "record_ids": {
     "claims": [
       "clm_46f71b753dd5a51e961ec6df",
+      "clm_s05190b5daedff95ba2f6b98ee7",
+      "clm_s052b43cc5b0b5b3cc8a5d29881",
+      "clm_s0542ac255b2ea060fa34523e2a",
+      "clm_s05518650449bfbe4870353e8db",
+      "clm_s0573dc987ebdf547ec777d9774",
+      "clm_s058c7f6db955ff3a8985c216ad",
+      "clm_s05986322bd1ff232d3b5e5c4a0",
+      "clm_s05a5dc665be3a2a38381347882",
+      "clm_s05b6785e5c3dabe17619d3c485",
+      "clm_s05d45b18582d68c7eb4b564bc5",
+      "clm_s05d50dc3687050971d4942ab67",
+      "clm_s05f6df2b3b6ff0a956c17a8f1f",
       "clm_4895dac9d99f17dc7737aae8",
       "clm_4b07160062124fd0a550d66d",
       "clm_5331d0c7c8d821bd1c38dbfd",
@@ -1924,6 +1944,7 @@
       "rcp_g02patchcatchup2026091001",
       "rcp_m7houseroberts2026091001",
       "rcp_m8aprogression2026091001",
+      "rcp_s05questrewards2026091201",
       "rcp_m8bequipment2026091001",
       "rcp_r01equipment2026091001",
       "rcp_s01equipment2026091101",
