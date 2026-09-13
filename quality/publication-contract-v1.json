@@ -27,7 +27,8 @@
     "S02_ACQUISITION.md",
     "S03_RECIPE_INPUTS.md",
     "S04_RECIPE_OUTPUTS.md",
-    "S05_QUEST_REWARDS.md"
+    "S05_QUEST_REWARDS.md",
+    "S06_REWARD_ITEMS.md"
   ],
   "public_schemas": [
     "agent-contract.schema.json",
