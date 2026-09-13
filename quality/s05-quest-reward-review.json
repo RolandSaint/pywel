@@ -1,0 +1,822 @@
+{
+  "base_commit": "152c967f2c66a9b3c9cd85028db8620469d6f07c",
+  "base_data_tree": "26bf76690ca9db5f88e648534a9f97009c36215e",
+  "counts": {
+    "entities_added": 0,
+    "evidence_added": 0,
+    "new_prerequisite_links": 0,
+    "prerequisite_assertions_inspected": 4,
+    "quest_identities_inspected": 144,
+    "quests_enriched": 10,
+    "receipts_added": 1,
+    "reward_assertions_inspected": 65,
+    "reward_links_added": 12
+  },
+  "frozen_prior_receipt_ids": [
+    "rcp_g02patchcatchup2026091001",
+    "rcp_m1publicscope202609100001",
+    "rcp_m7houseroberts2026091001",
+    "rcp_m8aprogression2026091001",
+    "rcp_m8bequipment2026091001",
+    "rcp_r01equipment2026091001",
+    "rcp_s01equipment2026091101",
+    "rcp_s03recipeinputs2026091101",
+    "rcp_s04recipeoutputs2026091201"
+  ],
+  "limitations": [
+    "Identity links preserve the same historical reports, not additional independent evidence or current gameplay confirmation.",
+    "Original reward strings and quantities are preserved; typed links encode identity only, not quantity.",
+    "No new prerequisites, item acquisition claims, effects, stock, yields, substitutions or source capture.",
+    "Held reward statements remain intact; no exact item match is not proof that the reward is absent.",
+    "S02 remains withheld and its permission finding unresolved.",
+    "Reward questions for Where the Wind Guides You and Unwavering Steps retain five objective and two sequence records respectively; exact-ID predicate reads avoid these unchanged parser limits."
+  ],
+  "milestone": "S05",
+  "prerequisite_mapping": [
+    {
+      "disposition": "existing_typed_link",
+      "object": {
+        "entity_id": "ent_d1b3b818dfa863a35aab7680",
+        "kind": "entity"
+      },
+      "quest_entity_id": "ent_d3de309d4578b75dc73ee5f2",
+      "source_claim_id": "clm_5331d0c7c8d821bd1c38dbfd"
+    },
+    {
+      "disposition": "existing_typed_link",
+      "object": {
+        "entity_id": "ent_6dd97bc94c6fe241d0bb1a0e",
+        "kind": "entity"
+      },
+      "quest_entity_id": "ent_d1b3b818dfa863a35aab7680",
+      "source_claim_id": "clm_m8asealedprereq2026091001"
+    },
+    {
+      "disposition": "held_no_exact_prerequisite",
+      "object": {
+        "kind": "string",
+        "value": "Complete Troubled Count."
+      },
+      "quest_entity_id": "ent_6dd97bc94c6fe241d0bb1a0e",
+      "source_claim_id": "clm_m8astolenprereq2026091001"
+    },
+    {
+      "disposition": "held_no_exact_prerequisite",
+      "object": {
+        "kind": "string",
+        "value": "Entry interaction: speak with House Roberts's Servant near Bluemont Manor."
+      },
+      "quest_entity_id": "ent_2beedf6ea02e8ba696464bb3",
+      "source_claim_id": "clm_m8atrialentry2026091001"
+    }
+  ],
+  "prior_canonical_files": {
+    "data/canonical/claims/controller-remapping-available.json": "c890065c764c7a4ee4a5a5ba61d8fccf9f8e9451377220a0d3a0bbc4b717d6fe",
+    "data/canonical/claims/creative-research-seed.json": "990f8133f845c8ea4244a0a10f25f59d8d0172d30b060fbf043b962375544eaa",
+    "data/canonical/claims/crimsonwiki-abyss-gear-depth-v0.4.json": "96a191fac8013905cbce611b88b9f2375503dc6f0c5b0342e9e8dde6ff3fe61d",
+    "data/canonical/claims/crimsonwiki-alchemy-depth-v0.4.json": "74b9d60b1331d76d87d2a0c7a3671fe3fdf10925970593616c4f07320862e5d7",
+    "data/canonical/claims/crimsonwiki-chapter-fields-v0.4.json": "e8d74be061ff07d37d1c341cd7684266dac00be755a648f7631231c6f97f0286",
+    "data/canonical/claims/crimsonwiki-chapter-objectives-v0.4.json": "28a9fa92ca01d528a2b5dfb10e67fa5794c97226c517f0ebc79d8843a32305e0",
+    "data/canonical/claims/crimsonwiki-cooking-recipes-v0.4.json": "9efbb855a2f81606497b44bc5774ffaff5e2a9d488c9cbcd7a2d75348d776639",
+    "data/canonical/claims/crimsonwiki-licensed-bosses-v0.4.json": "89586065fe3522eeadb7363a2e38a1a5f6bf417dd122a6a74af61b0b58cad6af",
+    "data/canonical/claims/depth-first-official-facts-v1.json": "aa97d6aa86370f02e6d70f52fbb398e1bbc8c62295d69855c8af81d3aedafad9",
+    "data/canonical/claims/farming-seed-quickslots.json": "f94ac5e11ae341bfd80f3c90d2b705d15ab44768b5dd7be8686f00fe9e184123",
+    "data/canonical/claims/identity-repair-quest-challenges-v0.4.json": "5998616625d6e9b6b91bbca40c60cb2eca99c69436bc4b01f1799ef9061885e4",
+    "data/canonical/claims/licensed-mount-roster-depth-v0.4.json": "4212705c2f440c218cc1f72532a11a419c35ba521693a8870f6a7e68192da4f8",
+    "data/canonical/claims/licensed-near-full-actor-abilities-v0.4.json": "c038c7cd0cd33169b724b11cb8a4816912fb9e3ea199b23ddeedce17e342c09c",
+    "data/canonical/claims/m7-house-roberts.json": "7d7a669726f9ec3f847780e73ad82834b96d4fdafbd75f7793451822e3c660c9",
+    "data/canonical/claims/m8a-progression.json": "b41d159886deaaf32e7a317f38362d22110b6af1405df69e7d895b12d9aa6ad9",
+    "data/canonical/claims/m8b-equipment.json": "3bdb518a3fa3a138edef31e5e1306f644cd9605ce4953d5c18235cab0db898a8",
+    "data/canonical/claims/magic-scythe-full-inventory.json": "00c27ee3a2ce1c2eab30065c0f4918e6ab6585e2111b5feceea1faa7335d5fb0",
+    "data/canonical/claims/priority-home-base-closure-v0.4.json": "df2508d815ff0b5a3859a37054ee2db4df9a6f2c84d70fe08ca597e2db96f768",
+    "data/canonical/claims/priority-licensed-closure-v0.4.json": "9a3578e4c7618ec04fb9470592c36c8282f4d66e4488ce4ffe7a623091464843",
+    "data/canonical/claims/priority-tail-relationships-v0.4.json": "65d04fb0bd1a74db13783ea62dbf548c7625fdb2daabe6c4e737b1ca80270c86",
+    "data/canonical/claims/r01-equipment-database.json": "7c778a34f069096844fde3f5179cd055eeb1591d6cf9fcc54b2cd6e3b7cc1879",
+    "data/canonical/claims/relationship-completion-nine-v0.4.json": "8f5a54c185edac16714d4401be34e6ce0eda84e5edf3f82d0473d4fd88916e4c",
+    "data/canonical/claims/s01-equipment.json": "b57aa624253af81fa9908013529d59bdc327d4b9f15920967e6b753e6d8a6c39",
+    "data/canonical/claims/s03-recipe-inputs.json": "7f37b394a23e398d7b00b476f462c1d114ea99585fae9787975db7714c9571c6",
+    "data/canonical/claims/s04-recipe-outputs.json": "1f71d468a1c408608f8bc8c8d39fb9c66f9779b7e587125fb9ce5bcd10355777",
+    "data/canonical/claims/wave-two-skill-cost-unlocks-v0.4.json": "741bc248bdf5034058ef0c11ff528e830fdba40338695cdd001913c674538a63",
+    "data/canonical/claims/wave-two-world-regions-v0.4.json": "2aee71506ba6d7606001fae545994e79deac514eca7b9e626115c4195b4206a5",
+    "data/canonical/entities/community-catalog-seed.json": "ce8bd3f9c197849eb69e831ff1e6faa1d496cfed1926a87c64e22375441b123c",
+    "data/canonical/entities/community-catalog-v0.3.json": "a93f0ccbea44cf4dff71d11bb64a8e852f4e46ae70e195d8fa0bc533157b12d6",
+    "data/canonical/entities/creative-research-seed.json": "5bb34a37b8b48808f49ccca74dfdb8f5a1c092881b5826cc2177cdcfe097dd12",
+    "data/canonical/entities/crimsonwiki-alchemy-depth-v0.4.json": "6f1e5d27be081a0d292e79051b10372844322a030505a782efa74756ffad816a",
+    "data/canonical/entities/crimsonwiki-cooking-recipes-v0.4.json": "e33db3be7b094b124f781389b33719db5ffdf23d96e27c9d90544058f4c669f9",
+    "data/canonical/entities/depth-first-official-entities-v1.json": "cf88fa7abaec9d513e73528ab32dbdd9b3bf67faa6db43e7fe6f2f252063f068",
+    "data/canonical/entities/depth-first-systems-v1.json": "b80e06283df162ec92f9e3abd59b31fa89aa01097df34825c79d6549ff4f0776",
+    "data/canonical/entities/item-magic-scythe.json": "37f651b90ecafd01f165844bbb195cd3e51b8c7de3390f4fee7aae21fb57926b",
+    "data/canonical/entities/licensed-mount-roster-depth-v0.4.json": "abe9e68211c938459c56131c33bd45ef31547e70d8f35801f99ab9c893800bdc",
+    "data/canonical/entities/m7-house-roberts.json": "4b4d1d6ba61f4e1321de43f539b9042331d9b4a7a13a70d902045df0c706592a",
+    "data/canonical/entities/m8b-equipment.json": "ce6ed10a2823a77a5b15dbe28e61a6d48fab4848dc92bd4644c654e9d69d74ad",
+    "data/canonical/entities/official-catalog-distinct-identities-v0.4.json": "b91bea529d204eb1f4a3a0a9d4aa6146eae15a93ffc6e2db1d14c8d5723a8578",
+    "data/canonical/entities/s01-equipment.json": "c78b25cd40b6fc4e29da18484e150fe1e2465e71a92ce76874f2b4155bcecc45",
+    "data/canonical/entities/s03-recipe-inputs.json": "3dd6602a8a984f34e2122f0ab616dea183b2589c65d4c9ffd12e8ea22fb09095",
+    "data/canonical/entities/s04-recipe-outputs.json": "73cd230aae130124af75c045d0fd53bc1d5b6fcc70a60e57cca71786e77ae28a",
+    "data/canonical/entities/system-controller-remapping.json": "a9ed5dff8fb45168157c56157e033bb28e9ff2307049ecf5bc842ca748164a4d",
+    "data/canonical/entities/system-farming.json": "290d9ff5a9f7e5b1f0e2c686a88e4395902826482858c7782b6d451e7bf87c5b",
+    "data/canonical/evidence/crimsonwiki-abyss-gear-depth-v0.4.json": "b069bc04b6aa2ea79badab485f07e3092aa355dc1368e07e6b7a494884c28cf5",
+    "data/canonical/evidence/crimsonwiki-alchemy-depth-v0.4.json": "3801e45593eb171aca270efd7cc11abf630de515a78d7554c975b6e051f0cbf2",
+    "data/canonical/evidence/crimsonwiki-chapter-fields-v0.4.json": "d0c0dd00c03f7fa5922eb21db87ff5ebecddc433647f839a3b36906569455624",
+    "data/canonical/evidence/crimsonwiki-chapter-objectives-v0.4.json": "9fdd704dcac717326a8c20fe763a38954d6237ca89ec68f7e2775417a0f63ce2",
+    "data/canonical/evidence/crimsonwiki-cooking-recipes-v0.4.json": "bcf7afe9d4e53b4ea360d758096d213f2e3ab7c4b04e6a82e6f9806d38f2380d",
+    "data/canonical/evidence/crimsonwiki-licensed-bosses-v0.4.json": "47d87528787b528f7f718d6de714b73c6e45bbd7ca275bd7f402bb9d67bf7984",
+    "data/canonical/evidence/g02-official-catchup.json": "3fe7ff0c813463c2bcdf78c81f94d38153c65bbd9e2d0b9d362aa07411b269bc",
+    "data/canonical/evidence/licensed-mount-roster-depth-v0.4.json": "bebe8186e778c7236e8cce60ca014a97bc312ba2bb821324317f8ae6481e474c",
+    "data/canonical/evidence/licensed-near-full-actor-abilities-v0.4.json": "e807ef4dbb9f86e716ea8aadc7a614490103e7b417baa630c7915d1355dd17cc",
+    "data/canonical/evidence/m7-house-roberts.json": "7643d3b8c70f7c61f36240c817ccb582819a7bb86fd2911726c2b4b9db0527bb",
+    "data/canonical/evidence/m8a-progression.json": "7f2b09ad7e756a164e0ee9c709f8536ee6fcc8d61a786eea22699966721a2f32",
+    "data/canonical/evidence/m8b-equipment.json": "17cc196f31bcb6a8513d71204879a8d24485c576b749d21b2f8d408613bc26a0",
+    "data/canonical/evidence/official-patch-history.json": "5059d2f1d78ba4d0efc20ee6f21ad17e16ca82b9deae28f5e2f077fc4be906c9",
+    "data/canonical/evidence/patch-1.09.00-official.json": "a7170bb1683877a8eec4eb96199ee84475bc999094ce9b9d8431eacb2de5caa7",
+    "data/canonical/evidence/r01-equipment-database.json": "e2aee03faeb17c06f2da50067f3b2aa98be785219f210c70e32a2d20beb4b4d9",
+    "data/canonical/evidence/s01-equipment.json": "4c2b303c64cf1e84ed601f2d65ea95e6c7920fc6cd4a76e2944ed754a0d847ab",
+    "data/canonical/evidence/wave-two-world-regions-v0.4.json": "73a6d6128d68a3914b857683565fc38b3032633b602c6bdba8649e0fb0020ab3",
+    "data/canonical/patches/1.09.00.json": "49a345c204c263284a84156b7c2a8ca873760768efd21eb5356e3afe738fb489",
+    "data/canonical/patches/g02-official-catchup.json": "b99cde6a7a6c744b903311583315e6c7736b773694d6b132bb864078bce1a1d8",
+    "data/canonical/patches/official-patch-history.json": "1542f1d516bed67c4d52ada8bf51fe4fa3a290aa9e15931eca7ab71283bf22e4",
+    "data/canonical/receipts/g02-official-catchup.json": "d34447dc1ae97280b4dd0f3ff262eb118d93a1d07a65e60b4790bc02c7535492",
+    "data/canonical/receipts/m7-house-roberts.json": "fca2eea55af93ab323b63984c451df96ed7c933fb0bf47f78133264418ce9181",
+    "data/canonical/receipts/m8a-progression.json": "a7059b71c3bbf3d1cc147462c76094d81a17b57b2471c231d9af8d38b1f5b807",
+    "data/canonical/receipts/m8b-equipment.json": "407e4d8d4f6d70e400265a977ffd913e3a72d14650ce6922950696b38e0e0c67",
+    "data/canonical/receipts/public-selection-m1.json": "272ea7b68e3c30bd324167d52331ca3843419376a4f5d72cbd7a304ddf836c5d",
+    "data/canonical/receipts/r01-equipment-database.json": "01ea1b36d3b98deb59c9fe14565b5b0c7c068bb95158e506bf428e0fb68815fd",
+    "data/canonical/receipts/s01-equipment.json": "ea6aaf5a1bc774abbeebe55afa293416ca05f3ec5ccd2b8f28b2c0991a023f29",
+    "data/canonical/receipts/s03-recipe-inputs.json": "8f5f98437b62d33d6da7b9813138a0dfb6cdd3fd083ec32cf67832f6c7ab237e",
+    "data/canonical/receipts/s04-recipe-outputs.json": "339ce240b034a75b7366248f13c1e4794adbc870a093099d09bed18cd6a93d59",
+    "data/canonical/strategies/farming-seed-quickslot.json": "05e593326d20341cad9756d65551b28975fc6ac141bb964a6360898999b2f7ea"
+  },
+  "prior_record_hashes": {
+    "claims": "fe077929ee289b74b19f23f289baa4064976a4e479ab958c80d9402387374e68",
+    "entities": "9a6fbc79223dc51d237f6eb8c196529588ceeffa4a9e5872203b53ada901c660",
+    "evidence": "308ad399fed51b04423b176a4fa84469953be9b0c136b346bbede59d010f856f",
+    "patches": "f5f6d5a0537b2d95edb2699c96c0395afe73deefc543a940b2e2a010f9f0b200",
+    "receipts": "977d5b4e4dc57b81daebd1b38d4c221ddf6a22d61edbc9a4201c9a7dc5190049",
+    "strategies": "b842cccda8eca332a4d26d017463f1118b5b339b3b681dc3665ae50ba3f8b126"
+  },
+  "quest_subject_ids": [
+    "ent_1fe7cc0e625b9b4fb5d8c507",
+    "ent_255207fa0e179e9a053971a2",
+    "ent_27d2fc67a8c5c1d168093fd2",
+    "ent_3a9533c82adc507e0c92d25f",
+    "ent_829dbd6a55a3f8b1c852469c",
+    "ent_82b8f50d227e756f7291e2a8",
+    "ent_9955a9cdae78db0457aeecaa",
+    "ent_b7ac65d7c3b33e4effe0c296",
+    "ent_d0f598e1e415f4e9aedc77de",
+    "ent_ed65a28da5ab18b644247aa7"
+  ],
+  "receipt_payload_sha256": "bfe21804503f82007976c3c6b8b884ad929a915a34910acd8ee80e6ed3897477",
+  "recipe_item_boundary": "Palmar Pill and Honey Tea resolve to existing item identities, never their same-named recipe identities.",
+  "reward_mapping": [
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Jackals' Leather Armor",
+      "new_claim_id": null,
+      "quantity": null,
+      "quest_entity_id": "ent_829dbd6a55a3f8b1c852469c",
+      "source_claim_id": "clm_0828780a55df1fc1a85e8a77",
+      "source_text": "Jackals' Leather Armor",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Large Bag",
+      "new_claim_id": null,
+      "quantity": 1,
+      "quest_entity_id": "ent_6f4cf8650d0e21447e60316d",
+      "source_claim_id": "clm_0e452e00a176d988981a16ae",
+      "source_text": "Large Bag ×1",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "linked_existing_item",
+      "label": "Blackwing Mask",
+      "new_claim_id": "clm_s05986322bd1ff232d3b5e5c4a0",
+      "quantity": null,
+      "quest_entity_id": "ent_b7ac65d7c3b33e4effe0c296",
+      "source_claim_id": "clm_11d478ab66888b2a3b1f293c",
+      "source_text": "Blackwing Mask",
+      "target_entity_id": "ent_s0178a5608097f2dfab8623d7a9"
+    },
+    {
+      "disposition": "linked_existing_item",
+      "label": "Official Knight's Leather Gloves",
+      "new_claim_id": "clm_s05a5dc665be3a2a38381347882",
+      "quantity": null,
+      "quest_entity_id": "ent_ed65a28da5ab18b644247aa7",
+      "source_claim_id": "clm_184c1897c4497027a4a45042",
+      "source_text": "Official Knight's Leather Gloves",
+      "target_entity_id": "ent_s018b884f466f58adb75ffa650b"
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Hungering Fang Leather Boots",
+      "new_claim_id": null,
+      "quantity": null,
+      "quest_entity_id": "ent_829dbd6a55a3f8b1c852469c",
+      "source_claim_id": "clm_1c63fe032b005f56d90b0a38",
+      "source_text": "Hungering Fang Leather Boots",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "linked_existing_item",
+      "label": "Official Knight's Leather Boots",
+      "new_claim_id": "clm_s0573dc987ebdf547ec777d9774",
+      "quantity": null,
+      "quest_entity_id": "ent_ed65a28da5ab18b644247aa7",
+      "source_claim_id": "clm_1f404ffc0ba0fd6132f4f5d5",
+      "source_text": "Official Knight's Leather Boots",
+      "target_entity_id": "ent_s0101e4c138d0c71bc440858c1f"
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Abyss Artifact",
+      "new_claim_id": null,
+      "quantity": 1,
+      "quest_entity_id": "ent_a9520c2d2220b6317c7c362a",
+      "source_claim_id": "clm_26300cfd6bb73b33f63dff0e",
+      "source_text": "Abyss Artifact ×1",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Grilled Meat",
+      "new_claim_id": null,
+      "quantity": 5,
+      "quest_entity_id": "ent_05f5b786cda4bbf9984fc07d",
+      "source_claim_id": "clm_272dc1e083e60ee0d57f812f",
+      "source_text": "Grilled Meat ×5",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Shield of Betrayal",
+      "new_claim_id": null,
+      "quantity": null,
+      "quest_entity_id": "ent_aec33f76cd6c0da3355ef100",
+      "source_claim_id": "clm_2c72f06da61f0565bf5879d4",
+      "source_text": "Shield of Betrayal",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Damiane's Ponytail Ticket",
+      "new_claim_id": null,
+      "quantity": null,
+      "quest_entity_id": "ent_ed65a28da5ab18b644247aa7",
+      "source_claim_id": "clm_2e839cca7a5534ddab31e512",
+      "source_text": "Damiane's Ponytail Ticket",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Solas Plate Armor",
+      "new_claim_id": null,
+      "quantity": null,
+      "quest_entity_id": "ent_915e4bfa7c5774e8382f4c5e",
+      "source_claim_id": "clm_30f68ad10afc597016738e93",
+      "source_text": "Solas Plate Armor",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Grilled Fruits",
+      "new_claim_id": null,
+      "quantity": 5,
+      "quest_entity_id": "ent_05f5b786cda4bbf9984fc07d",
+      "source_claim_id": "clm_335d04bcd20b11b6c920a5f6",
+      "source_text": "Grilled Fruits ×5",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Iron Ore",
+      "new_claim_id": null,
+      "quantity": 5,
+      "quest_entity_id": "ent_53e2a12c8137d8835869a31b",
+      "source_claim_id": "clm_391b50524c7cfdf7778de939",
+      "source_text": "Iron Ore ×5",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Clear Soup",
+      "new_claim_id": null,
+      "quantity": 10,
+      "quest_entity_id": "ent_6f4cf8650d0e21447e60316d",
+      "source_claim_id": "clm_3c8392d71bba753d383dcad0",
+      "source_text": "Clear Soup ×10",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "linked_existing_item",
+      "label": "Hungering Fang Leather Cloak",
+      "new_claim_id": "clm_s05190b5daedff95ba2f6b98ee7",
+      "quantity": null,
+      "quest_entity_id": "ent_829dbd6a55a3f8b1c852469c",
+      "source_claim_id": "clm_3e3cd120f646f178f4862c33",
+      "source_text": "Hungering Fang Leather Cloak",
+      "target_entity_id": "ent_s01c245cd4d184f4f9c780af23d"
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Medium Bag",
+      "new_claim_id": null,
+      "quantity": 1,
+      "quest_entity_id": "ent_d0f598e1e415f4e9aedc77de",
+      "source_claim_id": "clm_3e4471a7f4f73966a04b85d3",
+      "source_text": "Medium Bag ×1",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Blackberry",
+      "new_claim_id": null,
+      "quantity": 5,
+      "quest_entity_id": "ent_215733140da7eef959a63811",
+      "source_claim_id": "clm_3e6b38c34ee887ea36fe739b",
+      "source_text": "Blackberry ×5",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "linked_existing_item",
+      "label": "Palmar Pill",
+      "new_claim_id": "clm_s052b43cc5b0b5b3cc8a5d29881",
+      "quantity": 1,
+      "quest_entity_id": "ent_d0f598e1e415f4e9aedc77de",
+      "source_claim_id": "clm_4be4b3036c5b211aef7576b8",
+      "source_text": "Palmar Pill ×1",
+      "target_entity_id": "ent_s04478cb762ce0c3eba4105e8ec"
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Abyss Artifact",
+      "new_claim_id": null,
+      "quantity": 1,
+      "quest_entity_id": "ent_255207fa0e179e9a053971a2",
+      "source_claim_id": "clm_4ce31e68c4e9d6b4105743aa",
+      "source_text": "Abyss Artifact ×1",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Tauria Curved Sword",
+      "new_claim_id": null,
+      "quantity": null,
+      "quest_entity_id": "ent_b7ac65d7c3b33e4effe0c296",
+      "source_claim_id": "clm_4d7d2fb2ecc4d73fab8fdf8e",
+      "source_text": "Tauria Curved Sword",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Scholastone Uniform",
+      "new_claim_id": null,
+      "quantity": null,
+      "quest_entity_id": "ent_3a9533c82adc507e0c92d25f",
+      "source_claim_id": "clm_4fd274e2afe3fcf1798f4d13",
+      "source_text": "Scholastone Uniform",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Cloth Pieces",
+      "new_claim_id": null,
+      "quantity": 5,
+      "quest_entity_id": "ent_05f5b786cda4bbf9984fc07d",
+      "source_claim_id": "clm_59ae32e6d809c842256904eb",
+      "source_text": "Cloth Pieces ×5",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "linked_existing_item",
+      "label": "Sunset Reed Cloth Gloves",
+      "new_claim_id": "clm_s058c7f6db955ff3a8985c216ad",
+      "quantity": 1,
+      "quest_entity_id": "ent_27d2fc67a8c5c1d168093fd2",
+      "source_claim_id": "clm_5b16cf87827e464e2f28a47a",
+      "source_text": "Sunset Reed Cloth Gloves ×1",
+      "target_entity_id": "ent_s01a13c0b2a3ae38bd4b80fa46e"
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Solas Plate Boots",
+      "new_claim_id": null,
+      "quantity": null,
+      "quest_entity_id": "ent_915e4bfa7c5774e8382f4c5e",
+      "source_claim_id": "clm_5dd8a7c1a7464e2045d547e8",
+      "source_text": "Solas Plate Boots",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "St. Halssius Priest's Hat",
+      "new_claim_id": null,
+      "quantity": 1,
+      "quest_entity_id": "ent_6f4cf8650d0e21447e60316d",
+      "source_claim_id": "clm_6269b9c7b1dfe4f881c1d622",
+      "source_text": "St. Halssius Priest's Hat ×1",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_conditional",
+      "label": "Glenbright's Redemption [if mercy route]",
+      "new_claim_id": null,
+      "quantity": null,
+      "quest_entity_id": "ent_27d2fc67a8c5c1d168093fd2",
+      "source_claim_id": "clm_6e5b6fe652a9de1bcedad0e1",
+      "source_text": "Glenbright's Redemption [if mercy route]",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Jackals' Leather Helm",
+      "new_claim_id": null,
+      "quantity": null,
+      "quest_entity_id": "ent_829dbd6a55a3f8b1c852469c",
+      "source_claim_id": "clm_6ea6c1fdd7b0a353d1bbf527",
+      "source_text": "Jackals' Leather Helm",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "linked_existing_item",
+      "label": "Greymane's Earring",
+      "new_claim_id": "clm_s05f6df2b3b6ff0a956c17a8f1f",
+      "quantity": null,
+      "quest_entity_id": "ent_82b8f50d227e756f7291e2a8",
+      "source_claim_id": "clm_741c60061e9b4406d7be5c1a",
+      "source_text": "Greymane's Earring",
+      "target_entity_id": "ent_s01975a7b942441720522085071"
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Toasted Grains",
+      "new_claim_id": null,
+      "quantity": 10,
+      "quest_entity_id": "ent_05f5b786cda4bbf9984fc07d",
+      "source_claim_id": "clm_74af4ead00dab9d556040811",
+      "source_text": "Toasted Grains ×10",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Standard Inventory Expansion Tool",
+      "new_claim_id": null,
+      "quantity": 1,
+      "quest_entity_id": "ent_215733140da7eef959a63811",
+      "source_claim_id": "clm_814e5ee624f93c947644b1f8",
+      "source_text": "Standard Inventory Expansion Tool ×1",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "St. Halssius Priest Attire",
+      "new_claim_id": null,
+      "quantity": 1,
+      "quest_entity_id": "ent_6f4cf8650d0e21447e60316d",
+      "source_claim_id": "clm_82fd20bbc32f69eb802e8264",
+      "source_text": "St. Halssius Priest Attire ×1",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Abyss Artifact",
+      "new_claim_id": null,
+      "quantity": 1,
+      "quest_entity_id": "ent_3a9533c82adc507e0c92d25f",
+      "source_claim_id": "clm_85a45e1518caeea788b219f1",
+      "source_text": "Abyss Artifact ×1",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "linked_existing_item",
+      "label": "Radiant Necklace",
+      "new_claim_id": "clm_s05b6785e5c3dabe17619d3c485",
+      "quantity": null,
+      "quest_entity_id": "ent_255207fa0e179e9a053971a2",
+      "source_claim_id": "clm_85c0c2d3bf9a2baf75138927",
+      "source_text": "Radiant Necklace",
+      "target_entity_id": "ent_s013ba21f74d97ff2a20f1732be"
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Fine Timber",
+      "new_claim_id": null,
+      "quantity": 5,
+      "quest_entity_id": "ent_53e2a12c8137d8835869a31b",
+      "source_claim_id": "clm_8ba1b28326ebfe62ac67559e",
+      "source_text": "Fine Timber ×5",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Golden Vanguard",
+      "new_claim_id": null,
+      "quantity": null,
+      "quest_entity_id": "ent_255207fa0e179e9a053971a2",
+      "source_claim_id": "clm_8fb87a51384bb421becb6677",
+      "source_text": "Golden Vanguard",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Core Blueprint: Haste",
+      "new_claim_id": null,
+      "quantity": null,
+      "quest_entity_id": "ent_b7ac65d7c3b33e4effe0c296",
+      "source_claim_id": "clm_994f5d086c769a91a05c1d68",
+      "source_text": "Core Blueprint: Haste",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Shackle of Might",
+      "new_claim_id": null,
+      "quantity": null,
+      "quest_entity_id": "ent_a9520c2d2220b6317c7c362a",
+      "source_claim_id": "clm_ae32bc7c61640c65af755a4a",
+      "source_text": "Shackle of Might",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "St. Halssius Priest's Cloak",
+      "new_claim_id": null,
+      "quantity": 1,
+      "quest_entity_id": "ent_6f4cf8650d0e21447e60316d",
+      "source_claim_id": "clm_b5eec89a1e8aba0086491877",
+      "source_text": "St. Halssius Priest's Cloak ×1",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Fleece",
+      "new_claim_id": null,
+      "quantity": 5,
+      "quest_entity_id": "ent_05f5b786cda4bbf9984fc07d",
+      "source_claim_id": "clm_bd0b62589fcdb34db8660d07",
+      "source_text": "Fleece ×5",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Official Knight's Plate Armor",
+      "new_claim_id": null,
+      "quantity": null,
+      "quest_entity_id": "ent_ed65a28da5ab18b644247aa7",
+      "source_claim_id": "clm_be66c916dc70ce179c271e36",
+      "source_text": "Official Knight's Plate Armor",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "linked_existing_item",
+      "label": "Stardust Necklace",
+      "new_claim_id": "clm_s0542ac255b2ea060fa34523e2a",
+      "quantity": null,
+      "quest_entity_id": "ent_9955a9cdae78db0457aeecaa",
+      "source_claim_id": "clm_bfa4def9078f78e5c6ce73e7",
+      "source_text": "Stardust Necklace",
+      "target_entity_id": "ent_s015dfe862a25d0de577126050a"
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Jackals' Cloth Cloak",
+      "new_claim_id": null,
+      "quantity": null,
+      "quest_entity_id": "ent_829dbd6a55a3f8b1c852469c",
+      "source_claim_id": "clm_c0205997194209b45e5249cd",
+      "source_text": "Jackals' Cloth Cloak",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Whistling Arrow",
+      "new_claim_id": null,
+      "quantity": 10,
+      "quest_entity_id": "ent_0b25650ca6c68765c4aa7284",
+      "source_claim_id": "clm_c21792eea2c4739c5edc876d",
+      "source_text": "Whistling Arrow ×10",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "linked_existing_item",
+      "label": "Melted Ambition",
+      "new_claim_id": "clm_s05518650449bfbe4870353e8db",
+      "quantity": null,
+      "quest_entity_id": "ent_1fe7cc0e625b9b4fb5d8c507",
+      "source_claim_id": "clm_c7951ce78a7bf775855584de",
+      "source_text": "Melted Ambition",
+      "target_entity_id": "ent_s0105807b9e3e86546058c2dab2"
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Eclipsed Solas Plate Gloves",
+      "new_claim_id": null,
+      "quantity": null,
+      "quest_entity_id": "ent_ed65a28da5ab18b644247aa7",
+      "source_claim_id": "clm_cc584d296448db4b84fa641a",
+      "source_text": "Eclipsed Solas Plate Gloves",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Ignir",
+      "new_claim_id": null,
+      "quantity": null,
+      "quest_entity_id": "ent_915e4bfa7c5774e8382f4c5e",
+      "source_claim_id": "clm_d44f4440e8a85ec119dbf9cf",
+      "source_text": "Ignir",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "linked_existing_item",
+      "label": "Witch's Ring",
+      "new_claim_id": "clm_s05d50dc3687050971d4942ab67",
+      "quantity": null,
+      "quest_entity_id": "ent_82b8f50d227e756f7291e2a8",
+      "source_claim_id": "clm_d57d547fa7fe524e6c59ab21",
+      "source_text": "Witch's Ring",
+      "target_entity_id": "ent_m8bwitchsring0000001"
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "St. Halssius Priest's Leather Footwear",
+      "new_claim_id": null,
+      "quantity": 1,
+      "quest_entity_id": "ent_6f4cf8650d0e21447e60316d",
+      "source_claim_id": "clm_d7249944452c8810233a454a",
+      "source_text": "St. Halssius Priest's Leather Footwear ×1",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Arrows",
+      "new_claim_id": null,
+      "quantity": 10,
+      "quest_entity_id": "ent_d0f598e1e415f4e9aedc77de",
+      "source_claim_id": "clm_d79eb19d0b214a278f838503",
+      "source_text": "Arrows ×10",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Blackwing Leather Armor",
+      "new_claim_id": null,
+      "quantity": null,
+      "quest_entity_id": "ent_b7ac65d7c3b33e4effe0c296",
+      "source_claim_id": "clm_de2be791057b4002bc42a5ea",
+      "source_text": "Blackwing Leather Armor",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Spire of Clockwork Key",
+      "new_claim_id": null,
+      "quantity": null,
+      "quest_entity_id": "ent_ed65a28da5ab18b644247aa7",
+      "source_claim_id": "clm_e1a10f043e44244a44a8faeb",
+      "source_text": "Spire of Clockwork Key",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Abyss Artifact",
+      "new_claim_id": null,
+      "quantity": 1,
+      "quest_entity_id": "ent_53e2a12c8137d8835869a31b",
+      "source_claim_id": "clm_e20c97b07a6328567cf6a1fc",
+      "source_text": "Abyss Artifact ×1",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Thick Hides",
+      "new_claim_id": null,
+      "quantity": 6,
+      "quest_entity_id": "ent_53e2a12c8137d8835869a31b",
+      "source_claim_id": "clm_e2b1e9066c8f207e9cdb4c53",
+      "source_text": "Thick Hides ×6",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "linked_existing_item",
+      "label": "Honey Tea",
+      "new_claim_id": "clm_s05d45b18582d68c7eb4b564bc5",
+      "quantity": 10,
+      "quest_entity_id": "ent_3a9533c82adc507e0c92d25f",
+      "source_claim_id": "clm_ed822e293ef8ef5eedec0e90",
+      "source_text": "Honey Tea ×10",
+      "target_entity_id": "ent_s04cf6ac0a91195dd6d94218008"
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Iron Ore",
+      "new_claim_id": null,
+      "quantity": 5,
+      "quest_entity_id": "ent_6f4cf8650d0e21447e60316d",
+      "source_claim_id": "clm_f3a54056319a908a940f7400",
+      "source_text": "Iron Ore ×5",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Medium Bags",
+      "new_claim_id": null,
+      "quantity": 4,
+      "quest_entity_id": "ent_05f5b786cda4bbf9984fc07d",
+      "source_claim_id": "clm_f7ce92fcbdf7030dfea8f081",
+      "source_text": "Medium Bags ×4",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Oats",
+      "new_claim_id": null,
+      "quantity": 10,
+      "quest_entity_id": "ent_215733140da7eef959a63811",
+      "source_claim_id": "clm_f933c270b766bd1e971971cb",
+      "source_text": "Oats ×10",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Formal Alliance with House Roberts.",
+      "new_claim_id": null,
+      "quantity": null,
+      "quest_entity_id": "ent_d3de309d4578b75dc73ee5f2",
+      "source_claim_id": "clm_m8ahonoralliance2026091001",
+      "source_text": "Formal Alliance with House Roberts.",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Azurite x3.",
+      "new_claim_id": null,
+      "quantity": null,
+      "quest_entity_id": "ent_d3de309d4578b75dc73ee5f2",
+      "source_claim_id": "clm_m8ahonorazurite2026091001",
+      "source_text": "Azurite x3.",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Bloodstone x3.",
+      "new_claim_id": null,
+      "quantity": null,
+      "quest_entity_id": "ent_d3de309d4578b75dc73ee5f2",
+      "source_claim_id": "clm_m8ahonorbloodstone2026091001",
+      "source_text": "Bloodstone x3.",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_non_string",
+      "new_claim_id": null,
+      "quest_entity_id": "ent_d3de309d4578b75dc73ee5f2",
+      "source_claim_id": "clm_m8ahonorcontrib2026091001",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_no_exact_item",
+      "label": "Engraved Gold Earring x1.",
+      "new_claim_id": null,
+      "quantity": null,
+      "quest_entity_id": "ent_d3de309d4578b75dc73ee5f2",
+      "source_claim_id": "clm_m8ahonorearring2026091001",
+      "source_text": "Engraved Gold Earring x1.",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_non_string",
+      "new_claim_id": null,
+      "quest_entity_id": "ent_d1b3b818dfa863a35aab7680",
+      "source_claim_id": "clm_m8asealednoitem2026091001",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_non_string",
+      "new_claim_id": null,
+      "quest_entity_id": "ent_6dd97bc94c6fe241d0bb1a0e",
+      "source_claim_id": "clm_m8astolencontrib2026091001",
+      "target_entity_id": null
+    },
+    {
+      "disposition": "held_non_string",
+      "new_claim_id": null,
+      "quest_entity_id": "ent_2beedf6ea02e8ba696464bb3",
+      "source_claim_id": "clm_m8atrialcontrib2026091001",
+      "target_entity_id": null
+    }
+  ],
+  "source_evidence_ids": [
+    "evd_2f3415420e3b552af1dec14e",
+    "evd_3470d198e5849878e2adb6e5",
+    "evd_4000d23c4aecc13927e3cbb8",
+    "evd_5fff44aec983cf20f6e75ce1",
+    "evd_630e0ef9de3432904328b324",
+    "evd_72f7a1017f91417a745c7732",
+    "evd_b0513879893a001abb80e7e9"
+  ],
+  "source_method": "Offline normalization of retained reward assertions; no new collection or independent corroboration.",
+  "status": "reviewed_source_batch"
+}

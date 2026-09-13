@@ -39,6 +39,7 @@ read_first:
   - docs/S02_ACQUISITION.md
   - docs/S03_RECIPE_INPUTS.md
   - docs/S04_RECIPE_OUTPUTS.md
+  - docs/S05_QUEST_REWARDS.md
 run_first:
   - npm ci --ignore-scripts --no-audit --no-fund
   - npm run check

@@ -1,0 +1,402 @@
+{
+  "catalog_id": "cat_s05questrewardclaims0001",
+  "records": [
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s05190b5daedff95ba2f6b98ee7",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_2f3415420e3b552af1dec14e"
+      ],
+      "object": {
+        "entity_id": "ent_s01c245cd4d184f4f9c780af23d",
+        "kind": "entity"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-09-12T23:42:17Z",
+        "created_by": "pywel_s05_retained_reward_normalization",
+        "source_receipt_id": "rcp_s05questrewards2026091201"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_829dbd6a55a3f8b1c852469c",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s052b43cc5b0b5b3cc8a5d29881",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_5fff44aec983cf20f6e75ce1"
+      ],
+      "object": {
+        "entity_id": "ent_s04478cb762ce0c3eba4105e8ec",
+        "kind": "entity"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-09-12T23:42:17Z",
+        "created_by": "pywel_s05_retained_reward_normalization",
+        "source_receipt_id": "rcp_s05questrewards2026091201"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_d0f598e1e415f4e9aedc77de",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s0542ac255b2ea060fa34523e2a",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_b0513879893a001abb80e7e9"
+      ],
+      "object": {
+        "entity_id": "ent_s015dfe862a25d0de577126050a",
+        "kind": "entity"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-09-12T23:42:17Z",
+        "created_by": "pywel_s05_retained_reward_normalization",
+        "source_receipt_id": "rcp_s05questrewards2026091201"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_9955a9cdae78db0457aeecaa",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s05518650449bfbe4870353e8db",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_2f3415420e3b552af1dec14e"
+      ],
+      "object": {
+        "entity_id": "ent_s0105807b9e3e86546058c2dab2",
+        "kind": "entity"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-09-12T23:42:17Z",
+        "created_by": "pywel_s05_retained_reward_normalization",
+        "source_receipt_id": "rcp_s05questrewards2026091201"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_1fe7cc0e625b9b4fb5d8c507",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s0573dc987ebdf547ec777d9774",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_630e0ef9de3432904328b324"
+      ],
+      "object": {
+        "entity_id": "ent_s0101e4c138d0c71bc440858c1f",
+        "kind": "entity"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-09-12T23:42:17Z",
+        "created_by": "pywel_s05_retained_reward_normalization",
+        "source_receipt_id": "rcp_s05questrewards2026091201"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_ed65a28da5ab18b644247aa7",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s058c7f6db955ff3a8985c216ad",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_3470d198e5849878e2adb6e5"
+      ],
+      "object": {
+        "entity_id": "ent_s01a13c0b2a3ae38bd4b80fa46e",
+        "kind": "entity"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-09-12T23:42:17Z",
+        "created_by": "pywel_s05_retained_reward_normalization",
+        "source_receipt_id": "rcp_s05questrewards2026091201"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_27d2fc67a8c5c1d168093fd2",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s05986322bd1ff232d3b5e5c4a0",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_72f7a1017f91417a745c7732"
+      ],
+      "object": {
+        "entity_id": "ent_s0178a5608097f2dfab8623d7a9",
+        "kind": "entity"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-09-12T23:42:17Z",
+        "created_by": "pywel_s05_retained_reward_normalization",
+        "source_receipt_id": "rcp_s05questrewards2026091201"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_b7ac65d7c3b33e4effe0c296",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s05a5dc665be3a2a38381347882",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_630e0ef9de3432904328b324"
+      ],
+      "object": {
+        "entity_id": "ent_s018b884f466f58adb75ffa650b",
+        "kind": "entity"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-09-12T23:42:17Z",
+        "created_by": "pywel_s05_retained_reward_normalization",
+        "source_receipt_id": "rcp_s05questrewards2026091201"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_ed65a28da5ab18b644247aa7",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s05b6785e5c3dabe17619d3c485",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_630e0ef9de3432904328b324"
+      ],
+      "object": {
+        "entity_id": "ent_s013ba21f74d97ff2a20f1732be",
+        "kind": "entity"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-09-12T23:42:17Z",
+        "created_by": "pywel_s05_retained_reward_normalization",
+        "source_receipt_id": "rcp_s05questrewards2026091201"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_255207fa0e179e9a053971a2",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s05d45b18582d68c7eb4b564bc5",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_4000d23c4aecc13927e3cbb8"
+      ],
+      "object": {
+        "entity_id": "ent_s04cf6ac0a91195dd6d94218008",
+        "kind": "entity"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-09-12T23:42:17Z",
+        "created_by": "pywel_s05_retained_reward_normalization",
+        "source_receipt_id": "rcp_s05questrewards2026091201"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_3a9533c82adc507e0c92d25f",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s05d50dc3687050971d4942ab67",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_b0513879893a001abb80e7e9"
+      ],
+      "object": {
+        "entity_id": "ent_m8bwitchsring0000001",
+        "kind": "entity"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-09-12T23:42:17Z",
+        "created_by": "pywel_s05_retained_reward_normalization",
+        "source_receipt_id": "rcp_s05questrewards2026091201"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_82b8f50d227e756f7291e2a8",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "historical",
+      "claim_id": "clm_s05f6df2b3b6ff0a956c17a8f1f",
+      "confidence": 0.24,
+      "evidence_ids": [
+        "evd_b0513879893a001abb80e7e9"
+      ],
+      "object": {
+        "entity_id": "ent_s01975a7b942441720522085071",
+        "kind": "entity"
+      },
+      "predicate": "quest.reward",
+      "provenance": {
+        "created_at": "2026-09-12T23:42:17Z",
+        "created_by": "pywel_s05_retained_reward_normalization",
+        "source_receipt_id": "rcp_s05questrewards2026091201"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "inferred",
+      "subject_entity_id": "ent_82b8f50d227e756f7291e2a8",
+      "validity": {
+        "from_patch": null,
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "all"
+        ],
+        "reviewed_through_patch": null,
+        "through_patch": null
+      }
+    }
+  ],
+  "schema_version": "pywel.claim_catalog.v1"
+}

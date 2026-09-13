@@ -33,7 +33,14 @@ type Ledger = {
 async function setup() {
   const { root, store } = await validStore();
   const ledger = JSON.parse(await readFile(resolve(root, "quality/s04-recipe-output-review.json"), "utf8")) as Ledger;
-  const prior = { ...store, entities: store.entities.filter(e => !isS04(e)), claims: store.claims.filter(c => !isS04(c)), receipts: store.receipts.filter(r => r.receipt_id !== receiptId) };
+  // The frozen pre-S04 files define this historical cohort, not absence of S04.
+  const priorReceipts = new Set(await Promise.all(Object.keys(ledger.prior_canonical_files)
+    .filter(path => path.startsWith("data/canonical/receipts/"))
+    .map(async path => (JSON.parse(await readFile(resolve(root, path), "utf8")) as { receipt_id: string }).receipt_id)));
+  const isPrior = (r: { provenance: { source_receipt_id?: string } }) => priorReceipts.has(r.provenance.source_receipt_id ?? "");
+  const prior = { ...store, entities: store.entities.filter(isPrior), claims: store.claims.filter(isPrior),
+    evidence: store.evidence.filter(isPrior), patches: store.patches.filter(isPrior),
+    strategies: store.strategies.filter(isPrior), receipts: store.receipts.filter(r => priorReceipts.has(r.receipt_id)) };
   return { root, store, ledger, prior, index: new KnowledgeIndex(store), before: new KnowledgeIndex(prior) };
 }
 
