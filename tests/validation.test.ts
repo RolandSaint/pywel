@@ -94,7 +94,9 @@ describe("canonical validation", () => {
       expect(patch.content_coverage.normalized_claim_count).toBeLessThanOrEqual(claims.length);
       expect(patch.content_coverage.notes).toContain(patch.patch_id.startsWith("pat_g02")
         ? "no normalized gameplay claims or claim-review advancement"
-        : "complete note or observed gameplay coverage is not claimed");
+        : patch.patch_id.startsWith("pat_g04")
+          ? "no exhaustive note normalization or blanket claim freshness"
+          : "complete note or observed gameplay coverage is not claimed");
     }
   });
 });
