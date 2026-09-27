@@ -2,6 +2,15 @@
 
 Reviewed 2026-09-10 (America/Chicago). This notice covers the original 77 evidence records, two M7 additions, three M8A additions, three M8B additions and three R01 additions, for 88 pre-G02 records. G02 adds 18 official notice records, bringing the current total to 106. The initial retained manifest and reviewed additions identify exact membership. Source titles, locators, capture context, and hashes remain in the evidence records.
 
+## G04 official-publication selection
+
+Four individually inspected Pearl Abyss notices, September 27, 2026. Retained content is limited to public source metadata and original compact publisher-intent assertions. No article body, media, game data extraction, bulk collector or open-content licence is included. See DATA_RIGHTS.md and docs/G04_CURRENT_PATCH.md for the unchanged unofficial distribution boundary, actual method, partial coverage and rollout limits.
+
+- `evd_g04notice1300001`: Pearl Abyss, [Patch Notes 2.02.00](https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=130), published 2026-09-11T05:30:00Z. Publisher-owned; normalized selection, not independent gameplay verification.
+- `evd_g04notice1310001`: Pearl Abyss, [Patch Notes 2.03.00](https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=131), published 2026-09-18T01:00:00Z. Publisher-owned; normalized selection, not independent gameplay verification.
+- `evd_g04notice1320001`: Pearl Abyss, [Patch Notes 2.03.01](https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=132), published 2026-09-21T14:00:00Z. Publisher-owned; normalized selection, not independent gameplay verification.
+- `evd_g04notice1330001`: Pearl Abyss, [Patch Notes 2.03.02](https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=133), published 2026-09-23T04:45:00Z. Publisher-owned; normalized selection, not independent gameplay verification.
+
 ## CrimsonWiki community contributions
 
 Copyright 2026 CrimsonWiki contributors, to the extent applicable. Community contributions are offered under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), as stated in [CrimsonWiki Terms of Service](https://crimsonwiki.org/terms) (last updated March 2026; retrieved 2026-09-10). See the [full license and warranty disclaimer](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en).

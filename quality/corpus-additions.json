@@ -2,6 +2,26 @@
   "baseline_scope_sha256": "9bea33a672f0d2043e19e706e4d67cd8537823ad47154242916422c53c7aeb7f",
   "canonical_files": [
     {
+      "path": "data/canonical/entities/g04-current-patch.json",
+      "sha256": "89750daef68aee254245063ff7caad9f6f58cfe2b51041ff8c0969acc08944c6"
+    },
+    {
+      "path": "data/canonical/claims/g04-current-patch.json",
+      "sha256": "ed5ceba74aa520d4fa753afb3e71e76969babcef0f645ff65a4f6624529b3d1f"
+    },
+    {
+      "path": "data/canonical/evidence/g04-current-patch.json",
+      "sha256": "be2afd87e43fc145fc7f1e1b9f895067e3e4a72f083035a1a86f8c1ce0d0e2b0"
+    },
+    {
+      "path": "data/canonical/patches/g04-current-patch.json",
+      "sha256": "0d5f3d6159c99d3d62270c780c23a6b56e7a9eaca316208b89e5d2cc4ecee46f"
+    },
+    {
+      "path": "data/canonical/receipts/g04-current-patch.json",
+      "sha256": "4ded1b21cf58e423d18d60889a4ce9eac0fe44b3fa589a6e2a5f483c7d9519f1"
+    },
+    {
       "path": "data/canonical/claims/m7-house-roberts.json",
       "sha256": "7d7a669726f9ec3f847780e73ad82834b96d4fdafbd75f7793451822e3c660c9"
     },
@@ -74,9 +94,25 @@
       "sha256": "79a2a9ebf9902cc97f7fcac1e9000ebe39aae65677a3cdbd5b1e560d0186a8d4"
     }
   ],
-  "evidence_cutoff": "2026-09-11",
+  "evidence_cutoff": "2026-09-27",
   "record_ids": {
     "claims": [
+      "clm_g0424e6283745106bc0a4429b8f",
+      "clm_g043e36d6b729e5481aaddf08d2",
+      "clm_g04422cce1d215bd3c1bc0ce094",
+      "clm_g0463ed73c85efb9ce4ed5b1d53",
+      "clm_g046e24575629f8da1d9616354b",
+      "clm_g046fa3b589facc6a370619f38d",
+      "clm_g0474abb3f52bb1efdce6a68c30",
+      "clm_g047c73f38ac69149ad21a167f9",
+      "clm_g049d456c7a657d5247dd718e28",
+      "clm_g04a5efe5d6aac0bbaa85354d9e",
+      "clm_g04adec50865792b76bf7c01cbb",
+      "clm_g04be1eb9563c6e7719b87561de",
+      "clm_g04e9218068a0cd34b834753566",
+      "clm_g04f0535d1a1339f30baad015ab",
+      "clm_g04f2e83c49cbd616000a47b99f",
+      "clm_g04fb83f0772a5aec341af0a5e2",
       "clm_46f71b753dd5a51e961ec6df",
       "clm_4895dac9d99f17dc7737aae8",
       "clm_4b07160062124fd0a550d66d",
@@ -130,6 +166,12 @@
       "clm_r01swordvendor"
     ],
     "entities": [
+      "ent_g04176beca2b810cdc7bef168da",
+      "ent_g0430a81ac6b0d1566a182b20c0",
+      "ent_g0497cd3a0be6f8b2f6f436dd5a",
+      "ent_g04a9908c8bf106561870af8545",
+      "ent_g04b34d1c5c4f538f0331ae1ee0",
+      "ent_g04d4c58f1434a3966c15d714a9",
       "ent_089ced07950ace8407a29247",
       "ent_2beedf6ea02e8ba696464bb3",
       "ent_6ca283919bf4d6fa26a0da9f",
@@ -142,6 +184,10 @@
       "ent_m8bwitchsring0000001"
     ],
     "evidence": [
+      "evd_g04notice1300001",
+      "evd_g04notice1310001",
+      "evd_g04notice1320001",
+      "evd_g04notice1330001",
       "evd_43cf07ba816dbe19d270d124",
       "evd_db435362e5eb93eba7f3eac4",
       "evd_g02notice0730001",
@@ -175,6 +221,10 @@
     "patchChanges": [],
     "patchReviews": [],
     "patches": [
+      "pat_g04patch202000001",
+      "pat_g04patch203000001",
+      "pat_g04patch203010001",
+      "pat_g04patch203020001",
       "pat_g02patch100030001",
       "pat_g02patch100040001",
       "pat_g02patch102000001",
@@ -194,6 +244,7 @@
       "pat_g02patch201000001"
     ],
     "receipts": [
+      "rcp_g04currentpatch2026092701",
       "rcp_g02patchcatchup2026091001",
       "rcp_m7houseroberts2026091001",
       "rcp_m8aprogression2026091001",
