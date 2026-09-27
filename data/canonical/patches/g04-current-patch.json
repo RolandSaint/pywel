@@ -1,0 +1,141 @@
+{
+  "catalog_id": "cat_g04patches2026092701",
+  "records": [
+    {
+      "affected_entity_ids": [
+        "ent_5d5ab45056dca48b945646a4",
+        "ent_fdf904a417ece219d2afef14",
+        "ent_g0430a81ac6b0d1566a182b20c0",
+        "ent_g0497cd3a0be6f8b2f6f436dd5a",
+        "ent_g04d4c58f1434a3966c15d714a9"
+      ],
+      "content_coverage": {
+        "level": "partial",
+        "normalized_claim_count": 5,
+        "notes": "Finite selected publisher-intent assertions only; no exhaustive note normalization or blanket claim freshness. released_at is notice publication, not simultaneous storefront rollout. All six storefronts are marked available in this inspected revision; exact rollout times are not established."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_g04patch202000001",
+      "platforms": [
+        "mac-app-store",
+        "mac-steam",
+        "pc-epic",
+        "pc-steam",
+        "playstation-5",
+        "xbox-series"
+      ],
+      "provenance": {
+        "created_at": "2026-09-27T22:24:01Z",
+        "created_by": "pywel_g04_official_notice_review",
+        "source_receipt_id": "rcp_g04currentpatch2026092701"
+      },
+      "released_at": "2026-09-11T05:30:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_g04notice1300001"
+      ],
+      "version": "2.02.00"
+    },
+    {
+      "affected_entity_ids": [
+        "ent_17e889663cccf45caa460753",
+        "ent_5d5ab45056dca48b945646a4",
+        "ent_g04a9908c8bf106561870af8545",
+        "ent_g04b34d1c5c4f538f0331ae1ee0"
+      ],
+      "content_coverage": {
+        "level": "partial",
+        "normalized_claim_count": 6,
+        "notes": "Finite selected publisher-intent assertions only; no exhaustive note normalization or blanket claim freshness. released_at is notice publication, not simultaneous storefront rollout. Mac App Store is pending in this inspected notice."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_g04patch203000001",
+      "platforms": [
+        "mac-steam",
+        "pc-epic",
+        "pc-steam",
+        "playstation-5",
+        "xbox-series"
+      ],
+      "provenance": {
+        "created_at": "2026-09-27T22:24:01Z",
+        "created_by": "pywel_g04_official_notice_review",
+        "source_receipt_id": "rcp_g04currentpatch2026092701"
+      },
+      "released_at": "2026-09-18T01:00:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_g04notice1310001"
+      ],
+      "version": "2.03.00"
+    },
+    {
+      "affected_entity_ids": [
+        "ent_01jzcdcontrols00000000001",
+        "ent_5d5ab45056dca48b945646a4"
+      ],
+      "content_coverage": {
+        "level": "partial",
+        "normalized_claim_count": 2,
+        "notes": "Finite selected publisher-intent assertions only; no exhaustive note normalization or blanket claim freshness. released_at is notice publication, not simultaneous storefront rollout. Mac App Store is pending in this inspected notice."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_g04patch203010001",
+      "platforms": [
+        "mac-steam",
+        "pc-epic",
+        "pc-steam",
+        "playstation-5",
+        "xbox-series"
+      ],
+      "provenance": {
+        "created_at": "2026-09-27T22:24:01Z",
+        "created_by": "pywel_g04_official_notice_review",
+        "source_receipt_id": "rcp_g04currentpatch2026092701"
+      },
+      "released_at": "2026-09-21T14:00:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_g04notice1320001"
+      ],
+      "version": "2.03.01"
+    },
+    {
+      "affected_entity_ids": [
+        "ent_52b83b4a21bdb255a154f092",
+        "ent_ebe2c1cf987ea4158af92be1",
+        "ent_g04176beca2b810cdc7bef168da"
+      ],
+      "content_coverage": {
+        "level": "partial",
+        "normalized_claim_count": 3,
+        "notes": "Finite selected publisher-intent assertions only; no exhaustive note normalization or blanket claim freshness. released_at is notice publication, not simultaneous storefront rollout. Mac App Store is pending in this inspected notice."
+      },
+      "game_id": "crimson_desert",
+      "patch_id": "pat_g04patch203020001",
+      "platforms": [
+        "mac-steam",
+        "pc-epic",
+        "pc-steam",
+        "playstation-5",
+        "xbox-series"
+      ],
+      "provenance": {
+        "created_at": "2026-09-27T22:24:01Z",
+        "created_by": "pywel_g04_official_notice_review",
+        "source_receipt_id": "rcp_g04currentpatch2026092701"
+      },
+      "released_at": "2026-09-23T04:45:00Z",
+      "revision": 1,
+      "schema_version": "pywel.patch.v1",
+      "source_evidence_ids": [
+        "evd_g04notice1330001"
+      ],
+      "version": "2.03.02"
+    }
+  ],
+  "schema_version": "pywel.patch_catalog.v1"
+}

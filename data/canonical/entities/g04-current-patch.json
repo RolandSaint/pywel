@@ -1,0 +1,138 @@
+{
+  "catalog_id": "cat_g04entities2026092701",
+  "records": [
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Ether Rest"
+      },
+      "entity_id": "ent_g04176beca2b810cdc7bef168da",
+      "entity_type": "location",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-27T22:24:01Z",
+        "created_by": "pywel_g04_official_notice_review",
+        "source_receipt_id": "rcp_g04currentpatch2026092701"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "location.ether-rest",
+      "subtype": "location",
+      "summary": "Crimson Desert location reference named in official update notice 133; consult the linked claims for source-bounded behavior, not independently tested gameplay.",
+      "tags": [
+        "official-reference"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Housing"
+      },
+      "entity_id": "ent_g0430a81ac6b0d1566a182b20c0",
+      "entity_type": "system",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-27T22:24:01Z",
+        "created_by": "pywel_g04_official_notice_review",
+        "source_receipt_id": "rcp_g04currentpatch2026092701"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "system.housing",
+      "subtype": "system",
+      "summary": "Crimson Desert system reference named in official update notice 130; consult the linked claims for source-bounded behavior, not independently tested gameplay.",
+      "tags": [
+        "official-reference"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Cross-save"
+      },
+      "entity_id": "ent_g0497cd3a0be6f8b2f6f436dd5a",
+      "entity_type": "system",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-27T22:24:01Z",
+        "created_by": "pywel_g04_official_notice_review",
+        "source_receipt_id": "rcp_g04currentpatch2026092701"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "system.cross-save",
+      "subtype": "system",
+      "summary": "Crimson Desert system reference named in official update notice 130; consult the linked claims for source-bounded behavior, not independently tested gameplay.",
+      "tags": [
+        "official-reference"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Photo Mode"
+      },
+      "entity_id": "ent_g04a9908c8bf106561870af8545",
+      "entity_type": "system",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-27T22:24:01Z",
+        "created_by": "pywel_g04_official_notice_review",
+        "source_receipt_id": "rcp_g04currentpatch2026092701"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "system.photo-mode",
+      "subtype": "interface",
+      "summary": "Crimson Desert system reference named in official update notice 131; consult the linked claims for source-bounded behavior, not independently tested gameplay.",
+      "tags": [
+        "official-reference"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Water Stride"
+      },
+      "entity_id": "ent_g04b34d1c5c4f538f0331ae1ee0",
+      "entity_type": "ability",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-27T22:24:01Z",
+        "created_by": "pywel_g04_official_notice_review",
+        "source_receipt_id": "rcp_g04currentpatch2026092701"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "ability.water-stride",
+      "subtype": "movement",
+      "summary": "Crimson Desert ability reference named in official update notice 131; consult the linked claims for source-bounded behavior, not independently tested gameplay.",
+      "tags": [
+        "official-reference"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Trade Goods Storage"
+      },
+      "entity_id": "ent_g04d4c58f1434a3966c15d714a9",
+      "entity_type": "system",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-27T22:24:01Z",
+        "created_by": "pywel_g04_official_notice_review",
+        "source_receipt_id": "rcp_g04currentpatch2026092701"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "system.trade-goods-storage",
+      "subtype": "inventory",
+      "summary": "Crimson Desert system reference named in official update notice 130; consult the linked claims for source-bounded behavior, not independently tested gameplay.",
+      "tags": [
+        "official-reference"
+      ]
+    }
+  ],
+  "schema_version": "pywel.entity_catalog.v1"
+}

@@ -42,7 +42,7 @@ Milestone integration is not a new GitHub Release. The v1.0.0 tag and its assets
 
 The first expansion is published as [`expansion-2026.09.10.1`](https://github.com/RolandSaint/pywel/releases/tag/expansion-2026.09.10.1). Its source and assets remain unchanged. This later source adds **17 version identities, 18 official evidence records and one receipt**: **320 entities, 1,447 claims, 106 evidence records, 44 patches, one strategy and six receipts**.
 
-The latest indexed identity is now **2.01.00**, observed at the fixed G02 cutoff. The added patches are **identity-only**, not normalized gameplay changes. No existing claim, confidence, spoiler level, validity interval or review boundary was changed. Default patch selection follows the latest indexed identity as before; historical claims continue to report review gaps, and genuinely unindexed versions remain unknown.
+At the fixed G02 cutoff, the latest indexed identity was **2.01.00**. The added patches are **identity-only**, not normalized gameplay changes. No existing claim, confidence, spoiler level, validity interval or review boundary was changed. Default patch selection follows the latest indexed identity as before; historical claims continue to report review gaps, and genuinely unindexed versions remain unknown.
 
 [G02](docs/G02_PATCH_CATCHUP.md) and its [impact queue](quality/g02-patch-review.json) record separate storefront notices, delayed rollouts, source revisions and 13 bounded review tasks. These tasks are not accepted gameplay claims. Ordinary CI no longer packages later source under the already-published M10 label. No new release or hosted endpoint accompanies G02.
 
@@ -129,8 +129,16 @@ The 48 prior output assertions, all ingredient quantities, and all 71 earlier ca
 This is structured expansion of existing historical knowledge, not new source collection or live-game verification. Existing attribution, capture dates, uncertainty and null patch-review bounds remain. S02 is still withheld, and neither published release changes. [PR #20](https://github.com/RolandSaint/pywel/pull/20) records the actual review, checked head, integration commit and post-merge checks.
 
 
-## S05 quest reward links: current source
+## S05 quest reward links
 
-[S05](docs/S05_QUEST_REWARDS.md) adds **12 typed reward links across 10 existing quests**, reusing existing item identities and seven retained CrimsonWiki sources. It adds one receipt, no entities, no evidence, and no prerequisites. Current source totals are **586 entities, 2,680 stored claims, 306 evidence records, 44 patch identities, one strategy and ten receipts**. All 74 earlier canonical files, original reward strings and quantities remain unchanged.
+[S05](docs/S05_QUEST_REWARDS.md) adds **12 typed reward links across 10 existing quests**, reusing existing item identities and seven retained CrimsonWiki sources. It adds one receipt, no entities, no evidence, and no prerequisites. The integrated S05 snapshot contained **586 entities, 2,680 stored claims, 306 evidence records, 44 patch identities, one strategy and ten receipts**. All 74 earlier canonical files, original reward strings and quantities remain unchanged.
 
 Palmar Pill and Honey Tea link to items, not same-named recipes. Text and typed records describe the same reward; do not sum them or count them as independent evidence. Of 65 audited reward assertions, 53 remain without a new typed link because an exact eligible item or unconditional item meaning is not established. Two existing prerequisite links are preserved; the two remaining prerequisite statements do not gain invented dependencies. Historical uncertainty, source dates, spoiler limits and S02 withholding remain. [Issue #21](https://github.com/RolandSaint/pywel/issues/21) and its linked PR record actual review, integration and verification. No new collection, outreach, release or deployment accompanies this source batch.
+
+## G04 official patch catch-up: current source
+
+[G04](docs/G04_CURRENT_PATCH.md) indexes **2.02.00, 2.03.00, 2.03.01 and 2.03.02**, with **2.03.02** the newest official patch listed at the September 27, 2026 research cutoff. It adds **16 selected publisher-intent claims, six necessary named subjects, four evidence records and one receipt**. This source contains **592 entities, 2,696 stored claims, 310 evidence records, 48 patch identities, one strategy and eleven receipts**.
+
+The selected changes cover housing/storage, Mac cross-save, camera/movement, controls/stability and quest/map/Abyss fixes. All four new patches have partial content coverage. The 76 earlier canonical files and their claim-review bounds are unchanged: indexing the current patch does not certify every older gameplay fact. The latest-indexed default is global, not an installed-version detector; **Mac App Store remains pending in the three 2.03 notices**, while the inspected 2.02 notice lists it available. Source publication times are not universal rollout times.
+
+S06 is paused and preserved in PR #22; its unmerged records are not included. S02 remains withheld. [Issue/PR #23](https://github.com/RolandSaint/pywel/issues/23) records actual integration and verification; this source description alone does not establish passed checks or a completed merge. Existing source rules, runtime, schemas, dependencies and both published releases remain unchanged. No new release, deployment or outside contact is included.

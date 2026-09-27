@@ -40,12 +40,13 @@ read_first:
   - docs/S03_RECIPE_INPUTS.md
   - docs/S04_RECIPE_OUTPUTS.md
   - docs/S05_QUEST_REWARDS.md
+  - docs/G04_CURRENT_PATCH.md
 run_first:
   - npm ci --ignore-scripts --no-audit --no-fund
   - npm run check
 release_scope:
   dataset: immutable_initial_manifest_plus_reviewed_additions
-  patch_ceiling: '2.01.00'
+  patch_ceiling: '2.03.02'
   patch_scope: historical_snapshot_not_live_game_freshness
   retrieval_language: English
   retained_access:

@@ -17,7 +17,8 @@ describe("G02 official patch identities, not automatic claim freshness", () => {
     const { store } = await validStore();
     const added = store.patches.filter(p => p.patch_id.startsWith("pat_g02"));
     expect(added.map(p => p.version).sort()).toEqual([...versions].sort());
-    expect(new Set(store.patches.map(p => p.version)).size).toBe(44);
+    // Preserve the G02 historical version cohort while later additions extend main.
+    expect(new Set([...(await firstExpansionStore()).store.patches, ...added].map(p => p.version)).size).toBe(44);
     expect(store.evidence.filter(e => e.evidence_id.startsWith("evd_g02"))).toHaveLength(18);
     expect(store.receipts.filter(r => r.receipt_id.startsWith("rcp_g02"))).toHaveLength(1);
     for (const patch of added) {
@@ -108,7 +109,7 @@ describe("G02 official patch identities, not automatic claim freshness", () => {
       if (!("text" in descriptor)) throw new Error("Expected JSON descriptor");
       const app = createApp(store, { buildId: JSON.parse(descriptor.text).build_id });
       const latest = await (await app.request("/v1/patches/latest")).json();
-      expect(latest.patch.version).toBe("2.01.00");
+      expect(latest.patch.version).toBe("2.03.02");
       for (const version of ["1.00.04", "2.01.00"]) {
         const rest = await (await app.request(`/v1/patches/${version}`)).json();
         const mcp = await client.callTool({ name: "pywel_get_patches", arguments: { version } });

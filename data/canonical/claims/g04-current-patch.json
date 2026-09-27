@@ -1,0 +1,592 @@
+{
+  "catalog_id": "cat_g04claims2026092701",
+  "records": [
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_g0424e6283745106bc0a4429b8f",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_g04notice1330001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Missing map icons for newly discovered objects in some regions were reported fixed."
+      },
+      "predicate": "patch.resolved_issue",
+      "provenance": {
+        "created_at": "2026-09-27T22:24:01Z",
+        "created_by": "pywel_g04_official_notice_review",
+        "source_receipt_id": "rcp_g04currentpatch2026092701"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "official",
+      "subject_entity_id": "ent_52b83b4a21bdb255a154f092",
+      "validity": {
+        "from_patch": "2.03.02",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "mac-steam",
+          "pc-epic",
+          "pc-steam",
+          "playstation-5",
+          "xbox-series"
+        ],
+        "reviewed_through_patch": "2.03.02",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_g043e36d6b729e5481aaddf08d2",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_g04notice1310001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "NVIDIA Streamline was updated to 2.14.1 with a newer DLSS Ray Reconstruction transformer model."
+      },
+      "predicate": "patch.changed_interface",
+      "provenance": {
+        "created_at": "2026-09-27T22:24:01Z",
+        "created_by": "pywel_g04_official_notice_review",
+        "source_receipt_id": "rcp_g04currentpatch2026092701"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "official",
+      "subject_entity_id": "ent_5d5ab45056dca48b945646a4",
+      "validity": {
+        "from_patch": "2.03.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "pc-epic",
+          "pc-steam"
+        ],
+        "reviewed_through_patch": "2.03.00",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_g04422cce1d215bd3c1bc0ce094",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_g04notice1300001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "A disappearing quest letter could halt progress; the notice reports that fault fixed."
+      },
+      "predicate": "patch.resolved_issue",
+      "provenance": {
+        "created_at": "2026-09-27T22:24:01Z",
+        "created_by": "pywel_g04_official_notice_review",
+        "source_receipt_id": "rcp_g04currentpatch2026092701"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "official",
+      "subject_entity_id": "ent_fdf904a417ece219d2afef14",
+      "validity": {
+        "from_patch": "2.02.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "mac-app-store",
+          "mac-steam",
+          "pc-epic",
+          "pc-steam",
+          "playstation-5",
+          "xbox-series"
+        ],
+        "reviewed_through_patch": "2.02.00",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_g0463ed73c85efb9ce4ed5b1d53",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_g04notice1320001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Controller lantern aiming after remapping its input was reported repaired."
+      },
+      "predicate": "patch.resolved_issue",
+      "provenance": {
+        "created_at": "2026-09-27T22:24:01Z",
+        "created_by": "pywel_g04_official_notice_review",
+        "source_receipt_id": "rcp_g04currentpatch2026092701"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "official",
+      "subject_entity_id": "ent_01jzcdcontrols00000000001",
+      "validity": {
+        "from_patch": "2.03.01",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "mac-steam",
+          "pc-epic",
+          "pc-steam",
+          "playstation-5",
+          "xbox-series"
+        ],
+        "reviewed_through_patch": "2.03.01",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_g046e24575629f8da1d9616354b",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_g04notice1310001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Water Stride gained sliding when Vaporwalker is equipped."
+      },
+      "predicate": "ability.effect",
+      "provenance": {
+        "created_at": "2026-09-27T22:24:01Z",
+        "created_by": "pywel_g04_official_notice_review",
+        "source_receipt_id": "rcp_g04currentpatch2026092701"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "official",
+      "subject_entity_id": "ent_g04b34d1c5c4f538f0331ae1ee0",
+      "validity": {
+        "from_patch": "2.03.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "mac-steam",
+          "pc-epic",
+          "pc-steam",
+          "playstation-5",
+          "xbox-series"
+        ],
+        "reviewed_through_patch": "2.03.00",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_g046fa3b589facc6a370619f38d",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_g04notice1310001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Jumping became available while using Water Stride."
+      },
+      "predicate": "ability.effect",
+      "provenance": {
+        "created_at": "2026-09-27T22:24:01Z",
+        "created_by": "pywel_g04_official_notice_review",
+        "source_receipt_id": "rcp_g04currentpatch2026092701"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "official",
+      "subject_entity_id": "ent_g04b34d1c5c4f538f0331ae1ee0",
+      "validity": {
+        "from_patch": "2.03.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "mac-steam",
+          "pc-epic",
+          "pc-steam",
+          "playstation-5",
+          "xbox-series"
+        ],
+        "reviewed_through_patch": "2.03.00",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_g0474abb3f52bb1efdce6a68c30",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_g04notice1320001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Crashes triggered by some NPC interactions were reported fixed."
+      },
+      "predicate": "patch.resolved_issue",
+      "provenance": {
+        "created_at": "2026-09-27T22:24:01Z",
+        "created_by": "pywel_g04_official_notice_review",
+        "source_receipt_id": "rcp_g04currentpatch2026092701"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "official",
+      "subject_entity_id": "ent_5d5ab45056dca48b945646a4",
+      "validity": {
+        "from_patch": "2.03.01",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "mac-steam",
+          "pc-epic",
+          "pc-steam",
+          "playstation-5",
+          "xbox-series"
+        ],
+        "reviewed_through_patch": "2.03.01",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_g047c73f38ac69149ad21a167f9",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_g04notice1310001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Photo Mode gained Precise Movement for finer camera positioning."
+      },
+      "predicate": "system.interaction",
+      "provenance": {
+        "created_at": "2026-09-27T22:24:01Z",
+        "created_by": "pywel_g04_official_notice_review",
+        "source_receipt_id": "rcp_g04currentpatch2026092701"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "official",
+      "subject_entity_id": "ent_g04a9908c8bf106561870af8545",
+      "validity": {
+        "from_patch": "2.03.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "mac-steam",
+          "pc-epic",
+          "pc-steam",
+          "playstation-5",
+          "xbox-series"
+        ],
+        "reviewed_through_patch": "2.03.00",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_g049d456c7a657d5247dd718e28",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_g04notice1330001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "The power-core recognition fault that blocked Ether Rest progression was reported fixed."
+      },
+      "predicate": "patch.resolved_issue",
+      "provenance": {
+        "created_at": "2026-09-27T22:24:01Z",
+        "created_by": "pywel_g04_official_notice_review",
+        "source_receipt_id": "rcp_g04currentpatch2026092701"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "official",
+      "subject_entity_id": "ent_g04176beca2b810cdc7bef168da",
+      "validity": {
+        "from_patch": "2.03.02",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "mac-steam",
+          "pc-epic",
+          "pc-steam",
+          "playstation-5",
+          "xbox-series"
+        ],
+        "reviewed_through_patch": "2.03.02",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_g04a5efe5d6aac0bbaa85354d9e",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_g04notice1310001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Excessive fall damage after a midair A.T.A.G. dismount was reported fixed."
+      },
+      "predicate": "patch.resolved_issue",
+      "provenance": {
+        "created_at": "2026-09-27T22:24:01Z",
+        "created_by": "pywel_g04_official_notice_review",
+        "source_receipt_id": "rcp_g04currentpatch2026092701"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "official",
+      "subject_entity_id": "ent_17e889663cccf45caa460753",
+      "validity": {
+        "from_patch": "2.03.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "mac-steam",
+          "pc-epic",
+          "pc-steam",
+          "playstation-5",
+          "xbox-series"
+        ],
+        "reviewed_through_patch": "2.03.00",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_g04adec50865792b76bf7c01cbb",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_g04notice1310001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Freezing caused by certain item uses while mounted was reported fixed."
+      },
+      "predicate": "patch.resolved_issue",
+      "provenance": {
+        "created_at": "2026-09-27T22:24:01Z",
+        "created_by": "pywel_g04_official_notice_review",
+        "source_receipt_id": "rcp_g04currentpatch2026092701"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "official",
+      "subject_entity_id": "ent_17e889663cccf45caa460753",
+      "validity": {
+        "from_patch": "2.03.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "mac-steam",
+          "pc-epic",
+          "pc-steam",
+          "playstation-5",
+          "xbox-series"
+        ],
+        "reviewed_through_patch": "2.03.00",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_g04be1eb9563c6e7719b87561de",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_g04notice1300001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Mac cross-save support was introduced in version 2.02.00."
+      },
+      "predicate": "system.interaction",
+      "provenance": {
+        "created_at": "2026-09-27T22:24:01Z",
+        "created_by": "pywel_g04_official_notice_review",
+        "source_receipt_id": "rcp_g04currentpatch2026092701"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "official",
+      "subject_entity_id": "ent_g0497cd3a0be6f8b2f6f436dd5a",
+      "validity": {
+        "from_patch": "2.02.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "mac-app-store",
+          "mac-steam"
+        ],
+        "reviewed_through_patch": "2.02.00",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_g04e9218068a0cd34b834753566",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_g04notice1330001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Grimnir failing to appear during this quest in some situations was reported fixed."
+      },
+      "predicate": "patch.resolved_issue",
+      "provenance": {
+        "created_at": "2026-09-27T22:24:01Z",
+        "created_by": "pywel_g04_official_notice_review",
+        "source_receipt_id": "rcp_g04currentpatch2026092701"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "quest_major",
+      "status": "official",
+      "subject_entity_id": "ent_ebe2c1cf987ea4158af92be1",
+      "validity": {
+        "from_patch": "2.03.02",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "mac-steam",
+          "pc-epic",
+          "pc-steam",
+          "playstation-5",
+          "xbox-series"
+        ],
+        "reviewed_through_patch": "2.03.02",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_g04f0535d1a1339f30baad015ab",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_g04notice1300001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "The housing-unlock failure caused by raising the Howling Hill Camp banner with a full inventory was reported fixed."
+      },
+      "predicate": "patch.resolved_issue",
+      "provenance": {
+        "created_at": "2026-09-27T22:24:01Z",
+        "created_by": "pywel_g04_official_notice_review",
+        "source_receipt_id": "rcp_g04currentpatch2026092701"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "official",
+      "subject_entity_id": "ent_g0430a81ac6b0d1566a182b20c0",
+      "validity": {
+        "from_patch": "2.02.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "mac-app-store",
+          "mac-steam",
+          "pc-epic",
+          "pc-steam",
+          "playstation-5",
+          "xbox-series"
+        ],
+        "reviewed_through_patch": "2.02.00",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_g04f2e83c49cbd616000a47b99f",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_g04notice1300001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "The new-game crash with DLSS Frame Generation enabled was reported fixed."
+      },
+      "predicate": "patch.resolved_issue",
+      "provenance": {
+        "created_at": "2026-09-27T22:24:01Z",
+        "created_by": "pywel_g04_official_notice_review",
+        "source_receipt_id": "rcp_g04currentpatch2026092701"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "official",
+      "subject_entity_id": "ent_5d5ab45056dca48b945646a4",
+      "validity": {
+        "from_patch": "2.02.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "pc-epic",
+          "pc-steam"
+        ],
+        "reviewed_through_patch": "2.02.00",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_g04fb83f0772a5aec341af0a5e2",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_g04notice1300001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Loading certain saves could remove stored trade goods; this item-loss fault was reported fixed."
+      },
+      "predicate": "patch.resolved_issue",
+      "provenance": {
+        "created_at": "2026-09-27T22:24:01Z",
+        "created_by": "pywel_g04_official_notice_review",
+        "source_receipt_id": "rcp_g04currentpatch2026092701"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "none",
+      "status": "official",
+      "subject_entity_id": "ent_g04d4c58f1434a3966c15d714a9",
+      "validity": {
+        "from_patch": "2.02.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "mac-app-store",
+          "mac-steam",
+          "pc-epic",
+          "pc-steam",
+          "playstation-5",
+          "xbox-series"
+        ],
+        "reviewed_through_patch": "2.02.00",
+        "through_patch": null
+      }
+    }
+  ],
+  "schema_version": "pywel.claim_catalog.v1"
+}
