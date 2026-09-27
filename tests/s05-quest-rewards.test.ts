@@ -6,6 +6,7 @@ import { describe, expect, it } from "vitest";
 import { createApp } from "../src/api/app.js";
 import { sha256, stableRecordHash } from "../src/core/canonical-json.js";
 import { KnowledgeIndex } from "../src/core/query.js";
+import { latestPatch } from "../src/core/version.js";
 import type { CanonicalRecord, EvidencePacket } from "../src/core/types.js";
 import { validStore } from "./helpers.js";
 import { CURRENT_CORPUS } from "./support/current-coverage.js";
@@ -20,8 +21,12 @@ const idOf = (r: CanonicalRecord): string => {
   throw new Error("Missing record identity");
 };
 const hashRecords = (rows: CanonicalRecord[]) => stableRecordHash([...rows].sort((a, b) => idOf(a).localeCompare(idOf(b))));
-// New contribution time changes corpus metadata, not the source assertions.
-const answerContent = (p: EvidencePacket) => ({ ...p, freshness: { ...p.freshness, generated_from_corpus_at: null } });
+// Verify each build's index label separately; compare the unchanged historical
+// answer without corpus-level timestamps or a later index's version label.
+const answerContent = (p: EvidencePacket, latestKnownPatch: string | null) => {
+  expect(p.freshness.latest_known_patch).toBe(latestKnownPatch);
+  return { ...p, freshness: { ...p.freshness, generated_from_corpus_at: null, latest_known_patch: null } };
+};
 type Mapping = {
   source_claim_id: string; quest_entity_id: string; disposition: string;
   target_entity_id: string | null; new_claim_id: string | null;
@@ -145,7 +150,10 @@ describe("S05 retained quest reward identities", () => {
   });
 
   it("retains spoiler gaps, unknown patches, non-item rewards, S02 withholding and G03 ingredient selection", async () => {
-    const { root, ledger, index, before } = await setup();
+    const { root, store, ledger, prior, index, before } = await setup();
+    const currentLatest = latestPatch(store.patches.map(p => p.version));
+    const priorLatest = latestPatch(prior.patches.map(p => p.version));
+    expect(priorLatest).toBe("2.01.00");
     for (const id of ledger.quest_subject_ids) {
       const q = `What rewards do I get from ${index.getEntity(id)!.canonical_name.text}?`;
       const hidden = index.answer(q, { ...context, spoilerCeiling: "none" });
@@ -154,13 +162,13 @@ describe("S05 retained quest reward identities", () => {
       expect(JSON.stringify(hidden)).not.toContain("clm_s05");
       expect(index.answer(q, { ...context, patch: "9.99.00" }).answer_state).toBe("unknown");
     }
-    for (const q of ["What rewards do I get from The Count's Honor?", "What rewards do I get from Sealed in Stone?", "What rewards do I get from Zorblax Quest?", "Where can I get Palmar Pill?", "Where can I get Honey Tea?"]) expect(answerContent(index.answer(q, context))).toEqual(answerContent(before.answer(q, context)));
+    for (const q of ["What rewards do I get from The Count's Honor?", "What rewards do I get from Sealed in Stone?", "What rewards do I get from Zorblax Quest?", "Where can I get Palmar Pill?", "Where can I get Honey Tea?"]) expect(answerContent(index.answer(q, context), currentLatest)).toEqual(answerContent(before.answer(q, context), priorLatest));
     const s02 = JSON.parse(await readFile(resolve(root, "quality/s02-acquisition-review.json"), "utf8")) as { affected_existing_entity_ids: string[] };
     for (const id of s02.affected_existing_entity_ids) expect(index.answer(`Where can I get ${index.getEntity(id)!.canonical_name.text}?`, { ...context, spoilerCeiling: "ending" }).claims).toEqual([]);
     const s03 = JSON.parse(await readFile(resolve(root, "quality/s03-recipe-input-review.json"), "utf8")) as { recipe_subject_ids: string[] };
     for (const id of s03.recipe_subject_ids) {
       const q = `What ingredients are needed for ${index.getEntity(id)!.canonical_name.text}?`;
-      expect(answerContent(index.answer(q, context))).toEqual(answerContent(before.answer(q, context)));
+      expect(answerContent(index.answer(q, context), currentLatest)).toEqual(answerContent(before.answer(q, context), priorLatest));
     }
   });
 

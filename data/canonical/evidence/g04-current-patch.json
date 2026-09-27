@@ -1,0 +1,114 @@
+{
+  "catalog_id": "cat_g04evidence2026092701",
+  "records": [
+    {
+      "captured_at": "2026-09-27T22:24:01Z",
+      "evidence_id": "evd_g04notice1300001",
+      "evidence_type": "official_patch",
+      "provenance": {
+        "created_at": "2026-09-27T22:24:01Z",
+        "created_by": "pywel_g04_official_notice_review",
+        "source_receipt_id": "rcp_g04currentpatch2026092701"
+      },
+      "reliability": {
+        "independence_group": "pearl-abyss-official-updates",
+        "tier": "primary_official"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "locator": "Heading and Update rollout table; selected New Additions, Content and Graphics / Settings. Individually inspected public notice; no copied source body or page-capture hash.",
+        "published_at": "2026-09-11T05:30:00Z",
+        "publisher": "Pearl Abyss",
+        "title": "Patch Notes Version 2.02.00",
+        "url": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=130"
+      }
+    },
+    {
+      "captured_at": "2026-09-27T22:24:01Z",
+      "evidence_id": "evd_g04notice1310001",
+      "evidence_type": "official_patch",
+      "provenance": {
+        "created_at": "2026-09-27T22:24:01Z",
+        "created_by": "pywel_g04_official_notice_review",
+        "source_receipt_id": "rcp_g04currentpatch2026092701"
+      },
+      "reliability": {
+        "independence_group": "pearl-abyss-official-updates",
+        "tier": "primary_official"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "locator": "Heading and Update rollout table; selected Content, Controls, Combat / Action and Graphics / Settings. Individually inspected public notice; no copied source body or page-capture hash.",
+        "published_at": "2026-09-18T01:00:00Z",
+        "publisher": "Pearl Abyss",
+        "title": "Patch Notes Version 2.03.00",
+        "url": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=131"
+      }
+    },
+    {
+      "captured_at": "2026-09-27T22:24:01Z",
+      "evidence_id": "evd_g04notice1320001",
+      "evidence_type": "official_patch",
+      "provenance": {
+        "created_at": "2026-09-27T22:24:01Z",
+        "created_by": "pywel_g04_official_notice_review",
+        "source_receipt_id": "rcp_g04currentpatch2026092701"
+      },
+      "reliability": {
+        "independence_group": "pearl-abyss-official-updates",
+        "tier": "primary_official"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "locator": "Heading and Update rollout table; selected Patch Details. Individually inspected public notice; no copied source body or page-capture hash.",
+        "published_at": "2026-09-21T14:00:00Z",
+        "publisher": "Pearl Abyss",
+        "title": "Patch Notes Version 2.03.01 (All Platforms Hotfix)",
+        "url": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=132"
+      }
+    },
+    {
+      "captured_at": "2026-09-27T22:24:01Z",
+      "evidence_id": "evd_g04notice1330001",
+      "evidence_type": "official_patch",
+      "provenance": {
+        "created_at": "2026-09-27T22:24:01Z",
+        "created_by": "pywel_g04_official_notice_review",
+        "source_receipt_id": "rcp_g04currentpatch2026092701"
+      },
+      "reliability": {
+        "independence_group": "pearl-abyss-official-updates",
+        "tier": "primary_official"
+      },
+      "rights": {
+        "attribution_required": true,
+        "license_status": "publisher_owned",
+        "retention_mode": "normalized_facts"
+      },
+      "schema_version": "pywel.evidence.v1",
+      "source": {
+        "locator": "Heading and Update rollout table; selected Patch Details. Individually inspected public notice; no copied source body or page-capture hash.",
+        "published_at": "2026-09-23T04:45:00Z",
+        "publisher": "Pearl Abyss",
+        "title": "Patch Notes Version 2.03.02 (All Platforms Hotfix)",
+        "url": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=133"
+      }
+    }
+  ],
+  "schema_version": "pywel.evidence_catalog.v1"
+}

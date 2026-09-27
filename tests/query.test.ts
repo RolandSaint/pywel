@@ -46,7 +46,7 @@ describe("knowledge retrieval", () => {
     const { store } = await validStore();
     const packet = new KnowledgeIndex(store).answer("Can I remap controller inputs?");
     expect(packet.answer_state).toBe("partial");
-    expect(packet.assumptions.patch).toBe("2.01.00");
+    expect(packet.assumptions.patch).toBe("2.03.02");
     expect(packet.claims[0]?.predicate).toBe("controls.remapping_available");
     expect(packet.evidence[0]?.evidence_id).toBe("evd_01jzcdpatch109official001");
     expect(packet.warnings.join(" ")).toContain("publisher-stated intent");
