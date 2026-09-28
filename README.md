@@ -12,7 +12,7 @@ An HTTP-capable or GitHub-connected agent can start at [AGENT_START.md](https://
 
 ## Pywel 1.0.0
 
-**Pywel software 1.0.0 begins with the verified clean source snapshot accepted at [M5](docs/M5_COMPLETION.md), with reviewed publication-only documentation and CI changes.** M0–M5 are complete for their recorded scope. See [the scope](docs/RELEASE_SCOPE.md), [milestones](docs/ROADMAP_TO_1_0.md), [M1 evidence](docs/M1_COMPLETION.md), [M2 evidence](docs/M2_COMPLETION.md), and [M3 evidence](docs/M3_COMPLETION.md).
+**Pywel software 1.0.0 begins with the verified clean source snapshot accepted at [M5](docs/M5_COMPLETION.md), with reviewed publication-only documentation and CI changes.** M0–M5 are complete for their recorded scope. See [the scope](docs/RELEASE_SCOPE.md), [milestones](docs/ROADMAP_TO_1_0.md), [M1 evidence](docs/M1_COMPLETION.md), [M2 evidence](docs/M2_COMPLETION.md), [M3 evidence](docs/M3_COMPLETION.md), and [M4 evidence](docs/M4_COMPLETION.md).
 
 The original source manifest `quality/public-release-scope.json` retains **310 entities, 1,396 claims, 77 evidence records, 27 patch identities, one strategy, and one safe receipt**. Patch coverage ends at historical indexed version **1.14.00**. This is not current-live-game coverage, and the original release requires no additional content wave.
 
