@@ -12,7 +12,7 @@ An HTTP-capable or GitHub-connected agent can start at [AGENT_START.md](https://
 
 ## Pywel 1.0.0
 
-**Pywel software 1.0.0 begins with the verified clean source snapshot accepted at [M5](docs/M5_COMPLETION.md), with reviewed publication-only documentation and CI changes.** M0–M5 are complete for their recorded scope. See [the scope](docs/RELEASE_SCOPE.md), [milestones](docs/ROADMAP_TO_1_0.md), [M1 evidence](docs/M1_COMPLETION.md), [M2 evidence](docs/M2_COMPLETION.md), [M3 evidence](docs/M3_COMPLETION.md), and [M4 evidence](docs/M4_COMPLETION.md).
+**Pywel software 1.0.0 begins with the verified clean source snapshot accepted at [M5](docs/M5_COMPLETION.md), with reviewed publication-only documentation and CI changes.** M0–M5 are complete for their recorded scope. See [the scope](docs/RELEASE_SCOPE.md), [milestones](docs/ROADMAP_TO_1_0.md), [M1 evidence](docs/M1_COMPLETION.md), [M2 evidence](docs/M2_COMPLETION.md), and [M3 evidence](docs/M3_COMPLETION.md).
 
 The original source manifest `quality/public-release-scope.json` retains **310 entities, 1,396 claims, 77 evidence records, 27 patch identities, one strategy, and one safe receipt**. Patch coverage ends at historical indexed version **1.14.00**. This is not current-live-game coverage, and the original release requires no additional content wave.
 
@@ -135,10 +135,16 @@ This is structured expansion of existing historical knowledge, not new source co
 
 Palmar Pill and Honey Tea link to items, not same-named recipes. Text and typed records describe the same reward; do not sum them or count them as independent evidence. Of 65 audited reward assertions, 53 remain without a new typed link because an exact eligible item or unconditional item meaning is not established. Two existing prerequisite links are preserved; the two remaining prerequisite statements do not gain invented dependencies. Historical uncertainty, source dates, spoiler limits and S02 withholding remain. [Issue #21](https://github.com/RolandSaint/pywel/issues/21) and its linked PR record actual review, integration and verification. No new collection, outreach, release or deployment accompanies this source batch.
 
-## G04 official patch catch-up: current source
+## G04 official patch catch-up
 
-[G04](docs/G04_CURRENT_PATCH.md) indexes **2.02.00, 2.03.00, 2.03.01 and 2.03.02**, with **2.03.02** the newest official patch listed at the September 27, 2026 research cutoff. It adds **16 selected publisher-intent claims, six necessary named subjects, four evidence records and one receipt**. This source contains **592 entities, 2,696 stored claims, 310 evidence records, 48 patch identities, one strategy and eleven receipts**.
+[G04](docs/G04_CURRENT_PATCH.md) indexes **2.02.00, 2.03.00, 2.03.01 and 2.03.02**, with **2.03.02** the newest official patch listed at the September 27, 2026 research cutoff. It adds **16 selected publisher-intent claims, six necessary named subjects, four evidence records and one receipt**. The integrated G04 snapshot contained **592 entities, 2,696 stored claims, 310 evidence records, 48 patch identities, one strategy and eleven receipts**.
 
 The selected changes cover housing/storage, Mac cross-save, camera/movement, controls/stability and quest/map/Abyss fixes. All four new patches have partial content coverage. The 76 earlier canonical files and their claim-review bounds are unchanged: indexing the current patch does not certify every older gameplay fact. The latest-indexed default is global, not an installed-version detector; **Mac App Store remains pending in the three 2.03 notices**, while the inspected 2.02 notice lists it available. Source publication times are not universal rollout times.
 
 S06 is paused and preserved in PR #22; its unmerged records are not included. S02 remains withheld. [Issue/PR #23](https://github.com/RolandSaint/pywel/issues/23) records actual integration and verification; this source description alone does not establish passed checks or a completed merge. Existing source rules, runtime, schemas, dependencies and both published releases remain unchanged. No new release, deployment or outside contact is included.
+
+## G05 named patch items: current source
+
+[G05](docs/G05_PATCH_ITEMS.md) adds **three named item references and four claim facets for three patch events**, reusing two existing official evidence records. Vaporwalker now has item-side effect and patch-history answers for its Water Stride sliding behavior; Crow Cloth Blindfold records the settings-dependent appearance fix; the Lumberjacks' Witness Report poster records continued spawning while unread. These are publisher-intent statements, not independent gameplay verification, new item stats or acquisition routes.
+
+This source contains **595 entities, 2,700 stored claims, 310 evidence records, 48 patch identities, one strategy and twelve receipts**. All 81 prior canonical files remain unchanged. Broad lantern, pouch, armor, barding and unnamed-object statements are not assigned to arbitrary gear. The poster reference does not assert inventory collectability. Review bounds stop at each directly supporting patch, and Mac App Store exclusions remain. S06 stays paused and S02 stays withheld. [PR #24](https://github.com/RolandSaint/pywel/pull/24) records the actual review, required checks, integration and resulting-main verification; this description is not itself proof of completion.
