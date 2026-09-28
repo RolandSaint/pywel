@@ -41,6 +41,7 @@ read_first:
   - docs/S04_RECIPE_OUTPUTS.md
   - docs/S05_QUEST_REWARDS.md
   - docs/G04_CURRENT_PATCH.md
+  - docs/G05_PATCH_ITEMS.md
 run_first:
   - npm ci --ignore-scripts --no-audit --no-fund
   - npm run check

@@ -46,8 +46,10 @@ describe("G04 selected official changes, not blanket gameplay freshness", () => 
       expect(hashRecords(prior),family).toBe(ledger.prior_record_hashes[family]);
     }
     expect(hashRecords(store.receipts.filter(r => old.has(r.receipt_id)))).toBe(ledger.prior_record_hashes.receipts);
-    expect([store.entities.length,store.claims.length,store.evidence.length,store.patches.length,store.receipts.length]).toEqual([592,2696,310,48,11]);
-    expect([CURRENT_CORPUS.entity_records,CURRENT_CORPUS.claims,CURRENT_CORPUS.evidence,CURRENT_CORPUS.patches,CURRENT_CORPUS.receipts]).toEqual([592,2696,310,48,11]);
+    // Keep the recorded G04 cohort fixed while later reviewed additions extend main.
+    const atG04 = (r: { provenance: { source_receipt_id?: string } }) => old.has(r.provenance.source_receipt_id ?? "") || isG04(r);
+    expect([store.entities.filter(atG04).length,store.claims.filter(atG04).length,store.evidence.filter(atG04).length,store.patches.filter(atG04).length,store.receipts.filter(r => old.has(r.receipt_id) || r.receipt_id === receiptId).length]).toEqual([592,2696,310,48,11]);
+    expect([store.entities.length,store.claims.length,store.evidence.length,store.patches.length,store.receipts.length]).toEqual([CURRENT_CORPUS.entity_records,CURRENT_CORPUS.claims,CURRENT_CORPUS.evidence,CURRENT_CORPUS.patches,CURRENT_CORPUS.receipts]);
     const added = [...store.entities.filter(isG04),...store.claims.filter(isG04),...store.evidence.filter(isG04),...store.patches.filter(isG04)];
     expect(added).toHaveLength(30);
     const receipt = store.receipts.find(r => r.receipt_id === receiptId)!;

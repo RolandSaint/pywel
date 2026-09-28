@@ -42,6 +42,18 @@
       "sha256": "3bdb518a3fa3a138edef31e5e1306f644cd9605ce4953d5c18235cab0db898a8"
     },
     {
+      "path": "data/canonical/entities/g05-patch-items.json",
+      "sha256": "702b3168eed904260159eef6b27820b5dffcb5b4efb433e1a0f0770bc1213552"
+    },
+    {
+      "path": "data/canonical/claims/g05-patch-items.json",
+      "sha256": "3c48374b6cf0dce558132c886c98de94e634769126cba2a97a477562d1667101"
+    },
+    {
+      "path": "data/canonical/receipts/g05-patch-items.json",
+      "sha256": "0572283d888152cd3a37d1866c3b11ecd931fdfb659c9c39c5300df99f18814b"
+    },
+    {
       "path": "data/canonical/claims/r01-equipment-database.json",
       "sha256": "7c778a34f069096844fde3f5179cd055eeb1591d6cf9fcc54b2cd6e3b7cc1879"
     },
@@ -176,6 +188,10 @@
       "clm_s05f6df2b3b6ff0a956c17a8f1f",
       "clm_4895dac9d99f17dc7737aae8",
       "clm_4b07160062124fd0a550d66d",
+      "clm_g05blindfoldvisual0001",
+      "clm_g05reportrespawn0001",
+      "clm_g05vaporwalkerchange0001",
+      "clm_g05vaporwalkereffect0001",
       "clm_5331d0c7c8d821bd1c38dbfd",
       "clm_61908f7c6ef0b5081a7d0b86",
       "clm_6587be1e5f5281209b71e32f",
@@ -1456,6 +1472,9 @@
       "ent_089ced07950ace8407a29247",
       "ent_2beedf6ea02e8ba696464bb3",
       "ent_6ca283919bf4d6fa26a0da9f",
+      "ent_g05crowblindfold0001",
+      "ent_g05lumberjackreport0001",
+      "ent_g05vaporwalker0001",
       "ent_6dd97bc94c6fe241d0bb1a0e",
       "ent_7ea2ae660f60d58012dcb3a7",
       "ent_87a65ae57efbb95fe75d068c",
@@ -1994,6 +2013,7 @@
       "rcp_g04currentpatch2026092701",
       "rcp_g02patchcatchup2026091001",
       "rcp_m7houseroberts2026091001",
+      "rcp_g05patchitems2026092701",
       "rcp_m8aprogression2026091001",
       "rcp_s05questrewards2026091201",
       "rcp_m8bequipment2026091001",

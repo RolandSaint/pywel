@@ -28,7 +28,8 @@
     "S03_RECIPE_INPUTS.md",
     "S04_RECIPE_OUTPUTS.md",
     "S05_QUEST_REWARDS.md",
-    "G04_CURRENT_PATCH.md"
+    "G04_CURRENT_PATCH.md",
+    "G05_PATCH_ITEMS.md"
   ],
   "public_schemas": [
     "agent-contract.schema.json",

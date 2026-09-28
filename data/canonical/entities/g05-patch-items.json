@@ -1,0 +1,72 @@
+{
+  "catalog_id": "cat_g05entities2026092701",
+  "records": [
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Crow Cloth Blindfold"
+      },
+      "entity_id": "ent_g05crowblindfold0001",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-27T23:52:00Z",
+        "created_by": "pywel_g05_item_patch_review",
+        "source_receipt_id": "rcp_g05patchitems2026092701"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.crow-cloth-blindfold",
+      "subtype": "item",
+      "summary": "Named wearable reference from an official patch notice. Narrow equipment class, statistics and acquisition are not established here.",
+      "tags": [
+        "official-reference"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Lumberjacks' Witness Report"
+      },
+      "entity_id": "ent_g05lumberjackreport0001",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-27T23:52:00Z",
+        "created_by": "pywel_g05_item_patch_review",
+        "source_receipt_id": "rcp_g05patchitems2026092701"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.lumberjacks-witness-report",
+      "subtype": "item",
+      "summary": "Named poster reference from an official patch notice. This identity does not establish inventory collectability or a pickup location.",
+      "tags": [
+        "official-reference"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": {
+        "locale": "en-US",
+        "text": "Vaporwalker"
+      },
+      "entity_id": "ent_g05vaporwalker0001",
+      "entity_type": "item",
+      "game_id": "crimson_desert",
+      "provenance": {
+        "created_at": "2026-09-27T23:52:00Z",
+        "created_by": "pywel_g05_item_patch_review",
+        "source_receipt_id": "rcp_g05patchitems2026092701"
+      },
+      "schema_version": "pywel.entity.v1",
+      "slug": "item.vaporwalker",
+      "subtype": "item",
+      "summary": "Named equippable reference from an official patch notice. Narrow equipment class, statistics and acquisition are not established here.",
+      "tags": [
+        "official-reference"
+      ]
+    }
+  ],
+  "schema_version": "pywel.entity_catalog.v1"
+}
