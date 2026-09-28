@@ -1,0 +1,19 @@
+{
+  "created_at": "2026-09-27T23:52:00Z",
+  "payload_hash_scope": "related_records_canonical_json",
+  "payload_sha256": "32b190a44c9543c71e24295f68654b09b8bf65c1f6046e05507b403d958e725b",
+  "receipt_id": "rcp_g05patchitems2026092701",
+  "receipt_type": "contribution",
+  "related_record_ids": [
+    "clm_g05blindfoldvisual0001",
+    "clm_g05reportrespawn0001",
+    "clm_g05vaporwalkerchange0001",
+    "clm_g05vaporwalkereffect0001",
+    "ent_g05crowblindfold0001",
+    "ent_g05lumberjackreport0001",
+    "ent_g05vaporwalker0001"
+  ],
+  "safe_summary": "G05 item-focused source admission: three exact named item references, four claim facets for three change events, using two existing official-publication records. Vaporwalker facets and the existing Water Stride claim share one event, not independent corroboration. No old data, source capture date, item stat or review bound is changed. Integration and main-check evidence must be recorded separately in PR24.",
+  "schema_version": "pywel.receipt.v1",
+  "state": "accepted"
+}

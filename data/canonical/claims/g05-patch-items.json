@@ -1,0 +1,155 @@
+{
+  "catalog_id": "cat_g05claims2026092701",
+  "records": [
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_g05blindfoldvisual0001",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_g04notice1300001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "A visual issue affecting Kliff while wearing Crow Cloth Blindfold under some unspecified settings was reported fixed."
+      },
+      "predicate": "patch.resolved_issue",
+      "provenance": {
+        "created_at": "2026-09-27T23:52:00Z",
+        "created_by": "pywel_g05_item_patch_review",
+        "source_receipt_id": "rcp_g05patchitems2026092701"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "official",
+      "subject_entity_id": "ent_g05crowblindfold0001",
+      "validity": {
+        "from_patch": "2.02.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "mac-app-store",
+          "mac-steam",
+          "pc-epic",
+          "pc-steam",
+          "playstation-5",
+          "xbox-series"
+        ],
+        "reviewed_through_patch": "2.02.00",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_g05reportrespawn0001",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_g04notice1310001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Continued spawning is now provided while the Lumberjacks' Witness Report poster remains unread."
+      },
+      "predicate": "patch.changed_availability",
+      "provenance": {
+        "created_at": "2026-09-27T23:52:00Z",
+        "created_by": "pywel_g05_item_patch_review",
+        "source_receipt_id": "rcp_g05patchitems2026092701"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "official",
+      "subject_entity_id": "ent_g05lumberjackreport0001",
+      "validity": {
+        "from_patch": "2.03.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "mac-steam",
+          "pc-epic",
+          "pc-steam",
+          "playstation-5",
+          "xbox-series"
+        ],
+        "reviewed_through_patch": "2.03.00",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_g05vaporwalkerchange0001",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_g04notice1310001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Water Stride was extended to support sliding with Vaporwalker equipped."
+      },
+      "predicate": "patch.changed_behavior",
+      "provenance": {
+        "created_at": "2026-09-27T23:52:00Z",
+        "created_by": "pywel_g05_item_patch_review",
+        "source_receipt_id": "rcp_g05patchitems2026092701"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "official",
+      "subject_entity_id": "ent_g05vaporwalker0001",
+      "validity": {
+        "from_patch": "2.03.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "mac-steam",
+          "pc-epic",
+          "pc-steam",
+          "playstation-5",
+          "xbox-series"
+        ],
+        "reviewed_through_patch": "2.03.00",
+        "through_patch": null
+      }
+    },
+    {
+      "behavior_kind": "intended",
+      "claim_id": "clm_g05vaporwalkereffect0001",
+      "confidence": 0.98,
+      "evidence_ids": [
+        "evd_g04notice1310001"
+      ],
+      "object": {
+        "kind": "string",
+        "value": "Equipping Vaporwalker enables sliding during Water Stride, as announced in 2.03.00."
+      },
+      "predicate": "item.effect_summary",
+      "provenance": {
+        "created_at": "2026-09-27T23:52:00Z",
+        "created_by": "pywel_g05_item_patch_review",
+        "source_receipt_id": "rcp_g05patchitems2026092701"
+      },
+      "schema_version": "pywel.claim.v1",
+      "spoiler_level": "discovery",
+      "status": "official",
+      "subject_entity_id": "ent_g05vaporwalker0001",
+      "validity": {
+        "from_patch": "2.03.00",
+        "locales": [
+          "en-US"
+        ],
+        "platforms": [
+          "mac-steam",
+          "pc-epic",
+          "pc-steam",
+          "playstation-5",
+          "xbox-series"
+        ],
+        "reviewed_through_patch": "2.03.00",
+        "through_patch": null
+      }
+    }
+  ],
+  "schema_version": "pywel.claim_catalog.v1"
+}

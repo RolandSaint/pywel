@@ -1,0 +1,173 @@
+{
+  "base_commit": "6195e52daca31514fa8864d0c9f61207ad2b0cf3",
+  "candidate_counts": {
+    "claims": 2700,
+    "entities": 595,
+    "evidence": 310,
+    "patches": 48,
+    "receipts": 12,
+    "strategies": 1
+  },
+  "canonical_files": [
+    {
+      "path": "data/canonical/entities/g05-patch-items.json",
+      "sha256": "702b3168eed904260159eef6b27820b5dffcb5b4efb433e1a0f0770bc1213552"
+    },
+    {
+      "path": "data/canonical/claims/g05-patch-items.json",
+      "sha256": "3c48374b6cf0dce558132c886c98de94e634769126cba2a97a477562d1667101"
+    },
+    {
+      "path": "data/canonical/receipts/g05-patch-items.json",
+      "sha256": "0572283d888152cd3a37d1866c3b11ecd931fdfb659c9c39c5300df99f18814b"
+    }
+  ],
+  "event_count": 3,
+  "held_or_already_represented": [
+    {
+      "board": 130,
+      "disposition": "held_generic",
+      "reason": "No uniquely identified lantern variant; do not attach to an arbitrary lantern item.",
+      "source_locator": "Content: lantern revealing NPC belongings"
+    },
+    {
+      "board": 130,
+      "disposition": "already_system_scoped",
+      "reason": "G04 Housing claim retained; inventory condition does not identify a changed item.",
+      "source_locator": "Content: full-inventory housing unlock"
+    },
+    {
+      "board": 130,
+      "disposition": "already_system_scoped",
+      "reason": "G04 storage claim retained; no affected item names given.",
+      "source_locator": "Content: Trade Goods Storage disappearance"
+    },
+    {
+      "board": 130,
+      "disposition": "already_quest_scoped",
+      "reason": "G04 quest fix retained; the letter has no exact item label.",
+      "source_locator": "Content: The Words of Alustin letter"
+    },
+    {
+      "board": 130,
+      "disposition": "held_generic",
+      "reason": "No armor models are named.",
+      "source_locator": "Others: indoor armor visual noise"
+    },
+    {
+      "board": 131,
+      "disposition": "held_generic",
+      "reason": "Threshold is at least 1,000 silver, not an established pouch denomination, stack limit or unique item name.",
+      "source_locator": "Content: silver pouches when starting from existing save"
+    },
+    {
+      "board": 131,
+      "disposition": "already_mount_scoped",
+      "reason": "G04 mount fix retained; affected consumables are unnamed.",
+      "source_locator": "Controls: mounted use of certain items"
+    },
+    {
+      "board": 131,
+      "disposition": "already_actor_scoped",
+      "reason": "Existing G04 vehicle/actor representation retained; not a new item.",
+      "source_locator": "Combat / Action: A.T.A.G. dismount"
+    },
+    {
+      "board": 131,
+      "disposition": "held_generic",
+      "reason": "Repeated broad armor statement does not identify gear or independently corroborate it.",
+      "source_locator": "Others: indoor armor visual noise"
+    },
+    {
+      "board": 131,
+      "disposition": "held_generic",
+      "reason": "No specific barding names are supplied.",
+      "source_locator": "Others: certain bardings"
+    },
+    {
+      "board": 132,
+      "disposition": "already_controls_scoped",
+      "reason": "G04 controls claim retained; no uniquely identified lantern variant.",
+      "source_locator": "Patch Details: rebound lantern aiming"
+    },
+    {
+      "board": 133,
+      "disposition": "already_location_scoped",
+      "reason": "G04 Ether Rest fix retained; no globally unique inventory item is established.",
+      "source_locator": "Patch Details: Ether Rest power core"
+    }
+  ],
+  "limits": [
+    "No prior item identity matches the three exact names or their existing aliases. Generic item subtype is used, not guessed equipment or inventory classifications.",
+    "Vaporwalker effect and history facets represent the same source event as the retained Water Stride ability statement; do not sum them or count independent corroboration.",
+    "No old statistics, acquisition, quantity or claim-review dates are changed. No blanket current-patch verification follows from later silence.",
+    "2.03.00 item changes exclude pending Mac App Store. Review bounds stop at each directly supporting notice.",
+    "S02 remains withheld; S06 remains paused; no release, deployment, outreach or new collection pipeline."
+  ],
+  "mapping": [
+    {
+      "claim_id": "clm_g05blindfoldvisual0001",
+      "entity_id": "ent_g05crowblindfold0001",
+      "event": "crow-blindfold-visual",
+      "evidence_id": "evd_g04notice1300001",
+      "patch": "2.02.00",
+      "predicate": "patch.resolved_issue",
+      "source_locator": "Others: named Crow Cloth Blindfold appearance fix"
+    },
+    {
+      "claim_id": "clm_g05reportrespawn0001",
+      "entity_id": "ent_g05lumberjackreport0001",
+      "event": "report-unread-respawn",
+      "evidence_id": "evd_g04notice1310001",
+      "patch": "2.03.00",
+      "predicate": "patch.changed_availability",
+      "source_locator": "Content: unread Lumberjacks' Witness Report poster"
+    },
+    {
+      "claim_id": "clm_g05vaporwalkerchange0001",
+      "entity_id": "ent_g05vaporwalker0001",
+      "event": "vaporwalker-water-stride",
+      "evidence_id": "evd_g04notice1310001",
+      "patch": "2.03.00",
+      "predicate": "patch.changed_behavior",
+      "source_locator": "Combat / Action: Water Stride sliding with Vaporwalker"
+    },
+    {
+      "claim_id": "clm_g05vaporwalkereffect0001",
+      "entity_id": "ent_g05vaporwalker0001",
+      "event": "vaporwalker-water-stride",
+      "evidence_id": "evd_g04notice1310001",
+      "patch": "2.03.00",
+      "predicate": "item.effect_summary",
+      "source_locator": "Combat / Action: Water Stride sliding with Vaporwalker"
+    }
+  ],
+  "milestone": "G05",
+  "prior_canonical_file_count": 81,
+  "prior_counts": {
+    "claims": 2696,
+    "entities": 592,
+    "evidence": 310,
+    "patches": 48,
+    "receipts": 11,
+    "strategies": 1
+  },
+  "prior_data_tree": "065e1aeae0a3abb17f6c109a0c257dc94ce11372",
+  "prior_entity_tree": "f5e40d79b6a3ec2ec2840b5780189df6f0460580",
+  "prior_related_vaporwalker_claim": "clm_g046e24575629f8da1d9616354b",
+  "receipt_payload_sha256": "32b190a44c9543c71e24295f68654b09b8bf65c1f6046e05507b403d958e725b",
+  "source_review": {
+    "human_manual_collection": false,
+    "method": "interactive_agent_web_read",
+    "reviewed_at": "2026-09-27T23:52:00Z",
+    "rights_boundary": "Existing official-publication retention: minimum labels and original compact intended-behavior statements; no bodies, media, crawler or new rights grant.",
+    "source_reuse": "The retained evidence identifies the same official publications, not immutable page-body captures. G05 freshly inspected Others for the blindfold and maps that subsection here; the old notice130 locator describes the earlier G04 selection and is not falsely described as having included this subsection. Original capture dates and evidence bytes stay unchanged; no new evidence or independent source is claimed.",
+    "versions": [
+      "2.02.00",
+      "2.03.00",
+      "2.03.01",
+      "2.03.02"
+    ]
+  },
+  "status": "prepared_source_admission_not_integration"
+}
