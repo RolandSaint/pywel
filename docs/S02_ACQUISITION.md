@@ -35,3 +35,7 @@ The containment tests require exact prior canonical file/record hashes, the full
 Containment can be integrated after its own actual diff/feedback review and required checks, followed by checks on the resulting main commit. **That does not resolve the original permission finding or complete S02.** The P1 thread remains unresolved until permitted intake is established and the restored records pass their own review and verification.
 
 Existing public history and Actions artifacts are not erased by withdrawing current source files or deleting temporary branch refs. No published release bytes are replaced. Any separate rights-driven history/artifact remediation must be scoped explicitly. This correction does not newly certify earlier corpus acquisition methods or provide legal clearance for any source.
+
+## Later official-publication policy: no S02 restoration
+
+The later owner-adopted official-publication research rule, introduced in policy commit [`ee15c0ded4a4bfb8e6ae37ccaaac629d5b0af1cc`](https://github.com/RolandSaint/pywel/commit/ee15c0ded4a4bfb8e6ae37ccaaac629d5b0af1cc) and effective only after reviewed integration and resulting-main verification, applies only to its defined document-research category. It does not reclassify S02's automated third-party database collection, supply a rights-holder grant, establish independent replacement sourcing, or restore any S02 admission. S02 remains withheld pending its own documented compliant intake and review. Historical acquisition methods and dates must not be rewritten.
